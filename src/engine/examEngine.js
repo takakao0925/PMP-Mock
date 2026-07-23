@@ -1,0 +1,217 @@
+import { DOMAINS, DOMAIN_WEIGHTS, getTimeRecommendation } from '../schema/questionSchema.js'
+
+// 固定考試規格 — 對應 8th 版新制格式 (docs 第 0 節)
+export const EXAM_SPEC = {
+  totalQuestions: 185,
+  durationMinutes: 240,
+  domainWeights: DOMAIN_WEIGHTS,
+  // 每個作答到第 N 題後,強制進入一次休息(對應真實 PMP 考試的兩次選擇性休息)
+  breakAfterQuestions: [62, 124],
+}
+
+function shuffle(arr) {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
+/**
+ * 題庫題數有限,同一題會被反覆抽到。若選項順序每次都一樣,容易變成靠選項排在第幾個
+ * 背答案,而不是真的懂內容。這裡對每次抽到的題目「複製一份」並重新打亂選項順序
+ * (id 對應不變,只是顯示順序不同),不會動到原始題庫資料,也不影響計分。
+ */
+function shuffleQuestionOptions(question) {
+  const q = { ...question }
+  switch (question.questionType) {
+    case 'single_choice':
+    case 'multiple_response':
+      q.options = shuffle(question.options)
+      break
+
+    case 'hotspot': {
+      // 熱區的「位置」才是要打亂的對象,而不是陣列順序本身 —— 把座標槽位重新分配給同一組選項,
+      // 這樣同一題再出現時,答案不會永遠出現在畫面上同一個角落。
+      const positions = question.options.map(({ x, y, width, height }) => ({ x, y, width, height }))
+      const shuffledPositions = shuffle(positions)
+      q.options = question.options.map((opt, i) => ({ ...opt, ...shuffledPositions[i] }))
+      break
+    }
+
+    case 'matching':
+      q.options = {
+        prompts: shuffle(question.options.prompts),
+        choices: shuffle(question.options.choices),
+      }
+      break
+
+    case 'dropdown':
+      q.blanks = question.blanks.map((b) => ({ ...b, options: shuffle(b.options) }))
+      break
+  }
+  return q
+}
+
+/**
+ * 依 domain 配分從題庫池抽題。骨架階段題庫量遠小於 185,
+ * 此函式會依比例盡量抽取,不足時就地取用該 domain 全部題目,不會重複出題。
+ */
+export function buildExam(pool, spec = EXAM_SPEC) {
+  const byDomain = Object.fromEntries(DOMAINS.map((d) => [d, shuffle(pool.filter((q) => q.domain === d))]))
+
+  const requestedTotal = Math.min(spec.totalQuestions, pool.length)
+  const selected = []
+
+  for (const domain of DOMAINS) {
+    const target = Math.round(requestedTotal * spec.domainWeights[domain])
+    const take = byDomain[domain].splice(0, Math.min(target, byDomain[domain].length))
+    selected.push(...take)
+  }
+
+  // 若因無條件捨入或某 domain 題數不足而未達 requestedTotal,從剩餘題目補足
+  const leftover = shuffle(DOMAINS.flatMap((d) => byDomain[d]))
+  while (selected.length < requestedTotal && leftover.length > 0) {
+    selected.push(leftover.shift())
+  }
+
+  const questions = shuffle(selected).map(shuffleQuestionOptions)
+
+  return {
+    questions,
+    meta: {
+      requestedTotal: spec.totalQuestions,
+      actualTotal: questions.length,
+      poolSize: pool.length,
+      isDemoPool: questions.length < spec.totalQuestions,
+    },
+  }
+}
+
+export function createExamSession(pool, spec = EXAM_SPEC) {
+  const { questions, meta } = buildExam(pool, spec)
+  return {
+    id: `exam-${Date.now()}`,
+    spec,
+    meta,
+    startedAt: new Date().toISOString(),
+    questionIds: questions.map((q) => q.id),
+    questions,
+    answers: {},
+    flags: {},
+    currentIndex: 0,
+    remainingSeconds: spec.durationMinutes * 60,
+    breaksTaken: [],
+    onBreak: false,
+    status: 'in_progress',
+    // 每題累計已檢視秒數(跨多次造訪累加)與已超出建議作答時間的題目清單
+    questionElapsedSeconds: {},
+    timedOutQuestionIds: [],
+  }
+}
+
+/** 每秒呼叫一次:累計目前題目的檢視秒數,並在超過建議時間時記入 timedOutQuestionIds */
+export function tickQuestionTiming(session) {
+  const currentQuestion = session.questions[session.currentIndex]
+  const prevElapsed = session.questionElapsedSeconds[currentQuestion.id] || 0
+  const elapsed = prevElapsed + 1
+  const { max } = getTimeRecommendation(currentQuestion.timeCategory)
+
+  const questionElapsedSeconds = { ...session.questionElapsedSeconds, [currentQuestion.id]: elapsed }
+  let timedOutQuestionIds = session.timedOutQuestionIds
+  if (elapsed > max && !timedOutQuestionIds.includes(currentQuestion.id)) {
+    timedOutQuestionIds = [...timedOutQuestionIds, currentQuestion.id]
+  }
+
+  return { questionElapsedSeconds, timedOutQuestionIds }
+}
+
+export function shouldBreakAfter(questionNumber, session) {
+  const { spec, breaksTaken } = session
+  return spec.breakAfterQuestions.includes(questionNumber) && !breaksTaken.includes(questionNumber)
+}
+
+/** 判斷單題作答是否正確,依 questionType 而異 */
+export function isAnswerCorrect(question, userAnswer) {
+  if (userAnswer === undefined || userAnswer === null) return false
+
+  switch (question.questionType) {
+    case 'single_choice':
+    case 'hotspot':
+      return userAnswer === question.correctAnswer
+
+    case 'multiple_response': {
+      const correct = question.correctAnswer
+      if (!Array.isArray(userAnswer) || userAnswer.length !== correct.length) return false
+      const a = [...userAnswer].sort()
+      const b = [...correct].sort()
+      return a.every((v, i) => v === b[i])
+    }
+
+    case 'matching': {
+      const correct = question.correctAnswer
+      const keys = Object.keys(correct)
+      return keys.every((k) => userAnswer[k] === correct[k])
+    }
+
+    case 'dropdown': {
+      const correct = question.correctAnswer
+      const keys = Object.keys(correct)
+      return keys.every((k) => userAnswer[k] === correct[k])
+    }
+
+    default:
+      return false
+  }
+}
+
+/** 交卷後統計:三大 domain 正確率 + 答對題目中 pmbok7/pmbok8 標籤分布 + 答錯/標記/超時題目複習清單 */
+export function scoreExam(session) {
+  const { questions, answers, flags, timedOutQuestionIds = [] } = session
+  const domainStats = Object.fromEntries(DOMAINS.map((d) => [d, { correct: 0, total: 0 }]))
+  const editionDistributionAmongCorrect = { pmbok7: 0, pmbok8: 0 }
+  const reviewItems = []
+  let correctCount = 0
+
+  for (const q of questions) {
+    const stat = domainStats[q.domain]
+    stat.total += 1
+
+    const userAnswer = answers[q.id]
+    const correct = isAnswerCorrect(q, userAnswer)
+    const flagged = !!flags[q.id]
+    const timedOut = timedOutQuestionIds.includes(q.id)
+
+    if (correct) {
+      stat.correct += 1
+      correctCount += 1
+      editionDistributionAmongCorrect[q.edition] += 1
+    }
+
+    // 交卷後複習清單保留答錯、有標記、或超出建議作答時間的題目,並完整保留當時的題目內容快照,
+    // 之後題庫內容更新也不影響既有歷史成績的複習紀錄。
+    if (!correct || flagged || timedOut) {
+      reviewItems.push({ ...q, userAnswer: userAnswer ?? null, isCorrect: correct, flagged, timedOut })
+    }
+  }
+
+  const domainAccuracy = Object.fromEntries(
+    DOMAINS.map((d) => {
+      const { correct, total } = domainStats[d]
+      return [d, { correct, total, accuracy: total > 0 ? correct / total : 0 }]
+    }),
+  )
+
+  return {
+    examId: session.id,
+    totalQuestions: questions.length,
+    correctCount,
+    scorePercent: questions.length > 0 ? Math.round((correctCount / questions.length) * 1000) / 10 : 0,
+    domainAccuracy,
+    editionDistributionAmongCorrect,
+    reviewItems,
+    durationTakenSeconds: session.spec.durationMinutes * 60 - session.remainingSeconds,
+    finishedAt: new Date().toISOString(),
+  }
+}
