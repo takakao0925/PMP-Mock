@@ -1,0 +1,7 @@
+node_modules
+dist
+.DS_Store
+*.local
+
+# 課程筆記/PDF 摘要,個人參考用,不隨 app 公開發布
+docs:/
