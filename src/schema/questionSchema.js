@@ -107,6 +107,7 @@ export function getTimeRecommendation(timeCategory) {
  * hotspot (點擊熱區, 以百分比座標定義可點擊區塊,不依賴外部圖片素材):
  * @property {{id: string, label: LocalizedText, x: number, y: number, width: number, height: number}[]} options
  * @property {string} correctAnswer                 - optionId
+ * @property {{from: string, to: string}[]} [edges] - 選填。節點間的方向性連線(如網路圖依賴關係),渲染為方框中心點之間帶箭頭的連線
  *
  * dropdown (下拉選單填空):
  * @property {{id: string, options: {id: string, text: LocalizedText}[]}[]} blanks
@@ -123,9 +124,10 @@ export function validateQuestion(q) {
   if (!q.id) errors.push('缺少 id')
   if (!EDITIONS.includes(q.edition)) errors.push(`edition 不合法: ${q.edition}`)
   if (!DOMAINS.includes(q.domain)) errors.push(`domain 不合法: ${q.domain}`)
-  const validPerfDomains = PERFORMANCE_DOMAINS_BY_EDITION[q.edition] || []
-  if (!validPerfDomains.includes(q.performanceDomain)) {
-    errors.push(`performanceDomain "${q.performanceDomain}" 不屬於 ${q.edition}`)
+  // performanceDomain 慣例:一律用現代(8th 版)領域名稱標記,不論 edition 為何(方便匯出時歸檔)。
+  // 只有極少數最早期手寫的 pmbok7 題目仍用舊制八大績效領域名稱,兩種都算合法。
+  if (!PERFORMANCE_DOMAINS_PMBOK8.includes(q.performanceDomain) && !PERFORMANCE_DOMAINS_PMBOK7.includes(q.performanceDomain)) {
+    errors.push(`performanceDomain "${q.performanceDomain}" 不屬於任何已知績效領域清單`)
   }
   if (!QUESTION_TYPES.includes(q.questionType)) errors.push(`questionType 不合法: ${q.questionType}`)
   if (!DIFFICULTIES.includes(q.difficulty)) errors.push(`difficulty 不合法: ${q.difficulty}`)

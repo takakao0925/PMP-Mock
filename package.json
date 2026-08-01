@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "export:quiz": "node scripts/export-quiz-md.mjs",
-    "import:quiz": "node scripts/import-quiz-md.mjs"
+    "import:quiz": "node scripts/import-quiz-md.mjs",
+    "import:flagged": "node scripts/import-issue-quiz.mjs"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",

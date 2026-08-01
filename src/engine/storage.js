@@ -2,6 +2,7 @@ const KEYS = {
   PROGRESS: 'pmp_mock_exam_progress',
   HISTORY: 'pmp_mock_exam_history',
   ISSUE_REPORTS: 'pmp_mock_exam_issue_reports',
+  AUDIT_DECISIONS: 'pmp_mock_exam_audit_decisions',
 }
 
 function safeParse(raw, fallback) {
@@ -104,6 +105,27 @@ export function removeIssueReport(questionId) {
 
 export function clearIssueReports() {
   localStorage.removeItem(KEYS.ISSUE_REPORTS)
+}
+
+// ---------- 稽核複審(quiz/Quiz-w-Issue.md 有爭議題目)決定 ----------
+// 這裡的「加入題庫」「刪除」都只是記錄使用者的決定,純前端架構無法直接改寫 quiz/*.md 檔案。
+// 存下完整題目內容(而不只是 id),之後由開發者(Claude Code)讀取這裡的決定,
+// 手動把 add 的題目搬回對應 quiz/<Domain>.md、把 delete 的題目從 Quiz-w-Issue.md 移除。
+
+export function loadAuditDecisions() {
+  return safeParse(localStorage.getItem(KEYS.AUDIT_DECISIONS), [])
+}
+
+export function getAuditDecision(questionId) {
+  return loadAuditDecisions().find((d) => d.questionId === questionId) || null
+}
+
+/** decision: 'add' | 'delete'。同一題重複決定時,以最後一次為準。 */
+export function saveAuditDecision({ questionId, decision, question }) {
+  const decisions = loadAuditDecisions().filter((d) => d.questionId !== questionId)
+  decisions.unshift({ questionId, decision, question, decidedAt: new Date().toISOString() })
+  localStorage.setItem(KEYS.AUDIT_DECISIONS, JSON.stringify(decisions))
+  return decisions
 }
 
 export function exportIssueReportsFile() {

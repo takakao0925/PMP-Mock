@@ -32,7 +32,9 @@ const LEGACY_DOMAIN_TO_8TH = {
 }
 
 function resolve8thDomain(q) {
-  if (q.edition === 'pmbok8') return q.performanceDomain
+  // 新題目一律用現代(8th 版)領域名稱標記 performanceDomain,不分 edition —— 直接採用即可。
+  // 只有極少數最早期手寫的 pmbok7 題目仍用舊制八大績效領域名稱,才需要查 LEGACY_DOMAIN_TO_8TH。
+  if (PERFORMANCE_DOMAINS_PMBOK8.includes(q.performanceDomain)) return q.performanceDomain
   return LEGACY_DOMAIN_TO_8TH[q.performanceDomain] || 'Governance'
 }
 
@@ -54,6 +56,14 @@ function renderOptionsBlock(q) {
       lines.push(
         `- (${opt.id}) ${opt.label.en} / ${opt.label.zh}${mark} [x=${opt.x},y=${opt.y},w=${opt.width},h=${opt.height}]`,
       )
+    }
+    if (q.edges && q.edges.length > 0) {
+      lines.push('')
+      lines.push(
+        '**節點連線(edges,方向性依賴關係,例如網路圖箭頭;有連線的圖面題出考題時不會打亂座標)**',
+      )
+      lines.push('')
+      for (const edge of q.edges) lines.push(`- ${edge.from} → ${edge.to}`)
     }
   } else if (q.questionType === 'matching') {
     const { prompts, choices } = q.options
@@ -94,6 +104,9 @@ function renderOptionsBlock(q) {
 function renderQuestion(q, num) {
   const lines = []
   lines.push(`### Q${num}. \`${q.id}\` — ${TYPE_LABELS[q.questionType] || q.questionType}`)
+  lines.push('')
+  // 獨立一行、明顯標示題目 ID,討論/回報問題時直接引用這組 ID 就好,不用數第幾題
+  lines.push(`**題目 ID**: \`${q.id}\``)
   lines.push('')
   lines.push(
     `難度: \`${q.difficulty}\` ｜ 建議作答時間分類: \`${q.timeCategory}\` ｜ 版本標籤: \`${q.edition}\` ｜ 原始 performanceDomain: \`${q.performanceDomain}\` ｜ ECO domain: \`${q.domain}\``,

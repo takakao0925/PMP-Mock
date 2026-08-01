@@ -2,11 +2,21 @@ import { DOMAINS, DOMAIN_WEIGHTS, getTimeRecommendation } from '../schema/questi
 
 // 固定考試規格 — 對應 8th 版新制格式 (docs 第 0 節)
 export const EXAM_SPEC = {
+  mode: 'standard',
   totalQuestions: 185,
   durationMinutes: 240,
   domainWeights: DOMAIN_WEIGHTS,
   // 每個作答到第 N 題後,強制進入一次休息(對應真實 PMP 考試的兩次選擇性休息)
   breakAfterQuestions: [62, 124],
+}
+
+/** 小考模式:介面與計分邏輯跟標準模式完全相同,只是題數少、時間短,方便平常快速練習 */
+export const QUICK_QUIZ_SPEC = {
+  mode: 'quick',
+  totalQuestions: 15,
+  durationMinutes: 20,
+  domainWeights: DOMAIN_WEIGHTS,
+  breakAfterQuestions: [],
 }
 
 function shuffle(arr) {
@@ -32,8 +42,13 @@ function shuffleQuestionOptions(question) {
       break
 
     case 'hotspot': {
-      // 熱區的「位置」才是要打亂的對象,而不是陣列順序本身 —— 把座標槽位重新分配給同一組選項,
-      // 這樣同一題再出現時,答案不會永遠出現在畫面上同一個角落。
+      // 圖面類題目(有 edges,例如網路圖依賴關係)有方向性的閱讀邏輯 —— 通常照左到右/上到下編排,
+      // 打亂座標會讓箭頭連線的走向變得雜亂難懂,所以有 edges 的題目維持原始座標不打亂。
+      // 沒有 edges 的純選項式熱區(例如卡片選擇題)才打亂座標,避免答案永遠出現在同一個角落。
+      if (question.edges && question.edges.length > 0) {
+        q.options = question.options
+        break
+      }
       const positions = question.options.map(({ x, y, width, height }) => ({ x, y, width, height }))
       const shuffledPositions = shuffle(positions)
       q.options = question.options.map((opt, i) => ({ ...opt, ...shuffledPositions[i] }))
@@ -205,6 +220,7 @@ export function scoreExam(session) {
 
   return {
     examId: session.id,
+    mode: session.spec.mode || 'standard',
     totalQuestions: questions.length,
     correctCount,
     scorePercent: questions.length > 0 ? Math.round((correctCount / questions.length) * 1000) / 10 : 0,

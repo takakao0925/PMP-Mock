@@ -5,10 +5,19 @@ import Timer from '../components/exam/Timer.jsx'
 import NavigationPanel from '../components/exam/NavigationPanel.jsx'
 import BreakScreen from '../components/exam/BreakScreen.jsx'
 import QuestionCountdown from '../components/exam/QuestionCountdown.jsx'
+import { ConfirmDialog, PromptDialog } from '../components/common/Dialogs.jsx'
 import { scoreExam, shouldBreakAfter, tickQuestionTiming } from '../engine/examEngine.js'
-import { clearProgress, loadProgress, saveProgress, saveResultToHistory } from '../engine/storage.js'
+import {
+  addIssueReport,
+  clearProgress,
+  isQuestionReported,
+  loadProgress,
+  removeIssueReport,
+  saveProgress,
+  saveResultToHistory,
+} from '../engine/storage.js'
 import { getTimeRecommendation } from '../schema/questionSchema.js'
-import { DEFAULT_LANG } from '../utils/i18n.js'
+import { DEFAULT_LANG, pickText } from '../utils/i18n.js'
 
 export default function ExamPage() {
   const location = useLocation()
@@ -16,6 +25,12 @@ export default function ExamPage() {
   const [session, setSession] = useState(() => location.state?.newSession || loadProgress())
   // 考試語言:PMP 正式考試以英文為主,可切換一個輔助語言(此處為繁中);每題預設回到英文
   const [lang, setLang] = useState(DEFAULT_LANG)
+  // 這題是否已被標註「內容可能有問題」——換題時要重新從 localStorage 讀,不是使用者偏好不能延續
+  const [reported, setReported] = useState(false)
+  // 原生 window.confirm()/prompt() 在部分瀏覽器/預覽環境下不會跳出(交卷點了沒反應就是這個原因),
+  // 改用畫面內的彈窗元件,行為才可控
+  const [showSubmitConfirm, setShowSubmitConfirm] = useState(false)
+  const [showReportPrompt, setShowReportPrompt] = useState(false)
 
   // location.state.newSession 只應在「開始新考試」那一次生效。瀏覽器記憶體會把 state
   // 留在該筆歷史紀錄上,若不清掉,使用者中途重新整理頁面時會誤觸發重抽一份全新考試、蓋掉現有進度。
@@ -57,6 +72,12 @@ export default function ExamPage() {
   }, [session?.id, session?.status])
 
   // 語言切換會延續到下一題,不會每題重置回英文(使用者可自行再切回英文)
+
+  // 每切換題目,重新從 localStorage 讀這題有沒有被標註過問題
+  const currentQuestionId = session?.questions?.[session?.currentIndex]?.id
+  useEffect(() => {
+    if (currentQuestionId) setReported(isQuestionReported(currentQuestionId))
+  }, [currentQuestionId])
 
   // 交卷後統計並導向結果頁(僅觸發一次)
   useEffect(() => {
@@ -126,12 +147,31 @@ export default function ExamPage() {
     updateSession((prev) => ({ ...prev, onBreak: false, breakRemainingSeconds: 0 }))
   }
 
+  function toggleReport() {
+    if (reported) {
+      removeIssueReport(currentQuestion.id)
+      setReported(false)
+      return
+    }
+    setShowReportPrompt(true)
+  }
+
+  function handleReportSubmit(note) {
+    addIssueReport({ questionId: currentQuestion.id, stem: pickText(currentQuestion.stem, 'en'), note })
+    setReported(true)
+    setShowReportPrompt(false)
+  }
+
   function submitExam() {
-    const unanswered = session.questions.length - Object.keys(session.answers).length
-    const msg = unanswered > 0 ? `還有 ${unanswered} 題未作答,確定要交卷嗎?` : '確定要交卷嗎?'
-    if (!window.confirm(msg)) return
+    setShowSubmitConfirm(true)
+  }
+
+  function confirmSubmitExam() {
+    setShowSubmitConfirm(false)
     updateSession((prev) => ({ ...prev, status: 'finished' }))
   }
+
+  const unansweredCount = session ? session.questions.length - Object.keys(session.answers).length : 0
 
   if (session.onBreak) {
     return (
@@ -219,6 +259,35 @@ export default function ExamPage() {
           onJump={jumpTo}
         />
       </section>
+
+      <button
+        type="button"
+        onClick={toggleReport}
+        title="這題內容可能有問題?點這裡標註,不影響作答與計分"
+        className={`fixed bottom-4 left-4 rounded-full px-3 py-1.5 text-xs shadow-sm transition-colors ${
+          reported ? 'bg-gray-300 text-gray-600' : 'bg-gray-100 text-gray-400 hover:bg-gray-200 hover:text-gray-600'
+        }`}
+      >
+        {reported ? '⚠ 已標註問題' : '⚠ 標註問題'}
+      </button>
+
+      <ConfirmDialog
+        open={showSubmitConfirm}
+        title="確定要交卷嗎?"
+        message={unansweredCount > 0 ? `還有 ${unansweredCount} 題未作答,確定要交卷嗎?` : undefined}
+        confirmLabel="交卷"
+        onConfirm={confirmSubmitExam}
+        onCancel={() => setShowSubmitConfirm(false)}
+      />
+
+      <PromptDialog
+        open={showReportPrompt}
+        title="回報題目問題"
+        message="這題有什麼問題?(選填,例如:選項有誤、詳解矛盾、翻譯怪怪的)"
+        placeholder="選填,可以直接送出"
+        onSubmit={handleReportSubmit}
+        onCancel={() => setShowReportPrompt(false)}
+      />
     </div>
   )
 }
