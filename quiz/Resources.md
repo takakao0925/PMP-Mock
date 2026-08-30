@@ -1,6 +1,6 @@
 # Resources — PMP 題庫
 
-> 共 71 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 115 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `sc-001` — 單選題
 
@@ -1244,6 +1244,177 @@ Goleman 的情緒智商模型包含自我覺察、自我調節、內在動機、
 
 ---
 
+### Q47. `res-045` — 下拉選單題
+
+**題目 ID**: `res-045`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A team member tells the project manager, "Even if I work extra hard on this task, I doubt it will lead to a better performance review, and even if it did, I don't really care about the reward being offered." According to Vroom's Expectancy Theory, her motivation is low because she perceives a weak link between {{blank1}}, and she places low {{blank2}} on the reward itself.
+- 中: 一位團隊成員告訴專案經理:「就算我在這項任務上特別努力,我也懷疑會換來更好的績效考核,而且就算真的有,我也不太在乎目前提供的獎勵。」根據弗魯姆期望理論(Vroom's Expectancy Theory),她的動機低落是因為她認為 {{blank1}} 之間的連結薄弱,同時她對獎勵本身賦予的 {{blank2}} 也很低。
+
+**blank1**
+
+- (a) Effort, performance, and reward / 努力、績效與獎勵 ✅ **正解**
+- (b) Seniority and job title / 年資與職稱
+
+**blank2**
+
+- (a) Valence (perceived value) / 期望價值(Valence) ✅ **正解**
+- (b) Attendance record / 出勤紀錄
+
+
+**詳解**
+
+Vroom 的期望理論主張動機 = Expectancy(努力能帶來績效的期望)× Instrumentality(績效能換來獎勵的工具性)× Valence(對獎勵本身賦予的價值)三者相乘。本情境中該成員同時認為努力與績效、獎勵之間的連結薄弱,又不重視獎勵本身的價值,因此整體動機低落,這正是期望理論用來解釋動機強弱的核心邏輯。
+
+---
+
+### Q48. `res-046` — 拖拉配對題
+
+**題目 ID**: `res-046`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each base of power to its description.
+- 中: 請將下列權力基礎拖曳配對到其描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Legitimate Power / 法制權(Legitimate)
+- p2: Reward Power / 獎賞權(Reward)
+- p3: Coercive Power / 強制權(Coercive)
+- p4: Expert Power / 專家權(Expert)
+- p5: Referent Power / 參照權(Referent)
+
+**選項池(拖曳目標)**
+
+- c1: Power derived from the formal position or title held within the organization / 權力來自於組織內正式擔任的職位或頭銜
+- c2: Power derived from the ability to give bonuses, promotions, or other desirable incentives / 權力來自於能提供獎金、升遷或其他令人渴望的誘因
+- c3: Power derived from the ability to impose penalties, discipline, or negative consequences / 權力來自於能施加懲罰、紀律處分或負面後果
+- c4: Power derived from specialized knowledge or technical skill that others respect / 權力來自於他人所敬重的專業知識或技術能力
+- c5: Power derived from the personal respect, trust, and admiration others feel toward the individual / 權力來自於他人對該人個人的敬重、信任與仰慕
+
+**✅ 正確配對**
+
+- p1 → c1: Legitimate Power → Power derived from the formal position or title held within the organization（法制權(Legitimate) → 權力來自於組織內正式擔任的職位或頭銜）
+- p2 → c2: Reward Power → Power derived from the ability to give bonuses, promotions, or other desirable incentives（獎賞權(Reward) → 權力來自於能提供獎金、升遷或其他令人渴望的誘因）
+- p3 → c3: Coercive Power → Power derived from the ability to impose penalties, discipline, or negative consequences（強制權(Coercive) → 權力來自於能施加懲罰、紀律處分或負面後果）
+- p4 → c4: Expert Power → Power derived from specialized knowledge or technical skill that others respect（專家權(Expert) → 權力來自於他人所敬重的專業知識或技術能力）
+- p5 → c5: Referent Power → Power derived from the personal respect, trust, and admiration others feel toward the individual（參照權(Referent) → 權力來自於他人對該人個人的敬重、信任與仰慕）
+
+**詳解**
+
+法制權、獎賞權、強制權、專家權、參照權是常見的五種權力基礎分類。法制權來自正式職位;獎賞權與強制權分別來自給予誘因或施加懲罰的能力;專家權來自專業知識;參照權則來自他人對個人特質的敬重與信任。專案經理在正式職權有限的情況下,常需仰賴專家權與參照權來發揮影響力。
+
+---
+
+### Q49. `res-047` — 下拉選單題
+
+**題目 ID**: `res-047`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A newly assigned project manager notices that team members follow her instructions mainly because the project charter formally names her as the project manager, not because they particularly respect her skills or personality yet. This reflects {{blank1}}, and since relying on this alone tends to be less sustainable in a matrix organization, she should also work to {{blank2}}.
+- 中: 一位新上任的專案經理發現,團隊成員之所以聽從她的指示,主要是因為專案章程正式指定她為專案經理,而非目前特別敬重她的能力或人格特質。這反映了 {{blank1}},而由於單靠這種權力在矩陣型組織中往往較難長久維持,她也應該努力 {{blank2}}。
+
+**blank1**
+
+- (a) Legitimate power based on her formally assigned position / 法制權,來自於她被正式指派的職位 ✅ **正解**
+- (b) Referent power based on personal admiration / 參照權,來自於他人對她個人的仰慕
+
+**blank2**
+
+- (a) Build expert and referent power over time through demonstrated competence and trust / 隨時間透過展現能力與建立信任,累積專家權與參照權 ✅ **正解**
+- (b) Rely exclusively on issuing formal directives and ignore relationship-building / 完全仰賴發布正式指令,不理會關係經營
+
+
+**詳解**
+
+僅憑正式職位而來的法制權,在職權有限的矩陣型組織中往往不夠持久;專案經理應同時透過展現專業能力與建立信任關係,逐步累積更具持續影響力的專家權與參照權,而非僅依賴頭銜發號施令。
+
+---
+
+### Q50. `res-048` — 點擊熱區題
+
+**題目 ID**: `res-048`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Team members frequently seek out the project manager's technical guidance on complex architecture decisions specifically because of her deep, well-recognized subject-matter expertise in that domain — not because of her title. Click the base of power this illustrates.
+- 中: 團隊成員經常在複雜的架構決策上尋求專案經理的技術指引,主要是因為她在該領域擁有深厚且受廣泛肯定的專業知識,而非因為她的職稱。請點選這說明的是哪一種權力基礎。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Legitimate Power / 法制權(Legitimate) [x=5,y=5,w=25,h=35]
+- (n2) Reward Power / 獎賞權(Reward) [x=36.66666666666667,y=5,w=25,h=35]
+- (n3) Coercive Power / 強制權(Coercive) [x=68.33333333333334,y=5,w=25,h=35]
+- (n4) Expert Power / 專家權(Expert) ✅ **正解** [x=5,y=47.5,w=25,h=35]
+- (n5) Referent Power / 參照權(Referent) [x=36.66666666666667,y=47.5,w=25,h=35]
+
+**詳解**
+
+專家權(Expert Power)來自於個人在特定領域擁有他人所敬重的專業知識或技術能力,團隊成員因信任其專業判斷而主動尋求指引,與職位頭銜(法制權)、給予誘因(獎賞權)、施加懲罰(強制權)或個人魅力(參照權)並不相同。
+
+---
+
+### Q51. `res-049` — 單選題
+
+**題目 ID**: `res-049`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Even outside of official project meetings, team members often seek the project manager's opinion and willingly go along with his suggestions because they personally admire his integrity and genuinely trust him, quite apart from his formal role. Which base of power is being demonstrated here?
+- 中: 即使在正式專案會議之外,團隊成員也經常主動徵詢專案經理的意見,並樂於採納他的建議,原因是他們打從心底敬佩他的正直人格、真心信任他,這與他的正式職務無關。這展現的是哪一種權力基礎?
+
+**選項**
+
+- (a) Legitimate power / 法制權(Legitimate)
+- (b) Coercive power / 強制權(Coercive)
+- (c) Referent power / 參照權(Referent) ✅ **正解**
+- (d) Reward power / 獎賞權(Reward)
+
+**詳解**
+
+參照權(Referent Power)源自他人對個人特質(如人格、誠信、可信賴度)的仰慕與信任,即使沒有正式職權或明確誘因,對方也願意主動追隨。這與依賴職位(法制權)、施加懲罰(強制權)或提供獎勵(獎賞權)的權力來源不同。
+
+---
+
+### Q52. `res-050` — 多選題
+
+**題目 ID**: `res-050`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager operating with limited formal authority in a weak matrix organization wants to build lasting influence and voluntary commitment from the team, rather than mere short-term compliance. Which three of the following bases of power are generally considered most effective and sustainable for this purpose? Select three.
+- 中: 一位在弱矩陣型組織中職權有限的專案經理,希望建立長久的影響力與團隊自願的投入,而非僅換取短期的服從。下列哪三種權力基礎通常被認為最能有效且長久地達成此目的?(選三項)
+
+**選項**
+
+- (a) Expert power / 專家權(Expert) ✅ **正解**
+- (b) Referent power / 參照權(Referent) ✅ **正解**
+- (c) Reward power / 獎賞權(Reward) ✅ **正解**
+- (d) Coercive power / 強制權(Coercive)
+- (e) Legitimate power / 法制權(Legitimate)
+
+**詳解**
+
+專家權、參照權與獎賞權通常被認為較能建立長久且自願的投入——專家權與參照權源自受尊重的能力與人格特質,獎賞權則透過正向誘因驅動行為。強制權仰賴懲罰與恐懼,長期易損害信任與士氣;法制權僅來自職位本身,在職權有限的矩陣型組織中往往不足以單獨支撐長久的影響力,因此相對而言不如前三者理想。
+
+---
+
 ### Q53. `res-051` — 單選題
 
 **題目 ID**: `res-051`
@@ -1470,7 +1641,7 @@ Estimate Resources(估算資源)流程常用的估算技術包括類比估算(�
 
 ---
 
-### Q63. `res-061` — 單選題
+### Q61. `res-061` — 單選題
 
 **題目 ID**: `res-061`
 
@@ -1494,7 +1665,7 @@ Colocation(同地辦公,又稱「戰情室」war room)是將多數或全部核�
 
 ---
 
-### Q64. `res-062` — 多選題
+### Q62. `res-062` — 多選題
 
 **題目 ID**: `res-062`
 
@@ -1519,7 +1690,7 @@ Develop Team(發展團隊)流程的常見工具與技術包括訓練、團隊建
 
 ---
 
-### Q65. `res-063` — 拖拉配對題
+### Q63. `res-063` — 拖拉配對題
 
 **題目 ID**: `res-063`
 
@@ -1557,7 +1728,7 @@ Develop Team 流程的常見工具包括:訓練(提升技術或人際能力)、�
 
 ---
 
-### Q66. `res-064` — 單選題
+### Q64. `res-064` — 單選題
 
 **題目 ID**: `res-064`
 
@@ -1581,7 +1752,7 @@ Develop Team 流程的常見工具包括:訓練(提升技術或人際能力)、�
 
 ---
 
-### Q67. `res-065` — 多選題
+### Q65. `res-065` — 多選題
 
 **題目 ID**: `res-065`
 
@@ -1606,7 +1777,7 @@ Develop Team 流程的常見工具包括:訓練(提升技術或人際能力)、�
 
 ---
 
-### Q68. `res-066` — 點擊熱區題
+### Q66. `res-066` — 點擊熱區題
 
 **題目 ID**: `res-066`
 
@@ -1631,7 +1802,7 @@ Develop Team 流程的常見工具包括:訓練(提升技術或人際能力)、�
 
 ---
 
-### Q69. `res-067` — 多選題
+### Q67. `res-067` — 多選題
 
 **題目 ID**: `res-067`
 
@@ -1656,7 +1827,32 @@ Develop Team 流程的常見工具包括:訓練(提升技術或人際能力)、�
 
 ---
 
-### Q71. `res-069` — 單選題
+### Q68. `res-068` — 點擊熱區題
+
+**題目 ID**: `res-068`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager tells an underperforming team member, "If your output doesn't improve by next week, I will document this in your performance review and recommend you be removed from the project." Click the base of power being used here.
+- 中: 專案經理對一位績效不佳的團隊成員說:「如果你下週產出還沒有改善,我會把這件事記錄在你的績效考核中,並建議把你調離這個專案。」請點選此處使用的是哪一種權力基礎。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Expert Power / 專家權(Expert) [x=5,y=5,w=25,h=35]
+- (n2) Referent Power / 參照權(Referent) [x=36.66666666666667,y=5,w=25,h=35]
+- (n3) Coercive Power / 強制權(Coercive) ✅ **正解** [x=68.33333333333334,y=5,w=25,h=35]
+- (n4) Reward Power / 獎賞權(Reward) [x=5,y=47.5,w=25,h=35]
+- (n5) Legitimate Power / 法制權(Legitimate) [x=36.66666666666667,y=47.5,w=25,h=35]
+
+**詳解**
+
+強制權(Coercive Power)是透過施加懲罰或負面後果(如負面績效記錄、調離專案)來促使對方改變行為,雖然短期內可能有效,但長期而言容易損害信任與士氣,通常被認為是較不理想的權力運用方式。這與依賴專業知識(專家權)、個人敬重(參照權)、正向誘因(獎賞權)或職位本身(法制權)明顯不同。
+
+---
+
+### Q69. `res-069` — 單選題
 
 **題目 ID**: `res-069`
 
@@ -1677,5 +1873,1277 @@ Develop Team 流程的常見工具包括:訓練(提升技術或人際能力)、�
 **詳解**
 
 當團隊過去因公開的個人排名式表揚而產生嫌隙時,PM 應改以表揚團隊整體共同成就為主,同時保留私下肯定特定個人貢獻的彈性,而非因噎廢食完全取消表揚,也不應重蹈覆轍持續採用容易引發不滿的做法。獎勵與表揚方式應依團隊實際狀況與過往經驗調整,以維護整體士氣與協作氛圍。
+
+---
+
+### Q70. `res-070` — 單選題
+
+**題目 ID**: `res-070`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: An agile project manager regularly sets aside time, separate from daily execution pressures, to look back on the project's progress and consider what has worked well and what has not. This behavior best reflects which one of Pinto's 12 principles of servant leadership for agile project managers?
+- 中: 一位敏捷專案經理定期抽出時間,獨立於每日執行的壓力之外,回顧專案的進展並思考哪些做法有效、哪些做法無效。這項行為最符合 Pinto 提出的敏捷專案經理服務型領導 12 原則中的哪一項?
+
+**選項**
+
+- (a) Take time to reflect on the project / 花時間反思專案 ✅ **正解**
+- (b) Develop the trick of thinking backwards / 培養逆向思考的技巧
+- (c) Act for the simultaneous welfare of the team and the project / 同時為團隊與專案的福祉而行動
+- (d) Create an environment of functional accountability / 營造具功能性當責的工作環境
+
+**詳解**
+
+Pinto 提出的 12 項服務型領導原則中,「花時間反思專案(Take time to reflect on the project)」specifically 指的是定期跳脫日常執行的忙碌,回顧整體進展與做法優劣。(b) 逆向思考是指從專案終點目標往回推算應有的做法;(c) 是指平衡團隊與專案雙方的利益,不偏廢任一方;(d) 是指建立清楚的當責機制與角色分工。三者皆為 12 原則中真實存在的項目,但都不是本情境「定期抽出時間回顧進展」所描述的原則,是常見的干擾選項。
+
+---
+
+### Q71. `res-071` — 多選題
+
+**題目 ID**: `res-071`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Which three of the following are core responsibilities of the Delivery Team in an agile project? Select three.
+- 中: 下列何者屬於敏捷專案中「交付團隊(Delivery Team)」的核心職責?(選三項)
+
+**選項**
+
+- (a) Building the product increments defined in the backlog / 依據待辦清單建立產品增量 ✅ **正解**
+- (b) Updating information radiators so progress stays visible to everyone / 更新資訊發射器(Information Radiator),讓進度隨時可被看見 ✅ **正解**
+- (c) Self-organizing to plan and manage their own daily work / 自主管理,自行規劃並執行每日工作 ✅ **正解**
+- (d) Prioritizing and maintaining the product backlog / 排序並維護產品待辦清單
+- (e) Removing organizational impediments through servant leadership / 透過服務型領導排除組織層級的障礙
+
+**詳解**
+
+交付團隊(Delivery Team)負責依循待辦清單建立產品增量、更新資訊發射器讓進度保持透明、自主管理每日工作,並在每日站立會議分享進度、展示產品 demo、參與 Retrospective 與 Sprint Planning。(d) 排序並維護產品待辦清單是產品負責人(Product Owner)的職責;(e) 透過服務型領導排除組織障礙則是敏捷專案經理(Agile PM)或 Scrum Master 的職責,兩者皆非交付團隊本身的工作,是本題的干擾選項。
+
+---
+
+### Q72. `res-072` — 拖拉配對題
+
+**題目 ID**: `res-072`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each agile team space concept to the description that best fits it.
+- 中: 請將下列敏捷團隊空間相關概念拖曳配對到最符合的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Co-located Team (the "33 feet" idea) / 同地辦公團隊(33 英呎原則)
+- p2: Osmotic Communication / 滲透式溝通
+- p3: Cave and Common / 洞穴與公共空間
+- p4: Tacit Knowledge / 默會知識
+
+**選項池(拖曳目標)**
+
+- c1: Keeping the most active team members within roughly 33 feet of one another, without physical barriers such as cubicles, so face-to-face interaction stays easy / 讓核心活躍成員盡量位於彼此約 33 英呎範圍內,不設隔間等實體障礙,以利面對面互動
+- c2: Team members naturally pick up relevant conversations happening nearby without deliberately joining them, simply because they are close enough to overhear / 團隊成員因為距離夠近,即使沒有刻意加入,也能自然聽到周遭相關的對話內容
+- c3: A workspace design that gives individuals a private space to focus while still keeping a shared area for group collaboration / 一種工作空間設計,既提供個人可獨處專注的空間,也保留供團隊共同協作的公共區域
+- c4: Unwritten, shared understanding that team members absorb through close proximity rather than through formal documentation / 團隊成員透過近距離相處自然吸收、而非透過正式文件記錄下來的共享默契與知識
+
+**✅ 正確配對**
+
+- p1 → c1: Co-located Team (the "33 feet" idea) → Keeping the most active team members within roughly 33 feet of one another, without physical barriers such as cubicles, so face-to-face interaction stays easy（同地辦公團隊(33 英呎原則) → 讓核心活躍成員盡量位於彼此約 33 英呎範圍內,不設隔間等實體障礙,以利面對面互動）
+- p2 → c2: Osmotic Communication → Team members naturally pick up relevant conversations happening nearby without deliberately joining them, simply because they are close enough to overhear（滲透式溝通 → 團隊成員因為距離夠近,即使沒有刻意加入,也能自然聽到周遭相關的對話內容）
+- p3 → c3: Cave and Common → A workspace design that gives individuals a private space to focus while still keeping a shared area for group collaboration（洞穴與公共空間 → 一種工作空間設計,既提供個人可獨處專注的空間,也保留供團隊共同協作的公共區域）
+- p4 → c4: Tacit Knowledge → Unwritten, shared understanding that team members absorb through close proximity rather than through formal documentation（默會知識 → 團隊成員透過近距離相處自然吸收、而非透過正式文件記錄下來的共享默契與知識）
+
+**詳解**
+
+敏捷團隊空間設計常見四個概念:同地辦公團隊強調核心成員最好位於彼此約 33 英呎內,且不設隔間等實體障礙;滲透式溝通指的是成員因距離夠近而自然聽見周遭相關對話,不必刻意參與;洞穴與公共空間則是同時保留個人獨處專注的角落與團隊共用的協作區域;默會知識則是成員透過長時間近距離相處累積出來、未被正式寫下的共享理解。四者共同支持面對面協作的效益,常在考題中互相混淆,需要精準區分定義。
+
+---
+
+### Q73. `res-073` — 下拉選單題
+
+**題目 ID**: `res-073`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A team is now fully distributed across three countries and can no longer be co-located. Because members no longer overhear each other's nearby conversations, the project manager notices the team is losing the {{blank1}} it used to gain from working in the same room. To help restore some of that collaboration, the project manager should {{blank2}}.
+- 中: 團隊目前完全分散在三個國家,無法再達成同地辦公。由於成員不再能自然聽到彼此周遭的對話,專案經理發現團隊正逐漸失去過去同處一室時所獲得的{{blank1}}。為了協助恢復部分協作效果,專案經理應該{{blank2}}。
+
+**blank1**
+
+- (a) Osmotic communication and the shared tacit knowledge it builds / 滲透式溝通,以及它所累積出的共享默會知識 ✅ **正解**
+- (b) Formally documented, written requirements / 正式書面記錄的需求文件
+
+**blank2**
+
+- (a) Introduce virtual tools such as video conferencing, interactive whiteboards, and virtual card walls to approximate the benefits of co-location / 導入視訊會議、互動白板、虛擬卡牆等虛擬工具,盡量還原同地辦公的效益 ✅ **正解**
+- (b) Require the team to stop using any collaboration tools until everyone can be physically relocated to one office / 要求團隊停用所有協作工具,直到所有人都能實體搬遷至同一辦公室為止
+
+
+**詳解**
+
+同地辦公團隊之所以效率較高,一部分來自滲透式溝通與其累積出的默會知識,兩者都仰賴成員之間的實體近距離。當團隊改為分散式(Distributed Team)時,這些優勢自然會減弱,此時專案經理應盡可能導入視訊會議、互動白板、即時通訊、VoIP、虛擬卡牆等工具,以還原同地辦公的部分效益,而不是反其道而行,停用協作工具讓團隊更難溝通。
+
+---
+
+### Q74. `res-074` — 拖拉配對題
+
+**題目 ID**: `res-074`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each stage of individual skill development to the description that best fits it. The first three stages come from the Shu-Ha-Ri model, and the last two come from the Dreyfus Model of Adult Skill Acquisition.
+- 中: 請將下列個人技能養成階段拖曳配對到最符合的描述。前三項來自 Shu-Ha-Ri 模型,後兩項來自 Dreyfus 成人技能習得模型。
+
+**配對項目(拖曳來源)**
+
+- p1: Shu / 守
+- p2: Ha / 破
+- p3: Ri / 離
+- p4: Novice (Dreyfus) / 新手(Dreyfus 模型)
+- p5: Expert (Dreyfus) / 專家(Dreyfus 模型)
+
+**選項池(拖曳目標)**
+
+- c1: The learner strictly follows established rules and practices exactly as taught, without deviation / 學習者嚴格遵循既定規則與做法,完全照著教導的方式執行,不做任何變動
+- c2: The learner starts consciously breaking away from the established rules, adapting practices to fit the specific situation / 學習者開始有意識地跳脫既定規則,依實際情境調整做法
+- c3: The learner finds their own individual path, going beyond the original rules to innovate / 學習者找到屬於自己的路,超越原本的規則進行創新
+- c4: Someone with little or no experience who needs explicit rules and step-by-step instructions to perform a task / 幾乎沒有經驗的人,需要明確規則與逐步指示才能完成任務
+- c5: Someone with deep, intuitive understanding who can act fluidly without consciously thinking through the rules / 具備深厚直覺理解力的人,能夠不需刻意思考規則就流暢地行動
+
+**✅ 正確配對**
+
+- p1 → c1: Shu → The learner strictly follows established rules and practices exactly as taught, without deviation（守 → 學習者嚴格遵循既定規則與做法,完全照著教導的方式執行,不做任何變動）
+- p2 → c2: Ha → The learner starts consciously breaking away from the established rules, adapting practices to fit the specific situation（破 → 學習者開始有意識地跳脫既定規則,依實際情境調整做法）
+- p3 → c3: Ri → The learner finds their own individual path, going beyond the original rules to innovate（離 → 學習者找到屬於自己的路,超越原本的規則進行創新）
+- p4 → c4: Novice (Dreyfus) → Someone with little or no experience who needs explicit rules and step-by-step instructions to perform a task（新手(Dreyfus 模型) → 幾乎沒有經驗的人,需要明確規則與逐步指示才能完成任務）
+- p5 → c5: Expert (Dreyfus) → Someone with deep, intuitive understanding who can act fluidly without consciously thinking through the rules（專家(Dreyfus 模型) → 具備深厚直覺理解力的人,能夠不需刻意思考規則就流暢地行動）
+
+**詳解**
+
+Shu-Ha-Ri 是描述個人技能養成的三階段模型:守(Shu)階段完全遵循既定規則;破(Ha)階段開始依情境調整、跳脫既定做法;離(Ri)階段則找到屬於自己的路,超越規則進行創新。Dreyfus 成人技能習得模型則將技能養成細分為新手、進階初學者、勝任者、精熟者、專家五個階段,其中新手仰賴明確規則與步驟指示,專家則能憑直覺流暢行動、不需刻意思考規則。兩個模型描述的都是「從依賴規則到憑直覺創新」的技能成長歷程,常在考題中互相對照。
+
+---
+
+### Q75. `res-075` — 點擊熱區題
+
+**題目 ID**: `res-075`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: The diagram below shows the five phases of a Retrospective in sequence: Set the Stage, Gather Data, Generate Insight, Decide What to Do, and Close the Retrospective. During which phase would the team most likely use techniques such as the 5 Whys and Fishbone (Ishikawa) Analysis to dig into the root causes behind what happened? Click that phase.
+- 中: 下圖依序列出回顧會議(Retrospective)的五個階段:Set the Stage、Gather Data、Generate Insight、Decide What to Do、Close the Retrospective。團隊最可能在哪個階段使用「5 個為什麼(5 Whys)」與魚骨圖(Fishbone/Ishikawa)分析等技巧,深入探討事件背後的根本原因?請點選該階段。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Set the Stage / 揭開序幕 [x=2,y=40,w=16,h=20]
+- (n2) Gather Data / 蒐集資料 [x=21,y=40,w=16,h=20]
+- (n3) Generate Insight / 產生洞察 ✅ **正解** [x=40,y=40,w=16,h=20]
+- (n4) Decide What to Do / 決定行動 [x=59,y=40,w=16,h=20]
+- (n5) Close the Retrospective / 結束回顧 [x=78,y=40,w=16,h=20]
+
+**節點連線(edges,方向性依賴關係,例如網路圖箭頭;有連線的圖面題出考題時不會打亂座標)**
+
+- n1 → n2
+- n2 → n3
+- n3 → n4
+- n4 → n5
+
+**詳解**
+
+Retrospective 依序分為五個階段:Set the Stage(揭開序幕,約 6 分鐘,說明目的、鼓勵參與,常用 ESVP 讓成員表態心態)、Gather Data(蒐集資料,約 40 分鐘,如 Timeline、Triple Nickels、Mad Sad Glad 等活動)、Generate Insight(產生洞察,約 25 分鐘,分析資料找出根本原因,常用腦力激盪、5 Whys、Fishbone 分析)、Decide What to Do(決定行動,運用 Short Subject 或 SMART Goals 訂出下一步改善方案)、Close the Retrospective(結束回顧,例如 Plus/Delta 活動收尾)。5 Whys 與 Fishbone 分析都是用來挖掘根本原因的技巧,屬於 Generate Insight 階段,故正解為 n3。
+
+---
+
+### Q76. `res-076` — 單選題
+
+**題目 ID**: `res-076`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: At the start of a retrospective, the facilitator asks each team member to privately indicate whether they currently feel like an Explorer eager to discover new ideas, a Shopper browsing for something useful, a Vacationer just waiting for it to be over, or a Prisoner who feels forced to attend. Which retrospective activity is being used?
+- 中: 在一場回顧會議開始時,引導者請每位團隊成員私下表達自己此刻的心態,分別是「探索者(Explorer)」樂於發掘新點子、「購物者(Shopper)」隨意逛逛尋找有用的東西、「度假者(Vacationer)」只是等會議結束、還是「囚犯(Prisoner)」覺得被迫參加。這是使用了哪一種回顧會議活動?
+
+**選項**
+
+- (a) ESVP / ESVP ✅ **正解**
+- (b) Triple Nickels / 三個五(Triple Nickels)
+- (c) Fishbone Analysis / 魚骨圖分析
+- (d) Plus / Delta
+
+**詳解**
+
+ESVP(Explorer, Shopper, Vacationer, Prisoner)是 Set the Stage 階段常用的活動,讓每位成員表態自己此刻參與回顧會議的心態,協助引導者掌握團隊整體氛圍,故答案為 (a)。Triple Nickels 是 Gather Data 階段用來蒐集點子的技巧(每組 5 人、花 5 分鐘、蒐集 5 個點子、重複 5 次);Fishbone Analysis 用於 Generate Insight 階段探究根本原因;Plus/Delta 則用於 Close the Retrospective 階段收尾,三者皆非本情境所描述的活動,是干擾選項。
+
+---
+
+### Q77. `res-077` — 多選題
+
+**題目 ID**: `res-077`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Which three of the following behaviors are characteristic of someone operating in the "Green Zone" of the Green Zone / Red Zone behavior model? Select three.
+- 中: 下列何者屬於「綠區/紅區(Green Zone / Red Zone)」行為模式中,「綠區」行為的特徵?(選三項)
+
+**選項**
+
+- (a) Willingly taking ownership and accepting responsibility for outcomes / 願意主動承擔責任 ✅ **正解**
+- (b) Welcoming feedback rather than avoiding or dismissing it / 樂於接受回饋,而非逃避或忽視 ✅ **正解**
+- (c) Considering both short-term and long-term consequences before acting / 行動前同時考量短期與長期後果 ✅ **正解**
+- (d) Reacting defensively whenever challenged / 一旦受到質疑就出現防禦性反應
+- (e) Treating every disagreement as a competition that must be won / 把每次意見不合都當作必須獲勝的競賽
+
+**詳解**
+
+綠區行為的特徵包括願意主動承擔責任、不容易陷入防禦心態、樂於接受回饋、能同時兼顧短期與長期成效,並傾向以說服而非命令的方式與他人互動,持續追求卓越。相對地,互相責怪、過度防禦、把每次溝通都當成必須獲勝的競賽、逃避或不重視回饋等,則是紅區(Red Zone)的典型行為特徵,屬於本題的干擾選項。
+
+---
+
+### Q78. `res-078` — 單選題
+
+**題目 ID**: `res-078`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A newly formed distributed agile team spans multiple countries with different time zones, native languages, and communication norms. Some members interpret direct feedback as rude, while others expect it and find indirect feedback confusing. Beyond selecting collaboration tools, what should the project manager also proactively manage to keep this team functioning effectively?
+- 中: 一個新成立的分散式敏捷團隊橫跨多個國家,成員間存在不同時區、母語及溝通規範的差異。部分成員認為直接的意見回饋很不禮貌,另一些成員卻習慣直接表達,並覺得間接的回饋方式令人困惑。除了選擇協作工具之外,專案經理還應該主動管理哪一項因素,以維持團隊有效運作?
+
+**選項**
+
+- (a) The organizational and cultural differences among team members, such as language, communication style, and working norms across regions / 團隊成員間的組織與文化差異,例如跨地區的語言、溝通風格與工作規範 ✅ **正解**
+- (b) The exact font and color scheme used in the team's shared documents / 團隊共用文件所使用的確切字型與配色
+- (c) The brand of video conferencing hardware each team member owns / 每位團隊成員所擁有的視訊會議硬體品牌
+- (d) The personal social media habits of each team member outside of work / 每位成員在工作之外的個人社群媒體使用習慣
+
+**詳解**
+
+分散式團隊除了導入協作工具外,還必須主動管理跨國、跨文化帶來的差異,包括時差、語言、文化背景與溝通風格等因素。若忽略這些屬於團隊所處的更廣泛組織與外部環境因素,容易造成誤解與摩擦,進而影響團隊效能與交付品質。文件配色字型、視訊硬體品牌、成員私人社群媒體習慣皆與此無關,屬於干擾選項。
+
+---
+
+### Q79. `res-079` — 單選題
+
+**題目 ID**: `res-079`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Over several months, two team members have escalated from disagreeing over technical approaches to openly stating they want to see each other removed from the company entirely, treating every interaction as an attempt to destroy the other's credibility. Standard conflict resolution techniques such as collaborate or compromise have already failed. What should the project manager conclude and do?
+- 中: 經過數個月,兩位團隊成員的衝突已從技術做法上的分歧,升級到公開表示希望對方徹底離開公司,並將每次互動都當作摧毀對方信譽的機會。標準的衝突處理技巧,如合作或妥協,皆已嘗試但失敗。專案經理應如何判斷並處理?
+
+**選項**
+
+- (a) This has escalated to the most severe level of conflict, where the relationship is likely unsalvageable, so the project manager should separate the two individuals, such as by reassigning one off the team / 此衝突已升級到最嚴重的層級,雙方關係很可能已無法挽回,專案經理應將兩人分開,例如將其中一人調離團隊 ✅ **正解**
+- (b) Continue applying the compromise technique repeatedly until it eventually succeeds / 持續反覆使用妥協技巧,直到最終成功為止
+- (c) Ignore the situation since personal feelings between team members are not the project manager's concern / 忽視此狀況,因為團隊成員之間的個人情緒並非專案經理該管的事
+- (d) Force both individuals to publicly apologize to each other in front of the whole team / 強迫兩人在全體團隊面前公開向對方道歉
+
+**詳解**
+
+衝突可依嚴重程度分為多個層級,從第一層級單純的共享資訊解決問題,逐漸升級到競賽、必須獲勝、視對方為需摧毀的敵人。當衝突已升級到雙方都想摧毀對方信譽、視彼此為零和對抗甚至更嚴重的地步時,已超出一般協商或妥協能處理的範圍,關係通常難以修復。此時專案經理應務實地將雙方分開,例如調整團隊編制,而非期待反覆使用同一種技巧就能解決,也不應忽視問題或用公開羞辱式的做法處理。
+
+---
+
+### Q80. `res-080` — 拖拉配對題
+
+**題目 ID**: `res-080`
+
+難度: `hard` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each level of conflict escalation to the description that best fits it.
+- 中: 請將下列衝突升級的層級拖曳配對到最符合的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Level 1 / 第一層級
+- p2: Level 2 / 第二層級
+- p3: Level 3 / 第三層級
+- p4: Level 4 / 第四層級
+- p5: Level 5 / 第五層級
+
+**選項池(拖曳目標)**
+
+- c1: Parties focus on solving the problem together and openly share information / 雙方專注於共同解決問題,並開放地分享資訊
+- c2: Parties disagree and shift toward protecting themselves rather than solving the shared problem / 雙方出現分歧,並開始轉向保護自己,而非共同解決問題
+- c3: The disagreement turns into a competition that one side feels it must win / 分歧演變為一場競賽,其中一方認為自己必須獲勝
+- c4: Parties treat the conflict as a crusade to protect their own group, viewing it as a zero-sum fight / 雙方將衝突視為捍衛自身群體的聖戰,視為零和對抗
+- c5: Each side is determined to destroy the other, with the relationship likely beyond repair / 雙方都決心摧毀對方,關係很可能已無法挽回
+
+**✅ 正確配對**
+
+- p1 → c1: Level 1 → Parties focus on solving the problem together and openly share information（第一層級 → 雙方專注於共同解決問題,並開放地分享資訊）
+- p2 → c2: Level 2 → Parties disagree and shift toward protecting themselves rather than solving the shared problem（第二層級 → 雙方出現分歧,並開始轉向保護自己,而非共同解決問題）
+- p3 → c3: Level 3 → The disagreement turns into a competition that one side feels it must win（第三層級 → 分歧演變為一場競賽,其中一方認為自己必須獲勝）
+- p4 → c4: Level 4 → Parties treat the conflict as a crusade to protect their own group, viewing it as a zero-sum fight（第四層級 → 雙方將衝突視為捍衛自身群體的聖戰,視為零和對抗）
+- p5 → c5: Level 5 → Each side is determined to destroy the other, with the relationship likely beyond repair（第五層級 → 雙方都決心摧毀對方,關係很可能已無法挽回）
+
+**詳解**
+
+衝突升級的五個層級依序為:第一層級著重共同解決問題、分享資訊;第二層級開始出現分歧與自我保護心態;第三層級演變為必須獲勝的競賽;第四層級升級為捍衛群體的聖戰,視為零和對抗;第五層級則是雙方決心摧毀對方,關係通常已無法挽回,只能透過拆散團隊來處理。層級越高,一般的協商與妥協技巧越難奏效,PM 應盡早在低層級介入,避免衝突持續升級。
+
+---
+
+### Q81. `res-081` — 多選題
+
+**題目 ID**: `res-081`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: To ensure genuine team participation when gauging support for a decision, which two of the following are recommended practices? Select two.
+- 中: 為確保在評估團隊對某項決策的支持程度時能達到真正的參與,下列哪兩項是建議的做法?(選兩項)
+
+**選項**
+
+- (a) When a simple vote is taken (agree, neutral, or disagree), ask those who are neutral or opposed to explain their reasons / 進行簡單投票(贊成、中立或反對)時,詢問中立或反對者說明原因 ✅ **正解**
+- (b) Use a technique such as Fist of Five, where team members hold up one to five fingers to quantify their degree of support / 使用如「五指表決」(Fist of Five)之類的技巧,讓成員舉起一到五根手指來量化支持程度 ✅ **正解**
+- (c) Only count votes from the most senior team members present / 僅計算在場最資深成員的投票
+- (d) Avoid asking for reasons behind a vote, since this could prolong the meeting unnecessarily / 避免詢問投票背後的原因,因為這可能不必要地拖長會議時間
+
+**詳解**
+
+為確保決策獲得真正的團隊參與,常見做法包括進行簡單投票並詢問中立或反對者的理由,以便真正了解疑慮所在;另可使用「五指表決」(Fist of Five)等量化技巧,讓成員舉起一到五根手指表達支持程度,快速掌握團隊共識強弱。只採計資深成員意見或避免詢問理由,都會削弱團隊參與的真實性與決策品質。
+
+---
+
+### Q82. `res-082` — 拖拉配對題
+
+**題目 ID**: `res-082`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each decision-making technique to the description that best fits it.
+- 中: 請將下列決策技巧拖曳配對到最符合的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Multi-criteria Decision Analysis / 多準則決策分析
+- p2: Autocratic Decision / 專斷式決策
+- p3: Simple Voting / 簡單投票
+- p4: Fist of Five / 五指表決
+
+**選項池(拖曳目標)**
+
+- c1: Compares options against a table or matrix of criteria such as budget, feasibility, and risk / 依照預算、可行性、風險等準則,以表格或矩陣方式比較不同選項
+- c2: One individual, such as the project manager or a manager, decides on behalf of the team / 由一人,例如專案經理或主管,代表團隊做出決策
+- c3: Team members indicate agreement, neutrality, or disagreement, often by majority, unanimity, or plurality / 團隊成員表達贊成、中立或反對,常依多數決、一致決或多數相對決來判定
+- c4: Team members hold up one to five fingers to quantify how strongly they support a proposal / 團隊成員舉起一到五根手指,量化自己對提案的支持程度
+
+**✅ 正確配對**
+
+- p1 → c1: Multi-criteria Decision Analysis → Compares options against a table or matrix of criteria such as budget, feasibility, and risk（多準則決策分析 → 依照預算、可行性、風險等準則,以表格或矩陣方式比較不同選項）
+- p2 → c2: Autocratic Decision → One individual, such as the project manager or a manager, decides on behalf of the team（專斷式決策 → 由一人,例如專案經理或主管,代表團隊做出決策）
+- p3 → c3: Simple Voting → Team members indicate agreement, neutrality, or disagreement, often by majority, unanimity, or plurality（簡單投票 → 團隊成員表達贊成、中立或反對,常依多數決、一致決或多數相對決來判定）
+- p4 → c4: Fist of Five → Team members hold up one to five fingers to quantify how strongly they support a proposal（五指表決 → 團隊成員舉起一到五根手指,量化自己對提案的支持程度）
+
+**詳解**
+
+決策是選出最佳選項的工具,好的決策應基於數據。多準則決策分析用表格或矩陣比較不同選項在預算、可行性、風險等準則下的表現;專斷式決策由一人代表團隊決定,速度快但缺乏團隊參與;簡單投票依多數決、一致決或多數相對決判斷團隊意向;五指表決則是簡單投票的量化延伸,能更細緻地呈現支持強弱程度。四者各有適用情境,PM 應依時間壓力與所需共識程度選擇合適技巧。
+
+---
+
+### Q83. `res-083` — 下拉選單題
+
+**題目 ID**: `res-083`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: The project team must choose between three vendors for a critical piece of equipment, and the decision needs to account for cost, delivery timeline, and past reliability simultaneously. The project manager should apply {{blank1}}, which will help the team {{blank2}}.
+- 中: 專案團隊必須從三家供應商中選出一家提供關鍵設備,而決策需要同時考量成本、交期與過往可靠度。專案經理應採用 {{blank1}},以協助團隊 {{blank2}}。
+
+**blank1**
+
+- (a) Multi-criteria decision analysis, using a matrix to score each vendor against the relevant criteria / 多準則決策分析,使用矩陣依相關準則為每家供應商評分 ✅ **正解**
+- (b) An autocratic decision made solely by the project manager without consulting the team / 完全由專案經理獨自做出、不諮詢團隊的專斷式決策
+
+**blank2**
+
+- (a) Compare the options systematically across all relevant factors and select the most balanced choice / 有系統地在所有相關因素上比較各選項,選出最平衡的方案 ✅ **正解**
+- (b) Reach a decision faster by skipping any structured comparison between the vendors / 跳過任何結構化的供應商比較,以更快達成決策
+
+
+**詳解**
+
+當決策需要同時考量多項準則(如成本、交期、可靠度)時,多準則決策分析是最適合的工具,透過矩陣或表格為每個選項在各準則下評分,協助團隊有系統地比較並選出最平衡的方案。專斷式決策雖然速度快,但缺乏結構化比較,容易忽略某些重要準則,並非本情境的最佳選擇。
+
+---
+
+### Q84. `res-084` — 單選題
+
+**題目 ID**: `res-084`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A production issue is discovered just two hours before a hard deadline, and a decision on how to proceed must be made immediately. There is no time to gather the team's input or run a structured comparison of options. What type of decision-making is most appropriate here?
+- 中: 距離硬性截止時間只剩兩小時,發現了一個生產問題,必須立即決定如何處理,沒有時間徵詢團隊意見或進行結構化的選項比較。此情境下最適合採用哪一種決策方式?
+
+**選項**
+
+- (a) Autocratic decision, where the project manager or another individual decides on behalf of the team / 專斷式決策,由專案經理或另一位個人代表團隊做出決定 ✅ **正解**
+- (b) Multi-criteria decision analysis, comparing all options in a detailed matrix / 多準則決策分析,以詳細矩陣比較所有選項
+- (c) Unanimity voting, requiring every team member to agree / 一致決投票,需要每位團隊成員都同意
+- (d) A lengthy brainstorming workshop to generate alternative solutions / 舉行冗長的腦力激盪工作坊來產出替代方案
+
+**詳解**
+
+在時間極度緊迫、沒有餘裕徵詢團隊或進行結構化比較的情境下,專斷式決策(由一人代表團隊迅速決定)是最務實的做法。多準則決策分析與一致決投票都需要較多時間才能完成,腦力激盪工作坊更不適合在僅剩兩小時的緊急情況下進行,皆非本情境的合適選擇。
+
+---
+
+### Q85. `res-085` — 單選題
+
+**題目 ID**: `res-085`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A team member consistently seeks step-by-step instructions, prefers concrete facts over abstract possibilities, and makes decisions based on logical analysis rather than personal feelings. According to the Myers-Briggs Type Indicator (MBTI), which two preferences does this best suggest?
+- 中: 一位團隊成員總是喜歡逐步明確的指示,偏好具體事實而非抽象的可能性,並依邏輯分析而非個人情感來做決策。依照邁爾斯-布里格斯性格分類法(MBTI),這最符合下列哪兩項偏好?
+
+**選項**
+
+- (a) Sensing (S) for gathering information, and Thinking (T) for making decisions / 資訊接收方式偏好實感(S),決策方式偏好思維(T) ✅ **正解**
+- (b) Intuition (N) for gathering information, and Feeling (F) for making decisions / 資訊接收方式偏好直覺(N),決策方式偏好情感(F)
+- (c) Extraversion (E) for energy source, and Judging (J) for lifestyle / 能量來源偏好外向(E),生活風格偏好判斷(J)
+- (d) Introversion (I) for energy source, and Perceiving (P) for lifestyle / 能量來源偏好內向(I),生活風格偏好感知(P)
+
+**詳解**
+
+MBTI 依四個維度描述人格偏好:能量來源(外向 E / 內向 I)、接收資訊方式(實感 S / 直覺 N)、決策方式(思維 T / 情感 F)、生活風格(判斷 J / 感知 P)。題目描述偏好具體事實而非抽象可能性,對應接收資訊方式的實感(S);依邏輯分析而非情感做決策,對應決策方式的思維(T)。選項中其餘維度組合雖也屬於 MBTI 的偏好類別,但與題幹描述的具體行為不符。
+
+---
+
+### Q86. `res-086` — 多選題
+
+**題目 ID**: `res-086`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: When conducting negotiation as a project manager, whether upward with a sponsor, downward with a team member, or across with a peer manager, which three of the following approaches are recommended? Select three.
+- 中: 專案經理進行協商時,無論是向上與贊助人協商、向下與團隊成員協商,或是與平行的其他管理者協商,下列哪三項是建議採取的做法?(選三項)
+
+**選項**
+
+- (a) Maintain a positive and respectful tone throughout the discussion / 在整個討論過程中保持正向且尊重的態度 ✅ **正解**
+- (b) Show empathy by trying to understand the other party's underlying interests / 展現同理心,試著理解對方潛在的利益與考量 ✅ **正解**
+- (c) Keep the customer's interests and satisfaction in mind even when negotiating internally / 即使是內部協商,也要將客戶的利益與滿意度放在心上 ✅ **正解**
+- (d) Frame every negotiation as a contest that the project manager must win outright / 將每一次協商都視為專案經理必須完全獲勝的競賽
+- (e) Withhold information from the other party to gain leverage regardless of the relationship / 無論關係如何,都對對方隱瞞資訊以取得談判優勢
+
+**詳解**
+
+協商是專案經理常需扮演的角色,無論是向上、向下或平行協商,都應保持正向、尊重的態度,展現同理心以理解對方的考量,並隨時將客戶的利益與滿意度放在心上。將協商當作必須獲勝的零和競賽、或刻意隱瞞資訊取得優勢,都容易破壞長期合作關係,並非建議的協商做法。
+
+---
+
+### Q87. `res-087` — 拖拉配對題
+
+**題目 ID**: `res-087`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Drag and match each direction of negotiation a project manager may need to conduct to the example that best fits it.
+- 中: 請將下列專案經理可能需要進行的協商方向拖曳配對到最符合的範例。
+
+**配對項目(拖曳來源)**
+
+- p1: Upward Negotiation / 向上協商
+- p2: Downward Negotiation / 向下協商
+- p3: Parallel Negotiation / 平行協商
+
+**選項池(拖曳目標)**
+
+- c1: The project manager asks the sponsor to approve additional budget for a critical resource / 專案經理向贊助人請求核准額外預算以取得關鍵資源
+- c2: The project manager asks a team member to take on an additional task outside their usual scope / 專案經理請一位團隊成員承接超出其原本範疇的額外任務
+- c3: The project manager negotiates with another project manager in the same organization over sharing a scarce piece of equipment / 專案經理與同組織內另一位專案經理協商共用稀缺設備
+
+**✅ 正確配對**
+
+- p1 → c1: Upward Negotiation → The project manager asks the sponsor to approve additional budget for a critical resource（向上協商 → 專案經理向贊助人請求核准額外預算以取得關鍵資源）
+- p2 → c2: Downward Negotiation → The project manager asks a team member to take on an additional task outside their usual scope（向下協商 → 專案經理請一位團隊成員承接超出其原本範疇的額外任務）
+- p3 → c3: Parallel Negotiation → The project manager negotiates with another project manager in the same organization over sharing a scarce piece of equipment（平行協商 → 專案經理與同組織內另一位專案經理協商共用稀缺設備）
+
+**詳解**
+
+專案經理需要在不同方向上進行協商:向上協商是與職權較高者(如贊助人)協商,例如爭取預算;向下協商是與團隊成員協商,例如請求承接額外任務;平行協商則是與職權相當的其他管理者協商,例如共享稀缺資源。無論方向為何,都應秉持正向尊重、同理心的態度,並考量客戶滿意度。
+
+---
+
+### Q88. `res-088` — 單選題
+
+**題目 ID**: `res-088`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: During Plan Resource Management, senior management explicitly treats the organization's skilled workforce and specialized equipment as a source of competitive advantage over rivals, factoring this into how resources are planned and retained. Which concept does this best reflect?
+- 中: 在「規劃資源管理」過程中,高階管理層明確將組織中具備專業技能的人力與特殊設備視為相對於競爭對手的競爭優勢來源,並將此考量納入資源規劃與留任決策中。這最能反映下列哪一個概念?
+
+**選項**
+
+- (a) Resource-Based View, treating human and physical resources as a source of competitive advantage / 資源基礎觀點(Resource-Based View),將人力與實體資源視為競爭優勢的來源 ✅ **正解**
+- (b) Green HRM, focusing on environmentally sustainable resource practices / 綠色人力資源管理(Green HRM),著重環境永續的資源作法
+- (c) Resource Breakdown Structure, categorizing resources hierarchically / 資源分解結構(RBS),依類別階層化地分類資源
+- (d) Resource Smoothing, adjusting activities within available float / 資源平滑,在可用浮時內調整活動
+
+**詳解**
+
+資源基礎觀點(Resource-Based View)是 Plan Resource Management 中的一種資料分析方法,將組織的人力與實體資源視為相對於競爭對手的競爭優勢來源,進而影響資源的規劃、投資與留任策略。Green HRM 著重環境永續考量,RBS 是分類資源的階層圖表,資源平滑則是解決資源衝突的時程技術,三者概念皆與本情境描述的「競爭優勢」觀點不同。
+
+---
+
+### Q89. `res-089` — 多選題
+
+**題目 ID**: `res-089`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: As part of practicing Green HRM (Human Resource Management) considerations while planning resources, which two of the following actions would the project manager most likely take? Select two.
+- 中: 身為在規劃資源時實踐綠色人力資源管理(Green HRM)考量的一部分,專案經理最可能採取下列哪兩項行動?(選兩項)
+
+**選項**
+
+- (a) Reduce unnecessary business travel and commuting by favoring virtual meetings where practical / 在可行的情況下優先採用視訊會議,減少不必要的商務差旅與通勤 ✅ **正解**
+- (b) Factor environmental sustainability and long-term ecological impact into resourcing decisions / 將環境永續性與長期生態影響納入資源決策考量 ✅ **正解**
+- (c) Maximize the number of in-person flights taken regardless of cost or environmental impact / 無論成本或環境影響,盡量增加搭機出差的次數
+- (d) Ignore environmental factors entirely since they fall outside the project manager's responsibility / 完全忽略環境因素,因為這不屬於專案經理的職責範圍
+
+**詳解**
+
+Green HRM 是 Plan Resource Management 過程中考量環境與永續性的做法,包括減少通勤與差旅(例如優先使用視訊會議)、將環境永續性納入資源決策考量等。刻意增加不必要的差旅或完全忽視環境因素,皆與 Green HRM 的精神背道而馳。
+
+---
+
+### Q90. `res-090` — 單選題
+
+**題目 ID**: `res-090`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: An organization has only five projects and a small, stable team, so the project manager keeps most day-to-day decisions and authority centered on herself rather than spreading them across the team. Which leadership approach is this project manager applying?
+- 中: 某組織僅有五個專案,且團隊規模小、成員穩定,因此專案經理將多數日常決策與職權集中掌握在自己身上,而非分散給團隊。此專案經理採用的是哪一種領導方式?
+
+**選項**
+
+- (a) Centralized leadership, which tends to suit smaller teams and can improve efficiency / 集中式領導,通常適合較小型的團隊,並能提升效率 ✅ **正解**
+- (b) Distributed leadership, where decisions and authority are spread relatively evenly across the team / 分散式領導,將決策與職權相對平均地分佈於團隊之中
+- (c) Laissez-faire leadership, giving the team near-total autonomy / 放任型領導,給予團隊近乎完全的自主權
+- (d) Servant leadership, focused primarily on removing obstacles for the team / 服務型領導,主要專注於為團隊排除障礙
+
+**詳解**
+
+集中式管理與領導將決策與職權集中於少數人(通常是 PM)身上,適合規模較小的團隊,能提升效率;分散式管理與領導則將決策與職權相對平均地分佈給團隊成員。本情境描述職權集中於 PM 一人,且團隊規模小,符合集中式領導的特徵。放任型領導強調高度授權自主,服務型領導則以排除障礙、賦權協作為核心,皆與題幹描述不符。
+
+---
+
+### Q91. `res-091` — 點擊熱區題
+
+**題目 ID**: `res-091`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A project manager leading a team spanning several countries makes a deliberate effort to understand and adapt to each culture's norms around hierarchy, feedback, and decision-making, rather than assuming everyone shares the same expectations. Click the card that correctly names this capability.
+- 中: 一位帶領橫跨多國團隊的專案經理刻意花心力理解並調整自己以適應各文化在階級觀念、回饋方式與決策習慣上的不同規範,而非假設所有人都抱持相同期待。請點選正確命名此能力的卡片。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Cultural Intelligence (CQ) / 文化智商(Cultural Intelligence) ✅ **正解** [x=5,y=5,w=40,h=35]
+- (n2) Emotional Intelligence (EI) / 情緒智商(Emotional Intelligence) [x=52.5,y=5,w=40,h=35]
+- (n3) Servant Leadership / 服務型領導(Servant Leadership) [x=5,y=47.5,w=40,h=35]
+- (n4) Centralized Leadership / 集中式領導(Centralized Leadership) [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+文化智商(Cultural Intelligence, CQ)是指有效地與不同文化背景的人協作的能力,包含理解並調整自身行為以適應不同文化在階級、回饋、決策等方面的規範差異。情緒智商著重管理自身與他人的情緒;服務型領導著重排除障礙、賦權團隊;集中式領導著重決策職權集中,三者皆非本情境描述的跨文化協作能力。
+
+---
+
+### Q92. `res-092` — 多選題
+
+**題目 ID**: `res-092`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: When acquiring a virtual team spread across multiple locations, which three of the following are recognized challenges the project manager should proactively plan for? Select three.
+- 中: 在取得一個橫跨多個地點的虛擬團隊時,下列哪三項是專案經理應主動規劃因應的常見挑戰?(選三項)
+
+**選項**
+
+- (a) Technology and equipment barriers that can hinder smooth collaboration / 可能阻礙順暢協作的科技與設備障礙 ✅ **正解**
+- (b) Lower levels of interpersonal connection compared to working face-to-face / 相較於面對面工作,人際聯繫程度較低 ✅ **正解**
+- (c) Language and cultural gaps among team members in different locations / 不同地點團隊成員間存在語言與文化隔閡 ✅ **正解**
+- (d) An automatic increase in overall project cost regardless of any other factors / 無論其他因素為何,整體專案成本必然自動增加
+- (e) A guaranteed reduction in the diversity of ideas the team can generate / 團隊能產出的構想多樣性必然降低
+
+**詳解**
+
+虛擬團隊雖然帶來多樣性與跨時區接力工作的好處,但也存在真實挑戰,包括科技與設備障礙、人際聯繫程度較低、語言與文化隔閡等,專案經理應主動規劃因應措施(如建立溝通準則、善用視訊)。虛擬團隊不必然導致成本自動增加,反而常帶來更廣泛的多樣性與觀點,選項 (d)(e) 的說法並不成立。
+
+---
+
+### Q93. `res-093` — 拖拉配對題
+
+**題目 ID**: `res-093`
+
+難度: `hard` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each advanced Estimate Resources technique to its description.
+- 中: 請將下列「估算資源」流程的進階技術拖曳配對到其描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Branch and Bound / 分支界限法
+- p2: Genetic Algorithm / 基因演算法
+- p3: COCOMO / 建構性成本模型
+- p4: Predictive Analytics / 預測性分析
+
+**選項池(拖曳目標)**
+
+- c1: Tests different resource combinations under given constraints and eliminates weaker options until the best solution remains / 在既定限制下測試不同的資源組合,並逐步淘汰較差的選項,直到留下最佳解
+- c2: Mimics natural selection to test and evolve multiple team composition scenarios toward a balanced allocation / 模仿物競天擇,測試並演化多種團隊組合方案,找出平衡的資源分配
+- c3: Estimates the effort, time, and resources needed for a software project based on its size and complexity / 依軟體專案的規模與複雜度,估算所需的工作量、時間與資源
+- c4: Uses historical data patterns to forecast future resource needs / 運用歷史資料模式來預測未來的資源需求
+
+**✅ 正確配對**
+
+- p1 → c1: Branch and Bound → Tests different resource combinations under given constraints and eliminates weaker options until the best solution remains（分支界限法 → 在既定限制下測試不同的資源組合,並逐步淘汰較差的選項,直到留下最佳解）
+- p2 → c2: Genetic Algorithm → Mimics natural selection to test and evolve multiple team composition scenarios toward a balanced allocation（基因演算法 → 模仿物競天擇,測試並演化多種團隊組合方案,找出平衡的資源分配）
+- p3 → c3: COCOMO → Estimates the effort, time, and resources needed for a software project based on its size and complexity（建構性成本模型 → 依軟體專案的規模與複雜度,估算所需的工作量、時間與資源）
+- p4 → c4: Predictive Analytics → Uses historical data patterns to forecast future resource needs（預測性分析 → 運用歷史資料模式來預測未來的資源需求）
+
+**詳解**
+
+隨著科技發展,估算資源流程也逐漸納入進階分析技術:分支界限法在限制條件下測試不同資源組合並逐步淘汰劣選項;基因演算法模仿物競天擇的概念,演化出多種團隊搭配方案以求平衡;COCOMO 是依軟體專案規模估算工作量與資源的模型;預測性分析則運用歷史資料預測未來資源需求。這些技術有助於在複雜專案中找到更佳的資源配置方案。
+
+---
+
+### Q94. `res-094` — 單選題
+
+**題目 ID**: `res-094`
+
+難度: `hard` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A software project manager wants to test several different team compositions, such as two front-end engineers with one back-end engineer versus one designer with two engineers and one QA specialist, in order to find the most balanced allocation of work across the team. Which technique, inspired by the process of natural selection, is best suited to this purpose?
+- 中: 某軟體專案經理想測試多種不同的團隊組合,例如兩位前端工程師搭配一位後端工程師,或一位設計師搭配兩位工程師與一位 QA,以找出團隊工作分配最平衡的方案。下列哪一種受物競天擇過程啟發的技術最適合此目的?
+
+**選項**
+
+- (a) Genetic Algorithm / 基因演算法(Genetic Algorithm) ✅ **正解**
+- (b) COCOMO / 建構性成本模型(COCOMO)
+- (c) Bottom-up Estimating / 由下而上估算(Bottom-up Estimating)
+- (d) Resource Leveling / 資源撫平(Resource Leveling)
+
+**詳解**
+
+基因演算法(Genetic Algorithm)是一種模仿達爾文「物競天擇、適者生存」概念的搜尋與最佳化演算法,可用於測試多種團隊搭配方案,協助平衡成員的工作分配。COCOMO 是依軟體規模估算工作量的模型;由下而上估算是逐項加總的傳統估算技術;資源撫平則是解決資源衝突、可能影響要徑的時程技術,皆非本情境描述、受物競天擇啟發的技術。
+
+---
+
+### Q95. `res-095` — 點擊熱區題
+
+**題目 ID**: `res-095`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: To estimate resource needs for a new factory layout, the project team uses immersive simulation technology that lets stakeholders virtually walk through the proposed physical environment before construction begins. Click the card that correctly names this type of tool.
+- 中: 為了估算新廠房配置所需的資源,專案團隊使用沉浸式模擬技術,讓利害關係人能在動工前,以虛擬方式親身走訪所提議的實體環境。請點選正確命名此類工具的卡片。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Virtual Reality (VR) simulation / 虛擬實境(VR)模擬 ✅ **正解** [x=5,y=5,w=40,h=35]
+- (n2) Resource Breakdown Structure / 資源分解結構(RBS) [x=52.5,y=5,w=40,h=35]
+- (n3) Resource Histogram / 資源直方圖(Resource Histogram) [x=5,y=47.5,w=40,h=35]
+- (n4) Multi-criteria Decision Analysis / 多準則決策分析 [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+虛擬實境(VR)模擬是估算資源流程中可運用的技術之一,常用於實體場域(如建築、廠房)專案,讓利害關係人能在動工前以沉浸式方式體驗規劃中的環境,協助更準確地評估空間與資源需求。資源分解結構是分類資源的階層圖表,資源直方圖是呈現資源使用狀況的長條圖,多準則決策分析則是比較選項的決策工具,皆非本情境描述的沉浸式模擬技術。
+
+---
+
+### Q96. `res-096` — 點擊熱區題
+
+**題目 ID**: `res-096`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: While planning resources, the project manager facilitates a session to identify the team's internal strengths and weaknesses regarding available resources, along with external opportunities and threats such as market conditions affecting resource availability. Click the card that correctly names this data analysis technique.
+- 中: 在規劃資源的過程中,專案經理主持一場會議,以找出團隊在可用資源方面的內部優勢與劣勢,以及外部機會與威脅,例如影響資源可得性的市場狀況。請點選正確命名此資料分析技術的卡片。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) SWOT Analysis / SWOT 分析(強弱危機分析) ✅ **正解** [x=5,y=5,w=40,h=35]
+- (n2) Alternative Analysis / 替代方案分析(Alternative Analysis) [x=52.5,y=5,w=40,h=35]
+- (n3) Variance Analysis / 差異分析(Variance Analysis) [x=5,y=47.5,w=40,h=35]
+- (n4) Trend Analysis / 趨勢分析(Trend Analysis) [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+SWOT 分析(強項 Strengths、弱項 Weaknesses、機會 Opportunities、威脅 Threats)是 Plan Resource Management 過程中常用的資料分析技術,用來檢視與資源相關的內部強弱項及外部機會威脅。替代方案分析用於比較不同完成工作的方式;差異分析比較計畫與實際結果;趨勢分析則觀察長期資料模式,三者皆非本情境描述、同時檢視內外部資源因素的技術。
+
+---
+
+### Q97. `res-097` — 下拉選單題
+
+**題目 ID**: `res-097`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: After completing Estimate Resources, the project manager produces a document describing the type and quantity of resources needed for each work package, called {{blank1}}. This document is supported by supplementary information, assumptions, and constraints, which are captured in {{blank2}}.
+- 中: 完成「估算資源」流程後,專案經理產出一份描述各工作包所需資源種類與數量的文件,稱為 {{blank1}}。此文件由額外的補充資訊、假設與限制所支持,這些內容記錄於 {{blank2}}。
+
+**blank1**
+
+- (a) Resource Requirements / 資源需求(Resource Requirements) ✅ **正解**
+- (b) Resource Calendars / 資源日曆(Resource Calendars)
+
+**blank2**
+
+- (a) The Basis of Estimates / 估算基礎(Basis of Estimates) ✅ **正解**
+- (b) The Cost Baseline / 成本基準(Cost Baseline)
+
+
+**詳解**
+
+估算資源流程的重要產出之一為資源需求(Resource Requirements),描述個別活動、工作包或整體專案所需資源的種類與數量;而估算基礎(Basis of Estimates)則記錄支持這些估算的資訊、假設與變數,協助日後追溯估算依據。資源日曆是記錄資源可用時間的文件,成本基準則屬於成本管理領域的產出,皆非本題描述的兩份文件。
+
+---
+
+### Q98. `res-098` — 多選題
+
+**題目 ID**: `res-098`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: When creating a Responsibility Assignment Matrix (RAM) during Plan Resource Management, which three of the following are recognized formats for representing roles and responsibilities? Select three.
+- 中: 在「規劃資源管理」過程中建立責任分派矩陣(RAM)時,下列哪三項屬於呈現角色與責任的常見格式?(選三項)
+
+**選項**
+
+- (a) A hierarchical chart, similar in structure to an organization chart / 階層圖表,結構類似組織圖 ✅ **正解**
+- (b) A RACI matrix showing Responsible, Accountable, Consulted, and Informed roles / RACI 矩陣,呈現負責、當責、諮詢與告知等角色 ✅ **正解**
+- (c) A text-oriented format describing role titles and responsibilities in narrative form / 文字導向格式,以敘述方式描述職稱與職責 ✅ **正解**
+- (d) A control chart tracking whether a process is within statistical limits / 管制圖,追蹤流程是否落在統計管制界限內
+- (e) A network diagram showing the sequence of scheduled activities / 網路圖,呈現排定活動的先後順序
+
+**詳解**
+
+責任分派矩陣(RAM)的常見呈現格式包括階層圖表(結構類似組織圖)、RACI 矩陣(常見格式,標示負責、當責、諮詢、告知)以及文字導向格式(以敘述方式描述職稱與職責)。管制圖屬於品質管理工具,網路圖則屬於時程管理的排程工具,皆非用於呈現角色與責任的格式。
+
+---
+
+### Q99. `res-099` — 下拉選單題
+
+**題目 ID**: `res-099`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: The project manager first compares this month's actual equipment utilization against what the resource management plan had originally planned, which is an example of {{blank1}}. Over the following months, she also notices resource shortages spiking every quarter around the same time, a recurring pattern she identifies using {{blank2}}.
+- 中: 專案經理先將本月實際設備使用狀況,與資源管理計畫原先規劃的內容進行比較,這是 {{blank1}} 的一個範例。接下來的幾個月,她也發現資源短缺傾向於每季在相近時間點出現高峰,這是一種重複性模式,她是運用 {{blank2}} 辨識出來的。
+
+**blank1**
+
+- (a) Variance Analysis, comparing planned results against actual results / 差異分析(Variance Analysis),比較計畫結果與實際發生的結果 ✅ **正解**
+- (b) Trend Analysis, observing long-term patterns and behaviors / 趨勢分析(Trend Analysis),觀察長期趨勢與行為模式
+
+**blank2**
+
+- (a) Trend Analysis, observing patterns and behaviors over a longer period / 趨勢分析(Trend Analysis),觀察較長期的模式與行為 ✅ **正解**
+- (b) Variance Analysis, comparing planned results against actual results at a single point in time / 差異分析(Variance Analysis),於單一時間點比較計畫與實際結果
+
+
+**詳解**
+
+差異分析(Variance Analysis)是比較計畫結果與實際發生結果的技術,適合偵測單一時間點是否出現偏差,例如比較本月實際設備使用與原計畫的差距;趨勢分析(Trend Analysis)則著重觀察較長期的資料模式與行為趨勢,適合用來辨識如「每季固定時間點出現資源短缺高峰」這類重複性模式。兩者都屬於資料分析工具,但適用的時間尺度與目的不同,容易混淆。
+
+---
+
+### Q100. `res-100` — 拖拉配對題
+
+**題目 ID**: `res-100`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each output of the Lead the Team process to its description.
+- 中: 請將下列「領導團隊」(Lead the Team)流程的產出拖曳配對到其描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Team Performance Assessment / 團隊績效評估
+- p2: Change Requests / 變更請求
+- p3: Resource Management Plan Updates / 資源管理計畫更新
+- p4: Project Document Updates / 專案文件更新
+
+**選項池(拖曳目標)**
+
+- c1: A formal evaluation of how effectively the team is performing, often based on individual and team assessment tools / 對團隊實際表現效能的正式評估,通常依據個體與團隊評估工具而來
+- c2: A formal request submitted through change control when leading the team reveals a need for additional resources or budget / 當領導團隊過程中發現需要額外資源或預算時,透過變更管制提交的正式請求
+- c3: Revisions to the plan describing how team roles, responsibilities, and rewards will be managed going forward / 修訂描述未來將如何管理團隊角色、職責與獎勵的計畫內容
+- c4: Revisions to items such as the issue log or lessons learned register based on what happened while leading the team / 依領導團隊過程中發生的事,修訂議題記錄或經驗學習登錄冊等文件
+
+**✅ 正確配對**
+
+- p1 → c1: Team Performance Assessment → A formal evaluation of how effectively the team is performing, often based on individual and team assessment tools（團隊績效評估 → 對團隊實際表現效能的正式評估,通常依據個體與團隊評估工具而來）
+- p2 → c2: Change Requests → A formal request submitted through change control when leading the team reveals a need for additional resources or budget（變更請求 → 當領導團隊過程中發現需要額外資源或預算時,透過變更管制提交的正式請求）
+- p3 → c3: Resource Management Plan Updates → Revisions to the plan describing how team roles, responsibilities, and rewards will be managed going forward（資源管理計畫更新 → 修訂描述未來將如何管理團隊角色、職責與獎勵的計畫內容）
+- p4 → c4: Project Document Updates → Revisions to items such as the issue log or lessons learned register based on what happened while leading the team（專案文件更新 → 依領導團隊過程中發生的事,修訂議題記錄或經驗學習登錄冊等文件）
+
+**詳解**
+
+「領導團隊」(Lead the Team)過程的主要產出包括:團隊績效評估(正式評估團隊表現效能)、變更請求(當發現需要額外資源或預算時提出)、資源管理計畫更新(修訂角色、職責、獎勵等內容),以及專案文件更新(如議題記錄、經驗學習登錄冊等)。理解這些產出有助於區分「領導團隊」與其他資源相關過程(如估算資源、取得資源)在 ITTO 上的差異。
+
+---
+
+### Q101. `res-101` — 單選題
+
+**題目 ID**: `res-101`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: In a RACI matrix, a senior engineer must provide input and expert opinion before a technical decision is finalized, but does not personally perform the work and is not accountable for the outcome. Which RACI designation applies to this senior engineer?
+- 中: 在 RACI 矩陣中,一位資深工程師必須在技術決策定案前提供意見與專業看法,但本人並不實際執行工作,也不對結果負最終責任。此資深工程師應標示為哪一種 RACI 角色?
+
+**選項**
+
+- (a) Responsible / 負責(Responsible)
+- (b) Accountable / 當責(Accountable)
+- (c) Consulted / 諮詢(Consulted) ✅ **正解**
+- (d) Informed / 告知(Informed)
+
+**詳解**
+
+Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或專業看法的角色,屬於雙向溝通;Informed(告知)則是在決策或工作完成「之後」才被告知結果的角色,屬於單向溝通,兩者容易混淆。本情境中資深工程師需要在決策定案前提供意見,屬於 Consulted;若只是在決策定案後被通知結果,則屬於 Informed。Responsible 是實際執行工作者,Accountable 則是對結果負最終責任者,與題幹描述皆不符。
+
+---
+
+### Q102. `res-102` — 下拉選單題
+
+**題目 ID**: `res-102`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A newly formed team is about to begin work together for the first time. To establish shared values, communication guidelines, and decision-making norms, the project manager should first {{blank1}}. Later, if a team member repeatedly violates one of these agreed norms, the project manager should {{blank2}}.
+- 中: 一個新組成的團隊即將首次一起展開工作。為建立共同價值觀、溝通準則與決策規範,專案經理應該先 {{blank1}}。之後,若有成員反覆違反其中一項已達成共識的規範,專案經理應該 {{blank2}}。
+
+**blank1**
+
+- (a) Facilitate the team in co-creating a Team Charter together, rather than dictating it alone / 引導團隊共同創造團隊章程(Team Charter),而非由自己單方面訂定 ✅ **正解**
+- (b) Write the Team Charter alone and distribute it to the team as a fixed set of rules / 獨自撰寫團隊章程,並將其作為固定規則分發給團隊
+
+**blank2**
+
+- (a) Refer back to the team-agreed Team Charter and discuss the violation with the individual / 回頭參照團隊共同同意的團隊章程,與該成員討論此違規行為 ✅ **正解**
+- (b) Quietly ignore the violation to avoid any confrontation with the team member / 為避免與該成員發生正面衝突,選擇默默忽視此違規行為
+
+
+**詳解**
+
+團隊章程(Team Charter)最好由團隊成員共同創造,而非由 PM 單方面訂定,才能提高團隊對規範的認同感與遵守意願。當後續有成員違反已達成共識的規範時,PM 應回頭參照團隊章程,與當事人討論違規行為,而非默默忽視,才能維持團隊章程的效力與團隊運作的一致性。
+
+---
+
+### Q103. `res-103` — 下拉選單題
+
+**題目 ID**: `res-103`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A project manager wants to better understand each team member's individual strengths and weaknesses relative to one another before assigning pairs of members to work together on complex tasks. She should first use {{blank1}} to gather this information, and then use the results to {{blank2}}.
+- 中: 專案經理希望在指派成員兩兩搭檔處理複雜任務之前,先更了解每位成員相對彼此的個人強項與弱項。她應該先使用 {{blank1}} 來蒐集這些資訊,再依結果 {{blank2}}。
+
+**blank1**
+
+- (a) Individual and Team Assessment tools / 個體與團體評估(Individual and Team Assessment)工具 ✅ **正解**
+- (b) A formal performance appraisal tied to compensation / 與薪酬掛鉤的正式績效考核
+
+**blank2**
+
+- (a) Pair members with complementary strengths and weaknesses to work together more effectively / 將強項與弱項互補的成員配對,以更有效地協作 ✅ **正解**
+- (b) Rank all team members from best to worst and publicly announce the ranking / 將所有團隊成員從優到劣排名並公開宣布排名結果
+
+
+**詳解**
+
+個體與團體評估(Individual and Team Assessment)工具能協助專案經理了解每位成員的強項與弱項,以及成員間的相對表現,是 Lead the Team 過程中常用的人際與團隊技巧之一。了解這些資訊後,PM 應善用結果將強弱互補的成員配對協作,而非用於與薪酬掛鉤的正式考核,也不應公開排名羞辱表現較弱的成員,以免打擊士氣。
+
+---
+
+### Q104. `res-104` — 單選題
+
+**題目 ID**: `res-104`
+
+難度: `easy` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A co-located team has two members who begin disagreeing sharply over a technical decision during a video call. Given that both members are actually sitting in the same office building, what should the project manager most likely encourage first?
+- 中: 一個同地辦公的團隊中,有兩位成員在視訊通話中就某項技術決策發生激烈分歧。考量到兩人實際上都在同一棟辦公大樓內,專案經理最應優先鼓勵下列何者?
+
+**選項**
+
+- (a) Have the two members step away from the call and discuss the disagreement face-to-face in person / 請兩位成員暫時離開通話,改為面對面當面討論此分歧 ✅ **正解**
+- (b) Continue the disagreement over video call since it has already started / 既然已經開始,就繼續透過視訊通話進行此爭論
+- (c) Ask both members to submit their arguments in writing via email instead / 改請兩位成員改以電子郵件書面提交各自的論點
+- (d) Escalate the disagreement immediately to the sponsor without further discussion / 不經進一步討論,立即將此分歧上呈贊助人
+
+**詳解**
+
+當團隊已經同地辦公時,若發生衝突,最好能改為面對面線下討論,因為實體互動通常更容易化解誤會、傳遞語氣與非語言線索,有助於更有效地解決分歧。繼續透過視訊通話、改用書面郵件溝通,反而可能因缺乏語氣與情境線索而加深誤解;未經任何討論就直接上呈贊助人,也並非優先應採取的做法。
+
+---
+
+### Q105. `res-105` — 單選題
+
+**題目 ID**: `res-105`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager wants to engage the team in solving a persistent process problem, believing that team members closest to the work will produce the best solution. However, the team has recently experienced high turnover and members barely trust or know one another. What is most likely to undermine this collaborative problem-solving effort?
+- 中: 專案經理希望讓團隊參與解決一個持續存在的流程問題,認為最貼近工作現場的成員最能提出最佳解方。然而,團隊近期人員流動率高,成員之間幾乎互不信任也不熟悉彼此。下列何者最可能破壞此協作解決問題的努力?
+
+**選項**
+
+- (a) Poor team cohesion, which undermines the trust needed for members to contribute openly / 團隊凝聚力不足,削弱了成員坦誠貢獻意見所需的信任基礎 ✅ **正解**
+- (b) The problem being solved is too well-defined and specific / 所要解決的問題定義過於清楚具體
+- (c) Too many team members having relevant domain knowledge / 過多團隊成員具備相關領域知識
+- (d) The project manager choosing not to solve the problem alone / 專案經理選擇不獨自解決此問題
+
+**詳解**
+
+讓團隊參與解決問題有助於取得共識、匯集不同背景觀點,並提升成員的自信與務實判斷,但前提是團隊本身需具備一定的凝聚力與信任基礎。當團隊凝聚力不足(Poor Team Cohesion)時,成員可能不願坦誠分享意見或彼此猜忌,反而削弱協作解決問題的效果。問題定義清楚、成員具備領域知識、PM 不獨自解決問題,皆非阻礙協作解決問題的因素,反而通常有助於此過程。
+
+---
+
+### Q106. `res-106` — 多選題
+
+**題目 ID**: `res-106`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Why does actively engaging team members in solving problems, rather than the project manager solving them alone, generally lead to better outcomes? Select three.
+- 中: 為何主動讓團隊成員參與解決問題,而非由專案經理獨自解決,通常能帶來更好的成效?(選三項)
+
+**選項**
+
+- (a) It helps build consensus around the chosen solution / 有助於針對所選方案建立共識 ✅ **正解**
+- (b) It brings together diverse project backgrounds and perspectives / 能匯集不同的專案背景與觀點 ✅ **正解**
+- (c) Team members tend to be more realistic since they understand their own capabilities / 團隊成員通常較為務實,因為他們了解自己的能力 ✅ **正解**
+- (d) It guarantees the problem will be fully resolved on the very first attempt / 能保證問題在第一次嘗試就能完全解決
+- (e) It removes the need for the project manager to ever facilitate discussions / 能讓專案經理完全不必再引導任何討論
+
+**詳解**
+
+讓團隊成員參與解決問題的好處包括:有助於建立共識、匯集不同專案背景與觀點,以及成員因了解自身能力而傾向給出較務實的判斷,進而提升面對問題時的自信。然而,參與解決問題並不保證第一次就能完全解決問題,某些問題本身也可能無法被徹底解決;PM 仍需持續扮演引導者的角色,並非因此完全卸下引導責任。
+
+---
+
+### Q107. `res-107` — 拖拉配對題
+
+**題目 ID**: `res-107`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each common negative schedule-related behavior to its description.
+- 中: 請將下列常見的負面時程相關行為拖曳配對到其描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Student Syndrome / 學生症候群
+- p2: Parkinson's Law / 帕金森定律
+- p3: Self-Protection / 自我保護
+- p4: Sandbagging / 灌沙袋(過度預估)
+- p5: Dropped Baton / 掉棒
+
+**選項池(拖曳目標)**
+
+- c1: A person delays starting an activity until the deadline is close, then rushes to complete it / 一個人拖延到接近截止日期才開始一項活動,然後才匆忙趕工完成
+- c2: Work tends to expand to fill the entire time allotted, even if it could be finished sooner / 工作往往會膨脹以填滿所分配的全部時間,即使原本能更早完成
+- c3: A person hides or downplays problems to avoid being held accountable for them / 一個人隱藏或淡化問題,以避免因此被究責
+- c4: A person deliberately overestimates how long a task will take in order to appear to perform well / 一個人刻意高估任務所需時間,以顯得自己表現良好
+- c5: Poor-quality or incomplete handoff of work to the next person causes rework or delay / 交接給下一位負責人的工作品質不佳或不完整,導致重工或延遲
+
+**✅ 正確配對**
+
+- p1 → c1: Student Syndrome → A person delays starting an activity until the deadline is close, then rushes to complete it（學生症候群 → 一個人拖延到接近截止日期才開始一項活動,然後才匆忙趕工完成）
+- p2 → c2: Parkinson's Law → Work tends to expand to fill the entire time allotted, even if it could be finished sooner（帕金森定律 → 工作往往會膨脹以填滿所分配的全部時間,即使原本能更早完成）
+- p3 → c3: Self-Protection → A person hides or downplays problems to avoid being held accountable for them（自我保護 → 一個人隱藏或淡化問題,以避免因此被究責）
+- p4 → c4: Sandbagging → A person deliberately overestimates how long a task will take in order to appear to perform well（灌沙袋(過度預估) → 一個人刻意高估任務所需時間,以顯得自己表現良好）
+- p5 → c5: Dropped Baton → Poor-quality or incomplete handoff of work to the next person causes rework or delay（掉棒 → 交接給下一位負責人的工作品質不佳或不完整,導致重工或延遲）
+
+**詳解**
+
+這五種是專案中常見的負面時程相關行為:學生症候群指拖到最後一刻才開始工作;帕金森定律指工作會膨脹以填滿所分配的全部時間(即使 5 天能完成的工作,分配 10 天就會拖到第 10 天才交);自我保護指隱藏問題以逃避究責;灌沙袋指刻意高估所需時間以顯得表現優異(例如 5 天能完成卻報 10 天,提前交付顯得亮眼);掉棒則指交接品質不佳導致下一位接手者重工或延誤。PM 應留意這些行為模式,並透過透明溝通與信任文化加以因應。
+
+---
+
+### Q108. `res-108` — 單選題
+
+**題目 ID**: `res-108`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A team member is assigned a task that could realistically be completed within five days, but she reports that she needs ten days, hoping to look highly productive when she delivers ahead of the inflated estimate. What is this behavior called?
+- 中: 一位團隊成員被指派一項實際上五天即可完成的任務,但她回報需要十天,希望在提前於膨脹後的估計時間交付時,顯得自己非常有效率。此行為稱為下列何者?
+
+**選項**
+
+- (a) Student Syndrome / 學生症候群(Student Syndrome)
+- (b) Parkinson's Law / 帕金森定律(Parkinson's Law)
+- (c) Sandbagging / 灌沙袋(Sandbagging) ✅ **正解**
+- (d) Dropped Baton / 掉棒(Dropped Baton)
+
+**詳解**
+
+灌沙袋(Sandbagging)是指刻意高估完成任務所需的時間,以便在提前交付時顯得表現優異的行為,例如本情境中五天能完成的工作卻回報需要十天。學生症候群是拖到最後一刻才開始工作;帕金森定律是工作膨脹以填滿分配的全部時間;掉棒則是交接品質不佳導致重工,三者皆與本情境描述的「刻意高估以顯得亮眼」不同。
+
+---
+
+### Q109. `res-109` — 拖拉配對題
+
+**題目 ID**: `res-109`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each form of power to the category it is generally considered to fall into.
+- 中: 請將下列權力基礎拖曳配對到其通常被歸類的類別。
+
+**配對項目(拖曳來源)**
+
+- p1: Reward Power / 獎賞權
+- p2: Referent Power / 參照權
+- p3: Legitimate (Formal) Power / 法制(正式職位)權
+
+**選項池(拖曳目標)**
+
+- c1: Generally considered a positive form of power, based on the ability to give something team members value / 通常被視為正向的權力形式,建立在能給予團隊成員重視事物的能力之上
+- c2: Considered a neutral form of power, based on team members respecting and liking the leader as a person / 被視為中立的權力形式,建立在團隊成員尊敬並喜歡該領導者本人之上
+- c3: Generally considered a less desirable form of power, based purely on title or position rather than earned respect / 通常被視為較不理想的權力形式,單純建立在頭銜或職位之上,而非贏得的尊重
+
+**✅ 正確配對**
+
+- p1 → c1: Reward Power → Generally considered a positive form of power, based on the ability to give something team members value（獎賞權 → 通常被視為正向的權力形式,建立在能給予團隊成員重視事物的能力之上）
+- p2 → c2: Referent Power → Considered a neutral form of power, based on team members respecting and liking the leader as a person（參照權 → 被視為中立的權力形式,建立在團隊成員尊敬並喜歡該領導者本人之上）
+- p3 → c3: Legitimate (Formal) Power → Generally considered a less desirable form of power, based purely on title or position rather than earned respect（法制(正式職位)權 → 通常被視為較不理想的權力形式,單純建立在頭銜或職位之上,而非贏得的尊重）
+
+**詳解**
+
+權力基礎大致可依效果分為三類:獎賞權(給予獎勵)與專家權(具備專業知識)通常被視為正向的權力形式;參照權(團隊成員因尊敬、喜歡領導者本人而願意聽從)則被視為中立;法制權(單純依靠頭銜或職位逼迫他人服從)與懲罰權(依靠懲罰逼迫服從)則通常被視為較不理想的權力形式。PM 應盡量培養並運用正向的權力基礎,減少依賴職位或懲罰來領導團隊。
+
+---
+
+### Q110. `res-110` — 單選題
+
+**題目 ID**: `res-110`
+
+難度: `easy` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: At the start of a workshop involving stakeholders from several different departments who have never worked together before, the facilitator spends the first few minutes on a light, low-pressure activity to help everyone feel comfortable participating before diving into the main agenda. What is this practice called?
+- 中: 在一場邀請來自多個部門、彼此從未合作過的利害關係人參與的工作坊開始時,引導者花前幾分鐘進行一項輕鬆、低壓力的活動,幫助大家在進入正式議程前感到自在並願意參與。此做法稱為下列何者?
+
+**選項**
+
+- (a) An icebreaker, used to engage all participants early in a diverse workshop / 破冰活動,用於讓多元背景的工作坊參與者及早融入 ✅ **正解**
+- (b) A retrospective, used to review what worked well and what did not / 回顧會議,用於檢討哪些做法有效、哪些無效
+- (c) A control chart review, used to check whether a process is in statistical control / 管制圖檢視,用於檢查流程是否在統計管制範圍內
+- (d) A change control board meeting, used to approve or reject change requests / 變更管制委員會會議,用於核准或駁回變更請求
+
+**詳解**
+
+工作坊比單純的討論更著重實際產出,善用引導技巧(如破冰活動)能幫助來自多元背景的參與者在議程開始前就感到自在並願意參與,尤其在成員彼此不熟悉的情況下更為重要。回顧會議是敏捷團隊定期檢討做法優劣的活動;管制圖檢視屬於品質管理工具;變更管制委員會會議則用於核准或駁回正式變更請求,三者皆與本情境描述的「工作坊開場破冰活動」不同。
+
+---
+
+### Q111. `res-111` — 多選題
+
+**題目 ID**: `res-111`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Regardless of the meeting's specific topic, which two of the following should the project manager ensure happen after every effective meeting concludes? Select two.
+- 中: 無論會議主題為何,專案經理應確保每次有效會議結束後都會產出下列哪兩項?(選兩項)
+
+**選項**
+
+- (a) Meeting minutes summarizing what was discussed and decided / 會議記錄,摘要討論內容與決議事項 ✅ **正解**
+- (b) Action items identifying follow-up tasks and their owners / 行動項目,列出後續待辦任務與負責人 ✅ **正解**
+- (c) A formal change request, whether or not any change was actually proposed / 一份正式變更請求,無論會議中是否實際提出任何變更
+- (d) A revised project charter, regardless of the meeting's content / 一份修訂後的專案章程,無論會議內容為何
+
+**詳解**
+
+有效會議除了具備明確目標、基本規則與時間限制外,結束後也應分享會議記錄(摘要討論內容與決議)與行動項目(列出後續待辦任務及負責人),確保決議能被追蹤與落實。變更請求僅在會議中確實提出變更需求時才需要產出,並非每次會議都必然需要;修訂專案章程更非每次會議的固定產出。
+
+---
+
+### Q112. `res-112` — 多選題
+
+**題目 ID**: `res-112`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: According to common strategies observed among successful project teams, which three of the following are recommended? Select three.
+- 中: 依照從成功專案團隊身上觀察到的常見策略,下列哪三項是建議的做法?(選三項)
+
+**選項**
+
+- (a) Start with a pragmatic, clearly defined approach before adapting further / 從務實且明確定義的做法開始,之後再進一步調整 ✅ **正解**
+- (b) Actively listen to and observe the team before making major changes / 在做出重大改變之前,主動傾聽並觀察團隊 ✅ **正解**
+- (c) Ensure the division of labor matches each person's actual expertise / 確保工作分配與每個人的實際專長相符 ✅ **正解**
+- (d) Prefer inventing entirely new solutions from scratch rather than researching existing approaches / 偏好從零發明全新解法,而非先研究既有做法
+- (e) Stick rigidly to familiar routines regardless of the situation at hand / 不論當下情境為何,都僵化地堅持熟悉的常規
+
+**詳解**
+
+成功團隊常見的策略包括:從務實明確的做法開始,再依情況調整;主動傾聽觀察團隊後再做重大改變;確保工作分配與成員專長相符,並保留專才、建立獎勵制度、持續取得回饋。相對地,偏好從零發明而非參考既有做法、僵化堅持熟悉常規而不因應情境調整,則是常見導致團隊失敗的模式,屬於本題的干擾選項。
+
+---
+
+### Q113. `res-113` — 單選題
+
+**題目 ID**: `res-113`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Rather than researching how other teams have successfully solved a similar resourcing problem before, a team insists on designing an entirely new process from scratch every time a challenge arises, which repeatedly leads to wasted time and avoidable mistakes. According to common success versus failure patterns, what does this behavior best illustrate?
+- 中: 一個團隊每次遇到挑戰時,總是堅持從零設計全新流程,而不去研究其他團隊過去如何成功解決過類似的資源問題,導致一再浪費時間並犯下本可避免的錯誤。依照常見的成功與失敗模式,此行為最能說明下列何者?
+
+**選項**
+
+- (a) A common failure pattern of preferring to invent rather than researching existing approaches / 常見的失敗模式,偏好發明而非研究既有做法 ✅ **正解**
+- (b) A common success pattern of remaining highly malleable to new circumstances / 常見的成功模式,對新情況保持高度可塑性
+- (c) The Norming stage of Tuckman's team development model / 塔克曼團隊發展模型中的規範期
+- (d) The application of Resource Smoothing to a scheduling conflict / 將資源平滑應用於時程衝突
+
+**詳解**
+
+從零發明而非先研究既有做法,是常被觀察到導致團隊失敗的行為模式之一,容易造成重複犯錯與時間浪費。相對地,保持高度可塑性、願意學習、真心觀察他人做法,才是與成功較相關的行為模式。Norming 是團隊發展階段之一,與本題描述的失敗行為模式無關;資源平滑則是解決資源衝突的時程技術,與本情境所描述的「重複發明」行為無關。
+
+---
+
+### Q114. `res-114` — 單選題
+
+**題目 ID**: `res-114`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: While leading the team through a difficult stretch of the project, the project manager notices that persistent performance issues with one team member are unlikely to be resolved through coaching alone, and will likely require additional budget to bring in temporary contract support. What should the project manager do?
+- 中: 在帶領團隊度過專案的艱難階段時,專案經理發現某位團隊成員持續存在的績效問題,很可能無法單靠指導來解決,並可能需要額外預算引進臨時合約支援人力。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Submit a formal change request to obtain approval for the additional budget needed before proceeding / 提交正式變更請求,在採取行動前先取得所需額外預算的核准 ✅ **正解**
+- (b) Quietly reallocate funds from another part of the budget without informing anyone / 悄悄從預算的其他部分挪用資金,不通知任何人
+- (c) Wait until the project is complete to mention the issue in the final report / 等到專案結束後才在最終報告中提及此問題
+- (d) Personally cover the cost of the contractor using her own funds / 專案經理自行動用個人資金支付承包商費用
+
+**詳解**
+
+Lead the Team 過程中若發現團隊績效問題需要額外資源(如預算)才能解決,通常會產生變更請求(Change Request)這項產出,必須依組織的變更管制流程提交並取得正式核准,才能合規地取得並運用額外預算。私自挪用預算、拖到專案結束才提及,或動用個人資金,皆不符合專案治理與變更管制的正式流程。
+
+---
+
+### Q115. `res-115` — 單選題
+
+**題目 ID**: `res-115`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A credit union has finished assessing which member services could benefit from an AI fraud detection system, and the project manager realizes nobody on staff has ever built or operated a machine learning model. What should the project manager do next?
+- 中: 一家信用合作社已經評估完哪些會員服務能因導入 AI 詐欺偵測系統而受益,這時專案經理發現,公司內部沒有任何員工曾經建置或維運過機器學習模型。專案經理接下來應該怎麼做?
+
+**選項**
+
+- (a) Propose contracting the model development to a specialist firm. / 提議將模型開發外包給專業廠商 ✅ **正解**
+- (b) Enroll the current analysts in an intensive machine learning bootcamp. / 讓現有的分析人員去上密集的機器學習訓練營
+- (c) Recruit a senior project manager with an AI delivery background. / 招募一位具備 AI 專案交付背景的資深專案經理
+- (d) Convene the stakeholders to prioritize which service gets protection first. / 召集利害關係人,討論要優先保護哪一項服務
+
+**詳解**
+
+團隊內部完全沒有機器學習的建置與維運經驗,靠短期訓練營現學現賣在時間與品質上都難以支撐一個要正式上線的詐欺偵測系統;招募新的 PM 解決的是專案管理能力,不是機器學習的技術能力落差;而討論優先順序是需求評估階段該做的事,題目已經明講評估已經完成。在完全沒有內部能力、又需要盡快補上這個缺口時,將建置工作外包給有實績的專業廠商,才能在保留任務所有權的同時,最快取得公司目前欠缺、也來不及自行養成的技術能力。
 
 ---

@@ -1,6 +1,6 @@
 # Governance — PMP 題庫
 
-> 共 71 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 110 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `sc-002` — 單選題
 
@@ -1897,5 +1897,1076 @@ CCB 對變更請求的決議結果通常包括:核准(變更符合目標且影�
 **詳解**
 
 當疑似舞弊或不當行為涉及正常回報鏈上的角色本身(如本例中專案經理與贊助人皆涉入)時,適當的治理作法是透過獨立於該回報鏈之外的管道通報,例如組織的道德/合規辦公室或稽核委員會,而非繼續依循可能已受影響、不再客觀的正常回報鏈,也不應僅私下告知組織外部的個人。這反映治理架構中「獨立申訴/舉報管道」的重要性,用以因應正常層級本身可能失靈的情況。
+
+---
+
+### Q72. `gov-067` — 單選題
+
+**題目 ID**: `gov-067`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A large team of about 40 developers is building a complex system with well-established domain concepts. The organization wants a design-driven, feature-based approach with clearly defined phases such as developing an overall model, building a feature list, and then designing and building by feature. Which agile method best fits this need?
+- 中: 一個約 40 人的大型開發團隊正在建置一套領域概念明確、結構複雜的系統。組織希望採用一種以設計為導向、以特色功能為核心的方法,並具備明確階段,例如建立整體模型、建立特色功能清單,再依特色功能進行設計與建置。下列哪一種敏捷方法最符合這項需求?
+
+**選項**
+
+- (a) Kanban / 看板(Kanban)
+- (b) Feature-Driven Development (FDD) / 特色功能驅動開發(FDD) ✅ **正解**
+- (c) Extreme Programming (XP) / 極限編程(XP)
+- (d) Crystal Clear / 水晶清透法(Crystal Clear)
+
+**詳解**
+
+FDD(Feature-Driven Development)的五大流程為 Develop Overall Model、Build Feature List、Plan by Feature、Design by Feature、Build by Feature,特別適合大型、需要架構規劃與明確設計原則的複雜系統。Kanban 著重流程可視化與限制在製品數量,並非以特色功能分階段設計;XP 偏重工程實務,例如結對程式設計與測試驅動開發;Crystal Clear 僅適合六人以下的小型團隊。三者皆不符合本題描述的 40 人大型複雜系統情境。
+
+---
+
+### Q73. `gov-068` — 單選題
+
+**題目 ID**: `gov-068`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: At the end of a sprint, the Product Owner refuses to accept a feature during the sprint review, insisting it is not truly finished, while the development team maintains that the coding work is complete. What is the most likely underlying cause of this disagreement, and what should the team do to prevent it in future sprints?
+- 中: 在短衝(Sprint)結束時,產品負責人(PO)在短衝審查會議上拒絕驗收某項功能,認為它並非真正完成,但開發團隊則堅持程式撰寫工作已經完成。這項爭議最可能的根本原因是什麼?團隊未來應該怎麼做以避免類似情形?
+
+**選項**
+
+- (a) The team lacks a shared Definition of Done, and should establish one collaboratively so everyone agrees on what "complete" means. / 團隊缺乏共同的完工定義(Definition of Done),應共同制定一份,讓所有人對「完成」有一致認知。 ✅ **正解**
+- (b) The Scrum Master should unilaterally decide whether the feature is complete. / Scrum Master 應該單方面決定該功能是否完成。
+- (c) The team should stop holding sprint reviews in future sprints to avoid this kind of disagreement. / 團隊未來應停止舉行短衝審查會議,以避免這類爭議。
+- (d) The Product Owner should always defer to the development team's technical judgment on completeness. / 產品負責人在完成度判斷上應永遠尊重開發團隊的技術判斷。
+
+**詳解**
+
+完工定義(Definition of Done, DoD)應在專案初期就由團隊共同制定,並廣泛套用於程式撰寫、單元測試、功能測試等各個層面,確保所有人對「完成」有一致認知。當團隊與 PO 對於功能是否完成產生歧見時,通常代表缺乏明確且具共識的 DoD。取消短衝審查、由單一角色片面裁定,或一味聽從其中一方,都無法解決根本問題。
+
+---
+
+### Q74. `gov-069` — 單選題
+
+**題目 ID**: `gov-069`
+
+難度: `easy` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A team beginning an adaptive project is drafting an Agile Charter before the product backlog is created. Compared with a traditional Project Charter, what best describes the nature of this Agile Charter?
+- 中: 一個即將展開調適式(Adaptive)專案的團隊,在建立產品待辦清單之前,正在草擬一份敏捷章程(Agile Charter)。相較於傳統的專案章程(Project Charter),這份敏捷章程的性質最適合用下列何者描述?
+
+**選項**
+
+- (a) It is a more detailed and legally binding document than the Project Charter. / 它比專案章程更詳細,且具備更強的法律約束力。
+- (b) It is a simpler, high-level document that authorizes the project manager and focuses on how the project will run rather than on detailed deliverables. / 它是較為簡化的高層級文件,授權專案經理,並著重於專案將如何運作,而非詳細的交付物內容。 ✅ **正解**
+- (c) It replaces the need for a product backlog once it is approved. / 一旦核准後,它就取代了產品待辦清單的必要性。
+- (d) It must be signed by the Change Control Board before any sprint can begin. / 必須經變更控制委員會簽署後,才能展開任何短衝。
+
+**詳解**
+
+敏捷章程(Agile Charter)與傳統專案章程一樣是用來啟動專案、授權專案經理的文件,但內容通常較為簡化,聚焦於 Who、What、When、Where、Why、How 等高層級方向,著重於「專案如何運作」而非鉅細靡遺的交付物規劃,並擁抱後續的彈性與變動。它通常在建立待辦清單之前完成,不會取代待辦清單,也與變更控制委員會的簽署無關。
+
+---
+
+### Q75. `gov-070` — 多選題
+
+**題目 ID**: `gov-070`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A project team using an adaptive approach is developing a product in a highly regulated industry. Which three of the following correctly describe how the team should handle regulatory compliance? (Select three.)
+- 中: 一個採用調適式方法的專案團隊,正在一個高度受法規規範的產業中開發產品。下列哪三項正確描述了團隊應該如何處理法規遵循(Regulatory Compliance)的問題?(請選擇三項)
+
+**選項**
+
+- (a) Regulatory requirements must still be met even though the team is using an agile approach. / 即使團隊採用敏捷方法,法規要求仍然必須被滿足。 ✅ **正解**
+- (b) Compliance-related requirements should be incorporated into the product backlog and treated as non-negotiable acceptance criteria. / 與合規相關的需求應納入產品待辦清單,並視為不可協商的驗收標準。 ✅ **正解**
+- (c) The project manager should never bypass or ignore regulatory requirements, even under pressure from other stakeholders. / 專案經理絕不應繞過或忽視法規要求,即使受到其他利害關係人施壓。 ✅ **正解**
+- (d) Highly regulated projects should always abandon agile approaches entirely in favor of a purely predictive approach. / 高度受法規規範的專案應該完全放棄敏捷方法,改採純預測式方法。
+- (e) Regulatory documentation can be postponed indefinitely as long as working software is delivered on time. / 只要能準時交付可運作的軟體,法規相關文件就可以無限期延後處理。
+
+**詳解**
+
+法規遵循(Regulatory Compliance)是由政府強制規定、必須落實於日常工作的規則,專案經理不能因其他角色的壓力而妥協,不犯法是專案經理的基本道德。在敏捷專案中,法規相關需求應納入產品待辦清單並視為不可協商的驗收標準,不應因追求交付速度而被忽略或無限期延後。高度法規限制確實會降低純敏捷方法的適用性、使專案更適合混合式(Hybrid)作法,但並不代表必須完全放棄敏捷精神,選項 (d) 用詞過於絕對,故不選。
+
+---
+
+### Q76. `gov-071` — 多選題
+
+**題目 ID**: `gov-071`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: When selecting among agile methods such as Scrum, Kanban, Lean, Crystal, SAFe, and Disciplined Agile (DA) for a specific team, which three of the following statements about the factors influencing that choice are correct? (Select three.)
+- 中: 在為特定團隊挑選 Scrum、Kanban、Lean、Crystal、SAFe、紀律敏捷(Disciplined Agile, DA)等敏捷方法時,下列哪三項關於影響選擇因素的敘述是正確的?(請選擇三項)
+
+**選項**
+
+- (a) The Crystal family of methods scales its rigor and formality according to team size and project criticality, from Crystal Clear for small teams to Crystal Diamond/Sapphire for very large, highly critical projects. / Crystal 家族方法會依團隊人數與專案關鍵程度調整嚴謹程度與正式度,從適合小型團隊的 Crystal Clear 到適合大型、高關鍵性專案的 Crystal Diamond/Sapphire。 ✅ **正解**
+- (b) SAFe is designed to help multiple teams in a large enterprise align around common business objectives, and is generally not suited for a single small startup team. / SAFe 旨在協助大型企業中的多個團隊圍繞共同商業目標對齊,通常不適合單一小型新創團隊。 ✅ **正解**
+- (c) Disciplined Agile (DA) is itself a rigid single methodology that forbids blending practices from Scrum, Lean, and Kanban. / 紀律敏捷(DA)本身是一套僵化的單一方法論,禁止混用 Scrum、Lean、Kanban 等其他方法的實務。
+- (d) Kanban's emphasis on visualizing workflow and limiting work in progress makes it useful for teams with a continuous flow of incoming work, rather than fixed-length iterations. / Kanban 強調工作流程可視化並限制在製品數量,適合擁有持續性工作流入、而非固定長度迭代的團隊。 ✅ **正解**
+- (e) There is one universally correct agile method, and organizational or team context should never influence the choice. / 存在一種放諸四海皆準的敏捷方法,組織或團隊情境不應影響選擇。
+
+**詳解**
+
+Crystal 依團隊規模與專案關鍵性調整方法的嚴謹程度;SAFe 適合多團隊協作的大型企業,而非單一小型新創團隊;Kanban 強調可視化與限制在製品(WIP),適合持續性工作流入而非固定長度迭代的團隊。紀律敏捷(Disciplined Agile, DA)其實是協助團隊融合 Scrum、Lean、Kanban、SAFe 與傳統方法、依情境選擇工作方式(Way of Working)的工具,而非禁止混用的單一僵化方法論,故 (c) 錯誤。方法的選擇應依團隊人數、專案關鍵性、產業法規等情境裁適(Tailor),並不存在放諸四海皆準的單一正解,故 (e) 錯誤。
+
+---
+
+### Q77. `gov-072` — 拖拉配對題
+
+**題目 ID**: `gov-072`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each agile method to the team situation it best fits.
+- 中: 請將下列每種敏捷方法拖曳配對到最符合的團隊情境。
+
+**配對項目(拖曳來源)**
+
+- p1: Scrum / Scrum
+- p2: Kanban / 看板(Kanban)
+- p3: Lean Software Development / 精實軟體開發(Lean Software Development)
+- p4: SAFe / 大規模敏捷框架(SAFe)
+- p5: Crystal Clear / 水晶清透法(Crystal Clear)
+
+**選項池(拖曳目標)**
+
+- c1: A cross-functional team wants fixed-length iterations with defined planning, review, and retrospective ceremonies / 一個跨職能團隊希望採用固定長度的迭代,並具備明確的規劃、審查與回顧等儀式
+- c2: A support team receives a continuous, unpredictable stream of incoming requests and needs to visualize flow and limit work in progress / 一個支援團隊持續且不可預期地接收進來的請求,需要將流程可視化並限制在製品數量
+- c3: An organization wants to eliminate waste, defer decisions until the last responsible moment, and optimize the whole rather than any single part / 組織希望消除浪費,將決策延後至最後責任時刻,並優化整體而非單一部分
+- c4: A large enterprise with dozens of teams needs a framework to align all teams around common business objectives at scale / 一個擁有數十個團隊的大型企業,需要一套框架讓所有團隊圍繞共同商業目標進行大規模對齊
+- c5: A small team of six or fewer people wants a lightweight method with minimal documentation / 一個六人以下的小型團隊,希望採用文件量極少的輕量方法
+
+**✅ 正確配對**
+
+- p1 → c1: Scrum → A cross-functional team wants fixed-length iterations with defined planning, review, and retrospective ceremonies（Scrum → 一個跨職能團隊希望採用固定長度的迭代,並具備明確的規劃、審查與回顧等儀式）
+- p2 → c2: Kanban → A support team receives a continuous, unpredictable stream of incoming requests and needs to visualize flow and limit work in progress（看板(Kanban) → 一個支援團隊持續且不可預期地接收進來的請求,需要將流程可視化並限制在製品數量）
+- p3 → c3: Lean Software Development → An organization wants to eliminate waste, defer decisions until the last responsible moment, and optimize the whole rather than any single part（精實軟體開發(Lean Software Development) → 組織希望消除浪費,將決策延後至最後責任時刻,並優化整體而非單一部分）
+- p4 → c4: SAFe → A large enterprise with dozens of teams needs a framework to align all teams around common business objectives at scale（大規模敏捷框架(SAFe) → 一個擁有數十個團隊的大型企業,需要一套框架讓所有團隊圍繞共同商業目標進行大規模對齊）
+- p5 → c5: Crystal Clear → A small team of six or fewer people wants a lightweight method with minimal documentation（水晶清透法(Crystal Clear) → 一個六人以下的小型團隊,希望採用文件量極少的輕量方法）
+
+**詳解**
+
+Scrum 以固定長度短衝與明確儀式(規劃、審查、回顧)著稱;Kanban 適合持續性、不可預期工作流的可視化與限流;Lean 源自豐田生產系統,核心在於消除浪費、延後決策、優化整體而非局部;SAFe 專為大型企業多團隊規模化協作而設計;Crystal Clear 則是 Crystal 家族中最輕量的版本,適合六人以下的小型團隊。掌握各方法的特色與適用團隊規模,是選用敏捷方法時的重要考量。
+
+---
+
+### Q78. `gov-073` — 拖拉配對題
+
+**題目 ID**: `gov-073`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A hybrid project blends predictive and agile elements according to the degree of uncertainty involved. Drag and match each hybrid pattern to its description.
+- 中: 混合式(Hybrid)專案會依據不確定性的程度,將預測式與敏捷式元素混合搭配。請將下列每種混合模式拖曳配對到最符合的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Predictable-Agile Pattern 1 / 可預期的敏捷 1
+- p2: Predictable-Agile Pattern 2 / 可預期的敏捷 2
+- p3: Predictable-Agile Pattern 3 / 可預期的敏捷 3
+- p4: Predictable-Agile Pattern 4 / 可預期的敏捷 4
+
+**選項池(拖曳目標)**
+
+- c1: Agile is used for the design and development phases, while a predictive approach is used for the testing and rollout phases / 在設計與開發階段採用敏捷方法,測試與上線階段則採用預測式方法
+- c2: A blend of agile and predictive elements runs throughout design, development, testing, and rollout, often because some components are reused or the industry is heavily regulated / 敏捷與預測式元素貫穿設計、開發、測試與上線各階段混合使用,常見於部分元件可重複使用或產業受高度法規規範的情況
+- c3: The overall flow is predominantly predictive, with a small amount of agile embedded within it / 整體流程以預測式為主,其中嵌入少量的敏捷元素
+- c4: The overall flow is predominantly agile, with a small amount of predictive embedded within it / 整體流程以敏捷式為主,其中嵌入少量的預測元素
+
+**✅ 正確配對**
+
+- p1 → c1: Predictable-Agile Pattern 1 → Agile is used for the design and development phases, while a predictive approach is used for the testing and rollout phases（可預期的敏捷 1 → 在設計與開發階段採用敏捷方法,測試與上線階段則採用預測式方法）
+- p2 → c2: Predictable-Agile Pattern 2 → A blend of agile and predictive elements runs throughout design, development, testing, and rollout, often because some components are reused or the industry is heavily regulated（可預期的敏捷 2 → 敏捷與預測式元素貫穿設計、開發、測試與上線各階段混合使用,常見於部分元件可重複使用或產業受高度法規規範的情況）
+- p3 → c3: Predictable-Agile Pattern 3 → The overall flow is predominantly predictive, with a small amount of agile embedded within it（可預期的敏捷 3 → 整體流程以預測式為主,其中嵌入少量的敏捷元素）
+- p4 → c4: Predictable-Agile Pattern 4 → The overall flow is predominantly agile, with a small amount of predictive embedded within it（可預期的敏捷 4 → 整體流程以敏捷式為主,其中嵌入少量的預測元素）
+
+**詳解**
+
+專案經理應依專案的不確定性程度,選擇不同比例混合敏捷與預測式作法的混合模式。模式一是設計開發採敏捷、測試上線採預測式的常見組合;模式二是四個階段都混用敏捷與預測式元素,常見於部分功能可重複使用或受高度法規限制的情境;模式三以預測式為主體、內嵌少量敏捷;模式四則相反,以敏捷為主體、內嵌少量預測式。這四種模式並非唯一選項,實務上應以能否提升價值為判斷依據,體現裁適(Tailor)的精神。
+
+---
+
+### Q79. `gov-074` — 下拉選單題
+
+**題目 ID**: `gov-074`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: In Scrum, the person who acts as a servant leader, helps remove impediments, and facilitates the team's process is called the {{blank1}}; the equivalent role in Extreme Programming (XP) is called the {{blank2}}.
+- 中: 在 Scrum 中,扮演僕人式領導、協助排除障礙並促進團隊流程運作的角色稱為 {{blank1}};在極限編程(XP)中,對應的角色稱為 {{blank2}}。
+
+**blank1**
+
+- (a) the Product Owner / 產品負責人(Product Owner)
+- (b) the Scrum Master / Scrum Master ✅ **正解**
+
+**blank2**
+
+- (a) the Coach / 教練(Coach) ✅ **正解**
+- (b) the Customer / 客戶(Customer)
+
+
+**詳解**
+
+Scrum 與 XP 在角色與用詞上有明確的對應關係:Scrum 中的 Scrum Master 扮演僕人式領導,協助團隊排除障礙、促進流程運作;在 XP 中,對應角色稱為 Coach(教練),功能類似。Product Owner 在 XP 中對應的角色其實是 Customer(客戶代表),兩者用途不同,不應混淆。
+
+---
+
+### Q80. `gov-075` — 點擊熱區題
+
+**題目 ID**: `gov-075`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: The diagram below shows four roles found on an agile team. Before backlog creation begins, an Agile Charter is drafted to establish high-level direction and authorize the project manager. Click the role most likely responsible for sponsoring and ultimately authorizing this Agile Charter.
+- 中: 下圖顯示敏捷團隊中的四個角色。在待辦清單建立之前,團隊會先草擬一份敏捷章程(Agile Charter),以建立高層級方向並授權專案經理。請點選最有可能負責贊助並最終授權此敏捷章程的角色。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Cross-functional Team Member / Developer / 跨職能團隊成員/開發者(Developer) [x=5,y=5,w=40,h=35]
+- (n2) Product Owner / 產品負責人(Product Owner) [x=52.5,y=5,w=40,h=35]
+- (n3) Team Facilitator / Scrum Master / 團隊引導者/Scrum Master [x=5,y=47.5,w=40,h=35]
+- (n4) Project Sponsor / Business Owner / 專案發起人/業務擁有者(Project Sponsor / Business Owner) ✅ **正解** [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+如同傳統專案章程須由贊助人簽署授權,敏捷章程同樣需要由具備商業決策權的角色,也就是專案發起人/業務擁有者(Project Sponsor / Business Owner)贊助並授權,才能正式賦予專案經理啟動與運作專案的權力。產品負責人負責待辦清單的價值排序,團隊引導者/Scrum Master 扮演僕人式領導協助排除障礙,跨職能團隊成員則負責實際產出可交付成果,三者皆非章程的授權者。
+
+---
+
+### Q81. `gov-076` — 單選題
+
+**題目 ID**: `gov-076`
+
+難度: `easy` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: On an agile team, a Scrum Master spends most of the day removing blockers, shielding the team from unnecessary interruptions, and asking "what do you need from me?" rather than issuing directives. Which leadership style is this Scrum Master primarily demonstrating?
+- 中: 在敏捷團隊中,一位 Scrum Master 大部分時間都在排除障礙、保護團隊不受不必要的干擾,並經常詢問「你需要我做什麼?」,而非直接下達指令。這位 Scrum Master 主要展現的是哪一種領導風格?
+
+**選項**
+
+- (a) Transactional Leadership / 交易型領導(Transactional Leadership)
+- (b) Servant Leadership / 服務型領導(Servant Leadership) ✅ **正解**
+- (c) Laissez-Faire Leadership / 自由放任型領導(Laissez-Faire Leadership)
+- (d) Charismatic Leadership / 魅力型領導(Charismatic Leadership)
+
+**詳解**
+
+服務型領導(Servant Leadership)的核心精神是積極排除團隊障礙、優先服務團隊需求而非發號施令,是敏捷團隊中最常見也最被推崇的領導風格。交易型領導著重以獎勵與規則驅動表現;自由放任型領導幾乎完全放手,讓高度自主的團隊自行運作,領導者不主動介入;魅力型領導則是透過個人魅力鼓舞士氣。題目描述主動排除障礙、以服務姿態詢問需求,正是服務型領導的典型行為。
+
+---
+
+### Q82. `gov-077` — 單選題
+
+**題目 ID**: `gov-077`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project team must choose among three shortlisted vendors. To make the decision transparent and defensible, the project manager builds a table scoring each vendor against weighted criteria such as cost, past performance, technical capability, and delivery risk. What decision-making technique is the project manager using?
+- 中: 專案團隊必須從三家入圍的供應商中做出選擇。為了讓決策過程透明且有憑有據,專案經理建立了一份表格,依照成本、過往績效、技術能力與交付風險等加權標準為每家供應商評分。這位專案經理使用的是哪一種決策技巧?
+
+**選項**
+
+- (a) Autocratic decision making / 獨裁式決策(Autocratic Decision Making)
+- (b) Multi-criteria decision analysis / 多準則決策分析(Multi-Criteria Decision Analysis) ✅ **正解**
+- (c) Unanimity voting / 一致決投票(Unanimity Voting)
+- (d) Root cause analysis / 根本原因分析(Root Cause Analysis)
+
+**詳解**
+
+多準則決策分析(Multi-Criteria Decision Analysis)是運用表格或矩陣,依據預算、可行性、風險等多項標準系統性地比較不同方案,常用於供應商評選或方案抉擇等情境。獨裁式決策是由單一角色代表團隊做決定;一致決投票需要全體一致同意;根本原因分析則用於找出問題發生的根本原因,並非用於比較選項優劣。
+
+---
+
+### Q83. `gov-078` — 多選題
+
+**題目 ID**: `gov-078`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Which three of the following are recognized categories of change requests in project management? (Select three.)
+- 中: 下列哪三項是專案管理中公認的變更請求類別?(請選擇三項)
+
+**選項**
+
+- (a) Corrective action — action taken to address an existing negative trend before it worsens / 矯正行動,在既有負面趨勢惡化前採取的處理行動 ✅ **正解**
+- (b) Preventive action — action taken to address a potential future problem that has not yet occurred / 預防行動,針對尚未發生的潛在未來問題所採取的行動 ✅ **正解**
+- (c) Defect repair — action taken to correct a defect that has already occurred / 缺陷修復,用於修正已經發生的缺陷 ✅ **正解**
+- (d) Punitive action — action taken to formally discipline a team member for underperformance / 懲處行動,用於正式懲戒表現不佳的團隊成員
+- (e) Speculative action — action taken based on an unverified rumor about future scope / 臆測行動,依據未經證實的未來範疇傳聞所採取的行動
+
+**詳解**
+
+變更請求(Change Request)常見分為三類:矯正行動處理已出現跡象、若不修正會惡化的問題;預防行動則是針對尚未發生但可能發生的問題提前因應;缺陷修復則是修正已經實際發生的錯誤或瑕疵。懲處行動與臆測行動並非正式的變更請求分類,不應與這三種正式類別混淆。
+
+---
+
+### Q84. `gov-079` — 下拉選單題
+
+**題目 ID**: `gov-079`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: {{blank1}} techniques, such as interviews, focus groups, and surveys, are primarily used to collect raw input from stakeholders when developing documents like the project charter or requirements. {{blank2}} techniques, such as variance analysis and trend analysis, are then used to review and interpret the collected information to understand what it means.
+- 中: {{blank1}} 技巧(例如訪談、焦點團體、問卷調查)主要用於在研擬專案章程或需求等文件時,從利害關係人蒐集原始意見;{{blank2}} 技巧(例如差異分析、趨勢分析)則用於檢視並解讀已蒐集的資訊,以理解其代表的意涵。
+
+**blank1**
+
+- (a) Data Gathering / 資料蒐集(Data Gathering) ✅ **正解**
+- (b) Data Analysis / 資料分析(Data Analysis)
+
+**blank2**
+
+- (a) Data Gathering / 資料蒐集(Data Gathering)
+- (b) Data Analysis / 資料分析(Data Analysis) ✅ **正解**
+
+
+**詳解**
+
+資料蒐集(Data Gathering)技巧,如訪談、焦點團體、問卷調查與檢查表,著重於直接向利害關係人取得原始意見與資訊,常用於研擬章程、需求文件等;資料分析(Data Analysis)技巧,如差異分析(比較計畫與實際結果)、趨勢分析(觀察長期模式)與根本原因分析,則是進一步檢視這些已蒐集的資訊,協助理解現況、判斷是否偏離計畫。兩者搭配資料呈現(Data Representation,如圖表)構成完整的資料管理流程。
+
+---
+
+### Q85. `gov-080` — 單選題
+
+**題目 ID**: `gov-080`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager creates a chart identifying, for each key task, exactly who is Responsible for doing the work, who is Accountable for the outcome, who should be Consulted, and who merely needs to be Informed. What tool is the project manager using?
+- 中: 專案經理建立了一張圖表,針對每項關鍵任務明確標示誰負責實際執行(Responsible)、誰對結果當責(Accountable)、誰應被諮詢(Consulted),以及誰只需被告知(Informed)。這位專案經理使用的是什麼工具?
+
+**選項**
+
+- (a) RACI Matrix / 責任分配矩陣(RACI Matrix) ✅ **正解**
+- (b) Risk Register / 風險登錄表(Risk Register)
+- (c) Issue Log / 問題記錄(Issue Log)
+- (d) Communications Management Plan / 溝通管理計畫(Communications Management Plan)
+
+**詳解**
+
+RACI 矩陣(Responsible, Accountable, Consulted, Informed)是常見的責任分配工具,用於清楚界定每項任務或決策中,誰負責實際執行、誰對結果當責、誰需要在決策前被諮詢意見,以及誰只需事後被告知結果。清楚的責任劃分有助於建立信任、授權賦能的專案文化,避免職責重疊或遺漏。風險登錄表、問題記錄與溝通管理計畫雖然都是專案治理常用的文件,但用途皆與角色責任分配無關。
+
+---
+
+### Q86. `gov-081` — 拖拉配對題
+
+**題目 ID**: `gov-081`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each decision-making method to its description.
+- 中: 請將下列每種決策方法拖曳配對到對應描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Unanimity / 一致決(Unanimity)
+- p2: Majority / 多數決(Majority)
+- p3: Plurality / 相對多數決(Plurality)
+- p4: Autocratic Decision / 獨裁式決策(Autocratic Decision)
+
+**選項池(拖曳目標)**
+
+- c1: Every single person in the group must agree before the decision is adopted / 團隊中每一個人都必須同意,決策才算通過
+- c2: More than half of the group must agree for the decision to be adopted / 團隊中超過半數的人同意,決策即可通過
+- c3: The option with the most votes is adopted, even if it does not receive support from more than half of the group / 得票最多的選項獲得採納,即使其支持者未超過團隊半數
+- c4: One individual, such as the project manager or a senior leader, makes the decision on behalf of the group / 由一位個人(如專案經理或高階主管)代表團隊做出決策
+
+**✅ 正確配對**
+
+- p1 → c1: Unanimity → Every single person in the group must agree before the decision is adopted（一致決(Unanimity) → 團隊中每一個人都必須同意,決策才算通過）
+- p2 → c2: Majority → More than half of the group must agree for the decision to be adopted（多數決(Majority) → 團隊中超過半數的人同意,決策即可通過）
+- p3 → c3: Plurality → The option with the most votes is adopted, even if it does not receive support from more than half of the group（相對多數決(Plurality) → 得票最多的選項獲得採納,即使其支持者未超過團隊半數）
+- p4 → c4: Autocratic Decision → One individual, such as the project manager or a senior leader, makes the decision on behalf of the group（獨裁式決策(Autocratic Decision) → 由一位個人(如專案經理或高階主管)代表團隊做出決策）
+
+**詳解**
+
+一致決(Unanimity)要求全體成員都同意,是最耗時但共識程度最高的方式;多數決(Majority)只需過半數同意即可通過;相對多數決(Plurality)則是選出得票最多的選項,即使未過半;獨裁式決策(Autocratic Decision)由單一個人代表團隊做出決定,速度最快但參與程度最低。專案經理應依情境的急迫性與需要的共識程度,選擇合適的決策方法。
+
+---
+
+### Q87. `gov-082` — 單選題
+
+**題目 ID**: `gov-082`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A construction project cannot avoid disturbing a small area of local wetland, since the building's location has already been fixed by regulatory approval. According to the hierarchy of addressing negative sustainability outcomes (avoid, minimize, restore, compensate/offset), what should the project team prioritize first, given that avoidance is no longer possible?
+- 中: 某營建專案因為建築基地位置已依法規核准而無法變更,無法完全避免對周邊一小片濕地造成擾動。依照處理永續性負面影響的優先順序(避免、最小化、修復、抵銷/補償),在已無法避免的情況下,專案團隊應優先考量下列何者?
+
+**選項**
+
+- (a) Minimize the extent of the disturbance to the wetland as much as practically possible / 在實務上盡可能將對濕地的擾動程度降到最低 ✅ **正解**
+- (b) Skip directly to offering financial compensation to a local environmental fund / 直接跳過其他步驟,提供資金補償給當地環保基金
+- (c) Ignore the wetland impact since the location was already regulatory-approved / 因基地位置已通過法規核准,忽略對濕地造成的影響
+- (d) Restore the wetland to its original condition only after the entire project is completed, with no interim consideration / 只在整個專案完工後才修復濕地至原狀,期間完全不予考量
+
+**詳解**
+
+處理永續性負面影響的優先順序由好到壞依序為:避免(Avoid)、最小化(Minimize)、修復(Restore)、抵銷/補償(Compensate/Offset),抵銷是萬不得已、其他方式都無法採用時才使用的最後手段。題目中避免已不可行,依照順序應優先考量將擾動程度最小化,而非直接跳到排序最末、代價最高的補償選項,更不應忽略影響或完全不作為直到專案結束才處理。
+
+---
+
+### Q88. `gov-083` — 下拉選單題
+
+**題目 ID**: `gov-083`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A {{blank1}} is a collection of projects, programs, and other work grouped together and managed to achieve an organization's strategic objectives. A {{blank2}} is a group of related projects, subsidiary programs, and program activities managed in a coordinated way to obtain benefits not available from managing them individually.
+- 中: {{blank1}} 是將專案、專案集及其他工作彙整在一起,以達成組織策略目標的集合體;{{blank2}} 則是一組相關的專案、子專案集與專案集活動,以協調一致的方式進行管理,以獲得單獨管理各專案所無法取得的效益。
+
+**blank1**
+
+- (a) Portfolio / 投資組合(Portfolio) ✅ **正解**
+- (b) Program / 專案集(Program)
+
+**blank2**
+
+- (a) Portfolio / 投資組合(Portfolio)
+- (b) Program / 專案集(Program) ✅ **正解**
+
+
+**詳解**
+
+投資組合(Portfolio)、專案集(Program)與專案(Project)三者依範圍由大到小排列:投資組合彙整組織所有專案與專案集,對齊整體策略目標;專案集則是一組相關專案,協調管理以獲得個別專案無法單獨取得的整合效益;個別專案則是產出特定交付物的臨時性工作。理解三者的層級關係,有助於判斷跨專案的衝突應上報至哪一個治理層級處理。
+
+---
+
+### Q89. `gov-084` — 單選題
+
+**題目 ID**: `gov-084`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Before a steering committee meeting, the project manager compiles the team's analyzed schedule and cost variance information into a formatted dashboard with charts and a brief narrative summary, ready to be presented to the committee. What is this compiled dashboard called?
+- 中: 在一次指導委員會會議前,專案經理將團隊已分析過的時程與成本差異資訊,整理成一份附有圖表與簡短說明的正式儀表板,準備提報給委員會。這份整理完成的儀表板稱為下列何者?
+
+**選項**
+
+- (a) Work Performance Data / 工作績效資料(Work Performance Data)
+- (b) Work Performance Information / 工作績效資訊(Work Performance Information)
+- (c) Work Performance Report / 工作績效報告(Work Performance Report) ✅ **正解**
+- (d) Issue Log / 問題記錄(Issue Log)
+
+**詳解**
+
+工作績效資料(Work Performance Data)是尚未分析的原始觀察與量測;工作績效資訊(Work Performance Information)是將資料與基準比對、分析出意涵後的結果;工作績效報告(Work Performance Report)則是將這些資訊進一步整理成適合提供給利害關係人(如指導委員會)閱覽的正式呈現形式,例如儀表板、簡報或文件。題目描述的正是最後這個「整理成正式呈現形式」的階段,對應工作績效報告。
+
+---
+
+### Q90. `gov-085` — 多選題
+
+**題目 ID**: `gov-085`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Which three of the following are typically included in the Final Report produced during Close Project or Phase? (Select three.)
+- 中: 下列何者通常會包含在「結束專案或階段」過程中產出的最終報告(Final Report)中?(請選擇三項)
+
+**選項**
+
+- (a) A summary of whether the project met its scope, schedule, and cost baselines / 專案是否符合範疇、時程與成本基準的摘要 ✅ **正解**
+- (b) A summary of any significant variances and their causes / 重大差異及其成因的摘要 ✅ **正解**
+- (c) A summary of whether the deliverables were accepted and the primary benefit objectives were achieved / 交付物是否已被驗收,以及主要效益目標是否達成的摘要 ✅ **正解**
+- (d) A line-by-line reproduction of every meeting minute taken throughout the project / 逐條複製專案期間所有會議記錄的完整內容
+- (e) A personal performance review and salary recommendation for every team member / 每位團隊成員的個人績效考核與加薪建議
+
+**詳解**
+
+最終報告(Final Report)是結束專案或階段流程的重要產出,概括說明專案是否符合範疇、時程、成本等基準,重大差異與其成因,以及交付物是否被正式驗收、主要獲利目標是否達成。它是高層級的總結性文件,並不會逐條收錄所有會議記錄的完整內容,也不包含個別團隊成員的績效考核與加薪建議,這些屬於人力資源管理範疇,不是最終報告的內容。
+
+---
+
+### Q91. `gov-086` — 單選題
+
+**題目 ID**: `gov-086`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project team maintains strict version control over every design drawing, ensuring each revision is uniquely identified, tracked, and auditable, and that only the current approved version is used in production. Which project management plan component primarily governs this practice?
+- 中: 某專案團隊對每一份設計圖都維持嚴格的版本控管,確保每次修訂都有唯一識別碼、可被追蹤與稽核,且正式生產時只使用目前核准的最新版本。這項作法主要是由專案管理計畫中的哪個組成部分所規範?
+
+**選項**
+
+- (a) The Change Management Plan, since any drawing revision is a change / 變更管理計畫,因為任何圖面修訂都屬於一種變更
+- (b) The Configuration Management Plan, which defines how project artifacts are identified, tracked, controlled, and audited / 組態管理計畫,用於定義專案產出物如何被識別、追蹤、控管與稽核 ✅ **正解**
+- (c) The Communications Management Plan, since drawings must be shared with stakeholders / 溝通管理計畫,因為圖面必須與利害關係人分享
+- (d) The Risk Management Plan, since an outdated drawing is a risk / 風險管理計畫,因為過時的圖面屬於一種風險
+
+**詳解**
+
+組態管理計畫(Configuration Management Plan)明確定義專案產出物(如設計圖、文件、產品組態)如何被識別、命名、版本控管、追蹤與稽核,確保任何時候都能清楚辨識哪一版本才是目前有效、核准使用的版本。變更管理計畫則聚焦於會影響範疇、時程、成本基準的正式變更請求審核流程,兩者經常搭配運作但關注重點不同;溝通管理計畫與風險管理計畫皆與本情境所描述的版本控管作法無直接關聯。
+
+---
+
+### Q92. `gov-087` — 點擊熱區題
+
+**題目 ID**: `gov-087`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During a difficult project milestone, a project manager delivers an energizing speech that excites the team about the mission, drawing heavily on personal charm and an inspiring presence to lift morale, rather than relying on formal authority or negotiated rewards. Click the card that correctly names this leadership style.
+- 中: 在專案面臨艱難的里程碑時,一位專案經理發表了一場振奮人心的演說,大量運用個人魅力與令人信服的存在感讓團隊對任務感到興奮、提振士氣,而非倚賴正式職權或協商獎勵。請點選正確命名此領導風格的卡片。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Charismatic Leadership / 魅力型領導(Charismatic Leadership) ✅ **正解** [x=5,y=5,w=40,h=35]
+- (n2) Transactional Leadership / 交易型領導(Transactional Leadership) [x=52.5,y=5,w=40,h=35]
+- (n3) Laissez-Faire Leadership / 自由放任型領導(Laissez-Faire Leadership) [x=5,y=47.5,w=40,h=35]
+- (n4) Autocratic Decision Making / 獨裁式決策(Autocratic Decision Making) [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+魅力型領導(Charismatic Leadership)是運用個人魅力與感染力來鼓舞士氣、讓團隊興奮投入的領導風格;交易型領導著重以獎勵、規則與表現獎金驅動行為;自由放任型領導幾乎完全放手,由高度自主的團隊自行運作;獨裁式決策則是一種決策方式而非領導風格,指由單一個人代表團隊做決定。題目描述倚賴個人魅力與感染力振奮團隊,正是魅力型領導的典型特徵。
+
+---
+
+### Q93. `gov-088` — 單選題
+
+**題目 ID**: `gov-088`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A team member calls in sick on the day a critical deliverable is due, causing an immediate delay. Which document should this event be recorded in, and why?
+- 中: 一位團隊成員在關鍵交付物到期當天請病假,造成立即性的延誤。這個事件應該被記錄在哪一份文件中?原因為何?
+
+**選項**
+
+- (a) The Risk Register, because staff illness is always classified as a risk / 風險登錄表,因為員工生病一律被歸類為風險
+- (b) The Issue Log, because this is an event that has already occurred and requires resolution, not merely a future possibility / 問題記錄,因為這是已經發生、需要處理的事件,而非單純的未來可能性 ✅ **正解**
+- (c) The Lessons Learned Register, because it will help avoid this in future projects / 經驗教訓登錄表,因為這有助於未來專案避免此情況
+- (d) The Change Log, because a schedule delay always requires a formal change request / 變更記錄,因為時程延誤一律需要正式變更請求
+
+**詳解**
+
+風險(Risk)是尚未發生、具有不確定性的未來事件;議題(Issue)則是已經實際發生、需要當下處理的事件。團隊成員請病假是已經發生的事實,應記錄於問題記錄(Issue Log)並指派負責人與目標解決日期,而非事後才補記於原本應在請假前就已評估的風險登錄表。經驗教訓登錄表通常在專案過程或結案時彙整反思用,並非用於記錄當下待處理事件;此類單一事件也不必然觸發正式變更請求。
+
+---
+
+### Q94. `gov-089` — 拖拉配對題
+
+**題目 ID**: `gov-089`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each output of the Manage Project Execution process to its description.
+- 中: 請將下列每項「管理專案執行」流程的產出拖曳配對到對應描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Deliverables / 交付物(Deliverables)
+- p2: Work Performance Data / 工作績效資料(Work Performance Data)
+- p3: Issue Log / 問題記錄(Issue Log)
+- p4: Change Request / 變更請求(Change Request)
+
+**選項池(拖曳目標)**
+
+- c1: A unique product, service, or result produced by carrying out the planned work / 依規劃工作執行後所產出的獨特產品、服務或結果
+- c2: Raw, unanalyzed observations and measurements about each activity, typically provided directly by team members / 有關各項活動、未經分析的原始觀察與量測數據,通常由團隊成員直接提供
+- c3: A record of events that have already occurred and negatively affected the project, along with the assigned owner and target resolution date / 已發生且對專案造成負面影響之事件的紀錄,並附上指派的負責人與目標解決日期
+- c4: A formal request to modify a document, deliverable, or baseline, submitted for evaluation by the appropriate governance body / 正式提出修改文件、交付物或基準的請求,提交給適當的治理機構評估
+
+**✅ 正確配對**
+
+- p1 → c1: Deliverables → A unique product, service, or result produced by carrying out the planned work（交付物(Deliverables) → 依規劃工作執行後所產出的獨特產品、服務或結果）
+- p2 → c2: Work Performance Data → Raw, unanalyzed observations and measurements about each activity, typically provided directly by team members（工作績效資料(Work Performance Data) → 有關各項活動、未經分析的原始觀察與量測數據,通常由團隊成員直接提供）
+- p3 → c3: Issue Log → A record of events that have already occurred and negatively affected the project, along with the assigned owner and target resolution date（問題記錄(Issue Log) → 已發生且對專案造成負面影響之事件的紀錄,並附上指派的負責人與目標解決日期）
+- p4 → c4: Change Request → A formal request to modify a document, deliverable, or baseline, submitted for evaluation by the appropriate governance body（變更請求(Change Request) → 正式提出修改文件、交付物或基準的請求,提交給適當的治理機構評估）
+
+**詳解**
+
+管理專案執行(Manage Project Execution)流程的主要產出包含:依計畫產出的交付物;團隊成員提供的原始工作績效資料;記錄已發生負面事件的問題記錄;以及在執行過程中發現需要調整而正式提出的變更請求。這些產出彼此環環相扣,共同構成「執行→發現問題→提出變更→治理機構決策」的完整循環。
+
+---
+
+### Q95. `gov-090` — 單選題
+
+**題目 ID**: `gov-090`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager spends most of a difficult week having one-on-one conversations to understand what motivates each team member, clarifying the project's larger purpose, and encouraging the team to propose their own solutions, rather than closely tracking task checklists. Which of the following best describes what this project manager is primarily doing?
+- 中: 在一個艱難的星期裡,一位專案經理大部分時間都在進行一對一對話,以了解每位團隊成員的動機來源,釐清專案更大的意義,並鼓勵團隊自行提出解決方案,而非緊盯任務清單的執行進度。下列何者最能描述這位專案經理主要在做的事?
+
+**選項**
+
+- (a) Management, since tracking tasks efficiently is the primary responsibility of a project manager / 管理,因為有效追蹤任務是專案經理的主要職責
+- (b) Leadership, since motivating and influencing people toward a shared direction, rather than directing tasks, is the focus here / 領導,因為此處著重於激勵並影響他人朝共同方向前進,而非直接指揮任務 ✅ **正解**
+- (c) Governance, since this behavior defines the project's formal decision-making framework / 治理,因為此行為定義了專案的正式決策框架
+- (d) Configuration management, since it deals with tracking versions of team commitments / 組態管理,因為這涉及追蹤團隊承諾的版本
+
+**詳解**
+
+管理(Management)著重於使人們專注於工作、流程與行動以更有效率地執行任務;領導(Leadership)則著重於激勵、影響他人,協助釐清方向,並鼓勵協作與自主。題目描述的一對一了解動機、釐清願景、鼓勵自主提案,正是領導行為的典型展現,而非緊盯進度的管理行為。治理是指引專案決策的框架,組態管理則與版本控管有關,兩者皆與本情境無關。
+
+---
+
+### Q96. `gov-091` — 多選題
+
+**題目 ID**: `gov-091`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Which three of the following correctly describe the Governance performance domain as a whole? (Select three.)
+- 中: 下列哪三項正確描述了「治理(Governance)」績效領域整體的特性?(請選擇三項)
+
+**選項**
+
+- (a) It can be tailored in weight, from a lighter approach on adaptive projects to a large and comprehensive approach on predictive projects / 其實施程度可被裁適,從調適式專案的較輕量作法,到預測式專案的較大規模、完整作法皆有 ✅ **正解**
+- (b) It essentially represents the sum of how a project manager carries out activities across the other performance domains / 本質上代表專案經理在其他各績效領域中執行活動的總和 ✅ **正解**
+- (c) On predictive projects, it typically relies on stronger governance tools such as defined escalation paths and investment control / 在預測式專案中,通常倚賴較強的治理工具,例如明確的升級路徑與投資控管 ✅ **正解**
+- (d) It applies only to the initiating and closing phases of a project, and has no relevance during execution / 僅適用於專案的啟動與收尾階段,與執行階段無關
+- (e) It is a fixed set of mandatory steps that every project must follow in exactly the same order / 是一套固定、每個專案都必須依相同順序執行的強制性步驟
+
+**詳解**
+
+Governance 績效領域本質上是專案經理在範疇、時程、財務、利害關係人、資源、風險等其他領域中執行活動的總和,是引導專案決策的框架,其嚴謹程度可依開發方法裁適,調適式專案較輕量,預測式專案則通常需要較完整的治理工具,如升級路徑與投資控管。它貫穿專案啟動到收尾的整個生命週期,並非只適用於啟動與收尾階段;也不是一套固定、每個專案都得依相同順序執行的強制性步驟清單,而是需依情境彈性裁適的框架。
+
+---
+
+### Q97. `gov-092` — 下拉選單題
+
+**題目 ID**: `gov-092`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A {{blank1}} indicator, such as a worsening budget cost trend, provides an early warning sign of a potential problem before it fully materializes. A {{blank2}} indicator, such as the number of completed deliverables or a recorded schedule variance, shows what has already happened.
+- 中: {{blank1}} 指標(例如逐漸惡化的預算成本趨勢)能在問題完全顯現之前,提供潛在問題的早期警訊;{{blank2}} 指標(例如已完成的交付物數量或已記錄的時程差異)則顯示已經發生過的事情。
+
+**blank1**
+
+- (a) Leading / 領先(Leading) ✅ **正解**
+- (b) Lagging / 落後(Lagging)
+
+**blank2**
+
+- (a) Leading / 領先(Leading)
+- (b) Lagging / 落後(Lagging) ✅ **正解**
+
+
+**詳解**
+
+領先指標(Leading Indicator)能在問題完全爆發前提供早期警訊,例如預算成本的惡化趨勢,讓治理機構有機會提早介入;落後指標(Lagging Indicator)則是反映已經發生過的結果,例如已完成的交付物數量、已記錄的時程或成本差異。兩種指標搭配使用,能幫助治理機構同時掌握「可能即將發生什麼」與「已經發生了什麼」,及早發現並修正問題。
+
+---
+
+### Q98. `gov-093` — 單選題
+
+**題目 ID**: `gov-093`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: During testing, the team discovers that an already-built component does not meet the agreed specification and must be reworked before it can be accepted. What type of change is this rework classified as?
+- 中: 在測試期間,團隊發現一項已經建置完成的組件並不符合約定的規格,必須經過重工才能被驗收。這項重工屬於下列哪一種變更類型?
+
+**選項**
+
+- (a) Preventive action, since it addresses a problem that has not yet occurred / 預防行動,因為它是針對尚未發生的問題進行處理
+- (b) Defect repair, since it corrects a defect that has already occurred in a completed deliverable / 缺陷修復,因為它是修正已存在於已完成交付物中的缺陷 ✅ **正解**
+- (c) Corrective action, since it prevents an ongoing negative trend from worsening / 矯正行動,因為它是為了防止既有負面趨勢惡化
+- (d) A change to the project charter, since specifications originate from the charter / 對專案章程的變更,因為規格是源自於章程
+
+**詳解**
+
+缺陷修復(Defect Repair)是指修正已經實際發生、存在於交付物中的瑕疵或不符規格之處,題目所描述的「已建置完成但不符規格,需要重工」正是典型的缺陷修復情境。預防行動是針對尚未發生的潛在問題預先處理;矯正行動則是為了阻止既有負面趨勢繼續惡化,兩者皆非本情境的正確分類;而詳細規格通常記載於需求文件或範疇基準,並非專案章程的內容。
+
+---
+
+### Q99. `gov-094` — 拖拉配對題
+
+**題目 ID**: `gov-094`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each of the following PMBOK principles to its core idea.
+- 中: 請將下列每項 PMBOK 原則拖曳配對到其核心概念。
+
+**配對項目(拖曳來源)**
+
+- p1: Adopt a Holistic View / 採取全面觀(Adopt a Holistic View)
+- p2: Focus on Value / 聚焦價值(Focus on Value)
+- p3: Be an Accountable Leader / 成為當責的領導者(Be an Accountable Leader)
+- p4: Integrate Sustainability / 整合永續性(Integrate Sustainability)
+- p5: Build an Empowered Culture / 建立賦權文化(Build an Empowered Culture)
+
+**選項池(拖曳目標)**
+
+- c1: Recognize that all performance domains are interconnected, so a change in one area (e.g., budget) can ripple into schedule, resources, and risk / 體認所有績效領域彼此環環相扣,某一面向的變動(如預算)可能牽動時程、資源與風險
+- c2: Judge project success by the benefit delivered to stakeholders, not merely by whether the planned work was completed on time and on budget / 以帶給利害關係人的效益衡量專案成功,而非僅以計畫工作是否準時、依預算完成來判斷
+- c3: Maintain honesty, fairness, and integrity while remaining respectful and self-aware in every interaction with stakeholders / 在與每一位利害關係人的互動中,保持誠實、公平與正直,同時維持尊重與自我覺察
+- c4: Balance social, environmental, and economic outcomes across the project, avoiding negative impact where possible / 在專案中平衡社會、環境與經濟三方面的成果,盡可能避免造成負面影響
+- c5: Trust and empower team members, encourage collaboration, and establish clear norms rather than micromanaging every decision / 信任並賦權團隊成員,鼓勵協作,並建立明確規範,而非事事微觀管理
+
+**✅ 正確配對**
+
+- p1 → c1: Adopt a Holistic View → Recognize that all performance domains are interconnected, so a change in one area (e.g., budget) can ripple into schedule, resources, and risk（採取全面觀(Adopt a Holistic View) → 體認所有績效領域彼此環環相扣,某一面向的變動(如預算)可能牽動時程、資源與風險）
+- p2 → c2: Focus on Value → Judge project success by the benefit delivered to stakeholders, not merely by whether the planned work was completed on time and on budget（聚焦價值(Focus on Value) → 以帶給利害關係人的效益衡量專案成功,而非僅以計畫工作是否準時、依預算完成來判斷）
+- p3 → c3: Be an Accountable Leader → Maintain honesty, fairness, and integrity while remaining respectful and self-aware in every interaction with stakeholders（成為當責的領導者(Be an Accountable Leader) → 在與每一位利害關係人的互動中,保持誠實、公平與正直,同時維持尊重與自我覺察）
+- p4 → c4: Integrate Sustainability → Balance social, environmental, and economic outcomes across the project, avoiding negative impact where possible（整合永續性(Integrate Sustainability) → 在專案中平衡社會、環境與經濟三方面的成果,盡可能避免造成負面影響）
+- p5 → c5: Build an Empowered Culture → Trust and empower team members, encourage collaboration, and establish clear norms rather than micromanaging every decision（建立賦權文化(Build an Empowered Culture) → 信任並賦權團隊成員,鼓勵協作,並建立明確規範,而非事事微觀管理）
+
+**詳解**
+
+PMBOK 的原則並非硬性規定,而是指引專案決策的核心概念:全面觀強調各績效領域環環相扣;聚焦價值以效益而非單純的工作完成度衡量成功;當責領導者要求誠實、公平、正直與自我覺察;整合永續性則要求平衡社會、環境與經濟三方面成果;建立賦權文化則透過信任、授權與明確規範來鼓勵團隊協作與自主。這些原則共同構成 PM 應具備的價值驅動思維。
+
+---
+
+### Q100. `gov-095` — 單選題
+
+**題目 ID**: `gov-095`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A product is delivered three weeks late and 15% over budget, yet it becomes an immediate commercial success and significantly exceeds the originally projected business benefit. According to the "Focus on Value" principle, how should this project's overall success be judged?
+- 中: 某產品延遲三週交付,且超出預算 15%,但上市後立即獲得商業成功,其帶來的商業效益也大幅超出當初的預估。依照「聚焦價值(Focus on Value)」原則,這個專案的整體成功與否應該如何判斷?
+
+**選項**
+
+- (a) The project must be judged a failure, since schedule and cost baselines were both exceeded / 這個專案必須被判定為失敗,因為時程與成本基準都被超出
+- (b) Success should be judged primarily by the value and benefit ultimately delivered to stakeholders, not solely by adherence to the original schedule and cost baselines / 成功與否應主要依最終帶給利害關係人的價值與效益來判斷,而非僅以是否遵守原始時程與成本基準來評斷 ✅ **正解**
+- (c) Success can only be judged after a full external financial audit is completed / 只有在完成完整的外部財務稽核後,才能判斷專案是否成功
+- (d) Success should be judged solely by whether the team followed the documented project management plan exactly as written / 成功與否應僅依團隊是否完全依照書面專案管理計畫執行來判斷
+
+**詳解**
+
+「聚焦價值」原則主張專案成功應以最終交付成果帶給利害關係人的效益與價值來衡量,而非只看計畫工作是否準時、依預算完成。即使時程與預算目標未達成,只要最終交付的成果為利害關係人創造了顯著價值,仍可被視為成功的專案;反之,即使嚴格遵守時程、預算與書面計畫的每一項細節,若最終沒有創造應有的價值,也未必稱得上真正成功。因此不能僅因超出基準就片面判定失敗,也不需要等待外部財務稽核才能評斷,而應綜合評估價值的實現程度。
+
+---
+
+### Q101. `gov-096` — 點擊熱區題
+
+**題目 ID**: `gov-096`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A developer, without being asked and without discussing it with the product owner, adds several extra visual animations to a feature because they personally think it looks more impressive, consuming extra time that was not planned for. Click the card that correctly names this behavior.
+- 中: 一位開發者未經任何人要求,也未與產品負責人討論,就自行為某項功能加入數個額外的視覺動畫效果,理由是他個人認為這樣看起來比較厲害,因而耗費了未經規劃的額外時間。請點選正確命名此行為的卡片。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Gold Plating / 鍍金(Gold Plating) ✅ **正解** [x=5,y=5,w=40,h=35]
+- (n2) Scope Creep / 範疇蔓延(Scope Creep) [x=52.5,y=5,w=40,h=35]
+- (n3) A properly approved Change Request / 一項已正式核准的變更請求 [x=5,y=47.5,w=40,h=35]
+- (n4) Rolling Wave Planning / 漸進式規劃(Rolling Wave Planning) [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+鍍金(Gold Plating)是指團隊成員未經利害關係人要求或正式核可,自行在交付物中加入額外的功能或修飾,即使出發點是善意,也屬於一種浪費(Waste),因為它耗用未經規劃的資源,卻不一定帶來相對應的價值。範疇蔓延(Scope Creep)則是指整體專案範疇在未經正式審核下被逐步擴增,通常源自外部或客戶的隱性要求持續累積,與本情境「個人自行加料」的性質不同;本情境中的行為並未經過正式變更流程核准,因此也不是已核准的變更請求;漸進式規劃則是一種規劃技巧,與本情境無關。
+
+---
+
+### Q102. `gov-097` — 多選題
+
+**題目 ID**: `gov-097`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Which three of the following are tools and techniques commonly used in the Manage Quality (Quality Assurance) process? (Select three.)
+- 中: 下列哪三項是「管理品質(品質保證,QA)」流程中常用的工具與技巧?(請選擇三項)
+
+**選項**
+
+- (a) Audits, to clearly identify what is being done well and what needs improvement / 稽核,用於清楚辨別哪裡做得好、哪裡仍待改善 ✅ **正解**
+- (b) Ishikawa (Fishbone) diagrams, to break a problem down into potential contributing branches to find its root cause / 石川圖(魚骨圖),將問題拆解成潛在的成因分支,以找出根本原因 ✅ **正解**
+- (c) Process improvement techniques such as Six Sigma or Kaizen, to identify and remove non-value-adding activities / 流程改善技巧(如六標準差或改善 Kaizen),用於找出並移除無附加價值的活動 ✅ **正解**
+- (d) Control charts, used specifically to statistically monitor whether a deliverable's defect rate remains within acceptable limits / 管制圖,專門用於統計性監控交付物的缺陷率是否維持在可接受範圍內
+- (e) Formal contract negotiation techniques used to finalize vendor pricing / 用於敲定供應商定價的正式合約協商技巧
+
+**詳解**
+
+管理品質(QA)聚焦於流程導向的預防性活動,常用工具包含稽核(找出優缺點)、石川圖/魚骨圖(拆解問題根因)、以及六標準差、Kaizen 等流程改善技巧(移除無價值活動)。管制圖(Control Chart)是一種統計性工具,主要用於監督與控制範疇(產品導向的品質管制,QC)時判斷交付物是否維持穩定,較常出現在監督與控制範疇的脈絡中;合約協商技巧則與採購管理有關,皆非管理品質流程的核心工具。
+
+---
+
+### Q103. `gov-098` — 下拉選單題
+
+**題目 ID**: `gov-098`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: An {{blank1}} diagram is a process-oriented tool used during Manage Quality (QA) to trace a problem back to its potential root causes. A {{blank2}} is a product-oriented statistical tool used during Monitor and Control Scope (QC) to determine whether a process is producing consistent, predictable output within defined upper and lower limits.
+- 中: {{blank1}} 圖是「管理品質(QA)」中用於追溯問題潛在根本原因的流程導向工具;{{blank2}} 則是「監督與控制範疇(QC)」中用於判斷流程是否在既定上下限內產出一致、可預測結果的產品導向統計工具。
+
+**blank1**
+
+- (a) Ishikawa (Fishbone) / 石川圖(魚骨圖) ✅ **正解**
+- (b) Control Chart / 管制圖(Control Chart)
+
+**blank2**
+
+- (a) Ishikawa (Fishbone) / 石川圖(魚骨圖)
+- (b) Control Chart / 管制圖(Control Chart) ✅ **正解**
+
+
+**詳解**
+
+石川圖(Ishikawa/Fishbone Diagram)是管理品質(QA)流程中常用的流程導向工具,透過將問題拆解成不同分支來追溯根本原因;管制圖(Control Chart)則是監督與控制範疇(QC)流程中常用的產品導向統計工具,透過中心線、管制上限(UCL)與下限(LCL)判斷流程是否穩定,若資料點超出界限或連續多點偏向同一側,則代表流程已失控。兩者分屬 QA(流程預防)與 QC(產品檢測)兩個不同性質的品質工具。
+
+---
+
+### Q104. `gov-099` — 多選題
+
+**題目 ID**: `gov-099`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: According to the "Focus on Value" principle, which three of the following are examples of waste that a project team should try to minimize? (Select three.)
+- 中: 依照「聚焦價值(Focus on Value)」原則,下列哪三項屬於專案團隊應盡量避免的浪費(Waste)?(請選擇三項)
+
+**選項**
+
+- (a) Holding excessive meetings that do not lead to meaningful decisions or outcomes / 舉行過多且未能帶來有意義決策或成果的會議 ✅ **正解**
+- (b) Producing deliverables or features that do not add real value for stakeholders / 產出對利害關係人而言並無實際價值的交付物或功能 ✅ **正解**
+- (c) Insufficient team training that leads to avoidable rework / 團隊訓練不足,導致不必要的重工 ✅ **正解**
+- (d) Conducting regular retrospectives to capture lessons learned for continuous improvement / 定期舉行回顧會議,以擷取經驗教訓、持續改善
+- (e) Documenting a clear Definition of Done that the whole team agrees on / 制定一份團隊都同意的明確完工定義(Definition of Done)
+
+**詳解**
+
+「聚焦價值」原則強調專案應避免各種形式的浪費,包括開過多沒有實質產出的會議、產出對利害關係人並無真正價值的交付物,以及因訓練不足而導致的重工。定期回顧會議與制定明確的完工定義,則是有助於持續改善、減少浪費的良好實務,本身並非浪費的例子,不應與浪費混淆。
+
+---
+
+### Q105. `gov-100` — 多選題
+
+**題目 ID**: `gov-100`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: On an adaptive project, the organization adopts a "self-governance" model for the development team. Which three of the following correctly describe what this means in practice? (Select three.)
+- 中: 在一個調適式專案中,組織對開發團隊採用「自我治理(Self-Governance)」模式。下列哪三項正確描述了這在實務上代表的意義?(請選擇三項)
+
+**選項**
+
+- (a) The team is given greater flexibility and responsibility to make day-to-day decisions without needing approval for every minor item / 團隊被賦予更大的彈性與責任,可自行做出日常決策,而不需要每項細微事項都經過核准 ✅ **正解**
+- (b) The team's decisions still operate within the boundaries established by the overall project governance framework / 團隊的決策仍須在整體專案治理框架所設定的界線內進行 ✅ **正解**
+- (c) There is reduced need for command-and-control oversight on routine, low-risk decisions / 對於例行、低風險的決策,減少了命令與控制式監督的必要性 ✅ **正解**
+- (d) The team is entirely exempt from any governance oversight or accountability to the sponsor / 團隊完全豁免於任何治理監督,也無需向贊助人負責
+- (e) All formal change control processes are eliminated entirely once self-governance is adopted / 一旦採用自我治理,所有正式的變更控制流程都會被完全取消
+
+**詳解**
+
+自我治理(Self-Governance)代表團隊在日常決策上獲得更大的彈性與責任,減少了對例行、低風險事項的命令控制式監督,但這並不代表團隊完全豁免於整體治理框架之外,團隊的自主決策仍須在既定的治理界線內進行,對贊助人的當責關係也依然存在。同樣地,自我治理也不代表所有正式變更控制流程都會被完全取消,超出容忍範圍或影響基準的重大變更,仍需依循既定的治理機制處理。
+
+---
+
+### Q106. `gov-101` — 拖拉配對題
+
+**題目 ID**: `gov-101`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Beyond the traditional triple constraint of scope, schedule, and cost, project constraints also include quality, risk, and resources. Drag and match each constraint to its description.
+- 中: 除了傳統的範疇、時程、成本三重限制之外,專案限制還包含品質、風險與資源。請將下列每項限制拖曳配對到對應描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Scope / 範疇(Scope)
+- p2: Cost / 成本(Cost)
+- p3: Quality / 品質(Quality)
+- p4: Risk / 風險(Risk)
+- p5: Resources / 資源(Resources)
+
+**選項池(拖曳目標)**
+
+- c1: Defines the work required to deliver the project's product, service, or result, and what falls outside that boundary / 界定交付專案產品、服務或成果所需的工作,以及哪些內容不在此範圍之內
+- c2: The funding and budget available to complete the planned work / 完成規劃工作所能動用的資金與預算
+- c3: The degree to which the deliverable meets defined requirements and stakeholder expectations / 交付物符合既定需求與利害關係人期望的程度
+- c4: The uncertainty that could positively or negatively affect the project's objectives if it occurs / 一旦發生,可能對專案目標造成正面或負面影響的不確定性
+- c5: The people and physical or virtual assets needed to carry out the planned work / 執行規劃工作所需的人員以及實體或虛擬資產
+
+**✅ 正確配對**
+
+- p1 → c1: Scope → Defines the work required to deliver the project's product, service, or result, and what falls outside that boundary（範疇(Scope) → 界定交付專案產品、服務或成果所需的工作,以及哪些內容不在此範圍之內）
+- p2 → c2: Cost → The funding and budget available to complete the planned work（成本(Cost) → 完成規劃工作所能動用的資金與預算）
+- p3 → c3: Quality → The degree to which the deliverable meets defined requirements and stakeholder expectations（品質(Quality) → 交付物符合既定需求與利害關係人期望的程度）
+- p4 → c4: Risk → The uncertainty that could positively or negatively affect the project's objectives if it occurs（風險(Risk) → 一旦發生,可能對專案目標造成正面或負面影響的不確定性）
+- p5 → c5: Resources → The people and physical or virtual assets needed to carry out the planned work（資源(Resources) → 執行規劃工作所需的人員以及實體或虛擬資產）
+
+**詳解**
+
+除了傳統的三重限制(範疇、時程、成本)外,現代專案管理也將品質、風險與資源視為專案的重要限制條件:範疇界定所需完成的工作邊界;成本代表可動用的資金;品質衡量交付物是否符合需求與期望;風險代表可能影響專案目標的不確定性;資源則涵蓋執行工作所需的人力與實體/虛擬資產。這六項限制彼此環環相扣,任一項的變動都可能牽動其他項目,這也呼應「採取全面觀」原則的精神。
+
+---
+
+### Q107. `gov-102` — 拖拉配對題
+
+**題目 ID**: `gov-102`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each leadership style to its description.
+- 中: 請將下列每種領導風格拖曳配對到對應描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Servant Leadership / 服務型領導(Servant Leadership)
+- p2: Transactional Leadership / 交易型領導(Transactional Leadership)
+- p3: Transformational Leadership / 轉型領導(Transformational Leadership)
+- p4: Laissez-Faire Leadership / 自由放任型領導(Laissez-Faire Leadership)
+
+**選項池(拖曳目標)**
+
+- c1: The leader prioritizes serving the team's needs, actively removing obstacles so members can do their best work / 領導者優先服務團隊的需求,積極排除障礙以協助成員發揮所長
+- c2: The leader motivates through clearly defined rewards, rules, and performance-based incentives / 領導者透過明確定義的獎勵、規則與績效導向的誘因來激勵成員
+- c3: The leader inspires personal growth, innovation, and a shared long-term vision to elevate team performance / 領導者激勵個人成長、創新,並以共同的長期願景來提升團隊表現
+- c4: The leader takes a hands-off approach, allowing a highly autonomous, self-sufficient team to make its own decisions / 領導者採取放手的作法,讓高度自主、能自給自足的團隊自行做決策
+
+**✅ 正確配對**
+
+- p1 → c1: Servant Leadership → The leader prioritizes serving the team's needs, actively removing obstacles so members can do their best work（服務型領導(Servant Leadership) → 領導者優先服務團隊的需求,積極排除障礙以協助成員發揮所長）
+- p2 → c2: Transactional Leadership → The leader motivates through clearly defined rewards, rules, and performance-based incentives（交易型領導(Transactional Leadership) → 領導者透過明確定義的獎勵、規則與績效導向的誘因來激勵成員）
+- p3 → c3: Transformational Leadership → The leader inspires personal growth, innovation, and a shared long-term vision to elevate team performance（轉型領導(Transformational Leadership) → 領導者激勵個人成長、創新,並以共同的長期願景來提升團隊表現）
+- p4 → c4: Laissez-Faire Leadership → The leader takes a hands-off approach, allowing a highly autonomous, self-sufficient team to make its own decisions（自由放任型領導(Laissez-Faire Leadership) → 領導者採取放手的作法,讓高度自主、能自給自足的團隊自行做決策）
+
+**詳解**
+
+服務型領導以服務團隊需求、積極排除障礙為核心,是敏捷情境中最常見的風格;交易型領導以明確的獎勵與規則驅動行為;轉型領導著重激勵個人成長與創新,以長遠願景提升團隊表現;自由放任型領導則幾乎完全放手,適合高度自主、能自我管理的成熟團隊。這幾種風格並非互斥,實務上的領導者常依情境混合運用不同風格中的元素。
+
+---
+
+### Q108. `gov-103` — 點擊熱區題
+
+**題目 ID**: `gov-103`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: At the conclusion of Close Project or Phase, the project manager formally hands the completed product over to the operations team or customer, who signs documentation confirming they are now taking ownership and responsibility for it going forward. Click the card that correctly names this activity.
+- 中: 在「結束專案或階段」流程的最後,專案經理正式將已完成的產品移交給營運團隊或客戶,對方並簽署文件確認自此接手該產品的所有權與後續責任。請點選正確命名此活動的卡片。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Formal Handoff / Transition Acceptance / 正式移交/轉移驗收(Formal Handoff / Transition Acceptance) ✅ **正解** [x=5,y=5,w=40,h=35]
+- (n2) Validate Scope / 確認範疇(Validate Scope) [x=52.5,y=5,w=40,h=35]
+- (n3) Sprint Review / 短衝審查(Sprint Review) [x=5,y=47.5,w=40,h=35]
+- (n4) Phase Gate Review / 階段關卡審查(Phase Gate Review) [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+正式移交/轉移驗收(Formal Handoff / Transition Acceptance)是結束專案或階段流程中的關鍵活動,代表產品、服務或成果的所有權與後續責任正式從專案團隊轉移給營運單位或客戶。這與確認範疇(Validate Scope,在專案執行過程中確認交付物是否被接受)不同,也與短衝審查(在每個短衝結束時進行的展示與回饋活動)及階段關卡審查(用於決定是否進入下一階段)不同,三者發生的時機與目的皆與本情境所描述、發生在專案正式收尾時的所有權移交不同。
+
+---
+
+### Q109. `gov-104` — 單選題
+
+**題目 ID**: `gov-104`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Midway through developing an AI screening tool for rental applications, national lawmakers announce an automated decision making act that will govern how such tools may operate. What should the project manager do?
+- 中: 在開發一套用於租屋申請篩選的 AI 工具進行到一半時,國會宣布將通過一項規範此類工具運作方式的自動化決策法案。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Pause development until the act takes effect so no work is wasted. / 暫停開發,直到法案正式生效,以免做白工
+- (b) Have compliance specialists evaluate what the act would require of the tool. / 請合規專家評估這項法案對這套工具會有哪些具體要求 ✅ **正解**
+- (c) Update the risk register and the scope statement to conform with the act. / 更新風險登錄冊與範疇說明書,使其符合法案內容
+- (d) Brief the sponsor on the act and review the remaining budget together. / 向贊助人簡報這項法案,並一起檢視剩餘預算
+
+**詳解**
+
+法案目前只是「宣布將會規範」,實際會如何具體要求這套工具運作,細節還不明朗;在還不知道法案到底要求什麼之前就貿然暫停開發、或直接動手修改風險登錄冊與範疇說明書,都是還沒弄清楚合規義務內容就先動作,一旦後續解讀跟實際法規要求兜不起來,等於白做工。正確的第一步是先請合規專家釐清這項法案對這套工具具體會有哪些要求,有了明確的合規範圍之後,才能據以更新風險、範疇,或決定是否需要向贊助人報告與調整預算;向贊助人簡報雖然遲早要做,但也應該在弄清楚實際要求之後再進行,才能提供有意義的資訊讓贊助人決策。
+
+---
+
+### Q110. `gov-105` — 單選題
+
+**題目 ID**: `gov-105`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: As a resume ranking AI adaptive project reaches closure, the project manager sees the team burned weeks of unplanned effort retrofitting bias testing, because fairness requirements were never captured at initiation and only surfaced when a client audit flagged skewed results. What should the project manager do to prevent this in future projects?
+- 中: 一個履歷排序 AI 的調適型(agile)專案即將結案,專案經理發現團隊為了事後補做偏誤測試,燒掉了好幾週原本沒有排進計畫的心力,原因是公平性需求在啟動階段從未被蒐集,直到客戶稽核指出結果有偏差時才浮現。為了避免未來的專案重蹈覆轍,專案經理應該怎麼做?
+
+**選項**
+
+- (a) Require the responsible AI committee's involvement at the start of every future project. / 要求未來每個專案在啟動時都必須有負責任 AI 委員會參與
+- (b) Hold a retrospective on why the fairness requirements were missed and update the organizational process assets. / 針對為何遺漏公平性需求召開回顧會議,並更新組織過程資產 ✅ **正解**
+- (c) Add mandatory bias testing to the definition of done for all AI deliverables. / 將強制性偏誤測試加入所有 AI 交付項目的完成定義(DoD)
+- (d) Run a bias awareness training program for all project teams. / 為所有專案團隊舉辦偏誤意識培訓課程
+
+**詳解**
+
+專案已經接近收尾,此時 PM 最關鍵的職責是帶著團隊做回顧,找出「公平性需求為何在啟動階段就被遺漏」這個根本原因,並把改善措施沉澱進組織過程資產(OPA),讓這個教訓能真正被未來所有專案繼承,這正好對應持續改善流程這項任務所強調的組織層級學習。其餘選項都是還沒找出根本原因,就直接跳去指定的片面補救措施:不是所有組織都設有負責任 AI 委員會,強制介入屬於缺乏根因分析的行政命令;將偏誤測試塞進 DoD 只能在開發後期把關品質,無法解決「啟動階段需求蒐集不全」這個源頭問題;單純辦培訓也無法保證未來的需求蒐集流程真的會被制度化地改善。
 
 ---

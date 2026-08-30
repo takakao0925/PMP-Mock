@@ -1,6 +1,6 @@
 # Finance — PMP 題庫
 
-> 共 72 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 109 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `calc-001` — 單選題
 
@@ -1918,5 +1918,1021 @@ Sunk Cost(沉沒成本)是已經花費且無法收回的金錢,理性決策不�
 **詳解**
 
 CV = EV − AC = 160,000 − 185,000 = −25,000。CV 為負值表示實際花費(AC)超過已完成工作的價值(EV),即專案目前超出預算(over budget)。選項 (c)/(d) 的 −$15,000 是誤將 EV−PV(= 160,000−175,000 = −15,000,此為 SV 而非 CV)當成 CV 計算。
+
+---
+
+### Q73. `fin-072` — 單選題
+
+**題目 ID**: `fin-072`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: An agile team invests $50,000 over two sprints to build a Minimal Marketable Feature (MMF). After release, the feature generates $65,000 in benefit (revenue) during the first quarter. Using the Return on Investment (ROI) formula, what is the ROI for this MMF?
+- 中: 某敏捷團隊花費兩個 Sprint、投入 $50,000 開發一個最小可上市功能(MMF, Minimal Marketable Feature)。功能上線後,第一季共為組織帶來 $65,000 的效益(營收)。請以投資報酬率(ROI)公式計算,此 MMF 的 ROI 為何?
+
+**選項**
+
+- (a) 30% / 30% ✅ **正解**
+- (b) 130% / 130%
+- (c) 23% / 23%
+- (d) 76.9% / 76.9%
+
+**詳解**
+
+ROI = 淨利(效益 − 投入成本)／投入成本 = (65,000 − 50,000) / 50,000 = 15,000 / 50,000 = 0.30 = 30%。選項 (b) 是誤將「效益／投入成本」(65,000/50,000)當成 ROI,忘記先扣除投入成本;選項 (c) 是誤將「淨利／效益」(15,000/65,000)當成 ROI;選項 (d) 是誤把「投入成本／效益」(50,000/65,000)當成 ROI。如課程筆記所述,ROI 只反映總共賺了多少報酬(比率),並不考慮賺到這筆報酬花了多長時間,這是它與 IRR、NPV 最關鍵的差異。
+
+---
+
+### Q74. `fin-073` — 單選題
+
+**題目 ID**: `fin-073`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Which statement best distinguishes a Minimal Viable Product (MVP) from a Minimal Marketable Feature (MMF)?
+- 中: 下列敘述中,何者最能區分「最小可行產品」(MVP, Minimal Viable Product)與「最小可上市功能」(MMF, Minimal Marketable Feature)兩者的差異?
+
+**選項**
+
+- (a) An MVP is built mainly to gather early customer feedback with a rough, minimal version of a direction, while an MMF is a fully usable, tested, and valuable feature released to generate real market value. / MVP 主要用來及早取得客戶回饋,提供粗略的最小方向;MMF 則是完整可用、經過測試且具備真正價值的功能,目的在盡早於市場上獲利。 ✅ **正解**
+- (b) An MVP and an MMF are the same concept; both terms simply describe the same deliverable at different points in the project. / MVP 與 MMF 是相同概念,只是同一項交付物在專案不同時間點的不同稱呼。
+- (c) An MVP must always be fully tested and market-ready, while an MMF is only a rough prototype used to test a concept. / MVP 必須永遠是完整測試、可上市的成品,而 MMF 只是用來測試概念的粗略原型。
+- (d) An MVP is produced only after the MMF has already been marketed, in order to confirm customer satisfaction with a feature that is already for sale. / MVP 是在 MMF 已上市銷售之後才產出,用來確認客戶對已上市功能的滿意度。
+
+**詳解**
+
+依課程筆記,MVP(最小可行產品)的目的在於取得回饋,提供早期、粗略的方向,不必然可以直接上市獲利;MMF(最小可上市功能)的目的則在於獲利,必須是可使用、可測試、有價值的完整交付特色,並藉此縮短上市時間(Time-to-market)以盡早取得市場回饋與收益。選項 (b)(c)(d) 皆混淆或顛倒了兩者的定義與先後順序。
+
+---
+
+### Q75. `fin-074` — 單選題
+
+**題目 ID**: `fin-074`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A Lean Portfolio team is comparing financial metrics for three candidate epics. One member says: "This metric tells us the total percentage return an epic generates, but it does not account for how long it takes to earn that return." Which financial metric is being described?
+- 中: 某精實投資組合(Lean Portfolio)團隊正在比較三個候選 Epic 的財務指標。其中一位成員表示:「這個指標告訴我們某個 Epic 總共賺了多少報酬比率,但完全不考慮賺到這筆報酬花了多久時間。」這描述的是哪一項財務指標?
+
+**選項**
+
+- (a) Return on Investment (ROI) / 投資報酬率(ROI) ✅ **正解**
+- (b) Internal Rate of Return (IRR) / 內部報酬率(IRR)
+- (c) Net Present Value (NPV) / 淨現值(NPV)
+- (d) Payback Period / 回收期
+
+**詳解**
+
+ROI(投資報酬率)只衡量總共賺了多少報酬,以比率或百分比表示,並不考慮時間因素。相對地,IRR(內部報酬率)是年化比率,已將時間價值納入考量;NPV(淨現值)則是把未來各期現金流折現後加總所得到的「實際金額」,同樣考慮貨幣的時間價值;Payback Period(回收期)衡量的是「多快回本」所需的時間,而非以百分比表示的報酬率。因此題幹描述的「只看總報酬、不看時間」正是 ROI 的特性。
+
+---
+
+### Q76. `fin-075` — 多選題
+
+**題目 ID**: `fin-075`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Regarding the Cost of Change curve and the Cost of Defect curve, which two statements are correct? Select two.
+- 中: 關於「變更成本曲線」(Cost of Change)與「缺陷成本曲線」(Cost of Defect),下列哪兩項敘述正確?請選擇兩項。
+
+**選項**
+
+- (a) The Cost of Change curve shows that changes are cheapest to make early in the project and become progressively more expensive to make as the project advances. / 變更成本曲線顯示,越早進行變更成本越低,隨著專案推進,變更成本會逐漸升高。 ✅ **正解**
+- (b) The Cost of Defect curve shows that defects discovered after release (in production) are typically far more expensive to fix than defects caught during requirements or design. / 缺陷成本曲線顯示,發行後(正式上線)才發現的缺陷,其修復成本通常遠高於在需求或設計階段就發現的缺陷。 ✅ **正解**
+- (c) According to these two curves, the total cost of making a change or fixing a defect is the same no matter which project phase it occurs in. / 依這兩條曲線,無論在專案哪個階段進行變更或修復缺陷,總成本都是相同的。
+- (d) Predictive (waterfall) life cycles are unaffected by the Cost of Change curve, because all requirements are already fixed upfront. / 預測型(瀑布式)生命週期不受變更成本曲線影響,因為所有需求早已在前期固定。
+- (e) Frequent releases and short iterations in Agile increase, rather than decrease, the overall cost of defects, because requirements are revisited every sprint. / 敏捷的頻繁發行與短迭代會提高、而非降低整體缺陷成本,因為需求每個 Sprint 都會被重新檢視。
+
+**詳解**
+
+變更成本曲線的核心觀念是「越早改動越好,越晚改動代價越高」;缺陷成本曲線的核心觀念則是「越晚發現缺陷,代價越大」,從需求階段修改一行文字,到產品上市後才發現問題,甚至面臨招回或訴訟,成本可能相差數十倍以上。選項 (c) 錯誤地假設成本不隨階段而變;選項 (d) 錯誤地認為預測型生命週期不受此曲線影響(事實上正因為此曲線,預測型生命週期才特別強調前期詳盡規劃);選項 (e) 則與 Agile 精神相反——Agile 鼓勵自動化測試、TDD、及早且頻繁地交付與驗證,目的正是要及早發現缺陷、降低缺陷成本,而非提高它。
+
+---
+
+### Q77. `fin-076` — 多選題
+
+**題目 ID**: `fin-076`
+
+難度: `hard` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Regarding Agile contracting approaches (e.g., Money for Nothing, Graduated Fixed Price Contract, Fixed Price Work Packages), which three statements are correct? Select three.
+- 中: 關於敏捷外包契約做法(如 Money for Nothing、Graduated Fixed Price Contract、Fixed Price Work Packages),下列哪三項敘述正確?請選擇三項。
+
+**選項**
+
+- (a) Under a "Money for Nothing" clause, the customer can terminate the contract early and pay the vendor only a specified percentage of the remaining contract value, since ending early can save both sides time and money. / 在「Money for Nothing」條款下,客戶可提前終止合約,只需支付剩餘合約金額中約定的一定比例給廠商,因為提前結束對雙方都能省下時間與金錢。 ✅ **正解**
+- (b) A Graduated Fixed Price Contract adjusts the agreed price up or down depending on how much earlier or later than planned the work is completed. / Graduated Fixed Price Contract 會依實際完工時間比原訂計畫提前或延後的程度,向上或向下調整約定的價格。 ✅ **正解**
+- (c) Fixed Price Work Packages require the entire scope of the whole project to be fixed and priced as a single lump sum before any work begins. / Fixed Price Work Packages 要求在任何工作展開前,就把整個專案的全部範疇固定並以單一總價議定。
+- (d) Agile contracting approaches generally avoid breaking the contract into smaller priced work packages, since Agile discourages any form of fixed pricing. / 敏捷外包契約做法通常避免把合約拆成多個訂價的工作包,因為敏捷不鼓勵任何形式的固定計價。
+- (e) These agile contracting models exist largely because traditional fixed-scope, fixed-price contracts conflict with Agile's need for flexibility to change requirements. / 這些敏捷契約模式之所以出現,主要是因為傳統「範疇固定、價格固定」的合約,與敏捷所需的需求變更彈性互相抵觸。 ✅ **正解**
+
+**詳解**
+
+敏捷外包契約源自「敏捷需要彈性改動需求,但傳統契約講求範疇與價格固定」這項根本矛盾,因此發展出多種變通做法:Money for Nothing 讓客戶可提前結束合約、只付一定比例金額以節省成本;Graduated Fixed Price Contract 依交付時間提前或延後調整價格,越有效率、越提前交付通常代價越高(獎勵效率);Fixed Price Work Packages 則是把整體範疇拆成多個定義清楚的小型交付物,分別訂價,藉此降低單一大範疇一次性定價的不確定性,而非把整個專案綁成一筆總價,故選項 (c)(d) 皆錯誤地描述成「整體綁死」與「完全避免拆分計價」,與實際做法相反。
+
+---
+
+### Q78. `fin-077` — 拖拉配對題
+
+**題目 ID**: `fin-077`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Drag and match each Agile contracting approach to the description that best fits it.
+- 中: 請將下列 3 種敏捷外包契約做法拖曳配對到最符合的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Money for Nothing / Money for Nothing
+- p2: Graduated Fixed Price Contract / Graduated Fixed Price Contract
+- p3: Fixed Price Work Packages / Fixed Price Work Packages
+
+**選項池(拖曳目標)**
+
+- c1: Allows the customer to terminate the contract early and pay the vendor only a percentage of the remaining contract value, saving money on requirements that were never built / 允許客戶提前終止合約,只需支付剩餘合約金額中的一定比例給廠商,對尚未建置的需求省下費用
+- c2: Adjusts the contract price based on how much earlier or later than planned the work is completed, rewarding efficient early delivery / 依實際完工時間比原訂計畫提前或延後的程度調整合約價格,藉此獎勵有效率的提前交付
+- c3: Breaks the overall project scope into smaller, well-defined deliverables that are each priced and contracted separately, making estimating uncertainty easier to manage / 把整體專案範疇拆成多個定義清楚的小型交付物,個別分開訂價與簽約,以利管理估算的不確定性
+
+**✅ 正確配對**
+
+- p1 → c1: Money for Nothing → Allows the customer to terminate the contract early and pay the vendor only a percentage of the remaining contract value, saving money on requirements that were never built（Money for Nothing → 允許客戶提前終止合約,只需支付剩餘合約金額中的一定比例給廠商,對尚未建置的需求省下費用）
+- p2 → c2: Graduated Fixed Price Contract → Adjusts the contract price based on how much earlier or later than planned the work is completed, rewarding efficient early delivery（Graduated Fixed Price Contract → 依實際完工時間比原訂計畫提前或延後的程度調整合約價格,藉此獎勵有效率的提前交付）
+- p3 → c3: Fixed Price Work Packages → Breaks the overall project scope into smaller, well-defined deliverables that are each priced and contracted separately, making estimating uncertainty easier to manage（Fixed Price Work Packages → 把整體專案範疇拆成多個定義清楚的小型交付物,個別分開訂價與簽約,以利管理估算的不確定性）
+
+**詳解**
+
+三種敏捷外包契約做法都是為了緩解「敏捷需要彈性、傳統契約講求固定」的矛盾:Money for Nothing 讓客戶能提前喊停、只付約定比例的費用;Graduated Fixed Price Contract 用價格隨交期提前或延後而調整的機制,鼓勵廠商有效率地交付;Fixed Price Work Packages 則是把大範疇拆成定義清楚的小型工作包分別訂價,而非整個專案綁成一筆總價,藉此讓雙方更容易掌握估算的不確定性。
+
+---
+
+### Q79. `fin-078` — 下拉選單題
+
+**題目 ID**: `fin-078`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `People`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: The Constructive Cost Model (COCOMO) observes that {{blank1}} costs make up the majority of most project expenses. This is one reason Agile's first Manifesto value emphasizes {{blank2}} over rigid processes and tools when it comes to getting work done and managing project cost.
+- 中: 建設性成本模型(COCOMO, Constructive Cost Model)指出,大多數專案的支出中,{{blank1}}成本佔了絕大部分。這也是敏捷宣言第一項價值強調重視{{blank2}}、而非僵硬的流程和工具的原因之一,因為工作終究是由人來完成的。
+
+**blank1**
+
+- (a) Labor / people(人力) / 人力(Labor / people) ✅ **正解**
+- (b) Equipment and materials(設備與原料) / 設備與原料(Equipment and materials)
+- (c) Software licensing(軟體授權) / 軟體授權(Software licensing)
+- (d) Travel and logistics(差旅與物流) / 差旅與物流(Travel and logistics)
+
+**blank2**
+
+- (a) Individuals and interactions(個體與互動) / 個體與互動(Individuals and interactions) ✅ **正解**
+- (b) Processes and tools(流程和工具) / 流程和工具(Processes and tools)
+- (c) Contract negotiation(合約協商) / 合約協商(Contract negotiation)
+- (d) Comprehensive documentation(詳盡文件) / 詳盡文件(Comprehensive documentation)
+
+
+**詳解**
+
+COCOMO(建設性成本模型)點出多數專案人力支出相對其他項目高出許多,因此如何管理「人」才是控制成本的關鍵,這正呼應了敏捷宣言四大價值的第一項:「個體與互動」重於「流程和工具」——工作是由人執行,而非工具,更專注於成員的參與和溝通,而非死守流程規範,才更能有效掌控專案的人力成本與產出品質。
+
+---
+
+### Q80. `fin-079` — 點擊熱區題
+
+**題目 ID**: `fin-079`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: The diagram below is a simplified Cost of Change / Cost of Defect curve across four project phases: Requirements, Design, Construction & Test, and Production (post-release). Click the phase in which the cost of changing a requirement or fixing a defect is highest.
+- 中: 下圖為簡化版的「變更成本／缺陷成本曲線」,橫跨四個專案階段:需求(Requirements)、設計(Design)、建構與測試(Construction & Test)、正式上線(Production,發行後)。請點選「變更需求或修復缺陷成本最高」的那個階段。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Requirements (lowest cost) / 需求階段(成本最低) [x=5,y=65,w=20,h=25]
+- (n2) Design / 設計階段 [x=30,y=48,w=20,h=25]
+- (n3) Construction & Test / 建構與測試階段 [x=55,y=28,w=20,h=25]
+- (n4) Production, post-release (highest cost) / 正式上線階段(發行後,成本最高) ✅ **正解** [x=80,y=5,w=20,h=25]
+
+**詳解**
+
+變更成本曲線與缺陷成本曲線都呈現同一種型態:成本隨著專案階段推進而遞增,越晚才變更需求或修復缺陷,代價越高。在需求階段修改一個想法可能只需要改幾行文件;到了正式上線(Production)後才發現問題,則可能牽涉到修改已交付的程式碼、重新測試、甚至召回產品或面臨客戶投訴與法律責任,成本遠高於前期階段。這正是 Agile 強調自動化測試、TDD(Test-Driven Development)與 DoD(Definition of Done)、鼓勵及早且頻繁交付與驗證的核心原因之一。
+
+---
+
+### Q81. `fin-080` — 單選題
+
+**題目 ID**: `fin-080`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project has BAC = $400,000. At the status date, EV = $180,000 and AC = $210,000. Based on earned value, what percentage of the project's planned scope has been completed so far?
+- 中: 某專案 BAC(完工預算)= $400,000。於狀態日,EV(實獲值)= $180,000、AC(實際成本)= $210,000。依實獲值計算,專案目前完成了計畫範疇的百分之多少?
+
+**選項**
+
+- (a) 45% / 45% ✅ **正解**
+- (b) 85.7% / 85.7%
+- (c) 52.5% / 52.5%
+- (d) 40% / 40%
+
+**詳解**
+
+完成百分比 = EV / BAC = 180,000 / 400,000 = 45%,反映截至目前已實獲的計畫範疇比例。選項 (b) 85.7% 是誤將 EV/AC(= 180,000/210,000 ≈ 85.7%)當成完成百分比,但這其實是與 CPI 相關的成本效率比較;選項 (c) 52.5% 則是 AC/BAC(= 210,000/400,000 = 52.5%),代表「已花費預算的比例」而非「實際完成工作的比例」,兩者是常見的混淆陷阱。
+
+---
+
+### Q82. `fin-081` — 單選題
+
+**題目 ID**: `fin-081`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project has PV = $250,000, EV = $220,000, and AC = $260,000. What is the Cost Variance Percentage (CV%), and what does it indicate? (Round to one decimal place.)
+- 中: 某專案 PV(計畫值)= $250,000、EV(實獲值)= $220,000、AC(實際成本)= $260,000。請問成本變異百分比(CV%)為何,代表什麼意義?(四捨五入至小數點後一位)
+
+**選項**
+
+- (a) CV% ≈ −18.2%,代表實際成本超出實獲值約 18.2% / CV% ≈ −18.2%,代表實際成本超出實獲值約 18.2% ✅ **正解**
+- (b) CV% ≈ +18.2%,代表低於預算約 18.2% / CV% ≈ +18.2%,代表低於預算約 18.2%
+- (c) CV% ≈ −15.4%,代表超出預算約 15.4% / CV% ≈ −15.4%,代表超出預算約 15.4%
+- (d) CV% ≈ −16.0%,代表超出預算約 16.0% / CV% ≈ −16.0%,代表超出預算約 16.0%
+
+**詳解**
+
+CV = EV − AC = 220,000 − 260,000 = −40,000。CV% = CV / EV = −40,000 / 220,000 ≈ −18.2%,負值表示實際成本超出實獲值,即超出預算。選項 (c) −15.4% 是誤用 AC 作為分母(−40,000/260,000);選項 (d) −16.0% 是誤用 PV 作為分母(−40,000/250,000);CV% 的標準公式分母須為 EV,而非 AC 或 PV,考生須留意這項慣例。
+
+---
+
+### Q83. `fin-082` — 單選題
+
+**題目 ID**: `fin-082`
+
+難度: `hard` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A team is comparing making a component in-house versus buying it from an external supplier. Making it in-house requires a one-time equipment purchase of $60,000 plus $8 per unit in production cost. Buying it externally costs $20 per unit with no fixed cost. At what production quantity do the total cost of making and the total cost of buying become equal (the breakeven point)?
+- 中: 團隊正在比較自製某零件與向外部供應商採購。自製需一次性設備採購 $60,000,加上每單位 $8 的生產成本。向外採購則每單位 $20,無固定成本。請問在何種生產數量下,自製與外購的總成本會相等(損益兩平點)?
+
+**選項**
+
+- (a) 5,000 units / 5,000 個單位 ✅ **正解**
+- (b) 3,000 units / 3,000 個單位
+- (c) 6,000 units / 6,000 個單位
+- (d) 7,500 units / 7,500 個單位
+
+**詳解**
+
+設損益兩平點數量為 x,令自製總成本等於外購總成本:60,000 + 8x = 20x → 60,000 = 12x → x = 5,000。當產量低於 5,000 個單位時,外購較划算(無須負擔固定成本);當產量高於 5,000 個單位時,自製較划算(固定成本被更多單位攤提)。這是 Make-or-Buy Analysis(自製或外購分析)中常見的損益兩平計算方式。
+
+---
+
+### Q84. `fin-083` — 單選題
+
+**題目 ID**: `fin-083`
+
+難度: `hard` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A proposed project requires an initial investment of $150,000. It is expected to generate cash inflows of $70,000 in each of Years 1, 2, and 3. Using a discount rate of 8%, what is the project's Net Present Value (NPV)? (Round to the nearest dollar.)
+- 中: 某提案專案需要 $150,000 的初始投資,預期第 1、2、3 年每年皆產生現金流入 $70,000。以 8% 折現率計算,此專案的淨現值(NPV)為何?(四捨五入至整數)
+
+**選項**
+
+- (a) $30,397 / $30,397 ✅ **正解**
+- (b) $60,000 / $60,000
+- (c) $180,397 / $180,397
+- (d) −$30,397 / −$30,397
+
+**詳解**
+
+先將各年現金流折現至現值:Year1 = 70,000/1.08 ≈ 64,815;Year2 = 70,000/1.08² = 70,000/1.1664 ≈ 60,014;Year3 = 70,000/1.08³ = 70,000/1.259712 ≈ 55,568。三年折現值加總 ≈ 180,397。NPV = 折現值總和 − 初始投資 = 180,397 − 150,000 ≈ 30,397。NPV 為正值,代表此投資具財務可行性。選項 (b) 是誤將名目現金流加總後直接扣除投資(未折現);選項 (c) 是忘記扣除初始投資;選項 (d) 為正負號顛倒的誘答。
+
+---
+
+### Q85. `fin-084` — 單選題
+
+**題目 ID**: `fin-084`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project's WBS has three work packages with cost estimates of $120,000, $95,000, and $150,000. The Contingency Reserve is $35,000. Using cost aggregation, what is the resulting Cost Baseline?
+- 中: 某專案的 WBS 中有三個工作包,成本估算分別為 $120,000、$95,000、$150,000。應變準備金(Contingency Reserve)為 $35,000。運用成本加總(Cost Aggregation),所得出的成本基準(Cost Baseline)為何?
+
+**選項**
+
+- (a) $400,000 / $400,000 ✅ **正解**
+- (b) $365,000 / $365,000
+- (c) $250,000 / $250,000
+- (d) $435,000 / $435,000
+
+**詳解**
+
+Cost Aggregation(成本加總)是將各工作包的成本估算沿 WBS 逐層彙整加總,再加上 Contingency Reserve,以建立 Cost Baseline。三個工作包加總 = 120,000 + 95,000 + 150,000 = 365,000;再加上應變準備金 35,000 = 400,000。選項 (b) $365,000 是忘記加上應變準備金;選項 (c) $250,000 是遺漏其中一個工作包;選項 (d) $435,000 則是將應變準備金重複加了兩次,皆為常見的加總錯誤。
+
+---
+
+### Q86. `fin-085` — 單選題
+
+**題目 ID**: `fin-085`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: After a product has already been released to customers, a critical defect is discovered, forcing the company to issue a costly public recall and pay warranty compensation. Under the Cost of Quality framework, which category does this cost belong to?
+- 中: 某產品已交付給客戶使用後,才被發現存在重大瑕疵,迫使公司發出代價高昂的公開召回並支付保固理賠。依品質成本(Cost of Quality)框架,此成本屬於下列哪一類?
+
+**選項**
+
+- (a) Prevention Cost(預防成本) / 預防成本(Prevention Cost)
+- (b) Appraisal Cost(評估成本) / 評估成本(Appraisal Cost)
+- (c) Internal Failure Cost(內部失敗成本) / 內部失敗成本(Internal Failure Cost)
+- (d) External Failure Cost(外部失敗成本) / 外部失敗成本(External Failure Cost) ✅ **正解**
+
+**詳解**
+
+External Failure Cost(外部失敗成本)是指瑕疵在產品已交付給客戶之後才被發現所產生的成本,例如召回、保固理賠、商譽損失等,通常代價最高;Internal Failure Cost(內部失敗成本)則是瑕疵在交付前就被發現並修復(如重工、報廢)。Prevention Cost(預防成本)與 Appraisal Cost(評估成本)則是為避免瑕疵發生所投入的預防性成本,屬於 Cost of Conformance(符合成本),與本情境描述的事後失敗成本不同。
+
+---
+
+### Q87. `fin-086` — 單選題
+
+**題目 ID**: `fin-086`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project needs a specialized piece of equipment for only 6 months. The organization's default practice is always to purchase equipment outright, but a team member points out that leasing would cost far less for this short duration. When you raise this with the functional manager who controls capital purchasing decisions, what should you do?
+- 中: 某專案僅需一項特殊設備使用 6 個月。組織的預設慣例是一律直接購買設備,但一位團隊成員指出,對這麼短的使用期間而言,租賃的成本會遠低於購買。當你向掌控資本採購決策的職能經理提出此議題時,應該怎麼做?
+
+**選項**
+
+- (a) 不做任何比較,直接依組織過去慣例購買設備 / Simply follow the organization's habitual practice and purchase the equipment without any comparison.
+- (b) 向職能經理提出購買與租賃的總成本比較數據,說明短期需求下租賃更具成本效益,並協商採用較合適的方案 / Present the buy-vs-lease total cost comparison to the functional manager, explain that leasing is more cost-effective for this short-term need, and negotiate for the more suitable option. ✅ **正解**
+- (c) 略過職能經理,直接自行決定改採租賃 / Bypass the functional manager and unilaterally decide to lease instead.
+- (d) 因對方職位較高,直接順從其可能偏好的購買方案,不做進一步分析 / Simply defer to the functional manager's presumed preference for purchasing, without further analysis.
+
+**詳解**
+
+Buy vs Lease(購買或租賃)是成本估算階段常見的成本取捨(Cost Trade-off)決策之一。PM 應以數據(如生命週期總成本比較)向掌握決策權的職能經理清楚說明取捨,透過協商尋求對專案最有利、雙方都能接受的方案,而非片面依循慣例、越權自行決定,或未經分析就一味順從對方可能的偏好。
+
+---
+
+### Q88. `fin-087` — 單選題
+
+**題目 ID**: `fin-087`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During project selection, a senior stakeholder strongly favors funding a particular proposal based on personal enthusiasm, even though its business case shows the lowest NPV and the longest payback period among the competing proposals. What should the project manager, acting as an advisor in the selection process, do?
+- 中: 在專案選擇階段,一位資深利害關係人基於個人熱忱強烈偏好資助某項提案,儘管該提案的商業論證顯示其 NPV 在所有競爭提案中最低、回收期也最長。身為協助選案的顧問角色,專案經理應該怎麼做?
+
+**選項**
+
+- (a) 因該利害關係人職位較高,直接依其偏好核准該專案 / Approve the stakeholder's preferred proposal simply because of their seniority.
+- (b) 客觀呈現商業論證中的財務比較數據(如 NPV、回收期),協助決策者基於數據做出知情選擇 / Objectively present the comparative business case data (e.g., NPV, payback period) to help decision-makers make an informed choice. ✅ **正解**
+- (c) 因財務數據較差,逕自否決該利害關係人偏好的提案 / Unilaterally reject the stakeholder's preferred proposal because its financials are weaker.
+- (d) 隱瞞財務比較數據,以避免與該利害關係人產生衝突 / Withhold the financial comparison data to avoid conflict with the stakeholder.
+
+**詳解**
+
+商業論證(Business Case)的核心目的是用數據與財務指標(NPV、回收期等)客觀評估各方案是否值得投資。PM 應忠實呈現這些比較數據,協助贊助人或治理委員會在充分資訊下做出決策,而非因對方職位而片面順從、片面否決,或為避免衝突而隱瞞關鍵財務資訊,這些做法都違背以數據支持決策的專業原則。
+
+---
+
+### Q89. `fin-088` — 單選題
+
+**題目 ID**: `fin-088`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A stakeholder asks the project manager which document defines when the project's expected benefits will be realized, how they will be measured, and who will be responsible for sustaining them after the project closes. Which document should the project manager point to?
+- 中: 一位利害關係人詢問專案經理,哪一份文件定義了專案預期效益何時能實現、如何衡量,以及專案結案後由誰負責持續維持這些效益。專案經理應指向哪一份文件?
+
+**選項**
+
+- (a) Business Case(商業論證),因其記載了預期財務效益的金額 / The Business Case, because it records the monetary value of expected financial benefits.
+- (b) Benefits Management Plan(效益管理計畫書),因其定義效益何時實現、如何衡量,以及結案後由誰負責維持 / The Benefits Management Plan, because it defines when benefits will be realized, how they will be measured, and who will be responsible for sustaining them after closure. ✅ **正解**
+- (c) Project Charter(專案章程),因其記載了專案的高階目標 / The Project Charter, because it records the project's high-level objectives.
+- (d) Scope Baseline(範疇基準),因其定義了專案要交付的工作內容 / The Scope Baseline, because it defines the work the project is to deliver.
+
+**詳解**
+
+Benefits Management Plan(效益管理計畫書)專門定義專案產出的效益「何時」實現、「如何」衡量,以及專案結束後「由誰」持續維護與最大化這些價值,關注的是專案完成之後的長期效益維持。Business Case 著重論證專案值不值得投資;Project Charter 是高層級的授權文件;Scope Baseline 則定義專案要做什麼工作,三者皆非本情境利害關係人所詢問、聚焦於「效益後續維持責任」的文件。
+
+---
+
+### Q90. `fin-089` — 單選題
+
+**題目 ID**: `fin-089`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project is expected to run for 3 years amid significant market uncertainty. The project manager proposes to the finance department that funds be released in stages tied to milestones, rather than all at once, to reduce the organization's financial exposure if the project's direction later changes. Which funding strategy is being proposed, and is raising this with finance an appropriate step?
+- 中: 某專案預計執行 3 年,期間市場高度不確定。專案經理向財務部門提議,資金應依里程碑分階段撥付,而非一次撥齊,以降低若專案方向日後改變時組織所承擔的財務曝險。這是在提議哪一種撥款策略?向財務部門提出此議題是否恰當?
+
+**選項**
+
+- (a) Lump Sum(整筆撥款)——PM 應堅持要求一次撥齊所有預算,不應與財務部門討論 / Lump Sum — the PM should insist on releasing the entire budget at once, without discussing it with finance.
+- (b) Incremental Disbursement(階段性撥款)——PM 主動與財務部門協商依里程碑分階段撥款,以降低長期不確定性下的財務曝險,這是合理的協商作法 / Incremental Disbursement — the PM is proactively negotiating with finance to release funds in stages tied to milestones, reducing financial exposure under long-term uncertainty; this is an appropriate negotiation step. ✅ **正解**
+- (c) Crowdfunding(群眾募資)——PM 應改向社會大眾募集這筆資金 / Crowdfunding — the PM should instead raise this funding from the general public.
+- (d) PM 不應與財務部門討論撥款方式,只能被動接受組織既定安排 / The PM should not discuss the disbursement approach with finance and should simply accept whatever the organization has already arranged.
+
+**詳解**
+
+Incremental Disbursement(階段性撥款)是常見的資金策略之一,適合資金來源不確定、專案期間較長的情境,可依里程碑分階段撥付以降低財務曝險。PM 在規劃財務管理(Plan Financial Management)過程中,本就應與財務等利害關係人溝通協商合適的撥款策略,這是正當且必要的協作,而非應消極被動接受既定安排或自行決定改用完全不相關的資金來源(如群眾募資)。
+
+---
+
+### Q91. `fin-090` — 多選題
+
+**題目 ID**: `fin-090`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During cost estimating, the project manager facilitates a discussion with functional and finance stakeholders to weigh several cost trade-off decisions before finalizing the estimates. Which two of the following are examples of such cost trade-off decisions? (Select two.)
+- 中: 在成本估算期間,專案經理引導與職能及財務利害關係人的討論,以在定案估算前權衡幾項成本取捨決策。下列哪兩項是此類成本取捨決策的範例?(請選擇兩項)
+
+**選項**
+
+- (a) Make vs Buy(自製或外購) / Make vs Buy(自製或外購) ✅ **正解**
+- (b) Buy vs Lease(購買或租賃) / Buy vs Lease(購買或租賃) ✅ **正解**
+- (c) Level of Precision(估算精確度)——這是成本管理計畫中定義的規則,而非取捨決策 / Level of Precision(估算精確度)——這是成本管理計畫中定義的規則,而非取捨決策
+- (d) Control Thresholds(控制門檻)——這是成本管理計畫中定義的允許變異範圍,而非取捨決策 / Control Thresholds(控制門檻)——這是成本管理計畫中定義的允許變異範圍,而非取捨決策
+- (e) Rules of Performance Measurement(績效衡量規則)——這是定義如何運用 EVM 量測的規則,而非取捨決策 / Rules of Performance Measurement(績效衡量規則)——這是定義如何運用 EVM 量測的規則,而非取捨決策
+
+**詳解**
+
+成本估算階段常需考量的成本取捨(Cost Trade-off)決策包含 Make vs Buy(自製或外購)、Buy vs Lease(購買或租賃)以及資源共享等,這些都涉及在成本、時程、風險之間權衡,通常需要與相關利害關係人溝通協商。Level of Precision、Control Thresholds、Rules of Performance Measurement 則是成本管理計畫中預先定義的規則與門檻,用於後續衡量與控制,並非取捨性的決策。
+
+---
+
+### Q92. `fin-091` — 多選題
+
+**題目 ID**: `fin-091`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Which two of the following funding strategies represent external sources of project funding, as opposed to funds already available within the performing organization? (Select two.)
+- 中: 下列哪兩項撥款策略屬於專案資金的外部來源,而非執行組織既有的內部資金?(請選擇兩項)
+
+**選項**
+
+- (a) Crowdfunding(群眾募資) / Crowdfunding(群眾募資) ✅ **正解**
+- (b) Government or NGO grant(政府或非政府組織補助) / Government or NGO grant(政府或非政府組織補助) ✅ **正解**
+- (c) Fixed or Reallocated Internal Budget(固定或重新分配的內部預算)——屬於組織既有的內部資金 / Fixed or Reallocated Internal Budget(固定或重新分配的內部預算)——屬於組織既有的內部資金
+- (d) Lump Sum(整筆撥款)——這是撥款「方式」,而非資金「來源」 / Lump Sum(整筆撥款)——這是撥款「方式」,而非資金「來源」
+- (e) Incremental Disbursement(階段性撥款)——這也是撥款「方式」,而非資金「來源」 / Incremental Disbursement(階段性撥款)——這也是撥款「方式」,而非資金「來源」
+
+**詳解**
+
+Crowdfunding(群眾募資)與 Government or NGO grant(政府或非政府組織補助)皆是由組織外部取得資金的來源;Fixed or Reallocated Internal Budget 則是組織既有的內部資金。Lump Sum 與 Incremental Disbursement 描述的是資金「撥付的方式」(一次撥齊或分階段撥付),而非資金究竟「來自何處」,考生應區分「資金來源」與「撥款方式」這兩個不同面向。
+
+---
+
+### Q93. `fin-092` — 多選題
+
+**題目 ID**: `fin-092`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project has PV = $260,000, EV = $210,000, and AC = $250,000. Select the two statements that correctly describe the project's current status. (Select two.)
+- 中: 某專案 PV(計畫值)= $260,000、EV(實獲值)= $210,000、AC(實際成本)= $250,000。請選出兩項正確描述專案目前狀態的敘述。(請選擇兩項)
+
+**選項**
+
+- (a) The project is currently over budget (CPI ≈ 0.84 < 1). / 專案目前超出預算(CPI ≈ 0.84 < 1)。 ✅ **正解**
+- (b) The project is currently behind schedule (SPI ≈ 0.81 < 1). / 專案目前進度落後(SPI ≈ 0.81 < 1)。 ✅ **正解**
+- (c) CV = +$40,000, meaning the project is under budget. / CV = +$40,000,代表專案低於預算。
+- (d) SV = +$50,000, meaning the project is ahead of schedule. / SV = +$50,000,代表專案進度超前。
+- (e) Both cost and schedule performance are exactly on plan. / 成本與時程績效皆完全符合計畫。
+
+**詳解**
+
+CPI = EV/AC = 210,000/250,000 = 0.84(<1,超出預算);SPI = EV/PV = 210,000/260,000 ≈ 0.81(<1,進度落後)。CV = EV−AC = 210,000−250,000 = −40,000(負值,而非選項 (c) 所述正值);SV = EV−PV = 210,000−260,000 = −50,000(負值,而非選項 (d) 所述正值)。此為「超支又落後」的雙重不利情境,須立即檢視原因並採取矯正行動。
+
+---
+
+### Q94. `fin-093` — 多選題
+
+**題目 ID**: `fin-093`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Which two of the following business analysis activities are typically completed BEFORE the project charter is signed and the project is formally authorized? (Select two.)
+- 中: 下列哪兩項商務分析活動通常是在專案章程簽署、專案正式獲得授權「之前」就已完成?(請選擇兩項)
+
+**選項**
+
+- (a) Needs Assessment(需求評估) / Needs Assessment(需求評估) ✅ **正解**
+- (b) Business Case(商業論證) / Business Case(商業論證) ✅ **正解**
+- (c) Develop Schedule Baseline(發展時程基準)——屬於專案獲授權後的規劃活動 / Develop Schedule Baseline(發展時程基準)——屬於專案獲授權後的規劃活動
+- (d) Close Project or Phase(結束專案或階段)——屬於專案尾聲的活動 / Close Project or Phase(結束專案或階段)——屬於專案尾聲的活動
+- (e) Monitor and Control Project Work(監控專案工作)——屬於專案執行期間的活動 / Monitor and Control Project Work(監控專案工作)——屬於專案執行期間的活動
+
+**詳解**
+
+專案早期的商業分析核心流程依序為:識別問題或機會 → 需求評估(Needs Assessment)→ 商業論證(Business Case)→ 效益管理計畫書 → 專案章程簽署。因此 Needs Assessment 與 Business Case 皆發生在專案章程簽署、專案正式授權之前;Develop Schedule Baseline 屬於專案獲授權後的規劃過程,Monitor and Control Project Work 屬於執行期間的監控過程,Close Project or Phase 則發生在專案或階段結束時,三者皆晚於專案章程簽署。
+
+---
+
+### Q95. `fin-094` — 多選題
+
+**題目 ID**: `fin-094`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Which two of the following are elements typically defined within the Financial Management Plan? (Select two.)
+- 中: 下列哪兩項是財務管理計畫(Financial Management Plan)中通常會定義的要素?(請選擇兩項)
+
+**選項**
+
+- (a) Level of Accuracy(精確度等級,如 ±10%) / Level of Accuracy(精確度等級,如 ±10%) ✅ **正解**
+- (b) Reporting Formats(報告格式) / Reporting Formats(報告格式) ✅ **正解**
+- (c) Team Ground Rules(團隊基本規則) / Team Ground Rules(團隊基本規則)
+- (d) Probability and Impact Matrix(機率與衝擊矩陣) / Probability and Impact Matrix(機率與衝擊矩陣)
+- (e) Conflict Resolution Techniques(衝突解決技巧) / Conflict Resolution Techniques(衝突解決技巧)
+
+**詳解**
+
+Financial Management Plan(財務管理計畫)通常定義 Unit of Measurement、Level of Precision、Level of Accuracy(如 ±10%)、WBS/Control Account 對應、Control Thresholds、Performance Measurement Rules、Reporting Formats 等要素,用於規劃、架構與控制專案花費。Team Ground Rules 屬於團隊章程的一部分,Probability and Impact Matrix 是風險管理的產出,Conflict Resolution Techniques 則屬於人際與團隊技巧,三者皆與財務管理計畫的定義無關。
+
+---
+
+### Q96. `fin-095` — 拖拉配對題
+
+**題目 ID**: `fin-095`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each Cost of Quality category to its correct description.
+- 中: 請將下列品質成本(Cost of Quality)類別拖曳配對到正確的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Prevention Cost / 預防成本
+- p2: Appraisal Cost / 評估成本
+- p3: Internal Failure Cost / 內部失敗成本
+- p4: External Failure Cost / 外部失敗成本
+
+**選項池(拖曳目標)**
+
+- c1: Costs incurred to keep defects out of the product in the first place, such as training and process documentation / 為了從一開始就避免瑕疵發生所投入的成本,如訓練與流程文件化
+- c2: Costs incurred to evaluate and test the product to check whether it meets requirements, such as inspection and testing / 為了評估與測試產品是否符合需求所投入的成本,如檢驗與測試
+- c3: Costs incurred when a defect is found and fixed before the customer receives the product, such as rework and scrap / 當瑕疵在交付給客戶之前被發現並修復所產生的成本,如重工與報廢
+- c4: Costs incurred when a defect is found after the customer has already received the product, such as warranty claims and recalls / 當瑕疵在客戶已收到產品之後才被發現所產生的成本,如保固理賠與召回
+
+**✅ 正確配對**
+
+- p1 → c1: Prevention Cost → Costs incurred to keep defects out of the product in the first place, such as training and process documentation（預防成本 → 為了從一開始就避免瑕疵發生所投入的成本,如訓練與流程文件化）
+- p2 → c2: Appraisal Cost → Costs incurred to evaluate and test the product to check whether it meets requirements, such as inspection and testing（評估成本 → 為了評估與測試產品是否符合需求所投入的成本,如檢驗與測試）
+- p3 → c3: Internal Failure Cost → Costs incurred when a defect is found and fixed before the customer receives the product, such as rework and scrap（內部失敗成本 → 當瑕疵在交付給客戶之前被發現並修復所產生的成本,如重工與報廢）
+- p4 → c4: External Failure Cost → Costs incurred when a defect is found after the customer has already received the product, such as warranty claims and recalls（外部失敗成本 → 當瑕疵在客戶已收到產品之後才被發現所產生的成本,如保固理賠與召回）
+
+**詳解**
+
+品質成本可分為 Cost of Conformance(符合成本:Prevention + Appraisal)與 Cost of Non-Conformance(不符合成本:Internal Failure + External Failure)。Prevention(預防成本)與 Appraisal(評估成本)是主動投入以避免或及早發現瑕疵的成本;Internal Failure(內部失敗成本)與 External Failure(外部失敗成本)則是瑕疵已發生後所付出的代價,且交付後才發現的外部失敗成本通常遠高於交付前發現的內部失敗成本。
+
+---
+
+### Q97. `fin-096` — 拖拉配對題
+
+**題目 ID**: `fin-096`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Drag and match each funding strategy to its correct description.
+- 中: 請將下列撥款策略拖曳配對到正確的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Lump Sum / 整筆撥款
+- p2: Incremental Disbursement / 階段性撥款
+- p3: External Investment / 外部投資
+- p4: Crowdfunding / 群眾募資
+
+**選項池(拖曳目標)**
+
+- c1: The full approved project budget is released at once, with reserves set aside for the entire duration / 核可的專案預算一次全數撥付,並為整個專案期間預留準備金
+- c2: Funds are released in stages over time, often tied to milestones or reporting periods / 資金隨時間分階段撥付,通常與里程碑或報告期間掛鉤
+- c3: Capital is provided by outside investors who expect a financial return from the funded initiative / 資金由外部投資者提供,這些投資者預期從被資助的方案中獲得財務報酬
+- c4: Small amounts of funding are collected from a large number of individual contributors, often through an online platform / 透過線上平台,向大量個別出資者募集小額資金
+
+**✅ 正確配對**
+
+- p1 → c1: Lump Sum → The full approved project budget is released at once, with reserves set aside for the entire duration（整筆撥款 → 核可的專案預算一次全數撥付,並為整個專案期間預留準備金）
+- p2 → c2: Incremental Disbursement → Funds are released in stages over time, often tied to milestones or reporting periods（階段性撥款 → 資金隨時間分階段撥付,通常與里程碑或報告期間掛鉤）
+- p3 → c3: External Investment → Capital is provided by outside investors who expect a financial return from the funded initiative（外部投資 → 資金由外部投資者提供,這些投資者預期從被資助的方案中獲得財務報酬）
+- p4 → c4: Crowdfunding → Small amounts of funding are collected from a large number of individual contributors, often through an online platform（群眾募資 → 透過線上平台,向大量個別出資者募集小額資金）
+
+**詳解**
+
+Financial Management Plan 中定義的常見撥款策略包括:Fixed/Reallocated Internal Budget(既有內部資產)、Lump Sum(整筆撥款,一次分配全部預算)、Incremental Disbursement(階段性撥款,依時間或里程碑分批釋出)、External Investment(外部投資)、Government or NGO Grant(政府或非政府組織補助)、Crowdfunding(群眾募資)以及 Client Contract(客戶合約撥款)等,PM 須了解各策略的資金釋出模式,以規劃專案金流並管理財務風險。
+
+---
+
+### Q98. `fin-097` — 拖拉配對題
+
+**題目 ID**: `fin-097`
+
+難度: `hard` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Drag and match each of the five pre-project business analysis activities to its correct description, in the order they typically occur before the project is formally authorized.
+- 中: 請將下列五項專案早期商務分析活動拖曳配對到正確的描述,依其在專案正式獲授權前通常發生的順序排列。
+
+**配對項目(拖曳來源)**
+
+- p1: Identify Problem or Opportunity / 識別問題或機會
+- p2: Needs Assessment / 需求評估
+- p3: Business Case / 商業論證
+- p4: Benefits Management Plan / 效益管理計畫書
+- p5: Project Charter / 專案章程
+
+**選項池(拖曳目標)**
+
+- c1: A business analyst or senior leader recognizes a current pain point or an emerging market opportunity / 商務分析師或高層發掘現況的痛點或市場新商機
+- c2: The gap between the current state and the desired future state is explored, along with possible solution options / 探討現況與未來理想狀態之間的差距,並探尋各種可能的解決方案
+- c3: A feasibility study that uses cost and benefit data, such as ROI, NPV, and payback period, to prove whether the initiative is worth investing in / 一份運用成本效益數據(如 ROI、NPV、回收期)證明此提案是否值得投資的可行性研究
+- c4: Defines when the resulting benefits will be realized, how they will be measured, and who will be responsible for sustaining them after the project ends / 定義所產生的效益何時能實現、如何衡量,以及專案結束後由誰負責持續維持
+- c5: Once approved by the sponsor, this document formally authorizes the project and grants the project manager authority to use organizational resources / 經贊助人核准後,此文件正式授權專案成立,並授予專案經理動用組織資源的職權
+
+**✅ 正確配對**
+
+- p1 → c1: Identify Problem or Opportunity → A business analyst or senior leader recognizes a current pain point or an emerging market opportunity（識別問題或機會 → 商務分析師或高層發掘現況的痛點或市場新商機）
+- p2 → c2: Needs Assessment → The gap between the current state and the desired future state is explored, along with possible solution options（需求評估 → 探討現況與未來理想狀態之間的差距,並探尋各種可能的解決方案）
+- p3 → c3: Business Case → A feasibility study that uses cost and benefit data, such as ROI, NPV, and payback period, to prove whether the initiative is worth investing in（商業論證 → 一份運用成本效益數據(如 ROI、NPV、回收期)證明此提案是否值得投資的可行性研究）
+- p4 → c4: Benefits Management Plan → Defines when the resulting benefits will be realized, how they will be measured, and who will be responsible for sustaining them after the project ends（效益管理計畫書 → 定義所產生的效益何時能實現、如何衡量,以及專案結束後由誰負責持續維持）
+- p5 → c5: Project Charter → Once approved by the sponsor, this document formally authorizes the project and grants the project manager authority to use organizational resources（專案章程 → 經贊助人核准後,此文件正式授權專案成立,並授予專案經理動用組織資源的職權）
+
+**詳解**
+
+專案正式啟動前的五大商務分析核心流程依序為:識別問題或機會 → 需求評估(釐清現況與理想狀態的落差)→ 商業論證(用財務數據證明是否值得投資)→ 效益管理計畫書(規劃效益如何被實現與維持)→ 專案章程(經贊助人核准後正式授權專案)。理解此順序有助於考生分辨各文件的核心目的與適用時機,避免將商業論證與效益管理計畫書、專案章程等文件的功能混淆。
+
+---
+
+### Q99. `fin-098` — 拖拉配對題
+
+**題目 ID**: `fin-098`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each financial term to its correct definition.
+- 中: 請將下列財務用詞拖曳配對到正確的定義。
+
+**配對項目(拖曳來源)**
+
+- p1: Cost / 成本
+- p2: Budget / 預算
+- p3: Finance / 財務(融資)
+
+**選項池(拖曳目標)**
+
+- c1: The individual estimate of how much a single project activity or work package is expected to cost / 單一專案活動或工作包預計花費金額的個別估算
+- c2: The approved, time-phased total obtained by aggregating individual cost estimates and adding the Contingency Reserve / 將個別成本估算加總並加上應變準備金後,所得到經核准、依時間分期的總額
+- c3: Where the project's funding comes from, when it will be disbursed, and the economic viability evaluation behind it / 專案資金的來源、撥款時程,以及背後的經濟效益評估
+
+**✅ 正確配對**
+
+- p1 → c1: Cost → The individual estimate of how much a single project activity or work package is expected to cost（成本 → 單一專案活動或工作包預計花費金額的個別估算）
+- p2 → c2: Budget → The approved, time-phased total obtained by aggregating individual cost estimates and adding the Contingency Reserve（預算 → 將個別成本估算加總並加上應變準備金後,所得到經核准、依時間分期的總額）
+- p3 → c3: Finance → Where the project's funding comes from, when it will be disbursed, and the economic viability evaluation behind it（財務(融資) → 專案資金的來源、撥款時程,以及背後的經濟效益評估）
+
+**詳解**
+
+Cost(成本)是最基礎的個別活動或工作包花費估算;Budget(預算)是將這些個別成本加總、加上應變準備金後,經核准並依時間分期的成本基準;Finance(財務/融資)則是層級更高的概念,關注資金究竟從何而來(內部自籌或外部投資)、何時撥付,以及整體經濟效益評估。三者層層遞進,是釐清專案財務用詞時最容易混淆的一組概念。
+
+---
+
+### Q100. `fin-099` — 拖拉配對題
+
+**題目 ID**: `fin-099`
+
+難度: `hard` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each earned value percentage measure to its correct formula and meaning.
+- 中: 請將下列實獲值百分比量測指標拖曳配對到正確的公式與意義。
+
+**配對項目(拖曳來源)**
+
+- p1: CV% (Cost Variance Percentage) / CV%(成本變異百分比)
+- p2: SV% (Schedule Variance Percentage) / SV%(時程變異百分比)
+- p3: Percent Complete / 完成百分比
+- p4: Percent Spent / 已花費預算百分比
+
+**選項池(拖曳目標)**
+
+- c1: CV divided by EV, showing the cost variance as a percentage of the value earned so far / CV 除以 EV,以已實獲價值的百分比表示成本變異
+- c2: SV divided by PV, showing the schedule variance as a percentage of the value planned so far / SV 除以 PV,以計畫價值的百分比表示時程變異
+- c3: EV divided by BAC, showing how much of the total planned scope has been earned so far / EV 除以 BAC,顯示目前已實獲的總計畫範疇比例
+- c4: AC divided by BAC, showing how much of the total budget has been consumed so far, regardless of how much work was actually completed / AC 除以 BAC,顯示目前已耗用的總預算比例,而不論實際完成了多少工作
+
+**✅ 正確配對**
+
+- p1 → c1: CV% (Cost Variance Percentage) → CV divided by EV, showing the cost variance as a percentage of the value earned so far（CV%(成本變異百分比) → CV 除以 EV,以已實獲價值的百分比表示成本變異）
+- p2 → c2: SV% (Schedule Variance Percentage) → SV divided by PV, showing the schedule variance as a percentage of the value planned so far（SV%(時程變異百分比) → SV 除以 PV,以計畫價值的百分比表示時程變異）
+- p3 → c3: Percent Complete → EV divided by BAC, showing how much of the total planned scope has been earned so far（完成百分比 → EV 除以 BAC,顯示目前已實獲的總計畫範疇比例）
+- p4 → c4: Percent Spent → AC divided by BAC, showing how much of the total budget has been consumed so far, regardless of how much work was actually completed（已花費預算百分比 → AC 除以 BAC,顯示目前已耗用的總預算比例,而不論實際完成了多少工作）
+
+**詳解**
+
+除了 CV、SV、CPI、SPI 等基礎 EVM 指標外,實務上也常用百分比量測輔助判讀:CV% = CV/EV、SV% = SV/PV,分母慣例分別為 EV 與 PV,而非 AC 或 BAC;Percent Complete(完成百分比)= EV/BAC,反映實際完成的範疇比例;Percent Spent(已花費預算百分比)= AC/BAC,則只反映花了多少預算,並不代表完成了多少工作——兩者常被混淆,例如已花費 80% 預算卻只完成 50% 範疇(即 Percent Spent 遠高於 Percent Complete),正是專案超支的警訊。
+
+---
+
+### Q101. `fin-100` — 下拉選單題
+
+**題目 ID**: `fin-100`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: The Financial Management Plan distinguishes two related but different concepts. {{blank1}} defines the acceptable range around a cost estimate, such as ±10%, used to judge whether an estimate is good enough for decision-making. {{blank2}} defines the degree of rounding applied to activity cost estimates, such as rounding to the nearest $100 or $1,000.
+- 中: 財務管理計畫區分了兩個相關但不同的概念。{{blank1}} 定義了成本估算周圍可接受的範圍,例如 ±10%,用來判斷估算值是否足夠精準以供決策使用。{{blank2}} 則定義了活動成本估算所採用的四捨五入程度,例如四捨五入至百元或千元。
+
+**blank1**
+
+- (a) Level of Accuracy(精確度等級) / 精確度等級(Level of Accuracy) ✅ **正解**
+- (b) Level of Precision(精確程度) / 精確程度(Level of Precision)
+- (c) Control Thresholds(控制門檻) / 控制門檻(Control Thresholds)
+- (d) Units of Measure(計量單位) / 計量單位(Units of Measure)
+
+**blank2**
+
+- (a) Level of Accuracy(精確度等級) / 精確度等級(Level of Accuracy)
+- (b) Level of Precision(精確程度) / 精確程度(Level of Precision) ✅ **正解**
+- (c) Control Thresholds(控制門檻) / 控制門檻(Control Thresholds)
+- (d) Units of Measure(計量單位) / 計量單位(Units of Measure)
+
+
+**詳解**
+
+Level of Accuracy(精確度等級)與 Level of Precision(精確程度)是財務/成本管理計畫中容易混淆的一組概念:Level of Accuracy 指估算值可接受的誤差範圍(如 ±10%),用來判斷估算「夠不夠準」;Level of Precision 則是估算數字呈現時的四捨五入程度(如至百元或千元),屬於「數字要寫多細」的格式規定,兩者關注的面向不同。
+
+---
+
+### Q102. `fin-101` — 下拉選單題
+
+**題目 ID**: `fin-101`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: On a typical project funding chart, the Cost Baseline (planned cumulative cost) is usually plotted as a smooth, continuously rising {{blank1}}, because cost accrues gradually as work is performed. The organization's periodic funding releases, by contrast, are usually plotted as a {{blank2}}, because funds tend to become available in discrete lump amounts at set points in time.
+- 中: 在典型的專案資金圖表上,成本基準(計畫累積成本)通常呈現為一條平滑、持續上升的 {{blank1}},因為成本會隨著工作執行而逐漸累積。相對地,組織的定期撥款則通常呈現為一種 {{blank2}},因為資金往往是在特定時間點以離散的整筆金額到位。
+
+**blank1**
+
+- (a) step function(階梯函數) / 階梯函數(step function)
+- (b) S-curve(S 曲線) / S 曲線(S-curve) ✅ **正解**
+- (c) horizontal line(水平線) / 水平線(horizontal line)
+- (d) straight diagonal line(直線斜線) / 直線斜線(straight diagonal line)
+
+**blank2**
+
+- (a) step function(階梯函數) / 階梯函數(step function) ✅ **正解**
+- (b) S-curve(S 曲線) / S 曲線(S-curve)
+- (c) horizontal line(水平線) / 水平線(horizontal line)
+- (d) straight diagonal line(直線斜線) / 直線斜線(straight diagonal line)
+
+
+**詳解**
+
+專案的計畫累積成本(Cost Baseline)通常呈現平滑的 S 曲線,因為工作是逐步、連續地執行與累積成本;組織的分期撥款則通常呈現階梯函數(Step Function),因為資金常是在每季或里程碑等特定時間點一次性到位,而非連續流入。當計畫累積成本曲線在某時點超過已撥款的階梯曲線時,即須進行撥款限制調節(Funding Limit Reconciliation)。
+
+---
+
+### Q103. `fin-102` — 下拉選單題
+
+**題目 ID**: `fin-102`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: When comparing the cost of producing an item in-house against purchasing it from an external supplier, the project team performs a {{blank1}} analysis. This analysis often involves calculating the {{blank2}} — the production quantity at which the total cost of making the item in-house equals the total cost of buying it externally.
+- 中: 在比較自製某項物品與向外部供應商採購的成本時,專案團隊會進行 {{blank1}} 分析。此分析通常涉及計算 {{blank2}}——也就是自製與外購總成本恰好相等時的生產數量。
+
+**blank1**
+
+- (a) Make-or-Buy(自製或外購) / 自製或外購(Make-or-Buy) ✅ **正解**
+- (b) Life-Cycle Costing(生命週期成本) / 生命週期成本(Life-Cycle Costing)
+- (c) Reserve(準備金) / 準備金(Reserve)
+- (d) Benchmarking(標竿比較) / 標竿比較(Benchmarking)
+
+**blank2**
+
+- (a) sunk cost(沉沒成本) / 沉沒成本(sunk cost)
+- (b) breakeven point(損益兩平點) / 損益兩平點(breakeven point) ✅ **正解**
+- (c) opportunity cost(機會成本) / 機會成本(opportunity cost)
+- (d) contingency reserve(應變準備金) / 應變準備金(contingency reserve)
+
+
+**詳解**
+
+Make-or-Buy Analysis(自製或外購分析)是成本估算階段常見的技術,用來比較自行生產與向外採購兩種方案的成本。分析中常計算損益兩平點(Breakeven Point),即產量達到某個數值時,自製的固定成本被攤提後,兩種方案的總成本恰好相等;產量低於此點通常外購較划算,高於此點則自製較划算。
+
+---
+
+### Q104. `fin-103` — 下拉選單題
+
+**題目 ID**: `fin-103`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: Within the Cost of Quality, the cost of conformance includes {{blank1}} costs (such as training and process documentation) plus {{blank2}} costs (such as inspection and testing); together these are proactive investments made to prevent defects. Costs incurred only after a defect is found are instead classified as the cost of non-conformance.
+- 中: 在品質成本中,符合成本(Cost of Conformance)包含 {{blank1}} 成本(如訓練與流程文件化)加上 {{blank2}} 成本(如檢驗與測試);兩者皆是為了預防瑕疵發生所投入的主動性投資。而瑕疵發生「之後」才產生的成本,則屬於不符合成本(Cost of Non-Conformance)。
+
+**blank1**
+
+- (a) Prevention(預防) / 預防(Prevention) ✅ **正解**
+- (b) Appraisal(評估) / 評估(Appraisal)
+- (c) Internal Failure(內部失敗) / 內部失敗(Internal Failure)
+- (d) External Failure(外部失敗) / 外部失敗(External Failure)
+
+**blank2**
+
+- (a) Prevention(預防) / 預防(Prevention)
+- (b) Appraisal(評估) / 評估(Appraisal) ✅ **正解**
+- (c) Internal Failure(內部失敗) / 內部失敗(Internal Failure)
+- (d) External Failure(外部失敗) / 外部失敗(External Failure)
+
+
+**詳解**
+
+Cost of Conformance(符合成本)= Prevention Cost(預防成本,如訓練、流程文件化)+ Appraisal Cost(評估成本,如檢驗、測試),兩者都是在瑕疵發生前主動投入、以避免或及早攔截瑕疵的成本;Cost of Non-Conformance(不符合成本)則 = Internal Failure Cost + External Failure Cost,是瑕疵已經發生後才產生的補救成本,通常代價遠高於事前的預防與評估投資。
+
+---
+
+### Q105. `fin-104` — 點擊熱區題
+
+**題目 ID**: `fin-104`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A company ships a product, and only after customers begin using it does a critical defect surface, forcing a costly public recall and customer compensation payouts. Click the card naming the Cost of Quality category this cost belongs to.
+- 中: 某公司已將產品出貨,直到客戶開始使用後才發現一項重大瑕疵,迫使公司發出代價高昂的公開召回並支付客戶賠償。請點選正確命名此成本所屬品質成本類別的卡片。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Prevention Cost / 預防成本(Prevention Cost) [x=5,y=5,w=40,h=35]
+- (n2) Appraisal Cost / 評估成本(Appraisal Cost) [x=52.5,y=5,w=40,h=35]
+- (n3) Internal Failure Cost / 內部失敗成本(Internal Failure Cost) [x=5,y=47.5,w=40,h=35]
+- (n4) External Failure Cost / 外部失敗成本(External Failure Cost) ✅ **正解** [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+瑕疵在產品交付給客戶之後才被發現,並因此產生召回與賠償等成本,屬於 External Failure Cost(外部失敗成本),通常是品質成本中代價最高的一類;Internal Failure Cost 是交付前就發現並修復(如重工、報廢);Prevention Cost 與 Appraisal Cost 則是為避免瑕疵發生所投入的事前預防性成本,皆與本情境描述的事後外部失敗不同。
+
+---
+
+### Q106. `fin-105` — 點擊熱區題
+
+**題目 ID**: `fin-105`
+
+難度: `hard` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: The chart plots the total cost of making an item in-house (a fixed cost of $40,000 plus $5 per unit) against the total cost of buying it externally ($13 per unit, with no fixed cost), across a range of production quantities. Click the point on the chart where the two total-cost lines cross — the breakeven quantity at which making and buying cost exactly the same.
+- 中: 下圖繪製了「自製某物品的總成本」(固定成本 $40,000 加每單位 $5)與「向外採購的總成本」(每單位 $13,無固定成本)在不同生產數量下的對比。請點選圖上「自製與外購兩條總成本線交會」的那個點——也就是自製與外購成本恰好相等的損益兩平數量。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) 2,000 units / 2,000 個單位 [x=5,y=40,w=20,h=30]
+- (n2) 5,000 units / 5,000 個單位 ✅ **正解** [x=30,y=15,w=20,h=30]
+- (n3) 8,000 units / 8,000 個單位 [x=55,y=40,w=20,h=30]
+- (n4) 10,000 units / 10,000 個單位 [x=80,y=55,w=20,h=30]
+
+**詳解**
+
+設損益兩平數量為 x,令自製總成本等於外購總成本:40,000 + 5x = 13x → 40,000 = 8x → x = 5,000。產量低於 5,000 個單位時,外購因無固定成本而較划算;產量高於 5,000 個單位時,自製的固定成本被更多單位分攤,單位成本下降,自製反而較划算。此交叉點即為 Make-or-Buy Analysis 中的損益兩平點。
+
+---
+
+### Q107. `fin-106` — 點擊熱區題
+
+**題目 ID**: `fin-106`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A startup team wants to fund a new product's initial development by collecting many small contributions from members of the general public through an online platform, often in exchange for early access or rewards. Click the card naming this funding strategy.
+- 中: 某新創團隊想透過線上平台,向一般大眾募集大量小額資金以資助新產品的初期開發,通常以提前取得產品或其他回饋作為交換。請點選正確命名此撥款策略的卡片。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Lump Sum / 整筆撥款(Lump Sum) [x=5,y=5,w=40,h=35]
+- (n2) Incremental Disbursement / 階段性撥款(Incremental Disbursement) [x=52.5,y=5,w=40,h=35]
+- (n3) Crowdfunding / 群眾募資(Crowdfunding) ✅ **正解** [x=5,y=47.5,w=40,h=35]
+- (n4) Government or NGO Grant / 政府或非政府組織補助(Government or NGO Grant) [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+Crowdfunding(群眾募資)是指透過線上平台,向大量個別出資者募集小額資金以資助專案或產品開發,常見於新創或創新產品的早期籌資,出資者通常以提前取得產品或其他回饋作為交換;Lump Sum 與 Incremental Disbursement 是組織內部預算的撥付方式,Government or NGO Grant 則是向政府或非營利組織申請的補助,皆與向社會大眾募集小額資金的群眾募資性質不同。
+
+---
+
+### Q108. `fin-107` — 單選題
+
+**題目 ID**: `fin-107`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Six weeks after a logistics firm launches a licensed AI demand forecaster, selected with the team from three vendors, a regional director publicly questions why the firm did not fine tune its own model and avoid the recurring fees.
+- 中: 一家物流公司上線一套授權制的 AI 需求預測系統六週後(這套系統當初是團隊從三家廠商中選出的),一位區域總監公開質疑,為什麼公司當初不自行微調模型、以省下持續產生的授權費用。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Have the team price out what an in house rebuild would cost over three years. / 請團隊估算自行重建這套模型未來三年的成本
+- (b) Invite the vendor to brief the director on the license's long term economics. / 邀請廠商向這位總監說明授權方案的長期經濟效益
+- (c) Open a change request to evaluate migrating to an in house model. / 開一個變更申請,評估遷移到自建模型的可行性
+- (d) Go back to the documented requirements and confirm the selection satisfied them. / 回頭查閱當初記錄下來的需求文件,確認當時的選擇確實有滿足這些需求 ✅ **正解**
+
+**詳解**
+
+這是一個已經完成、有正式記錄的決策事後被質疑,面對這種情況,第一步應該回到當初的決策依據,查閱當時記錄下來的需求與評選過程,確認這套已授權的方案確實滿足了當初的需求,用既有紀錄客觀回應質疑,而不是急著重新啟動評估。重新估算自建成本、開變更申請評估遷移,都是還沒確認「當初的選擇是否真的有問題」之前,就先假設當初決策有缺失而動起來,屬於捨近求遠;找廠商出面說明,則等於讓有利益關係的一方替公司的決策背書,說服力也不足。
+
+---
+
+### Q109. `fin-108` — 單選題
+
+**題目 ID**: `fin-108`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An outside firm is building a customer service chatbot as a minimum viable product over a fixed number of sprints, with payment tied to accepted work. Which metric set should the project manager track?
+- 中: 一家外部廠商正在用固定數量的衝刺(sprint),為公司開發一套客服聊天機器人的最小可行產品(MVP),付款方式綁定在「驗收合格的工作項目」上。專案經理應該追蹤哪一組指標?
+
+**選項**
+
+- (a) Conversations processed in testing, compute hours consumed, and sprints completed. / 測試階段處理過的對話數、耗用的運算時數、已完成的衝刺數
+- (b) The vendor's reported model accuracy scores and the count of iterations in progress. / 廠商自行回報的模型準確率分數、進行中的迭代次數
+- (c) Accepted chatbot capabilities delivered, deliverables rejected at review, and defects found. / 已驗收交付的聊天機器人功能數、審查時被退回的交付項目數、發現的瑕疵數 ✅ **正解**
+- (d) Vendor staffing levels, budget consumed to date, and story points finished per sprint. / 廠商的人力配置水準、目前已耗用的預算、每個衝刺完成的故事點數
+
+**詳解**
+
+題目已經明講這份合約「payment tied to accepted work」,也就是付款與驗收綁在一起,專案經理該追蹤的自然是直接對應「驗收合格與否」的指標:已驗收交付的功能數、審查時被退回的件數、以及找到的瑕疵數,這組指標能直接反映廠商實際交付出多少「合格」的價值,也是決定是否付款的依據。一句話總結這個判準:Payment rides on accepted work, so the metrics that matter are acceptance anchored(付款是綁定在驗收合格的工作上,所以真正該追蹤的指標必須錨定在驗收結果上)。測試對話數、運算時數、衝刺完成數,以及人力配置、預算耗用、故事點數,都是偏向過程與投入面的效率指標,跟「這批工作到底有沒有被驗收通過」沒有直接關聯;廠商自行回報的準確率與進行中迭代次數,則是未經第三方驗證的廠商自報數字,無法客觀反映實際驗收結果,也偏離了「依驗收付款」這個合約重點。
 
 ---

@@ -1,6 +1,6 @@
 # Stakeholders — PMP 題庫
 
-> 共 71 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 109 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `mr-001` — 多選題
 
@@ -1874,7 +1874,7 @@ Force/Direct(強制/命令)雖能快速結束當下爭執,但長期反覆使用�
 
 ---
 
-### Q70. `stk-068` — 點擊熱區題
+### Q69. `stk-068` — 點擊熱區題
 
 **題目 ID**: `stk-068`
 
@@ -1904,7 +1904,7 @@ Force/Direct(強制/命令)雖能快速結束當下爭執,但長期反覆使用�
 
 ---
 
-### Q71. `stk-069` — 點擊熱區題
+### Q70. `stk-069` — 點擊熱區題
 
 **題目 ID**: `stk-069`
 
@@ -1925,5 +1925,1068 @@ Force/Direct(強制/命令)雖能快速結束當下爭執,但長期反覆使用�
 **詳解**
 
 啟動會議(Kickoff Meeting)的主要目的是正式宣告專案展開,讓利害關係人與團隊對專案目標、範疇與角色達成共識,並建立初步的團隊承諾與士氣;逐項技術設計審查、供應商合約議價,或正式結案釋出資源,分別屬於其他階段或活動的重點,並非啟動會議的核心目的。
+
+---
+
+### Q71. `stk-070` — 單選題
+
+**題目 ID**: `stk-070`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: On a Scrum team, the group displays a large, highly visible wall board in the shared workspace showing the current sprint burndown, blockers, and work-in-progress limits, so that anyone walking by can understand project status without asking the team. What is this technique called?
+- 中: 某Scrum團隊在共用工作空間放置一面高度可視化的大型看板,展示目前衝刺的燃盡狀況、阻礙事項與在製品限制,讓任何路過的人都能一眼了解專案狀態,而無需詢問團隊。此技巧稱為下列何者?
+
+**選項**
+
+- (a) Information Radiator / 資訊發射源(Information Radiator) ✅ **正解**
+- (b) Stakeholder Register / 利害關係人登錄表
+- (c) Communications Management Plan / 溝通管理計畫
+- (d) RACI Chart / RACI 責任分派矩陣
+
+**詳解**
+
+Information Radiator(資訊發射源)是敏捷團隊常用的高可視化溝通工具,透過牆面、看板、圖表等方式將專案當前狀態(如燃盡圖、阻礙、WIP限制)公開展示於工作空間中,任何人皆可自行觀看取得資訊,藉此減少不必要的狀態詢問與會議,促進透明與雙向溝通的敏捷文化;登錄表、溝通管理計畫與RACI矩陣皆是文件性質的工具,並非這種高可視化展示技巧。
+
+---
+
+### Q72. `stk-071` — 多選題
+
+**題目 ID**: `stk-071`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: An agile team wants to increase genuine stakeholder engagement rather than merely reporting status. Which two of the following practices are most consistent with agile stakeholder engagement principles? (Select two.)
+- 中: 某敏捷團隊希望提升利害關係人真正的參與程度,而非僅止於報告狀態。下列哪兩項作法最符合敏捷利害關係人參與的原則?(請選擇兩項)
+
+**選項**
+
+- (a) Use low-tech, high-touch tools such as a physical card wall instead of relying solely on a complex Gantt chart tool that few stakeholders understand / 使用如實體卡片牆等低科技、高接觸的工具,而非僅依賴少數利害關係人才看得懂的複雜甘特圖工具 ✅ **正解**
+- (b) Deliver in short iterations so stakeholders have frequent, concrete opportunities to review progress and give feedback / 以短期迭代交付,讓利害關係人有頻繁且具體的機會檢視進度並提供回饋 ✅ **正解**
+- (c) Limit stakeholder involvement to a single review at the very end of the project to avoid disrupting the team / 將利害關係人的參與限制在專案結束時的單一次審查,以避免干擾團隊
+- (d) Replace all in-person conversations with formal written status reports for consistency / 為求一致性,以正式書面狀態報告取代所有面對面對話
+
+**詳解**
+
+敏捷強調低科技、高接觸的工具(如實體卡片牆、白板)比高科技但不易理解的工具(如複雜甘特圖)更能一看就懂、提高溝通與參與;短期迭代則讓利害關係人有頻繁且具體的機會參與檢視與回饋,而非只在專案末端才介入。將參與限制在專案結束時的單一審查,或以書面報告完全取代面對面溝通,皆違背敏捷重視面對面、雙向溝通與持續參與的精神。
+
+---
+
+### Q73. `stk-072` — 拖拉配對題
+
+**題目 ID**: `stk-072`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each technique for building a shared vision between the customer and the agile team to its description.
+- 中: 請將下列用於在客戶與敏捷團隊間建立共同願景的技巧,拖曳配對到對應描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Agile Charter / 敏捷章程(Agile Charter)
+- p2: Definition of Done / 完成的定義(Definition of Done)
+- p3: Use Case Diagram / 使用案例圖(Use Case Diagram)
+- p4: Personas / 人物誌(Personas)
+
+**選項池(拖曳目標)**
+
+- c1: A high-level document authorizing the project before the backlog begins, often distilled into a short "project tweet" describing the project's purpose / 在待辦清單開始前用以授權專案的高階文件,常可濃縮為一則描述專案宗旨的簡短「專案推文」
+- c2: A shared understanding of what counts as complete, expressed through user stories, releases, and final project deliverables / 透過user story、releases與最終專案交付物表達,對「完成」的共同認知
+- c3: A diagram showing how end users interact with and use the product / 顯示終端使用者如何與產品互動、使用產品的圖表
+- c4: A quick way to build empathy for and a concrete picture of key stakeholder groups / 快速建立對重點利害關係人群體同理心與具體輪廓的方法
+
+**✅ 正確配對**
+
+- p1 → c1: Agile Charter → A high-level document authorizing the project before the backlog begins, often distilled into a short "project tweet" describing the project's purpose（敏捷章程(Agile Charter) → 在待辦清單開始前用以授權專案的高階文件,常可濃縮為一則描述專案宗旨的簡短「專案推文」）
+- p2 → c2: Definition of Done → A shared understanding of what counts as complete, expressed through user stories, releases, and final project deliverables（完成的定義(Definition of Done) → 透過user story、releases與最終專案交付物表達,對「完成」的共同認知）
+- p3 → c3: Use Case Diagram → A diagram showing how end users interact with and use the product（使用案例圖(Use Case Diagram) → 顯示終端使用者如何與產品互動、使用產品的圖表）
+- p4 → c4: Personas → A quick way to build empathy for and a concrete picture of key stakeholder groups（人物誌(Personas) → 快速建立對重點利害關係人群體同理心與具體輪廓的方法）
+
+**詳解**
+
+敏捷確保客戶與團隊願景一致的方法包含:Agile Charter(敏捷章程),是Hi-Level授權文件,常可濃縮為140字以內的Project Tweet;定義何為完成(Definition of Done),透過User Story、Releases、最終專案交付物具體化「完成」的共同認知;Agile Modeling技巧則包含Use Case Diagram(顯示使用者如何使用產品)、Data Model、Wireframe,以及Personas(適合快速了解並同理重點利害關係人)。四者共同協助團隊與客戶對專案方向及交付內容取得一致共識。
+
+---
+
+### Q74. `stk-073` — 點擊熱區題
+
+**題目 ID**: `stk-073`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Click the card that best describes the Agile Modeling technique known as a "Wireframe."
+- 中: 請點選最能描述敏捷建模(Agile Modeling)技巧中「線框稿(Wireframe)」的卡片。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) A rough, low-fidelity layout sketch showing the structure and placement of elements on a screen, without visual design detail / 一種粗略、低擬真度的版面配置草圖,呈現畫面上元素的結構與位置,但不含視覺設計細節 ✅ **正解** [x=5,y=5,w=40,h=35]
+- (n2) A diagram showing how end users interact with the product / 顯示終端使用者如何與產品互動的圖表 [x=52.5,y=5,w=40,h=35]
+- (n3) A fictional but realistic profile representing a key user or stakeholder group / 代表某重點使用者或利害關係人群體的虛構但寫實的檔案描述 [x=5,y=47.5,w=40,h=35]
+- (n4) A diagram showing the structure and relationships of data entities used by the product / 顯示產品所使用資料實體結構與關聯的圖表 [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+Agile Modeling常見技巧包含Use Case Diagram(n2,顯示使用者如何使用產品)、Data Model(n4,顯示資料結構與關聯)、Wireframe(n1,低擬真度的畫面版面配置草圖,聚焦結構而非視覺細節)、以及Personas(n3,代表重點利害關係人群體的虛構寫實檔案)。這些輕量級模型工具能快速讓客戶與團隊對產品外觀、資料與使用情境建立共同理解,而不需要投入完整的正式規格文件。
+
+---
+
+### Q75. `stk-074` — 單選題
+
+**題目 ID**: `stk-074`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Several senior executives remain skeptical of the organization's shift to agile delivery, privately worrying that short iterations mean the team lacks a real plan and that frequent change indicates poor discipline. What should the project manager do to address this?
+- 中: 幾位高階主管對組織轉向敏捷交付方式仍抱持懷疑,私下擔心短期迭代代表團隊缺乏真正的計畫,且頻繁變更代表紀律不佳。專案經理應如何處理此情況?
+
+**選項**
+
+- (a) Ignore the executives' concerns since they are not part of the delivery team / 忽略高階主管的疑慮,因為他們並非交付團隊的一員
+- (b) Proactively educate the executives on agile concepts, such as adaptive planning and the value of early, frequent feedback, to address their specific concerns / 主動向高階主管說明敏捷概念,例如調適性規劃與及早頻繁回饋的價值,以回應其具體疑慮 ✅ **正解**
+- (c) Ask the executives to stop attending steering committee meetings until they better understand agile / 要求高階主管在更了解敏捷之前先暫停出席指導委員會會議
+- (d) Revert the project back to a predictive approach to avoid further questions from executives / 為避免高階主管進一步提問,將專案改回預測式方法
+
+**詳解**
+
+敏捷利害關係人參與強調透過教育宣導消除大家(包含高階主管、經理、成員與使用者)對敏捷觀念的常見疑慮。面對高階主管擔心短期迭代缺乏計畫、頻繁變更代表紀律不佳,PM應主動說明敏捷的調適性規劃(Adaptive Planning)本質——計畫會隨進展持續更新而非一次定案,以及及早頻繁交付與回饋如何降低風險、提升價值,而非忽視疑慮、排除高階主管參與,或未經評估就片面放棄敏捷方法。
+
+---
+
+### Q76. `stk-075` — 多選題
+
+**題目 ID**: `stk-075`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: An agile project manager needs to negotiate with a business sponsor who insists on adding a large new feature mid-sprint. Which two of the following approaches reflect sound agile negotiation practice in this situation? (Select two.)
+- 中: 某敏捷專案經理需與一位堅持要在衝刺期間新增一項大型功能的業務贊助人協商。下列哪兩項作法反映了此情境下良好的敏捷協商實務?(請選擇兩項)
+
+**選項**
+
+- (a) Approach the conversation with a positive tone, respect, and empathy, while still protecting the customer's overall interests and satisfaction / 以正向、尊重與同理心進行對話,同時仍須確保客戶整體利益與滿意度 ✅ **正解**
+- (b) Explain the impact on the current sprint and propose adding the feature to the product backlog for prioritization in a future sprint / 說明對目前衝刺的影響,並提議將該功能加入產品待辦清單,於未來衝刺中排序評估 ✅ **正解**
+- (c) Immediately agree to insert the feature into the current sprint to avoid disappointing the sponsor / 為避免讓贊助人失望,立即同意將該功能插入目前衝刺
+- (d) Tell the sponsor that scope changes are never allowed once a sprint has started, with no further discussion / 告知贊助人一旦衝刺開始,範疇絕對不允許變更,不再進一步討論
+
+**詳解**
+
+敏捷中的協商(無論向上、向下或平行)應秉持正向、尊重、同理心的態度,並以確保客戶利益與滿意度為依歸;實務上面對衝刺中途的新增需求,應說明對目前衝刺承諾的影響,並引導贊助人將需求納入產品待辦清單依優先順序評估,而非立即讓步破壞衝刺範疇的穩定性,也不應以生硬態度一味拒絕溝通,這兩種極端做法都無助於維持長期的信任關係。
+
+---
+
+### Q77. `stk-076` — 下拉選單題
+
+**題目 ID**: `stk-076`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: Compared to a traditional Project Charter, an {{blank1}} is a simpler, high-level document created before the backlog begins that authorizes the project manager, and it is often distilled into a short "project tweet" of no more than {{blank2}} characters describing the project's purpose.
+- 中: 相較於傳統的專案章程(Project Charter),{{blank1}} 是一份在待辦清單開始之前建立、內容較簡單的高階文件,用以授權專案經理,且常可濃縮為一則描述專案宗旨、不超過 {{blank2}} 個字元的簡短「專案推文」。
+
+**blank1**
+
+- (a) Agile Charter / 敏捷章程(Agile Charter) ✅ **正解**
+- (b) Stakeholder Engagement Plan / 利害關係人參與計畫
+- (c) Communications Management Plan / 溝通管理計畫
+- (d) Definition of Done / 完成的定義
+
+**blank2**
+
+- (a) 50 / 50
+- (b) 140 / 140 ✅ **正解**
+- (c) 500 / 500
+- (d) 1000 / 1000
+
+
+**詳解**
+
+Agile Charter(敏捷章程)相較於傳統Project Charter內容更精簡,聚焦於Who、What、When、Where、Why、How等高階方向,專注於專案如何運行而非交付細節,並在Backlog開始之前用以授權專案經理展開工作,擁抱彈性與後續更動;它常可濃縮為一則不超過140字元的「Project Tweet」,方便所有人快速掌握專案的高階方向。
+
+---
+
+### Q78. `stk-077` — 單選題
+
+**題目 ID**: `stk-077`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: An agile team's developer needs additional testing environment capacity that is currently allocated to another agile team of equal standing, managed by a peer project manager. The developer asks this peer project manager directly to free up some capacity. Which direction of negotiation does this represent?
+- 中: 某敏捷團隊的開發人員需要額外的測試環境容量,而該容量目前分配給另一個地位相當、由平行同儕專案經理管理的敏捷團隊。該開發人員直接向這位平行同儕專案經理提出釋出部分容量的請求。這屬於哪一種協商方向?
+
+**選項**
+
+- (a) Upward negotiation / 向上協商(Upward)
+- (b) Downward negotiation / 向下協商(Downward)
+- (c) Sideward negotiation / 平行協商(Sideward) ✅ **正解**
+- (d) Outward negotiation / 向外協商(Outward)
+
+**詳解**
+
+敏捷中的協商依對象的相對層級可分為向上(與贊助人、高階管理層等)、向下(與團隊成員)及平行(與地位相當的同儕,例如其他專案經理或職能經理)。本情境中,開發人員與管理另一個平行團隊、地位相當的同儕專案經理協商共用資源,屬於平行(Sideward)協商,應秉持正向、尊重、同理心的態度進行,而非涉及正式職權上下關係的向上或向下協商。
+
+---
+
+### Q79. `stk-078` — 單選題
+
+**題目 ID**: `stk-078`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: In a strong matrix organization, the project manager has significant formal authority over project resources. A functional manager nonetheless controls the technical staff's daily task assignments and performance reviews. When the project needs a specialist reassigned faster than the functional manager prefers, what should the project manager do?
+- 中: 在強矩陣組織中,專案經理對專案資源擁有相當大的正式職權。然而職能經理仍掌控技術人員的日常任務指派與績效考核。當專案需要比職能經理希望的更快速地調度一位專家時,專案經理應如何處理?
+
+**選項**
+
+- (a) Bypass the functional manager and directly reassign the specialist using positional authority / 略過職能經理,直接運用職位權力調動該專家
+- (b) Negotiate with the functional manager to align on timing and priorities, respecting their ongoing role in the specialist's career / 與職能經理協商調度時機與優先順序,並尊重其對該專家職涯持續扮演的角色 ✅ **正解**
+- (c) Escalate immediately to senior management without first attempting direct discussion / 未先嘗試直接討論即立即上呈高階管理層
+- (d) Wait for the specialist to volunteer for reassignment rather than requesting it / 等待該專家自願申請調度,而非主動提出請求
+
+**詳解**
+
+即使在強矩陣組織中PM擁有較高職權,職能經理仍是專案重要的利害關係人,對資源仍保有績效考核與職涯發展等實質影響力。PM應運用平行協商與人際技巧尋求雙方對調度時機與優先順序的共識,而非單純以職權強壓,這樣才能維繫長期合作關係;略過協商、越級上呈或消極等待都無助於有效解決資源調度需求。
+
+---
+
+### Q80. `stk-079` — 多選題
+
+**題目 ID**: `stk-079`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Which two of the following best describe the role of a Project Management Office (PMO)? (Select two.)
+- 中: 下列哪兩項最能描述專案管理辦公室(PMO)的角色?(請選擇兩項)
+
+**選項**
+
+- (a) Sharing resources, methodologies, tools, and technology across projects in the organization / 在組織內跨專案共享資源、方法論、工具與技術 ✅ **正解**
+- (b) Providing templates, standards, and guidance that a project manager can draw on when uncertain how to proceed / 在專案經理不確定如何進行時,提供可供參考的範本、標準與指導 ✅ **正解**
+- (c) Directly performing all technical project work so functional teams are not required / 直接執行所有技術性專案工作,使職能團隊無需參與
+- (d) Existing only in flexible industries such as startups and technology companies, never in regulated sectors / 僅存在於新創與科技業等彈性產業,絕不存在於受監管產業
+
+**詳解**
+
+PMO是組織中共享資源、方法論、工具與技術的單位,當PM不確定該如何進行時,可尋求PMO提供的範本、標準或人力支援。PMO的嚴謹程度會因產業而異(例如醫療、政府、軍事等受監管產業通常較嚴格,科技業、新創較彈性),但兩種產業皆可能設有PMO;PMO本身通常不會取代職能團隊直接執行專案技術工作。
+
+---
+
+### Q81. `stk-080` — 拖拉配對題
+
+**題目 ID**: `stk-080`
+
+難度: `hard` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each Plan Stakeholder Engagement data analysis technique to its description.
+- 中: 請將下列規劃利害關係人參與(Plan Stakeholder Engagement)所使用的數據分析技巧拖曳配對到對應描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Benchmarking / 標竿比較(Benchmarking)
+- p2: Root Cause Analysis / 根本原因分析(Root Cause Analysis)
+- p3: Assumption and Constraint Analysis / 假設與限制分析(Assumption and Constraint Analysis)
+- p4: Mind Mapping / 心智圖(Mind Mapping)
+
+**選項池(拖曳目標)**
+
+- c1: Comparing stakeholder engagement levels and satisfaction against other projects to identify effective practices / 將利害關係人參與程度與滿意度與其他專案比較,以找出有效的作法
+- c2: Identifying the underlying reasons why current stakeholder engagement is or is not working / 找出目前利害關係人參與有效或無效背後的根本原因
+- c3: Validating assumptions about stakeholder engagement to refine the engagement approach / 驗證關於利害關係人參與的假設,以優化參與作法
+- c4: Visually organizing stakeholder relationships and connections to gain a clearer overview / 以視覺化方式整理利害關係人之間的關係與連結,取得更清晰的全貌
+
+**✅ 正確配對**
+
+- p1 → c1: Benchmarking → Comparing stakeholder engagement levels and satisfaction against other projects to identify effective practices（標竿比較(Benchmarking) → 將利害關係人參與程度與滿意度與其他專案比較,以找出有效的作法）
+- p2 → c2: Root Cause Analysis → Identifying the underlying reasons why current stakeholder engagement is or is not working（根本原因分析(Root Cause Analysis) → 找出目前利害關係人參與有效或無效背後的根本原因）
+- p3 → c3: Assumption and Constraint Analysis → Validating assumptions about stakeholder engagement to refine the engagement approach（假設與限制分析(Assumption and Constraint Analysis) → 驗證關於利害關係人參與的假設,以優化參與作法）
+- p4 → c4: Mind Mapping → Visually organizing stakeholder relationships and connections to gain a clearer overview（心智圖(Mind Mapping) → 以視覺化方式整理利害關係人之間的關係與連結,取得更清晰的全貌）
+
+**詳解**
+
+Plan Stakeholder Engagement常用的數據分析技巧包含:Benchmarking(將本專案的參與程度與滿意度和其他專案比較,借鏡有效作法)、Root Cause Analysis(找出目前參與狀況有效或無效的根本原因)、Assumption and Constraint Analysis(驗證關於利害關係人參與的假設以優化作法)、以及Mind Mapping(視覺化整理利害關係人之間的關係)。這些技巧共同協助PM更全面地了解利害關係人現況,以擬定有效的參與計畫。
+
+---
+
+### Q82. `stk-081` — 下拉選單題
+
+**題目 ID**: `stk-081`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: On the Stakeholder Engagement Assessment Matrix, the vertical axis typically represents each stakeholder's {{blank1}}, arranged from high to low, while the horizontal axis represents their current level of {{blank2}} toward the project, ranging from Unaware to Leading.
+- 中: 在利害關係人參與評估矩陣(Stakeholder Engagement Assessment Matrix)上,縱軸通常代表每位利害關係人的 {{blank1}},由高到低排列;橫軸則代表其目前對專案的 {{blank2}} 程度,範圍從不知情(Unaware)到主導(Leading)。
+
+**blank1**
+
+- (a) power or position / 權位(Power) ✅ **正解**
+- (b) project budget / 專案預算
+- (c) years of tenure at the company / 在公司的年資
+- (d) office location / 辦公室所在地
+
+**blank2**
+
+- (a) technical expertise / 技術專業程度
+- (b) support or engagement attitude / 支持或參與態度 ✅ **正解**
+- (c) financial contribution / 財務貢獻
+- (d) risk tolerance / 風險承受度
+
+
+**詳解**
+
+利害關係人參與評估矩陣的縱軸通常依權位(Power)由高到低排列各利害關係人,橫軸則呈現其目前(Current)對專案的參與/支持態度,依序為不知情(Unaware)、抗拒(Resistant)、中立(Neutral)、支持(Supportive)、主導(Leading);矩陣上同時可標記目前(C)與期望(D)位置,協助PM辨識需縮小的參與落差。
+
+---
+
+### Q83. `stk-082` — 單選題
+
+**題目 ID**: `stk-082`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager compares this project's stakeholder engagement levels and satisfaction scores against those of several similar past projects, in order to identify which engagement practices worked well elsewhere. Which technique is being used?
+- 中: 專案經理將本專案的利害關係人參與程度與滿意度分數,與數個過往類似專案進行比較,以找出哪些參與作法在其他專案成效良好。這運用的是下列哪一項技巧?
+
+**選項**
+
+- (a) Root Cause Analysis / 根本原因分析
+- (b) Benchmarking / 標竿比較(Benchmarking) ✅ **正解**
+- (c) Stakeholder Engagement Assessment Matrix / 利害關係人參與評估矩陣
+- (d) Mind Mapping / 心智圖
+
+**詳解**
+
+Benchmarking(標竿比較)是Plan Stakeholder Engagement中的數據分析技巧之一,透過比較不同專案的利害關係人參與程度與滿意度,借鏡其他專案中證實有效的參與作法;Root Cause Analysis著重找出現況成因,Stakeholder Engagement Assessment Matrix用以標記C/D落差,Mind Mapping則用於視覺化關係,皆非本情境描述的比較性技巧。
+
+---
+
+### Q84. `stk-083` — 下拉選單題
+
+**題目 ID**: `stk-083`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: When selecting communication technology for the Communications Management Plan, the urgency of the information need is one key factor to weigh. Another important factor is whether the technology is actually {{blank1}} and reliable within the current project environment, which is influenced by enterprise environmental factors such as {{blank2}}.
+- 中: 在為溝通管理計畫選擇溝通科技時,資訊需求的急迫程度是需要考量的關鍵因素之一。另一項重要因素,是該科技在目前專案環境中是否確實 {{blank1}} 且穩定可靠,而這會受到事業環境因素(EEF)如 {{blank2}} 的影響。
+
+**blank1**
+
+- (a) available / 可用(Available) ✅ **正解**
+- (b) inexpensive / 便宜
+- (c) trendy / 流行
+- (d) mandatory / 強制規定的
+
+**blank2**
+
+- (a) organizational culture and existing communication channels / 組織文化與既有的溝通管道 ✅ **正解**
+- (b) the project's risk register contents / 專案風險登錄表的內容
+- (c) the personal preferences of a single team member / 單一團隊成員的個人偏好
+- (d) the color scheme of the company logo / 公司標誌的配色
+
+
+**詳解**
+
+選擇溝通科技時,除了資訊需求的急迫性,還須評估該科技在專案環境中的可用性(Availability)與穩定性(Reliability),這會受到組織文化(如習慣面對面、Email或即時通訊)、既有溝通管道、管理風格等事業環境因素(EEF)影響;風險登錄表內容、單一成員的個人偏好或公司標誌配色皆非決定溝通科技選擇的關鍵因素。
+
+---
+
+### Q85. `stk-084` — 下拉選單題
+
+**題目 ID**: `stk-084`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: Since a recent PMBOK revision separated what used to be a single plan into two documents, the Stakeholder Engagement Plan now focuses primarily on {{blank1}}, while the Communications Management Plan focuses primarily on {{blank2}}.
+- 中: 由於近期版本的調整,將原本合併的計畫拆分為兩份文件,利害關係人參與計畫(Stakeholder Engagement Plan)現在主要聚焦於 {{blank1}},而溝通管理計畫(Communications Management Plan)則主要聚焦於 {{blank2}}。
+
+**blank1**
+
+- (a) increasing participation and moving stakeholders toward a desired engagement level / 提升參與並使利害關係人朝期望的參與程度移動 ✅ **正解**
+- (b) recording the detailed cost baseline / 記錄詳細成本基準
+- (c) listing every identified project risk / 列出所有已識別的專案風險
+- (d) defining the WBS structure / 定義WBS結構
+
+**blank2**
+
+- (a) sharing information — who receives what, how, and how often / 共享資訊——誰收到什麼資訊、如何傳遞及多常傳遞 ✅ **正解**
+- (b) increasing participation and moving stakeholders toward a desired engagement level / 提升參與並使利害關係人朝期望的參與程度移動
+- (c) defining the risk response strategy / 定義風險回應策略
+- (d) approving the project charter / 核准專案章程
+
+
+**詳解**
+
+PMBOK將原本合併的計畫拆分為兩份文件:利害關係人參與計畫聚焦於「讓人參與」,規劃如何提升參與率、增加支持並減少抗拒;溝通管理計畫則聚焦於「共享資訊」,規劃誰需要什麼資訊、透過何種管道、多常傳遞及由誰負責。兩者雖然緊密相關,但著重的核心目的不同,常在考題中被混淆。
+
+---
+
+### Q86. `stk-085` — 下拉選單題
+
+**題目 ID**: `stk-085`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: Monitor Stakeholder Engagement and Monitor Communications primarily involve checking whether engagement and communication activities are being carried out {{blank1}}, whereas Manage Stakeholder Engagement and Manage Communications primarily involve {{blank2}} those activities.
+- 中: 監控利害關係人參與(Monitor Stakeholder Engagement)與監控溝通(Monitor Communications)主要是檢查參與與溝通活動是否 {{blank1}} 被執行,而管理利害關係人參與(Manage Stakeholder Engagement)與管理溝通(Manage Communications)則主要是 {{blank2}} 這些活動。
+
+**blank1**
+
+- (a) as planned / 依計畫 ✅ **正解**
+- (b) randomly / 隨機地
+- (c) only once, at project closeout / 僅在專案結案時一次性地
+- (d) without any documentation / 未經任何文件記錄
+
+**blank2**
+
+- (a) actually carrying out / 實際執行 ✅ **正解**
+- (b) permanently canceling / 永久取消
+- (c) merely observing without acting on / 僅觀察而不採取行動
+- (d) outsourcing entirely to a third party / 完全外包給第三方
+
+
+**詳解**
+
+Monitor(監控)類流程著重「檢查是否依計畫被執行、成效如何」,屬於Monitoring & Controlling;Manage(管理)類流程則著重「實際執行」參與與溝通行動,屬於Executing。兩組流程雖然主題相近(皆與利害關係人參與、溝通有關),但一個是檢查、一個是執行,考生應能區分。
+
+---
+
+### Q87. `stk-086` — 單選題
+
+**題目 ID**: `stk-086`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is preparing a technical performance report. One recipient is a senior software architect, while another is a non-technical business sponsor. What should the project manager do to communicate effectively with both?
+- 中: 專案經理正在準備一份技術績效報告。其中一位收件者是資深軟體架構師,另一位則是不具技術背景的業務贊助人。專案經理應如何做才能與雙方都有效溝通?
+
+**選項**
+
+- (a) Send the exact same highly technical report to both recipients for consistency / 為求一致性,將完全相同、高度技術性的報告發送給雙方
+- (b) Tailor the content and level of detail to each recipient's background and competence, so each can understand the relevant information / 依各收件者的背景與能力調整內容與細節程度,使雙方都能理解相關資訊 ✅ **正解**
+- (c) Only send the report to the architect, since the sponsor is unlikely to understand it anyway / 只將報告發送給架構師,因為贊助人反正不太可能理解
+- (d) Omit all technical details from both reports to keep things simple / 兩份報告皆省略所有技術細節以求簡單
+
+**詳解**
+
+Manage Communications強調考量收件人的能力/背景(Competence),提供對其而言合適且能理解的資訊與輔助,而非對所有人一律套用相同內容。對技術背景的架構師可保留必要技術細節,對非技術背景的贊助人則應轉譯為商業影響與決策重點;完全略過某位收件者或過度簡化到失去必要資訊都不是有效溝通。
+
+---
+
+### Q88. `stk-087` — 點擊熱區題
+
+**題目 ID**: `stk-087`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During a team decision-making discussion, the facilitator asks everyone to simultaneously hold up a number of fingers from one to five, where one indicates strong support and five indicates strong opposition, so that the level of agreement can be quickly and visually gauged. Click the card that correctly names this technique.
+- 中: 在一次團隊決策討論中,引導者請所有人同時舉起一到五根手指,一代表強烈支持、五代表強烈反對,以便快速且視覺化地評估大家的贊同程度。請點選正確命名此技巧的卡片。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Round-Robin / 輪流發言(Round-Robin) [x=5,y=5,w=40,h=35]
+- (n2) Fist of Five / 五指表決(Fist of Five) ✅ **正解** [x=52.5,y=5,w=40,h=35]
+- (n3) Delphi Technique / 德爾菲法(Delphi Technique) [x=5,y=47.5,w=40,h=35]
+- (n4) RACI Chart / RACI 責任分派矩陣 [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+Fist of Five(五指表決)是一種快速確認團隊參與與贊同程度的量化投票技巧,通常一代表強烈支持、五代表強烈反對,若有人舉起較高數字,應詢問其原因以了解疑慮;Round-Robin是確保每人輪流發言的腦力激盪技巧,Delphi Technique是匿名專家意見收斂技巧,RACI圖表則用於界定任務責任分工,皆非此情境描述的技巧。
+
+---
+
+### Q89. `stk-088` — 拖拉配對題
+
+**題目 ID**: `stk-088`
+
+難度: `hard` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each level of conflict intensity to its description.
+- 中: 請將下列衝突強度層級拖曳配對到對應描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Level 1 – Problem to Solve / 第一級——待解決的問題
+- p2: Level 2 – Disagreement / 第二級——意見分歧
+- p3: Level 3 – Contest / 第三級——競賽
+- p4: Level 4 – Crusade / 第四級——聖戰
+- p5: Level 5 – World War / 第五級——世界大戰
+
+**選項池(拖曳目標)**
+
+- c1: Parties openly share information and collaborate to solve a shared problem / 各方公開分享資訊並合作解決共同問題
+- c2: Parties become guarded and focus on protecting themselves rather than freely sharing information / 各方變得謹慎防備,著重保護自己而非自由分享資訊
+- c3: Parties shift focus to winning the confrontation rather than resolving the underlying issue / 各方將焦點轉向贏得對抗,而非解決根本問題
+- c4: Parties seek to protect their broader group or faction, treating the conflict as a zero-sum fight / 各方尋求保護自己所屬的更大群體或派系,將衝突視為零和對抗
+- c5: Parties are determined to destroy the opposing side, and the situation is generally beyond repair without separating the parties / 各方決心摧毀對方,情況通常已無法挽回,只能將雙方拆散
+
+**✅ 正確配對**
+
+- p1 → c1: Level 1 – Problem to Solve → Parties openly share information and collaborate to solve a shared problem（第一級——待解決的問題 → 各方公開分享資訊並合作解決共同問題）
+- p2 → c2: Level 2 – Disagreement → Parties become guarded and focus on protecting themselves rather than freely sharing information（第二級——意見分歧 → 各方變得謹慎防備,著重保護自己而非自由分享資訊）
+- p3 → c3: Level 3 – Contest → Parties shift focus to winning the confrontation rather than resolving the underlying issue（第三級——競賽 → 各方將焦點轉向贏得對抗,而非解決根本問題）
+- p4 → c4: Level 4 – Crusade → Parties seek to protect their broader group or faction, treating the conflict as a zero-sum fight（第四級——聖戰 → 各方尋求保護自己所屬的更大群體或派系,將衝突視為零和對抗）
+- p5 → c5: Level 5 – World War → Parties are determined to destroy the opposing side, and the situation is generally beyond repair without separating the parties（第五級——世界大戰 → 各方決心摧毀對方,情況通常已無法挽回,只能將雙方拆散）
+
+**詳解**
+
+衝突可依強度分為五級:第一級(共享資訊、合作解決問題)、第二級(轉為謹慎防備、保護自己)、第三級(轉為求勝的競賽心態)、第四級(聖戰,保護所屬群體、零和思維)、第五級(世界大戰,決心摧毀對方)。第四級與第五級通常已難以透過一般協商化解,往往只能將衝突雙方拆散;PM應盡早介入,避免衝突從第一、二級升高至難以挽回的第四、五級。
+
+---
+
+### Q90. `stk-089` — 拖拉配對題
+
+**題目 ID**: `stk-089`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each motivation theory to its core idea.
+- 中: 請將下列激勵理論拖曳配對到其核心概念。
+
+**配對項目(拖曳來源)**
+
+- p1: Maslow's Hierarchy of Needs / 馬斯洛需求層次理論
+- p2: Herzberg's Theory of Motivation / 赫茲伯格激勵理論
+- p3: McGregor's Theory X & Y / 麥克葛瑞格X理論與Y理論
+- p4: McClelland's Three Needs Theory / 麥克利蘭三需求理論
+
+**選項池(拖曳目標)**
+
+- c1: People are motivated by a progression of needs, from basic physiological and safety needs up to self-actualization / 人受到一連串需求驅動,從基本的生理與安全需求,逐步上升到自我實現
+- c2: Hygiene factors such as salary, safety, and working conditions can cause dissatisfaction if inadequate, but do not by themselves create true motivation / 薪資、安全與工作環境等保健因子若不足會導致不滿,但本身無法真正創造激勵
+- c3: Managers either assume people dislike work and need close supervision (X), or assume people are self-motivated and capable of self-direction (Y) / 管理者若非假設員工不喜歡工作、需要嚴密監督(X理論),就是假設員工自我驅動、能夠自我管理(Y理論)
+- c4: Individuals are primarily driven by a combination of the need for achievement, power, and affiliation / 個人主要受成就、權力與歸屬感三種需求的組合所驅動
+
+**✅ 正確配對**
+
+- p1 → c1: Maslow's Hierarchy of Needs → People are motivated by a progression of needs, from basic physiological and safety needs up to self-actualization（馬斯洛需求層次理論 → 人受到一連串需求驅動,從基本的生理與安全需求,逐步上升到自我實現）
+- p2 → c2: Herzberg's Theory of Motivation → Hygiene factors such as salary, safety, and working conditions can cause dissatisfaction if inadequate, but do not by themselves create true motivation（赫茲伯格激勵理論 → 薪資、安全與工作環境等保健因子若不足會導致不滿,但本身無法真正創造激勵）
+- p3 → c3: McGregor's Theory X & Y → Managers either assume people dislike work and need close supervision (X), or assume people are self-motivated and capable of self-direction (Y)（麥克葛瑞格X理論與Y理論 → 管理者若非假設員工不喜歡工作、需要嚴密監督(X理論),就是假設員工自我驅動、能夠自我管理(Y理論)）
+- p4 → c4: McClelland's Three Needs Theory → Individuals are primarily driven by a combination of the need for achievement, power, and affiliation（麥克利蘭三需求理論 → 個人主要受成就、權力與歸屬感三種需求的組合所驅動）
+
+**詳解**
+
+馬斯洛需求層次理論強調需求由生理/安全逐步上升至自我實現;赫茲伯格理論區分保健因子(不足會不滿,但充足未必激勵)與真正的激勵因子;McGregor的X/Y理論描述管理者對員工本質的兩種截然不同假設;McClelland三需求理論則主張個人行為主要受成就、權力、歸屬感三種需求驅動。四者皆是理解團隊與利害關係人動機、據以設計激勵與參與策略的重要理論基礎。
+
+---
+
+### Q91. `stk-090` — 單選題
+
+**題目 ID**: `stk-090`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A motivation theory, originating from Japanese management practices, emphasizes building long-term employee loyalty by valuing both an employee's work life and personal life. Which theory is this?
+- 中: 一項源自日本管理實務的激勵理論,強調同時重視員工的工作與工作以外的個人生活,以建立員工長期的忠誠度。這是下列哪一項理論?
+
+**選項**
+
+- (a) Theory X / X理論
+- (b) Expectancy Theory / 期望理論
+- (c) Theory Z / Z理論 ✅ **正解**
+- (d) Theory of Constraints / 限制理論
+
+**詳解**
+
+Theory Z(Z理論)源自日本的管理實務,強調透過重視員工工作與生活的整體福祉,來提升員工的長期忠誠度;Theory X著重不信任員工、嚴密監督,Expectancy Theory強調員工對獎勵的預期會影響其工作動力,Theory of Constraints則是聚焦系統瓶頸的管理概念,皆與Z理論所強調的日式忠誠文化不同。
+
+---
+
+### Q92. `stk-091` — 多選題
+
+**題目 ID**: `stk-091`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Regarding common forms of power a project manager may hold, which two of the following are generally considered less desirable and should be used sparingly, since they can erode long-term trust? (Select two.)
+- 中: 關於專案經理可能擁有的常見權力形式,下列哪兩項通常被認為較不理想、應謹慎少用,因為容易損害長期信任?(請選擇兩項)
+
+**選項**
+
+- (a) Expert power, based on demonstrated knowledge and skill / 專家權,基於展現出的知識與技能
+- (b) Legitimate (formal) power, based purely on title or position to compel compliance / 法定(正式)職權,純粹憑藉頭銜或職位逼迫他人服從 ✅ **正解**
+- (c) Punishment (coercive) power, based on the threat of negative consequences / 懲罰(強制)權,基於施加負面後果的威脅 ✅ **正解**
+- (d) Reward power, based on the ability to provide something of value / 獎賞權,基於能提供有價值事物的能力
+
+**詳解**
+
+課程中將權力形式分為較理想(獎賞權、專家權)、中立(參照權,源於他人的尊敬信賴)與較不理想(法定/正式職權、懲罰/強制權)三類。純粹依賴頭銜逼迫服從的法定職權,以及依賴威脅懲罰的強制權,雖然短期有效,但長期容易損害團隊與利害關係人對PM的信任與投入意願,應謹慎使用;專家權與獎賞權則通常被視為較能建立正向長期關係的權力來源。
+
+---
+
+### Q93. `stk-092` — 點擊熱區題
+
+**題目 ID**: `stk-092`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During a difficult conversation about a missed deadline, one team member calmly acknowledges her share of responsibility, stays open to feedback, and focuses on both the immediate fix and the longer-term improvement. Click the card that best names the behavioral zone this team member is demonstrating.
+- 中: 在一次針對延誤交付的困難對話中,一位團隊成員平靜地承認自己應負的責任,對回饋保持開放態度,並同時關注眼前的解方與長期的改善。請點選最能命名此團隊成員所展現的行為區域的卡片。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Red Zone / 紅區(Red Zone) [x=5,y=5,w=40,h=35]
+- (n2) Green Zone / 綠區(Green Zone) ✅ **正解** [x=52.5,y=5,w=40,h=35]
+- (n3) Withdraw/Avoid / 撤退/迴避 [x=5,y=47.5,w=40,h=35]
+- (n4) Force/Direct / 強制/命令 [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+Green Zone(綠區)行為特徵包含願意承擔責任、不輕易進入防禦心態、樂於接受回饋,並能同時兼顧短期與長期成效,這正是題目所描述的行為;Red Zone(紅區)行為則相反,常見互相責怪、防禦性回應、逃避或不重視回饋等;Withdraw/Avoid與Force/Direct屬於衝突解決技巧的分類,並非行為區域的描述。
+
+---
+
+### Q94. `stk-093` — 拖拉配對題
+
+**題目 ID**: `stk-093`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each level of active listening to its description.
+- 中: 請將下列主動傾聽的層級拖曳配對到對應描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Level 1 – Internal Listening / 第一層——內在傾聽
+- p2: Level 2 – Focused Listening / 第二層——專注傾聽
+- p3: Level 3 – Global Listening / 第三層——全面傾聽
+
+**選項池(拖曳目標)**
+
+- c1: The listener's attention is focused on how the message relates to themselves, such as "What does this mean for me?" / 聽者的注意力聚焦在此訊息與自己的關係,例如「這跟我有什麼關係?」
+- c2: The listener shifts attention fully onto the speaker, empathizing with and trying to see the situation from the speaker's perspective / 聽者將注意力完全轉向講者,同理講者並試著從對方視角看待情況
+- c3: The listener also attends to body language, tone, and other cues, being mindful of how their own nonverbal signals affect the speaker / 聽者同時關注肢體語言、語氣等線索,並留意自己的非語言訊號如何影響講者
+
+**✅ 正確配對**
+
+- p1 → c1: Level 1 – Internal Listening → The listener's attention is focused on how the message relates to themselves, such as "What does this mean for me?"（第一層——內在傾聽 → 聽者的注意力聚焦在此訊息與自己的關係,例如「這跟我有什麼關係?」）
+- p2 → c2: Level 2 – Focused Listening → The listener shifts attention fully onto the speaker, empathizing with and trying to see the situation from the speaker's perspective（第二層——專注傾聽 → 聽者將注意力完全轉向講者,同理講者並試著從對方視角看待情況）
+- p3 → c3: Level 3 – Global Listening → The listener also attends to body language, tone, and other cues, being mindful of how their own nonverbal signals affect the speaker（第三層——全面傾聽 → 聽者同時關注肢體語言、語氣等線索,並留意自己的非語言訊號如何影響講者）
+
+**詳解**
+
+主動傾聽可分三個層級:第一層(內在傾聽)聽者仍聚焦於「這跟我有何關係」;第二層(專注傾聽)開始真正同理講者、從對方視角思考;第三層(全面傾聽)進一步留意肢體語言與語氣等非語言線索,並意識到自己的表情舉止也會影響對方的感受。PM應盡量練習達到第二、三層,讓對方感受到「被在乎」,才能有效化解疑慮、建立信任。
+
+---
+
+### Q95. `stk-094` — 拖拉配對題
+
+**題目 ID**: `stk-094`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each of Tuckman's five stages of team development to its description.
+- 中: 請將下列塔克曼(Tuckman)團隊發展五階段拖曳配對到對應描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Forming / 組成期(Forming)
+- p2: Storming / 風暴期(Storming)
+- p3: Norming / 規範期(Norming)
+- p4: Performing / 表現期(Performing)
+- p5: Adjourning / 解散期(Adjourning)
+
+**選項池(拖曳目標)**
+
+- c1: Team members first come together and get acquainted, often being polite and somewhat guarded / 團隊成員初次聚集並開始認識彼此,通常較為客氣且有所保留
+- c2: Conflicts and differing opinions surface as members test boundaries and push back on each other / 隨著成員彼此試探界線並產生摩擦,衝突與意見分歧開始浮現
+- c3: The team builds consensus, begins to trust one another, and establishes shared working norms / 團隊逐漸建立共識,開始互相信任,並確立共同的工作規範
+- c4: The team operates at high efficiency, collaborating smoothly to accomplish the work / 團隊以高效率運作,順暢協作以完成工作
+- c5: The team wraps up its work, reviews outcomes, and disbands, such as at project or phase closure / 團隊完成收尾工作、檢討成果並解散,例如在專案或階段結束時
+
+**✅ 正確配對**
+
+- p1 → c1: Forming → Team members first come together and get acquainted, often being polite and somewhat guarded（組成期(Forming) → 團隊成員初次聚集並開始認識彼此,通常較為客氣且有所保留）
+- p2 → c2: Storming → Conflicts and differing opinions surface as members test boundaries and push back on each other（風暴期(Storming) → 隨著成員彼此試探界線並產生摩擦,衝突與意見分歧開始浮現）
+- p3 → c3: Norming → The team builds consensus, begins to trust one another, and establishes shared working norms（規範期(Norming) → 團隊逐漸建立共識,開始互相信任,並確立共同的工作規範）
+- p4 → c4: Performing → The team operates at high efficiency, collaborating smoothly to accomplish the work（表現期(Performing) → 團隊以高效率運作,順暢協作以完成工作）
+- p5 → c5: Adjourning → The team wraps up its work, reviews outcomes, and disbands, such as at project or phase closure（解散期(Adjourning) → 團隊完成收尾工作、檢討成果並解散,例如在專案或階段結束時）
+
+**詳解**
+
+Tuckman團隊發展五階段依序為:組成期(初次認識、較客氣拘謹)、風暴期(意見分歧、試探界線)、規範期(建立共識、開始信任)、表現期(高效運作、順暢協作)、解散期(收尾檢討、團隊解散)。理解此模型有助於PM預期並因應團隊在不同發展階段中常見的互動與衝突模式。
+
+---
+
+### Q96. `stk-095` — 單選題
+
+**題目 ID**: `stk-095`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A new agile team member closely follows the team's established practices step by step without deviation, since she is still learning the basics. According to the Shu-Ha-Ri skill acquisition model, which stage is this team member in?
+- 中: 一位新加入敏捷團隊的成員,由於仍在學習基礎,目前嚴格依照團隊既有的作法逐步操作、不做任何變化。依照守破離(Shu-Ha-Ri)技能習得模型,此成員目前處於哪一個階段?
+
+**選項**
+
+- (a) Shu (Obey) — following established rules and practices precisely / 守(Shu)——精確遵循既有的規則與作法 ✅ **正解**
+- (b) Ha (Detach) — beginning to deviate from and adapt established practices / 破(Ha)——開始偏離並調整既有的作法
+- (c) Ri (Transcend) — finding an individual path beyond established practices / 離(Ri)——找到超越既有作法的個人路徑
+- (d) Storming — actively conflicting with other team members over practices / 風暴期——就作法與其他團隊成員發生積極衝突
+
+**詳解**
+
+Shu-Ha-Ri模型描述技能習得的三個階段:守(Shu)階段學習者精確遵循既有規則與作法,尚未具備調整的能力或信心;破(Ha)階段開始理解原理並嘗試調整、偏離既定作法;離(Ri)階段則已內化精髓,能找到屬於自己的方式甚至超越原有作法。題目中新成員仍嚴格依循既有作法,屬於守(Shu)階段;Storming則是Tuckman團隊發展模型中的階段,並非Shu-Ha-Ri模型的一部分。
+
+---
+
+### Q97. `stk-096` — 點擊熱區題
+
+**題目 ID**: `stk-096`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A co-located agile team is deliberately seated within about 33 feet (10 meters) of one another in an open workspace without cubicle walls, so that team members can overhear relevant conversations happening nearby and pick up useful information without being directly addressed. Click the card that correctly names this phenomenon.
+- 中: 某同地協作(co-located)的敏捷團隊,刻意將座位安排在約33英呎(10公尺)範圍內的開放工作空間,不設置隔間牆,讓成員能在附近偶然聽到相關對話,即使並非針對自己所說,也能順帶獲取有用資訊。請點選正確命名此現象的卡片。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Osmotic Communication / 滲透式溝通(Osmotic Communication) ✅ **正解** [x=5,y=5,w=40,h=35]
+- (n2) Information Radiator / 資訊發射源(Information Radiator) [x=52.5,y=5,w=40,h=35]
+- (n3) Tacit Knowledge / 默會知識(Tacit Knowledge) [x=5,y=47.5,w=40,h=35]
+- (n4) Push Communication / 推播式溝通(Push) [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+Osmotic Communication(滲透式溝通)描述同地協作團隊在近距離開放空間中,成員能自然「順帶聽到」附近相關對話並吸收有用資訊的現象,是同地協作(通常建議在約33英呎範圍內、無實體隔間)的重要優點之一;Information Radiator是主動展示於工作空間的可視化資訊工具;Tacit Knowledge是未被文件化的共同默契知識,雖然滲透式溝通有助於傳遞默會知識,但兩者概念不同;Push Communication則是主動發送資訊的溝通方法,皆非本情境描述的現象。
+
+---
+
+### Q98. `stk-097` — 單選題
+
+**題目 ID**: `stk-097`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: On a long-running project team, members have developed a shared understanding of "how things really get done here" that has never been written down in any document, yet everyone on the team acts on it consistently. What is this type of knowledge called?
+- 中: 在一個長期運作的專案團隊中,成員發展出一套關於「這裡實際上是如何做事」的共同理解,雖從未被寫入任何文件,但團隊每個人都能一致地依此行事。這種知識稱為下列何者?
+
+**選項**
+
+- (a) Explicit Knowledge / 外顯知識(Explicit Knowledge)
+- (b) Tacit Knowledge / 默會知識(Tacit Knowledge) ✅ **正解**
+- (c) Organizational Process Assets in document form / 文件形式的組織過程資產
+- (d) The Communications Management Plan / 溝通管理計畫
+
+**詳解**
+
+Tacit Knowledge(默會知識/內隱知識)是指團隊或組織成員共同擁有、但未被明文記錄下來的知識或默契,通常透過長期共事、近距離互動(如滲透式溝通)累積而成,難以完整文件化;Explicit Knowledge則是已被清楚記錄、可透過文件傳遞的知識;組織過程資產的文件形式與溝通管理計畫皆屬於已文件化的外顯資訊,並非本情境描述從未被寫下的共同理解。
+
+---
+
+### Q99. `stk-098` — 單選題
+
+**題目 ID**: `stk-098`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: On an agile team, one member is deeply skilled in backend development but has also invested time in learning enough about frontend development and testing to help with those tasks when the team's workflow is bottlenecked. What is this type of team member called?
+- 中: 在某敏捷團隊中,一位成員在後端開發方面具備深厚專長,但也投入時間學習足夠的前端開發與測試知識,以便在團隊工作流程出現瓶頸時提供協助。這種類型的團隊成員稱為下列何者?
+
+**選項**
+
+- (a) A pure specialist who should focus exclusively on backend work / 純粹的專才,應完全專注於後端工作
+- (b) A generalizing specialist, who retains deep expertise while broadening skills to reduce bottlenecks / 通才專才(Generalizing Specialist),在保有深厚專長的同時拓展技能以減少瓶頸 ✅ **正解**
+- (c) A functional manager, who supervises multiple departments / 職能經理,負責監督多個部門
+- (d) A stakeholder with low power and low interest / 低權力、低利益的利害關係人
+
+**詳解**
+
+Generalizing Specialist(通才專才/T型人)是指在某一領域擁有深厚專長,同時具備跨領域的廣度技能,能在需要時協助分攤其他工作,減少團隊因單一環節過度依賴特定專才而產生的瓶頸,也避免下一位成員因等待上一位完成工作而閒置;這是敏捷高產能團隊建議的組成方式之一,與純粹只專精單一領域的專才不同。
+
+---
+
+### Q100. `stk-099` — 單選題
+
+**題目 ID**: `stk-099`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During a planning discussion, one team member raises a concern that contradicts the majority opinion, warning that the proposed approach carries a significant risk others have not considered. What should the project manager do to support a high-performing team culture?
+- 中: 在一次規劃討論中,一位團隊成員提出與多數意見相左的疑慮,警告所提議的做法存在其他人尚未考慮到的重大風險。專案經理應如何做,才能支持高產能的團隊文化?
+
+**選項**
+
+- (a) Discourage the team member from raising dissenting views in future meetings to maintain harmony / 為維持會議和諧,勸阻該成員未來提出反對意見
+- (b) Welcome and protect the team member who raised the dissenting view, treating constructive disagreement as valuable input / 歡迎並保護提出反對意見的成員,將建設性的不同意見視為有價值的意見 ✅ **正解**
+- (c) Ignore the concern since it was not raised by the majority of the team / 因該疑慮並非多數團隊成員提出而予以忽視
+- (d) Immediately escalate the disagreement to senior management for a final ruling / 立即將此分歧上呈高階管理層做最終裁決
+
+**詳解**
+
+高產能團隊需要不同意見(建設性反對)來避免團體迷思、及早發現潛在風險,PM應主動歡迎並保護提出反對意見的成員,避免衝突因此升級或該成員因表達意見而受到排擠;壓抑異見、忽視少數意見或未經團隊討論就直接上呈高層,皆不利於營造鼓勵坦誠表達疑慮的心理安全環境。
+
+---
+
+### Q101. `stk-100` — 單選題
+
+**題目 ID**: `stk-100`
+
+難度: `hard` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Users interacting with a new system often struggle to understand the system's current state and to judge whether their goal has actually been achieved after taking an action. To narrow this gap as early as possible, an agile team frequently delivers small increments and gathers feedback rather than waiting until the end of a long phase. What concept describes the difficulty users face in interpreting system state and progress toward their goal?
+- 中: 使用者在操作一個新系統時,常難以理解系統目前的狀態,也難以判斷採取某個動作後是否真的達成了自己的目標。為了盡早縮小這個落差,敏捷團隊傾向頻繁交付小型增量並蒐集回饋,而非等到一個長階段結束才處理。下列哪個概念描述了使用者在解讀系統狀態與判斷是否達成目標時所面臨的困難?
+
+**選項**
+
+- (a) Gulf of Evaluation / 評估的鴻溝(Gulf of Evaluation) ✅ **正解**
+- (b) Scope Creep / 範疇蔓延
+- (c) Cost of Change / 變更成本
+- (d) Technical Debt / 技術債
+
+**詳解**
+
+Gulf of Evaluation(評估的鴻溝)描述使用者在操作系統後,理解系統目前狀態、以及判斷自己的目標是否已達成之間所存在的困難與落差。及早發現並解決此類問題、透過頻繁的小規模溝通與測試,能有效避免落差擴大;Scope Creep是範疇在未經控制下逐漸擴增,Cost of Change是描述變更成本隨專案進展而升高,Technical Debt則是為求短期速度而累積的技術妥協,三者概念皆與本情境所描述的使用者理解落差不同。
+
+---
+
+### Q102. `stk-101` — 點擊熱區題
+
+**題目 ID**: `stk-101`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A facilitator gives every participant five quiet minutes to write down their own ideas independently before anyone shares aloud, so that individual thinking is not influenced by others and quieter members are not overshadowed by more vocal ones. Click the card that correctly names this brainstorming technique.
+- 中: 引導者讓每位參與者先安靜地花五分鐘各自寫下自己的想法,之後才開始口頭分享,如此一來獨立思考便不會受到他人影響,較安靜的成員也不會被較健談的成員搶走發言機會。請點選正確命名此腦力激盪技巧的卡片。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Quiet Writing / 安靜書寫(Quiet Writing) ✅ **正解** [x=5,y=5,w=40,h=35]
+- (n2) Round-Robin / 輪流發言(Round-Robin) [x=52.5,y=5,w=40,h=35]
+- (n3) Free-for-all / 自由發言(Free-for-all) [x=5,y=47.5,w=40,h=35]
+- (n4) Delphi Technique / 德爾菲法(Delphi Technique) [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+Quiet Writing(安靜書寫)讓每人先各自花數分鐘獨立寫下想法,強迫獨立思考、避免被他人影響,也讓較安靜的成員有平等表達機會;Round-Robin是輪流發言確保每人皆有發言權;Free-for-all則是讓大家自由發言,僅適合在充滿支持、心理安全的環境使用;Delphi Technique是一種匿名收斂專家意見的技巧,並非本情境描述的作法。
+
+---
+
+### Q103. `stk-102` — 單選題
+
+**題目 ID**: `stk-102`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A senior stakeholder privately asks the project manager to skip a mandatory government safety inspection step to save time, assuring the project manager that "nothing will happen" and that this instruction should stay between them. What should the project manager do?
+- 中: 一位資深利害關係人私下要求專案經理跳過一項政府強制規定的安全檢驗步驟以節省時間,並向專案經理保證「不會出事」,且此指示應保密。專案經理應如何處理?
+
+**選項**
+
+- (a) Comply with the request since it comes from a senior stakeholder with significant power / 因為此要求來自一位擁有重大權力的資深利害關係人,故予以配合
+- (b) Refuse to skip the mandatory regulatory step, explaining that legal compliance is a non-negotiable professional obligation, regardless of who requests it / 拒絕跳過強制規定的合規步驟,並說明遵守法規是不可妥協的專業義務,無論由誰提出要求 ✅ **正解**
+- (c) Skip the step quietly but keep informal documentation in case questions arise later / 悄悄跳過此步驟,但保留非正式紀錄以備日後有人質疑
+- (d) Escalate the stakeholder's request directly to the media to publicly expose the issue / 直接將此利害關係人的要求上呈媒體以公開揭露此事
+
+**詳解**
+
+遵守政府法規是專案經理的基本職業道德,不因任何利害關係人的職權或私下要求而妥協,即使可能因此面臨壓力或衝突,PM仍必須拒絕違法或違規的指示;私下配合(不論是否保留紀錄)皆屬不當,而未經內部溝通與正式管道就直接訴諸媒體,也並非處理此類倫理議題的恰當第一步。
+
+---
+
+### Q104. `stk-103` — 多選題
+
+**題目 ID**: `stk-103`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Which two of the following are essential elements of an effective, well-facilitated meeting? (Select two.)
+- 中: 下列哪兩項是有效且引導得當的會議所必備的要素?(請選擇兩項)
+
+**選項**
+
+- (a) A clear objective for the meeting / 會議有明確的目標 ✅ **正解**
+- (b) A defined time limit to keep the discussion focused / 設定明確的時間限制以維持討論聚焦 ✅ **正解**
+- (c) An unlimited number of attendees to ensure everyone is included / 不限制與會人數以確保人人都能參與
+- (d) No agenda, so discussion can flow entirely spontaneously / 不設議程,讓討論完全自由發揮
+
+**詳解**
+
+有效的會議應具備明確的目標、基本規則(Ground Rules)、時間限制,以及適當的引導協助,才能確保討論聚焦並產出具體結論;不限制與會人數或完全不設議程,反而容易導致會議失焦、缺乏效率,並非有效引導會議的要素。
+
+---
+
+### Q105. `stk-104` — 多選題
+
+**題目 ID**: `stk-104`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: According to the principles of servant leadership commonly applied by agile leaders, which two of the following best reflect this leadership style? (Select two.)
+- 中: 依照敏捷領導者常運用的服務型領導(Servant Leadership)原則,下列哪兩項最能反映此領導風格?(請選擇兩項)
+
+**選項**
+
+- (a) Recognizing team conflict as a positive step rather than something to be suppressed / 將團隊衝突視為正向的一步,而非應被壓抑的事 ✅ **正解**
+- (b) Acting for the simultaneous welfare of both the team and the project, rather than favoring one over the other / 同時顧及團隊與專案的福祉,而非偏袒其中一方 ✅ **正解**
+- (c) Making all technical decisions unilaterally so the team is not burdened with choices / 由領導者單方面做出所有技術決策,使團隊無需承擔選擇的負擔
+- (d) Withholding the project vision from the team so they focus only on assigned tasks / 對團隊隱瞞專案願景,使其僅專注於被指派的任務
+
+**詳解**
+
+服務型領導的原則包含將團隊衝突視為正向的訊號(代表大家真的在乎)、同時兼顧團隊與專案的福祉、建立願景並用願景驅動自身行為、營造功能性當責的環境等。服務型領導者應與團隊共享願景、賦權團隊自主決策,而非單方面替團隊做所有技術決策或隱瞞專案方向,這些做法違背服務型領導賦權與透明的核心精神。
+
+---
+
+### Q106. `stk-105` — 多選題
+
+**題目 ID**: `stk-105`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: According to common patterns distinguishing successful from unsuccessful project teams, which two of the following behaviors are associated with success? (Select two.)
+- 中: 依照區分專案團隊成功與失敗的常見模式,下列哪兩項行為與成功較為相關?(請選擇兩項)
+
+**選項**
+
+- (a) Being highly observant and genuinely willing to keep learning / 保持高度觀察力,並真心願意持續學習 ✅ **正解**
+- (b) Remaining malleable and adapting readily to new circumstances / 保持高度可塑性,樂於因應新情況調整 ✅ **正解**
+- (c) Preferring to invent new solutions from scratch rather than researching existing approaches / 偏好從零發明新解法,而非先研究既有做法
+- (d) Being a creature of habit, sticking rigidly to familiar routines regardless of context / 習慣成自然,不論情境為何都僵化堅持熟悉的常規
+
+**詳解**
+
+常被觀察到與團隊成功相關的行為包含高度觀察力、真心願意學習、保持可塑性以因應新情況,以及以工作為榮;而傾向從零發明而非先參考既有作法、僵化地固守熟悉常規而不因應情境調整,則常是導致團隊失敗的常見模式。PM應鼓勵團隊保持開放學習與彈性適應的文化。
+
+---
+
+### Q107. `stk-106` — 多選題
+
+**題目 ID**: `stk-106`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Which two of the following statements correctly describe the Product Owner role on a Scrum team? (Select two.)
+- 中: 下列哪兩項正確描述了Scrum團隊中產品負責人(Product Owner)的角色?(請選擇兩項)
+
+**選項**
+
+- (a) The Product Owner prioritizes the product backlog to maximize the business value delivered / 產品負責人負責排定產品待辦清單的優先順序,以將交付的商業價值最大化 ✅ **正解**
+- (b) The Product Owner is responsible for ensuring the team shares knowledge and understands acceptance criteria / 產品負責人負責確保團隊共享知識並理解驗收標準 ✅ **正解**
+- (c) The Product Owner writes all of the code that makes up the product increment / 產品負責人負責撰寫構成產品增量的所有程式碼
+- (d) The Product Owner's primary duty is to remove impediments blocking the development team, similar to a Scrum Master / 產品負責人的主要職責是移除阻礙開發團隊的障礙,如同Scrum Master一般
+
+**詳解**
+
+產品負責人(Product Owner)負責排定產品待辦清單優先順序以追求商業價值最大化,並確保團隊共享知識、定義驗收標準(AC)、提供時程規劃並參與規劃、審查與回顧會議;實際撰寫程式碼屬於跨職能開發團隊成員的工作,而移除團隊阻礙則是團隊引導者(Scrum Master)透過服務型領導所扮演的角色,並非產品負責人的主要職責。
+
+---
+
+### Q108. `stk-107` — 單選題
+
+**題目 ID**: `stk-107`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: An AI routing model has been trimming a courier network's fuel spend for two quarters when a veteran operations chief objects to depending on it. How should the project manager respond?
+- 中: 一套 AI 路線規劃模型已經替一家快遞網路省下兩季的油料成本,這時一位資深營運主管卻對依賴這套模型表達反對。專案經理該如何回應?
+
+**選項**
+
+- (a) Move the model to shadow mode, letting dispatchers route manually until the chief is satisfied. / 把模型改成「影子模式」,讓調度員先手動排路線,直到這位主管滿意為止
+- (b) Sit down with the chief, walk through the model's results, and keep it in service. / 與這位主管坐下來,逐一檢視模型的實際成效,同時維持模型持續運作 ✅ **正解**
+- (c) Present the fuel savings to the sponsor and continue running the model. / 向贊助人報告省下的油料成本,同時維持模型運作
+- (d) Notify the dispatch team of the objection and carry on as before. / 通知調度團隊這位主管的反對意見,維持現狀繼續運作
+
+**詳解**
+
+提出反對的人是這位營運主管,問題就應該回到他身上直接處理,而不是繞過他去找贊助人報告成果、或只是把消息轉告給不相干的調度團隊,這些做法都沒有真正面對提出異議的人。模型已經有兩季實際成效可以佐證,此時貿然把系統退回影子模式、犧牲掉已經驗證的效益,屬於還沒溝通就先讓步,反應過度;正確做法是帶著這兩季的具體數據,直接與這位主管一對一討論,讓他理解實際成效,同時讓模型繼續在崗位上運作,這也體現了直接與利害關係人協作、建立共同理解的精神。
+
+---
+
+### Q109. `stk-108` — 單選題
+
+**題目 ID**: `stk-108`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A claims department deploys the first increment of an AI triage assistant, and it emerges that most adjusters cannot judge when to trust the assistant's recommendations or when to override them. What should the project manager do?
+- 中: 理賠部門上線了一套 AI 分診助手的第一個增量,結果發現大多數理賠人員都無法判斷什麼時候該相信這套助手的建議、什麼時候該推翻它。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Simplify the assistant's interface in the next increment so less judgment is needed. / 在下一個增量簡化助手的介面,讓使用者不需要那麼多判斷
+- (b) Define the adjusters' training needs and bring that enablement into the project scope. / 界定理賠人員的訓練需求,並把這項賦能工作納入專案範疇 ✅ **正解**
+- (c) Ask human resources to schedule AI awareness workshops for the department. / 請人力資源部門為該部門安排 AI 意識培訓工作坊
+- (d) Publish a decision guide describing when to accept or override the recommendations. / 發布一份決策指南,說明何時該接受、何時該推翻建議
+
+**詳解**
+
+這套助手真正的價值,取決於理賠人員能否對它的建議做出正確判斷,而題目已經明講問題出在使用者缺乏這項判斷能力,這是一個被具名指出的人力能力缺口。依「確保團隊成員/利害關係人獲得適當訓練」這項任務的定義,理應由專案經理主動界定訓練需求,並把這項賦能工作正式納入專案範疇裡去規劃與執行,而不是交給部門外的人資單位自行安排、脫離專案掌控。簡化介面、發一份指南,都只是繞過真正的能力缺口做表面補救,無法真正建立起使用者判斷何時該信任、何時該推翻建議的能力。
 
 ---

@@ -4009,6 +4009,2290 @@ export const sampleQuestions = [
     explanation: "當疑似舞弊或不當行為涉及正常回報鏈上的角色本身(如本例中專案經理與贊助人皆涉入)時,適當的治理作法是透過獨立於該回報鏈之外的管道通報,例如組織的道德/合規辦公室或稽核委員會,而非繼續依循可能已受影響、不再客觀的正常回報鏈,也不應僅私下告知組織外部的個人。這反映治理架構中「獨立申訴/舉報管道」的重要性,用以因應正常層級本身可能失靈的情況。",
   },
   {
+    id: "gov-067",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A large team of about 40 developers is building a complex system with well-established domain concepts. The organization wants a design-driven, feature-based approach with clearly defined phases such as developing an overall model, building a feature list, and then designing and building by feature. Which agile method best fits this need?",
+      zh: "一個約 40 人的大型開發團隊正在建置一套領域概念明確、結構複雜的系統。組織希望採用一種以設計為導向、以特色功能為核心的方法,並具備明確階段,例如建立整體模型、建立特色功能清單,再依特色功能進行設計與建置。下列哪一種敏捷方法最符合這項需求?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Kanban",
+          zh: "看板(Kanban)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Feature-Driven Development (FDD)",
+          zh: "特色功能驅動開發(FDD)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Extreme Programming (XP)",
+          zh: "極限編程(XP)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Crystal Clear",
+          zh: "水晶清透法(Crystal Clear)",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "FDD(Feature-Driven Development)的五大流程為 Develop Overall Model、Build Feature List、Plan by Feature、Design by Feature、Build by Feature,特別適合大型、需要架構規劃與明確設計原則的複雜系統。Kanban 著重流程可視化與限制在製品數量,並非以特色功能分階段設計;XP 偏重工程實務,例如結對程式設計與測試驅動開發;Crystal Clear 僅適合六人以下的小型團隊。三者皆不符合本題描述的 40 人大型複雜系統情境。",
+  },
+  {
+    id: "gov-068",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "At the end of a sprint, the Product Owner refuses to accept a feature during the sprint review, insisting it is not truly finished, while the development team maintains that the coding work is complete. What is the most likely underlying cause of this disagreement, and what should the team do to prevent it in future sprints?",
+      zh: "在短衝(Sprint)結束時,產品負責人(PO)在短衝審查會議上拒絕驗收某項功能,認為它並非真正完成,但開發團隊則堅持程式撰寫工作已經完成。這項爭議最可能的根本原因是什麼?團隊未來應該怎麼做以避免類似情形?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The team lacks a shared Definition of Done, and should establish one collaboratively so everyone agrees on what \"complete\" means.",
+          zh: "團隊缺乏共同的完工定義(Definition of Done),應共同制定一份,讓所有人對「完成」有一致認知。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The Scrum Master should unilaterally decide whether the feature is complete.",
+          zh: "Scrum Master 應該單方面決定該功能是否完成。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The team should stop holding sprint reviews in future sprints to avoid this kind of disagreement.",
+          zh: "團隊未來應停止舉行短衝審查會議,以避免這類爭議。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The Product Owner should always defer to the development team's technical judgment on completeness.",
+          zh: "產品負責人在完成度判斷上應永遠尊重開發團隊的技術判斷。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "完工定義(Definition of Done, DoD)應在專案初期就由團隊共同制定,並廣泛套用於程式撰寫、單元測試、功能測試等各個層面,確保所有人對「完成」有一致認知。當團隊與 PO 對於功能是否完成產生歧見時,通常代表缺乏明確且具共識的 DoD。取消短衝審查、由單一角色片面裁定,或一味聽從其中一方,都無法解決根本問題。",
+  },
+  {
+    id: "gov-069",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A team beginning an adaptive project is drafting an Agile Charter before the product backlog is created. Compared with a traditional Project Charter, what best describes the nature of this Agile Charter?",
+      zh: "一個即將展開調適式(Adaptive)專案的團隊,在建立產品待辦清單之前,正在草擬一份敏捷章程(Agile Charter)。相較於傳統的專案章程(Project Charter),這份敏捷章程的性質最適合用下列何者描述?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "It is a more detailed and legally binding document than the Project Charter.",
+          zh: "它比專案章程更詳細,且具備更強的法律約束力。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "It is a simpler, high-level document that authorizes the project manager and focuses on how the project will run rather than on detailed deliverables.",
+          zh: "它是較為簡化的高層級文件,授權專案經理,並著重於專案將如何運作,而非詳細的交付物內容。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "It replaces the need for a product backlog once it is approved.",
+          zh: "一旦核准後,它就取代了產品待辦清單的必要性。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "It must be signed by the Change Control Board before any sprint can begin.",
+          zh: "必須經變更控制委員會簽署後,才能展開任何短衝。",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "敏捷章程(Agile Charter)與傳統專案章程一樣是用來啟動專案、授權專案經理的文件,但內容通常較為簡化,聚焦於 Who、What、When、Where、Why、How 等高層級方向,著重於「專案如何運作」而非鉅細靡遺的交付物規劃,並擁抱後續的彈性與變動。它通常在建立待辦清單之前完成,不會取代待辦清單,也與變更控制委員會的簽署無關。",
+  },
+  {
+    id: "gov-070",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A project team using an adaptive approach is developing a product in a highly regulated industry. Which three of the following correctly describe how the team should handle regulatory compliance? (Select three.)",
+      zh: "一個採用調適式方法的專案團隊,正在一個高度受法規規範的產業中開發產品。下列哪三項正確描述了團隊應該如何處理法規遵循(Regulatory Compliance)的問題?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Regulatory requirements must still be met even though the team is using an agile approach.",
+          zh: "即使團隊採用敏捷方法,法規要求仍然必須被滿足。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Compliance-related requirements should be incorporated into the product backlog and treated as non-negotiable acceptance criteria.",
+          zh: "與合規相關的需求應納入產品待辦清單,並視為不可協商的驗收標準。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The project manager should never bypass or ignore regulatory requirements, even under pressure from other stakeholders.",
+          zh: "專案經理絕不應繞過或忽視法規要求,即使受到其他利害關係人施壓。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Highly regulated projects should always abandon agile approaches entirely in favor of a purely predictive approach.",
+          zh: "高度受法規規範的專案應該完全放棄敏捷方法,改採純預測式方法。",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Regulatory documentation can be postponed indefinitely as long as working software is delivered on time.",
+          zh: "只要能準時交付可運作的軟體,法規相關文件就可以無限期延後處理。",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "法規遵循(Regulatory Compliance)是由政府強制規定、必須落實於日常工作的規則,專案經理不能因其他角色的壓力而妥協,不犯法是專案經理的基本道德。在敏捷專案中,法規相關需求應納入產品待辦清單並視為不可協商的驗收標準,不應因追求交付速度而被忽略或無限期延後。高度法規限制確實會降低純敏捷方法的適用性、使專案更適合混合式(Hybrid)作法,但並不代表必須完全放棄敏捷精神,選項 (d) 用詞過於絕對,故不選。",
+  },
+  {
+    id: "gov-071",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "multiple_response",
+    difficulty: "hard",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "When selecting among agile methods such as Scrum, Kanban, Lean, Crystal, SAFe, and Disciplined Agile (DA) for a specific team, which three of the following statements about the factors influencing that choice are correct? (Select three.)",
+      zh: "在為特定團隊挑選 Scrum、Kanban、Lean、Crystal、SAFe、紀律敏捷(Disciplined Agile, DA)等敏捷方法時,下列哪三項關於影響選擇因素的敘述是正確的?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The Crystal family of methods scales its rigor and formality according to team size and project criticality, from Crystal Clear for small teams to Crystal Diamond/Sapphire for very large, highly critical projects.",
+          zh: "Crystal 家族方法會依團隊人數與專案關鍵程度調整嚴謹程度與正式度,從適合小型團隊的 Crystal Clear 到適合大型、高關鍵性專案的 Crystal Diamond/Sapphire。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "SAFe is designed to help multiple teams in a large enterprise align around common business objectives, and is generally not suited for a single small startup team.",
+          zh: "SAFe 旨在協助大型企業中的多個團隊圍繞共同商業目標對齊,通常不適合單一小型新創團隊。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Disciplined Agile (DA) is itself a rigid single methodology that forbids blending practices from Scrum, Lean, and Kanban.",
+          zh: "紀律敏捷(DA)本身是一套僵化的單一方法論,禁止混用 Scrum、Lean、Kanban 等其他方法的實務。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Kanban's emphasis on visualizing workflow and limiting work in progress makes it useful for teams with a continuous flow of incoming work, rather than fixed-length iterations.",
+          zh: "Kanban 強調工作流程可視化並限制在製品數量,適合擁有持續性工作流入、而非固定長度迭代的團隊。",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "There is one universally correct agile method, and organizational or team context should never influence the choice.",
+          zh: "存在一種放諸四海皆準的敏捷方法,組織或團隊情境不應影響選擇。",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "d",
+    ],
+    selectCount: 3,
+    explanation: "Crystal 依團隊規模與專案關鍵性調整方法的嚴謹程度;SAFe 適合多團隊協作的大型企業,而非單一小型新創團隊;Kanban 強調可視化與限制在製品(WIP),適合持續性工作流入而非固定長度迭代的團隊。紀律敏捷(Disciplined Agile, DA)其實是協助團隊融合 Scrum、Lean、Kanban、SAFe 與傳統方法、依情境選擇工作方式(Way of Working)的工具,而非禁止混用的單一僵化方法論,故 (c) 錯誤。方法的選擇應依團隊人數、專案關鍵性、產業法規等情境裁適(Tailor),並不存在放諸四海皆準的單一正解,故 (e) 錯誤。",
+  },
+  {
+    id: "gov-072",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Drag and match each agile method to the team situation it best fits.",
+      zh: "請將下列每種敏捷方法拖曳配對到最符合的團隊情境。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Scrum",
+            zh: "Scrum",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Kanban",
+            zh: "看板(Kanban)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Lean Software Development",
+            zh: "精實軟體開發(Lean Software Development)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "SAFe",
+            zh: "大規模敏捷框架(SAFe)",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Crystal Clear",
+            zh: "水晶清透法(Crystal Clear)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "A cross-functional team wants fixed-length iterations with defined planning, review, and retrospective ceremonies",
+            zh: "一個跨職能團隊希望採用固定長度的迭代,並具備明確的規劃、審查與回顧等儀式",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "A support team receives a continuous, unpredictable stream of incoming requests and needs to visualize flow and limit work in progress",
+            zh: "一個支援團隊持續且不可預期地接收進來的請求,需要將流程可視化並限制在製品數量",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "An organization wants to eliminate waste, defer decisions until the last responsible moment, and optimize the whole rather than any single part",
+            zh: "組織希望消除浪費,將決策延後至最後責任時刻,並優化整體而非單一部分",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "A large enterprise with dozens of teams needs a framework to align all teams around common business objectives at scale",
+            zh: "一個擁有數十個團隊的大型企業,需要一套框架讓所有團隊圍繞共同商業目標進行大規模對齊",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "A small team of six or fewer people wants a lightweight method with minimal documentation",
+            zh: "一個六人以下的小型團隊,希望採用文件量極少的輕量方法",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "Scrum 以固定長度短衝與明確儀式(規劃、審查、回顧)著稱;Kanban 適合持續性、不可預期工作流的可視化與限流;Lean 源自豐田生產系統,核心在於消除浪費、延後決策、優化整體而非局部;SAFe 專為大型企業多團隊規模化協作而設計;Crystal Clear 則是 Crystal 家族中最輕量的版本,適合六人以下的小型團隊。掌握各方法的特色與適用團隊規模,是選用敏捷方法時的重要考量。",
+  },
+  {
+    id: "gov-073",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "matching",
+    difficulty: "hard",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A hybrid project blends predictive and agile elements according to the degree of uncertainty involved. Drag and match each hybrid pattern to its description.",
+      zh: "混合式(Hybrid)專案會依據不確定性的程度,將預測式與敏捷式元素混合搭配。請將下列每種混合模式拖曳配對到最符合的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Predictable-Agile Pattern 1",
+            zh: "可預期的敏捷 1",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Predictable-Agile Pattern 2",
+            zh: "可預期的敏捷 2",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Predictable-Agile Pattern 3",
+            zh: "可預期的敏捷 3",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Predictable-Agile Pattern 4",
+            zh: "可預期的敏捷 4",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Agile is used for the design and development phases, while a predictive approach is used for the testing and rollout phases",
+            zh: "在設計與開發階段採用敏捷方法,測試與上線階段則採用預測式方法",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "A blend of agile and predictive elements runs throughout design, development, testing, and rollout, often because some components are reused or the industry is heavily regulated",
+            zh: "敏捷與預測式元素貫穿設計、開發、測試與上線各階段混合使用,常見於部分元件可重複使用或產業受高度法規規範的情況",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "The overall flow is predominantly predictive, with a small amount of agile embedded within it",
+            zh: "整體流程以預測式為主,其中嵌入少量的敏捷元素",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "The overall flow is predominantly agile, with a small amount of predictive embedded within it",
+            zh: "整體流程以敏捷式為主,其中嵌入少量的預測元素",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "專案經理應依專案的不確定性程度,選擇不同比例混合敏捷與預測式作法的混合模式。模式一是設計開發採敏捷、測試上線採預測式的常見組合;模式二是四個階段都混用敏捷與預測式元素,常見於部分功能可重複使用或受高度法規限制的情境;模式三以預測式為主體、內嵌少量敏捷;模式四則相反,以敏捷為主體、內嵌少量預測式。這四種模式並非唯一選項,實務上應以能否提升價值為判斷依據,體現裁適(Tailor)的精神。",
+  },
+  {
+    id: "gov-074",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "dropdown",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "In Scrum, the person who acts as a servant leader, helps remove impediments, and facilitates the team's process is called the {{blank1}}; the equivalent role in Extreme Programming (XP) is called the {{blank2}}.",
+      zh: "在 Scrum 中,扮演僕人式領導、協助排除障礙並促進團隊流程運作的角色稱為 {{blank1}};在極限編程(XP)中,對應的角色稱為 {{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "the Product Owner",
+              zh: "產品負責人(Product Owner)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "the Scrum Master",
+              zh: "Scrum Master",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "the Coach",
+              zh: "教練(Coach)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "the Customer",
+              zh: "客戶(Customer)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "b",
+      blank2: "a",
+    },
+    explanation: "Scrum 與 XP 在角色與用詞上有明確的對應關係:Scrum 中的 Scrum Master 扮演僕人式領導,協助團隊排除障礙、促進流程運作;在 XP 中,對應角色稱為 Coach(教練),功能類似。Product Owner 在 XP 中對應的角色其實是 Customer(客戶代表),兩者用途不同,不應混淆。",
+  },
+  {
+    id: "gov-075",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "The diagram below shows four roles found on an agile team. Before backlog creation begins, an Agile Charter is drafted to establish high-level direction and authorize the project manager. Click the role most likely responsible for sponsoring and ultimately authorizing this Agile Charter.",
+      zh: "下圖顯示敏捷團隊中的四個角色。在待辦清單建立之前,團隊會先草擬一份敏捷章程(Agile Charter),以建立高層級方向並授權專案經理。請點選最有可能負責贊助並最終授權此敏捷章程的角色。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Cross-functional Team Member",
+          zh: "Developer / 跨職能團隊成員/開發者(Developer)",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Product Owner",
+          zh: "產品負責人(Product Owner)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Team Facilitator",
+          zh: "Scrum Master / 團隊引導者/Scrum Master",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Project Sponsor",
+          zh: "Business Owner / 專案發起人/業務擁有者(Project Sponsor / Business Owner)",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n4",
+    explanation: "如同傳統專案章程須由贊助人簽署授權,敏捷章程同樣需要由具備商業決策權的角色,也就是專案發起人/業務擁有者(Project Sponsor / Business Owner)贊助並授權,才能正式賦予專案經理啟動與運作專案的權力。產品負責人負責待辦清單的價值排序,團隊引導者/Scrum Master 扮演僕人式領導協助排除障礙,跨職能團隊成員則負責實際產出可交付成果,三者皆非章程的授權者。",
+  },
+  {
+    id: "gov-076",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "On an agile team, a Scrum Master spends most of the day removing blockers, shielding the team from unnecessary interruptions, and asking \"what do you need from me?\" rather than issuing directives. Which leadership style is this Scrum Master primarily demonstrating?",
+      zh: "在敏捷團隊中,一位 Scrum Master 大部分時間都在排除障礙、保護團隊不受不必要的干擾,並經常詢問「你需要我做什麼?」,而非直接下達指令。這位 Scrum Master 主要展現的是哪一種領導風格?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Transactional Leadership",
+          zh: "交易型領導(Transactional Leadership)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Servant Leadership",
+          zh: "服務型領導(Servant Leadership)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Laissez-Faire Leadership",
+          zh: "自由放任型領導(Laissez-Faire Leadership)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Charismatic Leadership",
+          zh: "魅力型領導(Charismatic Leadership)",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "服務型領導(Servant Leadership)的核心精神是積極排除團隊障礙、優先服務團隊需求而非發號施令,是敏捷團隊中最常見也最被推崇的領導風格。交易型領導著重以獎勵與規則驅動表現;自由放任型領導幾乎完全放手,讓高度自主的團隊自行運作,領導者不主動介入;魅力型領導則是透過個人魅力鼓舞士氣。題目描述主動排除障礙、以服務姿態詢問需求,正是服務型領導的典型行為。",
+  },
+  {
+    id: "gov-077",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project team must choose among three shortlisted vendors. To make the decision transparent and defensible, the project manager builds a table scoring each vendor against weighted criteria such as cost, past performance, technical capability, and delivery risk. What decision-making technique is the project manager using?",
+      zh: "專案團隊必須從三家入圍的供應商中做出選擇。為了讓決策過程透明且有憑有據,專案經理建立了一份表格,依照成本、過往績效、技術能力與交付風險等加權標準為每家供應商評分。這位專案經理使用的是哪一種決策技巧?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Autocratic decision making",
+          zh: "獨裁式決策(Autocratic Decision Making)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Multi-criteria decision analysis",
+          zh: "多準則決策分析(Multi-Criteria Decision Analysis)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Unanimity voting",
+          zh: "一致決投票(Unanimity Voting)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Root cause analysis",
+          zh: "根本原因分析(Root Cause Analysis)",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "多準則決策分析(Multi-Criteria Decision Analysis)是運用表格或矩陣,依據預算、可行性、風險等多項標準系統性地比較不同方案,常用於供應商評選或方案抉擇等情境。獨裁式決策是由單一角色代表團隊做決定;一致決投票需要全體一致同意;根本原因分析則用於找出問題發生的根本原因,並非用於比較選項優劣。",
+  },
+  {
+    id: "gov-078",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "multiple_response",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Which three of the following are recognized categories of change requests in project management? (Select three.)",
+      zh: "下列哪三項是專案管理中公認的變更請求類別?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Corrective action — action taken to address an existing negative trend before it worsens",
+          zh: "矯正行動,在既有負面趨勢惡化前採取的處理行動",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Preventive action — action taken to address a potential future problem that has not yet occurred",
+          zh: "預防行動,針對尚未發生的潛在未來問題所採取的行動",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Defect repair — action taken to correct a defect that has already occurred",
+          zh: "缺陷修復,用於修正已經發生的缺陷",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Punitive action — action taken to formally discipline a team member for underperformance",
+          zh: "懲處行動,用於正式懲戒表現不佳的團隊成員",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Speculative action — action taken based on an unverified rumor about future scope",
+          zh: "臆測行動,依據未經證實的未來範疇傳聞所採取的行動",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "變更請求(Change Request)常見分為三類:矯正行動處理已出現跡象、若不修正會惡化的問題;預防行動則是針對尚未發生但可能發生的問題提前因應;缺陷修復則是修正已經實際發生的錯誤或瑕疵。懲處行動與臆測行動並非正式的變更請求分類,不應與這三種正式類別混淆。",
+  },
+  {
+    id: "gov-079",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "{{blank1}} techniques, such as interviews, focus groups, and surveys, are primarily used to collect raw input from stakeholders when developing documents like the project charter or requirements. {{blank2}} techniques, such as variance analysis and trend analysis, are then used to review and interpret the collected information to understand what it means.",
+      zh: "{{blank1}} 技巧(例如訪談、焦點團體、問卷調查)主要用於在研擬專案章程或需求等文件時,從利害關係人蒐集原始意見;{{blank2}} 技巧(例如差異分析、趨勢分析)則用於檢視並解讀已蒐集的資訊,以理解其代表的意涵。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Data Gathering",
+              zh: "資料蒐集(Data Gathering)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Data Analysis",
+              zh: "資料分析(Data Analysis)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Data Gathering",
+              zh: "資料蒐集(Data Gathering)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Data Analysis",
+              zh: "資料分析(Data Analysis)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "資料蒐集(Data Gathering)技巧,如訪談、焦點團體、問卷調查與檢查表,著重於直接向利害關係人取得原始意見與資訊,常用於研擬章程、需求文件等;資料分析(Data Analysis)技巧,如差異分析(比較計畫與實際結果)、趨勢分析(觀察長期模式)與根本原因分析,則是進一步檢視這些已蒐集的資訊,協助理解現況、判斷是否偏離計畫。兩者搭配資料呈現(Data Representation,如圖表)構成完整的資料管理流程。",
+  },
+  {
+    id: "gov-080",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "A project manager creates a chart identifying, for each key task, exactly who is Responsible for doing the work, who is Accountable for the outcome, who should be Consulted, and who merely needs to be Informed. What tool is the project manager using?",
+      zh: "專案經理建立了一張圖表,針對每項關鍵任務明確標示誰負責實際執行(Responsible)、誰對結果當責(Accountable)、誰應被諮詢(Consulted),以及誰只需被告知(Informed)。這位專案經理使用的是什麼工具?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "RACI Matrix",
+          zh: "責任分配矩陣(RACI Matrix)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Risk Register",
+          zh: "風險登錄表(Risk Register)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Issue Log",
+          zh: "問題記錄(Issue Log)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Communications Management Plan",
+          zh: "溝通管理計畫(Communications Management Plan)",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "RACI 矩陣(Responsible, Accountable, Consulted, Informed)是常見的責任分配工具,用於清楚界定每項任務或決策中,誰負責實際執行、誰對結果當責、誰需要在決策前被諮詢意見,以及誰只需事後被告知結果。清楚的責任劃分有助於建立信任、授權賦能的專案文化,避免職責重疊或遺漏。風險登錄表、問題記錄與溝通管理計畫雖然都是專案治理常用的文件,但用途皆與角色責任分配無關。",
+  },
+  {
+    id: "gov-081",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each decision-making method to its description.",
+      zh: "請將下列每種決策方法拖曳配對到對應描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Unanimity",
+            zh: "一致決(Unanimity)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Majority",
+            zh: "多數決(Majority)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Plurality",
+            zh: "相對多數決(Plurality)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Autocratic Decision",
+            zh: "獨裁式決策(Autocratic Decision)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Every single person in the group must agree before the decision is adopted",
+            zh: "團隊中每一個人都必須同意,決策才算通過",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "More than half of the group must agree for the decision to be adopted",
+            zh: "團隊中超過半數的人同意,決策即可通過",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "The option with the most votes is adopted, even if it does not receive support from more than half of the group",
+            zh: "得票最多的選項獲得採納,即使其支持者未超過團隊半數",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "One individual, such as the project manager or a senior leader, makes the decision on behalf of the group",
+            zh: "由一位個人(如專案經理或高階主管)代表團隊做出決策",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "一致決(Unanimity)要求全體成員都同意,是最耗時但共識程度最高的方式;多數決(Majority)只需過半數同意即可通過;相對多數決(Plurality)則是選出得票最多的選項,即使未過半;獨裁式決策(Autocratic Decision)由單一個人代表團隊做出決定,速度最快但參與程度最低。專案經理應依情境的急迫性與需要的共識程度,選擇合適的決策方法。",
+  },
+  {
+    id: "gov-082",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A construction project cannot avoid disturbing a small area of local wetland, since the building's location has already been fixed by regulatory approval. According to the hierarchy of addressing negative sustainability outcomes (avoid, minimize, restore, compensate/offset), what should the project team prioritize first, given that avoidance is no longer possible?",
+      zh: "某營建專案因為建築基地位置已依法規核准而無法變更,無法完全避免對周邊一小片濕地造成擾動。依照處理永續性負面影響的優先順序(避免、最小化、修復、抵銷/補償),在已無法避免的情況下,專案團隊應優先考量下列何者?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Minimize the extent of the disturbance to the wetland as much as practically possible",
+          zh: "在實務上盡可能將對濕地的擾動程度降到最低",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Skip directly to offering financial compensation to a local environmental fund",
+          zh: "直接跳過其他步驟,提供資金補償給當地環保基金",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ignore the wetland impact since the location was already regulatory-approved",
+          zh: "因基地位置已通過法規核准,忽略對濕地造成的影響",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Restore the wetland to its original condition only after the entire project is completed, with no interim consideration",
+          zh: "只在整個專案完工後才修復濕地至原狀,期間完全不予考量",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "處理永續性負面影響的優先順序由好到壞依序為:避免(Avoid)、最小化(Minimize)、修復(Restore)、抵銷/補償(Compensate/Offset),抵銷是萬不得已、其他方式都無法採用時才使用的最後手段。題目中避免已不可行,依照順序應優先考量將擾動程度最小化,而非直接跳到排序最末、代價最高的補償選項,更不應忽略影響或完全不作為直到專案結束才處理。",
+  },
+  {
+    id: "gov-083",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "dropdown",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "A {{blank1}} is a collection of projects, programs, and other work grouped together and managed to achieve an organization's strategic objectives. A {{blank2}} is a group of related projects, subsidiary programs, and program activities managed in a coordinated way to obtain benefits not available from managing them individually.",
+      zh: "{{blank1}} 是將專案、專案集及其他工作彙整在一起,以達成組織策略目標的集合體;{{blank2}} 則是一組相關的專案、子專案集與專案集活動,以協調一致的方式進行管理,以獲得單獨管理各專案所無法取得的效益。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Portfolio",
+              zh: "投資組合(Portfolio)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Program",
+              zh: "專案集(Program)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Portfolio",
+              zh: "投資組合(Portfolio)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Program",
+              zh: "專案集(Program)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "投資組合(Portfolio)、專案集(Program)與專案(Project)三者依範圍由大到小排列:投資組合彙整組織所有專案與專案集,對齊整體策略目標;專案集則是一組相關專案,協調管理以獲得個別專案無法單獨取得的整合效益;個別專案則是產出特定交付物的臨時性工作。理解三者的層級關係,有助於判斷跨專案的衝突應上報至哪一個治理層級處理。",
+  },
+  {
+    id: "gov-084",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Before a steering committee meeting, the project manager compiles the team's analyzed schedule and cost variance information into a formatted dashboard with charts and a brief narrative summary, ready to be presented to the committee. What is this compiled dashboard called?",
+      zh: "在一次指導委員會會議前,專案經理將團隊已分析過的時程與成本差異資訊,整理成一份附有圖表與簡短說明的正式儀表板,準備提報給委員會。這份整理完成的儀表板稱為下列何者?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Work Performance Data",
+          zh: "工作績效資料(Work Performance Data)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Work Performance Information",
+          zh: "工作績效資訊(Work Performance Information)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Work Performance Report",
+          zh: "工作績效報告(Work Performance Report)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Issue Log",
+          zh: "問題記錄(Issue Log)",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "工作績效資料(Work Performance Data)是尚未分析的原始觀察與量測;工作績效資訊(Work Performance Information)是將資料與基準比對、分析出意涵後的結果;工作績效報告(Work Performance Report)則是將這些資訊進一步整理成適合提供給利害關係人(如指導委員會)閱覽的正式呈現形式,例如儀表板、簡報或文件。題目描述的正是最後這個「整理成正式呈現形式」的階段,對應工作績效報告。",
+  },
+  {
+    id: "gov-085",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Which three of the following are typically included in the Final Report produced during Close Project or Phase? (Select three.)",
+      zh: "下列何者通常會包含在「結束專案或階段」過程中產出的最終報告(Final Report)中?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "A summary of whether the project met its scope, schedule, and cost baselines",
+          zh: "專案是否符合範疇、時程與成本基準的摘要",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A summary of any significant variances and their causes",
+          zh: "重大差異及其成因的摘要",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "A summary of whether the deliverables were accepted and the primary benefit objectives were achieved",
+          zh: "交付物是否已被驗收,以及主要效益目標是否達成的摘要",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "A line-by-line reproduction of every meeting minute taken throughout the project",
+          zh: "逐條複製專案期間所有會議記錄的完整內容",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "A personal performance review and salary recommendation for every team member",
+          zh: "每位團隊成員的個人績效考核與加薪建議",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "最終報告(Final Report)是結束專案或階段流程的重要產出,概括說明專案是否符合範疇、時程、成本等基準,重大差異與其成因,以及交付物是否被正式驗收、主要獲利目標是否達成。它是高層級的總結性文件,並不會逐條收錄所有會議記錄的完整內容,也不包含個別團隊成員的績效考核與加薪建議,這些屬於人力資源管理範疇,不是最終報告的內容。",
+  },
+  {
+    id: "gov-086",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project team maintains strict version control over every design drawing, ensuring each revision is uniquely identified, tracked, and auditable, and that only the current approved version is used in production. Which project management plan component primarily governs this practice?",
+      zh: "某專案團隊對每一份設計圖都維持嚴格的版本控管,確保每次修訂都有唯一識別碼、可被追蹤與稽核,且正式生產時只使用目前核准的最新版本。這項作法主要是由專案管理計畫中的哪個組成部分所規範?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The Change Management Plan, since any drawing revision is a change",
+          zh: "變更管理計畫,因為任何圖面修訂都屬於一種變更",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The Configuration Management Plan, which defines how project artifacts are identified, tracked, controlled, and audited",
+          zh: "組態管理計畫,用於定義專案產出物如何被識別、追蹤、控管與稽核",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The Communications Management Plan, since drawings must be shared with stakeholders",
+          zh: "溝通管理計畫,因為圖面必須與利害關係人分享",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The Risk Management Plan, since an outdated drawing is a risk",
+          zh: "風險管理計畫,因為過時的圖面屬於一種風險",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "組態管理計畫(Configuration Management Plan)明確定義專案產出物(如設計圖、文件、產品組態)如何被識別、命名、版本控管、追蹤與稽核,確保任何時候都能清楚辨識哪一版本才是目前有效、核准使用的版本。變更管理計畫則聚焦於會影響範疇、時程、成本基準的正式變更請求審核流程,兩者經常搭配運作但關注重點不同;溝通管理計畫與風險管理計畫皆與本情境所描述的版本控管作法無直接關聯。",
+  },
+  {
+    id: "gov-087",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "During a difficult project milestone, a project manager delivers an energizing speech that excites the team about the mission, drawing heavily on personal charm and an inspiring presence to lift morale, rather than relying on formal authority or negotiated rewards. Click the card that correctly names this leadership style.",
+      zh: "在專案面臨艱難的里程碑時,一位專案經理發表了一場振奮人心的演說,大量運用個人魅力與令人信服的存在感讓團隊對任務感到興奮、提振士氣,而非倚賴正式職權或協商獎勵。請點選正確命名此領導風格的卡片。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Charismatic Leadership",
+          zh: "魅力型領導(Charismatic Leadership)",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Transactional Leadership",
+          zh: "交易型領導(Transactional Leadership)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Laissez-Faire Leadership",
+          zh: "自由放任型領導(Laissez-Faire Leadership)",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Autocratic Decision Making",
+          zh: "獨裁式決策(Autocratic Decision Making)",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n1",
+    explanation: "魅力型領導(Charismatic Leadership)是運用個人魅力與感染力來鼓舞士氣、讓團隊興奮投入的領導風格;交易型領導著重以獎勵、規則與表現獎金驅動行為;自由放任型領導幾乎完全放手,由高度自主的團隊自行運作;獨裁式決策則是一種決策方式而非領導風格,指由單一個人代表團隊做決定。題目描述倚賴個人魅力與感染力振奮團隊,正是魅力型領導的典型特徵。",
+  },
+  {
+    id: "gov-088",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "A team member calls in sick on the day a critical deliverable is due, causing an immediate delay. Which document should this event be recorded in, and why?",
+      zh: "一位團隊成員在關鍵交付物到期當天請病假,造成立即性的延誤。這個事件應該被記錄在哪一份文件中?原因為何?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The Risk Register, because staff illness is always classified as a risk",
+          zh: "風險登錄表,因為員工生病一律被歸類為風險",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The Issue Log, because this is an event that has already occurred and requires resolution, not merely a future possibility",
+          zh: "問題記錄,因為這是已經發生、需要處理的事件,而非單純的未來可能性",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The Lessons Learned Register, because it will help avoid this in future projects",
+          zh: "經驗教訓登錄表,因為這有助於未來專案避免此情況",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The Change Log, because a schedule delay always requires a formal change request",
+          zh: "變更記錄,因為時程延誤一律需要正式變更請求",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "風險(Risk)是尚未發生、具有不確定性的未來事件;議題(Issue)則是已經實際發生、需要當下處理的事件。團隊成員請病假是已經發生的事實,應記錄於問題記錄(Issue Log)並指派負責人與目標解決日期,而非事後才補記於原本應在請假前就已評估的風險登錄表。經驗教訓登錄表通常在專案過程或結案時彙整反思用,並非用於記錄當下待處理事件;此類單一事件也不必然觸發正式變更請求。",
+  },
+  {
+    id: "gov-089",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each output of the Manage Project Execution process to its description.",
+      zh: "請將下列每項「管理專案執行」流程的產出拖曳配對到對應描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Deliverables",
+            zh: "交付物(Deliverables)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Work Performance Data",
+            zh: "工作績效資料(Work Performance Data)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Issue Log",
+            zh: "問題記錄(Issue Log)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Change Request",
+            zh: "變更請求(Change Request)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "A unique product, service, or result produced by carrying out the planned work",
+            zh: "依規劃工作執行後所產出的獨特產品、服務或結果",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Raw, unanalyzed observations and measurements about each activity, typically provided directly by team members",
+            zh: "有關各項活動、未經分析的原始觀察與量測數據,通常由團隊成員直接提供",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "A record of events that have already occurred and negatively affected the project, along with the assigned owner and target resolution date",
+            zh: "已發生且對專案造成負面影響之事件的紀錄,並附上指派的負責人與目標解決日期",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "A formal request to modify a document, deliverable, or baseline, submitted for evaluation by the appropriate governance body",
+            zh: "正式提出修改文件、交付物或基準的請求,提交給適當的治理機構評估",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "管理專案執行(Manage Project Execution)流程的主要產出包含:依計畫產出的交付物;團隊成員提供的原始工作績效資料;記錄已發生負面事件的問題記錄;以及在執行過程中發現需要調整而正式提出的變更請求。這些產出彼此環環相扣,共同構成「執行→發現問題→提出變更→治理機構決策」的完整循環。",
+  },
+  {
+    id: "gov-090",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A project manager spends most of a difficult week having one-on-one conversations to understand what motivates each team member, clarifying the project's larger purpose, and encouraging the team to propose their own solutions, rather than closely tracking task checklists. Which of the following best describes what this project manager is primarily doing?",
+      zh: "在一個艱難的星期裡,一位專案經理大部分時間都在進行一對一對話,以了解每位團隊成員的動機來源,釐清專案更大的意義,並鼓勵團隊自行提出解決方案,而非緊盯任務清單的執行進度。下列何者最能描述這位專案經理主要在做的事?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Management, since tracking tasks efficiently is the primary responsibility of a project manager",
+          zh: "管理,因為有效追蹤任務是專案經理的主要職責",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Leadership, since motivating and influencing people toward a shared direction, rather than directing tasks, is the focus here",
+          zh: "領導,因為此處著重於激勵並影響他人朝共同方向前進,而非直接指揮任務",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Governance, since this behavior defines the project's formal decision-making framework",
+          zh: "治理,因為此行為定義了專案的正式決策框架",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Configuration management, since it deals with tracking versions of team commitments",
+          zh: "組態管理,因為這涉及追蹤團隊承諾的版本",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "管理(Management)著重於使人們專注於工作、流程與行動以更有效率地執行任務;領導(Leadership)則著重於激勵、影響他人,協助釐清方向,並鼓勵協作與自主。題目描述的一對一了解動機、釐清願景、鼓勵自主提案,正是領導行為的典型展現,而非緊盯進度的管理行為。治理是指引專案決策的框架,組態管理則與版本控管有關,兩者皆與本情境無關。",
+  },
+  {
+    id: "gov-091",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Which three of the following correctly describe the Governance performance domain as a whole? (Select three.)",
+      zh: "下列哪三項正確描述了「治理(Governance)」績效領域整體的特性?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "It can be tailored in weight, from a lighter approach on adaptive projects to a large and comprehensive approach on predictive projects",
+          zh: "其實施程度可被裁適,從調適式專案的較輕量作法,到預測式專案的較大規模、完整作法皆有",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "It essentially represents the sum of how a project manager carries out activities across the other performance domains",
+          zh: "本質上代表專案經理在其他各績效領域中執行活動的總和",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "On predictive projects, it typically relies on stronger governance tools such as defined escalation paths and investment control",
+          zh: "在預測式專案中,通常倚賴較強的治理工具,例如明確的升級路徑與投資控管",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "It applies only to the initiating and closing phases of a project, and has no relevance during execution",
+          zh: "僅適用於專案的啟動與收尾階段,與執行階段無關",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "It is a fixed set of mandatory steps that every project must follow in exactly the same order",
+          zh: "是一套固定、每個專案都必須依相同順序執行的強制性步驟",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "Governance 績效領域本質上是專案經理在範疇、時程、財務、利害關係人、資源、風險等其他領域中執行活動的總和,是引導專案決策的框架,其嚴謹程度可依開發方法裁適,調適式專案較輕量,預測式專案則通常需要較完整的治理工具,如升級路徑與投資控管。它貫穿專案啟動到收尾的整個生命週期,並非只適用於啟動與收尾階段;也不是一套固定、每個專案都得依相同順序執行的強制性步驟清單,而是需依情境彈性裁適的框架。",
+  },
+  {
+    id: "gov-092",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A {{blank1}} indicator, such as a worsening budget cost trend, provides an early warning sign of a potential problem before it fully materializes. A {{blank2}} indicator, such as the number of completed deliverables or a recorded schedule variance, shows what has already happened.",
+      zh: "{{blank1}} 指標(例如逐漸惡化的預算成本趨勢)能在問題完全顯現之前,提供潛在問題的早期警訊;{{blank2}} 指標(例如已完成的交付物數量或已記錄的時程差異)則顯示已經發生過的事情。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Leading",
+              zh: "領先(Leading)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Lagging",
+              zh: "落後(Lagging)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Leading",
+              zh: "領先(Leading)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Lagging",
+              zh: "落後(Lagging)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "領先指標(Leading Indicator)能在問題完全爆發前提供早期警訊,例如預算成本的惡化趨勢,讓治理機構有機會提早介入;落後指標(Lagging Indicator)則是反映已經發生過的結果,例如已完成的交付物數量、已記錄的時程或成本差異。兩種指標搭配使用,能幫助治理機構同時掌握「可能即將發生什麼」與「已經發生了什麼」,及早發現並修正問題。",
+  },
+  {
+    id: "gov-093",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "During testing, the team discovers that an already-built component does not meet the agreed specification and must be reworked before it can be accepted. What type of change is this rework classified as?",
+      zh: "在測試期間,團隊發現一項已經建置完成的組件並不符合約定的規格,必須經過重工才能被驗收。這項重工屬於下列哪一種變更類型?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Preventive action, since it addresses a problem that has not yet occurred",
+          zh: "預防行動,因為它是針對尚未發生的問題進行處理",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Defect repair, since it corrects a defect that has already occurred in a completed deliverable",
+          zh: "缺陷修復,因為它是修正已存在於已完成交付物中的缺陷",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Corrective action, since it prevents an ongoing negative trend from worsening",
+          zh: "矯正行動,因為它是為了防止既有負面趨勢惡化",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "A change to the project charter, since specifications originate from the charter",
+          zh: "對專案章程的變更,因為規格是源自於章程",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "缺陷修復(Defect Repair)是指修正已經實際發生、存在於交付物中的瑕疵或不符規格之處,題目所描述的「已建置完成但不符規格,需要重工」正是典型的缺陷修復情境。預防行動是針對尚未發生的潛在問題預先處理;矯正行動則是為了阻止既有負面趨勢繼續惡化,兩者皆非本情境的正確分類;而詳細規格通常記載於需求文件或範疇基準,並非專案章程的內容。",
+  },
+  {
+    id: "gov-094",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each of the following PMBOK principles to its core idea.",
+      zh: "請將下列每項 PMBOK 原則拖曳配對到其核心概念。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Adopt a Holistic View",
+            zh: "採取全面觀(Adopt a Holistic View)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Focus on Value",
+            zh: "聚焦價值(Focus on Value)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Be an Accountable Leader",
+            zh: "成為當責的領導者(Be an Accountable Leader)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Integrate Sustainability",
+            zh: "整合永續性(Integrate Sustainability)",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Build an Empowered Culture",
+            zh: "建立賦權文化(Build an Empowered Culture)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Recognize that all performance domains are interconnected, so a change in one area (e.g., budget) can ripple into schedule, resources, and risk",
+            zh: "體認所有績效領域彼此環環相扣,某一面向的變動(如預算)可能牽動時程、資源與風險",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Judge project success by the benefit delivered to stakeholders, not merely by whether the planned work was completed on time and on budget",
+            zh: "以帶給利害關係人的效益衡量專案成功,而非僅以計畫工作是否準時、依預算完成來判斷",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Maintain honesty, fairness, and integrity while remaining respectful and self-aware in every interaction with stakeholders",
+            zh: "在與每一位利害關係人的互動中,保持誠實、公平與正直,同時維持尊重與自我覺察",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Balance social, environmental, and economic outcomes across the project, avoiding negative impact where possible",
+            zh: "在專案中平衡社會、環境與經濟三方面的成果,盡可能避免造成負面影響",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "Trust and empower team members, encourage collaboration, and establish clear norms rather than micromanaging every decision",
+            zh: "信任並賦權團隊成員,鼓勵協作,並建立明確規範,而非事事微觀管理",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "PMBOK 的原則並非硬性規定,而是指引專案決策的核心概念:全面觀強調各績效領域環環相扣;聚焦價值以效益而非單純的工作完成度衡量成功;當責領導者要求誠實、公平、正直與自我覺察;整合永續性則要求平衡社會、環境與經濟三方面成果;建立賦權文化則透過信任、授權與明確規範來鼓勵團隊協作與自主。這些原則共同構成 PM 應具備的價值驅動思維。",
+  },
+  {
+    id: "gov-095",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A product is delivered three weeks late and 15% over budget, yet it becomes an immediate commercial success and significantly exceeds the originally projected business benefit. According to the \"Focus on Value\" principle, how should this project's overall success be judged?",
+      zh: "某產品延遲三週交付,且超出預算 15%,但上市後立即獲得商業成功,其帶來的商業效益也大幅超出當初的預估。依照「聚焦價值(Focus on Value)」原則,這個專案的整體成功與否應該如何判斷?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The project must be judged a failure, since schedule and cost baselines were both exceeded",
+          zh: "這個專案必須被判定為失敗,因為時程與成本基準都被超出",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Success should be judged primarily by the value and benefit ultimately delivered to stakeholders, not solely by adherence to the original schedule and cost baselines",
+          zh: "成功與否應主要依最終帶給利害關係人的價值與效益來判斷,而非僅以是否遵守原始時程與成本基準來評斷",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Success can only be judged after a full external financial audit is completed",
+          zh: "只有在完成完整的外部財務稽核後,才能判斷專案是否成功",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Success should be judged solely by whether the team followed the documented project management plan exactly as written",
+          zh: "成功與否應僅依團隊是否完全依照書面專案管理計畫執行來判斷",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "「聚焦價值」原則主張專案成功應以最終交付成果帶給利害關係人的效益與價值來衡量,而非只看計畫工作是否準時、依預算完成。即使時程與預算目標未達成,只要最終交付的成果為利害關係人創造了顯著價值,仍可被視為成功的專案;反之,即使嚴格遵守時程、預算與書面計畫的每一項細節,若最終沒有創造應有的價值,也未必稱得上真正成功。因此不能僅因超出基準就片面判定失敗,也不需要等待外部財務稽核才能評斷,而應綜合評估價值的實現程度。",
+  },
+  {
+    id: "gov-096",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A developer, without being asked and without discussing it with the product owner, adds several extra visual animations to a feature because they personally think it looks more impressive, consuming extra time that was not planned for. Click the card that correctly names this behavior.",
+      zh: "一位開發者未經任何人要求,也未與產品負責人討論,就自行為某項功能加入數個額外的視覺動畫效果,理由是他個人認為這樣看起來比較厲害,因而耗費了未經規劃的額外時間。請點選正確命名此行為的卡片。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Gold Plating",
+          zh: "鍍金(Gold Plating)",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Scope Creep",
+          zh: "範疇蔓延(Scope Creep)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "A properly approved Change Request",
+          zh: "一項已正式核准的變更請求",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Rolling Wave Planning",
+          zh: "漸進式規劃(Rolling Wave Planning)",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n1",
+    explanation: "鍍金(Gold Plating)是指團隊成員未經利害關係人要求或正式核可,自行在交付物中加入額外的功能或修飾,即使出發點是善意,也屬於一種浪費(Waste),因為它耗用未經規劃的資源,卻不一定帶來相對應的價值。範疇蔓延(Scope Creep)則是指整體專案範疇在未經正式審核下被逐步擴增,通常源自外部或客戶的隱性要求持續累積,與本情境「個人自行加料」的性質不同;本情境中的行為並未經過正式變更流程核准,因此也不是已核准的變更請求;漸進式規劃則是一種規劃技巧,與本情境無關。",
+  },
+  {
+    id: "gov-097",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Which three of the following are tools and techniques commonly used in the Manage Quality (Quality Assurance) process? (Select three.)",
+      zh: "下列哪三項是「管理品質(品質保證,QA)」流程中常用的工具與技巧?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Audits, to clearly identify what is being done well and what needs improvement",
+          zh: "稽核,用於清楚辨別哪裡做得好、哪裡仍待改善",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Ishikawa (Fishbone) diagrams, to break a problem down into potential contributing branches to find its root cause",
+          zh: "石川圖(魚骨圖),將問題拆解成潛在的成因分支,以找出根本原因",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Process improvement techniques such as Six Sigma or Kaizen, to identify and remove non-value-adding activities",
+          zh: "流程改善技巧(如六標準差或改善 Kaizen),用於找出並移除無附加價值的活動",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Control charts, used specifically to statistically monitor whether a deliverable's defect rate remains within acceptable limits",
+          zh: "管制圖,專門用於統計性監控交付物的缺陷率是否維持在可接受範圍內",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Formal contract negotiation techniques used to finalize vendor pricing",
+          zh: "用於敲定供應商定價的正式合約協商技巧",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "管理品質(QA)聚焦於流程導向的預防性活動,常用工具包含稽核(找出優缺點)、石川圖/魚骨圖(拆解問題根因)、以及六標準差、Kaizen 等流程改善技巧(移除無價值活動)。管制圖(Control Chart)是一種統計性工具,主要用於監督與控制範疇(產品導向的品質管制,QC)時判斷交付物是否維持穩定,較常出現在監督與控制範疇的脈絡中;合約協商技巧則與採購管理有關,皆非管理品質流程的核心工具。",
+  },
+  {
+    id: "gov-098",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "An {{blank1}} diagram is a process-oriented tool used during Manage Quality (QA) to trace a problem back to its potential root causes. A {{blank2}} is a product-oriented statistical tool used during Monitor and Control Scope (QC) to determine whether a process is producing consistent, predictable output within defined upper and lower limits.",
+      zh: "{{blank1}} 圖是「管理品質(QA)」中用於追溯問題潛在根本原因的流程導向工具;{{blank2}} 則是「監督與控制範疇(QC)」中用於判斷流程是否在既定上下限內產出一致、可預測結果的產品導向統計工具。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Ishikawa (Fishbone)",
+              zh: "石川圖(魚骨圖)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Control Chart",
+              zh: "管制圖(Control Chart)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Ishikawa (Fishbone)",
+              zh: "石川圖(魚骨圖)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Control Chart",
+              zh: "管制圖(Control Chart)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "石川圖(Ishikawa/Fishbone Diagram)是管理品質(QA)流程中常用的流程導向工具,透過將問題拆解成不同分支來追溯根本原因;管制圖(Control Chart)則是監督與控制範疇(QC)流程中常用的產品導向統計工具,透過中心線、管制上限(UCL)與下限(LCL)判斷流程是否穩定,若資料點超出界限或連續多點偏向同一側,則代表流程已失控。兩者分屬 QA(流程預防)與 QC(產品檢測)兩個不同性質的品質工具。",
+  },
+  {
+    id: "gov-099",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "multiple_response",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "According to the \"Focus on Value\" principle, which three of the following are examples of waste that a project team should try to minimize? (Select three.)",
+      zh: "依照「聚焦價值(Focus on Value)」原則,下列哪三項屬於專案團隊應盡量避免的浪費(Waste)?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Holding excessive meetings that do not lead to meaningful decisions or outcomes",
+          zh: "舉行過多且未能帶來有意義決策或成果的會議",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Producing deliverables or features that do not add real value for stakeholders",
+          zh: "產出對利害關係人而言並無實際價值的交付物或功能",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Insufficient team training that leads to avoidable rework",
+          zh: "團隊訓練不足,導致不必要的重工",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Conducting regular retrospectives to capture lessons learned for continuous improvement",
+          zh: "定期舉行回顧會議,以擷取經驗教訓、持續改善",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Documenting a clear Definition of Done that the whole team agrees on",
+          zh: "制定一份團隊都同意的明確完工定義(Definition of Done)",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "「聚焦價值」原則強調專案應避免各種形式的浪費,包括開過多沒有實質產出的會議、產出對利害關係人並無真正價值的交付物,以及因訓練不足而導致的重工。定期回顧會議與制定明確的完工定義,則是有助於持續改善、減少浪費的良好實務,本身並非浪費的例子,不應與浪費混淆。",
+  },
+  {
+    id: "gov-100",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "On an adaptive project, the organization adopts a \"self-governance\" model for the development team. Which three of the following correctly describe what this means in practice? (Select three.)",
+      zh: "在一個調適式專案中,組織對開發團隊採用「自我治理(Self-Governance)」模式。下列哪三項正確描述了這在實務上代表的意義?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The team is given greater flexibility and responsibility to make day-to-day decisions without needing approval for every minor item",
+          zh: "團隊被賦予更大的彈性與責任,可自行做出日常決策,而不需要每項細微事項都經過核准",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The team's decisions still operate within the boundaries established by the overall project governance framework",
+          zh: "團隊的決策仍須在整體專案治理框架所設定的界線內進行",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "There is reduced need for command-and-control oversight on routine, low-risk decisions",
+          zh: "對於例行、低風險的決策,減少了命令與控制式監督的必要性",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The team is entirely exempt from any governance oversight or accountability to the sponsor",
+          zh: "團隊完全豁免於任何治理監督,也無需向贊助人負責",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "All formal change control processes are eliminated entirely once self-governance is adopted",
+          zh: "一旦採用自我治理,所有正式的變更控制流程都會被完全取消",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "自我治理(Self-Governance)代表團隊在日常決策上獲得更大的彈性與責任,減少了對例行、低風險事項的命令控制式監督,但這並不代表團隊完全豁免於整體治理框架之外,團隊的自主決策仍須在既定的治理界線內進行,對贊助人的當責關係也依然存在。同樣地,自我治理也不代表所有正式變更控制流程都會被完全取消,超出容忍範圍或影響基準的重大變更,仍需依循既定的治理機制處理。",
+  },
+  {
+    id: "gov-101",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "matching",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Beyond the traditional triple constraint of scope, schedule, and cost, project constraints also include quality, risk, and resources. Drag and match each constraint to its description.",
+      zh: "除了傳統的範疇、時程、成本三重限制之外,專案限制還包含品質、風險與資源。請將下列每項限制拖曳配對到對應描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Scope",
+            zh: "範疇(Scope)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Cost",
+            zh: "成本(Cost)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Quality",
+            zh: "品質(Quality)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Risk",
+            zh: "風險(Risk)",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Resources",
+            zh: "資源(Resources)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Defines the work required to deliver the project's product, service, or result, and what falls outside that boundary",
+            zh: "界定交付專案產品、服務或成果所需的工作,以及哪些內容不在此範圍之內",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "The funding and budget available to complete the planned work",
+            zh: "完成規劃工作所能動用的資金與預算",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "The degree to which the deliverable meets defined requirements and stakeholder expectations",
+            zh: "交付物符合既定需求與利害關係人期望的程度",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "The uncertainty that could positively or negatively affect the project's objectives if it occurs",
+            zh: "一旦發生,可能對專案目標造成正面或負面影響的不確定性",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "The people and physical or virtual assets needed to carry out the planned work",
+            zh: "執行規劃工作所需的人員以及實體或虛擬資產",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "除了傳統的三重限制(範疇、時程、成本)外,現代專案管理也將品質、風險與資源視為專案的重要限制條件:範疇界定所需完成的工作邊界;成本代表可動用的資金;品質衡量交付物是否符合需求與期望;風險代表可能影響專案目標的不確定性;資源則涵蓋執行工作所需的人力與實體/虛擬資產。這六項限制彼此環環相扣,任一項的變動都可能牽動其他項目,這也呼應「採取全面觀」原則的精神。",
+  },
+  {
+    id: "gov-102",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each leadership style to its description.",
+      zh: "請將下列每種領導風格拖曳配對到對應描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Servant Leadership",
+            zh: "服務型領導(Servant Leadership)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Transactional Leadership",
+            zh: "交易型領導(Transactional Leadership)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Transformational Leadership",
+            zh: "轉型領導(Transformational Leadership)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Laissez-Faire Leadership",
+            zh: "自由放任型領導(Laissez-Faire Leadership)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "The leader prioritizes serving the team's needs, actively removing obstacles so members can do their best work",
+            zh: "領導者優先服務團隊的需求,積極排除障礙以協助成員發揮所長",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "The leader motivates through clearly defined rewards, rules, and performance-based incentives",
+            zh: "領導者透過明確定義的獎勵、規則與績效導向的誘因來激勵成員",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "The leader inspires personal growth, innovation, and a shared long-term vision to elevate team performance",
+            zh: "領導者激勵個人成長、創新,並以共同的長期願景來提升團隊表現",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "The leader takes a hands-off approach, allowing a highly autonomous, self-sufficient team to make its own decisions",
+            zh: "領導者採取放手的作法,讓高度自主、能自給自足的團隊自行做決策",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "服務型領導以服務團隊需求、積極排除障礙為核心,是敏捷情境中最常見的風格;交易型領導以明確的獎勵與規則驅動行為;轉型領導著重激勵個人成長與創新,以長遠願景提升團隊表現;自由放任型領導則幾乎完全放手,適合高度自主、能自我管理的成熟團隊。這幾種風格並非互斥,實務上的領導者常依情境混合運用不同風格中的元素。",
+  },
+  {
+    id: "gov-103",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "At the conclusion of Close Project or Phase, the project manager formally hands the completed product over to the operations team or customer, who signs documentation confirming they are now taking ownership and responsibility for it going forward. Click the card that correctly names this activity.",
+      zh: "在「結束專案或階段」流程的最後,專案經理正式將已完成的產品移交給營運團隊或客戶,對方並簽署文件確認自此接手該產品的所有權與後續責任。請點選正確命名此活動的卡片。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Formal Handoff",
+          zh: "Transition Acceptance / 正式移交/轉移驗收(Formal Handoff / Transition Acceptance)",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Validate Scope",
+          zh: "確認範疇(Validate Scope)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Sprint Review",
+          zh: "短衝審查(Sprint Review)",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Phase Gate Review",
+          zh: "階段關卡審查(Phase Gate Review)",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n1",
+    explanation: "正式移交/轉移驗收(Formal Handoff / Transition Acceptance)是結束專案或階段流程中的關鍵活動,代表產品、服務或成果的所有權與後續責任正式從專案團隊轉移給營運單位或客戶。這與確認範疇(Validate Scope,在專案執行過程中確認交付物是否被接受)不同,也與短衝審查(在每個短衝結束時進行的展示與回饋活動)及階段關卡審查(用於決定是否進入下一階段)不同,三者發生的時機與目的皆與本情境所描述、發生在專案正式收尾時的所有權移交不同。",
+  },
+  {
+    id: "gov-104",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Midway through developing an AI screening tool for rental applications, national lawmakers announce an automated decision making act that will govern how such tools may operate. What should the project manager do?",
+      zh: "在開發一套用於租屋申請篩選的 AI 工具進行到一半時,國會宣布將通過一項規範此類工具運作方式的自動化決策法案。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Pause development until the act takes effect so no work is wasted.",
+          zh: "暫停開發,直到法案正式生效,以免做白工",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Have compliance specialists evaluate what the act would require of the tool.",
+          zh: "請合規專家評估這項法案對這套工具會有哪些具體要求",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Update the risk register and the scope statement to conform with the act.",
+          zh: "更新風險登錄冊與範疇說明書,使其符合法案內容",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Brief the sponsor on the act and review the remaining budget together.",
+          zh: "向贊助人簡報這項法案,並一起檢視剩餘預算",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "法案目前只是「宣布將會規範」,實際會如何具體要求這套工具運作,細節還不明朗;在還不知道法案到底要求什麼之前就貿然暫停開發、或直接動手修改風險登錄冊與範疇說明書,都是還沒弄清楚合規義務內容就先動作,一旦後續解讀跟實際法規要求兜不起來,等於白做工。正確的第一步是先請合規專家釐清這項法案對這套工具具體會有哪些要求,有了明確的合規範圍之後,才能據以更新風險、範疇,或決定是否需要向贊助人報告與調整預算;向贊助人簡報雖然遲早要做,但也應該在弄清楚實際要求之後再進行,才能提供有意義的資訊讓贊助人決策。",
+  },
+  {
+    id: "gov-105",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "As a resume ranking AI adaptive project reaches closure, the project manager sees the team burned weeks of unplanned effort retrofitting bias testing, because fairness requirements were never captured at initiation and only surfaced when a client audit flagged skewed results. What should the project manager do to prevent this in future projects?",
+      zh: "一個履歷排序 AI 的調適型(agile)專案即將結案,專案經理發現團隊為了事後補做偏誤測試,燒掉了好幾週原本沒有排進計畫的心力,原因是公平性需求在啟動階段從未被蒐集,直到客戶稽核指出結果有偏差時才浮現。為了避免未來的專案重蹈覆轍,專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Require the responsible AI committee's involvement at the start of every future project.",
+          zh: "要求未來每個專案在啟動時都必須有負責任 AI 委員會參與",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Hold a retrospective on why the fairness requirements were missed and update the organizational process assets.",
+          zh: "針對為何遺漏公平性需求召開回顧會議,並更新組織過程資產",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Add mandatory bias testing to the definition of done for all AI deliverables.",
+          zh: "將強制性偏誤測試加入所有 AI 交付項目的完成定義(DoD)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Run a bias awareness training program for all project teams.",
+          zh: "為所有專案團隊舉辦偏誤意識培訓課程",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "專案已經接近收尾,此時 PM 最關鍵的職責是帶著團隊做回顧,找出「公平性需求為何在啟動階段就被遺漏」這個根本原因,並把改善措施沉澱進組織過程資產(OPA),讓這個教訓能真正被未來所有專案繼承,這正好對應持續改善流程這項任務所強調的組織層級學習。其餘選項都是還沒找出根本原因,就直接跳去指定的片面補救措施:不是所有組織都設有負責任 AI 委員會,強制介入屬於缺乏根因分析的行政命令;將偏誤測試塞進 DoD 只能在開發後期把關品質,無法解決「啟動階段需求蒐集不全」這個源頭問題;單純辦培訓也無法保證未來的需求蒐集流程真的會被制度化地改善。",
+  },
+  {
     id: "sc-005",
     edition: "pmbok8",
     domain: "Process",
@@ -8193,6 +10477,2209 @@ export const sampleQuestions = [
     ],
     correctAnswer: "a",
     explanation: "替代方案分析(Alternatives Analysis)是定義範疇(Define Scope)過程中常用的技術,用於系統性比較不同的做法(例如自製 vs. 外購 vs. 委外)以決定最適合的範疇內容;100% Rule 與分解用於發展範疇結構、滾動式規劃用於漸進明確化規劃深度、確認範疇則是交付後客戶驗收的流程,皆與此題「定案範疇前比較做法」的情境不同。",
+  },
+  {
+    id: "scp-071",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "On an agile project, a large piece of business capability is broken down into a hierarchy before it becomes actionable work for a sprint. Which sequence, from largest to smallest, correctly represents this Agile decomposition hierarchy?",
+      zh: "在敏捷專案中,一項龐大的商業能力必須先被拆解成不同層級,才能成為 Sprint 中可執行的工作。下列由大到小的敏捷拆解層級,何者正確?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Epic → Feature → Story → Task",
+          zh: "史詩(Epic) → 特色功能(Feature) → 使用者故事(Story) → 任務(Task)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Feature → Epic → Task → Story",
+          zh: "特色功能(Feature) → 史詩(Epic) → 任務(Task) → 使用者故事(Story)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Story → Epic → Feature → Task",
+          zh: "使用者故事(Story) → 史詩(Epic) → 特色功能(Feature) → 任務(Task)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Task → Story → Epic → Feature",
+          zh: "任務(Task) → 使用者故事(Story) → 史詩(Epic) → 特色功能(Feature)",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "敏捷專案中需求拆解的階層由大到小依序為 Epic(史詩,涵蓋範圍最大的商業能力)、Feature(特色功能)、Story(使用者故事)、Task(通常可在 1 到 3 天內完成的具體任務)。例如「會計系統」作為 Epic,拆解為「收帳」等 Feature,再拆解為「產生發票」、「收帳」等 Story,最後拆解為「建立客戶資料」、「增減品項」等 Task。其餘選項的排序皆與此階層邏輯不符。",
+  },
+  {
+    id: "scp-072",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A stakeholder asks why the Product Backlog keeps changing order every week even though no new requirements were formally added. Which statement best explains this characteristic of the Product Backlog?",
+      zh: "有利害關係人詢問,為什麼即使沒有正式新增需求,產品待辦清單(Product Backlog)每週的排序卻一直在變動?下列何者最能解釋產品待辦清單的此項特性?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The Product Backlog is a static, one-time document finalized at project initiation and should not change order.",
+          zh: "產品待辦清單是專案啟動時一次定案的靜態文件,排序不應變動。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The Product Backlog is a dynamic, evolving list that the product owner continuously reorders by business value as understanding and priorities change.",
+          zh: "產品待辦清單是動態演變的清單,產品負責人會隨著理解與優先順序的變化,持續依商業價值重新排序。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Only the Scrum Master is authorized to reorder backlog items, and the changes reflect the Scrum Master's own judgment.",
+          zh: "只有 Scrum Master 有權重新排序待辦項目,變動反映的是 Scrum Master 的判斷。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reordering indicates uncontrolled scope creep that the Change Control Board should investigate.",
+          zh: "重新排序代表未經控管的範疇潛變,應由變更管控委員會調查。",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "產品待辦清單(Product Backlog)本質上是動態且持續演變的清單,由產品負責人(Product Owner)依商業價值持續重新排序與精煉(Backlog Refinement/Grooming),價值最高的項目優先開發。這是敏捷專案漸進明確化範疇的正常做法,並非範疇潛變;重新排序也是產品負責人的職責,而非 Scrum Master(Scrum Master 負責促進流程,不主宰內容優先順序)。",
+  },
+  {
+    id: "scp-073",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Select the THREE elements that together make up the \"3 C's\" framework commonly used to describe the lifecycle of a well-formed user story.",
+      zh: "請選出構成使用者故事(User Story)常見「3C」框架的三個要素。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Card",
+          zh: "卡片(Card)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Conversation",
+          zh: "對話(Conversation)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Confirmation",
+          zh: "確認(Confirmation)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Contract",
+          zh: "合約(Contract)",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Compliance",
+          zh: "合規(Compliance)",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "使用者故事常以「3C」描述其完整生命週期:Card(卡片,簡短記錄故事內容,通常僅具備足夠資訊供後續討論,而非完整規格)、Conversation(對話,團隊與客戶或產品負責人針對故事細節持續溝通釐清)、Confirmation(確認,雙方就完成的驗收標準達成共識)。合約(Contract)與合規(Compliance)並非 3C 框架的組成要素,且敏捷宣言明確主張「與客戶合作」優於「合約協商」,與強調書面合約的做法方向相反。",
+  },
+  {
+    id: "scp-074",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A team estimates the relative size and complexity of backlog items using an abstract, comparative unit called {{blank1}}, rather than absolute hours. To forecast how long the remaining Product Backlog will take to complete, the team calculates the average amount of that unit it completes per sprint, known as {{blank2}}.",
+      zh: "團隊使用一種抽象、相對比較的單位來估算待辦項目的規模與複雜度,稱為 {{blank1}},而非絕對工時。為預測剩餘產品待辦清單大約需要多久才能完成,團隊會計算每個 Sprint 平均完成該單位的數量,稱為 {{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Story Points",
+              zh: "故事點(Story Points)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Earned Value",
+              zh: "實獲值(Earned Value)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Work Packages",
+              zh: "工作包(Work Packages)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Cycle Time",
+              zh: "週期時間(Cycle Time)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Velocity",
+              zh: "速度(Velocity)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Lead Time",
+              zh: "前置時間(Lead Time)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "故事點(Story Points)是敏捷團隊用來估算待辦項目相對規模與複雜度的抽象單位,採相對比較(而非絕對工時)方式估算,常搭配費波那契數列使用;速度(Velocity)則是團隊每個 Sprint 平均能完成的故事點數量,用於回推剩餘待辦清單大約還需要多少個 Sprint 才能消耗完畢。實獲值(Earned Value)屬於成本/時程績效衡量工具,週期時間(Cycle Time)與前置時間(Lead Time)則分別衡量單一工作項目的處理時間與從需求提出到交付的總時間,皆與「每 Sprint 完成故事點的速率」概念不同。",
+  },
+  {
+    id: "scp-075",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each Story Point estimation technique to the description that best fits it.",
+      zh: "請將下列每種故事點估算技術拖曳配對到最符合的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Affinity Estimating",
+            zh: "親和估算法(Affinity Estimating)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "T-Shirt Sizing",
+            zh: "衣服尺寸估算法(T-Shirt Sizing)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Wideband Delphi",
+            zh: "寬頻德爾菲法(Wideband Delphi)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Planning Poker",
+            zh: "撲克牌估算法(Planning Poker)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "An anonymous, round-based technique in which estimates are submitted and discussed over several rounds specifically to avoid one person's estimate swaying others (the bandwagon effect).",
+            zh: "一種匿名、分輪次的技術,估計值經過數輪提交與討論,目的是避免某人的估計影響他人(從眾效應)。",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Items are quickly categorized using clothing-size labels such as S, M, L, and XL.",
+            zh: "使用衣服尺寸標籤(如 S、M、L、XL)快速將項目分類。",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Team members simultaneously reveal cards bearing Fibonacci-like numbers to estimate a story's size.",
+            zh: "團隊成員同時亮出印有費波那契數列數字的卡牌,以估算故事的大小。",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "The team groups work items by relative size and complexity without discussing each item individually in detail.",
+            zh: "團隊依工作項目間的相對大小與複雜度快速分組,不逐一詳細討論每個項目。",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c4",
+      p2: "c2",
+      p3: "c1",
+      p4: "c3",
+    },
+    explanation: "親和估算法(Affinity Estimating)讓團隊依工作項目彼此的相對大小與複雜度快速分組,無需逐一詳細討論;衣服尺寸估算法(T-Shirt Sizing)以 S、M、L、XL 等尺寸標籤概略分類故事大小,是親和估算的一種常見呈現方式;寬頻德爾菲法(Wideband Delphi)是匿名分配故事點的討論方法,經過數輪盲選提交與討論後估計值逐漸收斂,目的在避免從眾效應(Bandwagon Effect);撲克牌估算法(Planning Poker)則是團隊成員各持印有費波那契數列(1、2、3、5、8、13、21…)的撲克牌,針對每個故事同時亮牌估算,速度較快且最為常用。四者皆為敏捷團隊常見的相對估算技術,但匿名程度、速度與呈現形式各不相同。",
+  },
+  {
+    id: "scp-076",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A product owner wants stakeholders to prioritize a long backlog by distributing a limited, fixed resource (such as sticker dots, play money, or points) across the items they value most, rather than sorting items into ordinal ranks or fixed categories. Select the THREE techniques that fit this resource-allocation style of prioritization.",
+      zh: "產品負責人希望利害關係人以「分配有限的固定資源」(例如貼紙點點、玩具鈔票或點數)到他們最重視的項目上,來為冗長的待辦清單排序,而非直接將項目排成序位或歸入固定類別。請選出符合此「資源分配式」排序風格的三種技術。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Dot Voting — each participant receives a fixed number of dot stickers to place on preferred items.",
+          zh: "點點投票法,每位參與者獲得固定數量的圓點貼紙,貼在偏好的項目上。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Monopoly Money — each participant receives an equal amount of play money to allocate across items based on perceived value.",
+          zh: "大富翁金錢法,每位參與者獲得等量的虛擬貨幣,依認知價值分配到不同項目上。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "100 Point Method — each participant distributes 100 points across items according to relative importance.",
+          zh: "百分點法,每位參與者將 100 點依相對重要性分配到不同項目上。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Simple Scheme — items are simply ranked in ordinal order such as first, second, third.",
+          zh: "簡單排序法,直接將項目依序排為第一、第二、第三…",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "MoSCoW — items are sorted into Must have, Should have, Could have, Won't have categories.",
+          zh: "MoSCoW,將項目分類為必須有、應該有、可以有、這次不會有。",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "點點投票法(Dot Voting)、大富翁金錢法(Monopoly Money)、百分點法(100 Point Method)三者的共同特色,是讓每位參與者分配一份「有限且固定總量」的資源(貼紙點數、虛擬貨幣或分數)到自己最重視的項目上,藉由資源分配的集中程度反映群體對相對優先順序的偏好。簡單排序法(Simple Scheme)是直接將項目排成 1、2、3…的序位排序法,MoSCoW 則是把項目歸入四個固定類別,兩者皆非「分配有限資源」的排序風格,因此不屬於本題所指的技術。",
+  },
+  {
+    id: "scp-077",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "In the Speedboat collaboration game, stakeholders sketch a boat moving toward a goal and label different elements around it to visualize what helps or hinders the product's progress. Click the element that represents the risks and impediments dragging the product's progress back.",
+      zh: "在 Speedboat(快艇)協作遊戲中,利害關係人會畫出一艘朝向目標前進的船,並在周圍標示不同元素,以視覺化呈現哪些因素有助於或阻礙產品的進展。請點選代表「拖累產品進展的風險與阻礙因素」的元素。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Wind — pushes the boat forward, representing helpful forces driving the product ahead.",
+          zh: "風——推動船前進,代表有助於推展產品的正面力量。",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Island — represents the destination, i.e. the product's goal or vision.",
+          zh: "島嶼——代表船的目的地,即產品的目標或願景。",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Anchor — drags the boat back, representing risks and impediments slowing the product down.",
+          zh: "錨——拖住船隻,代表拖慢產品前進的風險與阻礙。",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Boat — represents the product or team itself, moving across the water.",
+          zh: "船——代表產品或團隊本身,在水面上移動。",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n3",
+    explanation: "Speedboat(快艇,亦稱 Sailboat)是常見的敏捷協作遊戲,透過畫出一艘朝目標(島嶼)前進的船,標示出推動前進的動力(風)與拖累前進的阻力(錨),協助團隊與利害關係人共同辨識產品推進過程中的機會與風險。錨(Anchor)代表阻礙進展的風險與impediment,是本題所指的元素;風代表助力、島嶼代表目標願景、船則代表產品或團隊本身,三者皆非「拖累進展的風險與阻礙」。",
+  },
+  {
+    id: "scp-078",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "During backlog preparation, a facilitator asks stakeholders to design the packaging of their future product as if it were being sold on a retail shelf — choosing a catchy name, an image, and the two or three most compelling selling-point features to print on the box. What technique is being used, and what is its primary purpose?",
+      zh: "在待辦清單準備階段,主持人請利害關係人設計未來產品的「包裝盒」,假想它即將上架零售,並決定吸引人的名稱、圖像,以及要印在盒子上、最能打動買家的兩到三項賣點功能。這是應用了什麼技術?其主要目的為何?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The Product Box method, a value-based analysis technique that helps stakeholders identify and articulate the product's most valuable and marketable features.",
+          zh: "產品盒法(Product Box),一種價值導向分析技術,協助利害關係人辨識並清楚表達產品中最有價值、最具市場吸引力的功能。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The Kano model, used to classify each requirement as basic, performance, or excitement attributes.",
+          zh: "Kano 模型,用於將每項需求分類為基本、效能或驚喜屬性。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Planning Poker, used to reach consensus on story point estimates.",
+          zh: "撲克牌估算法,用於就故事點估算達成共識。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The Definition of Done, used to confirm a deliverable meets agreed completion criteria.",
+          zh: "完成定義,用於確認交付標的是否符合議定的完成標準。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "產品盒法(Product Box)是價值導向分析與拆解(Value-Based Analysis and Decomposition)中常用的協作技術,讓利害關係人以「設計產品包裝」的思維,聚焦挑選出最重要、最好賣的功能並具體表達出來,藉此釐清並排序產品的核心價值主張。Kano 模型是需求分類工具、撲克牌估算法用於故事點估算、完成定義(Definition of Done)則是交付驗收標準,三者皆與本題「設計包裝盒呈現賣點」的情境不同。",
+  },
+  {
+    id: "scp-079",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Unlike a traditional Work Breakdown Structure, which organizes deliverables by hierarchical decomposition, a Value Breakdown Structure (VBS) restructures deliverables so that the project prioritizes delivery in which order?",
+      zh: "與依階層分解交付物的傳統工作分解結構(WBS)不同,價值分解結構(Value Breakdown Structure, VBS)重新組織交付物,使專案依何種順序優先交付?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Delivering the highest-value deliverables to stakeholders first, rather than strictly following technical dependency order.",
+          zh: "優先交付對利害關係人價值最高的交付物,而非嚴格依技術相依順序排列。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Grouping deliverables strictly by which functional department will perform the work.",
+          zh: "嚴格依執行工作的職能部門分組交付物。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Listing deliverables in alphabetical order for easier document review.",
+          zh: "依字母順序列出交付物,以利文件審閱。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Grouping deliverables solely by their estimated cost, from least expensive to most expensive.",
+          zh: "僅依估算成本由低至高分組交付物。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "價值分解結構(VBS)是一種將交付物依「商業價值高低」排序、最先交付高價值項目的思維方式,常見於強調及早交付價值的專案情境;這與依部門分組、依字母排序或單純依成本高低排序皆不同,VBS 的核心在於「價值優先」而非單純的結構或成本考量。",
+  },
+  {
+    id: "scp-080",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Select the THREE elements typically included in the Quality Management Plan produced during Define Scope.",
+      zh: "請選出「定義範疇」流程所產出的品質管理計畫中,通常會包含的三項元素。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Quality standards the deliverables must meet (e.g., accessibility standards such as WCAG)",
+          zh: "交付標的必須符合的品質標準(例如 WCAG 等無障礙標準)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Roles and responsibilities for quality-related activities",
+          zh: "品質相關活動的角色與職責",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The approach for controlling and managing quality, including how non-conformance is handled",
+          zh: "品質控制與管理方法,包含如何處理不合規情況",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The project's critical path duration",
+          zh: "專案的要徑工期",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Individual team members' compensation and benefits",
+          zh: "個別團隊成員的薪酬福利",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "品質管理計畫是定義範疇流程的產出之一,內容通常包含品質標準(如 WCAG)、角色與職責、控制與管理方法、不合規與持續改善程序等,目的在及早規劃以「Prevent Defect」、避免後續重工;要徑工期屬於 Schedule 領域,團隊薪酬福利屬於 Resources 領域,皆非品質管理計畫的內容。",
+  },
+  {
+    id: "scp-081",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "dropdown",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "The tool used during {{blank1}} to determine how deliverables will be tested and inspected against stakeholder standards, planned before detailed requirements are even gathered, is called {{blank2}}.",
+      zh: "在 {{blank1}} 流程中,用來決定交付物將如何被測試與檢視以符合利害關係人標準的工具,在詳細需求蒐集之前就先行規劃,稱為 {{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Plan Scope Management",
+              zh: "規劃範疇管理(Plan Scope Management)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Validate Scope",
+              zh: "確認範疇(Validate Scope)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Develop Scope Structure",
+              zh: "發展範疇結構(Develop Scope Structure)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Test and Inspection Planning",
+              zh: "測試與檢驗規劃(Test and Inspection Planning)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Control Quality",
+              zh: "品質管制(Control Quality)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Requirements Traceability Matrix",
+              zh: "需求追溯矩陣(RTM)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "測試與檢驗規劃(Test and Inspection Planning)是規劃範疇管理(Plan Scope Management)流程的工具之一,及早規劃交付物將如何被測試與檢視,確保能符合利害關係人標準,而非等到確認範疇或品質管制階段才臨時決定;這與發展範疇結構(拆解 WBS)以及 RTM(追蹤需求)所屬階段與用途皆不同。",
+  },
+  {
+    id: "scp-082",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each requirement statement to the requirement category it belongs to.",
+      zh: "請將下列每則需求敘述拖曳配對到其所屬的需求類別。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "\"The digital transformation initiative must increase online transaction throughput by 40% to meet the company's five-year strategic plan.\"",
+            zh: "「此數位轉型計畫必須將線上交易吞吐量提升 40%,以符合公司五年策略計畫。」",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "\"The regional sales director needs the new dashboard to show her team's commission calculations in real time.\"",
+            zh: "「區域業務總監需要新儀表板能即時顯示其團隊的佣金計算結果。」",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "\"The system must allow a user to reset their password within three steps.\"",
+            zh: "「系統必須讓使用者能在三個步驟內重設密碼。」",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "\"The system must respond to any user request within two seconds under normal load.\"",
+            zh: "「系統在正常負載下,必須在兩秒內回應任何使用者請求。」",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "\"All customer service staff must complete two hours of training on the new ticketing system before go-live.\"",
+            zh: "「所有客服人員必須在新工單系統上線前完成兩小時的訓練。」",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Business Requirement",
+            zh: "商業需求(Business Requirement)",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Stakeholder Requirement",
+            zh: "利害關係人需求(Stakeholder Requirement)",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Solution Requirement — Functional",
+            zh: "解決方案需求-功能性(Functional)",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Solution Requirement — Non-Functional",
+            zh: "解決方案需求-非功能性(Non-Functional)",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "Transition",
+            zh: "Readiness Requirement / 轉換/就緒需求(Transition Requirement)",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "需求可分為多個層級:Business Requirement(策略目標、高階組織需求)、Stakeholder Requirement(個別利害關係人的需求)、Solution Requirement 又分為 Functional(產品必須做到的功能)與 Non-Functional(產品該如何表現,如效能、可靠度),以及 Transition/Readiness Requirement(暫時性需求,如訓練、資料轉移)。正確辨識需求所屬層級,有助於後續追蹤、驗證與範疇管理。",
+  },
+  {
+    id: "scp-083",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "definition",
+    stem: {
+      en: "Among all six Scope processes, Validate Scope is unique in that its list of inputs does NOT include the Project Management Plan. What best explains why?",
+      zh: "在所有六個範疇流程中,確認範疇(Validate Scope)的輸入清單中沒有包含專案管理計畫(PM Plan),這與其他流程不同。下列何者最能解釋原因?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "By the time Validate Scope occurs, scope should already have been planned and baselined earlier in the project, so the process instead relies on Verified Deliverables and the already-established scope baseline documents.",
+          zh: "到了確認範疇階段,範疇早已在專案較早期完成規劃與基準化,因此此流程改為仰賴已查證交付物與既有的範疇基準文件。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The Project Management Plan is never created on projects that use Validate Scope.",
+          zh: "使用確認範疇流程的專案,從不會建立專案管理計畫。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Validate Scope is always the very first process performed on any project, before any planning occurs.",
+          zh: "確認範疇永遠是任何專案最先執行的流程,發生在任何規劃之前。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The Project Management Plan is classified as an Enterprise Environmental Factor rather than a project document.",
+          zh: "專案管理計畫被歸類為企業環境因素,而非專案文件。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "確認範疇是六個範疇流程中唯一輸入不包含 PM Plan 的流程,因為到了此階段,範疇規劃與基準化工作理應早已完成;此流程改為仰賴已查證交付物(Verified Deliverables)與既有的範疇基準文件來進行客戶驗收,而非重新參照整份 PM Plan。其餘選項皆屬錯誤或不合理的敘述。",
+  },
+  {
+    id: "scp-084",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "During a formal Validate Scope walkthrough, the customer reviews a completed deliverable against the documented acceptance criteria and determines it does not meet one of the criteria, declining to sign off. What should happen next?",
+      zh: "在正式的確認範疇審查中,客戶依已記錄的驗收標準檢視已完成的交付標的,判定其未符合其中一項標準,因而拒絕簽署。接下來應該發生什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The project manager should treat this as a Change Request output of Validate Scope, documenting the gap and working with the team to address it before re-presenting the deliverable for acceptance.",
+          zh: "專案經理應將此視為確認範疇的變更請求產出,記錄落差並與團隊合作修正,再重新提交交付標的以供驗收。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The team should proceed to project closure anyway, since the deliverable was completed according to the original technical specification.",
+          zh: "團隊應直接進入結案,因為交付標的已依原始技術規格完成。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The project manager should ask a different stakeholder with less authority to sign off instead.",
+          zh: "專案經理應改請另一位權限較低的利害關係人簽署。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The rejection should be recorded as a risk and no further action should be taken until the next phase gate.",
+          zh: "應將此拒絕記錄為風險,直到下一個階段關卡前不採取進一步行動。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "確認範疇的產出除了已驗收交付物,也包含變更請求(當客戶拒絕接受時);此情境下專案經理應正視客戶的正式拒絕,記錄落差並與團隊合作修正後再次提交驗收,而非略過客戶意見逕行結案、另尋較弱勢的利害關係人簽署,或消極不作為。",
+  },
+  {
+    id: "scp-085",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A team spends time deeply observing and interviewing actual end users to understand their unspoken frustrations and underlying needs, before jumping to define any technical solution. Click the technique that best matches this user-centered approach.",
+      zh: "團隊花時間深入觀察並訪談實際終端使用者,以了解其未明說的困擾與潛在需求,而非急著跳去定義技術解法。請點選最符合此使用者中心做法的技術。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Design Thinking",
+          zh: "設計思考(Design Thinking)",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Earned Value Analysis",
+          zh: "實獲值分析(Earned Value Analysis)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Critical Path Method",
+          zh: "要徑法(Critical Path Method)",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "100% Rule",
+          zh: "百分百法則(100% Rule)",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n1",
+    explanation: "設計思考(Design Thinking)是以使用者為中心,透過深度觀察與理解使用者潛在需求,才進一步定義解決方案的技術,是引出並分析需求流程中常用的工具之一;實獲值分析與要徑法分屬 Finance 與 Schedule 領域的績效/時程分析工具,100% Rule 是 WBS 分解的規範原則,三者皆與「深入理解使用者潛在需求」無關。",
+  },
+  {
+    id: "scp-086",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each Monitor and Control Scope data analysis technique to the question it primarily helps answer.",
+      zh: "請將下列每項「監控範疇」的數據分析技術拖曳配對到其主要協助回答的問題。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Variance Analysis",
+            zh: "變異分析(Variance Analysis)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Trend Analysis",
+            zh: "趨勢分析(Trend Analysis)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Root Cause Analysis",
+            zh: "根本原因分析(Root Cause Analysis)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Performance Review",
+            zh: "績效審查(Performance Review)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "How far apart is what actually happened from what the scope baseline said should happen?",
+            zh: "實際發生的情況,與範疇基準所規劃的情況相差多少?",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Is the size or frequency of scope variances increasing or decreasing over time?",
+            zh: "範疇變異的幅度或頻率,隨時間是在擴大還是縮小?",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "What is the underlying reason a scope deviation keeps recurring, beneath its surface symptoms?",
+            zh: "某項範疇偏差反覆發生的表面症狀背後,真正的根本原因是什麼?",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Comparing overall scope performance against the plan across multiple metrics at a review checkpoint.",
+            zh: "在檢查點上,綜合多項指標比對整體範疇表現與計畫的落差。",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "變異分析比較實際與範疇基準的落差;趨勢分析觀察落差隨時間是否擴大或縮小;根本原因分析探究表面症狀背後真正的成因,以避免同樣問題反覆發生;績效審查則是在檢查點綜合比對整體範疇表現與計畫的落差。四者皆是監控範疇常用的數據分析工具,但著重角度不同。",
+  },
+  {
+    id: "scp-087",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "hotspot",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A control chart tracking a recurring scope-related quality metric shows a center line, an upper control limit (UCL), and a lower control limit (LCL). All data points fall within the limits, but the last seven consecutive points all lie above the center line. Click the description of what this pattern indicates.",
+      zh: "一張追蹤重複性範疇相關品質指標的管制圖,包含中心線、管制上限(UCL)與管制下限(LCL)。所有資料點皆落在管制界限之內,但最後七個連續資料點全部都落在中心線的同一側(上方)。請點選此圖形所代表的意義。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "The process is out of control due to a special cause, even though no point exceeds the control limits, because seven consecutive points on the same side violate the Rule of Seven.",
+          zh: "即使沒有任何點超出管制界限,流程仍因特殊原因而失控,因為連續七點落在同一側違反了偏離法則(Rule of Seven)。",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "The process is perfectly stable and requires no further investigation, since every point is within the control limits.",
+          zh: "流程完全穩定、不需進一步調查,因為每個點都在管制界限之內。",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "This pattern means the scope baseline itself must be immediately re-baselined.",
+          zh: "此圖形代表範疇基準本身必須立即重新設定基準。",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "This pattern can only be meaningfully interpreted after the project moves into Closing.",
+          zh: "此圖形只有在專案進入結束階段後才有意義可解讀。",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n1",
+    explanation: "依偏離法則(Rule of Seven),即使所有資料點都落在管制界限內,只要連續七點落在中心線同一側,就代表流程並非單純受共同原因變異影響,而是已出現特殊原因(Special Cause),流程可能已經失控,必須立即停止並調查;並非「界限內就代表穩定」,也不代表需要立即重設基準,重設基準是另一個獨立的決策,更與專案是否進入結束階段無關。",
+  },
+  {
+    id: "scp-088",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "dropdown",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "A data-presentation tool used to identify whether two variables (such as requirement complexity and defect rate) are correlated is called {{blank1}}; a different tool that groups data into intervals to show the frequency and shape of its distribution is called {{blank2}}.",
+      zh: "用來辨識兩個變數(例如需求複雜度與缺陷率)之間是否存在關聯性的資料呈現工具稱為 {{blank1}};另一種將資料分組為區間、以呈現其分布頻率與形狀的工具則稱為 {{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Scatter Diagram",
+              zh: "散佈圖(Scatter Diagram)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Control Chart",
+              zh: "管制圖(Control Chart)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Histogram",
+              zh: "直方圖(Histogram)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Control Chart",
+              zh: "管制圖(Control Chart)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Histogram",
+              zh: "直方圖(Histogram)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Scatter Diagram",
+              zh: "散佈圖(Scatter Diagram)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "散佈圖(Scatter Diagram)用於辨識兩變數間是否存在關聯性或趨勢;直方圖(Histogram)則將資料分組計算出現頻率,呈現資料的分布形態(如常態分布、偏態分布);管制圖(Control Chart)用於監控流程穩定度。三者皆是監控範疇常用的數據呈現工具,但用途不同,常被考題要求辨別。",
+  },
+  {
+    id: "scp-089",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A software team integrates automated build, test, and deployment pipelines so that every code change is automatically verified against acceptance criteria and quickly surfaced if it deviates from agreed scope. This is an example of which Monitor and Control Scope tool category?",
+      zh: "某軟體團隊整合了自動化建置、測試與部署流程,讓每次程式碼變更都能自動依驗收標準進行驗證,並在偏離已議定範疇時快速被發現。這是屬於「監控範疇」的哪一類工具?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Process Automation, such as CI/CD pipelines and automated testing, which help detect scope deviations quickly and continuously.",
+          zh: "流程自動化,例如 CI/CD 流程與自動化測試,協助快速且持續地偵測範疇偏差。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Expert Judgment, relying solely on a senior architect's manual review of each change.",
+          zh: "專家判斷,完全仰賴資深架構師對每次變更的人工審查。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The Requirements Traceability Matrix, used only at project closure.",
+          zh: "需求追溯矩陣,僅在專案結束時使用。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Rolling Wave Planning, used to plan far-future work at a high level.",
+          zh: "滾動式規劃,用於高階規劃遠期工作。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "CI/CD(持續整合/持續交付)、自動化測試與監控系統,是監控範疇工具中的「流程自動化(Process Automations)」類別,能快速、持續且不完全依賴人工介入地偵測範疇或品質偏差;專家判斷、RTM 與滾動式規劃雖然也是專案管理常見工具,但並非此情境所描述的自動化持續驗證做法。",
+  },
+  {
+    id: "scp-090",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "A Scrum team has 180 story points remaining in its Product Backlog. Over the past four sprints, the team completed 32, 28, 30, and 30 story points respectively. Based on the team's average velocity, approximately how many more sprints will the team need to complete the remaining backlog?",
+      zh: "某 Scrum 團隊的產品待辦清單尚剩餘 180 個故事點。過去四個 Sprint,團隊分別完成了 32、28、30、30 個故事點。依團隊的平均速度(Velocity)估算,團隊大約還需要多少個 Sprint 才能完成剩餘待辦清單?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Approximately 4 sprints",
+          zh: "約 4 個 Sprint",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Approximately 6 sprints",
+          zh: "約 6 個 Sprint",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Approximately 9 sprints",
+          zh: "約 9 個 Sprint",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Approximately 12 sprints",
+          zh: "約 12 個 Sprint",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "平均速度 = (32+28+30+30) ÷ 4 = 120 ÷ 4 = 30 個故事點/Sprint。剩餘待辦清單 180 點 ÷ 平均速度 30 點/Sprint = 6 個 Sprint。速度(Velocity)是敏捷團隊常用來回推剩餘待辦清單約需多少個 Sprint 完成的預測指標。",
+  },
+  {
+    id: "scp-091",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "In a collaboration game, stakeholders draw a tree and write candidate features on paper leaves, attaching them to branches — features that depend on other features being in place first are placed higher up on the tree, closer to what they build upon. This helps the team visually cluster, group, and sequence features. Click the name of this game.",
+      zh: "在某個協作遊戲中,利害關係人畫出一棵樹,並將候選功能寫在紙製葉片上貼到樹枝上——需要依賴其他功能先到位才能實現的功能,會被貼在樹的較高處,靠近它所依附的功能。這有助於團隊以視覺化方式將功能分類、分組並排序。請點選此遊戲的名稱。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Prune the Product Tree",
+          zh: "修剪產品樹(Prune the Product Tree)",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Remember the Future",
+          zh: "回想未來(Remember the Future)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Speedboat",
+          zh: "快艇(Speedboat)",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Product Box",
+          zh: "產品盒(Product Box)",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n1",
+    explanation: "修剪產品樹(Prune the Product Tree)是讓利害關係人在紙條上寫下候選功能並貼到一棵畫出的樹上,依賴關係較高、需先有其他功能才能實現的項目貼在較高處,藉此方便分類、分組與排序功能;回想未來是請利害關係人想像成功情境後回推;快艇是用船隻意象辨識推動力與阻力;產品盒是設計包裝盒呈現賣點,三者皆與本情境「畫樹貼葉片依賴關係排序」不同。",
+  },
+  {
+    id: "scp-092",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "In this collaboration game, a facilitator asks stakeholders to imagine that the project has already succeeded, describe what that success looks like in vivid detail, and then work backward to identify what needed to happen to get there. What is this technique called?",
+      zh: "在這個協作遊戲中,主持人請利害關係人想像專案已經成功,生動地描述成功的樣貌,再回推需要發生哪些事情才能達成。這個技巧稱為什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Remember the Future",
+          zh: "回想未來(Remember the Future)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Prune the Product Tree",
+          zh: "修剪產品樹(Prune the Product Tree)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Speedboat",
+          zh: "快艇(Speedboat)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Nominal Group Technique",
+          zh: "名目群體技術(Nominal Group Technique)",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "回想未來(Remember the Future)請利害關係人先想像專案已經成功的畫面,再回推需要做到什麼才能達成該成功,協助團隊初步了解利害關係人對「成功」的定義;修剪產品樹用於功能分類排序,快艇用於辨識推動力與阻力,名目群體技術是結構化腦力激盪投票法,皆與本情境「先想像成功再回推」的做法不同。",
+  },
+  {
+    id: "scp-093",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A change request expanding a deliverable's scope has just been formally approved by the Change Control Board. What must the project manager ensure happens next so the project's scope structure stays consistent?",
+      zh: "一項擴增交付標的範疇的變更請求剛被變更管控委員會正式核准。專案經理必須確保接下來發生什麼事,才能讓專案的範疇結構保持一致?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The team quietly begins the new work immediately, without updating any scope documents, since the change was already approved.",
+          zh: "團隊悄悄立即開始新工作,不更新任何範疇文件,因為變更已經核准。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The project manager ensures the approved change flows into Develop Scope Structure so the WBS, WBS Dictionary, and Scope Statement are updated to reflect the new scope before work begins.",
+          zh: "專案經理確保已核准的變更被納入發展範疇結構流程,使 WBS、WBS 字典與範疇說明書在動工前都更新以反映新範疇。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The change is recorded only in the risk register and no other document needs to change.",
+          zh: "此變更只需記錄在風險登記冊中,不需更動其他文件。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The project manager should reject implementing the change since the scope baseline is supposed to remain fixed once set.",
+          zh: "專案經理應拒絕執行此變更,因為範疇基準一旦設定就不應再更動。",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "已核准的變更請求是發展範疇結構(Develop Scope Structure)流程的輸入之一,專案經理應確保此類核准的變更被正式納入,使 WBS、WBS 字典與範疇說明書等範疇基準文件同步更新,才能動工,以維持文件與實際範疇的一致性;悄悄動工不更新文件、僅記錄於風險登記冊,或完全拒絕已核准的變更,皆不符合正確的變更管控後續程序。",
+  },
+  {
+    id: "scp-094",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "multiple_response",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "According to the categories of requirements documented during Elicit and Analyze Requirements, select the THREE items that would typically fall under \"Quality Requirements.\"",
+      zh: "依「引出並分析需求」流程中記載的需求分類,請選出通常會被歸類在「品質需求(Quality Requirements)」下的三個項目。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Testing criteria the deliverable must pass",
+          zh: "交付標的必須通過的測試標準",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Certification or regulatory compliance requirements",
+          zh: "認證或法規遵循要求",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Formal validation methods, such as UAT or pilot feedback",
+          zh: "正式的驗證方法,例如 UAT 或試行回饋",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The team member's annual salary adjustment schedule",
+          zh: "團隊成員的年度調薪時程",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "The project's critical path float calculation",
+          zh: "專案要徑的浮時計算",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "品質需求(Quality Requirement)通常包含測試(Test)、認證(Certification)、驗證(Validation)與驗收標準(Acceptance Criteria)等項目,用來確保交付標的的品質符合利害關係人與法規標準;團隊薪資調整屬 Resources 領域,要徑浮時計算屬 Schedule 領域,皆非品質需求的內容。",
+  },
+  {
+    id: "scp-095",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "multiple_response",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Over the past several sprints, trend analysis shows that small, unauthorized scope deviations keep recurring across different features, each time individually minor but collectively adding up. Select the TWO most appropriate actions for the project manager.",
+      zh: "過去數個 Sprint 的趨勢分析顯示,不同功能之間不斷反覆出現小型、未經授權的範疇偏差,每次個別看似輕微,但累積起來卻不容小覷。請選出專案經理應採取的兩項最適當行動。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Apply root cause analysis to identify the underlying systemic reason these small deviations keep recurring, such as unclear acceptance criteria or informal change requests being accepted verbally.",
+          zh: "運用根本原因分析,找出這些小偏差不斷發生的根本系統性原因,例如驗收標準不清或口頭變更請求被接受。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Reinforce the formal change control process with the team and stakeholders so future deviations, however small, are properly evaluated and documented.",
+          zh: "與團隊及利害關係人重申正式變更管控流程,確保未來偏差無論大小都經過適當評估與記錄。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ignore the trend since each individual deviation was too small to matter on its own.",
+          zh: "忽略此趨勢,因為每個個別偏差單獨來看都太小,不重要。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Publicly reprimand the entire team in the next status meeting without further investigation.",
+          zh: "在下次狀態會議中公開斥責整個團隊,且不做進一步調查。",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Immediately terminate the change control process since it is clearly not working.",
+          zh: "立即終止變更管控流程,因為它顯然沒有作用。",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "趨勢分析顯示反覆發生的模式時,專案經理應運用根本原因分析找出系統性成因(而非只處理個別事件的表面症狀),並與團隊、利害關係人重申正式變更管控流程的重要性,防止未來再次發生;忽視趨勢、未經調查就公開究責,或直接放棄變更管控流程,皆無助於解決根本問題。",
+  },
+  {
+    id: "scp-096",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "dropdown",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "A category of requirements covering temporary needs that exist only to help the organization transition into using the new product — such as staff training or data conversion — is called {{blank1}}. This is distinct from {{blank2}}, which describes the ongoing features and functions the product itself must deliver.",
+      zh: "一種涵蓋暫時性需求的需求類別,僅存在於協助組織順利過渡到使用新產品——例如員工訓練或資料轉移——稱為 {{blank1}}。這與 {{blank2}} 不同,後者描述的是產品本身必須具備的持續性特色與功能。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Transition",
+              zh: "Readiness Requirement / 轉換/就緒需求(Transition Requirement)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Business Requirement",
+              zh: "商業需求(Business Requirement)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Project Requirement",
+              zh: "專案需求(Project Requirement)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Business Requirement",
+              zh: "商業需求(Business Requirement)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Solution Requirement",
+              zh: "Functional Requirement / 解決方案需求/功能需求(Functional Requirement)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Quality Requirement",
+              zh: "品質需求(Quality Requirement)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "轉換/就緒需求(Transition/Readiness Requirement)是暫時性需求,僅為協助組織從舊狀態過渡到使用新產品/系統而存在,例如訓練、資料轉移,一旦轉換完成便不再需要;這與描述產品本身必須具備、持續存在的功能特色的解決方案需求(功能需求)不同,也與描述高階策略目標的商業需求不同。",
+  },
+  {
+    id: "scp-097",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Which document, used as an input to Elicit and Analyze Requirements, describes the business need and justification for undertaking the project in the first place — distinct from the individual Business Requirements later documented as part of Requirements Documentation?",
+      zh: "哪一份文件被用作「引出並分析需求」流程的輸入,描述了專案之所以被啟動的商業需求與理由——不同於後續在需求文件中記載的個別商業需求(Business Requirements)?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Business Case",
+          zh: "商業論證(Business Case)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Requirements Traceability Matrix",
+          zh: "需求追溯矩陣(RTM)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "WBS Dictionary",
+          zh: "WBS 字典(WBS Dictionary)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Scope Management Plan",
+          zh: "範疇管理計畫(Scope Management Plan)",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "商業論證(Business Case)描述專案的商業需求與啟動理由,是引出並分析需求流程的輸入之一,提供探索需求的基準點;它與後續在需求文件中記載、描述具體策略目標的商業需求層級不同(Business Case 較高階、屬啟動階段文件),RTM、WBS 字典與範疇管理計畫則分別是不同流程的產出,皆非本題所指文件。",
+  },
+  {
+    id: "scp-098",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Select the THREE attributes commonly recorded for each entry in a Requirements Traceability Matrix (RTM).",
+      zh: "請選出需求追溯矩陣(RTM)中,每個條目通常會記錄的三項屬性。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "A unique requirement ID",
+          zh: "唯一的需求編號",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The requirement's priority and current status",
+          zh: "需求的優先順序與目前狀態",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The owner responsible for the requirement",
+          zh: "負責該需求的擁有者",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The team's sprint velocity for the current iteration",
+          zh: "團隊本次迭代的 Sprint 速度",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "The overall project's critical path duration",
+          zh: "整個專案的要徑工期",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "RTM 常見屬性包含唯一編號(ID)、描述、擁有者(Owner)、優先程度、狀態與日期,額外屬性可能還有穩定性、複雜度、驗收標準等,用於追蹤需求從來源到交付、驗證的完整脈絡;Sprint 速度屬於 Schedule/敏捷績效指標,要徑工期屬於 Schedule 領域,皆非 RTM 記錄的屬性。",
+  },
+  {
+    id: "scp-099",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A senior stakeholder tells the project manager, \"The deliverable is obviously fine — let's skip the formal Validate Scope walkthrough and just move to closing, it'll save everyone a week.\" What should the project manager do?",
+      zh: "一位資深利害關係人告訴專案經理:「這個交付標的顯然沒問題——我們跳過正式的確認範疇審查,直接進入結案吧,這樣能幫大家省一週時間。」專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Agree, since the stakeholder is senior and the time savings benefit the whole team.",
+          zh: "同意,因為此利害關係人資深,而且省下的時間對整個團隊都有利。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Politely but firmly explain that Validate Scope requires a formal review against documented acceptance criteria, and that skipping it removes the opportunity to catch gaps before closure — then continue to pursue the formal walkthrough.",
+          zh: "有禮貌但堅定地說明,確認範疇需要依已記錄的驗收標準進行正式審查,跳過將失去在結案前抓出落差的機會——接著持續推動正式審查。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Skip the walkthrough for this stakeholder but tell other stakeholders it did happen.",
+          zh: "對這位利害關係人跳過審查,但告訴其他利害關係人審查有進行。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Escalate the stakeholder's suggestion directly to an external regulator for review.",
+          zh: "將這位利害關係人的建議直接上呈外部監管機構審查。",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "即使建議來自資深利害關係人且立意良善(節省時間),確認範疇的正式審查程序不應被跳過,因為這是確保交付物真正符合驗收標準、避免結案後才發現落差的重要把關機制;專案經理應堅定但有禮地說明並持續推動正式審查,而非配合跳過、對不同利害關係人說法不一,或不成比例地將此事上呈外部機構。",
+  },
+  {
+    id: "scp-100",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each Scope process to a tool/technique that is characteristically used within it.",
+      zh: "請將下列每個範疇流程拖曳配對到其常運用的代表性工具/技術。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Plan Scope Management",
+            zh: "規劃範疇管理(Plan Scope Management)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Elicit and Analyze Requirements",
+            zh: "引出並分析需求(Elicit and Analyze Requirements)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Define Scope",
+            zh: "定義範疇(Define Scope)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Develop Scope Structure",
+            zh: "發展範疇結構(Develop Scope Structure)",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Validate Scope",
+            zh: "確認範疇(Validate Scope)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Test and Inspection Planning",
+            zh: "測試與檢驗規劃(Test and Inspection Planning)",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Design Thinking",
+            zh: "設計思考(Design Thinking)",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Product Analysis (e.g., Value Engineering)",
+            zh: "產品分析(如價值工程)",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Decomposition",
+            zh: "分解(Decomposition)",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "Inspection",
+            zh: "檢視(Inspection)",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "規劃範疇管理運用測試與檢驗規劃及早設想驗證方式;引出並分析需求常用設計思考深入理解使用者潛在需求;定義範疇運用產品分析(如價值工程)將高階描述轉化為具體交付物;發展範疇結構運用分解技術將交付物拆成工作包;確認範疇則透過檢視(Inspection)確認交付物是否符合驗收標準。五個流程各自對應的代表性工具不同,是常見易混淆考點。",
+  },
+  {
+    id: "scp-101",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project needs input on requirements from over 2,000 customers spread across a dozen countries, and time is limited. Which data-gathering technique is generally most appropriate for efficiently collecting broad input from this large, geographically dispersed group?",
+      zh: "某專案需要向分散在十幾個國家、超過 2,000 位的客戶蒐集需求意見,且時間有限。對於這個規模龐大、地理分散的群體,哪一種資料蒐集技術通常最適合有效率地蒐集廣泛意見?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "One-on-one interviews with every single customer",
+          zh: "與每位客戶進行一對一訪談",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Questionnaires and surveys, which can efficiently reach a large, geographically dispersed audience for broad quantitative input",
+          zh: "問卷與調查,能有效率地觸及大規模、地理分散的受眾以蒐集廣泛的量化意見",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "A single in-person focus group held at company headquarters",
+          zh: "在公司總部舉辦單一場實體焦點團體",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "A facilitated workshop requiring all 2,000 customers to attend the same session",
+          zh: "引導式工作坊,要求全部 2,000 位客戶出席同一場會議",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "問卷與調查(Questionnaire and Survey)適合快速、有效率地觸及大規模且地理分散的受眾,蒐集廣泛的量化意見;對 2,000 位分散各地的客戶逐一進行一對一訪談、召開單一實體焦點團體或要求全員出席同一場工作坊,皆不符合時間有限、規模龐大且地理分散的情境限制。",
+  },
+  {
+    id: "scp-102",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "During Define Scope, the project team uses decision-making tools to converge on the final set of project requirements from many candidate items. Select the THREE decision-making techniques appropriate for this purpose.",
+      zh: "在定義範疇過程中,專案團隊運用決策工具,從眾多候選項目中收斂出最終的專案需求集合。請選出三項適合此用途的決策技術。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Voting",
+          zh: "投票(Voting)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Autocratic decision making",
+          zh: "獨裁式決策(Autocratic Decision Making)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Multicriteria decision analysis",
+          zh: "多準則決策分析(Multicriteria Decision Analysis)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Earned Value Analysis",
+          zh: "實獲值分析(Earned Value Analysis)",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Critical Path Method",
+          zh: "要徑法(Critical Path Method)",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "定義範疇流程中的決策工具包含投票、獨裁式決策(由單一具權限者拍板)與多準則決策分析,協助團隊從眾多候選需求中收斂出最終的專案需求;實獲值分析屬於 Finance 領域的績效衡量工具,要徑法屬於 Schedule 領域的時程分析工具,皆非用於收斂需求的決策技術。",
+  },
+  {
+    id: "scp-103",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A new government data-privacy regulation that the project team has no control over, but must comply with when defining scope, is an example of {{blank1}}; the organization's own pre-existing WBS templates and lessons-learned repository, which the team may choose to draw on, are examples of {{blank2}}.",
+      zh: "一項團隊無法控制、但在定義範疇時必須遵守的新政府資料隱私法規,是 {{blank1}} 的一個例子;而組織自身既有的 WBS 範本與經驗教訓資料庫,是團隊可自行選擇運用的 {{blank2}} 範例。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Enterprise Environmental Factors (EEF)",
+              zh: "企業環境因素(EEF)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Organizational Process Assets (OPA)",
+              zh: "組織過程資產(OPA)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Change Requests",
+              zh: "變更請求(Change Requests)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Enterprise Environmental Factors (EEF)",
+              zh: "企業環境因素(EEF)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Organizational Process Assets (OPA)",
+              zh: "組織過程資產(OPA)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Verified Deliverables",
+              zh: "已查證交付物(Verified Deliverables)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "企業環境因素(EEF)是專案團隊無法控制、卻會影響專案的外部或內部條件,例如政府法規;組織過程資產(OPA)則是組織既有、可被團隊選擇運用的政策、範本與經驗教訓等資源,例如既有的 WBS 範本。兩者皆是範疇相關流程常見的輸入類別,但性質不同,需正確辨別何者屬於「不可控的環境因素」、何者屬於「組織內部可運用的資產」。",
+  },
+  {
+    id: "scp-104",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each WBS Dictionary field to the example content that would typically appear under it.",
+      zh: "請將下列每個 WBS 字典欄位拖曳配對到其通常會出現的範例內容。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Description of Work",
+            zh: "工作描述(Description of Work)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Responsible Organization or Individual",
+            zh: "負責組織或個人(Responsible Organization or Individual)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Acceptance Criteria",
+            zh: "驗收標準(Acceptance Criteria)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Milestones",
+            zh: "里程碑(Milestones)",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Resource Requirements",
+            zh: "所需資源(Resource Requirements)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "\"Design, build, and unit-test the user authentication module, including login and password reset flows.\"",
+            zh: "「設計、建置並單元測試使用者驗證模組,包含登入與密碼重設流程。」",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "\"Backend Engineering Team, led by Jordan Lee.\"",
+            zh: "「後端工程團隊,由 Jordan Lee 領導。」",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "\"Must pass all security penetration tests and support at least 500 concurrent logins.\"",
+            zh: "「必須通過所有滲透測試,並支援至少 500 個並發登入。」",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "\"Module code freeze scheduled for the end of Week 6.\"",
+            zh: "「模組程式碼凍結預計於第 6 週結束。」",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "\"Two senior backend developers and one QA engineer for four weeks.\"",
+            zh: "「兩名資深後端開發人員與一名 QA 工程師,為期四週。」",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "WBS 字典針對每個工作包提供詳細資訊,常見欄位包含工作描述(說明具體要做什麼)、負責組織/個人(誰來做)、驗收標準(如何判定完成)、里程碑(關鍵時間點)與所需資源(需要哪些人力/物力);這些欄位補充了 WBS 圖形本身無法呈現的細節,方便後續執行、追蹤與驗收。",
+  },
+  {
+    id: "scp-105",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each layer of the WBS hierarchy to its description.",
+      zh: "請將下列每個 WBS 階層拖曳配對到其描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Project (top layer)",
+            zh: "專案(最上層)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Control Account (middle layer)",
+            zh: "控制帳戶(中層)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Work Package (bottom layer)",
+            zh: "工作包(最下層)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "The single top-level node representing the entire project; there is only one of these in a WBS.",
+            zh: "代表整個專案的單一最上層節點;一份 WBS 中只有一個。",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "A management control point where scope, budget, and schedule are integrated and compared to earned value; sits between the project level and the work packages.",
+            zh: "一個管理控制點,範疇、預算與時程在此整合並與實獲值比對;位於專案層級與工作包之間。",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "The smallest, most granular unit of the WBS, appropriately sized to be reliably estimated, assigned, and tracked.",
+            zh: "WBS 中最小、顆粒度最細的單位,適合被可靠地估算、指派與追蹤。",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+    },
+    explanation: "WBS 的階層結構由上而下依序為:上層是專案本身(僅一個節點)、中層是控制帳戶(Control Account,管理控制點,範疇、預算、時程在此整合以利績效衡量)、下層(可有多個)則是工作包(Work Package,WBS 最小單位)。正確理解此三層結構有助於分辨「控制帳戶」與「工作包」在管理上的不同角色。",
+  },
+  {
+    id: "scp-106",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A stakeholder insists on adding a new requirement that conflicts with the project's approved Business Case and strategic objectives. Select the TWO most appropriate actions for the project manager.",
+      zh: "一位利害關係人堅持要加入一項與專案已核准的商業論證及策略目標相衝突的新需求。請選出專案經理應採取的兩項最適當行動。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Discuss the conflict openly with the stakeholder, explaining how the request diverges from the approved Business Case and strategic objectives.",
+          zh: "與該利害關係人坦誠討論此衝突,說明此請求與已核准的商業論證及策略目標有何出入。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "If the stakeholder still believes the requirement has merit, route it through formal change control so its impact and alignment can be properly evaluated before any decision is made.",
+          zh: "若該利害關係人仍認為此需求有其必要性,則透過正式變更管控流程處理,以便在做出決定前妥善評估其影響與一致性。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Add the requirement immediately without further discussion, since the stakeholder insisted.",
+          zh: "因為利害關係人堅持,直接加入此需求而不再進一步討論。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Ignore the Business Case entirely and let the team decide based on personal preference.",
+          zh: "完全忽視商業論證,讓團隊依個人喜好自行決定。",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "當利害關係人的需求與已核准的商業論證及策略目標衝突時,專案經理應先坦誠溝通落差所在,若對方仍堅持有其價值,則應透過正式變更管控流程妥善評估影響與一致性後再做決定,而非未經討論就逕行採納,也不應完全忽視商業論證放任團隊自行決定,這樣才能確保範疇異動與專案的商業目標保持一致。",
+  },
+  {
+    id: "scp-107",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A language app's backlog includes a custom pronunciation scoring feature planned a year ago; a developer notes that new off the shelf AI speech models now do the same job, likely making the item obsolete. What should the project manager do?",
+      zh: "某語言學習 App 的產品待辦清單裡,有一項一年前規劃的客製化發音評分功能;一位開發人員指出,現成的新款 AI 語音模型現在也能做到一樣的事,這個項目很可能已經過時了。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Bring the observation to the product owner to rule on the item's remaining value.",
+          zh: "把這個觀察反映給產品負責人,由他來裁定這個項目是否還有剩餘價值",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Run a short technical spike comparing the new models against the planned feature.",
+          zh: "進行一次簡短的技術探究(spike),比較新模型跟原規劃功能的差異",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Let the team vote on whether the item stays in the backlog.",
+          zh: "讓團隊投票決定這個項目是否留在待辦清單裡",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Ask the sponsor whether the feature should be cut from the plan.",
+          zh: "詢問贊助人這項功能是否應該從計畫中刪除",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "待辦清單裡的項目是否還有價值、該不該留下,屬於產品負責人(Product Owner)的職責範圍,這是敏捷團隊角色分工裡明確授權給 PO 的決策,PM 不該越俎代庖,也不該把這個決定丟給團隊投票或贊助人裁決,尊重角色分工上已經被賦予的決策權,正是賦權團隊成員與利害關係人精神的具體展現。技術探究本身沒有錯,但它是 PO 判斷「這個功能到底還值不值得做」時可能會用到的其中一項輸入資訊,並不能取代把最終裁定權交還給 PO 這個步驟。",
   },
   {
     id: "match-001",
@@ -12674,6 +17161,2170 @@ export const sampleQuestions = [
     explanation: "時間刻度邏輯圖(Time-Scaled Logic Diagram)結合了網路圖的邏輯相依關係與甘特圖的時間比例呈現方式,活動方框長度對應其工期,同時保留箭頭表示的相依關係,兼具兩種呈現法的優點,故答案為 (b)。里程碑圖只標示重要時間點,不呈現活動工期或相依關係;資源直方圖呈現的是資源負荷而非時程邏輯;管制圖則是品質管理中用於監控製程穩定性的工具,與時程呈現無關。",
   },
   {
+    id: "sch-071",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "During the Daily Standup (Daily Scrum), the team meets for a strict 15-minute timebox so that each member briefly answers three questions: what did I complete yesterday, what will I do today, and what obstacles are blocking me. What is the PRIMARY purpose of this event?",
+      zh: "在每日站立會議(Daily Standup / Daily Scrum)中,團隊嚴格控制在 15 分鐘的時間箱內,讓每位成員簡短回答三個問題:昨天完成了什麼、今天要做什麼、遇到什麼障礙。此活動的「主要」目的為何?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "To give the Scrum Master a detailed status report so they can update the project schedule baseline",
+          zh: "讓 Scrum Master 取得詳細狀態報告,以便更新專案時程基準",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "To let the team synchronize their work and surface impediments to each other on a daily cadence, not to report status upward to management",
+          zh: "讓團隊每日同步彼此的工作進度、並互相揭露障礙,而非向管理層做進度報告",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "To formally reassign story points among team members based on yesterday's output",
+          zh: "依據昨日產出,正式在團隊成員間重新分配故事點",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "To replace the Sprint Review by demonstrating completed work to stakeholders every day",
+          zh: "取代 Sprint Review,每天向利害關係人展示已完成的工作",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "每日站立會議的主要目的是團隊內部同步工作進度、互相揭露障礙,以利團隊自我調整,而非向上做正式進度報告,故答案為 (b)。(a) 誤將此會議當成給 Scrum Master 或管理層的狀態報告;(c) 錯誤,重新分配故事點並非站立會議的目的;(d) 錯誤,展示成果給利害關係人是 Sprint Review 的功能,不應由每日站立會議取代。",
+  },
+  {
+    id: "sch-072",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Which two statements correctly distinguish the Sprint Review from the Sprint Retrospective? Select two.",
+      zh: "關於 Sprint Review(衝刺審查)與 Sprint Retrospective(衝刺回顧)的差異,下列哪兩項敘述正確?請選擇兩項。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The Sprint Review's timebox scales with sprint length, generally capped at around one hour per week of the sprint (e.g., up to two hours for a two-week sprint), and includes stakeholders inspecting the increment",
+          zh: "Sprint Review 的時間箱會依衝刺長度縮放,大致以每週上限約一小時為原則(例如兩週衝刺上限約兩小時),且會邀請利害關係人一同檢視增量成果",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The Sprint Retrospective is an internal team event focused on inspecting how the team worked together and identifying process improvements for the next sprint",
+          zh: "Sprint Retrospective 是團隊內部活動,聚焦於檢視團隊協作方式,並找出下一個衝刺可改善的流程做法",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The Sprint Retrospective is where stakeholders formally accept or reject the working increment",
+          zh: "Sprint Retrospective 是利害關係人正式驗收或拒絕可用增量的場合",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The Sprint Review should exclude the Product Owner to avoid biasing stakeholder feedback",
+          zh: "Sprint Review 應排除產品負責人(Product Owner)參與,以避免影響利害關係人的回饋",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Both events are optional and may be skipped whenever the team feels confident about its progress",
+          zh: "只要團隊對進度有信心,這兩項活動都可以省略不辦",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "Sprint Review 邀請利害關係人共同檢視可用增量,時間箱依衝刺長度按比例訂定(約每週一小時);Sprint Retrospective 則是團隊內部檢討協作與流程、規劃改善行動的場合,兩者目的不同,故 (a)(b) 正確。(c) 描述的驗收行為屬於 Sprint Review 而非 Retrospective;(d) 錯誤,產品負責人通常應參與 Sprint Review;(e) 錯誤,這兩項都是 Scrum 中建議固定舉辦的時間箱活動,不應隨意省略。",
+  },
+  {
+    id: "sch-073",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "A Kanban team measures its flow over several weeks and finds an average of 12 items in progress (WIP) at any given time, with an average cycle time of 4 days per item. Using Little's Law (WIP = Throughput × Cycle Time), what is the team's average throughput?",
+      zh: "某看板團隊觀察數週後發現,在製品(WIP)平均為 12 項,每項平均週期時間(Cycle Time)為 4 天。依據 Little's Law(WIP = 產出率 Throughput × 週期時間 Cycle Time),此團隊的平均產出率(Throughput)為何?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "1 item per day",
+          zh: "每天 1 項",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "3 items per day",
+          zh: "每天 3 項",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "4 items per day",
+          zh: "每天 4 項",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "48 items per day",
+          zh: "每天 48 項",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "Little's Law 公式為 WIP = Throughput × Cycle Time,移項可得 Throughput = WIP ÷ Cycle Time = 12 ÷ 4 = 3 項/天,故答案為 (b)。(d) 誤將公式做乘法(12×4=48);(a)(c) 則是常見的除法或代入錯誤。",
+  },
+  {
+    id: "sch-074",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "multiple_response",
+    difficulty: "hard",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A team reviews its Cumulative Flow Diagram (CFD), which plots the cumulative count of items in each workflow stage (To Do, In Progress, Done) over time as stacked bands. Which two statements correctly describe how to read this diagram? Select two.",
+      zh: "團隊檢視其累積流圖(Cumulative Flow Diagram, CFD),此圖以堆疊色帶呈現每個工作階段(待辦、進行中、完成)隨時間累積的項目數量。關於此圖的判讀,下列哪兩項敘述正確?請選擇兩項。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The vertical distance between two adjacent bands at a given point in time represents the number of items (WIP) currently sitting in that stage",
+          zh: "在某一時間點,兩條相鄰色帶之間的「垂直距離」代表目前停留在該階段的項目數量(WIP)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The horizontal distance between two adjacent bands represents the average time (lead/cycle time) items are spending in that stage",
+          zh: "兩條相鄰色帶之間的「水平距離」代表項目停留在該階段的平均時間(前置時間/週期時間)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "A band that steadily widens over time indicates the stage is keeping pace and is not a bottleneck",
+          zh: "色帶隨時間持續變寬,代表該階段的處理速度跟得上,並非瓶頸",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The CFD can only be produced for Kanban boards and has no meaningful use on a Scrum sprint board",
+          zh: "CFD 只能用於看板(Kanban),對 Scrum 衝刺看板毫無意義",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "If the \"Done\" band's slope becomes flatter, this always means the team's throughput is increasing",
+          zh: "「完成」色帶的斜率若變得更平緩,永遠代表團隊的產出率正在提升",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "CFD 的核心判讀原則是:同一時間點兩色帶間的垂直距離 = 該階段 WIP;兩色帶間的水平距離 = 項目在該階段停留的前置或週期時間,故 (a)(b) 正確。(c) 錯誤,色帶持續變寬通常代表項目堆積、正是瓶頸警訊,而非跟得上進度;(d) 錯誤,CFD 同樣可套用於 Scrum 的衝刺看板;(e) 錯誤,完成色帶斜率變平緩通常代表產出「趨緩」而非提升,方向恰好相反。",
+  },
+  {
+    id: "sch-075",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Schedule",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each iteration/spike type to the description that best fits it.",
+      zh: "請將下列每種迭代/尖峰(Spike)類型拖曳配對到最符合的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Iteration 0",
+            zh: "第零次迭代(Iteration 0)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Development Iteration",
+            zh: "開發迭代(Dev Iteration)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "H (Hardening) Iteration",
+            zh: "H(強化)迭代",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Architecture Spike",
+            zh: "架構尖峰(Architecture Spike)",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Risk-Based Spike",
+            zh: "風險導向尖峰(Risk-Based Spike)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "A short preparatory iteration used to set up the environment, tools, initial backlog, and team logistics before development work begins",
+            zh: "一段短暫的前置迭代,用於在開發工作展開前,建置環境、工具、初始待辦清單與團隊運作方式",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "A regular iteration in which the team builds, integrates, and tests working product increments",
+            zh: "團隊建置、整合並測試可用產品增量的常規迭代",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "An iteration inserted (often before a release) to perform final integration, regression testing, and technical debt cleanup across the whole system",
+            zh: "(通常於發布前)安排的迭代,用於執行最終整合、迴歸測試,並清理整個系統的技術債",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "A short, timeboxed investigation used to explore an unproven technical approach or design option before committing to it",
+            zh: "一段短暫、有時間箱限制的探索性工作,用於在正式投入之前,先驗證未經證實的技術做法或設計選項",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "A short, timeboxed investigation aimed specifically at reducing uncertainty around a high-risk area of the product",
+            zh: "一段短暫、有時間箱限制的探索性工作,專門用於降低產品中高風險領域的不確定性",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "Iteration 0 是開發前的準備迭代,聚焦於環境與工具建置;Dev Iteration 是產出可用增量的常規迭代;H(強化)迭代常安排在發布前,用於系統整合、迴歸測試與技術債清理;Spike 則是短期、有時間箱的探索性工作,Architecture Spike 聚焦於驗證技術/設計方案的可行性,Risk-Based Spike 則聚焦於降低特定高風險領域的不確定性,兩者目的不同但形式類似,考生常混淆,需依情境判斷探索的重點是「技術可行性」還是「風險降低」。",
+  },
+  {
+    id: "sch-076",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A newly formed agile team has had different members rotate in and out every sprint for its first four sprints. Its velocity has swung wildly: 14, 31, 9, and 26 story points. Stakeholders ask the PM to use this data to forecast the release date. What should the PM advise?",
+      zh: "一個新成立的敏捷團隊,在前四個衝刺中每次都有不同成員輪替加入或離開。其產出速度(Velocity)劇烈震盪:14、31、9、26 個故事點。利害關係人要求專案經理用這些數據預測發布日期。專案經理應如何建議?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Average the four numbers and present that as a reliable forecast, since velocity is always accurate regardless of team stability",
+          zh: "將四個數字取平均,直接作為可靠預測呈現,因為產出速度不論團隊是否穩定都一定準確",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Explain that velocity is only a reliable forecasting input once the team's composition and working agreements stabilize, and recommend using a range based on more sprints of stable-team data before committing to a date",
+          zh: "說明唯有在團隊組成與工作默契趨於穩定後,產出速度才會是可靠的預測依據,並建議累積更多穩定團隊的衝刺數據,以區間方式呈現,再承諾具體日期",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ignore velocity entirely and switch to estimating remaining work in ideal hours instead",
+          zh: "完全捨棄產出速度,改用理想工時來估算剩餘工作",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Recommend comparing this team's velocity directly against another team's velocity to validate whether 14–31 points is a normal range",
+          zh: "建議直接拿這個團隊的產出速度與另一個團隊的產出速度比較,以驗證 14~31 是否為正常範圍",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "產出速度(Velocity)是團隊自身歷史數據的度量,唯有在團隊成員與工作方式趨於穩定後才具有預測參考價值;團隊組成頻繁變動會使速度劇烈波動、難以作為可靠預測依據,應待累積更多穩定期的數據後,以區間而非單一數字溝通預測,故答案為 (b)。(a) 過度簡化且忽略團隊不穩定的影響;(c) 並非必要,只是需更謹慎使用速度數據;(d) 錯誤,速度是團隊專屬的相對度量單位,不同團隊間不可直接比較。",
+  },
+  {
+    id: "sch-077",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each agile event to its typical timebox guideline.",
+      zh: "請將下列每個敏捷活動拖曳配對到其典型的時間箱(Timebox)準則。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Daily Standup (Daily Scrum)",
+            zh: "每日站立會議",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Sprint Planning",
+            zh: "衝刺規劃",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Sprint Review",
+            zh: "衝刺審查",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Sprint Retrospective",
+            zh: "衝刺回顧",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Strictly timeboxed to about 15 minutes, held at the same time and place each working day",
+            zh: "嚴格限制在約 15 分鐘內,每個工作日在同一時間、同一地點舉行",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Timeboxed roughly in proportion to sprint length, e.g., up to about 8 hours for a one-month sprint",
+            zh: "時間箱大致依衝刺長度按比例訂定,例如一個月衝刺上限約 8 小時",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Timeboxed at roughly one hour per week of the sprint, e.g., up to about 2 hours for a two-week sprint, with stakeholders inspecting the increment",
+            zh: "時間箱大致以每週一小時為原則,例如兩週衝刺上限約 2 小時,由利害關係人一同檢視增量",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "A shorter meeting held after the review and before the next planning, focused on team process improvement",
+            zh: "在審查之後、下一次規劃之前舉行的較短會議,聚焦於團隊流程改善",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "每日站立會議嚴格控制在 15 分鐘;衝刺規劃的時間箱大致依衝刺長度按比例訂定(例如一個月衝刺上限約 8 小時);衝刺審查則大致以每週一小時為原則(兩週衝刺約上限 2 小時),邀請利害關係人參與;衝刺回顧通常安排在審查之後、下一次規劃之前,時間較短,聚焦於團隊自身的流程改善,而非對外展示成果。這些時間箱準則有助於控制會議成本、避免會議無限膨脹。",
+  },
+  {
+    id: "sch-078",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Schedule",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A team's sprint is two weeks long, so its Sprint Review is timeboxed to about {{blank1}}, and everyone arrives prepared knowing the meeting will not run indefinitely. In contrast, when a work item is given no timebox or deadline pressure at all, {{blank2}} tends to occur, where team members delay starting meaningful work until the last responsible moment nears.",
+      zh: "某團隊的衝刺長度為兩週,因此其衝刺審查(Sprint Review)的時間箱大約訂為 {{blank1}},大家都知道會議不會無限拖延,因此提前準備。相對地,當一項工作完全沒有時間箱或期限壓力時,則容易出現 {{blank2}},也就是團隊成員會拖到最後責任時刻逼近才真正開始投入。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "15 minutes",
+              zh: "15 分鐘",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "2 hours",
+              zh: "2 小時",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "2 days",
+              zh: "2 天",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Parkinson's Law",
+              zh: "帕金森定律(Parkinson's Law)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Student Syndrome",
+              zh: "學生症候群(Student Syndrome)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Little's Law",
+              zh: "Little 定律(Little's Law)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "b",
+      blank2: "b",
+    },
+    explanation: "Sprint Review 的時間箱大致以每週一小時為原則,兩週衝刺約為 2 小時,故 blank1 選 (b)。學生症候群(Student Syndrome)是指人們傾向拖到最後責任時刻才真正開始投入工作,與「工作會膨脹填滿所分配到的全部時間」的帕金森定律(Parkinson's Law)概念相近卻不完全相同:前者強調「延遲開始」,後者強調「即使提早開始也不會提早完成」,故 blank2 應選 (b) 而非 (a)。Little's Law 則是描述 WIP、產出率與週期時間關係的公式,與此處描述的拖延行為無關。",
+  },
+  {
+    id: "sch-079",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "hotspot",
+    difficulty: "hard",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "The team's Kanban board has a WIP limit of 3 items for the \"In Progress\" column. The board currently shows: To Do (5 items), In Progress (5 items), Review (2 items), Done (8 items). Click the column that is currently violating its WIP limit.",
+      zh: "團隊看板的「進行中(In Progress)」欄位設有 WIP 限制為 3 項。目前看板狀態為:待辦(5 項)、進行中(5 項)、審查(2 項)、完成(8 項)。請點選目前違反 WIP 限制的欄位。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "To Do (5 items)",
+          zh: "待辦(5 項)",
+        },
+        x: 5,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "In Progress (5 items, WIP limit 3)",
+          zh: "進行中(5 項,WIP 限制 3)",
+        },
+        x: 30,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Review (2 items)",
+          zh: "審查(2 項)",
+        },
+        x: 55,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Done (8 items)",
+          zh: "完成(8 項)",
+        },
+        x: 80,
+        y: 40,
+        width: 18,
+        height: 20,
+      },
+    ],
+    correctAnswer: "n2",
+    edges: [
+      {
+        from: "n1",
+        to: "n2",
+      },
+      {
+        from: "n2",
+        to: "n3",
+      },
+      {
+        from: "n3",
+        to: "n4",
+      },
+    ],
+    explanation: "題目設定「進行中」欄位的 WIP 限制為 3 項,但目前實際有 5 項卡片停留在該欄位,已超出限制上限 2 項,代表該階段可能發生瓶頸,團隊應優先協助完成進行中的項目,而非拉入新工作,故正解為「進行中」欄位(n2)。待辦、審查、完成欄位在題目中並未被賦予 WIP 限制,也未超出限制,故非本題答案。",
+  },
+  {
+    id: "sch-080",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "A project has a Budget at Completion (BAC) of $400,000. According to the schedule baseline, 45% of the work should have been completed by today, but the team has actually completed only 38% of the work. What is the Schedule Variance (SV), and what does it indicate?",
+      zh: "某專案的完工預算(BAC)為 $400,000。依時程基準,今天應完成 45% 的工作,但團隊實際只完成了 38% 的工作。時程變異(SV)為何?這代表什麼意涵?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "SV = −$28,000; the project is behind schedule",
+          zh: "SV = −$28,000;專案進度落後",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "SV = +$28,000; the project is ahead of schedule",
+          zh: "SV = +$28,000;專案進度超前",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "SV = −$180,000; the project is severely behind schedule",
+          zh: "SV = −$180,000;專案嚴重落後進度",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "SV = $0; the project is exactly on schedule",
+          zh: "SV = $0;專案剛好符合進度",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "PV(計畫值)= 計畫完成% × BAC = 45% × 400,000 = $180,000。EV(實獲值)= 實際完成% × BAC = 38% × 400,000 = $152,000。SV = EV − PV = 152,000 − 180,000 = −$28,000。SV 為負值代表專案目前落後於時程基準,故答案為 (a)。(c) 誤將 PV 本身當作 SV;(b) 正負號相反;(d) 忽略了計畫與實際完成度之間 7% 的落差。",
+  },
+  {
+    id: "sch-081",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Schedule",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each collaboration game to the description that best fits it.",
+      zh: "請將下列協作遊戲(Collaboration Game)拖曳配對到最符合的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Remember the Future",
+            zh: "回憶未來(Remember the Future)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Prune the Product Tree",
+            zh: "修剪產品樹(Prune the Product Tree)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Speedboat",
+            zh: "快艇(Speedboat)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Stakeholders are asked to imagine the project has already succeeded and describe what that success looks like, helping the team understand stakeholders' definition of success early on",
+            zh: "邀請利害關係人想像專案已經成功,並描述成功的樣貌,協助團隊及早理解利害關係人對成功的定義",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Stakeholders write candidate features on cards and place them onto a drawn tree, grouping related features on the same branch and positioning features that depend on others higher up, helping visualize and organize the feature set",
+            zh: "利害關係人將候選功能寫在卡片上並貼到畫好的樹上,將相關功能歸類在同一樹枝,需依賴其他功能的項目則位置較高,協助視覺化並整理功能集合",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Participants draw a boat with sails (driving forces) and anchors (obstacles or risks) to help surface what is propelling the project forward and what is holding it back",
+            zh: "參與者畫出一艘船,搭配風帆(推動力)與船錨(阻礙或風險),協助釐清哪些因素正在推動專案前進、哪些正在拖累專案",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+    },
+    explanation: "協作遊戲(Collaboration Games)是敏捷團隊常用於激發利害關係人參與、蒐集需求與排序優先順序的引導技巧。回憶未來透過「假設已成功」的想像,協助團隊提早釐清成功的定義;修剪產品樹透過視覺化的樹狀結構,協助整理與分類功能需求;快艇則透過風帆與船錨的比喻,協助團隊辨識推動與阻礙專案的因素,三者皆強調以低科技、高互動的方式促進團隊與利害關係人之間的溝通與共識。",
+  },
+  {
+    id: "sch-082",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "Three activities — M, N, and P — are all on the critical path and can each be crashed by at least one day. Crashing Activity M costs an extra $1,800 per day saved, Activity N costs an extra $2,500 per day saved, and Activity P costs an extra $1,200 per day saved. The PM only needs to save one day at the lowest possible additional cost. Which activity should be crashed first?",
+      zh: "活動 M、N、P 皆位於要徑上,且每項都至少可被趕工(Crashing)一天。趕工活動 M 每縮短一天需額外花費 $1,800,活動 N 每縮短一天需額外花費 $2,500,活動 P 每縮短一天需額外花費 $1,200。專案經理只需以最低的額外成本節省一天,應優先趕工哪一項活動?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Activity M",
+          zh: "活動 M",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Activity N",
+          zh: "活動 N",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Activity P",
+          zh: "活動 P",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "It does not matter, since all three are on the critical path",
+          zh: "沒有差別,因為三項都在要徑上",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "在多項要徑活動皆可壓縮的情況下,應優先選擇「成本斜率(Cost Slope)」最低、也就是每縮短一天所需額外成本最少的活動進行趕工,才能以最低總成本達成壓縮目標。活動 P 每天僅需額外 $1,200,低於活動 M 的 $1,800 與活動 N 的 $2,500,故應優先趕工活動 P,答案為 (c)。雖然三項活動都在要徑上、延遲都會影響完工日,但這不代表趕工哪一項的成本效益相同,仍須比較各自的成本斜率。",
+  },
+  {
+    id: "sch-083",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Schedule",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Which two statements correctly describe a Resource Histogram? Select two.",
+      zh: "關於資源直方圖(Resource Histogram),下列哪兩項敘述正確?請選擇兩項。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "It is a bar chart showing how much of a given resource (such as a person or role) is required or allocated across time periods, making over-allocation easy to spot",
+          zh: "它是一種長條圖,呈現特定資源(如某人或某角色)在各時間區段所需或已分配的數量,能讓資源超額分配的情況一目了然",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "When the histogram shows a resource loaded above its maximum available capacity in a given period, this signals a resource conflict that resource leveling or smoothing may need to address",
+          zh: "當直方圖顯示某資源在特定期間的負荷超過其最大可用產能時,代表出現資源衝突,可能需要透過資源撫平或資源平準來處理",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "It always shows cost data rather than resource-hours or headcount",
+          zh: "它一定顯示成本資料,而非資源工時或人力數量",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "It replaces the need for a network diagram when developing the schedule",
+          zh: "在發展時程時,它可以取代網路圖的需要",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "It can only be produced for individually named people, never for role-based resource pools",
+          zh: "它只能針對具名的個人繪製,絕不能用於以角色為單位的資源池",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "資源直方圖以長條圖呈現特定資源(可能是具名個人,也可能是角色/資源池)在各時間區段的需求量或分配量,是辨識資源超額分配、及早發現資源衝突的重要視覺化工具,故 (a)(b) 正確。它呈現的通常是工時或人力數量而非成本資料,也不能取代網路圖對邏輯相依關係的呈現,更不限於只能用於具名個人,故 (c)(d)(e) 皆為錯誤敘述。",
+  },
+  {
+    id: "sch-084",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "A Kanban team observes an average Work in Progress (WIP) of 20 items and a throughput of 4 items per day. Using Little's Law (WIP = Throughput × Cycle Time), the team's average Cycle Time is {{blank1}} days. If the team later reduces its average WIP to 12 items while throughput stays at 4 items per day, the new average Cycle Time would be {{blank2}} days.",
+      zh: "某看板團隊觀察到平均在製品(WIP)為 20 項,產出率(Throughput)為每天 4 項。依據 Little's Law(WIP = Throughput × Cycle Time),此團隊的平均週期時間(Cycle Time)為 {{blank1}} 天。若團隊之後將平均 WIP 降低至 12 項,產出率仍維持每天 4 項,則新的平均週期時間為 {{blank2}} 天。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "3",
+              zh: "3",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "5",
+              zh: "5",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "8",
+              zh: "8",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "3",
+              zh: "3",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "5",
+              zh: "5",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "8",
+              zh: "8",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "b",
+      blank2: "a",
+    },
+    explanation: "Little's Law 公式為 WIP = Throughput × Cycle Time,移項可得 Cycle Time = WIP ÷ Throughput。第一種情境:20 ÷ 4 = 5 天,對應 blank1。第二種情境:團隊降低 WIP 至 12 項後,12 ÷ 4 = 3 天,對應 blank2。此結果也說明:在產出率不變的前提下,降低在製品數量能有效縮短每個項目的平均週期時間,這是看板方法限制 WIP 的核心理論依據。",
+  },
+  {
+    id: "sch-085",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Schedule",
+    questionType: "hotspot",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "The four cards below name different schedule- or resource-related visualization tools. Click the one that displays, as a bar chart across time periods, how much of a given resource (such as a person or role) is required or allocated — making it easy to spot when that resource is loaded above its available capacity.",
+      zh: "下方四張卡片列出不同的時程/資源視覺化工具。請點選「以長條圖呈現特定資源(如某人或某角色)在各時間區段所需或已分配數量,讓資源負荷超過可用產能時容易被發現」的工具。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Resource Histogram",
+          zh: "資源直方圖(Resource Histogram)",
+        },
+        x: 10,
+        y: 15,
+        width: 35,
+        height: 25,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Cumulative Flow Diagram",
+          zh: "累積流圖(CFD)",
+        },
+        x: 55,
+        y: 15,
+        width: 35,
+        height: 25,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Milestone Chart",
+          zh: "里程碑圖(Milestone Chart)",
+        },
+        x: 10,
+        y: 60,
+        width: 35,
+        height: 25,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Time-Scaled Logic Diagram",
+          zh: "時間刻度邏輯圖",
+        },
+        x: 55,
+        y: 60,
+        width: 35,
+        height: 25,
+      },
+    ],
+    correctAnswer: "n1",
+    explanation: "資源直方圖(Resource Histogram)以長條圖呈現特定資源在各時間區段的需求或分配量,是辨識資源超額分配、及早採取資源撫平或平準措施的常用工具;累積流圖呈現的是工作項目在各工作階段隨時間累積的數量,用於觀察流動效率與瓶頸;里程碑圖只呈現重要檢核點日期;時間刻度邏輯圖則結合網路邏輯與時間比例,皆非本題描述的資源負荷視覺化工具。",
+  },
+  {
+    id: "sch-086",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "A Kanban team's average throughput is 5 items per day, and its average cycle time per item is 6 days. Using Little's Law (WIP = Throughput × Cycle Time), what is the team's average Work in Progress (WIP)?",
+      zh: "某看板團隊的平均產出率(Throughput)為每天 5 項,每項平均週期時間(Cycle Time)為 6 天。依據 Little's Law(WIP = Throughput × Cycle Time),此團隊的平均在製品(WIP)為何?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "1.2 items",
+          zh: "1.2 項",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "11 items",
+          zh: "11 項",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "30 items",
+          zh: "30 項",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "0.83 items",
+          zh: "0.83 項",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "Little's Law 公式:WIP = Throughput × Cycle Time = 5 × 6 = 30 項,故答案為 (c)。(a) 誤將公式做除法(5÷6≈0.83 的相近錯誤);(b) 是加法的錯誤結果(5+6=11);(d) 則是 Throughput 除以 Cycle Time 的錯誤操作,皆非正確公式的應用方式。",
+  },
+  {
+    id: "sch-087",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Schedule",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each backlog prioritization technique to the description that best fits it.",
+      zh: "請將下列待辦清單優先排序技巧拖曳配對到最符合的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "MoSCoW Prioritization",
+            zh: "MoSCoW 優先排序法",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Dot Voting",
+            zh: "點點投票法(Dot Voting)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "100-Point Method",
+            zh: "百點法(Monopoly Money)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Kano Analysis",
+            zh: "卡諾分析(Kano Analysis)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Sorts items into four categories — Must have, Should have, Could have, and Won't have this time — to clarify what is essential versus optional",
+            zh: "將項目分成四類——必須有、應該有、可以有、這次不會有——以釐清何者為必要、何者為可有可無",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Each participant receives a limited number of sticky dots and places them directly on the backlog items they consider most important",
+            zh: "每位參與者獲得有限數量的貼紙圓點,直接貼在自己認為最重要的待辦項目上",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Each participant is given a fixed pool of points (or play money) to distribute across competing items according to how much they value them",
+            zh: "每位參與者獲得固定總額的點數(或遊戲貨幣),依自己重視的程度分配到不同的候選項目上",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Plots each feature by degree of functionality/investment against resulting customer satisfaction, distinguishing basic expected features from those that delight customers",
+            zh: "依「功能實現程度/投入」與「客戶滿意度」兩軸繪製各功能,區分出基本必要功能與能讓客戶驚喜的功能",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "MoSCoW 以四個類別快速區分必要性;點點投票法與百點法都是讓利害關係人以有限資源(圓點或點數)分配偏好的排序方式,差別在於點點投票通常較粗略、百點法則能表達更細緻的相對重視程度;卡諾分析則以兩軸模型分析功能對客戶滿意度的影響,協助團隊辨識哪些功能屬於「基本門檻」、哪些屬於「加分驚喜」。四者皆是敏捷團隊用以決定待辦清單優先順序的常見技巧。",
+  },
+  {
+    id: "sch-088",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "calculation",
+    stem: {
+      en: "An activity has the following three-point estimates: Optimistic = 5 days, Most Likely = 9 days, Pessimistic = 17 days. What is the standard deviation of this activity's duration estimate?",
+      zh: "某活動的三點估算如下:樂觀值(O)= 5 天、最可能值(M)= 9 天、悲觀值(P)= 17 天。此活動工期估算的標準差為何?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "1.33 days",
+          zh: "1.33 天",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "1.67 days",
+          zh: "1.67 天",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "2.0 days",
+          zh: "2.0 天",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "2.4 days",
+          zh: "2.4 天",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "標準差公式 = (P−O)/6 = (17−5)/6 = 12/6 = 2.0 天,故答案為 (c)。標準差愈大,代表悲觀值與樂觀值之間的差距愈大,此活動工期估算的不確定性也愈高;許多考生容易誤用 (P−O)/2 或漏記除以 6,而得出 (a)(b)(d) 等錯誤答案。",
+  },
+  {
+    id: "sch-089",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Which two statements correctly describe Monte Carlo Simulation as used in schedule risk analysis? Select two.",
+      zh: "關於蒙地卡羅模擬(Monte Carlo Simulation)在時程風險分析中的應用,下列哪兩項敘述正確?請選擇兩項。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "It runs the schedule network model many times using randomly varied input values (such as three-point duration estimates) to produce a probability distribution of possible finish dates",
+          zh: "它使用隨機變動的輸入值(如三點工期估算)反覆執行時程網路模型多次,產出可能完工日期的機率分布",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Its output can express confidence levels, such as an 80% probability of finishing by a certain date, rather than a single fixed date",
+          zh: "其輸出結果可以表達信心水準,例如「有 80% 機率在某日期前完工」,而非單一固定日期",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "It guarantees the project will finish on the single most likely date shown by the simulation",
+          zh: "它保證專案一定會在模擬結果顯示的最可能日期完工",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "It can only be used on small projects with fewer than ten activities",
+          zh: "它只能用於少於十項活動的小型專案",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "It replaces the need to ever perform a forward and backward pass (CPM) on the network diagram",
+          zh: "它能完全取代在網路圖上執行順推法與逆推法(CPM)的需要",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "蒙地卡羅模擬透過大量隨機模擬,反映工期估算本身的不確定性,產出的是完工日期的機率分布而非單一保證日期,可用來向利害關係人溝通「多少信心水準能在某日期前完工」,故 (a)(b) 正確。(c) 錯誤,模擬結果是機率分布而非保證;(d) 錯誤,此技術常用於大型複雜專案,活動數量並無此類限制;(e) 錯誤,蒙地卡羅模擬是 CPM 分析之外的補充技術,並非取代關係。",
+  },
+  {
+    id: "sch-090",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "dropdown",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "In Feature-Driven Development (FDD), the team first works with domain experts to build a high-level overall model of the system; this step is called {{blank1}}. The team then decomposes that model into a prioritized list of small, client-valued features; this step is called {{blank2}}.",
+      zh: "在功能驅動開發(FDD)中,團隊首先與領域專家合作,建立系統的高階整體模型,此步驟稱為 {{blank1}};接著團隊將此模型拆解為一份依優先順序排列、以客戶價值為中心的小型功能清單,此步驟稱為 {{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Develop Overall Model",
+              zh: "建立整體模型(Develop Overall Model)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Build Feature List",
+              zh: "建立功能清單(Build Feature List)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Develop Overall Model",
+              zh: "建立整體模型(Develop Overall Model)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Build Feature List",
+              zh: "建立功能清單(Build Feature List)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "FDD 五大流程依序為:①建立整體模型(Develop Overall Model,由領域專家協助定義核心概念與設計基石)②建立功能清單(Build Feature List,拆解模型並依相似性分組排序)③依功能規劃(Plan by Feature)④依功能設計(Design by Feature)⑤依功能建置(Build by Feature)。本題描述的第一步驟是整體模型的建立,對應 blank1;第二步驟則是將模型拆解為功能清單,對應 blank2。",
+  },
+  {
+    id: "sch-091",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "While drafting the Schedule Management Plan, the PM compares several possible scheduling approaches — for example, a purely predictive network-diagram approach versus a hybrid approach using rolling-wave iterations — weighing each option's cost, schedule, resource, and risk trade-offs before selecting a methodology. What data analysis technique is the PM using?",
+      zh: "在草擬時程管理計畫時,專案經理比較數種可能的排程方法——例如純預測型的網路圖方法,對比使用滾動式規劃迭代的混合式方法——並權衡各選項在成本、時程、資源與風險上的取捨,才決定採用的方法論。專案經理使用的是哪一種數據分析技術?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Alternative Analysis",
+          zh: "替代方案分析(Alternative Analysis)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Variance Analysis",
+          zh: "變異分析(Variance Analysis)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Trend Analysis",
+          zh: "趨勢分析(Trend Analysis)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reserve Analysis",
+          zh: "儲備分析(Reserve Analysis)",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "替代方案分析(Alternative Analysis)是針對特定目標,評估並比較多種可行途徑或方案的成本、時程、資源與風險等條件,協助決策者選出最合適方案的技術,常用於制定時程管理計畫、財務管理計畫等規劃階段,故答案為 (a)。變異分析用於比較實際與計畫的差異;趨勢分析需觀察一段時間的績效模式;儲備分析則是評估風險應留多少時間或預算緩衝,三者皆與本題描述的「事前比較多種方法論選項」不同。",
+  },
+  {
+    id: "sch-092",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each Earned Value term related to schedule performance to the description that best fits it.",
+      zh: "請將下列與時程績效相關的實獲值(EVM)名詞拖曳配對到最符合的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Planned Value (PV)",
+            zh: "計畫值(PV)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Earned Value (EV)",
+            zh: "實獲值(EV)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Schedule Variance (SV)",
+            zh: "時程變異(SV)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Schedule Performance Index (SPI)",
+            zh: "時程績效指標(SPI)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "The budgeted value of the work that was scheduled to be completed by a given point in time (Planned % Complete × BAC)",
+            zh: "到特定時間點為止,「應該」完成的工作所對應的預算值(計畫完成% × BAC)",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "The budgeted value of the work that has actually been completed by a given point in time (Actual % Complete × BAC)",
+            zh: "到特定時間點為止,「實際」已完成的工作所對應的預算值(實際完成% × BAC)",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "EV minus PV; a negative result indicates the project is behind its planned schedule",
+            zh: "EV 減 PV;結果為負代表專案落後於計畫時程",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "EV divided by PV; a result below 1.0 indicates the project is behind its planned schedule",
+            zh: "EV 除以 PV;結果小於 1.0 代表專案落後於計畫時程",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "PV(計畫值)與 EV(實獲值)是實獲值管理(EVM)的兩個基礎量測值,分別代表「應完成」與「實際完成」的工作預算價值;以兩者為基礎,SV(時程變異,相減)與 SPI(時程績效指標,相除)則是用來評估時程績效的中層指標,負的 SV 或小於 1.0 的 SPI 皆代表專案落後於時程基準,是監控時程(Monitor and Control Schedule)過程中常用的核心公式。",
+  },
+  {
+    id: "sch-093",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A product owner takes the long-term Product Roadmap and works with the team to break it into a sequence of concrete releases, each containing a set of iterations aimed at delivering specific business capabilities to market. What is this activity called?",
+      zh: "產品負責人將長期的產品路徑圖(Product Roadmap)拆解為一系列具體的發布(Release),每個發布包含數個迭代,旨在將特定的商業能力推向市場。這項活動稱為什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Agile Release Planning",
+          zh: "敏捷發布規劃(Agile Release Planning)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Rolling Wave Planning",
+          zh: "滾動式規劃(Rolling Wave Planning)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Backlog Refinement",
+          zh: "待辦清單精煉(Backlog Refinement)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Sprint Planning",
+          zh: "衝刺規劃(Sprint Planning)",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "敏捷發布規劃(Agile Release Planning)是將高層級的產品路徑圖,拆解為一連串具體發布與迭代的規劃活動,協助團隊將長期願景轉化為可執行的短期交付步驟,故答案為 (a)。滾動式規劃是「近細遠粗」的漸進明細化規劃節奏,並非專指路徑圖拆解;待辦清單精煉是持續為待辦項目補充細節、估算與排序的活動;衝刺規劃則是單一迭代層級的規劃,範圍皆比敏捷發布規劃更小或性質不同。",
+  },
+  {
+    id: "sch-094",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "hotspot",
+    difficulty: "hard",
+    timeCategory: "calculation",
+    stem: {
+      en: "The diagram below shows a network with Kickoff followed by three parallel tasks — Beta, Gamma, and Delta — which all merge into Wrap-up. Kickoff takes 4 days, Beta takes 10 days, Gamma takes 7 days, Delta takes 2 days, and Wrap-up takes 5 days. Among the three parallel tasks, click the one whose Total Float is exactly 8 days.",
+      zh: "下圖網路中,Kickoff 之後分為三條並行任務——Beta、Gamma、Delta,三者完成後皆匯流至 Wrap-up。Kickoff 需時 4 天、Beta 需時 10 天、Gamma 需時 7 天、Delta 需時 2 天、Wrap-up 需時 5 天。在三條並行任務中,請點選「總浮時恰好為 8 天」的任務。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Kickoff (4 days)",
+          zh: "Kickoff(4天)",
+        },
+        x: 5,
+        y: 40,
+        width: 16,
+        height: 20,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Beta (10 days)",
+          zh: "Beta(10天)",
+        },
+        x: 28,
+        y: 8,
+        width: 16,
+        height: 20,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Gamma (7 days)",
+          zh: "Gamma(7天)",
+        },
+        x: 28,
+        y: 40,
+        width: 16,
+        height: 20,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Delta (2 days)",
+          zh: "Delta(2天)",
+        },
+        x: 28,
+        y: 75,
+        width: 16,
+        height: 20,
+      },
+      {
+        id: "n5",
+        label: {
+          en: "Wrap-up (5 days)",
+          zh: "Wrap-up(5天)",
+        },
+        x: 58,
+        y: 40,
+        width: 16,
+        height: 20,
+      },
+    ],
+    correctAnswer: "n4",
+    edges: [
+      {
+        from: "n1",
+        to: "n2",
+      },
+      {
+        from: "n1",
+        to: "n3",
+      },
+      {
+        from: "n1",
+        to: "n4",
+      },
+      {
+        from: "n2",
+        to: "n5",
+      },
+      {
+        from: "n3",
+        to: "n5",
+      },
+      {
+        from: "n4",
+        to: "n5",
+      },
+    ],
+    explanation: "三條路徑:Kickoff→Beta→Wrap-up = 4+10+5 = 19 天,最長,為要徑;Kickoff→Gamma→Wrap-up = 4+7+5 = 16 天,總浮時 = 19−16 = 3 天;Kickoff→Delta→Wrap-up = 4+2+5 = 11 天,總浮時 = 19−11 = 8 天。三條並行任務中,總浮時恰好為 8 天的是 Delta,故答案為 (n4)。Beta 所在路徑最長,總浮時為 0,是要徑上的任務。",
+  },
+  {
+    id: "sch-095",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Schedule",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Which two statements correctly describe how Wideband Delphi and Planning Poker each help reduce bias when a team assigns story points? Select two.",
+      zh: "關於團隊在分配故事點時,寬頻德爾菲法(Wideband Delphi)與撲克牌估算法(Planning Poker)如何協助降低偏誤,下列哪兩項敘述正確?請選擇兩項。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "In Wideband Delphi, estimates are gathered anonymously across multiple rounds so that team members are not unduly influenced by more vocal or senior colleagues (the bandwagon effect)",
+          zh: "在寬頻德爾菲法中,估算會經多輪匿名蒐集,使團隊成員不會過度受較資深或較敢發言的同事影響(從眾效應)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "In Planning Poker, team members reveal their estimate cards simultaneously, which helps prevent an early, visible estimate from anchoring everyone else's judgment",
+          zh: "在撲克牌估算法中,團隊成員同時亮出估算卡牌,有助於避免提早亮出的估算值錨定其他人的判斷",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Affinity Estimating requires every item to be discussed individually and assigned a precise numeric point value before it can be grouped",
+          zh: "相對估算分組法(Affinity Estimating)要求每個項目都必須先被個別討論並賦予精確的數字點數,才能分組",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Both techniques guarantee that every team member's estimate will be numerically identical once the round is complete",
+          zh: "這兩種技巧都能保證一輪結束後,每位團隊成員的估算數字必定完全相同",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "T-shirt sizing (S/M/L/XL) is a form of precise numeric estimation with no relative comparison involved",
+          zh: "衣服尺寸估算法(S/M/L/XL)是一種精確的數字估算方式,不涉及相對比較",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "寬頻德爾菲法透過多輪匿名蒐集估算,降低從眾效應(Bandwagon Effect)的影響,故 (a) 正確;撲克牌估算法讓成員同時亮牌,避免第一個公開的估算值錨定其他人的判斷,故 (b) 正確。(c) 錯誤,相對估算分組法(Affinity Estimating)的特色正是「不逐一詳細討論」,而是依相對大小快速分組;(d) 錯誤,這兩種技巧的目的是促成收斂與共識,而非保證數字完全一致,遇分歧仍需討論;(e) 錯誤,衣服尺寸估算法是相對、粗略的估算方式,並非精確數字估算。",
+  },
+  {
+    id: "sch-096",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "An organization wants a way to choose and tailor its own \"way of working\" (WoW) by drawing on practices from Scrum, Kanban, SAFe, and even traditional predictive approaches, rather than adopting a single prescribed method. Which of the following best describes what they are looking for?",
+      zh: "某組織希望有一種方式,能夠融合 Scrum、看板、SAFe 甚至傳統預測型做法中的實務,自行選擇並客製化組織的「工作方式(WoW)」,而非採用單一固定方法論。下列何者最能描述他們正在尋找的方法?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Disciplined Agile (DA)",
+          zh: "紀律敏捷(Disciplined Agile)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Extreme Programming (XP)",
+          zh: "極限編程(XP)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "PRINCE2",
+          zh: "PRINCE2",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The Scrum Guide",
+          zh: "Scrum 指南",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "紀律敏捷(Disciplined Agile, DA)是一套「工具」而非單一「方法論」,融合了 Agile、Lean、Kanban、SAFe 與傳統做法,協助組織依專案特性選擇並客製化自己的工作方式(Way of Working, WoW),強調「沒有一種方法適用所有情境」,故答案為 (a)。極限編程(XP)、Scrum 指南本身各自是具體且較為固定的單一方法論;PRINCE2 則是一套結構化的專案管理方法論,皆非本題所描述「協助選擇並融合多種方法」的工具型框架。",
+  },
+  {
+    id: "sch-097",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Schedule",
+    questionType: "matching",
+    difficulty: "hard",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each framework or method to the description that best fits it.",
+      zh: "請將下列框架或方法拖曳配對到最符合的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "SAFe (Scaled Agile Framework)",
+            zh: "SAFe(規模化敏捷框架)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Disciplined Agile (DA)",
+            zh: "紀律敏捷(DA)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Crystal",
+            zh: "Crystal 方法",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "FDD (Feature-Driven Development)",
+            zh: "功能驅動開發(FDD)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "A framework for large enterprises that blends agile, lean, and DevOps principles to align multiple teams around common business objectives, typically requiring significant leadership commitment and training to adopt",
+            zh: "適用於大型企業的框架,融合敏捷、精實與 DevOps 原則,協助多團隊對齊共同商業目標,採用時通常需要高強度的領導投入與訓練",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "A toolkit, rather than a single fixed method, that helps an organization choose and tailor its own way of working by drawing on agile, lean, Kanban, and even traditional practices",
+            zh: "一套工具而非單一固定方法,協助組織融合敏捷、精實、看板甚至傳統做法,自行選擇並客製化工作方式",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "A family of lightweight methods whose specific practices scale up or down based on team size and project criticality, prioritizing people, interaction, and communication over heavy process",
+            zh: "一系列輕量級方法家族,依團隊規模與專案重要性調整具體實務作法,重視人員、互動與溝通勝過繁重流程",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "A method centered on an upfront overall model and a prioritized feature list, suited to large, complex systems that need architectural discipline alongside iterative feature delivery",
+            zh: "一種以事前建立整體模型與功能優先清單為核心的方法,適用於需要架構紀律、同時採迭代式功能交付的大型複雜系統",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "SAFe 適合需要多團隊對齊、高規範的大型企業環境;紀律敏捷(DA)是協助組織融合多種方法、客製化工作方式的工具型框架;Crystal 是依團隊規模分級(如 Clear、Yellow、Orange 等)的輕量級方法家族,強調人員互動勝過流程;FDD 則透過事前整體模型與功能清單,兼顧架構紀律與迭代交付,適用於大型複雜系統。四者皆是因應不同組織規模與情境而發展出的方法論或框架,是「因材施教(Tailoring)」精神的具體展現。",
+  },
+  {
+    id: "sch-098",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Schedule",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A team takes its high-level Product Roadmap and breaks it down into a series of concrete {{blank1}}, each of which is further broken down into specific {{blank2}} that the team will work through sprint by sprint. This overall breakdown process is known as Agile Release Planning.",
+      zh: "團隊將高層級的產品路徑圖(Product Roadmap)拆解為一系列具體的 {{blank1}},每個 {{blank1}} 再進一步拆解為團隊會逐個衝刺完成的具體 {{blank2}}。這整個拆解過程稱為敏捷發布規劃(Agile Release Planning)。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Releases",
+              zh: "發布(Releases)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Story Points",
+              zh: "故事點(Story Points)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Releases",
+              zh: "發布(Releases)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Iterations (Sprints)",
+              zh: "迭代(衝刺,Iterations/Sprints)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "敏捷發布規劃(Agile Release Planning)將產品路徑圖由上而下拆解:先拆解為數個發布(Release),每個發布再進一步拆解為數個迭代(Iteration/Sprint),團隊即依此逐個迭代完成工作,故 blank1 應選「發布(Releases)」,blank2 應選「迭代(Iterations/Sprints)」。故事點是用於估算個別待辦項目工作量的單位,並非發布規劃拆解出的層級,不適用於本題的兩個空格。",
+  },
+  {
+    id: "sch-099",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "During Develop Schedule, the risk register identifies several specific, analyzed risks — such as a known but uncertain permit delay — that could affect the project finish date. To protect the finish date against these already-identified risks, without changing the deterministic duration estimates of the activities themselves, what should the PM add to the schedule?",
+      zh: "在發展時程過程中,風險登記冊列出數項已被具體分析的風險——例如已知但不確定的許可延遲——可能影響專案完工日。為了在不更動各活動本身確定性工期估算的前提下,保護完工日不受這些「已識別」風險的影響,專案經理應在時程中加入什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "A contingency reserve (schedule buffer) sized based on the identified risks in the risk register",
+          zh: "依風險登記冊中已識別的風險訂定規模的權變儲備(時程緩衝)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Unlimited crashing applied to every activity in the schedule",
+          zh: "對時程中每項活動都進行無上限的趕工",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "A management reserve controlled directly by the sponsor, outside the PM's authority",
+          zh: "由贊助人直接掌控、專案經理權限之外的管理儲備",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Nothing, since three-point estimates already fully account for all possible risk",
+          zh: "不需要加入任何東西,因為三點估算已完全涵蓋所有可能的風險",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "針對已被識別且分析過的已知風險(Known-Unknowns),應加入權變儲備(Contingency Reserve,亦即時程緩衝),其規模通常依風險登記冊中的具體風險評估訂定,且屬於專案經理權限範圍內、納入時程基準管理,故答案為 (a)。無上限趕工並非因應已識別風險的做法,且會大幅增加成本;管理儲備(Management Reserve)則是用來因應「未知的未知」(Unknown-Unknowns),通常由管理層掌控、不納入基準;三點估算雖能反映活動本身的不確定性,但無法涵蓋風險登記冊中具體識別出的個別風險事件,仍需額外的權變儲備。",
+  },
+  {
+    id: "sch-100",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Schedule",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Which two statements correctly describe when Feature-Driven Development (FDD) tends to be a good fit? Select two.",
+      zh: "關於功能驅動開發(FDD)適合採用的情境,下列哪兩項敘述正確?請選擇兩項。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "It suits large, complex systems that benefit from an upfront overall model and strong architectural/design discipline",
+          zh: "它適合需要事前建立整體模型與強架構/設計紀律的大型複雜系統",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "It combines short, regular feature-level iterations with a domain-expert-driven overall model, making it useful when predictability and structured planning matter alongside iterative delivery",
+          zh: "它結合短期規律的功能層級迭代與由領域專家主導的整體模型,適合同時重視可預測性、結構化規劃與迭代交付的情境",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "It is intended primarily for very small teams building a minimum viable product with minimal upfront design",
+          zh: "它主要是為打造最小可行產品(MVP)的極小型團隊設計,幾乎不需要事前設計",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "It eliminates the need for any feature list or planning once the overall model is complete",
+          zh: "一旦整體模型完成,就不再需要任何功能清單或規劃",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "It cannot be combined with iterative, incremental delivery of working software",
+          zh: "它無法與可用軟體的迭代增量交付方式並用",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "FDD 適合大型、複雜系統,透過事前建立整體模型與依功能規劃/設計/建置,兼顧架構紀律與迭代交付的可預測性,故 (a)(b) 正確。(c) 錯誤,FDD 並非為極小型 MVP 團隊設計,反而更適合大型團隊與複雜系統;(d) 錯誤,建立功能清單、依功能規劃等後續步驟仍是 FDD 流程中不可或缺的部分;(e) 錯誤,FDD 本身即整合了敏捷開發與迭代增量交付的精神,並非與之互斥。",
+  },
+  {
+    id: "sch-101",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Schedule",
+    questionType: "matching",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each story point estimation technique to the description that best fits it.",
+      zh: "請將下列故事點估算技巧拖曳配對到最符合的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Planning Poker",
+            zh: "撲克牌估算法(Planning Poker)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Affinity Estimating",
+            zh: "相對估算分組法(Affinity Estimating)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Wideband Delphi",
+            zh: "寬頻德爾菲法(Wideband Delphi)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "T-Shirt Sizing",
+            zh: "衣服尺寸估算法(T-Shirt Sizing)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Team members each privately select a Fibonacci-based numeric card and reveal their estimates simultaneously, discussing any large gaps before converging",
+            zh: "每位團隊成員各自私下選擇一張以費波那契數列為基礎的數字卡牌,同時亮牌,若估算差距過大則進一步討論後收斂",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Team members quietly sort work items into relative-size groupings based on how they compare to one another, without discussing each item individually in detail",
+            zh: "團隊成員安靜地依工作項目彼此的相對大小進行分組,不逐一詳細討論個別項目",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Estimates are collected anonymously across multiple rounds, with team members revising their estimates after seeing the group's (also anonymous) spread, to avoid one person's opinion dominating",
+            zh: "估算會經多輪匿名蒐集,團隊成員在看到(同樣匿名的)團體估算分布後修正自己的估算,以避免單一人的意見主導結果",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Items are sorted into broad relative categories such as S, M, L, and XL rather than being assigned precise numeric values",
+            zh: "項目被歸類到 S、M、L、XL 等粗略的相對類別中,而非被賦予精確的數字",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "四種故事點估算技巧皆強調相對比較而非絕對精確數字:撲克牌估算法透過同時亮牌避免錨定效應;相對估算分組法讓團隊快速依相對大小分組,不逐一細究;寬頻德爾菲法以多輪匿名蒐集降低從眾效應;衣服尺寸估算法則以最粗略的類別(S/M/L/XL)快速排序。這些技巧共同的精神是:與其追求不切實際的絕對精確度,不如善用團隊對相對規模的直覺判斷。",
+  },
+  {
+    id: "sch-102",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Schedule",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "To protect the schedule against risks that have already been identified and analyzed in the risk register (known-unknowns), the PM adds a {{blank1}} to the schedule, which remains within the PM's authority. To protect against risks that could not have been foreseen at all (unknown-unknowns), a separate {{blank2}}, typically controlled at a higher organizational level, is set aside instead.",
+      zh: "為了保護時程不受已於風險登記冊中被識別並分析過的風險(已知的未知)影響,專案經理會在時程中加入 {{blank1}},此項儲備仍屬於專案經理的權限範圍;而為了因應完全無法預見的風險(未知的未知),則會另外預留 {{blank2}},通常由組織較高層級掌控。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Contingency Reserve",
+              zh: "權變儲備(Contingency Reserve)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Management Reserve",
+              zh: "管理儲備(Management Reserve)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Contingency Reserve",
+              zh: "權變儲備(Contingency Reserve)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Management Reserve",
+              zh: "管理儲備(Management Reserve)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "權變儲備(Contingency Reserve)是針對風險登記冊中已識別、已分析過的已知風險(Known-Unknowns)所預留的緩衝,屬於專案經理權限範圍內,通常納入時程或成本基準管理,對應 blank1。管理儲備(Management Reserve)則是為因應完全無法預見的未知風險(Unknown-Unknowns)而預留,通常由贊助人或管理層掌控,不納入基準,需經正式變更程序才能動用,對應 blank2。兩者雖然都是「緩衝」的概念,但適用對象、管理權限與是否納入基準皆不相同,是考試中容易混淆的一組名詞。",
+  },
+  {
+    id: "sch-103",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "The project is currently 10 days behind the approved schedule baseline. Ahead of the steering committee meeting, a senior manager privately asks the PM to report the project as \"on track\" in the summary slide, promising that the delay will \"surely be recovered\" next month. What should the PM do?",
+      zh: "專案目前落後於核准時程基準 10 天。在指導委員會會議前,一位資深經理私下要求專案經理在摘要投影片上將專案回報為「進度正常」,並保證下個月「一定能追回」延遲。專案經理應如何做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Report the project as on track as requested, since the manager is confident it will recover",
+          zh: "依要求回報進度正常,因為經理有信心能追回進度",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Report the actual schedule status transparently, including the variance, root cause, and a recovery plan, regardless of the informal request",
+          zh: "誠實透明地回報實際時程狀況,包含變異、根本原因與復原計畫,不受此非正式要求影響",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Report the project as on track in the meeting, but privately tell a few trusted stakeholders the truth",
+          zh: "在會議中回報進度正常,但私下告訴少數信任的利害關係人真相",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Decline to attend the steering committee meeting to avoid the conflict",
+          zh: "拒絕出席指導委員會會議以迴避此衝突",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "依照專業責任與誠實原則,專案經理應誠實、透明地回報專案實際狀況,包含時程變異、根本原因分析與具體的復原計畫,即使這與某位經理私下的非正式要求相牴觸,也不應為求好看而隱瞞或美化真實績效,故答案為 (b)。依要求虛報進度、對不同對象選擇性揭露真相,或迴避正式報告場合,皆違背誠實揭露與利害關係人溝通的專業責任,可能造成更大的信任危機與決策失誤。",
+  },
+  {
+    id: "sch-104",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Schedule",
+    questionType: "hotspot",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "The four cards below give possible reasons agile teams often use a Fibonacci-like sequence (1, 2, 3, 5, 8, 13, 21...) rather than a simple linear scale (1, 2, 3, 4, 5...) when assigning story points. Click the card that correctly explains this choice.",
+      zh: "下方四張卡片列出敏捷團隊在分配故事點時,常使用費波那契數列(1、2、3、5、8、13、21…)而非簡單線性數列(1、2、3、4、5…)的可能原因。請點選正確解釋此做法的卡片。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "The widening gaps between larger numbers reflect that estimates naturally become less precise as item size and uncertainty grow, discouraging false precision on large items",
+          zh: "數字間隔隨數值增大而擴大,反映項目規模與不確定性愈大時,估算自然愈不精確,避免對大型項目做出虛假的精確估算",
+        },
+        x: 10,
+        y: 15,
+        width: 35,
+        height: 25,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "It guarantees that every story will be completed within exactly that many days",
+          zh: "它保證每個故事都會剛好在對應的天數內完成",
+        },
+        x: 55,
+        y: 15,
+        width: 35,
+        height: 25,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "It is required by the Scrum Guide as the only permitted estimation scale",
+          zh: "這是 Scrum 指南規定唯一允許使用的估算數列",
+        },
+        x: 10,
+        y: 60,
+        width: 35,
+        height: 25,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "It ensures the team's velocity will be identical in every sprint",
+          zh: "它能確保團隊的產出速度在每個衝刺都完全相同",
+        },
+        x: 55,
+        y: 60,
+        width: 35,
+        height: 25,
+      },
+    ],
+    correctAnswer: "n1",
+    explanation: "費波那契類數列(如 1、2、3、5、8、13、21)隨數值增大,相鄰數字間的間距也隨之擴大,恰好反映出:項目規模愈大,估算的不確定性通常也愈高,團隊不應該、也難以對大型項目做出過度精確的估算,故答案為 (n1)。故事點本身只是相對規模的估算單位,不代表保證的完成天數;Scrum 指南也未硬性規定必須使用費波那契數列(團隊可依共識選擇任何相對估算尺度,如衣服尺寸);故事點與產出速度也無法保證每次迭代完全相同,產出速度本身即存在自然波動。",
+  },
+  {
+    id: "sch-105",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Schedule",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Which two statements correctly describe the use of Kano Analysis for prioritizing product features? Select two.",
+      zh: "關於使用卡諾分析(Kano Analysis)為產品功能排序優先順序,下列哪兩項敘述正確?請選擇兩項。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "It plots features along two axes — degree of functionality/investment and resulting customer satisfaction — to reveal which features yield disproportionate satisfaction gains",
+          zh: "它以「功能實現程度/投入」與「客戶滿意度」兩軸繪製功能,以呈現哪些功能能帶來不成比例的滿意度提升",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "It helps distinguish basic expected features from features that delight customers, informing which increments of work stakeholders may value most",
+          zh: "它有助於區分基本必要功能與能讓客戶驚喜的功能,協助判斷利害關係人可能最重視哪些工作增量",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "It assigns Fibonacci-based numeric estimates to each feature's implementation effort",
+          zh: "它會為每項功能的實作工作量賦予以費波那契數列為基礎的數字估算",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "It is only used at project closure to evaluate lessons learned, never during backlog prioritization",
+          zh: "它只用於專案結束時評估經驗教訓,絕不會用於待辦清單排序",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "It guarantees that features with the highest satisfaction score always require the least implementation effort",
+          zh: "它保證滿意度分數最高的功能,一定需要最少的實作工作量",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "卡諾分析以「功能實現程度」與「客戶滿意度」兩軸,協助團隊區分基本必要功能(不滿足會導致強烈不滿,滿足卻不特別加分)與能帶來超乎預期滿意度的功能,故 (a)(b) 正確。(c) 錯誤,賦予費波那契數字估算屬於故事點估算技巧(如撲克牌估算法),並非卡諾分析的功能;(d) 錯誤,卡諾分析通常用於規劃階段協助待辦清單排序,而非僅限於專案結束時的回顧;(e) 錯誤,滿意度高的功能不必然代表實作工作量最低,兩者並無必然的反向關係。",
+  },
+  {
+    id: "sch-106",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Two days before the Sprint Review, the team is already fully committed to its sprint backlog based on its historical velocity. A stakeholder asks the PM to add \"just one more small item\" directly into the current sprint, without going through the Product Owner or discussing capacity with the team. What should the PM do?",
+      zh: "距離衝刺審查(Sprint Review)還有兩天,團隊已依歷史產出速度全力承諾完成本次衝刺待辦清單。一位利害關係人要求專案經理直接在本次衝刺中「多加一個小項目」,未經產品負責人同意,也未與團隊討論產能。專案經理應如何做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Add the item immediately since it is described as small, to keep the stakeholder happy",
+          zh: "因為對方說是小項目,立即加入以讓利害關係人滿意",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Redirect the stakeholder to raise the request with the Product Owner for prioritization in the product backlog, and protect the team's current sprint commitment from unplanned mid-sprint additions",
+          zh: "引導該利害關係人將需求提交給產品負責人,由其在產品待辦清單中排序,並保護團隊目前的衝刺承諾不受計畫外的中途插入影響",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Add the item and instruct the team to work unpaid overtime to absorb the extra work",
+          zh: "加入該項目,並指示團隊以無償加班來吸收額外工作量",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Silently remove a different committed item from the sprint without telling the team, to make room for the new one",
+          zh: "未告知團隊,私下從衝刺中移除另一項已承諾的項目,以騰出空間給新項目",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "依服務型領導(Servant Leadership)精神,專案經理應保護團隊的衝刺承諾不受計畫外中途插入的干擾,並尊重產品負責人對產品待辦清單的排序權責,將新需求導回正式管道由產品負責人評估與排序,故答案為 (b)。未經評估直接插入項目、以無償加班強迫吸收額外工作,或未告知團隊便私自調整承諾範圍,皆違背保護團隊、尊重團隊自組織與透明溝通的核心原則。",
+  },
+  {
     id: "calc-001",
     edition: "pmbok8",
     domain: "Process",
@@ -16760,6 +23411,2225 @@ export const sampleQuestions = [
       blank2: "b",
     },
     explanation: "CV = EV − AC = 160,000 − 185,000 = −25,000。CV 為負值表示實際花費(AC)超過已完成工作的價值(EV),即專案目前超出預算(over budget)。選項 (c)/(d) 的 −$15,000 是誤將 EV−PV(= 160,000−175,000 = −15,000,此為 SV 而非 CV)當成 CV 計算。",
+  },
+  {
+    id: "fin-072",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "An agile team invests $50,000 over two sprints to build a Minimal Marketable Feature (MMF). After release, the feature generates $65,000 in benefit (revenue) during the first quarter. Using the Return on Investment (ROI) formula, what is the ROI for this MMF?",
+      zh: "某敏捷團隊花費兩個 Sprint、投入 $50,000 開發一個最小可上市功能(MMF, Minimal Marketable Feature)。功能上線後,第一季共為組織帶來 $65,000 的效益(營收)。請以投資報酬率(ROI)公式計算,此 MMF 的 ROI 為何?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "30%",
+          zh: "30%",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "130%",
+          zh: "130%",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "23%",
+          zh: "23%",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "76.9%",
+          zh: "76.9%",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "ROI = 淨利(效益 − 投入成本)／投入成本 = (65,000 − 50,000) / 50,000 = 15,000 / 50,000 = 0.30 = 30%。選項 (b) 是誤將「效益／投入成本」(65,000/50,000)當成 ROI,忘記先扣除投入成本;選項 (c) 是誤將「淨利／效益」(15,000/65,000)當成 ROI;選項 (d) 是誤把「投入成本／效益」(50,000/65,000)當成 ROI。如課程筆記所述,ROI 只反映總共賺了多少報酬(比率),並不考慮賺到這筆報酬花了多長時間,這是它與 IRR、NPV 最關鍵的差異。",
+  },
+  {
+    id: "fin-073",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Which statement best distinguishes a Minimal Viable Product (MVP) from a Minimal Marketable Feature (MMF)?",
+      zh: "下列敘述中,何者最能區分「最小可行產品」(MVP, Minimal Viable Product)與「最小可上市功能」(MMF, Minimal Marketable Feature)兩者的差異?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "An MVP is built mainly to gather early customer feedback with a rough, minimal version of a direction, while an MMF is a fully usable, tested, and valuable feature released to generate real market value.",
+          zh: "MVP 主要用來及早取得客戶回饋,提供粗略的最小方向;MMF 則是完整可用、經過測試且具備真正價值的功能,目的在盡早於市場上獲利。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "An MVP and an MMF are the same concept; both terms simply describe the same deliverable at different points in the project.",
+          zh: "MVP 與 MMF 是相同概念,只是同一項交付物在專案不同時間點的不同稱呼。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "An MVP must always be fully tested and market-ready, while an MMF is only a rough prototype used to test a concept.",
+          zh: "MVP 必須永遠是完整測試、可上市的成品,而 MMF 只是用來測試概念的粗略原型。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "An MVP is produced only after the MMF has already been marketed, in order to confirm customer satisfaction with a feature that is already for sale.",
+          zh: "MVP 是在 MMF 已上市銷售之後才產出,用來確認客戶對已上市功能的滿意度。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "依課程筆記,MVP(最小可行產品)的目的在於取得回饋,提供早期、粗略的方向,不必然可以直接上市獲利;MMF(最小可上市功能)的目的則在於獲利,必須是可使用、可測試、有價值的完整交付特色,並藉此縮短上市時間(Time-to-market)以盡早取得市場回饋與收益。選項 (b)(c)(d) 皆混淆或顛倒了兩者的定義與先後順序。",
+  },
+  {
+    id: "fin-074",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A Lean Portfolio team is comparing financial metrics for three candidate epics. One member says: \"This metric tells us the total percentage return an epic generates, but it does not account for how long it takes to earn that return.\" Which financial metric is being described?",
+      zh: "某精實投資組合(Lean Portfolio)團隊正在比較三個候選 Epic 的財務指標。其中一位成員表示:「這個指標告訴我們某個 Epic 總共賺了多少報酬比率,但完全不考慮賺到這筆報酬花了多久時間。」這描述的是哪一項財務指標?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Return on Investment (ROI)",
+          zh: "投資報酬率(ROI)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Internal Rate of Return (IRR)",
+          zh: "內部報酬率(IRR)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Net Present Value (NPV)",
+          zh: "淨現值(NPV)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Payback Period",
+          zh: "回收期",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "ROI(投資報酬率)只衡量總共賺了多少報酬,以比率或百分比表示,並不考慮時間因素。相對地,IRR(內部報酬率)是年化比率,已將時間價值納入考量;NPV(淨現值)則是把未來各期現金流折現後加總所得到的「實際金額」,同樣考慮貨幣的時間價值;Payback Period(回收期)衡量的是「多快回本」所需的時間,而非以百分比表示的報酬率。因此題幹描述的「只看總報酬、不看時間」正是 ROI 的特性。",
+  },
+  {
+    id: "fin-075",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Regarding the Cost of Change curve and the Cost of Defect curve, which two statements are correct? Select two.",
+      zh: "關於「變更成本曲線」(Cost of Change)與「缺陷成本曲線」(Cost of Defect),下列哪兩項敘述正確?請選擇兩項。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The Cost of Change curve shows that changes are cheapest to make early in the project and become progressively more expensive to make as the project advances.",
+          zh: "變更成本曲線顯示,越早進行變更成本越低,隨著專案推進,變更成本會逐漸升高。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The Cost of Defect curve shows that defects discovered after release (in production) are typically far more expensive to fix than defects caught during requirements or design.",
+          zh: "缺陷成本曲線顯示,發行後(正式上線)才發現的缺陷,其修復成本通常遠高於在需求或設計階段就發現的缺陷。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "According to these two curves, the total cost of making a change or fixing a defect is the same no matter which project phase it occurs in.",
+          zh: "依這兩條曲線,無論在專案哪個階段進行變更或修復缺陷,總成本都是相同的。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Predictive (waterfall) life cycles are unaffected by the Cost of Change curve, because all requirements are already fixed upfront.",
+          zh: "預測型(瀑布式)生命週期不受變更成本曲線影響,因為所有需求早已在前期固定。",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Frequent releases and short iterations in Agile increase, rather than decrease, the overall cost of defects, because requirements are revisited every sprint.",
+          zh: "敏捷的頻繁發行與短迭代會提高、而非降低整體缺陷成本,因為需求每個 Sprint 都會被重新檢視。",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "變更成本曲線的核心觀念是「越早改動越好,越晚改動代價越高」;缺陷成本曲線的核心觀念則是「越晚發現缺陷,代價越大」,從需求階段修改一行文字,到產品上市後才發現問題,甚至面臨招回或訴訟,成本可能相差數十倍以上。選項 (c) 錯誤地假設成本不隨階段而變;選項 (d) 錯誤地認為預測型生命週期不受此曲線影響(事實上正因為此曲線,預測型生命週期才特別強調前期詳盡規劃);選項 (e) 則與 Agile 精神相反——Agile 鼓勵自動化測試、TDD、及早且頻繁地交付與驗證,目的正是要及早發現缺陷、降低缺陷成本,而非提高它。",
+  },
+  {
+    id: "fin-076",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "multiple_response",
+    difficulty: "hard",
+    timeCategory: "definition",
+    stem: {
+      en: "Regarding Agile contracting approaches (e.g., Money for Nothing, Graduated Fixed Price Contract, Fixed Price Work Packages), which three statements are correct? Select three.",
+      zh: "關於敏捷外包契約做法(如 Money for Nothing、Graduated Fixed Price Contract、Fixed Price Work Packages),下列哪三項敘述正確?請選擇三項。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Under a \"Money for Nothing\" clause, the customer can terminate the contract early and pay the vendor only a specified percentage of the remaining contract value, since ending early can save both sides time and money.",
+          zh: "在「Money for Nothing」條款下,客戶可提前終止合約,只需支付剩餘合約金額中約定的一定比例給廠商,因為提前結束對雙方都能省下時間與金錢。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A Graduated Fixed Price Contract adjusts the agreed price up or down depending on how much earlier or later than planned the work is completed.",
+          zh: "Graduated Fixed Price Contract 會依實際完工時間比原訂計畫提前或延後的程度,向上或向下調整約定的價格。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Fixed Price Work Packages require the entire scope of the whole project to be fixed and priced as a single lump sum before any work begins.",
+          zh: "Fixed Price Work Packages 要求在任何工作展開前,就把整個專案的全部範疇固定並以單一總價議定。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Agile contracting approaches generally avoid breaking the contract into smaller priced work packages, since Agile discourages any form of fixed pricing.",
+          zh: "敏捷外包契約做法通常避免把合約拆成多個訂價的工作包,因為敏捷不鼓勵任何形式的固定計價。",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "These agile contracting models exist largely because traditional fixed-scope, fixed-price contracts conflict with Agile's need for flexibility to change requirements.",
+          zh: "這些敏捷契約模式之所以出現,主要是因為傳統「範疇固定、價格固定」的合約,與敏捷所需的需求變更彈性互相抵觸。",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "e",
+    ],
+    selectCount: 3,
+    explanation: "敏捷外包契約源自「敏捷需要彈性改動需求,但傳統契約講求範疇與價格固定」這項根本矛盾,因此發展出多種變通做法:Money for Nothing 讓客戶可提前結束合約、只付一定比例金額以節省成本;Graduated Fixed Price Contract 依交付時間提前或延後調整價格,越有效率、越提前交付通常代價越高(獎勵效率);Fixed Price Work Packages 則是把整體範疇拆成多個定義清楚的小型交付物,分別訂價,藉此降低單一大範疇一次性定價的不確定性,而非把整個專案綁成一筆總價,故選項 (c)(d) 皆錯誤地描述成「整體綁死」與「完全避免拆分計價」,與實際做法相反。",
+  },
+  {
+    id: "fin-077",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each Agile contracting approach to the description that best fits it.",
+      zh: "請將下列 3 種敏捷外包契約做法拖曳配對到最符合的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Money for Nothing",
+            zh: "Money for Nothing",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Graduated Fixed Price Contract",
+            zh: "Graduated Fixed Price Contract",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Fixed Price Work Packages",
+            zh: "Fixed Price Work Packages",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Allows the customer to terminate the contract early and pay the vendor only a percentage of the remaining contract value, saving money on requirements that were never built",
+            zh: "允許客戶提前終止合約,只需支付剩餘合約金額中的一定比例給廠商,對尚未建置的需求省下費用",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Adjusts the contract price based on how much earlier or later than planned the work is completed, rewarding efficient early delivery",
+            zh: "依實際完工時間比原訂計畫提前或延後的程度調整合約價格,藉此獎勵有效率的提前交付",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Breaks the overall project scope into smaller, well-defined deliverables that are each priced and contracted separately, making estimating uncertainty easier to manage",
+            zh: "把整體專案範疇拆成多個定義清楚的小型交付物,個別分開訂價與簽約,以利管理估算的不確定性",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+    },
+    explanation: "三種敏捷外包契約做法都是為了緩解「敏捷需要彈性、傳統契約講求固定」的矛盾:Money for Nothing 讓客戶能提前喊停、只付約定比例的費用;Graduated Fixed Price Contract 用價格隨交期提前或延後而調整的機制,鼓勵廠商有效率地交付;Fixed Price Work Packages 則是把大範疇拆成定義清楚的小型工作包分別訂價,而非整個專案綁成一筆總價,藉此讓雙方更容易掌握估算的不確定性。",
+  },
+  {
+    id: "fin-078",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Finance",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "The Constructive Cost Model (COCOMO) observes that {{blank1}} costs make up the majority of most project expenses. This is one reason Agile's first Manifesto value emphasizes {{blank2}} over rigid processes and tools when it comes to getting work done and managing project cost.",
+      zh: "建設性成本模型(COCOMO, Constructive Cost Model)指出,大多數專案的支出中,{{blank1}}成本佔了絕大部分。這也是敏捷宣言第一項價值強調重視{{blank2}}、而非僵硬的流程和工具的原因之一,因為工作終究是由人來完成的。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Labor",
+              zh: "people(人力) / 人力(Labor / people)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Equipment and materials(設備與原料)",
+              zh: "設備與原料(Equipment and materials)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Software licensing(軟體授權)",
+              zh: "軟體授權(Software licensing)",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "Travel and logistics(差旅與物流)",
+              zh: "差旅與物流(Travel and logistics)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Individuals and interactions(個體與互動)",
+              zh: "個體與互動(Individuals and interactions)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Processes and tools(流程和工具)",
+              zh: "流程和工具(Processes and tools)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Contract negotiation(合約協商)",
+              zh: "合約協商(Contract negotiation)",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "Comprehensive documentation(詳盡文件)",
+              zh: "詳盡文件(Comprehensive documentation)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "COCOMO(建設性成本模型)點出多數專案人力支出相對其他項目高出許多,因此如何管理「人」才是控制成本的關鍵,這正呼應了敏捷宣言四大價值的第一項:「個體與互動」重於「流程和工具」——工作是由人執行,而非工具,更專注於成員的參與和溝通,而非死守流程規範,才更能有效掌控專案的人力成本與產出品質。",
+  },
+  {
+    id: "fin-079",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "hotspot",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "The diagram below is a simplified Cost of Change / Cost of Defect curve across four project phases: Requirements, Design, Construction & Test, and Production (post-release). Click the phase in which the cost of changing a requirement or fixing a defect is highest.",
+      zh: "下圖為簡化版的「變更成本／缺陷成本曲線」,橫跨四個專案階段:需求(Requirements)、設計(Design)、建構與測試(Construction & Test)、正式上線(Production,發行後)。請點選「變更需求或修復缺陷成本最高」的那個階段。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Requirements (lowest cost)",
+          zh: "需求階段(成本最低)",
+        },
+        x: 5,
+        y: 65,
+        width: 20,
+        height: 25,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Design",
+          zh: "設計階段",
+        },
+        x: 30,
+        y: 48,
+        width: 20,
+        height: 25,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Construction & Test",
+          zh: "建構與測試階段",
+        },
+        x: 55,
+        y: 28,
+        width: 20,
+        height: 25,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Production, post-release (highest cost)",
+          zh: "正式上線階段(發行後,成本最高)",
+        },
+        x: 80,
+        y: 5,
+        width: 20,
+        height: 25,
+      },
+    ],
+    correctAnswer: "n4",
+    explanation: "變更成本曲線與缺陷成本曲線都呈現同一種型態:成本隨著專案階段推進而遞增,越晚才變更需求或修復缺陷,代價越高。在需求階段修改一個想法可能只需要改幾行文件;到了正式上線(Production)後才發現問題,則可能牽涉到修改已交付的程式碼、重新測試、甚至召回產品或面臨客戶投訴與法律責任,成本遠高於前期階段。這正是 Agile 強調自動化測試、TDD(Test-Driven Development)與 DoD(Definition of Done)、鼓勵及早且頻繁交付與驗證的核心原因之一。",
+  },
+  {
+    id: "fin-080",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "A project has BAC = $400,000. At the status date, EV = $180,000 and AC = $210,000. Based on earned value, what percentage of the project's planned scope has been completed so far?",
+      zh: "某專案 BAC(完工預算)= $400,000。於狀態日,EV(實獲值)= $180,000、AC(實際成本)= $210,000。依實獲值計算,專案目前完成了計畫範疇的百分之多少?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "45%",
+          zh: "45%",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "85.7%",
+          zh: "85.7%",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "52.5%",
+          zh: "52.5%",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "40%",
+          zh: "40%",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "完成百分比 = EV / BAC = 180,000 / 400,000 = 45%,反映截至目前已實獲的計畫範疇比例。選項 (b) 85.7% 是誤將 EV/AC(= 180,000/210,000 ≈ 85.7%)當成完成百分比,但這其實是與 CPI 相關的成本效率比較;選項 (c) 52.5% 則是 AC/BAC(= 210,000/400,000 = 52.5%),代表「已花費預算的比例」而非「實際完成工作的比例」,兩者是常見的混淆陷阱。",
+  },
+  {
+    id: "fin-081",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "A project has PV = $250,000, EV = $220,000, and AC = $260,000. What is the Cost Variance Percentage (CV%), and what does it indicate? (Round to one decimal place.)",
+      zh: "某專案 PV(計畫值)= $250,000、EV(實獲值)= $220,000、AC(實際成本)= $260,000。請問成本變異百分比(CV%)為何,代表什麼意義?(四捨五入至小數點後一位)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "CV% ≈ −18.2%,代表實際成本超出實獲值約 18.2%",
+          zh: "CV% ≈ −18.2%,代表實際成本超出實獲值約 18.2%",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "CV% ≈ +18.2%,代表低於預算約 18.2%",
+          zh: "CV% ≈ +18.2%,代表低於預算約 18.2%",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "CV% ≈ −15.4%,代表超出預算約 15.4%",
+          zh: "CV% ≈ −15.4%,代表超出預算約 15.4%",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "CV% ≈ −16.0%,代表超出預算約 16.0%",
+          zh: "CV% ≈ −16.0%,代表超出預算約 16.0%",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "CV = EV − AC = 220,000 − 260,000 = −40,000。CV% = CV / EV = −40,000 / 220,000 ≈ −18.2%,負值表示實際成本超出實獲值,即超出預算。選項 (c) −15.4% 是誤用 AC 作為分母(−40,000/260,000);選項 (d) −16.0% 是誤用 PV 作為分母(−40,000/250,000);CV% 的標準公式分母須為 EV,而非 AC 或 PV,考生須留意這項慣例。",
+  },
+  {
+    id: "fin-082",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "calculation",
+    stem: {
+      en: "A team is comparing making a component in-house versus buying it from an external supplier. Making it in-house requires a one-time equipment purchase of $60,000 plus $8 per unit in production cost. Buying it externally costs $20 per unit with no fixed cost. At what production quantity do the total cost of making and the total cost of buying become equal (the breakeven point)?",
+      zh: "團隊正在比較自製某零件與向外部供應商採購。自製需一次性設備採購 $60,000,加上每單位 $8 的生產成本。向外採購則每單位 $20,無固定成本。請問在何種生產數量下,自製與外購的總成本會相等(損益兩平點)?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "5,000 units",
+          zh: "5,000 個單位",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "3,000 units",
+          zh: "3,000 個單位",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "6,000 units",
+          zh: "6,000 個單位",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "7,500 units",
+          zh: "7,500 個單位",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "設損益兩平點數量為 x,令自製總成本等於外購總成本:60,000 + 8x = 20x → 60,000 = 12x → x = 5,000。當產量低於 5,000 個單位時,外購較划算(無須負擔固定成本);當產量高於 5,000 個單位時,自製較划算(固定成本被更多單位攤提)。這是 Make-or-Buy Analysis(自製或外購分析)中常見的損益兩平計算方式。",
+  },
+  {
+    id: "fin-083",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "calculation",
+    stem: {
+      en: "A proposed project requires an initial investment of $150,000. It is expected to generate cash inflows of $70,000 in each of Years 1, 2, and 3. Using a discount rate of 8%, what is the project's Net Present Value (NPV)? (Round to the nearest dollar.)",
+      zh: "某提案專案需要 $150,000 的初始投資,預期第 1、2、3 年每年皆產生現金流入 $70,000。以 8% 折現率計算,此專案的淨現值(NPV)為何?(四捨五入至整數)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "$30,397",
+          zh: "$30,397",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "$60,000",
+          zh: "$60,000",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "$180,397",
+          zh: "$180,397",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "−$30,397",
+          zh: "−$30,397",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "先將各年現金流折現至現值:Year1 = 70,000/1.08 ≈ 64,815;Year2 = 70,000/1.08² = 70,000/1.1664 ≈ 60,014;Year3 = 70,000/1.08³ = 70,000/1.259712 ≈ 55,568。三年折現值加總 ≈ 180,397。NPV = 折現值總和 − 初始投資 = 180,397 − 150,000 ≈ 30,397。NPV 為正值,代表此投資具財務可行性。選項 (b) 是誤將名目現金流加總後直接扣除投資(未折現);選項 (c) 是忘記扣除初始投資;選項 (d) 為正負號顛倒的誘答。",
+  },
+  {
+    id: "fin-084",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "A project's WBS has three work packages with cost estimates of $120,000, $95,000, and $150,000. The Contingency Reserve is $35,000. Using cost aggregation, what is the resulting Cost Baseline?",
+      zh: "某專案的 WBS 中有三個工作包,成本估算分別為 $120,000、$95,000、$150,000。應變準備金(Contingency Reserve)為 $35,000。運用成本加總(Cost Aggregation),所得出的成本基準(Cost Baseline)為何?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "$400,000",
+          zh: "$400,000",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "$365,000",
+          zh: "$365,000",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "$250,000",
+          zh: "$250,000",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "$435,000",
+          zh: "$435,000",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "Cost Aggregation(成本加總)是將各工作包的成本估算沿 WBS 逐層彙整加總,再加上 Contingency Reserve,以建立 Cost Baseline。三個工作包加總 = 120,000 + 95,000 + 150,000 = 365,000;再加上應變準備金 35,000 = 400,000。選項 (b) $365,000 是忘記加上應變準備金;選項 (c) $250,000 是遺漏其中一個工作包;選項 (d) $435,000 則是將應變準備金重複加了兩次,皆為常見的加總錯誤。",
+  },
+  {
+    id: "fin-085",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "After a product has already been released to customers, a critical defect is discovered, forcing the company to issue a costly public recall and pay warranty compensation. Under the Cost of Quality framework, which category does this cost belong to?",
+      zh: "某產品已交付給客戶使用後,才被發現存在重大瑕疵,迫使公司發出代價高昂的公開召回並支付保固理賠。依品質成本(Cost of Quality)框架,此成本屬於下列哪一類?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Prevention Cost(預防成本)",
+          zh: "預防成本(Prevention Cost)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Appraisal Cost(評估成本)",
+          zh: "評估成本(Appraisal Cost)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Internal Failure Cost(內部失敗成本)",
+          zh: "內部失敗成本(Internal Failure Cost)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "External Failure Cost(外部失敗成本)",
+          zh: "外部失敗成本(External Failure Cost)",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "External Failure Cost(外部失敗成本)是指瑕疵在產品已交付給客戶之後才被發現所產生的成本,例如召回、保固理賠、商譽損失等,通常代價最高;Internal Failure Cost(內部失敗成本)則是瑕疵在交付前就被發現並修復(如重工、報廢)。Prevention Cost(預防成本)與 Appraisal Cost(評估成本)則是為避免瑕疵發生所投入的預防性成本,屬於 Cost of Conformance(符合成本),與本情境描述的事後失敗成本不同。",
+  },
+  {
+    id: "fin-086",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project needs a specialized piece of equipment for only 6 months. The organization's default practice is always to purchase equipment outright, but a team member points out that leasing would cost far less for this short duration. When you raise this with the functional manager who controls capital purchasing decisions, what should you do?",
+      zh: "某專案僅需一項特殊設備使用 6 個月。組織的預設慣例是一律直接購買設備,但一位團隊成員指出,對這麼短的使用期間而言,租賃的成本會遠低於購買。當你向掌控資本採購決策的職能經理提出此議題時,應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "不做任何比較,直接依組織過去慣例購買設備",
+          zh: "Simply follow the organization's habitual practice and purchase the equipment without any comparison.",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "向職能經理提出購買與租賃的總成本比較數據,說明短期需求下租賃更具成本效益,並協商採用較合適的方案",
+          zh: "Present the buy-vs-lease total cost comparison to the functional manager, explain that leasing is more cost-effective for this short-term need, and negotiate for the more suitable option.",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "略過職能經理,直接自行決定改採租賃",
+          zh: "Bypass the functional manager and unilaterally decide to lease instead.",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "因對方職位較高,直接順從其可能偏好的購買方案,不做進一步分析",
+          zh: "Simply defer to the functional manager's presumed preference for purchasing, without further analysis.",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "Buy vs Lease(購買或租賃)是成本估算階段常見的成本取捨(Cost Trade-off)決策之一。PM 應以數據(如生命週期總成本比較)向掌握決策權的職能經理清楚說明取捨,透過協商尋求對專案最有利、雙方都能接受的方案,而非片面依循慣例、越權自行決定,或未經分析就一味順從對方可能的偏好。",
+  },
+  {
+    id: "fin-087",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "During project selection, a senior stakeholder strongly favors funding a particular proposal based on personal enthusiasm, even though its business case shows the lowest NPV and the longest payback period among the competing proposals. What should the project manager, acting as an advisor in the selection process, do?",
+      zh: "在專案選擇階段,一位資深利害關係人基於個人熱忱強烈偏好資助某項提案,儘管該提案的商業論證顯示其 NPV 在所有競爭提案中最低、回收期也最長。身為協助選案的顧問角色,專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "因該利害關係人職位較高,直接依其偏好核准該專案",
+          zh: "Approve the stakeholder's preferred proposal simply because of their seniority.",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "客觀呈現商業論證中的財務比較數據(如 NPV、回收期),協助決策者基於數據做出知情選擇",
+          zh: "Objectively present the comparative business case data (e.g., NPV, payback period) to help decision-makers make an informed choice.",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "因財務數據較差,逕自否決該利害關係人偏好的提案",
+          zh: "Unilaterally reject the stakeholder's preferred proposal because its financials are weaker.",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "隱瞞財務比較數據,以避免與該利害關係人產生衝突",
+          zh: "Withhold the financial comparison data to avoid conflict with the stakeholder.",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "商業論證(Business Case)的核心目的是用數據與財務指標(NPV、回收期等)客觀評估各方案是否值得投資。PM 應忠實呈現這些比較數據,協助贊助人或治理委員會在充分資訊下做出決策,而非因對方職位而片面順從、片面否決,或為避免衝突而隱瞞關鍵財務資訊,這些做法都違背以數據支持決策的專業原則。",
+  },
+  {
+    id: "fin-088",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A stakeholder asks the project manager which document defines when the project's expected benefits will be realized, how they will be measured, and who will be responsible for sustaining them after the project closes. Which document should the project manager point to?",
+      zh: "一位利害關係人詢問專案經理,哪一份文件定義了專案預期效益何時能實現、如何衡量,以及專案結案後由誰負責持續維持這些效益。專案經理應指向哪一份文件?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Business Case(商業論證),因其記載了預期財務效益的金額",
+          zh: "The Business Case, because it records the monetary value of expected financial benefits.",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Benefits Management Plan(效益管理計畫書),因其定義效益何時實現、如何衡量,以及結案後由誰負責維持",
+          zh: "The Benefits Management Plan, because it defines when benefits will be realized, how they will be measured, and who will be responsible for sustaining them after closure.",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Project Charter(專案章程),因其記載了專案的高階目標",
+          zh: "The Project Charter, because it records the project's high-level objectives.",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Scope Baseline(範疇基準),因其定義了專案要交付的工作內容",
+          zh: "The Scope Baseline, because it defines the work the project is to deliver.",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "Benefits Management Plan(效益管理計畫書)專門定義專案產出的效益「何時」實現、「如何」衡量,以及專案結束後「由誰」持續維護與最大化這些價值,關注的是專案完成之後的長期效益維持。Business Case 著重論證專案值不值得投資;Project Charter 是高層級的授權文件;Scope Baseline 則定義專案要做什麼工作,三者皆非本情境利害關係人所詢問、聚焦於「效益後續維持責任」的文件。",
+  },
+  {
+    id: "fin-089",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project is expected to run for 3 years amid significant market uncertainty. The project manager proposes to the finance department that funds be released in stages tied to milestones, rather than all at once, to reduce the organization's financial exposure if the project's direction later changes. Which funding strategy is being proposed, and is raising this with finance an appropriate step?",
+      zh: "某專案預計執行 3 年,期間市場高度不確定。專案經理向財務部門提議,資金應依里程碑分階段撥付,而非一次撥齊,以降低若專案方向日後改變時組織所承擔的財務曝險。這是在提議哪一種撥款策略?向財務部門提出此議題是否恰當?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Lump Sum(整筆撥款)——PM 應堅持要求一次撥齊所有預算,不應與財務部門討論",
+          zh: "Lump Sum — the PM should insist on releasing the entire budget at once, without discussing it with finance.",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Incremental Disbursement(階段性撥款)——PM 主動與財務部門協商依里程碑分階段撥款,以降低長期不確定性下的財務曝險,這是合理的協商作法",
+          zh: "Incremental Disbursement — the PM is proactively negotiating with finance to release funds in stages tied to milestones, reducing financial exposure under long-term uncertainty; this is an appropriate negotiation step.",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Crowdfunding(群眾募資)——PM 應改向社會大眾募集這筆資金",
+          zh: "Crowdfunding — the PM should instead raise this funding from the general public.",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "PM 不應與財務部門討論撥款方式,只能被動接受組織既定安排",
+          zh: "The PM should not discuss the disbursement approach with finance and should simply accept whatever the organization has already arranged.",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "Incremental Disbursement(階段性撥款)是常見的資金策略之一,適合資金來源不確定、專案期間較長的情境,可依里程碑分階段撥付以降低財務曝險。PM 在規劃財務管理(Plan Financial Management)過程中,本就應與財務等利害關係人溝通協商合適的撥款策略,這是正當且必要的協作,而非應消極被動接受既定安排或自行決定改用完全不相關的資金來源(如群眾募資)。",
+  },
+  {
+    id: "fin-090",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Finance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "During cost estimating, the project manager facilitates a discussion with functional and finance stakeholders to weigh several cost trade-off decisions before finalizing the estimates. Which two of the following are examples of such cost trade-off decisions? (Select two.)",
+      zh: "在成本估算期間,專案經理引導與職能及財務利害關係人的討論,以在定案估算前權衡幾項成本取捨決策。下列哪兩項是此類成本取捨決策的範例?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Make vs Buy(自製或外購)",
+          zh: "Make vs Buy(自製或外購)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Buy vs Lease(購買或租賃)",
+          zh: "Buy vs Lease(購買或租賃)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Level of Precision(估算精確度)——這是成本管理計畫中定義的規則,而非取捨決策",
+          zh: "Level of Precision(估算精確度)——這是成本管理計畫中定義的規則,而非取捨決策",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Control Thresholds(控制門檻)——這是成本管理計畫中定義的允許變異範圍,而非取捨決策",
+          zh: "Control Thresholds(控制門檻)——這是成本管理計畫中定義的允許變異範圍,而非取捨決策",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Rules of Performance Measurement(績效衡量規則)——這是定義如何運用 EVM 量測的規則,而非取捨決策",
+          zh: "Rules of Performance Measurement(績效衡量規則)——這是定義如何運用 EVM 量測的規則,而非取捨決策",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "成本估算階段常需考量的成本取捨(Cost Trade-off)決策包含 Make vs Buy(自製或外購)、Buy vs Lease(購買或租賃)以及資源共享等,這些都涉及在成本、時程、風險之間權衡,通常需要與相關利害關係人溝通協商。Level of Precision、Control Thresholds、Rules of Performance Measurement 則是成本管理計畫中預先定義的規則與門檻,用於後續衡量與控制,並非取捨性的決策。",
+  },
+  {
+    id: "fin-091",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Which two of the following funding strategies represent external sources of project funding, as opposed to funds already available within the performing organization? (Select two.)",
+      zh: "下列哪兩項撥款策略屬於專案資金的外部來源,而非執行組織既有的內部資金?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Crowdfunding(群眾募資)",
+          zh: "Crowdfunding(群眾募資)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Government or NGO grant(政府或非政府組織補助)",
+          zh: "Government or NGO grant(政府或非政府組織補助)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Fixed or Reallocated Internal Budget(固定或重新分配的內部預算)——屬於組織既有的內部資金",
+          zh: "Fixed or Reallocated Internal Budget(固定或重新分配的內部預算)——屬於組織既有的內部資金",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Lump Sum(整筆撥款)——這是撥款「方式」,而非資金「來源」",
+          zh: "Lump Sum(整筆撥款)——這是撥款「方式」,而非資金「來源」",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Incremental Disbursement(階段性撥款)——這也是撥款「方式」,而非資金「來源」",
+          zh: "Incremental Disbursement(階段性撥款)——這也是撥款「方式」,而非資金「來源」",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "Crowdfunding(群眾募資)與 Government or NGO grant(政府或非政府組織補助)皆是由組織外部取得資金的來源;Fixed or Reallocated Internal Budget 則是組織既有的內部資金。Lump Sum 與 Incremental Disbursement 描述的是資金「撥付的方式」(一次撥齊或分階段撥付),而非資金究竟「來自何處」,考生應區分「資金來源」與「撥款方式」這兩個不同面向。",
+  },
+  {
+    id: "fin-092",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "A project has PV = $260,000, EV = $210,000, and AC = $250,000. Select the two statements that correctly describe the project's current status. (Select two.)",
+      zh: "某專案 PV(計畫值)= $260,000、EV(實獲值)= $210,000、AC(實際成本)= $250,000。請選出兩項正確描述專案目前狀態的敘述。(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The project is currently over budget (CPI ≈ 0.84 < 1).",
+          zh: "專案目前超出預算(CPI ≈ 0.84 < 1)。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The project is currently behind schedule (SPI ≈ 0.81 < 1).",
+          zh: "專案目前進度落後(SPI ≈ 0.81 < 1)。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "CV = +$40,000, meaning the project is under budget.",
+          zh: "CV = +$40,000,代表專案低於預算。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "SV = +$50,000, meaning the project is ahead of schedule.",
+          zh: "SV = +$50,000,代表專案進度超前。",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Both cost and schedule performance are exactly on plan.",
+          zh: "成本與時程績效皆完全符合計畫。",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "CPI = EV/AC = 210,000/250,000 = 0.84(<1,超出預算);SPI = EV/PV = 210,000/260,000 ≈ 0.81(<1,進度落後)。CV = EV−AC = 210,000−250,000 = −40,000(負值,而非選項 (c) 所述正值);SV = EV−PV = 210,000−260,000 = −50,000(負值,而非選項 (d) 所述正值)。此為「超支又落後」的雙重不利情境,須立即檢視原因並採取矯正行動。",
+  },
+  {
+    id: "fin-093",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Which two of the following business analysis activities are typically completed BEFORE the project charter is signed and the project is formally authorized? (Select two.)",
+      zh: "下列哪兩項商務分析活動通常是在專案章程簽署、專案正式獲得授權「之前」就已完成?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Needs Assessment(需求評估)",
+          zh: "Needs Assessment(需求評估)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Business Case(商業論證)",
+          zh: "Business Case(商業論證)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Develop Schedule Baseline(發展時程基準)——屬於專案獲授權後的規劃活動",
+          zh: "Develop Schedule Baseline(發展時程基準)——屬於專案獲授權後的規劃活動",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Close Project or Phase(結束專案或階段)——屬於專案尾聲的活動",
+          zh: "Close Project or Phase(結束專案或階段)——屬於專案尾聲的活動",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Monitor and Control Project Work(監控專案工作)——屬於專案執行期間的活動",
+          zh: "Monitor and Control Project Work(監控專案工作)——屬於專案執行期間的活動",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "專案早期的商業分析核心流程依序為:識別問題或機會 → 需求評估(Needs Assessment)→ 商業論證(Business Case)→ 效益管理計畫書 → 專案章程簽署。因此 Needs Assessment 與 Business Case 皆發生在專案章程簽署、專案正式授權之前;Develop Schedule Baseline 屬於專案獲授權後的規劃過程,Monitor and Control Project Work 屬於執行期間的監控過程,Close Project or Phase 則發生在專案或階段結束時,三者皆晚於專案章程簽署。",
+  },
+  {
+    id: "fin-094",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "multiple_response",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Which two of the following are elements typically defined within the Financial Management Plan? (Select two.)",
+      zh: "下列哪兩項是財務管理計畫(Financial Management Plan)中通常會定義的要素?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Level of Accuracy(精確度等級,如 ±10%)",
+          zh: "Level of Accuracy(精確度等級,如 ±10%)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Reporting Formats(報告格式)",
+          zh: "Reporting Formats(報告格式)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Team Ground Rules(團隊基本規則)",
+          zh: "Team Ground Rules(團隊基本規則)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Probability and Impact Matrix(機率與衝擊矩陣)",
+          zh: "Probability and Impact Matrix(機率與衝擊矩陣)",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Conflict Resolution Techniques(衝突解決技巧)",
+          zh: "Conflict Resolution Techniques(衝突解決技巧)",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "Financial Management Plan(財務管理計畫)通常定義 Unit of Measurement、Level of Precision、Level of Accuracy(如 ±10%)、WBS/Control Account 對應、Control Thresholds、Performance Measurement Rules、Reporting Formats 等要素,用於規劃、架構與控制專案花費。Team Ground Rules 屬於團隊章程的一部分,Probability and Impact Matrix 是風險管理的產出,Conflict Resolution Techniques 則屬於人際與團隊技巧,三者皆與財務管理計畫的定義無關。",
+  },
+  {
+    id: "fin-095",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each Cost of Quality category to its correct description.",
+      zh: "請將下列品質成本(Cost of Quality)類別拖曳配對到正確的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Prevention Cost",
+            zh: "預防成本",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Appraisal Cost",
+            zh: "評估成本",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Internal Failure Cost",
+            zh: "內部失敗成本",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "External Failure Cost",
+            zh: "外部失敗成本",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Costs incurred to keep defects out of the product in the first place, such as training and process documentation",
+            zh: "為了從一開始就避免瑕疵發生所投入的成本,如訓練與流程文件化",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Costs incurred to evaluate and test the product to check whether it meets requirements, such as inspection and testing",
+            zh: "為了評估與測試產品是否符合需求所投入的成本,如檢驗與測試",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Costs incurred when a defect is found and fixed before the customer receives the product, such as rework and scrap",
+            zh: "當瑕疵在交付給客戶之前被發現並修復所產生的成本,如重工與報廢",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Costs incurred when a defect is found after the customer has already received the product, such as warranty claims and recalls",
+            zh: "當瑕疵在客戶已收到產品之後才被發現所產生的成本,如保固理賠與召回",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "品質成本可分為 Cost of Conformance(符合成本:Prevention + Appraisal)與 Cost of Non-Conformance(不符合成本:Internal Failure + External Failure)。Prevention(預防成本)與 Appraisal(評估成本)是主動投入以避免或及早發現瑕疵的成本;Internal Failure(內部失敗成本)與 External Failure(外部失敗成本)則是瑕疵已發生後所付出的代價,且交付後才發現的外部失敗成本通常遠高於交付前發現的內部失敗成本。",
+  },
+  {
+    id: "fin-096",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each funding strategy to its correct description.",
+      zh: "請將下列撥款策略拖曳配對到正確的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Lump Sum",
+            zh: "整筆撥款",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Incremental Disbursement",
+            zh: "階段性撥款",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "External Investment",
+            zh: "外部投資",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Crowdfunding",
+            zh: "群眾募資",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "The full approved project budget is released at once, with reserves set aside for the entire duration",
+            zh: "核可的專案預算一次全數撥付,並為整個專案期間預留準備金",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Funds are released in stages over time, often tied to milestones or reporting periods",
+            zh: "資金隨時間分階段撥付,通常與里程碑或報告期間掛鉤",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Capital is provided by outside investors who expect a financial return from the funded initiative",
+            zh: "資金由外部投資者提供,這些投資者預期從被資助的方案中獲得財務報酬",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Small amounts of funding are collected from a large number of individual contributors, often through an online platform",
+            zh: "透過線上平台,向大量個別出資者募集小額資金",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "Financial Management Plan 中定義的常見撥款策略包括:Fixed/Reallocated Internal Budget(既有內部資產)、Lump Sum(整筆撥款,一次分配全部預算)、Incremental Disbursement(階段性撥款,依時間或里程碑分批釋出)、External Investment(外部投資)、Government or NGO Grant(政府或非政府組織補助)、Crowdfunding(群眾募資)以及 Client Contract(客戶合約撥款)等,PM 須了解各策略的資金釋出模式,以規劃專案金流並管理財務風險。",
+  },
+  {
+    id: "fin-097",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "matching",
+    difficulty: "hard",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each of the five pre-project business analysis activities to its correct description, in the order they typically occur before the project is formally authorized.",
+      zh: "請將下列五項專案早期商務分析活動拖曳配對到正確的描述,依其在專案正式獲授權前通常發生的順序排列。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Identify Problem or Opportunity",
+            zh: "識別問題或機會",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Needs Assessment",
+            zh: "需求評估",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Business Case",
+            zh: "商業論證",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Benefits Management Plan",
+            zh: "效益管理計畫書",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Project Charter",
+            zh: "專案章程",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "A business analyst or senior leader recognizes a current pain point or an emerging market opportunity",
+            zh: "商務分析師或高層發掘現況的痛點或市場新商機",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "The gap between the current state and the desired future state is explored, along with possible solution options",
+            zh: "探討現況與未來理想狀態之間的差距,並探尋各種可能的解決方案",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "A feasibility study that uses cost and benefit data, such as ROI, NPV, and payback period, to prove whether the initiative is worth investing in",
+            zh: "一份運用成本效益數據(如 ROI、NPV、回收期)證明此提案是否值得投資的可行性研究",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Defines when the resulting benefits will be realized, how they will be measured, and who will be responsible for sustaining them after the project ends",
+            zh: "定義所產生的效益何時能實現、如何衡量,以及專案結束後由誰負責持續維持",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "Once approved by the sponsor, this document formally authorizes the project and grants the project manager authority to use organizational resources",
+            zh: "經贊助人核准後,此文件正式授權專案成立,並授予專案經理動用組織資源的職權",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "專案正式啟動前的五大商務分析核心流程依序為:識別問題或機會 → 需求評估(釐清現況與理想狀態的落差)→ 商業論證(用財務數據證明是否值得投資)→ 效益管理計畫書(規劃效益如何被實現與維持)→ 專案章程(經贊助人核准後正式授權專案)。理解此順序有助於考生分辨各文件的核心目的與適用時機,避免將商業論證與效益管理計畫書、專案章程等文件的功能混淆。",
+  },
+  {
+    id: "fin-098",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each financial term to its correct definition.",
+      zh: "請將下列財務用詞拖曳配對到正確的定義。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Cost",
+            zh: "成本",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Budget",
+            zh: "預算",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Finance",
+            zh: "財務(融資)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "The individual estimate of how much a single project activity or work package is expected to cost",
+            zh: "單一專案活動或工作包預計花費金額的個別估算",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "The approved, time-phased total obtained by aggregating individual cost estimates and adding the Contingency Reserve",
+            zh: "將個別成本估算加總並加上應變準備金後,所得到經核准、依時間分期的總額",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Where the project's funding comes from, when it will be disbursed, and the economic viability evaluation behind it",
+            zh: "專案資金的來源、撥款時程,以及背後的經濟效益評估",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+    },
+    explanation: "Cost(成本)是最基礎的個別活動或工作包花費估算;Budget(預算)是將這些個別成本加總、加上應變準備金後,經核准並依時間分期的成本基準;Finance(財務/融資)則是層級更高的概念,關注資金究竟從何而來(內部自籌或外部投資)、何時撥付,以及整體經濟效益評估。三者層層遞進,是釐清專案財務用詞時最容易混淆的一組概念。",
+  },
+  {
+    id: "fin-099",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "matching",
+    difficulty: "hard",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each earned value percentage measure to its correct formula and meaning.",
+      zh: "請將下列實獲值百分比量測指標拖曳配對到正確的公式與意義。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "CV% (Cost Variance Percentage)",
+            zh: "CV%(成本變異百分比)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "SV% (Schedule Variance Percentage)",
+            zh: "SV%(時程變異百分比)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Percent Complete",
+            zh: "完成百分比",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Percent Spent",
+            zh: "已花費預算百分比",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "CV divided by EV, showing the cost variance as a percentage of the value earned so far",
+            zh: "CV 除以 EV,以已實獲價值的百分比表示成本變異",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "SV divided by PV, showing the schedule variance as a percentage of the value planned so far",
+            zh: "SV 除以 PV,以計畫價值的百分比表示時程變異",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "EV divided by BAC, showing how much of the total planned scope has been earned so far",
+            zh: "EV 除以 BAC,顯示目前已實獲的總計畫範疇比例",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "AC divided by BAC, showing how much of the total budget has been consumed so far, regardless of how much work was actually completed",
+            zh: "AC 除以 BAC,顯示目前已耗用的總預算比例,而不論實際完成了多少工作",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "除了 CV、SV、CPI、SPI 等基礎 EVM 指標外,實務上也常用百分比量測輔助判讀:CV% = CV/EV、SV% = SV/PV,分母慣例分別為 EV 與 PV,而非 AC 或 BAC;Percent Complete(完成百分比)= EV/BAC,反映實際完成的範疇比例;Percent Spent(已花費預算百分比)= AC/BAC,則只反映花了多少預算,並不代表完成了多少工作——兩者常被混淆,例如已花費 80% 預算卻只完成 50% 範疇(即 Percent Spent 遠高於 Percent Complete),正是專案超支的警訊。",
+  },
+  {
+    id: "fin-100",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "The Financial Management Plan distinguishes two related but different concepts. {{blank1}} defines the acceptable range around a cost estimate, such as ±10%, used to judge whether an estimate is good enough for decision-making. {{blank2}} defines the degree of rounding applied to activity cost estimates, such as rounding to the nearest $100 or $1,000.",
+      zh: "財務管理計畫區分了兩個相關但不同的概念。{{blank1}} 定義了成本估算周圍可接受的範圍,例如 ±10%,用來判斷估算值是否足夠精準以供決策使用。{{blank2}} 則定義了活動成本估算所採用的四捨五入程度,例如四捨五入至百元或千元。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Level of Accuracy(精確度等級)",
+              zh: "精確度等級(Level of Accuracy)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Level of Precision(精確程度)",
+              zh: "精確程度(Level of Precision)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Control Thresholds(控制門檻)",
+              zh: "控制門檻(Control Thresholds)",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "Units of Measure(計量單位)",
+              zh: "計量單位(Units of Measure)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Level of Accuracy(精確度等級)",
+              zh: "精確度等級(Level of Accuracy)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Level of Precision(精確程度)",
+              zh: "精確程度(Level of Precision)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Control Thresholds(控制門檻)",
+              zh: "控制門檻(Control Thresholds)",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "Units of Measure(計量單位)",
+              zh: "計量單位(Units of Measure)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "Level of Accuracy(精確度等級)與 Level of Precision(精確程度)是財務/成本管理計畫中容易混淆的一組概念:Level of Accuracy 指估算值可接受的誤差範圍(如 ±10%),用來判斷估算「夠不夠準」;Level of Precision 則是估算數字呈現時的四捨五入程度(如至百元或千元),屬於「數字要寫多細」的格式規定,兩者關注的面向不同。",
+  },
+  {
+    id: "fin-101",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "On a typical project funding chart, the Cost Baseline (planned cumulative cost) is usually plotted as a smooth, continuously rising {{blank1}}, because cost accrues gradually as work is performed. The organization's periodic funding releases, by contrast, are usually plotted as a {{blank2}}, because funds tend to become available in discrete lump amounts at set points in time.",
+      zh: "在典型的專案資金圖表上,成本基準(計畫累積成本)通常呈現為一條平滑、持續上升的 {{blank1}},因為成本會隨著工作執行而逐漸累積。相對地,組織的定期撥款則通常呈現為一種 {{blank2}},因為資金往往是在特定時間點以離散的整筆金額到位。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "step function(階梯函數)",
+              zh: "階梯函數(step function)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "S-curve(S 曲線)",
+              zh: "S 曲線(S-curve)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "horizontal line(水平線)",
+              zh: "水平線(horizontal line)",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "straight diagonal line(直線斜線)",
+              zh: "直線斜線(straight diagonal line)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "step function(階梯函數)",
+              zh: "階梯函數(step function)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "S-curve(S 曲線)",
+              zh: "S 曲線(S-curve)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "horizontal line(水平線)",
+              zh: "水平線(horizontal line)",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "straight diagonal line(直線斜線)",
+              zh: "直線斜線(straight diagonal line)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "b",
+      blank2: "a",
+    },
+    explanation: "專案的計畫累積成本(Cost Baseline)通常呈現平滑的 S 曲線,因為工作是逐步、連續地執行與累積成本;組織的分期撥款則通常呈現階梯函數(Step Function),因為資金常是在每季或里程碑等特定時間點一次性到位,而非連續流入。當計畫累積成本曲線在某時點超過已撥款的階梯曲線時,即須進行撥款限制調節(Funding Limit Reconciliation)。",
+  },
+  {
+    id: "fin-102",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "When comparing the cost of producing an item in-house against purchasing it from an external supplier, the project team performs a {{blank1}} analysis. This analysis often involves calculating the {{blank2}} — the production quantity at which the total cost of making the item in-house equals the total cost of buying it externally.",
+      zh: "在比較自製某項物品與向外部供應商採購的成本時,專案團隊會進行 {{blank1}} 分析。此分析通常涉及計算 {{blank2}}——也就是自製與外購總成本恰好相等時的生產數量。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Make-or-Buy(自製或外購)",
+              zh: "自製或外購(Make-or-Buy)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Life-Cycle Costing(生命週期成本)",
+              zh: "生命週期成本(Life-Cycle Costing)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Reserve(準備金)",
+              zh: "準備金(Reserve)",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "Benchmarking(標竿比較)",
+              zh: "標竿比較(Benchmarking)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "sunk cost(沉沒成本)",
+              zh: "沉沒成本(sunk cost)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "breakeven point(損益兩平點)",
+              zh: "損益兩平點(breakeven point)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "opportunity cost(機會成本)",
+              zh: "機會成本(opportunity cost)",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "contingency reserve(應變準備金)",
+              zh: "應變準備金(contingency reserve)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "Make-or-Buy Analysis(自製或外購分析)是成本估算階段常見的技術,用來比較自行生產與向外採購兩種方案的成本。分析中常計算損益兩平點(Breakeven Point),即產量達到某個數值時,自製的固定成本被攤提後,兩種方案的總成本恰好相等;產量低於此點通常外購較划算,高於此點則自製較划算。",
+  },
+  {
+    id: "fin-103",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "dropdown",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Within the Cost of Quality, the cost of conformance includes {{blank1}} costs (such as training and process documentation) plus {{blank2}} costs (such as inspection and testing); together these are proactive investments made to prevent defects. Costs incurred only after a defect is found are instead classified as the cost of non-conformance.",
+      zh: "在品質成本中,符合成本(Cost of Conformance)包含 {{blank1}} 成本(如訓練與流程文件化)加上 {{blank2}} 成本(如檢驗與測試);兩者皆是為了預防瑕疵發生所投入的主動性投資。而瑕疵發生「之後」才產生的成本,則屬於不符合成本(Cost of Non-Conformance)。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Prevention(預防)",
+              zh: "預防(Prevention)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Appraisal(評估)",
+              zh: "評估(Appraisal)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Internal Failure(內部失敗)",
+              zh: "內部失敗(Internal Failure)",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "External Failure(外部失敗)",
+              zh: "外部失敗(External Failure)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Prevention(預防)",
+              zh: "預防(Prevention)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Appraisal(評估)",
+              zh: "評估(Appraisal)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Internal Failure(內部失敗)",
+              zh: "內部失敗(Internal Failure)",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "External Failure(外部失敗)",
+              zh: "外部失敗(External Failure)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "Cost of Conformance(符合成本)= Prevention Cost(預防成本,如訓練、流程文件化)+ Appraisal Cost(評估成本,如檢驗、測試),兩者都是在瑕疵發生前主動投入、以避免或及早攔截瑕疵的成本;Cost of Non-Conformance(不符合成本)則 = Internal Failure Cost + External Failure Cost,是瑕疵已經發生後才產生的補救成本,通常代價遠高於事前的預防與評估投資。",
+  },
+  {
+    id: "fin-104",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A company ships a product, and only after customers begin using it does a critical defect surface, forcing a costly public recall and customer compensation payouts. Click the card naming the Cost of Quality category this cost belongs to.",
+      zh: "某公司已將產品出貨,直到客戶開始使用後才發現一項重大瑕疵,迫使公司發出代價高昂的公開召回並支付客戶賠償。請點選正確命名此成本所屬品質成本類別的卡片。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Prevention Cost",
+          zh: "預防成本(Prevention Cost)",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Appraisal Cost",
+          zh: "評估成本(Appraisal Cost)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Internal Failure Cost",
+          zh: "內部失敗成本(Internal Failure Cost)",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "External Failure Cost",
+          zh: "外部失敗成本(External Failure Cost)",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n4",
+    explanation: "瑕疵在產品交付給客戶之後才被發現,並因此產生召回與賠償等成本,屬於 External Failure Cost(外部失敗成本),通常是品質成本中代價最高的一類;Internal Failure Cost 是交付前就發現並修復(如重工、報廢);Prevention Cost 與 Appraisal Cost 則是為避免瑕疵發生所投入的事前預防性成本,皆與本情境描述的事後外部失敗不同。",
+  },
+  {
+    id: "fin-105",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "hotspot",
+    difficulty: "hard",
+    timeCategory: "calculation",
+    stem: {
+      en: "The chart plots the total cost of making an item in-house (a fixed cost of $40,000 plus $5 per unit) against the total cost of buying it externally ($13 per unit, with no fixed cost), across a range of production quantities. Click the point on the chart where the two total-cost lines cross — the breakeven quantity at which making and buying cost exactly the same.",
+      zh: "下圖繪製了「自製某物品的總成本」(固定成本 $40,000 加每單位 $5)與「向外採購的總成本」(每單位 $13,無固定成本)在不同生產數量下的對比。請點選圖上「自製與外購兩條總成本線交會」的那個點——也就是自製與外購成本恰好相等的損益兩平數量。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "2,000 units",
+          zh: "2,000 個單位",
+        },
+        x: 5,
+        y: 40,
+        width: 20,
+        height: 30,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "5,000 units",
+          zh: "5,000 個單位",
+        },
+        x: 30,
+        y: 15,
+        width: 20,
+        height: 30,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "8,000 units",
+          zh: "8,000 個單位",
+        },
+        x: 55,
+        y: 40,
+        width: 20,
+        height: 30,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "10,000 units",
+          zh: "10,000 個單位",
+        },
+        x: 80,
+        y: 55,
+        width: 20,
+        height: 30,
+      },
+    ],
+    correctAnswer: "n2",
+    explanation: "設損益兩平數量為 x,令自製總成本等於外購總成本:40,000 + 5x = 13x → 40,000 = 8x → x = 5,000。產量低於 5,000 個單位時,外購因無固定成本而較划算;產量高於 5,000 個單位時,自製的固定成本被更多單位分攤,單位成本下降,自製反而較划算。此交叉點即為 Make-or-Buy Analysis 中的損益兩平點。",
+  },
+  {
+    id: "fin-106",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "hotspot",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "A startup team wants to fund a new product's initial development by collecting many small contributions from members of the general public through an online platform, often in exchange for early access or rewards. Click the card naming this funding strategy.",
+      zh: "某新創團隊想透過線上平台,向一般大眾募集大量小額資金以資助新產品的初期開發,通常以提前取得產品或其他回饋作為交換。請點選正確命名此撥款策略的卡片。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Lump Sum",
+          zh: "整筆撥款(Lump Sum)",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Incremental Disbursement",
+          zh: "階段性撥款(Incremental Disbursement)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Crowdfunding",
+          zh: "群眾募資(Crowdfunding)",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Government or NGO Grant",
+          zh: "政府或非政府組織補助(Government or NGO Grant)",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n3",
+    explanation: "Crowdfunding(群眾募資)是指透過線上平台,向大量個別出資者募集小額資金以資助專案或產品開發,常見於新創或創新產品的早期籌資,出資者通常以提前取得產品或其他回饋作為交換;Lump Sum 與 Incremental Disbursement 是組織內部預算的撥付方式,Government or NGO Grant 則是向政府或非營利組織申請的補助,皆與向社會大眾募集小額資金的群眾募資性質不同。",
+  },
+  {
+    id: "fin-107",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Six weeks after a logistics firm launches a licensed AI demand forecaster, selected with the team from three vendors, a regional director publicly questions why the firm did not fine tune its own model and avoid the recurring fees.",
+      zh: "一家物流公司上線一套授權制的 AI 需求預測系統六週後(這套系統當初是團隊從三家廠商中選出的),一位區域總監公開質疑,為什麼公司當初不自行微調模型、以省下持續產生的授權費用。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Have the team price out what an in house rebuild would cost over three years.",
+          zh: "請團隊估算自行重建這套模型未來三年的成本",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Invite the vendor to brief the director on the license's long term economics.",
+          zh: "邀請廠商向這位總監說明授權方案的長期經濟效益",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Open a change request to evaluate migrating to an in house model.",
+          zh: "開一個變更申請,評估遷移到自建模型的可行性",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Go back to the documented requirements and confirm the selection satisfied them.",
+          zh: "回頭查閱當初記錄下來的需求文件,確認當時的選擇確實有滿足這些需求",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "這是一個已經完成、有正式記錄的決策事後被質疑,面對這種情況,第一步應該回到當初的決策依據,查閱當時記錄下來的需求與評選過程,確認這套已授權的方案確實滿足了當初的需求,用既有紀錄客觀回應質疑,而不是急著重新啟動評估。重新估算自建成本、開變更申請評估遷移,都是還沒確認「當初的選擇是否真的有問題」之前,就先假設當初決策有缺失而動起來,屬於捨近求遠;找廠商出面說明,則等於讓有利益關係的一方替公司的決策背書,說服力也不足。",
+  },
+  {
+    id: "fin-108",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "An outside firm is building a customer service chatbot as a minimum viable product over a fixed number of sprints, with payment tied to accepted work. Which metric set should the project manager track?",
+      zh: "一家外部廠商正在用固定數量的衝刺(sprint),為公司開發一套客服聊天機器人的最小可行產品(MVP),付款方式綁定在「驗收合格的工作項目」上。專案經理應該追蹤哪一組指標?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Conversations processed in testing, compute hours consumed, and sprints completed.",
+          zh: "測試階段處理過的對話數、耗用的運算時數、已完成的衝刺數",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The vendor's reported model accuracy scores and the count of iterations in progress.",
+          zh: "廠商自行回報的模型準確率分數、進行中的迭代次數",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Accepted chatbot capabilities delivered, deliverables rejected at review, and defects found.",
+          zh: "已驗收交付的聊天機器人功能數、審查時被退回的交付項目數、發現的瑕疵數",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Vendor staffing levels, budget consumed to date, and story points finished per sprint.",
+          zh: "廠商的人力配置水準、目前已耗用的預算、每個衝刺完成的故事點數",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "題目已經明講這份合約「payment tied to accepted work」,也就是付款與驗收綁在一起,專案經理該追蹤的自然是直接對應「驗收合格與否」的指標:已驗收交付的功能數、審查時被退回的件數、以及找到的瑕疵數,這組指標能直接反映廠商實際交付出多少「合格」的價值,也是決定是否付款的依據。一句話總結這個判準:Payment rides on accepted work, so the metrics that matter are acceptance anchored(付款是綁定在驗收合格的工作上,所以真正該追蹤的指標必須錨定在驗收結果上)。測試對話數、運算時數、衝刺完成數,以及人力配置、預算耗用、故事點數,都是偏向過程與投入面的效率指標,跟「這批工作到底有沒有被驗收通過」沒有直接關聯;廠商自行回報的準確率與進行中迭代次數,則是未經第三方驗證的廠商自報數字,無法客觀反映實際驗收結果,也偏離了「依驗收付款」這個合約重點。",
   },
   {
     id: "mr-001",
@@ -20952,6 +29822,2315 @@ export const sampleQuestions = [
     explanation: "啟動會議(Kickoff Meeting)的主要目的是正式宣告專案展開,讓利害關係人與團隊對專案目標、範疇與角色達成共識,並建立初步的團隊承諾與士氣;逐項技術設計審查、供應商合約議價,或正式結案釋出資源,分別屬於其他階段或活動的重點,並非啟動會議的核心目的。",
   },
   {
+    id: "stk-070",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "On a Scrum team, the group displays a large, highly visible wall board in the shared workspace showing the current sprint burndown, blockers, and work-in-progress limits, so that anyone walking by can understand project status without asking the team. What is this technique called?",
+      zh: "某Scrum團隊在共用工作空間放置一面高度可視化的大型看板,展示目前衝刺的燃盡狀況、阻礙事項與在製品限制,讓任何路過的人都能一眼了解專案狀態,而無需詢問團隊。此技巧稱為下列何者?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Information Radiator",
+          zh: "資訊發射源(Information Radiator)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Stakeholder Register",
+          zh: "利害關係人登錄表",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Communications Management Plan",
+          zh: "溝通管理計畫",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "RACI Chart",
+          zh: "RACI 責任分派矩陣",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "Information Radiator(資訊發射源)是敏捷團隊常用的高可視化溝通工具,透過牆面、看板、圖表等方式將專案當前狀態(如燃盡圖、阻礙、WIP限制)公開展示於工作空間中,任何人皆可自行觀看取得資訊,藉此減少不必要的狀態詢問與會議,促進透明與雙向溝通的敏捷文化;登錄表、溝通管理計畫與RACI矩陣皆是文件性質的工具,並非這種高可視化展示技巧。",
+  },
+  {
+    id: "stk-071",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "An agile team wants to increase genuine stakeholder engagement rather than merely reporting status. Which two of the following practices are most consistent with agile stakeholder engagement principles? (Select two.)",
+      zh: "某敏捷團隊希望提升利害關係人真正的參與程度,而非僅止於報告狀態。下列哪兩項作法最符合敏捷利害關係人參與的原則?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Use low-tech, high-touch tools such as a physical card wall instead of relying solely on a complex Gantt chart tool that few stakeholders understand",
+          zh: "使用如實體卡片牆等低科技、高接觸的工具,而非僅依賴少數利害關係人才看得懂的複雜甘特圖工具",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Deliver in short iterations so stakeholders have frequent, concrete opportunities to review progress and give feedback",
+          zh: "以短期迭代交付,讓利害關係人有頻繁且具體的機會檢視進度並提供回饋",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Limit stakeholder involvement to a single review at the very end of the project to avoid disrupting the team",
+          zh: "將利害關係人的參與限制在專案結束時的單一次審查,以避免干擾團隊",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Replace all in-person conversations with formal written status reports for consistency",
+          zh: "為求一致性,以正式書面狀態報告取代所有面對面對話",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "敏捷強調低科技、高接觸的工具(如實體卡片牆、白板)比高科技但不易理解的工具(如複雜甘特圖)更能一看就懂、提高溝通與參與;短期迭代則讓利害關係人有頻繁且具體的機會參與檢視與回饋,而非只在專案末端才介入。將參與限制在專案結束時的單一審查,或以書面報告完全取代面對面溝通,皆違背敏捷重視面對面、雙向溝通與持續參與的精神。",
+  },
+  {
+    id: "stk-072",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Stakeholders",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each technique for building a shared vision between the customer and the agile team to its description.",
+      zh: "請將下列用於在客戶與敏捷團隊間建立共同願景的技巧,拖曳配對到對應描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Agile Charter",
+            zh: "敏捷章程(Agile Charter)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Definition of Done",
+            zh: "完成的定義(Definition of Done)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Use Case Diagram",
+            zh: "使用案例圖(Use Case Diagram)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Personas",
+            zh: "人物誌(Personas)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "A high-level document authorizing the project before the backlog begins, often distilled into a short \"project tweet\" describing the project's purpose",
+            zh: "在待辦清單開始前用以授權專案的高階文件,常可濃縮為一則描述專案宗旨的簡短「專案推文」",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "A shared understanding of what counts as complete, expressed through user stories, releases, and final project deliverables",
+            zh: "透過user story、releases與最終專案交付物表達,對「完成」的共同認知",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "A diagram showing how end users interact with and use the product",
+            zh: "顯示終端使用者如何與產品互動、使用產品的圖表",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "A quick way to build empathy for and a concrete picture of key stakeholder groups",
+            zh: "快速建立對重點利害關係人群體同理心與具體輪廓的方法",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "敏捷確保客戶與團隊願景一致的方法包含:Agile Charter(敏捷章程),是Hi-Level授權文件,常可濃縮為140字以內的Project Tweet;定義何為完成(Definition of Done),透過User Story、Releases、最終專案交付物具體化「完成」的共同認知;Agile Modeling技巧則包含Use Case Diagram(顯示使用者如何使用產品)、Data Model、Wireframe,以及Personas(適合快速了解並同理重點利害關係人)。四者共同協助團隊與客戶對專案方向及交付內容取得一致共識。",
+  },
+  {
+    id: "stk-073",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Stakeholders",
+    questionType: "hotspot",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Click the card that best describes the Agile Modeling technique known as a \"Wireframe.\"",
+      zh: "請點選最能描述敏捷建模(Agile Modeling)技巧中「線框稿(Wireframe)」的卡片。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "A rough, low-fidelity layout sketch showing the structure and placement of elements on a screen, without visual design detail",
+          zh: "一種粗略、低擬真度的版面配置草圖,呈現畫面上元素的結構與位置,但不含視覺設計細節",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "A diagram showing how end users interact with the product",
+          zh: "顯示終端使用者如何與產品互動的圖表",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "A fictional but realistic profile representing a key user or stakeholder group",
+          zh: "代表某重點使用者或利害關係人群體的虛構但寫實的檔案描述",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "A diagram showing the structure and relationships of data entities used by the product",
+          zh: "顯示產品所使用資料實體結構與關聯的圖表",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n1",
+    explanation: "Agile Modeling常見技巧包含Use Case Diagram(n2,顯示使用者如何使用產品)、Data Model(n4,顯示資料結構與關聯)、Wireframe(n1,低擬真度的畫面版面配置草圖,聚焦結構而非視覺細節)、以及Personas(n3,代表重點利害關係人群體的虛構寫實檔案)。這些輕量級模型工具能快速讓客戶與團隊對產品外觀、資料與使用情境建立共同理解,而不需要投入完整的正式規格文件。",
+  },
+  {
+    id: "stk-074",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Several senior executives remain skeptical of the organization's shift to agile delivery, privately worrying that short iterations mean the team lacks a real plan and that frequent change indicates poor discipline. What should the project manager do to address this?",
+      zh: "幾位高階主管對組織轉向敏捷交付方式仍抱持懷疑,私下擔心短期迭代代表團隊缺乏真正的計畫,且頻繁變更代表紀律不佳。專案經理應如何處理此情況?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Ignore the executives' concerns since they are not part of the delivery team",
+          zh: "忽略高階主管的疑慮,因為他們並非交付團隊的一員",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Proactively educate the executives on agile concepts, such as adaptive planning and the value of early, frequent feedback, to address their specific concerns",
+          zh: "主動向高階主管說明敏捷概念,例如調適性規劃與及早頻繁回饋的價值,以回應其具體疑慮",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask the executives to stop attending steering committee meetings until they better understand agile",
+          zh: "要求高階主管在更了解敏捷之前先暫停出席指導委員會會議",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Revert the project back to a predictive approach to avoid further questions from executives",
+          zh: "為避免高階主管進一步提問,將專案改回預測式方法",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "敏捷利害關係人參與強調透過教育宣導消除大家(包含高階主管、經理、成員與使用者)對敏捷觀念的常見疑慮。面對高階主管擔心短期迭代缺乏計畫、頻繁變更代表紀律不佳,PM應主動說明敏捷的調適性規劃(Adaptive Planning)本質——計畫會隨進展持續更新而非一次定案,以及及早頻繁交付與回饋如何降低風險、提升價值,而非忽視疑慮、排除高階主管參與,或未經評估就片面放棄敏捷方法。",
+  },
+  {
+    id: "stk-075",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "An agile project manager needs to negotiate with a business sponsor who insists on adding a large new feature mid-sprint. Which two of the following approaches reflect sound agile negotiation practice in this situation? (Select two.)",
+      zh: "某敏捷專案經理需與一位堅持要在衝刺期間新增一項大型功能的業務贊助人協商。下列哪兩項作法反映了此情境下良好的敏捷協商實務?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Approach the conversation with a positive tone, respect, and empathy, while still protecting the customer's overall interests and satisfaction",
+          zh: "以正向、尊重與同理心進行對話,同時仍須確保客戶整體利益與滿意度",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Explain the impact on the current sprint and propose adding the feature to the product backlog for prioritization in a future sprint",
+          zh: "說明對目前衝刺的影響,並提議將該功能加入產品待辦清單,於未來衝刺中排序評估",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Immediately agree to insert the feature into the current sprint to avoid disappointing the sponsor",
+          zh: "為避免讓贊助人失望,立即同意將該功能插入目前衝刺",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Tell the sponsor that scope changes are never allowed once a sprint has started, with no further discussion",
+          zh: "告知贊助人一旦衝刺開始,範疇絕對不允許變更,不再進一步討論",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "敏捷中的協商(無論向上、向下或平行)應秉持正向、尊重、同理心的態度,並以確保客戶利益與滿意度為依歸;實務上面對衝刺中途的新增需求,應說明對目前衝刺承諾的影響,並引導贊助人將需求納入產品待辦清單依優先順序評估,而非立即讓步破壞衝刺範疇的穩定性,也不應以生硬態度一味拒絕溝通,這兩種極端做法都無助於維持長期的信任關係。",
+  },
+  {
+    id: "stk-076",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Stakeholders",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Compared to a traditional Project Charter, an {{blank1}} is a simpler, high-level document created before the backlog begins that authorizes the project manager, and it is often distilled into a short \"project tweet\" of no more than {{blank2}} characters describing the project's purpose.",
+      zh: "相較於傳統的專案章程(Project Charter),{{blank1}} 是一份在待辦清單開始之前建立、內容較簡單的高階文件,用以授權專案經理,且常可濃縮為一則描述專案宗旨、不超過 {{blank2}} 個字元的簡短「專案推文」。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Agile Charter",
+              zh: "敏捷章程(Agile Charter)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Stakeholder Engagement Plan",
+              zh: "利害關係人參與計畫",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Communications Management Plan",
+              zh: "溝通管理計畫",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "Definition of Done",
+              zh: "完成的定義",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "50",
+              zh: "50",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "140",
+              zh: "140",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "500",
+              zh: "500",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "1000",
+              zh: "1000",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "Agile Charter(敏捷章程)相較於傳統Project Charter內容更精簡,聚焦於Who、What、When、Where、Why、How等高階方向,專注於專案如何運行而非交付細節,並在Backlog開始之前用以授權專案經理展開工作,擁抱彈性與後續更動;它常可濃縮為一則不超過140字元的「Project Tweet」,方便所有人快速掌握專案的高階方向。",
+  },
+  {
+    id: "stk-077",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "An agile team's developer needs additional testing environment capacity that is currently allocated to another agile team of equal standing, managed by a peer project manager. The developer asks this peer project manager directly to free up some capacity. Which direction of negotiation does this represent?",
+      zh: "某敏捷團隊的開發人員需要額外的測試環境容量,而該容量目前分配給另一個地位相當、由平行同儕專案經理管理的敏捷團隊。該開發人員直接向這位平行同儕專案經理提出釋出部分容量的請求。這屬於哪一種協商方向?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Upward negotiation",
+          zh: "向上協商(Upward)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Downward negotiation",
+          zh: "向下協商(Downward)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Sideward negotiation",
+          zh: "平行協商(Sideward)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Outward negotiation",
+          zh: "向外協商(Outward)",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "敏捷中的協商依對象的相對層級可分為向上(與贊助人、高階管理層等)、向下(與團隊成員)及平行(與地位相當的同儕,例如其他專案經理或職能經理)。本情境中,開發人員與管理另一個平行團隊、地位相當的同儕專案經理協商共用資源,屬於平行(Sideward)協商,應秉持正向、尊重、同理心的態度進行,而非涉及正式職權上下關係的向上或向下協商。",
+  },
+  {
+    id: "stk-078",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "In a strong matrix organization, the project manager has significant formal authority over project resources. A functional manager nonetheless controls the technical staff's daily task assignments and performance reviews. When the project needs a specialist reassigned faster than the functional manager prefers, what should the project manager do?",
+      zh: "在強矩陣組織中,專案經理對專案資源擁有相當大的正式職權。然而職能經理仍掌控技術人員的日常任務指派與績效考核。當專案需要比職能經理希望的更快速地調度一位專家時,專案經理應如何處理?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Bypass the functional manager and directly reassign the specialist using positional authority",
+          zh: "略過職能經理,直接運用職位權力調動該專家",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Negotiate with the functional manager to align on timing and priorities, respecting their ongoing role in the specialist's career",
+          zh: "與職能經理協商調度時機與優先順序,並尊重其對該專家職涯持續扮演的角色",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Escalate immediately to senior management without first attempting direct discussion",
+          zh: "未先嘗試直接討論即立即上呈高階管理層",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Wait for the specialist to volunteer for reassignment rather than requesting it",
+          zh: "等待該專家自願申請調度,而非主動提出請求",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "即使在強矩陣組織中PM擁有較高職權,職能經理仍是專案重要的利害關係人,對資源仍保有績效考核與職涯發展等實質影響力。PM應運用平行協商與人際技巧尋求雙方對調度時機與優先順序的共識,而非單純以職權強壓,這樣才能維繫長期合作關係;略過協商、越級上呈或消極等待都無助於有效解決資源調度需求。",
+  },
+  {
+    id: "stk-079",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Stakeholders",
+    questionType: "multiple_response",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Which two of the following best describe the role of a Project Management Office (PMO)? (Select two.)",
+      zh: "下列哪兩項最能描述專案管理辦公室(PMO)的角色?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Sharing resources, methodologies, tools, and technology across projects in the organization",
+          zh: "在組織內跨專案共享資源、方法論、工具與技術",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Providing templates, standards, and guidance that a project manager can draw on when uncertain how to proceed",
+          zh: "在專案經理不確定如何進行時,提供可供參考的範本、標準與指導",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Directly performing all technical project work so functional teams are not required",
+          zh: "直接執行所有技術性專案工作,使職能團隊無需參與",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Existing only in flexible industries such as startups and technology companies, never in regulated sectors",
+          zh: "僅存在於新創與科技業等彈性產業,絕不存在於受監管產業",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "PMO是組織中共享資源、方法論、工具與技術的單位,當PM不確定該如何進行時,可尋求PMO提供的範本、標準或人力支援。PMO的嚴謹程度會因產業而異(例如醫療、政府、軍事等受監管產業通常較嚴格,科技業、新創較彈性),但兩種產業皆可能設有PMO;PMO本身通常不會取代職能團隊直接執行專案技術工作。",
+  },
+  {
+    id: "stk-080",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Stakeholders",
+    questionType: "matching",
+    difficulty: "hard",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each Plan Stakeholder Engagement data analysis technique to its description.",
+      zh: "請將下列規劃利害關係人參與(Plan Stakeholder Engagement)所使用的數據分析技巧拖曳配對到對應描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Benchmarking",
+            zh: "標竿比較(Benchmarking)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Root Cause Analysis",
+            zh: "根本原因分析(Root Cause Analysis)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Assumption and Constraint Analysis",
+            zh: "假設與限制分析(Assumption and Constraint Analysis)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Mind Mapping",
+            zh: "心智圖(Mind Mapping)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Comparing stakeholder engagement levels and satisfaction against other projects to identify effective practices",
+            zh: "將利害關係人參與程度與滿意度與其他專案比較,以找出有效的作法",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Identifying the underlying reasons why current stakeholder engagement is or is not working",
+            zh: "找出目前利害關係人參與有效或無效背後的根本原因",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Validating assumptions about stakeholder engagement to refine the engagement approach",
+            zh: "驗證關於利害關係人參與的假設,以優化參與作法",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Visually organizing stakeholder relationships and connections to gain a clearer overview",
+            zh: "以視覺化方式整理利害關係人之間的關係與連結,取得更清晰的全貌",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "Plan Stakeholder Engagement常用的數據分析技巧包含:Benchmarking(將本專案的參與程度與滿意度和其他專案比較,借鏡有效作法)、Root Cause Analysis(找出目前參與狀況有效或無效的根本原因)、Assumption and Constraint Analysis(驗證關於利害關係人參與的假設以優化作法)、以及Mind Mapping(視覺化整理利害關係人之間的關係)。這些技巧共同協助PM更全面地了解利害關係人現況,以擬定有效的參與計畫。",
+  },
+  {
+    id: "stk-081",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Stakeholders",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "On the Stakeholder Engagement Assessment Matrix, the vertical axis typically represents each stakeholder's {{blank1}}, arranged from high to low, while the horizontal axis represents their current level of {{blank2}} toward the project, ranging from Unaware to Leading.",
+      zh: "在利害關係人參與評估矩陣(Stakeholder Engagement Assessment Matrix)上,縱軸通常代表每位利害關係人的 {{blank1}},由高到低排列;橫軸則代表其目前對專案的 {{blank2}} 程度,範圍從不知情(Unaware)到主導(Leading)。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "power or position",
+              zh: "權位(Power)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "project budget",
+              zh: "專案預算",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "years of tenure at the company",
+              zh: "在公司的年資",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "office location",
+              zh: "辦公室所在地",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "technical expertise",
+              zh: "技術專業程度",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "support or engagement attitude",
+              zh: "支持或參與態度",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "financial contribution",
+              zh: "財務貢獻",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "risk tolerance",
+              zh: "風險承受度",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "利害關係人參與評估矩陣的縱軸通常依權位(Power)由高到低排列各利害關係人,橫軸則呈現其目前(Current)對專案的參與/支持態度,依序為不知情(Unaware)、抗拒(Resistant)、中立(Neutral)、支持(Supportive)、主導(Leading);矩陣上同時可標記目前(C)與期望(D)位置,協助PM辨識需縮小的參與落差。",
+  },
+  {
+    id: "stk-082",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A project manager compares this project's stakeholder engagement levels and satisfaction scores against those of several similar past projects, in order to identify which engagement practices worked well elsewhere. Which technique is being used?",
+      zh: "專案經理將本專案的利害關係人參與程度與滿意度分數,與數個過往類似專案進行比較,以找出哪些參與作法在其他專案成效良好。這運用的是下列哪一項技巧?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Root Cause Analysis",
+          zh: "根本原因分析",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Benchmarking",
+          zh: "標竿比較(Benchmarking)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Stakeholder Engagement Assessment Matrix",
+          zh: "利害關係人參與評估矩陣",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Mind Mapping",
+          zh: "心智圖",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "Benchmarking(標竿比較)是Plan Stakeholder Engagement中的數據分析技巧之一,透過比較不同專案的利害關係人參與程度與滿意度,借鏡其他專案中證實有效的參與作法;Root Cause Analysis著重找出現況成因,Stakeholder Engagement Assessment Matrix用以標記C/D落差,Mind Mapping則用於視覺化關係,皆非本情境描述的比較性技巧。",
+  },
+  {
+    id: "stk-083",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Stakeholders",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "When selecting communication technology for the Communications Management Plan, the urgency of the information need is one key factor to weigh. Another important factor is whether the technology is actually {{blank1}} and reliable within the current project environment, which is influenced by enterprise environmental factors such as {{blank2}}.",
+      zh: "在為溝通管理計畫選擇溝通科技時,資訊需求的急迫程度是需要考量的關鍵因素之一。另一項重要因素,是該科技在目前專案環境中是否確實 {{blank1}} 且穩定可靠,而這會受到事業環境因素(EEF)如 {{blank2}} 的影響。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "available",
+              zh: "可用(Available)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "inexpensive",
+              zh: "便宜",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "trendy",
+              zh: "流行",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "mandatory",
+              zh: "強制規定的",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "organizational culture and existing communication channels",
+              zh: "組織文化與既有的溝通管道",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "the project's risk register contents",
+              zh: "專案風險登錄表的內容",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "the personal preferences of a single team member",
+              zh: "單一團隊成員的個人偏好",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "the color scheme of the company logo",
+              zh: "公司標誌的配色",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "選擇溝通科技時,除了資訊需求的急迫性,還須評估該科技在專案環境中的可用性(Availability)與穩定性(Reliability),這會受到組織文化(如習慣面對面、Email或即時通訊)、既有溝通管道、管理風格等事業環境因素(EEF)影響;風險登錄表內容、單一成員的個人偏好或公司標誌配色皆非決定溝通科技選擇的關鍵因素。",
+  },
+  {
+    id: "stk-084",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Stakeholders",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Since a recent PMBOK revision separated what used to be a single plan into two documents, the Stakeholder Engagement Plan now focuses primarily on {{blank1}}, while the Communications Management Plan focuses primarily on {{blank2}}.",
+      zh: "由於近期版本的調整,將原本合併的計畫拆分為兩份文件,利害關係人參與計畫(Stakeholder Engagement Plan)現在主要聚焦於 {{blank1}},而溝通管理計畫(Communications Management Plan)則主要聚焦於 {{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "increasing participation and moving stakeholders toward a desired engagement level",
+              zh: "提升參與並使利害關係人朝期望的參與程度移動",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "recording the detailed cost baseline",
+              zh: "記錄詳細成本基準",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "listing every identified project risk",
+              zh: "列出所有已識別的專案風險",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "defining the WBS structure",
+              zh: "定義WBS結構",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "sharing information — who receives what, how, and how often",
+              zh: "共享資訊——誰收到什麼資訊、如何傳遞及多常傳遞",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "increasing participation and moving stakeholders toward a desired engagement level",
+              zh: "提升參與並使利害關係人朝期望的參與程度移動",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "defining the risk response strategy",
+              zh: "定義風險回應策略",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "approving the project charter",
+              zh: "核准專案章程",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "PMBOK將原本合併的計畫拆分為兩份文件:利害關係人參與計畫聚焦於「讓人參與」,規劃如何提升參與率、增加支持並減少抗拒;溝通管理計畫則聚焦於「共享資訊」,規劃誰需要什麼資訊、透過何種管道、多常傳遞及由誰負責。兩者雖然緊密相關,但著重的核心目的不同,常在考題中被混淆。",
+  },
+  {
+    id: "stk-085",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Stakeholders",
+    questionType: "dropdown",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Monitor Stakeholder Engagement and Monitor Communications primarily involve checking whether engagement and communication activities are being carried out {{blank1}}, whereas Manage Stakeholder Engagement and Manage Communications primarily involve {{blank2}} those activities.",
+      zh: "監控利害關係人參與(Monitor Stakeholder Engagement)與監控溝通(Monitor Communications)主要是檢查參與與溝通活動是否 {{blank1}} 被執行,而管理利害關係人參與(Manage Stakeholder Engagement)與管理溝通(Manage Communications)則主要是 {{blank2}} 這些活動。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "as planned",
+              zh: "依計畫",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "randomly",
+              zh: "隨機地",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "only once, at project closeout",
+              zh: "僅在專案結案時一次性地",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "without any documentation",
+              zh: "未經任何文件記錄",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "actually carrying out",
+              zh: "實際執行",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "permanently canceling",
+              zh: "永久取消",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "merely observing without acting on",
+              zh: "僅觀察而不採取行動",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "outsourcing entirely to a third party",
+              zh: "完全外包給第三方",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "Monitor(監控)類流程著重「檢查是否依計畫被執行、成效如何」,屬於Monitoring & Controlling;Manage(管理)類流程則著重「實際執行」參與與溝通行動,屬於Executing。兩組流程雖然主題相近(皆與利害關係人參與、溝通有關),但一個是檢查、一個是執行,考生應能區分。",
+  },
+  {
+    id: "stk-086",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is preparing a technical performance report. One recipient is a senior software architect, while another is a non-technical business sponsor. What should the project manager do to communicate effectively with both?",
+      zh: "專案經理正在準備一份技術績效報告。其中一位收件者是資深軟體架構師,另一位則是不具技術背景的業務贊助人。專案經理應如何做才能與雙方都有效溝通?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Send the exact same highly technical report to both recipients for consistency",
+          zh: "為求一致性,將完全相同、高度技術性的報告發送給雙方",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Tailor the content and level of detail to each recipient's background and competence, so each can understand the relevant information",
+          zh: "依各收件者的背景與能力調整內容與細節程度,使雙方都能理解相關資訊",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Only send the report to the architect, since the sponsor is unlikely to understand it anyway",
+          zh: "只將報告發送給架構師,因為贊助人反正不太可能理解",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Omit all technical details from both reports to keep things simple",
+          zh: "兩份報告皆省略所有技術細節以求簡單",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "Manage Communications強調考量收件人的能力/背景(Competence),提供對其而言合適且能理解的資訊與輔助,而非對所有人一律套用相同內容。對技術背景的架構師可保留必要技術細節,對非技術背景的贊助人則應轉譯為商業影響與決策重點;完全略過某位收件者或過度簡化到失去必要資訊都不是有效溝通。",
+  },
+  {
+    id: "stk-087",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "During a team decision-making discussion, the facilitator asks everyone to simultaneously hold up a number of fingers from one to five, where one indicates strong support and five indicates strong opposition, so that the level of agreement can be quickly and visually gauged. Click the card that correctly names this technique.",
+      zh: "在一次團隊決策討論中,引導者請所有人同時舉起一到五根手指,一代表強烈支持、五代表強烈反對,以便快速且視覺化地評估大家的贊同程度。請點選正確命名此技巧的卡片。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Round-Robin",
+          zh: "輪流發言(Round-Robin)",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Fist of Five",
+          zh: "五指表決(Fist of Five)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Delphi Technique",
+          zh: "德爾菲法(Delphi Technique)",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "RACI Chart",
+          zh: "RACI 責任分派矩陣",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n2",
+    explanation: "Fist of Five(五指表決)是一種快速確認團隊參與與贊同程度的量化投票技巧,通常一代表強烈支持、五代表強烈反對,若有人舉起較高數字,應詢問其原因以了解疑慮;Round-Robin是確保每人輪流發言的腦力激盪技巧,Delphi Technique是匿名專家意見收斂技巧,RACI圖表則用於界定任務責任分工,皆非此情境描述的技巧。",
+  },
+  {
+    id: "stk-088",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "matching",
+    difficulty: "hard",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each level of conflict intensity to its description.",
+      zh: "請將下列衝突強度層級拖曳配對到對應描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Level 1 – Problem to Solve",
+            zh: "第一級——待解決的問題",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Level 2 – Disagreement",
+            zh: "第二級——意見分歧",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Level 3 – Contest",
+            zh: "第三級——競賽",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Level 4 – Crusade",
+            zh: "第四級——聖戰",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Level 5 – World War",
+            zh: "第五級——世界大戰",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Parties openly share information and collaborate to solve a shared problem",
+            zh: "各方公開分享資訊並合作解決共同問題",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Parties become guarded and focus on protecting themselves rather than freely sharing information",
+            zh: "各方變得謹慎防備,著重保護自己而非自由分享資訊",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Parties shift focus to winning the confrontation rather than resolving the underlying issue",
+            zh: "各方將焦點轉向贏得對抗,而非解決根本問題",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Parties seek to protect their broader group or faction, treating the conflict as a zero-sum fight",
+            zh: "各方尋求保護自己所屬的更大群體或派系,將衝突視為零和對抗",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "Parties are determined to destroy the opposing side, and the situation is generally beyond repair without separating the parties",
+            zh: "各方決心摧毀對方,情況通常已無法挽回,只能將雙方拆散",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "衝突可依強度分為五級:第一級(共享資訊、合作解決問題)、第二級(轉為謹慎防備、保護自己)、第三級(轉為求勝的競賽心態)、第四級(聖戰,保護所屬群體、零和思維)、第五級(世界大戰,決心摧毀對方)。第四級與第五級通常已難以透過一般協商化解,往往只能將衝突雙方拆散;PM應盡早介入,避免衝突從第一、二級升高至難以挽回的第四、五級。",
+  },
+  {
+    id: "stk-089",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each motivation theory to its core idea.",
+      zh: "請將下列激勵理論拖曳配對到其核心概念。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Maslow's Hierarchy of Needs",
+            zh: "馬斯洛需求層次理論",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Herzberg's Theory of Motivation",
+            zh: "赫茲伯格激勵理論",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "McGregor's Theory X & Y",
+            zh: "麥克葛瑞格X理論與Y理論",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "McClelland's Three Needs Theory",
+            zh: "麥克利蘭三需求理論",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "People are motivated by a progression of needs, from basic physiological and safety needs up to self-actualization",
+            zh: "人受到一連串需求驅動,從基本的生理與安全需求,逐步上升到自我實現",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Hygiene factors such as salary, safety, and working conditions can cause dissatisfaction if inadequate, but do not by themselves create true motivation",
+            zh: "薪資、安全與工作環境等保健因子若不足會導致不滿,但本身無法真正創造激勵",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Managers either assume people dislike work and need close supervision (X), or assume people are self-motivated and capable of self-direction (Y)",
+            zh: "管理者若非假設員工不喜歡工作、需要嚴密監督(X理論),就是假設員工自我驅動、能夠自我管理(Y理論)",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Individuals are primarily driven by a combination of the need for achievement, power, and affiliation",
+            zh: "個人主要受成就、權力與歸屬感三種需求的組合所驅動",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "馬斯洛需求層次理論強調需求由生理/安全逐步上升至自我實現;赫茲伯格理論區分保健因子(不足會不滿,但充足未必激勵)與真正的激勵因子;McGregor的X/Y理論描述管理者對員工本質的兩種截然不同假設;McClelland三需求理論則主張個人行為主要受成就、權力、歸屬感三種需求驅動。四者皆是理解團隊與利害關係人動機、據以設計激勵與參與策略的重要理論基礎。",
+  },
+  {
+    id: "stk-090",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "A motivation theory, originating from Japanese management practices, emphasizes building long-term employee loyalty by valuing both an employee's work life and personal life. Which theory is this?",
+      zh: "一項源自日本管理實務的激勵理論,強調同時重視員工的工作與工作以外的個人生活,以建立員工長期的忠誠度。這是下列哪一項理論?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Theory X",
+          zh: "X理論",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Expectancy Theory",
+          zh: "期望理論",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Theory Z",
+          zh: "Z理論",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Theory of Constraints",
+          zh: "限制理論",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "Theory Z(Z理論)源自日本的管理實務,強調透過重視員工工作與生活的整體福祉,來提升員工的長期忠誠度;Theory X著重不信任員工、嚴密監督,Expectancy Theory強調員工對獎勵的預期會影響其工作動力,Theory of Constraints則是聚焦系統瓶頸的管理概念,皆與Z理論所強調的日式忠誠文化不同。",
+  },
+  {
+    id: "stk-091",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Regarding common forms of power a project manager may hold, which two of the following are generally considered less desirable and should be used sparingly, since they can erode long-term trust? (Select two.)",
+      zh: "關於專案經理可能擁有的常見權力形式,下列哪兩項通常被認為較不理想、應謹慎少用,因為容易損害長期信任?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Expert power, based on demonstrated knowledge and skill",
+          zh: "專家權,基於展現出的知識與技能",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Legitimate (formal) power, based purely on title or position to compel compliance",
+          zh: "法定(正式)職權,純粹憑藉頭銜或職位逼迫他人服從",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Punishment (coercive) power, based on the threat of negative consequences",
+          zh: "懲罰(強制)權,基於施加負面後果的威脅",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reward power, based on the ability to provide something of value",
+          zh: "獎賞權,基於能提供有價值事物的能力",
+        },
+      },
+    ],
+    correctAnswer: [
+      "b",
+      "c",
+    ],
+    selectCount: 2,
+    explanation: "課程中將權力形式分為較理想(獎賞權、專家權)、中立(參照權,源於他人的尊敬信賴)與較不理想(法定/正式職權、懲罰/強制權)三類。純粹依賴頭銜逼迫服從的法定職權,以及依賴威脅懲罰的強制權,雖然短期有效,但長期容易損害團隊與利害關係人對PM的信任與投入意願,應謹慎使用;專家權與獎賞權則通常被視為較能建立正向長期關係的權力來源。",
+  },
+  {
+    id: "stk-092",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "During a difficult conversation about a missed deadline, one team member calmly acknowledges her share of responsibility, stays open to feedback, and focuses on both the immediate fix and the longer-term improvement. Click the card that best names the behavioral zone this team member is demonstrating.",
+      zh: "在一次針對延誤交付的困難對話中,一位團隊成員平靜地承認自己應負的責任,對回饋保持開放態度,並同時關注眼前的解方與長期的改善。請點選最能命名此團隊成員所展現的行為區域的卡片。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Red Zone",
+          zh: "紅區(Red Zone)",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Green Zone",
+          zh: "綠區(Green Zone)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Withdraw/Avoid",
+          zh: "撤退/迴避",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Force/Direct",
+          zh: "強制/命令",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n2",
+    explanation: "Green Zone(綠區)行為特徵包含願意承擔責任、不輕易進入防禦心態、樂於接受回饋,並能同時兼顧短期與長期成效,這正是題目所描述的行為;Red Zone(紅區)行為則相反,常見互相責怪、防禦性回應、逃避或不重視回饋等;Withdraw/Avoid與Force/Direct屬於衝突解決技巧的分類,並非行為區域的描述。",
+  },
+  {
+    id: "stk-093",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each level of active listening to its description.",
+      zh: "請將下列主動傾聽的層級拖曳配對到對應描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Level 1 – Internal Listening",
+            zh: "第一層——內在傾聽",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Level 2 – Focused Listening",
+            zh: "第二層——專注傾聽",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Level 3 – Global Listening",
+            zh: "第三層——全面傾聽",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "The listener's attention is focused on how the message relates to themselves, such as \"What does this mean for me?\"",
+            zh: "聽者的注意力聚焦在此訊息與自己的關係,例如「這跟我有什麼關係?」",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "The listener shifts attention fully onto the speaker, empathizing with and trying to see the situation from the speaker's perspective",
+            zh: "聽者將注意力完全轉向講者,同理講者並試著從對方視角看待情況",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "The listener also attends to body language, tone, and other cues, being mindful of how their own nonverbal signals affect the speaker",
+            zh: "聽者同時關注肢體語言、語氣等線索,並留意自己的非語言訊號如何影響講者",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+    },
+    explanation: "主動傾聽可分三個層級:第一層(內在傾聽)聽者仍聚焦於「這跟我有何關係」;第二層(專注傾聽)開始真正同理講者、從對方視角思考;第三層(全面傾聽)進一步留意肢體語言與語氣等非語言線索,並意識到自己的表情舉止也會影響對方的感受。PM應盡量練習達到第二、三層,讓對方感受到「被在乎」,才能有效化解疑慮、建立信任。",
+  },
+  {
+    id: "stk-094",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "matching",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each of Tuckman's five stages of team development to its description.",
+      zh: "請將下列塔克曼(Tuckman)團隊發展五階段拖曳配對到對應描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Forming",
+            zh: "組成期(Forming)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Storming",
+            zh: "風暴期(Storming)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Norming",
+            zh: "規範期(Norming)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Performing",
+            zh: "表現期(Performing)",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Adjourning",
+            zh: "解散期(Adjourning)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Team members first come together and get acquainted, often being polite and somewhat guarded",
+            zh: "團隊成員初次聚集並開始認識彼此,通常較為客氣且有所保留",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Conflicts and differing opinions surface as members test boundaries and push back on each other",
+            zh: "隨著成員彼此試探界線並產生摩擦,衝突與意見分歧開始浮現",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "The team builds consensus, begins to trust one another, and establishes shared working norms",
+            zh: "團隊逐漸建立共識,開始互相信任,並確立共同的工作規範",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "The team operates at high efficiency, collaborating smoothly to accomplish the work",
+            zh: "團隊以高效率運作,順暢協作以完成工作",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "The team wraps up its work, reviews outcomes, and disbands, such as at project or phase closure",
+            zh: "團隊完成收尾工作、檢討成果並解散,例如在專案或階段結束時",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "Tuckman團隊發展五階段依序為:組成期(初次認識、較客氣拘謹)、風暴期(意見分歧、試探界線)、規範期(建立共識、開始信任)、表現期(高效運作、順暢協作)、解散期(收尾檢討、團隊解散)。理解此模型有助於PM預期並因應團隊在不同發展階段中常見的互動與衝突模式。",
+  },
+  {
+    id: "stk-095",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A new agile team member closely follows the team's established practices step by step without deviation, since she is still learning the basics. According to the Shu-Ha-Ri skill acquisition model, which stage is this team member in?",
+      zh: "一位新加入敏捷團隊的成員,由於仍在學習基礎,目前嚴格依照團隊既有的作法逐步操作、不做任何變化。依照守破離(Shu-Ha-Ri)技能習得模型,此成員目前處於哪一個階段?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Shu (Obey) — following established rules and practices precisely",
+          zh: "守(Shu)——精確遵循既有的規則與作法",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Ha (Detach) — beginning to deviate from and adapt established practices",
+          zh: "破(Ha)——開始偏離並調整既有的作法",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ri (Transcend) — finding an individual path beyond established practices",
+          zh: "離(Ri)——找到超越既有作法的個人路徑",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Storming — actively conflicting with other team members over practices",
+          zh: "風暴期——就作法與其他團隊成員發生積極衝突",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "Shu-Ha-Ri模型描述技能習得的三個階段:守(Shu)階段學習者精確遵循既有規則與作法,尚未具備調整的能力或信心;破(Ha)階段開始理解原理並嘗試調整、偏離既定作法;離(Ri)階段則已內化精髓,能找到屬於自己的方式甚至超越原有作法。題目中新成員仍嚴格依循既有作法,屬於守(Shu)階段;Storming則是Tuckman團隊發展模型中的階段,並非Shu-Ha-Ri模型的一部分。",
+  },
+  {
+    id: "stk-096",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Stakeholders",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A co-located agile team is deliberately seated within about 33 feet (10 meters) of one another in an open workspace without cubicle walls, so that team members can overhear relevant conversations happening nearby and pick up useful information without being directly addressed. Click the card that correctly names this phenomenon.",
+      zh: "某同地協作(co-located)的敏捷團隊,刻意將座位安排在約33英呎(10公尺)範圍內的開放工作空間,不設置隔間牆,讓成員能在附近偶然聽到相關對話,即使並非針對自己所說,也能順帶獲取有用資訊。請點選正確命名此現象的卡片。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Osmotic Communication",
+          zh: "滲透式溝通(Osmotic Communication)",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Information Radiator",
+          zh: "資訊發射源(Information Radiator)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Tacit Knowledge",
+          zh: "默會知識(Tacit Knowledge)",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Push Communication",
+          zh: "推播式溝通(Push)",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n1",
+    explanation: "Osmotic Communication(滲透式溝通)描述同地協作團隊在近距離開放空間中,成員能自然「順帶聽到」附近相關對話並吸收有用資訊的現象,是同地協作(通常建議在約33英呎範圍內、無實體隔間)的重要優點之一;Information Radiator是主動展示於工作空間的可視化資訊工具;Tacit Knowledge是未被文件化的共同默契知識,雖然滲透式溝通有助於傳遞默會知識,但兩者概念不同;Push Communication則是主動發送資訊的溝通方法,皆非本情境描述的現象。",
+  },
+  {
+    id: "stk-097",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "On a long-running project team, members have developed a shared understanding of \"how things really get done here\" that has never been written down in any document, yet everyone on the team acts on it consistently. What is this type of knowledge called?",
+      zh: "在一個長期運作的專案團隊中,成員發展出一套關於「這裡實際上是如何做事」的共同理解,雖從未被寫入任何文件,但團隊每個人都能一致地依此行事。這種知識稱為下列何者?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Explicit Knowledge",
+          zh: "外顯知識(Explicit Knowledge)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Tacit Knowledge",
+          zh: "默會知識(Tacit Knowledge)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Organizational Process Assets in document form",
+          zh: "文件形式的組織過程資產",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The Communications Management Plan",
+          zh: "溝通管理計畫",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "Tacit Knowledge(默會知識/內隱知識)是指團隊或組織成員共同擁有、但未被明文記錄下來的知識或默契,通常透過長期共事、近距離互動(如滲透式溝通)累積而成,難以完整文件化;Explicit Knowledge則是已被清楚記錄、可透過文件傳遞的知識;組織過程資產的文件形式與溝通管理計畫皆屬於已文件化的外顯資訊,並非本情境描述從未被寫下的共同理解。",
+  },
+  {
+    id: "stk-098",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "On an agile team, one member is deeply skilled in backend development but has also invested time in learning enough about frontend development and testing to help with those tasks when the team's workflow is bottlenecked. What is this type of team member called?",
+      zh: "在某敏捷團隊中,一位成員在後端開發方面具備深厚專長,但也投入時間學習足夠的前端開發與測試知識,以便在團隊工作流程出現瓶頸時提供協助。這種類型的團隊成員稱為下列何者?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "A pure specialist who should focus exclusively on backend work",
+          zh: "純粹的專才,應完全專注於後端工作",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A generalizing specialist, who retains deep expertise while broadening skills to reduce bottlenecks",
+          zh: "通才專才(Generalizing Specialist),在保有深厚專長的同時拓展技能以減少瓶頸",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "A functional manager, who supervises multiple departments",
+          zh: "職能經理,負責監督多個部門",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "A stakeholder with low power and low interest",
+          zh: "低權力、低利益的利害關係人",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "Generalizing Specialist(通才專才/T型人)是指在某一領域擁有深厚專長,同時具備跨領域的廣度技能,能在需要時協助分攤其他工作,減少團隊因單一環節過度依賴特定專才而產生的瓶頸,也避免下一位成員因等待上一位完成工作而閒置;這是敏捷高產能團隊建議的組成方式之一,與純粹只專精單一領域的專才不同。",
+  },
+  {
+    id: "stk-099",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "During a planning discussion, one team member raises a concern that contradicts the majority opinion, warning that the proposed approach carries a significant risk others have not considered. What should the project manager do to support a high-performing team culture?",
+      zh: "在一次規劃討論中,一位團隊成員提出與多數意見相左的疑慮,警告所提議的做法存在其他人尚未考慮到的重大風險。專案經理應如何做,才能支持高產能的團隊文化?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Discourage the team member from raising dissenting views in future meetings to maintain harmony",
+          zh: "為維持會議和諧,勸阻該成員未來提出反對意見",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Welcome and protect the team member who raised the dissenting view, treating constructive disagreement as valuable input",
+          zh: "歡迎並保護提出反對意見的成員,將建設性的不同意見視為有價值的意見",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ignore the concern since it was not raised by the majority of the team",
+          zh: "因該疑慮並非多數團隊成員提出而予以忽視",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Immediately escalate the disagreement to senior management for a final ruling",
+          zh: "立即將此分歧上呈高階管理層做最終裁決",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "高產能團隊需要不同意見(建設性反對)來避免團體迷思、及早發現潛在風險,PM應主動歡迎並保護提出反對意見的成員,避免衝突因此升級或該成員因表達意見而受到排擠;壓抑異見、忽視少數意見或未經團隊討論就直接上呈高層,皆不利於營造鼓勵坦誠表達疑慮的心理安全環境。",
+  },
+  {
+    id: "stk-100",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "definition",
+    stem: {
+      en: "Users interacting with a new system often struggle to understand the system's current state and to judge whether their goal has actually been achieved after taking an action. To narrow this gap as early as possible, an agile team frequently delivers small increments and gathers feedback rather than waiting until the end of a long phase. What concept describes the difficulty users face in interpreting system state and progress toward their goal?",
+      zh: "使用者在操作一個新系統時,常難以理解系統目前的狀態,也難以判斷採取某個動作後是否真的達成了自己的目標。為了盡早縮小這個落差,敏捷團隊傾向頻繁交付小型增量並蒐集回饋,而非等到一個長階段結束才處理。下列哪個概念描述了使用者在解讀系統狀態與判斷是否達成目標時所面臨的困難?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Gulf of Evaluation",
+          zh: "評估的鴻溝(Gulf of Evaluation)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Scope Creep",
+          zh: "範疇蔓延",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Cost of Change",
+          zh: "變更成本",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Technical Debt",
+          zh: "技術債",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "Gulf of Evaluation(評估的鴻溝)描述使用者在操作系統後,理解系統目前狀態、以及判斷自己的目標是否已達成之間所存在的困難與落差。及早發現並解決此類問題、透過頻繁的小規模溝通與測試,能有效避免落差擴大;Scope Creep是範疇在未經控制下逐漸擴增,Cost of Change是描述變更成本隨專案進展而升高,Technical Debt則是為求短期速度而累積的技術妥協,三者概念皆與本情境所描述的使用者理解落差不同。",
+  },
+  {
+    id: "stk-101",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Stakeholders",
+    questionType: "hotspot",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "A facilitator gives every participant five quiet minutes to write down their own ideas independently before anyone shares aloud, so that individual thinking is not influenced by others and quieter members are not overshadowed by more vocal ones. Click the card that correctly names this brainstorming technique.",
+      zh: "引導者讓每位參與者先安靜地花五分鐘各自寫下自己的想法,之後才開始口頭分享,如此一來獨立思考便不會受到他人影響,較安靜的成員也不會被較健談的成員搶走發言機會。請點選正確命名此腦力激盪技巧的卡片。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Quiet Writing",
+          zh: "安靜書寫(Quiet Writing)",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Round-Robin",
+          zh: "輪流發言(Round-Robin)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Free-for-all",
+          zh: "自由發言(Free-for-all)",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Delphi Technique",
+          zh: "德爾菲法(Delphi Technique)",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n1",
+    explanation: "Quiet Writing(安靜書寫)讓每人先各自花數分鐘獨立寫下想法,強迫獨立思考、避免被他人影響,也讓較安靜的成員有平等表達機會;Round-Robin是輪流發言確保每人皆有發言權;Free-for-all則是讓大家自由發言,僅適合在充滿支持、心理安全的環境使用;Delphi Technique是一種匿名收斂專家意見的技巧,並非本情境描述的作法。",
+  },
+  {
+    id: "stk-102",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A senior stakeholder privately asks the project manager to skip a mandatory government safety inspection step to save time, assuring the project manager that \"nothing will happen\" and that this instruction should stay between them. What should the project manager do?",
+      zh: "一位資深利害關係人私下要求專案經理跳過一項政府強制規定的安全檢驗步驟以節省時間,並向專案經理保證「不會出事」,且此指示應保密。專案經理應如何處理?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Comply with the request since it comes from a senior stakeholder with significant power",
+          zh: "因為此要求來自一位擁有重大權力的資深利害關係人,故予以配合",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Refuse to skip the mandatory regulatory step, explaining that legal compliance is a non-negotiable professional obligation, regardless of who requests it",
+          zh: "拒絕跳過強制規定的合規步驟,並說明遵守法規是不可妥協的專業義務,無論由誰提出要求",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Skip the step quietly but keep informal documentation in case questions arise later",
+          zh: "悄悄跳過此步驟,但保留非正式紀錄以備日後有人質疑",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Escalate the stakeholder's request directly to the media to publicly expose the issue",
+          zh: "直接將此利害關係人的要求上呈媒體以公開揭露此事",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "遵守政府法規是專案經理的基本職業道德,不因任何利害關係人的職權或私下要求而妥協,即使可能因此面臨壓力或衝突,PM仍必須拒絕違法或違規的指示;私下配合(不論是否保留紀錄)皆屬不當,而未經內部溝通與正式管道就直接訴諸媒體,也並非處理此類倫理議題的恰當第一步。",
+  },
+  {
+    id: "stk-103",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Stakeholders",
+    questionType: "multiple_response",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Which two of the following are essential elements of an effective, well-facilitated meeting? (Select two.)",
+      zh: "下列哪兩項是有效且引導得當的會議所必備的要素?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "A clear objective for the meeting",
+          zh: "會議有明確的目標",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A defined time limit to keep the discussion focused",
+          zh: "設定明確的時間限制以維持討論聚焦",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "An unlimited number of attendees to ensure everyone is included",
+          zh: "不限制與會人數以確保人人都能參與",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "No agenda, so discussion can flow entirely spontaneously",
+          zh: "不設議程,讓討論完全自由發揮",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "有效的會議應具備明確的目標、基本規則(Ground Rules)、時間限制,以及適當的引導協助,才能確保討論聚焦並產出具體結論;不限制與會人數或完全不設議程,反而容易導致會議失焦、缺乏效率,並非有效引導會議的要素。",
+  },
+  {
+    id: "stk-104",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "According to the principles of servant leadership commonly applied by agile leaders, which two of the following best reflect this leadership style? (Select two.)",
+      zh: "依照敏捷領導者常運用的服務型領導(Servant Leadership)原則,下列哪兩項最能反映此領導風格?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Recognizing team conflict as a positive step rather than something to be suppressed",
+          zh: "將團隊衝突視為正向的一步,而非應被壓抑的事",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Acting for the simultaneous welfare of both the team and the project, rather than favoring one over the other",
+          zh: "同時顧及團隊與專案的福祉,而非偏袒其中一方",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Making all technical decisions unilaterally so the team is not burdened with choices",
+          zh: "由領導者單方面做出所有技術決策,使團隊無需承擔選擇的負擔",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Withholding the project vision from the team so they focus only on assigned tasks",
+          zh: "對團隊隱瞞專案願景,使其僅專注於被指派的任務",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "服務型領導的原則包含將團隊衝突視為正向的訊號(代表大家真的在乎)、同時兼顧團隊與專案的福祉、建立願景並用願景驅動自身行為、營造功能性當責的環境等。服務型領導者應與團隊共享願景、賦權團隊自主決策,而非單方面替團隊做所有技術決策或隱瞞專案方向,這些做法違背服務型領導賦權與透明的核心精神。",
+  },
+  {
+    id: "stk-105",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "According to common patterns distinguishing successful from unsuccessful project teams, which two of the following behaviors are associated with success? (Select two.)",
+      zh: "依照區分專案團隊成功與失敗的常見模式,下列哪兩項行為與成功較為相關?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Being highly observant and genuinely willing to keep learning",
+          zh: "保持高度觀察力,並真心願意持續學習",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Remaining malleable and adapting readily to new circumstances",
+          zh: "保持高度可塑性,樂於因應新情況調整",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Preferring to invent new solutions from scratch rather than researching existing approaches",
+          zh: "偏好從零發明新解法,而非先研究既有做法",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Being a creature of habit, sticking rigidly to familiar routines regardless of context",
+          zh: "習慣成自然,不論情境為何都僵化堅持熟悉的常規",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "常被觀察到與團隊成功相關的行為包含高度觀察力、真心願意學習、保持可塑性以因應新情況,以及以工作為榮;而傾向從零發明而非先參考既有作法、僵化地固守熟悉常規而不因應情境調整,則常是導致團隊失敗的常見模式。PM應鼓勵團隊保持開放學習與彈性適應的文化。",
+  },
+  {
+    id: "stk-106",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Stakeholders",
+    questionType: "multiple_response",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Which two of the following statements correctly describe the Product Owner role on a Scrum team? (Select two.)",
+      zh: "下列哪兩項正確描述了Scrum團隊中產品負責人(Product Owner)的角色?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The Product Owner prioritizes the product backlog to maximize the business value delivered",
+          zh: "產品負責人負責排定產品待辦清單的優先順序,以將交付的商業價值最大化",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The Product Owner is responsible for ensuring the team shares knowledge and understands acceptance criteria",
+          zh: "產品負責人負責確保團隊共享知識並理解驗收標準",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The Product Owner writes all of the code that makes up the product increment",
+          zh: "產品負責人負責撰寫構成產品增量的所有程式碼",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The Product Owner's primary duty is to remove impediments blocking the development team, similar to a Scrum Master",
+          zh: "產品負責人的主要職責是移除阻礙開發團隊的障礙,如同Scrum Master一般",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "產品負責人(Product Owner)負責排定產品待辦清單優先順序以追求商業價值最大化,並確保團隊共享知識、定義驗收標準(AC)、提供時程規劃並參與規劃、審查與回顧會議;實際撰寫程式碼屬於跨職能開發團隊成員的工作,而移除團隊阻礙則是團隊引導者(Scrum Master)透過服務型領導所扮演的角色,並非產品負責人的主要職責。",
+  },
+  {
+    id: "stk-107",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "An AI routing model has been trimming a courier network's fuel spend for two quarters when a veteran operations chief objects to depending on it. How should the project manager respond?",
+      zh: "一套 AI 路線規劃模型已經替一家快遞網路省下兩季的油料成本,這時一位資深營運主管卻對依賴這套模型表達反對。專案經理該如何回應?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Move the model to shadow mode, letting dispatchers route manually until the chief is satisfied.",
+          zh: "把模型改成「影子模式」,讓調度員先手動排路線,直到這位主管滿意為止",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Sit down with the chief, walk through the model's results, and keep it in service.",
+          zh: "與這位主管坐下來,逐一檢視模型的實際成效,同時維持模型持續運作",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Present the fuel savings to the sponsor and continue running the model.",
+          zh: "向贊助人報告省下的油料成本,同時維持模型運作",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Notify the dispatch team of the objection and carry on as before.",
+          zh: "通知調度團隊這位主管的反對意見,維持現狀繼續運作",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "提出反對的人是這位營運主管,問題就應該回到他身上直接處理,而不是繞過他去找贊助人報告成果、或只是把消息轉告給不相干的調度團隊,這些做法都沒有真正面對提出異議的人。模型已經有兩季實際成效可以佐證,此時貿然把系統退回影子模式、犧牲掉已經驗證的效益,屬於還沒溝通就先讓步,反應過度;正確做法是帶著這兩季的具體數據,直接與這位主管一對一討論,讓他理解實際成效,同時讓模型繼續在崗位上運作,這也體現了直接與利害關係人協作、建立共同理解的精神。",
+  },
+  {
+    id: "stk-108",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A claims department deploys the first increment of an AI triage assistant, and it emerges that most adjusters cannot judge when to trust the assistant's recommendations or when to override them. What should the project manager do?",
+      zh: "理賠部門上線了一套 AI 分診助手的第一個增量,結果發現大多數理賠人員都無法判斷什麼時候該相信這套助手的建議、什麼時候該推翻它。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Simplify the assistant's interface in the next increment so less judgment is needed.",
+          zh: "在下一個增量簡化助手的介面,讓使用者不需要那麼多判斷",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Define the adjusters' training needs and bring that enablement into the project scope.",
+          zh: "界定理賠人員的訓練需求,並把這項賦能工作納入專案範疇",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask human resources to schedule AI awareness workshops for the department.",
+          zh: "請人力資源部門為該部門安排 AI 意識培訓工作坊",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Publish a decision guide describing when to accept or override the recommendations.",
+          zh: "發布一份決策指南,說明何時該接受、何時該推翻建議",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "這套助手真正的價值,取決於理賠人員能否對它的建議做出正確判斷,而題目已經明講問題出在使用者缺乏這項判斷能力,這是一個被具名指出的人力能力缺口。依「確保團隊成員/利害關係人獲得適當訓練」這項任務的定義,理應由專案經理主動界定訓練需求,並把這項賦能工作正式納入專案範疇裡去規劃與執行,而不是交給部門外的人資單位自行安排、脫離專案掌控。簡化介面、發一份指南,都只是繞過真正的能力缺口做表面補救,無法真正建立起使用者判斷何時該信任、何時該推翻建議的能力。",
+  },
+  {
     id: "sc-001",
     edition: "pmbok7",
     domain: "People",
@@ -23633,6 +34812,393 @@ export const sampleQuestions = [
     explanation: "Goleman 的情緒智商模型包含自我覺察、自我調節、內在動機、同理心、社交技巧等要素,核心在於認識並管理自身與他人情緒的能力。技術證照與職位權力屬於專業能力或職權範疇,與情緒智商的概念無關,是本題的干擾選項。",
   },
   {
+    id: "res-045",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A team member tells the project manager, \"Even if I work extra hard on this task, I doubt it will lead to a better performance review, and even if it did, I don't really care about the reward being offered.\" According to Vroom's Expectancy Theory, her motivation is low because she perceives a weak link between {{blank1}}, and she places low {{blank2}} on the reward itself.",
+      zh: "一位團隊成員告訴專案經理:「就算我在這項任務上特別努力,我也懷疑會換來更好的績效考核,而且就算真的有,我也不太在乎目前提供的獎勵。」根據弗魯姆期望理論(Vroom's Expectancy Theory),她的動機低落是因為她認為 {{blank1}} 之間的連結薄弱,同時她對獎勵本身賦予的 {{blank2}} 也很低。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Effort, performance, and reward",
+              zh: "努力、績效與獎勵",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Seniority and job title",
+              zh: "年資與職稱",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Valence (perceived value)",
+              zh: "期望價值(Valence)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Attendance record",
+              zh: "出勤紀錄",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "Vroom 的期望理論主張動機 = Expectancy(努力能帶來績效的期望)× Instrumentality(績效能換來獎勵的工具性)× Valence(對獎勵本身賦予的價值)三者相乘。本情境中該成員同時認為努力與績效、獎勵之間的連結薄弱,又不重視獎勵本身的價值,因此整體動機低落,這正是期望理論用來解釋動機強弱的核心邏輯。",
+  },
+  {
+    id: "res-046",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each base of power to its description.",
+      zh: "請將下列權力基礎拖曳配對到其描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Legitimate Power",
+            zh: "法制權(Legitimate)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Reward Power",
+            zh: "獎賞權(Reward)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Coercive Power",
+            zh: "強制權(Coercive)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Expert Power",
+            zh: "專家權(Expert)",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Referent Power",
+            zh: "參照權(Referent)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Power derived from the formal position or title held within the organization",
+            zh: "權力來自於組織內正式擔任的職位或頭銜",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Power derived from the ability to give bonuses, promotions, or other desirable incentives",
+            zh: "權力來自於能提供獎金、升遷或其他令人渴望的誘因",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Power derived from the ability to impose penalties, discipline, or negative consequences",
+            zh: "權力來自於能施加懲罰、紀律處分或負面後果",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Power derived from specialized knowledge or technical skill that others respect",
+            zh: "權力來自於他人所敬重的專業知識或技術能力",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "Power derived from the personal respect, trust, and admiration others feel toward the individual",
+            zh: "權力來自於他人對該人個人的敬重、信任與仰慕",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "法制權、獎賞權、強制權、專家權、參照權是常見的五種權力基礎分類。法制權來自正式職位;獎賞權與強制權分別來自給予誘因或施加懲罰的能力;專家權來自專業知識;參照權則來自他人對個人特質的敬重與信任。專案經理在正式職權有限的情況下,常需仰賴專家權與參照權來發揮影響力。",
+  },
+  {
+    id: "res-047",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A newly assigned project manager notices that team members follow her instructions mainly because the project charter formally names her as the project manager, not because they particularly respect her skills or personality yet. This reflects {{blank1}}, and since relying on this alone tends to be less sustainable in a matrix organization, she should also work to {{blank2}}.",
+      zh: "一位新上任的專案經理發現,團隊成員之所以聽從她的指示,主要是因為專案章程正式指定她為專案經理,而非目前特別敬重她的能力或人格特質。這反映了 {{blank1}},而由於單靠這種權力在矩陣型組織中往往較難長久維持,她也應該努力 {{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Legitimate power based on her formally assigned position",
+              zh: "法制權,來自於她被正式指派的職位",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Referent power based on personal admiration",
+              zh: "參照權,來自於他人對她個人的仰慕",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Build expert and referent power over time through demonstrated competence and trust",
+              zh: "隨時間透過展現能力與建立信任,累積專家權與參照權",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Rely exclusively on issuing formal directives and ignore relationship-building",
+              zh: "完全仰賴發布正式指令,不理會關係經營",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "僅憑正式職位而來的法制權,在職權有限的矩陣型組織中往往不夠持久;專案經理應同時透過展現專業能力與建立信任關係,逐步累積更具持續影響力的專家權與參照權,而非僅依賴頭銜發號施令。",
+  },
+  {
+    id: "res-048",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Team members frequently seek out the project manager's technical guidance on complex architecture decisions specifically because of her deep, well-recognized subject-matter expertise in that domain — not because of her title. Click the base of power this illustrates.",
+      zh: "團隊成員經常在複雜的架構決策上尋求專案經理的技術指引,主要是因為她在該領域擁有深厚且受廣泛肯定的專業知識,而非因為她的職稱。請點選這說明的是哪一種權力基礎。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Legitimate Power",
+          zh: "法制權(Legitimate)",
+        },
+        x: 5,
+        y: 5,
+        width: 25,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Reward Power",
+          zh: "獎賞權(Reward)",
+        },
+        x: 36.66666666666667,
+        y: 5,
+        width: 25,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Coercive Power",
+          zh: "強制權(Coercive)",
+        },
+        x: 68.33333333333334,
+        y: 5,
+        width: 25,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Expert Power",
+          zh: "專家權(Expert)",
+        },
+        x: 5,
+        y: 47.5,
+        width: 25,
+        height: 35,
+      },
+      {
+        id: "n5",
+        label: {
+          en: "Referent Power",
+          zh: "參照權(Referent)",
+        },
+        x: 36.66666666666667,
+        y: 47.5,
+        width: 25,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n4",
+    explanation: "專家權(Expert Power)來自於個人在特定領域擁有他人所敬重的專業知識或技術能力,團隊成員因信任其專業判斷而主動尋求指引,與職位頭銜(法制權)、給予誘因(獎賞權)、施加懲罰(強制權)或個人魅力(參照權)並不相同。",
+  },
+  {
+    id: "res-049",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Even outside of official project meetings, team members often seek the project manager's opinion and willingly go along with his suggestions because they personally admire his integrity and genuinely trust him, quite apart from his formal role. Which base of power is being demonstrated here?",
+      zh: "即使在正式專案會議之外,團隊成員也經常主動徵詢專案經理的意見,並樂於採納他的建議,原因是他們打從心底敬佩他的正直人格、真心信任他,這與他的正式職務無關。這展現的是哪一種權力基礎?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Legitimate power",
+          zh: "法制權(Legitimate)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Coercive power",
+          zh: "強制權(Coercive)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Referent power",
+          zh: "參照權(Referent)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reward power",
+          zh: "獎賞權(Reward)",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "參照權(Referent Power)源自他人對個人特質(如人格、誠信、可信賴度)的仰慕與信任,即使沒有正式職權或明確誘因,對方也願意主動追隨。這與依賴職位(法制權)、施加懲罰(強制權)或提供獎勵(獎賞權)的權力來源不同。",
+  },
+  {
+    id: "res-050",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "multiple_response",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager operating with limited formal authority in a weak matrix organization wants to build lasting influence and voluntary commitment from the team, rather than mere short-term compliance. Which three of the following bases of power are generally considered most effective and sustainable for this purpose? Select three.",
+      zh: "一位在弱矩陣型組織中職權有限的專案經理,希望建立長久的影響力與團隊自願的投入,而非僅換取短期的服從。下列哪三種權力基礎通常被認為最能有效且長久地達成此目的?(選三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Expert power",
+          zh: "專家權(Expert)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Referent power",
+          zh: "參照權(Referent)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Reward power",
+          zh: "獎賞權(Reward)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Coercive power",
+          zh: "強制權(Coercive)",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Legitimate power",
+          zh: "法制權(Legitimate)",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "專家權、參照權與獎賞權通常被認為較能建立長久且自願的投入——專家權與參照權源自受尊重的能力與人格特質,獎賞權則透過正向誘因驅動行為。強制權仰賴懲罰與恐懼,長期易損害信任與士氣;法制權僅來自職位本身,在職權有限的矩陣型組織中往往不足以單獨支撐長久的影響力,因此相對而言不如前三者理想。",
+  },
+  {
     id: "res-051",
     edition: "pmbok8",
     domain: "Process",
@@ -24534,6 +36100,78 @@ export const sampleQuestions = [
     explanation: "內部自製與外包的決策通常需權衡:兩種方式的相對成本、所需專業能力在組織內是否稀有或欠缺,以及該能力對組織的長期策略價值(若日後仍會持續需要,培養內部能力可能更划算;若僅為一次性需求,外包通常更具效益)。行銷素材配色與管制圖統計型態皆與此商業決策無關,是干擾選項。",
   },
   {
+    id: "res-068",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager tells an underperforming team member, \"If your output doesn't improve by next week, I will document this in your performance review and recommend you be removed from the project.\" Click the base of power being used here.",
+      zh: "專案經理對一位績效不佳的團隊成員說:「如果你下週產出還沒有改善,我會把這件事記錄在你的績效考核中,並建議把你調離這個專案。」請點選此處使用的是哪一種權力基礎。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Expert Power",
+          zh: "專家權(Expert)",
+        },
+        x: 5,
+        y: 5,
+        width: 25,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Referent Power",
+          zh: "參照權(Referent)",
+        },
+        x: 36.66666666666667,
+        y: 5,
+        width: 25,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Coercive Power",
+          zh: "強制權(Coercive)",
+        },
+        x: 68.33333333333334,
+        y: 5,
+        width: 25,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Reward Power",
+          zh: "獎賞權(Reward)",
+        },
+        x: 5,
+        y: 47.5,
+        width: 25,
+        height: 35,
+      },
+      {
+        id: "n5",
+        label: {
+          en: "Legitimate Power",
+          zh: "法制權(Legitimate)",
+        },
+        x: 36.66666666666667,
+        y: 47.5,
+        width: 25,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n3",
+    explanation: "強制權(Coercive Power)是透過施加懲罰或負面後果(如負面績效記錄、調離專案)來促使對方改變行為,雖然短期內可能有效,但長期而言容易損害信任與士氣,通常被認為是較不理想的權力運用方式。這與依賴專業知識(專家權)、個人敬重(參照權)、正向誘因(獎賞權)或職位本身(法制權)明顯不同。",
+  },
+  {
     id: "res-069",
     edition: "pmbok8",
     domain: "People",
@@ -24577,6 +36215,2691 @@ export const sampleQuestions = [
     ],
     correctAnswer: "a",
     explanation: "當團隊過去因公開的個人排名式表揚而產生嫌隙時,PM 應改以表揚團隊整體共同成就為主,同時保留私下肯定特定個人貢獻的彈性,而非因噎廢食完全取消表揚,也不應重蹈覆轍持續採用容易引發不滿的做法。獎勵與表揚方式應依團隊實際狀況與過往經驗調整,以維護整體士氣與協作氛圍。",
+  },
+  {
+    id: "res-070",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "An agile project manager regularly sets aside time, separate from daily execution pressures, to look back on the project's progress and consider what has worked well and what has not. This behavior best reflects which one of Pinto's 12 principles of servant leadership for agile project managers?",
+      zh: "一位敏捷專案經理定期抽出時間,獨立於每日執行的壓力之外,回顧專案的進展並思考哪些做法有效、哪些做法無效。這項行為最符合 Pinto 提出的敏捷專案經理服務型領導 12 原則中的哪一項?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Take time to reflect on the project",
+          zh: "花時間反思專案",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Develop the trick of thinking backwards",
+          zh: "培養逆向思考的技巧",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Act for the simultaneous welfare of the team and the project",
+          zh: "同時為團隊與專案的福祉而行動",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Create an environment of functional accountability",
+          zh: "營造具功能性當責的工作環境",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "Pinto 提出的 12 項服務型領導原則中,「花時間反思專案(Take time to reflect on the project)」specifically 指的是定期跳脫日常執行的忙碌,回顧整體進展與做法優劣。(b) 逆向思考是指從專案終點目標往回推算應有的做法;(c) 是指平衡團隊與專案雙方的利益,不偏廢任一方;(d) 是指建立清楚的當責機制與角色分工。三者皆為 12 原則中真實存在的項目,但都不是本情境「定期抽出時間回顧進展」所描述的原則,是常見的干擾選項。",
+  },
+  {
+    id: "res-071",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Which three of the following are core responsibilities of the Delivery Team in an agile project? Select three.",
+      zh: "下列何者屬於敏捷專案中「交付團隊(Delivery Team)」的核心職責?(選三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Building the product increments defined in the backlog",
+          zh: "依據待辦清單建立產品增量",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Updating information radiators so progress stays visible to everyone",
+          zh: "更新資訊發射器(Information Radiator),讓進度隨時可被看見",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Self-organizing to plan and manage their own daily work",
+          zh: "自主管理,自行規劃並執行每日工作",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Prioritizing and maintaining the product backlog",
+          zh: "排序並維護產品待辦清單",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Removing organizational impediments through servant leadership",
+          zh: "透過服務型領導排除組織層級的障礙",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "交付團隊(Delivery Team)負責依循待辦清單建立產品增量、更新資訊發射器讓進度保持透明、自主管理每日工作,並在每日站立會議分享進度、展示產品 demo、參與 Retrospective 與 Sprint Planning。(d) 排序並維護產品待辦清單是產品負責人(Product Owner)的職責;(e) 透過服務型領導排除組織障礙則是敏捷專案經理(Agile PM)或 Scrum Master 的職責,兩者皆非交付團隊本身的工作,是本題的干擾選項。",
+  },
+  {
+    id: "res-072",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each agile team space concept to the description that best fits it.",
+      zh: "請將下列敏捷團隊空間相關概念拖曳配對到最符合的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Co-located Team (the \"33 feet\" idea)",
+            zh: "同地辦公團隊(33 英呎原則)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Osmotic Communication",
+            zh: "滲透式溝通",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Cave and Common",
+            zh: "洞穴與公共空間",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Tacit Knowledge",
+            zh: "默會知識",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Keeping the most active team members within roughly 33 feet of one another, without physical barriers such as cubicles, so face-to-face interaction stays easy",
+            zh: "讓核心活躍成員盡量位於彼此約 33 英呎範圍內,不設隔間等實體障礙,以利面對面互動",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Team members naturally pick up relevant conversations happening nearby without deliberately joining them, simply because they are close enough to overhear",
+            zh: "團隊成員因為距離夠近,即使沒有刻意加入,也能自然聽到周遭相關的對話內容",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "A workspace design that gives individuals a private space to focus while still keeping a shared area for group collaboration",
+            zh: "一種工作空間設計,既提供個人可獨處專注的空間,也保留供團隊共同協作的公共區域",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Unwritten, shared understanding that team members absorb through close proximity rather than through formal documentation",
+            zh: "團隊成員透過近距離相處自然吸收、而非透過正式文件記錄下來的共享默契與知識",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "敏捷團隊空間設計常見四個概念:同地辦公團隊強調核心成員最好位於彼此約 33 英呎內,且不設隔間等實體障礙;滲透式溝通指的是成員因距離夠近而自然聽見周遭相關對話,不必刻意參與;洞穴與公共空間則是同時保留個人獨處專注的角落與團隊共用的協作區域;默會知識則是成員透過長時間近距離相處累積出來、未被正式寫下的共享理解。四者共同支持面對面協作的效益,常在考題中互相混淆,需要精準區分定義。",
+  },
+  {
+    id: "res-073",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A team is now fully distributed across three countries and can no longer be co-located. Because members no longer overhear each other's nearby conversations, the project manager notices the team is losing the {{blank1}} it used to gain from working in the same room. To help restore some of that collaboration, the project manager should {{blank2}}.",
+      zh: "團隊目前完全分散在三個國家,無法再達成同地辦公。由於成員不再能自然聽到彼此周遭的對話,專案經理發現團隊正逐漸失去過去同處一室時所獲得的{{blank1}}。為了協助恢復部分協作效果,專案經理應該{{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Osmotic communication and the shared tacit knowledge it builds",
+              zh: "滲透式溝通,以及它所累積出的共享默會知識",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Formally documented, written requirements",
+              zh: "正式書面記錄的需求文件",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Introduce virtual tools such as video conferencing, interactive whiteboards, and virtual card walls to approximate the benefits of co-location",
+              zh: "導入視訊會議、互動白板、虛擬卡牆等虛擬工具,盡量還原同地辦公的效益",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Require the team to stop using any collaboration tools until everyone can be physically relocated to one office",
+              zh: "要求團隊停用所有協作工具,直到所有人都能實體搬遷至同一辦公室為止",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "同地辦公團隊之所以效率較高,一部分來自滲透式溝通與其累積出的默會知識,兩者都仰賴成員之間的實體近距離。當團隊改為分散式(Distributed Team)時,這些優勢自然會減弱,此時專案經理應盡可能導入視訊會議、互動白板、即時通訊、VoIP、虛擬卡牆等工具,以還原同地辦公的部分效益,而不是反其道而行,停用協作工具讓團隊更難溝通。",
+  },
+  {
+    id: "res-074",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each stage of individual skill development to the description that best fits it. The first three stages come from the Shu-Ha-Ri model, and the last two come from the Dreyfus Model of Adult Skill Acquisition.",
+      zh: "請將下列個人技能養成階段拖曳配對到最符合的描述。前三項來自 Shu-Ha-Ri 模型,後兩項來自 Dreyfus 成人技能習得模型。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Shu",
+            zh: "守",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Ha",
+            zh: "破",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Ri",
+            zh: "離",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Novice (Dreyfus)",
+            zh: "新手(Dreyfus 模型)",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Expert (Dreyfus)",
+            zh: "專家(Dreyfus 模型)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "The learner strictly follows established rules and practices exactly as taught, without deviation",
+            zh: "學習者嚴格遵循既定規則與做法,完全照著教導的方式執行,不做任何變動",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "The learner starts consciously breaking away from the established rules, adapting practices to fit the specific situation",
+            zh: "學習者開始有意識地跳脫既定規則,依實際情境調整做法",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "The learner finds their own individual path, going beyond the original rules to innovate",
+            zh: "學習者找到屬於自己的路,超越原本的規則進行創新",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Someone with little or no experience who needs explicit rules and step-by-step instructions to perform a task",
+            zh: "幾乎沒有經驗的人,需要明確規則與逐步指示才能完成任務",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "Someone with deep, intuitive understanding who can act fluidly without consciously thinking through the rules",
+            zh: "具備深厚直覺理解力的人,能夠不需刻意思考規則就流暢地行動",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "Shu-Ha-Ri 是描述個人技能養成的三階段模型:守(Shu)階段完全遵循既定規則;破(Ha)階段開始依情境調整、跳脫既定做法;離(Ri)階段則找到屬於自己的路,超越規則進行創新。Dreyfus 成人技能習得模型則將技能養成細分為新手、進階初學者、勝任者、精熟者、專家五個階段,其中新手仰賴明確規則與步驟指示,專家則能憑直覺流暢行動、不需刻意思考規則。兩個模型描述的都是「從依賴規則到憑直覺創新」的技能成長歷程,常在考題中互相對照。",
+  },
+  {
+    id: "res-075",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "The diagram below shows the five phases of a Retrospective in sequence: Set the Stage, Gather Data, Generate Insight, Decide What to Do, and Close the Retrospective. During which phase would the team most likely use techniques such as the 5 Whys and Fishbone (Ishikawa) Analysis to dig into the root causes behind what happened? Click that phase.",
+      zh: "下圖依序列出回顧會議(Retrospective)的五個階段:Set the Stage、Gather Data、Generate Insight、Decide What to Do、Close the Retrospective。團隊最可能在哪個階段使用「5 個為什麼(5 Whys)」與魚骨圖(Fishbone/Ishikawa)分析等技巧,深入探討事件背後的根本原因?請點選該階段。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Set the Stage",
+          zh: "揭開序幕",
+        },
+        x: 2,
+        y: 40,
+        width: 16,
+        height: 20,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Gather Data",
+          zh: "蒐集資料",
+        },
+        x: 21,
+        y: 40,
+        width: 16,
+        height: 20,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Generate Insight",
+          zh: "產生洞察",
+        },
+        x: 40,
+        y: 40,
+        width: 16,
+        height: 20,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Decide What to Do",
+          zh: "決定行動",
+        },
+        x: 59,
+        y: 40,
+        width: 16,
+        height: 20,
+      },
+      {
+        id: "n5",
+        label: {
+          en: "Close the Retrospective",
+          zh: "結束回顧",
+        },
+        x: 78,
+        y: 40,
+        width: 16,
+        height: 20,
+      },
+    ],
+    correctAnswer: "n3",
+    edges: [
+      {
+        from: "n1",
+        to: "n2",
+      },
+      {
+        from: "n2",
+        to: "n3",
+      },
+      {
+        from: "n3",
+        to: "n4",
+      },
+      {
+        from: "n4",
+        to: "n5",
+      },
+    ],
+    explanation: "Retrospective 依序分為五個階段:Set the Stage(揭開序幕,約 6 分鐘,說明目的、鼓勵參與,常用 ESVP 讓成員表態心態)、Gather Data(蒐集資料,約 40 分鐘,如 Timeline、Triple Nickels、Mad Sad Glad 等活動)、Generate Insight(產生洞察,約 25 分鐘,分析資料找出根本原因,常用腦力激盪、5 Whys、Fishbone 分析)、Decide What to Do(決定行動,運用 Short Subject 或 SMART Goals 訂出下一步改善方案)、Close the Retrospective(結束回顧,例如 Plus/Delta 活動收尾)。5 Whys 與 Fishbone 分析都是用來挖掘根本原因的技巧,屬於 Generate Insight 階段,故正解為 n3。",
+  },
+  {
+    id: "res-076",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "At the start of a retrospective, the facilitator asks each team member to privately indicate whether they currently feel like an Explorer eager to discover new ideas, a Shopper browsing for something useful, a Vacationer just waiting for it to be over, or a Prisoner who feels forced to attend. Which retrospective activity is being used?",
+      zh: "在一場回顧會議開始時,引導者請每位團隊成員私下表達自己此刻的心態,分別是「探索者(Explorer)」樂於發掘新點子、「購物者(Shopper)」隨意逛逛尋找有用的東西、「度假者(Vacationer)」只是等會議結束、還是「囚犯(Prisoner)」覺得被迫參加。這是使用了哪一種回顧會議活動?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "ESVP",
+          zh: "ESVP",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Triple Nickels",
+          zh: "三個五(Triple Nickels)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Fishbone Analysis",
+          zh: "魚骨圖分析",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Plus",
+          zh: "Delta",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "ESVP(Explorer, Shopper, Vacationer, Prisoner)是 Set the Stage 階段常用的活動,讓每位成員表態自己此刻參與回顧會議的心態,協助引導者掌握團隊整體氛圍,故答案為 (a)。Triple Nickels 是 Gather Data 階段用來蒐集點子的技巧(每組 5 人、花 5 分鐘、蒐集 5 個點子、重複 5 次);Fishbone Analysis 用於 Generate Insight 階段探究根本原因;Plus/Delta 則用於 Close the Retrospective 階段收尾,三者皆非本情境所描述的活動,是干擾選項。",
+  },
+  {
+    id: "res-077",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Which three of the following behaviors are characteristic of someone operating in the \"Green Zone\" of the Green Zone / Red Zone behavior model? Select three.",
+      zh: "下列何者屬於「綠區/紅區(Green Zone / Red Zone)」行為模式中,「綠區」行為的特徵?(選三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Willingly taking ownership and accepting responsibility for outcomes",
+          zh: "願意主動承擔責任",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Welcoming feedback rather than avoiding or dismissing it",
+          zh: "樂於接受回饋,而非逃避或忽視",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Considering both short-term and long-term consequences before acting",
+          zh: "行動前同時考量短期與長期後果",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reacting defensively whenever challenged",
+          zh: "一旦受到質疑就出現防禦性反應",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Treating every disagreement as a competition that must be won",
+          zh: "把每次意見不合都當作必須獲勝的競賽",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "綠區行為的特徵包括願意主動承擔責任、不容易陷入防禦心態、樂於接受回饋、能同時兼顧短期與長期成效,並傾向以說服而非命令的方式與他人互動,持續追求卓越。相對地,互相責怪、過度防禦、把每次溝通都當成必須獲勝的競賽、逃避或不重視回饋等,則是紅區(Red Zone)的典型行為特徵,屬於本題的干擾選項。",
+  },
+  {
+    id: "res-078",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A newly formed distributed agile team spans multiple countries with different time zones, native languages, and communication norms. Some members interpret direct feedback as rude, while others expect it and find indirect feedback confusing. Beyond selecting collaboration tools, what should the project manager also proactively manage to keep this team functioning effectively?",
+      zh: "一個新成立的分散式敏捷團隊橫跨多個國家,成員間存在不同時區、母語及溝通規範的差異。部分成員認為直接的意見回饋很不禮貌,另一些成員卻習慣直接表達,並覺得間接的回饋方式令人困惑。除了選擇協作工具之外,專案經理還應該主動管理哪一項因素,以維持團隊有效運作?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The organizational and cultural differences among team members, such as language, communication style, and working norms across regions",
+          zh: "團隊成員間的組織與文化差異,例如跨地區的語言、溝通風格與工作規範",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The exact font and color scheme used in the team's shared documents",
+          zh: "團隊共用文件所使用的確切字型與配色",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The brand of video conferencing hardware each team member owns",
+          zh: "每位團隊成員所擁有的視訊會議硬體品牌",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The personal social media habits of each team member outside of work",
+          zh: "每位成員在工作之外的個人社群媒體使用習慣",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "分散式團隊除了導入協作工具外,還必須主動管理跨國、跨文化帶來的差異,包括時差、語言、文化背景與溝通風格等因素。若忽略這些屬於團隊所處的更廣泛組織與外部環境因素,容易造成誤解與摩擦,進而影響團隊效能與交付品質。文件配色字型、視訊硬體品牌、成員私人社群媒體習慣皆與此無關,屬於干擾選項。",
+  },
+  {
+    id: "res-079",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Over several months, two team members have escalated from disagreeing over technical approaches to openly stating they want to see each other removed from the company entirely, treating every interaction as an attempt to destroy the other's credibility. Standard conflict resolution techniques such as collaborate or compromise have already failed. What should the project manager conclude and do?",
+      zh: "經過數個月,兩位團隊成員的衝突已從技術做法上的分歧,升級到公開表示希望對方徹底離開公司,並將每次互動都當作摧毀對方信譽的機會。標準的衝突處理技巧,如合作或妥協,皆已嘗試但失敗。專案經理應如何判斷並處理?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "This has escalated to the most severe level of conflict, where the relationship is likely unsalvageable, so the project manager should separate the two individuals, such as by reassigning one off the team",
+          zh: "此衝突已升級到最嚴重的層級,雙方關係很可能已無法挽回,專案經理應將兩人分開,例如將其中一人調離團隊",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Continue applying the compromise technique repeatedly until it eventually succeeds",
+          zh: "持續反覆使用妥協技巧,直到最終成功為止",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ignore the situation since personal feelings between team members are not the project manager's concern",
+          zh: "忽視此狀況,因為團隊成員之間的個人情緒並非專案經理該管的事",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Force both individuals to publicly apologize to each other in front of the whole team",
+          zh: "強迫兩人在全體團隊面前公開向對方道歉",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "衝突可依嚴重程度分為多個層級,從第一層級單純的共享資訊解決問題,逐漸升級到競賽、必須獲勝、視對方為需摧毀的敵人。當衝突已升級到雙方都想摧毀對方信譽、視彼此為零和對抗甚至更嚴重的地步時,已超出一般協商或妥協能處理的範圍,關係通常難以修復。此時專案經理應務實地將雙方分開,例如調整團隊編制,而非期待反覆使用同一種技巧就能解決,也不應忽視問題或用公開羞辱式的做法處理。",
+  },
+  {
+    id: "res-080",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "matching",
+    difficulty: "hard",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each level of conflict escalation to the description that best fits it.",
+      zh: "請將下列衝突升級的層級拖曳配對到最符合的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Level 1",
+            zh: "第一層級",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Level 2",
+            zh: "第二層級",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Level 3",
+            zh: "第三層級",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Level 4",
+            zh: "第四層級",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Level 5",
+            zh: "第五層級",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Parties focus on solving the problem together and openly share information",
+            zh: "雙方專注於共同解決問題,並開放地分享資訊",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Parties disagree and shift toward protecting themselves rather than solving the shared problem",
+            zh: "雙方出現分歧,並開始轉向保護自己,而非共同解決問題",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "The disagreement turns into a competition that one side feels it must win",
+            zh: "分歧演變為一場競賽,其中一方認為自己必須獲勝",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Parties treat the conflict as a crusade to protect their own group, viewing it as a zero-sum fight",
+            zh: "雙方將衝突視為捍衛自身群體的聖戰,視為零和對抗",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "Each side is determined to destroy the other, with the relationship likely beyond repair",
+            zh: "雙方都決心摧毀對方,關係很可能已無法挽回",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "衝突升級的五個層級依序為:第一層級著重共同解決問題、分享資訊;第二層級開始出現分歧與自我保護心態;第三層級演變為必須獲勝的競賽;第四層級升級為捍衛群體的聖戰,視為零和對抗;第五層級則是雙方決心摧毀對方,關係通常已無法挽回,只能透過拆散團隊來處理。層級越高,一般的協商與妥協技巧越難奏效,PM 應盡早在低層級介入,避免衝突持續升級。",
+  },
+  {
+    id: "res-081",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "To ensure genuine team participation when gauging support for a decision, which two of the following are recommended practices? Select two.",
+      zh: "為確保在評估團隊對某項決策的支持程度時能達到真正的參與,下列哪兩項是建議的做法?(選兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "When a simple vote is taken (agree, neutral, or disagree), ask those who are neutral or opposed to explain their reasons",
+          zh: "進行簡單投票(贊成、中立或反對)時,詢問中立或反對者說明原因",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Use a technique such as Fist of Five, where team members hold up one to five fingers to quantify their degree of support",
+          zh: "使用如「五指表決」(Fist of Five)之類的技巧,讓成員舉起一到五根手指來量化支持程度",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Only count votes from the most senior team members present",
+          zh: "僅計算在場最資深成員的投票",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Avoid asking for reasons behind a vote, since this could prolong the meeting unnecessarily",
+          zh: "避免詢問投票背後的原因,因為這可能不必要地拖長會議時間",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "為確保決策獲得真正的團隊參與,常見做法包括進行簡單投票並詢問中立或反對者的理由,以便真正了解疑慮所在;另可使用「五指表決」(Fist of Five)等量化技巧,讓成員舉起一到五根手指表達支持程度,快速掌握團隊共識強弱。只採計資深成員意見或避免詢問理由,都會削弱團隊參與的真實性與決策品質。",
+  },
+  {
+    id: "res-082",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each decision-making technique to the description that best fits it.",
+      zh: "請將下列決策技巧拖曳配對到最符合的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Multi-criteria Decision Analysis",
+            zh: "多準則決策分析",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Autocratic Decision",
+            zh: "專斷式決策",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Simple Voting",
+            zh: "簡單投票",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Fist of Five",
+            zh: "五指表決",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Compares options against a table or matrix of criteria such as budget, feasibility, and risk",
+            zh: "依照預算、可行性、風險等準則,以表格或矩陣方式比較不同選項",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "One individual, such as the project manager or a manager, decides on behalf of the team",
+            zh: "由一人,例如專案經理或主管,代表團隊做出決策",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Team members indicate agreement, neutrality, or disagreement, often by majority, unanimity, or plurality",
+            zh: "團隊成員表達贊成、中立或反對,常依多數決、一致決或多數相對決來判定",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Team members hold up one to five fingers to quantify how strongly they support a proposal",
+            zh: "團隊成員舉起一到五根手指,量化自己對提案的支持程度",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "決策是選出最佳選項的工具,好的決策應基於數據。多準則決策分析用表格或矩陣比較不同選項在預算、可行性、風險等準則下的表現;專斷式決策由一人代表團隊決定,速度快但缺乏團隊參與;簡單投票依多數決、一致決或多數相對決判斷團隊意向;五指表決則是簡單投票的量化延伸,能更細緻地呈現支持強弱程度。四者各有適用情境,PM 應依時間壓力與所需共識程度選擇合適技巧。",
+  },
+  {
+    id: "res-083",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "The project team must choose between three vendors for a critical piece of equipment, and the decision needs to account for cost, delivery timeline, and past reliability simultaneously. The project manager should apply {{blank1}}, which will help the team {{blank2}}.",
+      zh: "專案團隊必須從三家供應商中選出一家提供關鍵設備,而決策需要同時考量成本、交期與過往可靠度。專案經理應採用 {{blank1}},以協助團隊 {{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Multi-criteria decision analysis, using a matrix to score each vendor against the relevant criteria",
+              zh: "多準則決策分析,使用矩陣依相關準則為每家供應商評分",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "An autocratic decision made solely by the project manager without consulting the team",
+              zh: "完全由專案經理獨自做出、不諮詢團隊的專斷式決策",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Compare the options systematically across all relevant factors and select the most balanced choice",
+              zh: "有系統地在所有相關因素上比較各選項,選出最平衡的方案",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Reach a decision faster by skipping any structured comparison between the vendors",
+              zh: "跳過任何結構化的供應商比較,以更快達成決策",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "當決策需要同時考量多項準則(如成本、交期、可靠度)時,多準則決策分析是最適合的工具,透過矩陣或表格為每個選項在各準則下評分,協助團隊有系統地比較並選出最平衡的方案。專斷式決策雖然速度快,但缺乏結構化比較,容易忽略某些重要準則,並非本情境的最佳選擇。",
+  },
+  {
+    id: "res-084",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A production issue is discovered just two hours before a hard deadline, and a decision on how to proceed must be made immediately. There is no time to gather the team's input or run a structured comparison of options. What type of decision-making is most appropriate here?",
+      zh: "距離硬性截止時間只剩兩小時,發現了一個生產問題,必須立即決定如何處理,沒有時間徵詢團隊意見或進行結構化的選項比較。此情境下最適合採用哪一種決策方式?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Autocratic decision, where the project manager or another individual decides on behalf of the team",
+          zh: "專斷式決策,由專案經理或另一位個人代表團隊做出決定",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Multi-criteria decision analysis, comparing all options in a detailed matrix",
+          zh: "多準則決策分析,以詳細矩陣比較所有選項",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Unanimity voting, requiring every team member to agree",
+          zh: "一致決投票,需要每位團隊成員都同意",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "A lengthy brainstorming workshop to generate alternative solutions",
+          zh: "舉行冗長的腦力激盪工作坊來產出替代方案",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "在時間極度緊迫、沒有餘裕徵詢團隊或進行結構化比較的情境下,專斷式決策(由一人代表團隊迅速決定)是最務實的做法。多準則決策分析與一致決投票都需要較多時間才能完成,腦力激盪工作坊更不適合在僅剩兩小時的緊急情況下進行,皆非本情境的合適選擇。",
+  },
+  {
+    id: "res-085",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "A team member consistently seeks step-by-step instructions, prefers concrete facts over abstract possibilities, and makes decisions based on logical analysis rather than personal feelings. According to the Myers-Briggs Type Indicator (MBTI), which two preferences does this best suggest?",
+      zh: "一位團隊成員總是喜歡逐步明確的指示,偏好具體事實而非抽象的可能性,並依邏輯分析而非個人情感來做決策。依照邁爾斯-布里格斯性格分類法(MBTI),這最符合下列哪兩項偏好?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Sensing (S) for gathering information, and Thinking (T) for making decisions",
+          zh: "資訊接收方式偏好實感(S),決策方式偏好思維(T)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Intuition (N) for gathering information, and Feeling (F) for making decisions",
+          zh: "資訊接收方式偏好直覺(N),決策方式偏好情感(F)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Extraversion (E) for energy source, and Judging (J) for lifestyle",
+          zh: "能量來源偏好外向(E),生活風格偏好判斷(J)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Introversion (I) for energy source, and Perceiving (P) for lifestyle",
+          zh: "能量來源偏好內向(I),生活風格偏好感知(P)",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "MBTI 依四個維度描述人格偏好:能量來源(外向 E / 內向 I)、接收資訊方式(實感 S / 直覺 N)、決策方式(思維 T / 情感 F)、生活風格(判斷 J / 感知 P)。題目描述偏好具體事實而非抽象可能性,對應接收資訊方式的實感(S);依邏輯分析而非情感做決策,對應決策方式的思維(T)。選項中其餘維度組合雖也屬於 MBTI 的偏好類別,但與題幹描述的具體行為不符。",
+  },
+  {
+    id: "res-086",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "When conducting negotiation as a project manager, whether upward with a sponsor, downward with a team member, or across with a peer manager, which three of the following approaches are recommended? Select three.",
+      zh: "專案經理進行協商時,無論是向上與贊助人協商、向下與團隊成員協商,或是與平行的其他管理者協商,下列哪三項是建議採取的做法?(選三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Maintain a positive and respectful tone throughout the discussion",
+          zh: "在整個討論過程中保持正向且尊重的態度",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Show empathy by trying to understand the other party's underlying interests",
+          zh: "展現同理心,試著理解對方潛在的利益與考量",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Keep the customer's interests and satisfaction in mind even when negotiating internally",
+          zh: "即使是內部協商,也要將客戶的利益與滿意度放在心上",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Frame every negotiation as a contest that the project manager must win outright",
+          zh: "將每一次協商都視為專案經理必須完全獲勝的競賽",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Withhold information from the other party to gain leverage regardless of the relationship",
+          zh: "無論關係如何,都對對方隱瞞資訊以取得談判優勢",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "協商是專案經理常需扮演的角色,無論是向上、向下或平行協商,都應保持正向、尊重的態度,展現同理心以理解對方的考量,並隨時將客戶的利益與滿意度放在心上。將協商當作必須獲勝的零和競賽、或刻意隱瞞資訊取得優勢,都容易破壞長期合作關係,並非建議的協商做法。",
+  },
+  {
+    id: "res-087",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Resources",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each direction of negotiation a project manager may need to conduct to the example that best fits it.",
+      zh: "請將下列專案經理可能需要進行的協商方向拖曳配對到最符合的範例。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Upward Negotiation",
+            zh: "向上協商",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Downward Negotiation",
+            zh: "向下協商",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Parallel Negotiation",
+            zh: "平行協商",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "The project manager asks the sponsor to approve additional budget for a critical resource",
+            zh: "專案經理向贊助人請求核准額外預算以取得關鍵資源",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "The project manager asks a team member to take on an additional task outside their usual scope",
+            zh: "專案經理請一位團隊成員承接超出其原本範疇的額外任務",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "The project manager negotiates with another project manager in the same organization over sharing a scarce piece of equipment",
+            zh: "專案經理與同組織內另一位專案經理協商共用稀缺設備",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+    },
+    explanation: "專案經理需要在不同方向上進行協商:向上協商是與職權較高者(如贊助人)協商,例如爭取預算;向下協商是與團隊成員協商,例如請求承接額外任務;平行協商則是與職權相當的其他管理者協商,例如共享稀缺資源。無論方向為何,都應秉持正向尊重、同理心的態度,並考量客戶滿意度。",
+  },
+  {
+    id: "res-088",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "During Plan Resource Management, senior management explicitly treats the organization's skilled workforce and specialized equipment as a source of competitive advantage over rivals, factoring this into how resources are planned and retained. Which concept does this best reflect?",
+      zh: "在「規劃資源管理」過程中,高階管理層明確將組織中具備專業技能的人力與特殊設備視為相對於競爭對手的競爭優勢來源,並將此考量納入資源規劃與留任決策中。這最能反映下列哪一個概念?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Resource-Based View, treating human and physical resources as a source of competitive advantage",
+          zh: "資源基礎觀點(Resource-Based View),將人力與實體資源視為競爭優勢的來源",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Green HRM, focusing on environmentally sustainable resource practices",
+          zh: "綠色人力資源管理(Green HRM),著重環境永續的資源作法",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Resource Breakdown Structure, categorizing resources hierarchically",
+          zh: "資源分解結構(RBS),依類別階層化地分類資源",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Resource Smoothing, adjusting activities within available float",
+          zh: "資源平滑,在可用浮時內調整活動",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "資源基礎觀點(Resource-Based View)是 Plan Resource Management 中的一種資料分析方法,將組織的人力與實體資源視為相對於競爭對手的競爭優勢來源,進而影響資源的規劃、投資與留任策略。Green HRM 著重環境永續考量,RBS 是分類資源的階層圖表,資源平滑則是解決資源衝突的時程技術,三者概念皆與本情境描述的「競爭優勢」觀點不同。",
+  },
+  {
+    id: "res-089",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Resources",
+    questionType: "multiple_response",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "As part of practicing Green HRM (Human Resource Management) considerations while planning resources, which two of the following actions would the project manager most likely take? Select two.",
+      zh: "身為在規劃資源時實踐綠色人力資源管理(Green HRM)考量的一部分,專案經理最可能採取下列哪兩項行動?(選兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Reduce unnecessary business travel and commuting by favoring virtual meetings where practical",
+          zh: "在可行的情況下優先採用視訊會議,減少不必要的商務差旅與通勤",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Factor environmental sustainability and long-term ecological impact into resourcing decisions",
+          zh: "將環境永續性與長期生態影響納入資源決策考量",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Maximize the number of in-person flights taken regardless of cost or environmental impact",
+          zh: "無論成本或環境影響,盡量增加搭機出差的次數",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Ignore environmental factors entirely since they fall outside the project manager's responsibility",
+          zh: "完全忽略環境因素,因為這不屬於專案經理的職責範圍",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "Green HRM 是 Plan Resource Management 過程中考量環境與永續性的做法,包括減少通勤與差旅(例如優先使用視訊會議)、將環境永續性納入資源決策考量等。刻意增加不必要的差旅或完全忽視環境因素,皆與 Green HRM 的精神背道而馳。",
+  },
+  {
+    id: "res-090",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "An organization has only five projects and a small, stable team, so the project manager keeps most day-to-day decisions and authority centered on herself rather than spreading them across the team. Which leadership approach is this project manager applying?",
+      zh: "某組織僅有五個專案,且團隊規模小、成員穩定,因此專案經理將多數日常決策與職權集中掌握在自己身上,而非分散給團隊。此專案經理採用的是哪一種領導方式?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Centralized leadership, which tends to suit smaller teams and can improve efficiency",
+          zh: "集中式領導,通常適合較小型的團隊,並能提升效率",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Distributed leadership, where decisions and authority are spread relatively evenly across the team",
+          zh: "分散式領導,將決策與職權相對平均地分佈於團隊之中",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Laissez-faire leadership, giving the team near-total autonomy",
+          zh: "放任型領導,給予團隊近乎完全的自主權",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Servant leadership, focused primarily on removing obstacles for the team",
+          zh: "服務型領導,主要專注於為團隊排除障礙",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "集中式管理與領導將決策與職權集中於少數人(通常是 PM)身上,適合規模較小的團隊,能提升效率;分散式管理與領導則將決策與職權相對平均地分佈給團隊成員。本情境描述職權集中於 PM 一人,且團隊規模小,符合集中式領導的特徵。放任型領導強調高度授權自主,服務型領導則以排除障礙、賦權協作為核心,皆與題幹描述不符。",
+  },
+  {
+    id: "res-091",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Resources",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A project manager leading a team spanning several countries makes a deliberate effort to understand and adapt to each culture's norms around hierarchy, feedback, and decision-making, rather than assuming everyone shares the same expectations. Click the card that correctly names this capability.",
+      zh: "一位帶領橫跨多國團隊的專案經理刻意花心力理解並調整自己以適應各文化在階級觀念、回饋方式與決策習慣上的不同規範,而非假設所有人都抱持相同期待。請點選正確命名此能力的卡片。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Cultural Intelligence (CQ)",
+          zh: "文化智商(Cultural Intelligence)",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Emotional Intelligence (EI)",
+          zh: "情緒智商(Emotional Intelligence)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Servant Leadership",
+          zh: "服務型領導(Servant Leadership)",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Centralized Leadership",
+          zh: "集中式領導(Centralized Leadership)",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n1",
+    explanation: "文化智商(Cultural Intelligence, CQ)是指有效地與不同文化背景的人協作的能力,包含理解並調整自身行為以適應不同文化在階級、回饋、決策等方面的規範差異。情緒智商著重管理自身與他人的情緒;服務型領導著重排除障礙、賦權團隊;集中式領導著重決策職權集中,三者皆非本情境描述的跨文化協作能力。",
+  },
+  {
+    id: "res-092",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Resources",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "When acquiring a virtual team spread across multiple locations, which three of the following are recognized challenges the project manager should proactively plan for? Select three.",
+      zh: "在取得一個橫跨多個地點的虛擬團隊時,下列哪三項是專案經理應主動規劃因應的常見挑戰?(選三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Technology and equipment barriers that can hinder smooth collaboration",
+          zh: "可能阻礙順暢協作的科技與設備障礙",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Lower levels of interpersonal connection compared to working face-to-face",
+          zh: "相較於面對面工作,人際聯繫程度較低",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Language and cultural gaps among team members in different locations",
+          zh: "不同地點團隊成員間存在語言與文化隔閡",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "An automatic increase in overall project cost regardless of any other factors",
+          zh: "無論其他因素為何,整體專案成本必然自動增加",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "A guaranteed reduction in the diversity of ideas the team can generate",
+          zh: "團隊能產出的構想多樣性必然降低",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "虛擬團隊雖然帶來多樣性與跨時區接力工作的好處,但也存在真實挑戰,包括科技與設備障礙、人際聯繫程度較低、語言與文化隔閡等,專案經理應主動規劃因應措施(如建立溝通準則、善用視訊)。虛擬團隊不必然導致成本自動增加,反而常帶來更廣泛的多樣性與觀點,選項 (d)(e) 的說法並不成立。",
+  },
+  {
+    id: "res-093",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "matching",
+    difficulty: "hard",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each advanced Estimate Resources technique to its description.",
+      zh: "請將下列「估算資源」流程的進階技術拖曳配對到其描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Branch and Bound",
+            zh: "分支界限法",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Genetic Algorithm",
+            zh: "基因演算法",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "COCOMO",
+            zh: "建構性成本模型",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Predictive Analytics",
+            zh: "預測性分析",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Tests different resource combinations under given constraints and eliminates weaker options until the best solution remains",
+            zh: "在既定限制下測試不同的資源組合,並逐步淘汰較差的選項,直到留下最佳解",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Mimics natural selection to test and evolve multiple team composition scenarios toward a balanced allocation",
+            zh: "模仿物競天擇,測試並演化多種團隊組合方案,找出平衡的資源分配",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Estimates the effort, time, and resources needed for a software project based on its size and complexity",
+            zh: "依軟體專案的規模與複雜度,估算所需的工作量、時間與資源",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Uses historical data patterns to forecast future resource needs",
+            zh: "運用歷史資料模式來預測未來的資源需求",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "隨著科技發展,估算資源流程也逐漸納入進階分析技術:分支界限法在限制條件下測試不同資源組合並逐步淘汰劣選項;基因演算法模仿物競天擇的概念,演化出多種團隊搭配方案以求平衡;COCOMO 是依軟體專案規模估算工作量與資源的模型;預測性分析則運用歷史資料預測未來資源需求。這些技術有助於在複雜專案中找到更佳的資源配置方案。",
+  },
+  {
+    id: "res-094",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "definition",
+    stem: {
+      en: "A software project manager wants to test several different team compositions, such as two front-end engineers with one back-end engineer versus one designer with two engineers and one QA specialist, in order to find the most balanced allocation of work across the team. Which technique, inspired by the process of natural selection, is best suited to this purpose?",
+      zh: "某軟體專案經理想測試多種不同的團隊組合,例如兩位前端工程師搭配一位後端工程師,或一位設計師搭配兩位工程師與一位 QA,以找出團隊工作分配最平衡的方案。下列哪一種受物競天擇過程啟發的技術最適合此目的?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Genetic Algorithm",
+          zh: "基因演算法(Genetic Algorithm)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "COCOMO",
+          zh: "建構性成本模型(COCOMO)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Bottom-up Estimating",
+          zh: "由下而上估算(Bottom-up Estimating)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Resource Leveling",
+          zh: "資源撫平(Resource Leveling)",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "基因演算法(Genetic Algorithm)是一種模仿達爾文「物競天擇、適者生存」概念的搜尋與最佳化演算法,可用於測試多種團隊搭配方案,協助平衡成員的工作分配。COCOMO 是依軟體規模估算工作量的模型;由下而上估算是逐項加總的傳統估算技術;資源撫平則是解決資源衝突、可能影響要徑的時程技術,皆非本情境描述、受物競天擇啟發的技術。",
+  },
+  {
+    id: "res-095",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Resources",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "To estimate resource needs for a new factory layout, the project team uses immersive simulation technology that lets stakeholders virtually walk through the proposed physical environment before construction begins. Click the card that correctly names this type of tool.",
+      zh: "為了估算新廠房配置所需的資源,專案團隊使用沉浸式模擬技術,讓利害關係人能在動工前,以虛擬方式親身走訪所提議的實體環境。請點選正確命名此類工具的卡片。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Virtual Reality (VR) simulation",
+          zh: "虛擬實境(VR)模擬",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Resource Breakdown Structure",
+          zh: "資源分解結構(RBS)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Resource Histogram",
+          zh: "資源直方圖(Resource Histogram)",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Multi-criteria Decision Analysis",
+          zh: "多準則決策分析",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n1",
+    explanation: "虛擬實境(VR)模擬是估算資源流程中可運用的技術之一,常用於實體場域(如建築、廠房)專案,讓利害關係人能在動工前以沉浸式方式體驗規劃中的環境,協助更準確地評估空間與資源需求。資源分解結構是分類資源的階層圖表,資源直方圖是呈現資源使用狀況的長條圖,多準則決策分析則是比較選項的決策工具,皆非本情境描述的沉浸式模擬技術。",
+  },
+  {
+    id: "res-096",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Resources",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "While planning resources, the project manager facilitates a session to identify the team's internal strengths and weaknesses regarding available resources, along with external opportunities and threats such as market conditions affecting resource availability. Click the card that correctly names this data analysis technique.",
+      zh: "在規劃資源的過程中,專案經理主持一場會議,以找出團隊在可用資源方面的內部優勢與劣勢,以及外部機會與威脅,例如影響資源可得性的市場狀況。請點選正確命名此資料分析技術的卡片。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "SWOT Analysis",
+          zh: "SWOT 分析(強弱危機分析)",
+        },
+        x: 5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Alternative Analysis",
+          zh: "替代方案分析(Alternative Analysis)",
+        },
+        x: 52.5,
+        y: 5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Variance Analysis",
+          zh: "差異分析(Variance Analysis)",
+        },
+        x: 5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Trend Analysis",
+          zh: "趨勢分析(Trend Analysis)",
+        },
+        x: 52.5,
+        y: 47.5,
+        width: 40,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n1",
+    explanation: "SWOT 分析(強項 Strengths、弱項 Weaknesses、機會 Opportunities、威脅 Threats)是 Plan Resource Management 過程中常用的資料分析技術,用來檢視與資源相關的內部強弱項及外部機會威脅。替代方案分析用於比較不同完成工作的方式;差異分析比較計畫與實際結果;趨勢分析則觀察長期資料模式,三者皆非本情境描述、同時檢視內外部資源因素的技術。",
+  },
+  {
+    id: "res-097",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "After completing Estimate Resources, the project manager produces a document describing the type and quantity of resources needed for each work package, called {{blank1}}. This document is supported by supplementary information, assumptions, and constraints, which are captured in {{blank2}}.",
+      zh: "完成「估算資源」流程後,專案經理產出一份描述各工作包所需資源種類與數量的文件,稱為 {{blank1}}。此文件由額外的補充資訊、假設與限制所支持,這些內容記錄於 {{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Resource Requirements",
+              zh: "資源需求(Resource Requirements)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Resource Calendars",
+              zh: "資源日曆(Resource Calendars)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "The Basis of Estimates",
+              zh: "估算基礎(Basis of Estimates)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "The Cost Baseline",
+              zh: "成本基準(Cost Baseline)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "估算資源流程的重要產出之一為資源需求(Resource Requirements),描述個別活動、工作包或整體專案所需資源的種類與數量;而估算基礎(Basis of Estimates)則記錄支持這些估算的資訊、假設與變數,協助日後追溯估算依據。資源日曆是記錄資源可用時間的文件,成本基準則屬於成本管理領域的產出,皆非本題描述的兩份文件。",
+  },
+  {
+    id: "res-098",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "multiple_response",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "When creating a Responsibility Assignment Matrix (RAM) during Plan Resource Management, which three of the following are recognized formats for representing roles and responsibilities? Select three.",
+      zh: "在「規劃資源管理」過程中建立責任分派矩陣(RAM)時,下列哪三項屬於呈現角色與責任的常見格式?(選三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "A hierarchical chart, similar in structure to an organization chart",
+          zh: "階層圖表,結構類似組織圖",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A RACI matrix showing Responsible, Accountable, Consulted, and Informed roles",
+          zh: "RACI 矩陣,呈現負責、當責、諮詢與告知等角色",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "A text-oriented format describing role titles and responsibilities in narrative form",
+          zh: "文字導向格式,以敘述方式描述職稱與職責",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "A control chart tracking whether a process is within statistical limits",
+          zh: "管制圖,追蹤流程是否落在統計管制界限內",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "A network diagram showing the sequence of scheduled activities",
+          zh: "網路圖,呈現排定活動的先後順序",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "責任分派矩陣(RAM)的常見呈現格式包括階層圖表(結構類似組織圖)、RACI 矩陣(常見格式,標示負責、當責、諮詢、告知)以及文字導向格式(以敘述方式描述職稱與職責)。管制圖屬於品質管理工具,網路圖則屬於時程管理的排程工具,皆非用於呈現角色與責任的格式。",
+  },
+  {
+    id: "res-099",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "The project manager first compares this month's actual equipment utilization against what the resource management plan had originally planned, which is an example of {{blank1}}. Over the following months, she also notices resource shortages spiking every quarter around the same time, a recurring pattern she identifies using {{blank2}}.",
+      zh: "專案經理先將本月實際設備使用狀況,與資源管理計畫原先規劃的內容進行比較,這是 {{blank1}} 的一個範例。接下來的幾個月,她也發現資源短缺傾向於每季在相近時間點出現高峰,這是一種重複性模式,她是運用 {{blank2}} 辨識出來的。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Variance Analysis, comparing planned results against actual results",
+              zh: "差異分析(Variance Analysis),比較計畫結果與實際發生的結果",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Trend Analysis, observing long-term patterns and behaviors",
+              zh: "趨勢分析(Trend Analysis),觀察長期趨勢與行為模式",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Trend Analysis, observing patterns and behaviors over a longer period",
+              zh: "趨勢分析(Trend Analysis),觀察較長期的模式與行為",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Variance Analysis, comparing planned results against actual results at a single point in time",
+              zh: "差異分析(Variance Analysis),於單一時間點比較計畫與實際結果",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "差異分析(Variance Analysis)是比較計畫結果與實際發生結果的技術,適合偵測單一時間點是否出現偏差,例如比較本月實際設備使用與原計畫的差距;趨勢分析(Trend Analysis)則著重觀察較長期的資料模式與行為趨勢,適合用來辨識如「每季固定時間點出現資源短缺高峰」這類重複性模式。兩者都屬於資料分析工具,但適用的時間尺度與目的不同,容易混淆。",
+  },
+  {
+    id: "res-100",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each output of the Lead the Team process to its description.",
+      zh: "請將下列「領導團隊」(Lead the Team)流程的產出拖曳配對到其描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Team Performance Assessment",
+            zh: "團隊績效評估",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Change Requests",
+            zh: "變更請求",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Resource Management Plan Updates",
+            zh: "資源管理計畫更新",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Project Document Updates",
+            zh: "專案文件更新",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "A formal evaluation of how effectively the team is performing, often based on individual and team assessment tools",
+            zh: "對團隊實際表現效能的正式評估,通常依據個體與團隊評估工具而來",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "A formal request submitted through change control when leading the team reveals a need for additional resources or budget",
+            zh: "當領導團隊過程中發現需要額外資源或預算時,透過變更管制提交的正式請求",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Revisions to the plan describing how team roles, responsibilities, and rewards will be managed going forward",
+            zh: "修訂描述未來將如何管理團隊角色、職責與獎勵的計畫內容",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Revisions to items such as the issue log or lessons learned register based on what happened while leading the team",
+            zh: "依領導團隊過程中發生的事,修訂議題記錄或經驗學習登錄冊等文件",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "「領導團隊」(Lead the Team)過程的主要產出包括:團隊績效評估(正式評估團隊表現效能)、變更請求(當發現需要額外資源或預算時提出)、資源管理計畫更新(修訂角色、職責、獎勵等內容),以及專案文件更新(如議題記錄、經驗學習登錄冊等)。理解這些產出有助於區分「領導團隊」與其他資源相關過程(如估算資源、取得資源)在 ITTO 上的差異。",
+  },
+  {
+    id: "res-101",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "In a RACI matrix, a senior engineer must provide input and expert opinion before a technical decision is finalized, but does not personally perform the work and is not accountable for the outcome. Which RACI designation applies to this senior engineer?",
+      zh: "在 RACI 矩陣中,一位資深工程師必須在技術決策定案前提供意見與專業看法,但本人並不實際執行工作,也不對結果負最終責任。此資深工程師應標示為哪一種 RACI 角色?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Responsible",
+          zh: "負責(Responsible)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Accountable",
+          zh: "當責(Accountable)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Consulted",
+          zh: "諮詢(Consulted)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Informed",
+          zh: "告知(Informed)",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或專業看法的角色,屬於雙向溝通;Informed(告知)則是在決策或工作完成「之後」才被告知結果的角色,屬於單向溝通,兩者容易混淆。本情境中資深工程師需要在決策定案前提供意見,屬於 Consulted;若只是在決策定案後被通知結果,則屬於 Informed。Responsible 是實際執行工作者,Accountable 則是對結果負最終責任者,與題幹描述皆不符。",
+  },
+  {
+    id: "res-102",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A newly formed team is about to begin work together for the first time. To establish shared values, communication guidelines, and decision-making norms, the project manager should first {{blank1}}. Later, if a team member repeatedly violates one of these agreed norms, the project manager should {{blank2}}.",
+      zh: "一個新組成的團隊即將首次一起展開工作。為建立共同價值觀、溝通準則與決策規範,專案經理應該先 {{blank1}}。之後,若有成員反覆違反其中一項已達成共識的規範,專案經理應該 {{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Facilitate the team in co-creating a Team Charter together, rather than dictating it alone",
+              zh: "引導團隊共同創造團隊章程(Team Charter),而非由自己單方面訂定",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Write the Team Charter alone and distribute it to the team as a fixed set of rules",
+              zh: "獨自撰寫團隊章程,並將其作為固定規則分發給團隊",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Refer back to the team-agreed Team Charter and discuss the violation with the individual",
+              zh: "回頭參照團隊共同同意的團隊章程,與該成員討論此違規行為",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Quietly ignore the violation to avoid any confrontation with the team member",
+              zh: "為避免與該成員發生正面衝突,選擇默默忽視此違規行為",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "團隊章程(Team Charter)最好由團隊成員共同創造,而非由 PM 單方面訂定,才能提高團隊對規範的認同感與遵守意願。當後續有成員違反已達成共識的規範時,PM 應回頭參照團隊章程,與當事人討論違規行為,而非默默忽視,才能維持團隊章程的效力與團隊運作的一致性。",
+  },
+  {
+    id: "res-103",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager wants to better understand each team member's individual strengths and weaknesses relative to one another before assigning pairs of members to work together on complex tasks. She should first use {{blank1}} to gather this information, and then use the results to {{blank2}}.",
+      zh: "專案經理希望在指派成員兩兩搭檔處理複雜任務之前,先更了解每位成員相對彼此的個人強項與弱項。她應該先使用 {{blank1}} 來蒐集這些資訊,再依結果 {{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Individual and Team Assessment tools",
+              zh: "個體與團體評估(Individual and Team Assessment)工具",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "A formal performance appraisal tied to compensation",
+              zh: "與薪酬掛鉤的正式績效考核",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Pair members with complementary strengths and weaknesses to work together more effectively",
+              zh: "將強項與弱項互補的成員配對,以更有效地協作",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Rank all team members from best to worst and publicly announce the ranking",
+              zh: "將所有團隊成員從優到劣排名並公開宣布排名結果",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "個體與團體評估(Individual and Team Assessment)工具能協助專案經理了解每位成員的強項與弱項,以及成員間的相對表現,是 Lead the Team 過程中常用的人際與團隊技巧之一。了解這些資訊後,PM 應善用結果將強弱互補的成員配對協作,而非用於與薪酬掛鉤的正式考核,也不應公開排名羞辱表現較弱的成員,以免打擊士氣。",
+  },
+  {
+    id: "res-104",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A co-located team has two members who begin disagreeing sharply over a technical decision during a video call. Given that both members are actually sitting in the same office building, what should the project manager most likely encourage first?",
+      zh: "一個同地辦公的團隊中,有兩位成員在視訊通話中就某項技術決策發生激烈分歧。考量到兩人實際上都在同一棟辦公大樓內,專案經理最應優先鼓勵下列何者?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Have the two members step away from the call and discuss the disagreement face-to-face in person",
+          zh: "請兩位成員暫時離開通話,改為面對面當面討論此分歧",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Continue the disagreement over video call since it has already started",
+          zh: "既然已經開始,就繼續透過視訊通話進行此爭論",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask both members to submit their arguments in writing via email instead",
+          zh: "改請兩位成員改以電子郵件書面提交各自的論點",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Escalate the disagreement immediately to the sponsor without further discussion",
+          zh: "不經進一步討論,立即將此分歧上呈贊助人",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "當團隊已經同地辦公時,若發生衝突,最好能改為面對面線下討論,因為實體互動通常更容易化解誤會、傳遞語氣與非語言線索,有助於更有效地解決分歧。繼續透過視訊通話、改用書面郵件溝通,反而可能因缺乏語氣與情境線索而加深誤解;未經任何討論就直接上呈贊助人,也並非優先應採取的做法。",
+  },
+  {
+    id: "res-105",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager wants to engage the team in solving a persistent process problem, believing that team members closest to the work will produce the best solution. However, the team has recently experienced high turnover and members barely trust or know one another. What is most likely to undermine this collaborative problem-solving effort?",
+      zh: "專案經理希望讓團隊參與解決一個持續存在的流程問題,認為最貼近工作現場的成員最能提出最佳解方。然而,團隊近期人員流動率高,成員之間幾乎互不信任也不熟悉彼此。下列何者最可能破壞此協作解決問題的努力?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Poor team cohesion, which undermines the trust needed for members to contribute openly",
+          zh: "團隊凝聚力不足,削弱了成員坦誠貢獻意見所需的信任基礎",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The problem being solved is too well-defined and specific",
+          zh: "所要解決的問題定義過於清楚具體",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Too many team members having relevant domain knowledge",
+          zh: "過多團隊成員具備相關領域知識",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The project manager choosing not to solve the problem alone",
+          zh: "專案經理選擇不獨自解決此問題",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "讓團隊參與解決問題有助於取得共識、匯集不同背景觀點,並提升成員的自信與務實判斷,但前提是團隊本身需具備一定的凝聚力與信任基礎。當團隊凝聚力不足(Poor Team Cohesion)時,成員可能不願坦誠分享意見或彼此猜忌,反而削弱協作解決問題的效果。問題定義清楚、成員具備領域知識、PM 不獨自解決問題,皆非阻礙協作解決問題的因素,反而通常有助於此過程。",
+  },
+  {
+    id: "res-106",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "multiple_response",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Why does actively engaging team members in solving problems, rather than the project manager solving them alone, generally lead to better outcomes? Select three.",
+      zh: "為何主動讓團隊成員參與解決問題,而非由專案經理獨自解決,通常能帶來更好的成效?(選三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "It helps build consensus around the chosen solution",
+          zh: "有助於針對所選方案建立共識",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "It brings together diverse project backgrounds and perspectives",
+          zh: "能匯集不同的專案背景與觀點",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Team members tend to be more realistic since they understand their own capabilities",
+          zh: "團隊成員通常較為務實,因為他們了解自己的能力",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "It guarantees the problem will be fully resolved on the very first attempt",
+          zh: "能保證問題在第一次嘗試就能完全解決",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "It removes the need for the project manager to ever facilitate discussions",
+          zh: "能讓專案經理完全不必再引導任何討論",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "讓團隊成員參與解決問題的好處包括:有助於建立共識、匯集不同專案背景與觀點,以及成員因了解自身能力而傾向給出較務實的判斷,進而提升面對問題時的自信。然而,參與解決問題並不保證第一次就能完全解決問題,某些問題本身也可能無法被徹底解決;PM 仍需持續扮演引導者的角色,並非因此完全卸下引導責任。",
+  },
+  {
+    id: "res-107",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each common negative schedule-related behavior to its description.",
+      zh: "請將下列常見的負面時程相關行為拖曳配對到其描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Student Syndrome",
+            zh: "學生症候群",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Parkinson's Law",
+            zh: "帕金森定律",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Self-Protection",
+            zh: "自我保護",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Sandbagging",
+            zh: "灌沙袋(過度預估)",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Dropped Baton",
+            zh: "掉棒",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "A person delays starting an activity until the deadline is close, then rushes to complete it",
+            zh: "一個人拖延到接近截止日期才開始一項活動,然後才匆忙趕工完成",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Work tends to expand to fill the entire time allotted, even if it could be finished sooner",
+            zh: "工作往往會膨脹以填滿所分配的全部時間,即使原本能更早完成",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "A person hides or downplays problems to avoid being held accountable for them",
+            zh: "一個人隱藏或淡化問題,以避免因此被究責",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "A person deliberately overestimates how long a task will take in order to appear to perform well",
+            zh: "一個人刻意高估任務所需時間,以顯得自己表現良好",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "Poor-quality or incomplete handoff of work to the next person causes rework or delay",
+            zh: "交接給下一位負責人的工作品質不佳或不完整,導致重工或延遲",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "這五種是專案中常見的負面時程相關行為:學生症候群指拖到最後一刻才開始工作;帕金森定律指工作會膨脹以填滿所分配的全部時間(即使 5 天能完成的工作,分配 10 天就會拖到第 10 天才交);自我保護指隱藏問題以逃避究責;灌沙袋指刻意高估所需時間以顯得表現優異(例如 5 天能完成卻報 10 天,提前交付顯得亮眼);掉棒則指交接品質不佳導致下一位接手者重工或延誤。PM 應留意這些行為模式,並透過透明溝通與信任文化加以因應。",
+  },
+  {
+    id: "res-108",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A team member is assigned a task that could realistically be completed within five days, but she reports that she needs ten days, hoping to look highly productive when she delivers ahead of the inflated estimate. What is this behavior called?",
+      zh: "一位團隊成員被指派一項實際上五天即可完成的任務,但她回報需要十天,希望在提前於膨脹後的估計時間交付時,顯得自己非常有效率。此行為稱為下列何者?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Student Syndrome",
+          zh: "學生症候群(Student Syndrome)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Parkinson's Law",
+          zh: "帕金森定律(Parkinson's Law)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Sandbagging",
+          zh: "灌沙袋(Sandbagging)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Dropped Baton",
+          zh: "掉棒(Dropped Baton)",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "灌沙袋(Sandbagging)是指刻意高估完成任務所需的時間,以便在提前交付時顯得表現優異的行為,例如本情境中五天能完成的工作卻回報需要十天。學生症候群是拖到最後一刻才開始工作;帕金森定律是工作膨脹以填滿分配的全部時間;掉棒則是交接品質不佳導致重工,三者皆與本情境描述的「刻意高估以顯得亮眼」不同。",
+  },
+  {
+    id: "res-109",
+    edition: "pmbok7",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each form of power to the category it is generally considered to fall into.",
+      zh: "請將下列權力基礎拖曳配對到其通常被歸類的類別。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Reward Power",
+            zh: "獎賞權",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Referent Power",
+            zh: "參照權",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Legitimate (Formal) Power",
+            zh: "法制(正式職位)權",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Generally considered a positive form of power, based on the ability to give something team members value",
+            zh: "通常被視為正向的權力形式,建立在能給予團隊成員重視事物的能力之上",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Considered a neutral form of power, based on team members respecting and liking the leader as a person",
+            zh: "被視為中立的權力形式,建立在團隊成員尊敬並喜歡該領導者本人之上",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Generally considered a less desirable form of power, based purely on title or position rather than earned respect",
+            zh: "通常被視為較不理想的權力形式,單純建立在頭銜或職位之上,而非贏得的尊重",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+    },
+    explanation: "權力基礎大致可依效果分為三類:獎賞權(給予獎勵)與專家權(具備專業知識)通常被視為正向的權力形式;參照權(團隊成員因尊敬、喜歡領導者本人而願意聽從)則被視為中立;法制權(單純依靠頭銜或職位逼迫他人服從)與懲罰權(依靠懲罰逼迫服從)則通常被視為較不理想的權力形式。PM 應盡量培養並運用正向的權力基礎,減少依賴職位或懲罰來領導團隊。",
+  },
+  {
+    id: "res-110",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "At the start of a workshop involving stakeholders from several different departments who have never worked together before, the facilitator spends the first few minutes on a light, low-pressure activity to help everyone feel comfortable participating before diving into the main agenda. What is this practice called?",
+      zh: "在一場邀請來自多個部門、彼此從未合作過的利害關係人參與的工作坊開始時,引導者花前幾分鐘進行一項輕鬆、低壓力的活動,幫助大家在進入正式議程前感到自在並願意參與。此做法稱為下列何者?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "An icebreaker, used to engage all participants early in a diverse workshop",
+          zh: "破冰活動,用於讓多元背景的工作坊參與者及早融入",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A retrospective, used to review what worked well and what did not",
+          zh: "回顧會議,用於檢討哪些做法有效、哪些無效",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "A control chart review, used to check whether a process is in statistical control",
+          zh: "管制圖檢視,用於檢查流程是否在統計管制範圍內",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "A change control board meeting, used to approve or reject change requests",
+          zh: "變更管制委員會會議,用於核准或駁回變更請求",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "工作坊比單純的討論更著重實際產出,善用引導技巧(如破冰活動)能幫助來自多元背景的參與者在議程開始前就感到自在並願意參與,尤其在成員彼此不熟悉的情況下更為重要。回顧會議是敏捷團隊定期檢討做法優劣的活動;管制圖檢視屬於品質管理工具;變更管制委員會會議則用於核准或駁回正式變更請求,三者皆與本情境描述的「工作坊開場破冰活動」不同。",
+  },
+  {
+    id: "res-111",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "multiple_response",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Regardless of the meeting's specific topic, which two of the following should the project manager ensure happen after every effective meeting concludes? Select two.",
+      zh: "無論會議主題為何,專案經理應確保每次有效會議結束後都會產出下列哪兩項?(選兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Meeting minutes summarizing what was discussed and decided",
+          zh: "會議記錄,摘要討論內容與決議事項",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Action items identifying follow-up tasks and their owners",
+          zh: "行動項目,列出後續待辦任務與負責人",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "A formal change request, whether or not any change was actually proposed",
+          zh: "一份正式變更請求,無論會議中是否實際提出任何變更",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "A revised project charter, regardless of the meeting's content",
+          zh: "一份修訂後的專案章程,無論會議內容為何",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "有效會議除了具備明確目標、基本規則與時間限制外,結束後也應分享會議記錄(摘要討論內容與決議)與行動項目(列出後續待辦任務及負責人),確保決議能被追蹤與落實。變更請求僅在會議中確實提出變更需求時才需要產出,並非每次會議都必然需要;修訂專案章程更非每次會議的固定產出。",
+  },
+  {
+    id: "res-112",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "According to common strategies observed among successful project teams, which three of the following are recommended? Select three.",
+      zh: "依照從成功專案團隊身上觀察到的常見策略,下列哪三項是建議的做法?(選三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Start with a pragmatic, clearly defined approach before adapting further",
+          zh: "從務實且明確定義的做法開始,之後再進一步調整",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Actively listen to and observe the team before making major changes",
+          zh: "在做出重大改變之前,主動傾聽並觀察團隊",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ensure the division of labor matches each person's actual expertise",
+          zh: "確保工作分配與每個人的實際專長相符",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Prefer inventing entirely new solutions from scratch rather than researching existing approaches",
+          zh: "偏好從零發明全新解法,而非先研究既有做法",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Stick rigidly to familiar routines regardless of the situation at hand",
+          zh: "不論當下情境為何,都僵化地堅持熟悉的常規",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "成功團隊常見的策略包括:從務實明確的做法開始,再依情況調整;主動傾聽觀察團隊後再做重大改變;確保工作分配與成員專長相符,並保留專才、建立獎勵制度、持續取得回饋。相對地,偏好從零發明而非參考既有做法、僵化堅持熟悉常規而不因應情境調整,則是常見導致團隊失敗的模式,屬於本題的干擾選項。",
+  },
+  {
+    id: "res-113",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Rather than researching how other teams have successfully solved a similar resourcing problem before, a team insists on designing an entirely new process from scratch every time a challenge arises, which repeatedly leads to wasted time and avoidable mistakes. According to common success versus failure patterns, what does this behavior best illustrate?",
+      zh: "一個團隊每次遇到挑戰時,總是堅持從零設計全新流程,而不去研究其他團隊過去如何成功解決過類似的資源問題,導致一再浪費時間並犯下本可避免的錯誤。依照常見的成功與失敗模式,此行為最能說明下列何者?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "A common failure pattern of preferring to invent rather than researching existing approaches",
+          zh: "常見的失敗模式,偏好發明而非研究既有做法",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A common success pattern of remaining highly malleable to new circumstances",
+          zh: "常見的成功模式,對新情況保持高度可塑性",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The Norming stage of Tuckman's team development model",
+          zh: "塔克曼團隊發展模型中的規範期",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The application of Resource Smoothing to a scheduling conflict",
+          zh: "將資源平滑應用於時程衝突",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "從零發明而非先研究既有做法,是常被觀察到導致團隊失敗的行為模式之一,容易造成重複犯錯與時間浪費。相對地,保持高度可塑性、願意學習、真心觀察他人做法,才是與成功較相關的行為模式。Norming 是團隊發展階段之一,與本題描述的失敗行為模式無關;資源平滑則是解決資源衝突的時程技術,與本情境所描述的「重複發明」行為無關。",
+  },
+  {
+    id: "res-114",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "While leading the team through a difficult stretch of the project, the project manager notices that persistent performance issues with one team member are unlikely to be resolved through coaching alone, and will likely require additional budget to bring in temporary contract support. What should the project manager do?",
+      zh: "在帶領團隊度過專案的艱難階段時,專案經理發現某位團隊成員持續存在的績效問題,很可能無法單靠指導來解決,並可能需要額外預算引進臨時合約支援人力。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Submit a formal change request to obtain approval for the additional budget needed before proceeding",
+          zh: "提交正式變更請求,在採取行動前先取得所需額外預算的核准",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Quietly reallocate funds from another part of the budget without informing anyone",
+          zh: "悄悄從預算的其他部分挪用資金,不通知任何人",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Wait until the project is complete to mention the issue in the final report",
+          zh: "等到專案結束後才在最終報告中提及此問題",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Personally cover the cost of the contractor using her own funds",
+          zh: "專案經理自行動用個人資金支付承包商費用",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "Lead the Team 過程中若發現團隊績效問題需要額外資源(如預算)才能解決,通常會產生變更請求(Change Request)這項產出,必須依組織的變更管制流程提交並取得正式核准,才能合規地取得並運用額外預算。私自挪用預算、拖到專案結束才提及,或動用個人資金,皆不符合專案治理與變更管制的正式流程。",
+  },
+  {
+    id: "res-115",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A credit union has finished assessing which member services could benefit from an AI fraud detection system, and the project manager realizes nobody on staff has ever built or operated a machine learning model. What should the project manager do next?",
+      zh: "一家信用合作社已經評估完哪些會員服務能因導入 AI 詐欺偵測系統而受益,這時專案經理發現,公司內部沒有任何員工曾經建置或維運過機器學習模型。專案經理接下來應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Propose contracting the model development to a specialist firm.",
+          zh: "提議將模型開發外包給專業廠商",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Enroll the current analysts in an intensive machine learning bootcamp.",
+          zh: "讓現有的分析人員去上密集的機器學習訓練營",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Recruit a senior project manager with an AI delivery background.",
+          zh: "招募一位具備 AI 專案交付背景的資深專案經理",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Convene the stakeholders to prioritize which service gets protection first.",
+          zh: "召集利害關係人,討論要優先保護哪一項服務",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "團隊內部完全沒有機器學習的建置與維運經驗,靠短期訓練營現學現賣在時間與品質上都難以支撐一個要正式上線的詐欺偵測系統;招募新的 PM 解決的是專案管理能力,不是機器學習的技術能力落差;而討論優先順序是需求評估階段該做的事,題目已經明講評估已經完成。在完全沒有內部能力、又需要盡快補上這個缺口時,將建置工作外包給有實績的專業廠商,才能在保留任務所有權的同時,最快取得公司目前欠缺、也來不及自行養成的技術能力。",
   },
   {
     id: "hs-002",
@@ -28977,5 +43300,2261 @@ export const sampleQuestions = [
     ],
     correctAnswer: "r2",
     explanation: "維護一份即時、透明且對關鍵利害關係人開放的風險登錄表,能確保資訊一致且可追溯,是有效風險溝通的核心做法;延後回報、私下討論或刻意省略高嚴重度風險,都會造成資訊不對稱,損害利害關係人對專案的信任,也可能使風險惡化到難以處理的地步。",
+  },
+  {
+    id: "rsk-072",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A project team is developing a brand-new AI-driven feature where cause-and-effect relationships are only apparent in hindsight, and the right solution can only be discovered through experimentation. According to the Cynefin framework, which decision-making sequence should the team follow?",
+      zh: "專案團隊正在開發一項全新的 AI 驅動功能,其因果關係只有在事後才看得出來,且正確的解決方案只能透過實驗才能發現。根據 Cynefin 框架,團隊應遵循哪一種決策順序?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Sense → Categorize → Respond",
+          zh: "感受→分類→回應",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Sense → Analyze → Respond",
+          zh: "感受→分析→回應",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Probe → Sense → Respond",
+          zh: "探討→感受→回應",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Act → Sense → Respond",
+          zh: "行動→感受→回應",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "情境中因果關係僅能事後回顧、需透過實驗才能找出解法,屬於 Cynefin 框架中的 Complex(複雜)象限。此象限的處理方式是 Probe(探討,透過實驗、原型等方式探索)→ Sense(感受,觀察浮現的模式)→ Respond(回應,依浮現的模式採取行動),屬於 Emergent Practice(新興實務)。Simple 象限採 Sense→Categorize→Respond,對應 Best Practice;Complicated 象限採 Sense→Analyze→Respond,對應 Good Practice;Chaotic 象限則須先果斷行動穩定局勢,採 Act→Sense→Respond,對應 Novel Practice。",
+  },
+  {
+    id: "rsk-073",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A new initiative involves requirements that stakeholders still cannot agree on, and a technology stack the team has never used before. Using the Stacey Matrix, where does this initiative fall, and what development approach is most appropriate?",
+      zh: "某新專案的需求利害關係人仍無法達成共識,且團隊從未使用過所採用的技術堆疊。依 Stacey Matrix,此專案落在哪個區域?應採用哪種開發方式較為適合?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Simple zone; a predictive (waterfall) approach",
+          zh: "簡單區;應採用預測式(瀑布)方法",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Complicated zone; a predictive approach with heavy expert input",
+          zh: "複雜(Complicated)區;應採用大量仰賴專家判斷的預測式方法",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Complex zone; an adaptive (agile) approach",
+          zh: "複雜(Complex)區;應採用調適型(敏捷)方法",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Chaos zone; the project should be cancelled immediately",
+          zh: "混亂(Chaos)區;應立即終止專案",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "Stacey Matrix 以「需求確定性」與「科技確定性」兩個維度判斷專案落點。此情境中需求(利害關係人無法達成共識)與科技(團隊從未使用過)兩者確定性都低,落在 Complex(複雜)區,適合採用調適型(敏捷)方法,透過短週期迭代、及早且頻繁地取得回饋來逐步降低不確定性。Simple 區(需求與科技皆確定)適合預測式方法;Complicated 區(僅其中一項不確定)仍可仰賴專家判斷以預測式為主;Chaos(混亂)區代表需求與科技的不確定程度更為極端、幾乎毫無共識,雖然風險最高,但仍應先設法穩定情勢,而非直接終止專案。",
+  },
+  {
+    id: "rsk-074",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Before kicking off a critical release, the project team holds a session where members imagine that the release has already failed, and work backward to identify what could have caused that failure. What technique is the team using?",
+      zh: "在啟動一項關鍵發布前,專案團隊舉行一場會議,讓成員想像發布已經失敗,並反向推導可能導致失敗的原因。團隊使用的是哪種技術?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Retrospective",
+          zh: "回顧會議(Retrospective)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Pre-Mortem",
+          zh: "事前驗屍(Pre-Mortem)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Lessons Learned Register",
+          zh: "經驗教訓登錄表(Lessons Learned Register)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Root Cause Analysis after an incident",
+          zh: "事故發生後的根本原因分析(Root Cause Analysis)",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "Pre-Mortem(事前驗屍)是在專案或發布「執行之前」,讓團隊假設專案已經失敗,藉此提前找出可能導致失敗的原因,並據此檢視、調整計畫以降低或消除這些風險,屬於前瞻性的風險識別技術。Retrospective(回顧會議)與 Lessons Learned 都是在活動「結束之後」回顧已發生的事;Root Cause Analysis 通常是在事故已經發生後才用來找出根本原因,同樣屬於事後分析,與 Pre-Mortem 的事前預防性質不同。",
+  },
+  {
+    id: "rsk-075",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Select three characteristics that describe a Complex Adaptive System (CAS), which also explain why agile frameworks are considered well suited to this environment.",
+      zh: "請選出三項描述「複雜適應系統(Complex Adaptive System, CAS)」的特色,這些特色也說明了為何敏捷框架特別適合此類環境。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Emergence: patterns and solutions arise organically from the interactions among individual agents",
+          zh: "湧現(Emergence):模式與解決方案透過個體互動自然浮現",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Adaptability: the system's behavior evolves in response to feedback and new information",
+          zh: "適應性(Adaptability):系統行為會依回饋與新資訊而演變",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Non-Linearity: a small change can produce a disproportionately large and unpredictable effect",
+          zh: "非線性(Non-Linearity):微小改變可能造成不成比例的巨大且難以預測的影響",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Centralized command: all behavior is dictated top-down by a single controlling authority",
+          zh: "集中指揮:所有行為皆由單一權威由上而下決定",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Full predictability: outcomes can always be calculated precisely in advance",
+          zh: "完全可預測性:結果總能事先精確計算",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "CAS(複雜適應系統)由大量自主個體透過互動、學習與適應動態調整行為組成,具備湧現(Emergence,由下而上自然產生模式與解法)、適應性(Adaptability,依回饋調整行為)與非線性(Non-Linearity,微小改變可能造成巨大且無法預期的結果)等特色,並強調自我管理與回饋迴路(Feedback Loop)。敏捷框架(如 Scrum、Kanban、SAFe)鼓勵實驗、迭代學習與去中心化決策,正好呼應 CAS 的運作方式;集中指揮與完全可預測性則與 CAS 由下而上、充滿不確定性的本質相違背。",
+  },
+  {
+    id: "rsk-076",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Risk",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A team is about to begin a high-risk integration phase. The PM facilitates a pre-mortem exercise before work starts. Select two activities that are part of a proper pre-mortem.",
+      zh: "團隊即將展開一個高風險的整合階段。PM 在工作開始前主持一場事前驗屍(Pre-Mortem)活動。請選出屬於正確 Pre-Mortem 做法的兩項活動。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Ask the team to imagine the integration has already failed and brainstorm all plausible causes",
+          zh: "請團隊想像整合已經失敗,並腦力激盪列出所有可能的失敗原因",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Review the project plan afterward and adjust it to reduce or eliminate the identified failure causes",
+          zh: "事後檢視專案計畫,並調整計畫以降低或消除已識別的失敗原因",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Wait until the integration actually fails before discussing what went wrong",
+          zh: "等到整合真的失敗後,才討論出了什麼問題",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Assign blame to the team member most likely to cause a failure",
+          zh: "指派究責給最可能導致失敗的團隊成員",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Skip documenting the causes since the exercise is only a thought experiment",
+          zh: "因為這只是思想實驗,不需要記錄任何原因",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "Pre-Mortem 的正確做法是在執行「之前」,讓團隊假設失敗已經發生、腦力激盪列出可能原因,再據此檢視並調整專案計畫以降低或消除這些風險因素。等到失敗真的發生才討論、究責特定成員,或不記錄任何討論結果,都違反 Pre-Mortem 事前預防、心理安全與可追溯的精神。",
+  },
+  {
+    id: "rsk-077",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "matching",
+    difficulty: "hard",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each Cynefin framework domain to its correct decision-making sequence and practice type.",
+      zh: "請將下列 Cynefin 框架的每個象限,拖曳配對到其正確的決策順序與實務類型。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Simple (Clear)",
+            zh: "簡單(Simple)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Complicated",
+            zh: "複雜(Complicated)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Complex",
+            zh: "複雜(Complex)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Chaotic",
+            zh: "混亂(Chaotic)",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Disorder",
+            zh: "失序(Disorder)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Sense → Categorize → Respond; Best Practice applies",
+            zh: "感受→分類→回應;適用最佳實務(Best Practice)",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Sense → Analyze → Respond; Good Practice applies",
+            zh: "感受→分析→回應;適用良好實務(Good Practice)",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Probe → Sense → Respond; Emergent Practice applies",
+            zh: "探討→感受→回應;適用新興實務(Emergent Practice)",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Act → Sense → Respond; Novel Practice applies",
+            zh: "行動→感受→回應;適用新奇實務(Novel Practice)",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "The domain cannot yet be determined; break the situation into smaller parts to identify which of the other four domains it belongs to",
+            zh: "尚無法判斷所屬象限;應將情況拆解成更小的部分,以判斷其屬於其他四個象限中的哪一個",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "Cynefin 框架將問題情境分為四個明確象限加上中央的 Disorder(失序):Simple(簡單)採 Sense→Categorize→Respond,適用已知的 Best Practice;Complicated(複雜)採 Sense→Analyze→Respond,需仰賴專家分析,適用 Good Practice;Complex(複雜)因果關係僅能事後回顧,採 Probe→Sense→Respond,透過實驗讓解法浮現,屬於 Emergent Practice;Chaotic(混亂)情勢危急,須先果斷行動穩定局勢,採 Act→Sense→Respond,屬於 Novel Practice;Disorder(失序)則代表尚無法判斷情況屬於哪個象限,此時應將情境拆解成較小的部分,分別歸類到其他四個象限後再個別處理。",
+  },
+  {
+    id: "rsk-078",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Drag and match each term to its correct description.",
+      zh: "請將下列每個名詞,拖曳配對到正確的描述。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Risk-Adjusted Backlog",
+            zh: "風險調整式待辦清單",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Risk Spike",
+            zh: "風險突刺(Risk Spike)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Risk Burn Down Chart",
+            zh: "風險燃盡圖",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Variance Analysis",
+            zh: "差異分析(Variance Analysis)",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Trend Analysis",
+            zh: "趨勢分析(Trend Analysis)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Re-sequences backlog items after risk responses are planned, so the team addresses higher-risk work earlier",
+            zh: "在風險回應規劃完成後,重新排序待辦清單,讓團隊優先處理風險較高的工作",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "A short, timeboxed research activity used to explore and reduce uncertainty about a specific risk",
+            zh: "一種短期、限時的研究活動,用以探索並降低某項特定風險的不確定性",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "A chart showing the amount of remaining risk exposure over time, where a thicker band represents greater risk",
+            zh: "顯示隨時間變化的剩餘風險曝險程度的圖表,帶狀越厚代表風險越高",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Compares actual results against the plan at a single point in time to measure the size of a deviation",
+            zh: "在單一時間點比較實際結果與計畫,以衡量偏差的大小",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "Examines data over a period of time to detect a repeating pattern, distinguishing early-warning signals from indicators of what has already happened",
+            zh: "觀察一段時間內的資料以找出重複出現的模式,區分「事前預警訊號」與「事後已發生結果的指標」",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "敏捷風險工具中,風險調整式待辦清單是在風險回應規劃後,將高風險項目排序提前處理;風險突刺(Risk Spike)是短期限時的研究活動,用來探索與降低特定技術或需求風險的不確定性;風險燃盡圖以帶狀厚度呈現隨時間變化的剩餘風險程度,帶狀越厚風險越高。差異分析(Variance Analysis)是在單一時間點比較實際與計畫的差距;趨勢分析(Trend Analysis)則需要一段時間的觀察以找出模式,並可進一步分為 Leading Metric(即將發生狀況的早期預警指標)與 Lagging Metric(已發生狀況的落後指標)兩種。",
+  },
+  {
+    id: "rsk-079",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A project team notices that code review turnaround time has been steadily increasing over the past three sprints, which signals that a schedule risk is about to emerge before it actually causes a delay — this is an example of a {{blank1}}. In contrast, the number of production defects reported after last month's release only tells the team what has already happened, making it an example of a {{blank2}}.",
+      zh: "專案團隊注意到過去三個衝刺(Sprint)以來,程式碼審查(Code Review)所需時間持續增加,這在時程風險真正造成延誤之前就預先發出警訊,屬於 {{blank1}} 的範例。相對地,上個月發布後回報的正式環境缺陷數量,只能告訴團隊已經發生的事,屬於 {{blank2}} 的範例。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Leading Metric",
+              zh: "領先指標(Leading Metric)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Lagging Metric",
+              zh: "落後指標(Lagging Metric)",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Leading Metric",
+              zh: "領先指標(Leading Metric)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Lagging Metric",
+              zh: "落後指標(Lagging Metric)",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "趨勢分析(Trend Analysis)需要觀察一段時間的資料以找出模式,並可分為 Leading Metric(領先指標,即將發生狀況的早期訊號,能在風險真正造成衝擊前示警)與 Lagging Metric(落後指標,已經發生狀況的結果性指標)。程式碼審查時間持續拉長屬於能預先示警的領先指標;發布後才回報的缺陷數量則只反映已發生的結果,屬於落後指標。",
+  },
+  {
+    id: "rsk-080",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "The Stacey Matrix judges a project along two axes: requirements certainty and technology certainty. Click the zone that represents LOW requirements certainty and LOW technology certainty (but not yet a total lack of agreement), where an adaptive (agile) approach is most appropriate.",
+      zh: "Stacey Matrix 依「需求確定性」與「科技確定性」兩軸來判斷專案落點。請點選「需求確定性低」且「科技確定性低」(但尚未到完全沒有共識的程度)、最適合採用調適型(敏捷)方法的區域。",
+    },
+    options: [
+      {
+        id: "z1",
+        label: {
+          en: "Simple: requirements clear, technology known",
+          zh: "簡單(Simple):需求清楚、科技已知",
+        },
+        x: 5,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+      {
+        id: "z2",
+        label: {
+          en: "Complicated: requirements clear, technology uncertain",
+          zh: "複雜(Complicated):需求清楚、科技不確定",
+        },
+        x: 28,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+      {
+        id: "z3",
+        label: {
+          en: "Complex: requirements unclear, technology uncertain",
+          zh: "複雜(Complex):需求不清楚、科技不確定",
+        },
+        x: 51,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+      {
+        id: "z4",
+        label: {
+          en: "Chaos: requirements in conflict, technology completely unknown, no agreement at all",
+          zh: "混亂(Chaos):需求相互矛盾、科技完全未知,毫無共識",
+        },
+        x: 74,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+    ],
+    correctAnswer: "z3",
+    explanation: "Stacey Matrix 中,Simple(簡單)區代表需求與科技皆確定,適合預測式方法;Complicated(複雜)區代表其中一項不確定,仍可仰賴專家判斷以預測式為主;Complex(複雜)區代表需求與科技兩者確定性都低,但團隊仍有基本共識可循,此區最適合以調適型(敏捷)方法透過短週期迭代與頻繁回饋來逐步降低不確定性;Chaos(混亂)區則是不確定程度更為極端、幾乎毫無共識,須先設法穩定情勢,才能將情境帶回可管理的區域。",
+  },
+  {
+    id: "rsk-081",
+    edition: "pmbok7",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "calculation",
+    stem: {
+      en: "A risk has a 12% probability of occurring. If it occurs, it will cause a $150,000 cost overrun. What is the Expected Monetary Value (EMV) of this risk?",
+      zh: "某風險發生機率為 12%,一旦發生將造成 15 萬美金的成本超支。此風險的期望貨幣價值(EMV)為多少?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "-$18,000",
+          zh: "-$18,000",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "-$150,000",
+          zh: "-$150,000",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "-$12,000",
+          zh: "-$12,000",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "$18,000",
+          zh: "$18,000",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "EMV = 機率 × 衝擊金額 = 12% × (-$150,000) = -$18,000。因為是威脅(負面風險),EMV 為負值,代表預期損失金額;(c) 誤將機率百分比直接當成金額計算。",
+  },
+  {
+    id: "rsk-082",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "calculation",
+    stem: {
+      en: "An opportunity has a 70% probability of occurring. If it occurs, it will generate an $18,000 bonus for early delivery. What is the Expected Monetary Value (EMV) of this opportunity?",
+      zh: "某機會有 70% 機率發生,一旦發生將因提前交付獲得 1.8 萬美金獎金。此機會的期望貨幣價值(EMV)為多少?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "$18,000",
+          zh: "$18,000",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "$12,600",
+          zh: "$12,600",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "$5,400",
+          zh: "$5,400",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "$70,000",
+          zh: "$70,000",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "EMV = 70% × $18,000 = $12,600。因為是機會(正面風險),EMV 為正值,代表預期收益金額;(c) 誤用互補機率 30% 計算(30% × $18,000 = $5,400)。",
+  },
+  {
+    id: "rsk-083",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "A project faces a risk with a 50% probability of causing an $80,000 loss. The PM is considering a mitigation action costing $18,000 that would reduce the probability to 15% (the impact stays at $80,000 if it still occurs). Compare the net expected value of \"do nothing\" versus \"mitigate,\" and determine which option the PM should choose.",
+      zh: "專案面臨一項風險,有 50% 機率造成 8 萬美金損失。PM 正考慮花費 1.8 萬美金採取減緩措施,可將發生機率降至 15%(若仍發生,衝擊金額不變)。請比較「不採取行動」與「採取減緩措施」的淨期望值,並判斷 PM 應選擇哪個方案。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Do nothing: net EV = -$40,000; choose to do nothing",
+          zh: "不採取行動:淨期望值 -$40,000,應選擇不採取行動",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Mitigate: net EV = -$30,000; choose to mitigate",
+          zh: "採取減緩措施:淨期望值 -$30,000,應選擇減緩",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Mitigate: net EV = -$18,000; choose to mitigate",
+          zh: "採取減緩措施:淨期望值 -$18,000,應選擇減緩",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Both options have equal expected value",
+          zh: "兩者期望值相同,選哪個都可以",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "不採取行動 EMV = 50% × (-$80,000) = -$40,000。採取減緩措施淨期望值 = 減緩成本 $18,000 + 剩餘風險期望值(15% × $80,000 = $12,000)= -$30,000。因為 -$30,000 優於(損失小於)-$40,000,故應選擇採取減緩措施,可節省 $10,000;(c) 誤將剩餘風險期望值遺漏未加總計算。",
+  },
+  {
+    id: "rsk-084",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "calculation",
+    stem: {
+      en: "The PM is comparing two options for a subsystem. Option A (in-house build) costs a fixed $45,000. Option B (outsourcing) has a 65% chance of costing $30,000 and a 35% chance of costing $85,000 (due to rework risk). Which option has the lower expected cost, and by how much?",
+      zh: "PM 正在比較某子系統的兩項方案。方案 A(內部建置)固定成本 4.5 萬美金。方案 B(外包)有 65% 機率成本為 3 萬美金、35% 機率成本為 8.5 萬美金(因返工風險)。哪個方案期望成本較低?低多少?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Option A; expected cost is lower by $4,250",
+          zh: "方案 A;期望成本較低,少 $4,250",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Option B; expected cost is lower by $4,250",
+          zh: "方案 B;期望成本較低,少 $4,250",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Option A; expected cost is lower by $19,500",
+          zh: "方案 A;期望成本較低,少 $19,500",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Both options have the same expected cost",
+          zh: "兩方案期望成本相同",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "方案 B 的期望成本 = 65% × $30,000 + 35% × $85,000 = $19,500 + $29,750 = $49,250。方案 A 為固定成本 $45,000,低於方案 B 的期望成本 $49,250,故應選擇方案 A,可省下 $4,250;(c) 誤將差額算成方案 B 其中一個分支的加權金額,而非兩方案的總差距。",
+  },
+  {
+    id: "rsk-085",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "While reviewing upcoming legislation, the PM learns that a proposed nationwide regulatory change—if enacted—could force the entire product line (not just this project) to be redesigned, an outcome far beyond the scope of any single project's budget or schedule authority. What should the PM do?",
+      zh: "PM 在檢視即將上路的法規時發現,一項可能通過的全國性法規變動,一旦生效將迫使整個產品線(而非僅此專案)重新設計,其影響遠超出任何單一專案的預算或時程職權範圍。PM 應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Handle it independently using Mitigate, since the PM is ultimately responsible for all project risks",
+          zh: "由 PM 獨自使用減緩(Mitigate)策略處理,因為 PM 對所有專案風險負最終責任",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Escalate the risk to the sponsor, PMO, or portfolio/executive level, since its impact and required decision exceed the PM's authority",
+          zh: "將此風險上呈給發起人、PMO 或投資組合/高層,因為其衝擊與所需決策已超出 PM 職權範圍",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ignore it until the regulation is officially enacted, since it is still uncertain",
+          zh: "在法規正式生效前先忽略此風險,因為目前仍不確定",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Add it to a watch list and take no further action, since it involves the whole product line",
+          zh: "將其加入觀察清單且不再進一步處理,因為它涉及整個產品線",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "Escalate(上呈)適用於風險的影響範圍或所需決策超出 PM 或專案本身的職權(如影響整個產品線、組織策略層級),此時應上報給 Sponsor、PMO 或投資組合/高層決策,而非由 PM 自行以 Mitigate 等方式處理;完全忽略或僅記錄於觀察清單卻不採取任何後續行動,都可能讓組織錯失及早因應的機會。",
+  },
+  {
+    id: "rsk-086",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "The executive steering committee is not concerned with any single identified risk in isolation. Instead, they want to know the combined effect of all individual risks plus broader sources of uncertainty (such as overall market volatility and organizational change) on whether the project will meet its strategic objectives. Which concept are they asking about?",
+      zh: "執行指導委員會並不關心任何單一已識別風險本身。他們想了解的是,所有個別風險加上更廣泛的不確定性來源(如整體市場波動、組織變動)加總後,對專案能否達成策略目標的綜合影響。委員會詢問的是哪一項概念?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Individual Project Risk",
+          zh: "個別專案風險(Individual Project Risk)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Overall Project Risk",
+          zh: "整體專案風險(Overall Project Risk)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Risk Register",
+          zh: "風險登錄表(Risk Register)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Risk Trigger",
+          zh: "風險觸發徵兆(Risk Trigger)",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "Overall Project Risk(整體專案風險)是所有個別風險加上其他不確定性來源(如市場波動、組織變動等)加總後,對專案整體目標(尤其是策略層級目標)造成的綜合曝險程度,常是高層決策者關注的層級;Individual Project Risk(個別專案風險)則是可能影響單一或多項活動、目標的特定不確定事件,是 PM 團隊日常管理的主要對象;Risk Register 是逐項風險紀錄,Risk Trigger 是風險即將發生的徵兆,皆非題目描述的整體加總概念。",
+  },
+  {
+    id: "rsk-087",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "While configuring a new module, a mid-level developer notices a subtle flaw that could cause intermittent data loss under rare conditions. The developer is unsure whether it's significant enough to bother the PM, and past experience on other projects has taught them that raising \"unproven\" concerns sometimes draws criticism. Which action best reflects the behavior the PM should be actively cultivating on this team?",
+      zh: "一位中階工程師在設定新模組時,注意到一個可能在罕見條件下導致間歇性資料遺失的細微瑕疵。該工程師不確定是否嚴重到值得告知 PM,且過去在其他專案的經驗讓他學到,提出「未經證實」的疑慮有時會招來批評。下列哪一項行動最能反映 PM 應該在此團隊中積極培養的行為?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The developer should quietly monitor the situation alone and only raise it once it becomes a confirmed failure",
+          zh: "工程師應獨自默默觀察,直到確認真的失效才提出",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The developer should feel safe raising the concern immediately, even while still uncertain, without fear of blame or ridicule",
+          zh: "工程師應能安心立即提出疑慮,即使仍不確定,也不必擔心被責備或嘲笑",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The developer should only mention it during the annual performance review",
+          zh: "工程師應只在年度績效考核時提及",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The developer should report it anonymously to avoid any association with their name",
+          zh: "工程師應匿名回報,避免與自己的名字產生任何關聯",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "建立心理安全感(Psychological Safety),讓團隊成員即使在不確定的情況下也能安心、及早提出疑慮而不必擔心被責備或嘲笑,是 PM 應積極培養的團隊文化,能讓風險在造成實際衝擊前就被及早發現與處理;要求成員獨自觀察到確認失效才回報、拖到績效考核才提、或必須匿名才敢回報,都反映團隊缺乏心理安全感,不利於風險及早浮現。",
+  },
+  {
+    id: "rsk-088",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "After the PMO announces that each team's average risk-response turnaround time will now be tracked and shown on a public dashboard reviewed by senior executives, the team's reported response times immediately improve, even though no new tools, staffing, or process changes were introduced. What phenomenon does this most likely illustrate?",
+      zh: "PMO 宣布將追蹤各團隊的平均風險回應處理時間,並公開顯示在高層主管會檢視的儀表板上,結果團隊回報的回應時間立刻改善,儘管並未導入任何新工具、人力或流程變動。這最可能反映的是哪一種現象?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Vanity Metrics",
+          zh: "虛榮指標(Vanity Metrics)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Hawthorne Effect",
+          zh: "霍桑效應(Hawthorne Effect)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Confirmation Bias",
+          zh: "確認偏誤(Confirmation Bias)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Correlation vs Causation",
+          zh: "相關性與因果關係的混淆",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "霍桑效應(Hawthorne Effect)指人們意識到自己正被觀察或衡量時,會不自覺地改變行為以提升表現,即使實際的工具、人力或流程都沒有改變;虛榮指標指數字好看但無助於決策的指標;確認偏誤是選擇性使用支持既有信念的資料;相關性與因果關係混淆則是誤將兩者同時發生的現象當成因果關係,三者皆與題目描述的「被觀察即改變行為」現象不同。",
+  },
+  {
+    id: "rsk-089",
+    edition: "pmbok7",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "Before starting risk identification, the PM is required by the PMO to use the organization's standardized Risk Breakdown Structure template and a pre-approved risk categorization scheme, both maintained centrally and updated based on lessons learned across past projects. This requirement is an example of which type of influence on the project?",
+      zh: "在開始識別風險前,PMO 要求 PM 必須使用組織標準化的風險分解結構(RBS)範本,以及一套經核准的風險分類方案,兩者皆由組織集中維護,並依過往專案的經驗教訓持續更新。這項要求屬於哪一種對專案的影響因素?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Enterprise Environmental Factor (EEF)",
+          zh: "事業環境因素(EEF)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Organizational Process Asset (OPA)",
+          zh: "組織過程資產(OPA)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Work Performance Data",
+          zh: "工作績效數據",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Assumption Log",
+          zh: "假設紀錄表",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "組織集中維護、可重複使用、並隨經驗教訓持續更新的標準範本與分類方案(如標準化 RBS 範本、風險分類方案),屬於組織過程資產(OPA);事業環境因素(EEF)通常指組織無法直接控制、屬於外部或既有結構性條件的因素(如市場狀況、組織文化);工作績效數據是活動執行過程中蒐集的原始觀察值;假設紀錄表則是記錄專案假設與限制的文件,皆非此處描述的標準化範本與流程資產。",
+  },
+  {
+    id: "rsk-090",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Risk",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "The PM notices a troubling pattern on the team over the past two months. Select three observations below that are warning signs the team lacks psychological safety around raising risks.",
+      zh: "PM 注意到過去兩個月團隊出現令人擔憂的模式。請選出下列三項顯示團隊缺乏「風險回報心理安全感」的警訊。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Risks are only mentioned after they have already become full-blown issues",
+          zh: "風險總是在已經變成完整問題後才被提及",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "When a risk materializes, the team's first instinct is to identify who is to blame rather than how to respond",
+          zh: "風險一旦發生,團隊的第一反應是找出該究責的人,而非思考如何回應",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "New risks are only ever discussed in private one-on-one conversations, never in open team settings",
+          zh: "新風險永遠只在私下一對一對話中討論,從不在公開的團隊場合提出",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The team maintains a shared, up-to-date risk register visible to all members",
+          zh: "團隊維護一份共享、即時更新且對所有成員可見的風險登錄表",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Team members openly disagree with the PM's risk assessments during planning meetings",
+          zh: "團隊成員在規劃會議中公開對 PM 的風險評估提出不同意見",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "風險總是拖到變成問題才提及、發生後先究責而非解決、只敢私下一對一討論而不敢公開提出,都是團隊缺乏心理安全感的典型警訊;反之,維護公開透明的風險登錄表、以及成員能公開表達與 PM 不同的風險判斷,都是心理安全感健康的正面指標,而非警訊。",
+  },
+  {
+    id: "rsk-091",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "multiple_response",
+    difficulty: "easy",
+    timeCategory: "definition",
+    stem: {
+      en: "When planning how risk management will be structured for a new project, the PM draws on several organizational-level resources. Select three examples below of Organizational Process Assets (OPAs) that would typically support this effort.",
+      zh: "在規劃新專案的風險管理架構時,PM 運用了數項組織層級的資源。請選出下列三項通常能支援此項工作的組織過程資產(OPA)範例。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "A centrally maintained repository of lessons learned and risk data from prior, similar projects",
+          zh: "中央維護的過往類似專案經驗教訓與風險資料庫",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A standardized Risk Breakdown Structure (RBS) template used across the organization",
+          zh: "組織通用的標準化風險分解結構(RBS)範本",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The organization's documented risk management policies and standard procedures",
+          zh: "組織已文件化的風險管理政策與標準作業程序",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "This specific project's current, in-progress Risk Register",
+          zh: "本專案目前進行中的風險登錄表",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "This specific project's approved budget figure",
+          zh: "本專案已核准的預算金額",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "過往專案的經驗教訓庫、組織通用的 RBS 範本、以及已文件化的風險管理政策與標準作業程序,皆屬於組織層級、可重複使用於多個專案的組織過程資產(OPA);本專案自身的風險登錄表與已核准預算則是這個特定專案的產出/文件,屬於專案文件而非組織層級的過程資產。",
+  },
+  {
+    id: "rsk-092",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Risk",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Leading a fully distributed team across multiple time zones, the PM wants to increase the odds that emerging risks are surfaced early rather than discovered too late. Select three practices that would help build this culture.",
+      zh: "帶領一個跨多時區、完全遠端分散的團隊,PM 希望提高新興風險能被及早發現、而非太晚才被發覺的機率。請選出下列三項有助於建立此文化的做法。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Offer multiple channels (chat, async video, anonymous form) so team members can raise concerns in whatever way feels safest to them",
+          zh: "提供多種管道(聊天、非同步影片、匿名表單),讓成員能以自己覺得最安心的方式提出疑慮",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Have the PM openly share a past risk they personally missed or misjudged, modeling that admitting uncertainty is safe",
+          zh: "PM 主動公開分享自己過去曾錯過或誤判的風險,示範承認不確定性是安全的",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Publicly thank team members who flag a potential risk early, even if it later turns out to be minor or unfounded",
+          zh: "公開感謝及早提出潛在風險的成員,即使該風險事後證實輕微或不成立",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Require every raised concern to pass through at least three levels of managerial approval before being logged",
+          zh: "要求每項提出的疑慮須經至少三層主管核准後才能被登錄",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Quietly note which team members raise the most \"false alarm\" risks so their input can be weighted less in the future",
+          zh: "私下記錄哪些成員提出最多「假警報」風險,以便未來降低其意見的權重",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "提供多元且安全的回報管道、PM 以身作則公開承認自己過去的疏漏、公開肯定即使事後證實輕微的及早示警行為,都能降低回報風險的心理門檻,建立主動示警的文化;要求層層核准才能登錄風險、或私下降低特定成員意見的權重,都會提高回報成本、抑制團隊未來主動發聲的意願。",
+  },
+  {
+    id: "rsk-093",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Risk",
+    questionType: "multiple_response",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "To improve risk management, a PM sets \"number of open risks closed this month\" as the team's primary KPI. A few months later: the count of closed risks looks great, but several risks were closed prematurely without real mitigation; when a stakeholder notices that closed-risk counts happened to rise the same month sprint velocity also rose, they assume one caused the other without further investigation; and after being told the closure target was unrealistic given the team's actual capacity, morale visibly drops. Select three measurement pitfalls illustrated in this situation.",
+      zh: "為了改善風險管理,PM 將「本月已結案的風險數量」設為團隊主要 KPI。幾個月後:結案風險數量看起來很亮眼,但其中數項風險其實是在未真正落實緩解措施的情況下就被提前結案;當一位利害關係人注意到結案風險數量上升剛好與衝刺速度上升發生在同一個月,便未經進一步查證就認定兩者互為因果;而在得知結案目標其實遠超出團隊實際產能後,團隊士氣明顯下滑。請選出此情境中展現的三項衡量陷阱。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Vanity Metrics — the closure count looks impressive but does not reflect genuine risk reduction",
+          zh: "虛榮指標(Vanity Metrics)——結案數字好看,但未反映真正的風險降低",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Correlation vs Causation — assuming one metric caused another simply because they moved together",
+          zh: "相關性與因果關係混淆——僅因兩項指標同時變動就認定其中一項導致另一項",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Demoralization — setting an unrealistic target lowers team morale",
+          zh: "士氣低落(Demoralization)——設定不切實際的目標降低了團隊士氣",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "SMART goal-setting — the KPI is Specific, Measurable, Achievable, Relevant, and Time-bound",
+          zh: "SMART 目標設定——此 KPI 符合具體、可衡量、可達成、相關、有時限的原則",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Risk Data Quality Assessment — evaluating the accuracy and reliability of risk data before analysis",
+          zh: "風險資料品質評估——在分析前評估風險資料的準確性與可靠性",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "結案數字亮眼卻未反映真實風險降低,是虛榮指標(Vanity Metrics);僅因兩項指標同時上升就斷定其中一項導致另一項,是相關性與因果關係混淆;得知目標超出實際產能後士氣下滑,是士氣低落(Demoralization)常見度量陷阱。此情境中的 KPI 明顯不符合 SMART 中的「可達成(Achievable)」原則,故(d)並非正確描述;風險資料品質評估則是另一項獨立技術,與題目描述的度量陷阱無關。",
+  },
+  {
+    id: "rsk-094",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A previously approved response — upgrading the firewall to mitigate a cybersecurity threat — is now due for execution. Select three actions that correctly belong to the Implement Risk Responses process.",
+      zh: "一項先前已核准的回應措施——升級防火牆以減緩資安威脅——目前已到執行階段。請選出下列三項正確屬於「執行風險回應」流程的行動。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Carry out the response exactly as documented and agreed in the Risk Register",
+          zh: "依風險登錄表中已記載並核准的內容確實執行該回應措施",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Update the Risk Register and Risk Report to reflect the action taken and its effect on remaining exposure",
+          zh: "更新風險登錄表與風險報告,反映已採取的行動及其對剩餘曝險的影響",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Raise a change request if executing the response requires budget or schedule adjustments beyond the approved baseline",
+          zh: "若執行此回應措施需要超出已核准基準的預算或時程調整,提出變更請求",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Wait until the cybersecurity threat actually occurs before taking any action, since it hasn't happened yet",
+          zh: "因為威脅尚未發生,故先按兵不動,等威脅真的發生再說",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Since the response was already approved once, no further documentation or tracking is needed",
+          zh: "因為此回應措施已核准過一次,不需要再進行任何後續文件記錄或追蹤",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "執行風險回應(Implement Risk Responses)是將已規劃、核准的回應措施付諸實行,依風險登錄表記載內容確實執行、更新風險登錄表與風險報告反映最新狀況、並在需要調整基準時提出變更請求,皆屬此流程的正確作為;既然此措施是主動減緩(Mitigate)而非被動接受(Accept),就不應等威脅真的發生才行動,已核准的措施在執行過程中仍需持續文件記錄與追蹤,而非視為一次性、不需再管理的事項。",
+  },
+  {
+    id: "rsk-095",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "matching",
+    difficulty: "hard",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each qualitative risk analysis characteristic to its definition.",
+      zh: "請將下列每一項定性風險分析特性,拖曳配對到其定義。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Proximity",
+            zh: "鄰近性(Proximity)",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Dormancy",
+            zh: "潛伏期(Dormancy)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Manageability",
+            zh: "可管理性(Manageability)",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Controllability",
+            zh: "可控性(Controllability)",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Connectivity",
+            zh: "連結性(Connectivity)",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "How soon the risk could actually affect the project; a higher rating means the impact could occur very soon",
+            zh: "風險可能實際影響專案的時間有多近;評分越高代表衝擊可能很快發生",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "How long it would take to discover that the risk has occurred after it actually happens",
+            zh: "風險實際發生後,需要多久才會被發現",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "How easily the project team can manage or reduce the risk's effects using available actions",
+            zh: "專案團隊運用可行措施管理或降低風險影響的難易程度",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "The degree to which the risk owner can directly influence or control the outcome of the risk",
+            zh: "風險負責人能直接影響或控制風險結果的程度",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "The likelihood that this risk, if it occurs, will trigger a chain reaction affecting other risks or areas of the project",
+            zh: "此風險一旦發生,觸發連鎖效應而影響其他風險或專案領域的可能性",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "定性風險分析除了機率與衝擊外,還可運用鄰近性(多快會影響專案)、潛伏期(發生後多久才被發現)、可管理性(能否有效管理降低影響)、可控性(負責人能否直接影響結果)、連結性(是否會連帶引發其他風險)等特性,協助更細緻地判斷風險的緊急程度與處理優先順序,五者容易在考題中互相混淆。",
+  },
+  {
+    id: "rsk-096",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each component of the Risk Management Plan to what it defines.",
+      zh: "請將下列風險管理計畫的每一項組成內容,拖曳配對到其所定義的項目。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Risk Strategy",
+            zh: "風險策略",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Risk Categories (RBS)",
+            zh: "風險分類(RBS)",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Probability and Impact Definitions",
+            zh: "機率與衝擊量表定義",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Risk Management Funding",
+            zh: "風險管理資金",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "Risk Timing",
+            zh: "風險辨識時機頻率",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Describes the general approach and methodology the project will use to manage risk",
+            zh: "描述專案將採用的整體風險管理方法與作法",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Groups potential risks by their source (e.g., technical, external, organizational, project management) to support structured identification",
+            zh: "依風險來源(如技術、外部、組織、專案管理)將潛在風險分組,以利結構化識別",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Defines the scales used to rate how likely a risk is to occur and how severe its effect would be",
+            zh: "定義用於評分風險發生可能性與衝擊嚴重程度的量表",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Establishes protocols for how contingency and management reserves will be funded and accessed",
+            zh: "建立應變準備金與管理準備金的資金編列與動用規範",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "Specifies how often risk identification and reassessment activities will be carried out throughout the project",
+            zh: "規定專案全程風險識別與再評估活動的執行頻率",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "風險管理計畫(Risk Management Plan)是規劃風險管理(Plan Risk Management)流程的核心產出,內容涵蓋風險策略(整體方法論)、風險分類(RBS 依來源分組)、機率/衝擊量表定義、風險管理資金編列規範,以及風險辨識與再評估的頻率安排,這些條款多由組織治理層級與 PM 共同制訂,為後續所有風險活動建立遊戲規則。",
+  },
+  {
+    id: "rsk-097",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Risk",
+    questionType: "matching",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Drag and match each leadership style to how it tends to affect the team's risk-reporting behavior.",
+      zh: "請將下列每一種領導風格,拖曳配對到其對團隊風險回報行為的典型影響。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Servant Leadership",
+            zh: "僕人式領導",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Laissez-Faire",
+            zh: "放任式領導",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Directive (Command-and-Control)",
+            zh: "指令式(Command-and-Control)領導",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "Transactional Leadership",
+            zh: "交易式領導",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "The PM focuses on removing obstacles and empowering the team, which builds the psychological safety needed for risks to surface early",
+            zh: "PM 專注於排除障礙、賦權團隊,建立讓風險能及早浮現所需的心理安全感",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "The PM grants the team broad autonomy with minimal oversight, so whether risks get reported depends heavily on the team's own initiative",
+            zh: "PM 給予團隊高度自主性、極少介入,風險是否被回報高度仰賴團隊自身的主動性",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "The PM makes risk-related decisions largely alone with limited team input, which can discourage members from voicing risks that contradict the PM's view",
+            zh: "PM 多半獨自做出風險相關決策、鮮少採納團隊意見,可能使成員不敢提出與 PM 看法相左的風險",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "The PM ties risk reporting to explicit rewards or penalties, steering team behavior toward specific measurable targets",
+            zh: "PM 將風險回報與明確獎懲掛鉤,引導團隊行為朝向特定可衡量目標",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "不同領導風格會直接影響團隊是否願意及早回報風險:僕人式領導透過排除障礙、賦權團隊建立心理安全感,最有利於風險及早浮現,也是考試中最常被強調的風格;放任式領導完全交由團隊自主,回報品質不穩定;指令式領導容易讓成員不敢提出與 PM 相左的意見;交易式領導則以明確獎懲驅動特定行為,可能導致團隊只回報「對自己有利」的風險而非全面透明。",
+  },
+  {
+    id: "rsk-098",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each Enterprise Environmental Factor (EEF) example to the type of risk it primarily introduces, based on Risk Breakdown Structure (RBS) categories.",
+      zh: "請將下列每一項事業環境因素(EEF)範例,拖曳配對到其依風險分解結構(RBS)分類主要引發的風險類型。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "A sudden national election leading to political instability in the target market",
+            zh: "目標市場發生政局動盪的全國大選",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "A rival company patents a key technology the project was planning to use",
+            zh: "競爭對手為專案原計畫使用的關鍵技術申請專利",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "A severe regional drought disrupts the water supply needed for a manufacturing process",
+            zh: "嚴重區域乾旱影響製造流程所需的水源供應",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "The organization's IT department mandates all new systems must migrate to a new cloud platform within six months",
+            zh: "組織 IT 部門要求所有新系統須在六個月內遷移至新雲端平台",
+          },
+        },
+        {
+          id: "p5",
+          text: {
+            en: "A major industry conference reveals a new open-source framework is rapidly replacing the technology stack the project currently relies on",
+            zh: "一場重要產業研討會顯示新的開源框架正快速取代專案目前依賴的技術堆疊",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "External market/political risk — political and market conditions outside the project's control",
+            zh: "外部市場與政治風險——超出專案控制範圍的政治與市場條件",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "External legal/technical risk — a competitor's intellectual property action affecting technical feasibility",
+            zh: "外部法律與技術風險——競爭對手的智慧財產權行動影響技術可行性",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "External environmental/operational risk — a natural/environmental factor disrupting operations",
+            zh: "外部環境與營運風險——自然/環境因素影響營運",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Internal organizational risk — an internal policy mandate imposing new constraints on the project",
+            zh: "內部組織風險——內部政策要求為專案帶來新限制",
+          },
+        },
+        {
+          id: "c5",
+          text: {
+            en: "External technological risk — a shift in the broader technology landscape threatens the project's current technical approach",
+            zh: "外部科技風險——更廣泛的科技趨勢轉變,威脅專案現行的技術做法",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+      p5: "c5",
+    },
+    explanation: "RBS 依風險來源將風險分為技術、外部、組織、專案管理等類別:政局動盪屬於外部市場/政治風險;競爭對手專利屬於外部法律/技術風險;天災影響供應鏈屬於外部環境/營運風險;組織內部 IT 政策要求則屬於組織類的內部風險,而非外部驅動;科技趨勢快速轉變則屬於外部技術風險。考生須留意「內部組織政策」與「外部事業環境因素」在 RBS 分類上的差異,不能一概歸類為外部風險。",
+  },
+  {
+    id: "rsk-099",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "A risk has an 18% probability of occurring and would cause a $95,000 loss if it does. The EMV of this risk is {{blank1}}. A one-time process change that would completely eliminate this risk costs a fixed $16,000. Since this fixed cost is lower than the risk's expected loss, the PM should {{blank2}}.",
+      zh: "某風險發生機率為 18%,一旦發生將造成 9.5 萬美金損失。此風險的 EMV 為 {{blank1}}。一項能徹底消除此風險的一次性流程變更,固定成本為 1.6 萬美金。由於此固定成本低於該風險的期望損失,PM 應該 {{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "-$17,100",
+              zh: "-$17,100",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "-$95,000",
+              zh: "-$95,000",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "-$16,000",
+              zh: "-$16,000",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "$17,100",
+              zh: "$17,100",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Accept the risk and take no action",
+              zh: "接受風險且不採取任何行動",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Implement the process change to avoid the risk",
+              zh: "實施此流程變更以避免此風險",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "EMV = 機率 × 衝擊金額 = 18% × (-$95,000) = -$17,100。此流程變更能徹底消除風險發生的可能性,屬於 Avoid(避免)策略,其固定成本 $16,000 低於不採取行動的期望損失 $17,100,故 PM 應實施此流程變更以避免風險,可省下 $1,100。",
+  },
+  {
+    id: "rsk-100",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A newly enacted data-privacy regulation is an example of an {{blank1}} — a factor originating outside the project's boundaries that the project team generally cannot change, yet must still account for. In the Risk Breakdown Structure (RBS), the risk this regulation introduces would typically be classified under the {{blank2}} category.",
+      zh: "一項新頒布的資料隱私法規,屬於 {{blank1}} 的範例——一種源自專案邊界之外、專案團隊通常無法改變、卻仍須納入考量的因素。在風險分解結構(RBS)中,此法規所帶來的風險通常會被歸類於 {{blank2}} 類別。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Enterprise Environmental Factor (EEF)",
+              zh: "事業環境因素(EEF)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Organizational Process Asset (OPA)",
+              zh: "組織過程資產(OPA)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Work Performance Data",
+              zh: "工作績效數據",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "Lessons Learned Register",
+              zh: "經驗教訓登錄表",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Technical",
+              zh: "技術類",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "External",
+              zh: "外部類",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Organizational",
+              zh: "組織類",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "Project Management",
+              zh: "專案管理類",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "新頒布的法規屬於組織無法控制、源自專案外部的事業環境因素(EEF);相對地,組織過程資產(OPA)是組織可累積、重複使用的範本與經驗庫,兩者性質不同。在 RBS 分類中,此類法規、市場、匯率等外部驅動的風險通常歸類於「外部(External)」類別,而非技術、組織或專案管理類別。",
+  },
+  {
+    id: "rsk-101",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "dropdown",
+    difficulty: "hard",
+    timeCategory: "definition",
+    stem: {
+      en: "A response that is defined and formally agreed upon in advance, but is only triggered and executed once a specific, pre-identified condition actually occurs, is called a {{blank1}}. This differs from an unplanned response improvised on the spot to address an emergent issue for which no risk response had been prepared in advance, which is called a {{blank2}}.",
+      zh: "一種事先定義並正式核准、但只有在特定、預先識別的條件真正出現時才會被觸發並執行的回應措施,稱為 {{blank1}}。這與針對一項先前未曾規劃任何風險回應的突發問題,臨時即興擬定的非計畫性回應不同,後者稱為 {{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Contingent Response Strategy",
+              zh: "應變回應策略(Contingent Response Strategy)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Workaround",
+              zh: "應急對策(Workaround)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Management Reserve",
+              zh: "管理準備金",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "Risk Audit",
+              zh: "風險稽核",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Contingent Response Strategy",
+              zh: "應變回應策略(Contingent Response Strategy)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Workaround",
+              zh: "應急對策(Workaround)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Contingency Reserve",
+              zh: "應變準備金",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "Risk Reassessment",
+              zh: "風險再評估",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "Contingent Response Strategy(應變回應策略)是事先規劃、經核准,但只有在特定觸發條件出現時才會執行的回應措施,屬於「有備而來」的預先設計;Workaround(應急對策)則是針對一項先前完全未被識別、也未規劃任何回應的突發問題,臨時即興擬定的非計畫性對策,兩者的關鍵差異在於「是否事先規劃」。",
+  },
+  {
+    id: "rsk-102",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Risk",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "When team members avoid reporting emerging risks because they fear being blamed or seen as incompetent, the condition missing on this team is {{blank1}}. A project manager who builds trust by admitting their own past mistakes, removes obstacles for the team, and actively empowers members to surface bad news early is demonstrating {{blank2}}.",
+      zh: "當團隊成員因害怕被究責或被視為能力不足,而避免回報新興風險時,這個團隊所欠缺的條件是 {{blank1}}。一位透過承認自己過去的錯誤來建立信任、為團隊排除障礙、並積極賦權成員及早提出壞消息的專案經理,正展現出 {{blank2}}。",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Psychological Safety",
+              zh: "心理安全感(Psychological Safety)",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Risk Appetite",
+              zh: "風險胃納",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Risk Tolerance",
+              zh: "風險容忍度",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "Resilience",
+              zh: "韌性",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "Command-and-control leadership",
+              zh: "指令控制式領導",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "Servant Leadership",
+              zh: "僕人式領導(Servant Leadership)",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "Laissez-Faire leadership",
+              zh: "放任式領導",
+            },
+          },
+          {
+            id: "d",
+            text: {
+              en: "Transactional leadership",
+              zh: "交易式領導",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "b",
+    },
+    explanation: "心理安全感(Psychological Safety)指團隊成員相信即使提出不確定或不利消息,也不會因此遭受責備或負面評價,是及早發現風險的關鍵基礎;僕人式領導(Servant Leadership)強調 PM 以身作則、排除障礙、賦權團隊,是建立此種心理安全感最常被強調的領導風格,與指令控制式、放任式或交易式領導的核心邏輯不同。",
+  },
+  {
+    id: "rsk-103",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "hotspot",
+    difficulty: "hard",
+    timeCategory: "calculation",
+    stem: {
+      en: "Below are four identified risk cards showing probability and impact. Click the risk with the highest Expected Monetary Value (EMV) of loss.",
+      zh: "下方列出四張已識別風險卡片,分別標示機率與衝擊。請點選具有最高期望貨幣價值(EMV)損失的風險。",
+    },
+    options: [
+      {
+        id: "r1",
+        label: {
+          en: "35% probability, $60,000 impact",
+          zh: "機率 35%,衝擊 6 萬美金",
+        },
+        x: 5,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+      {
+        id: "r2",
+        label: {
+          en: "12% probability, $220,000 impact",
+          zh: "機率 12%,衝擊 22 萬美金",
+        },
+        x: 28,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+      {
+        id: "r3",
+        label: {
+          en: "55% probability, $35,000 impact",
+          zh: "機率 55%,衝擊 3.5 萬美金",
+        },
+        x: 51,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+      {
+        id: "r4",
+        label: {
+          en: "5% probability, $500,000 impact",
+          zh: "機率 5%,衝擊 50 萬美金",
+        },
+        x: 74,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+    ],
+    correctAnswer: "r2",
+    explanation: "分別計算四項風險的 EMV:r1 = 35% × $60,000 = $21,000;r2 = 12% × $220,000 = $26,400;r3 = 55% × $35,000 = $19,250;r4 = 5% × $500,000 = $25,000。r2 的 EMV 最高($26,400),即使其發生機率是四者中第二低,仍不能僅憑機率或衝擊金額單一數字判斷優先順序,而須以 EMV(機率 × 衝擊)綜合衡量。",
+  },
+  {
+    id: "rsk-104",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "hotspot",
+    difficulty: "hard",
+    timeCategory: "calculation",
+    stem: {
+      en: "The diagram below is a decision tree. From the Start node, the PM can choose Expedited Shipping (fixed cost $32,000, guarantees on-time delivery) or Standard Shipping. If Standard Shipping is chosen, there is an 80% chance of $0 additional cost and a 20% chance of a $170,000 contractual penalty for missing the delivery milestone. Click the node the PM should choose because it has the lower expected cost.",
+      zh: "下圖為一決策樹:從起點(Start)節點,PM 可選擇「加急運送」(固定成本 3.2 萬美金,保證準時交付)或「標準運送」。若選擇標準運送,有 80% 機率無須額外成本、20% 機率須支付 17 萬美金的違約罰款(因錯過交付里程碑)。請點選 PM 應選擇的節點,因為其期望成本較低。",
+    },
+    options: [
+      {
+        id: "n1",
+        label: {
+          en: "Start",
+          zh: "起點(Start)",
+        },
+        x: 5,
+        y: 5,
+        width: 25,
+        height: 35,
+      },
+      {
+        id: "n2",
+        label: {
+          en: "Expedited Shipping: fixed $32,000",
+          zh: "加急運送:固定成本 3.2 萬美金",
+        },
+        x: 36.66666666666667,
+        y: 5,
+        width: 25,
+        height: 35,
+      },
+      {
+        id: "n3",
+        label: {
+          en: "Standard Shipping",
+          zh: "標準運送",
+        },
+        x: 68.33333333333334,
+        y: 5,
+        width: 25,
+        height: 35,
+      },
+      {
+        id: "n4",
+        label: {
+          en: "Outcome: 80% chance, $0",
+          zh: "結果:80% 機率,成本 $0",
+        },
+        x: 55,
+        y: 47.5,
+        width: 20,
+        height: 35,
+      },
+      {
+        id: "n5",
+        label: {
+          en: "Outcome: 20% chance, $170,000",
+          zh: "結果:20% 機率,成本 17 萬美金",
+        },
+        x: 77,
+        y: 47.5,
+        width: 20,
+        height: 35,
+      },
+    ],
+    correctAnswer: "n2",
+    edges: [
+      {
+        from: "n1",
+        to: "n2",
+      },
+      {
+        from: "n1",
+        to: "n3",
+      },
+      {
+        from: "n3",
+        to: "n4",
+      },
+      {
+        from: "n3",
+        to: "n5",
+      },
+    ],
+    explanation: "標準運送的期望成本 = 80% × $0 + 20% × $170,000 = $0 + $34,000 = $34,000。加急運送為固定成本 $32,000,低於標準運送的期望成本 $34,000,故 PM 應選擇「加急運送」節點,差額為 $2,000。此題其中一分支結果為 $0,考生須留意不能省略此分支,仍應完整代入計算。",
+  },
+  {
+    id: "rsk-105",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "hotspot",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Below are four Risk Breakdown Structure (RBS) top-level category cards. Click the card that best classifies this risk: \"Two senior developers may resign mid-project because of an internal corporate reorganization initiative that is unrelated to this specific project.\"",
+      zh: "下方列出四張風險分解結構(RBS)頂層分類卡片。請點選最適合分類下列風險的卡片:「兩位資深開發人員可能因公司內部一項與本專案無關的組織重組計畫,而在專案執行到一半時離職。」",
+    },
+    options: [
+      {
+        id: "z1",
+        label: {
+          en: "Technical",
+          zh: "技術類(Technical)",
+        },
+        x: 5,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+      {
+        id: "z2",
+        label: {
+          en: "External",
+          zh: "外部類(External)",
+        },
+        x: 28,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+      {
+        id: "z3",
+        label: {
+          en: "Organizational",
+          zh: "組織類(Organizational)",
+        },
+        x: 51,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+      {
+        id: "z4",
+        label: {
+          en: "Project Management",
+          zh: "專案管理類(Project Management)",
+        },
+        x: 74,
+        y: 40,
+        width: 20,
+        height: 20,
+      },
+    ],
+    correctAnswer: "z3",
+    explanation: "此風險源自公司內部的組織重組計畫,屬於組織本身治理與人力配置決策所引發的風險,而非源自專案外部(如市場、法規)、技術本身、或專案管理實務(如估算、排程規劃)的缺失,故應歸類於 RBS 的「組織類(Organizational)」;技術類通常指技術本身的不確定性,外部類指專案邊界之外的因素,專案管理類則指專案管理實務缺失所致的風險。",
+  },
+  {
+    id: "rsk-106",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A university's academic integrity office reviews flagged essays by hand, and the dean proposes licensing an AI detection service to backstop the reviewers, worried that miscalls are slipping through. What should the project manager do first?",
+      zh: "某大學學術誠信辦公室以人工方式審查被標記的論文,院長提議採購一套 AI 偵測服務作為審查人員的後盾,擔心誤判正在悄悄發生。專案經理應該最先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Pilot the AI service on last term's essays and compare its calls with the reviewers' decisions.",
+          zh: "先用上學期的論文試跑 AI 服務,並比對其判定結果與審查人員的決定",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Verify that the risk management plan covers essay review and is up to date.",
+          zh: "確認風險管理計畫是否涵蓋論文審查、內容是否已更新",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Analyze how often reviewer miscalls occur and what damage one causes.",
+          zh: "分析審查人員誤判發生的頻率,以及一次誤判會造成多大的損害",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Evaluate the service's detection accuracy and its annual licensing cost.",
+          zh: "評估該服務的偵測準確率與年度授權費用",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "院長在還沒有人量化「誤判到底多常發生、一次誤判會造成多嚴重的後果」之前,就已經跳到「採購 AI 服務」這個具體解方,屬於典型的先開藥方、後看病情。專案經理此時該做的第一步,是回到風險識別/定性分析的基本功:先弄清楚問題本身的機率與衝擊有多大,才有辦法判斷是否真的需要導入 AI、以及要用什麼標準去驗收這套服務的表現。試跑比對、評估準確率與費用,都是已經預設「要導入 AI」之後才會做的次一步驗證動作;檢查風險管理計畫涵蓋範圍雖然也是合理動作,但無助於回答「問題有多嚴重」這個當下最急迫的問題,優先順序較低。",
+  },
+  {
+    id: "rsk-107",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A builder adopting a new modular construction method wants an AI model that predicts onsite safety incidents for its upcoming projects, and the team is choosing the training data. Which data should the team use?",
+      zh: "一家正在採用新式模組化營造工法的建商,想建立一套 AI 模型來預測未來專案的工地安全事故,團隊正在挑選訓練資料。團隊應該使用哪一種資料?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Every incident record the company holds, to maximize the sample size.",
+          zh: "公司持有的所有事故紀錄,以求樣本數最大化",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Records from recent projects that completed without any incidents.",
+          zh: "近期沒有發生任何事故、順利完工的專案紀錄",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Synthetic incident data generated to enlarge and balance the sample.",
+          zh: "額外生成的合成事故資料,用來擴大並平衡樣本",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Records from past projects whose methods and conditions resemble the modular builds.",
+          zh: "工法與現場條件跟這次模組化營造相近的過往專案紀錄",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "預測模型只有在訓練資料的情境跟預測目標情境相近時,學到的樣態才轉移得過去;這家建商採用的是新式模組化工法,若訓練資料大多來自傳統工法、條件迥異的專案,模型學到的風險樣態很可能對不上模組化營造現場的實際狀況。一味追求樣本數最大化,會把大量不相干工法的雜訊也一併餵進模型;只用零事故的專案,樣本會嚴重偏態,模型學不到事故是怎麼發生的;合成資料能補足樣本不足,但前提仍是先有具代表性的真實資料當基礎,不能本末倒置優先於挑選相似情境的真實紀錄。",
   }
 ]

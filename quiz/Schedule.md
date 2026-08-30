@@ -1,6 +1,6 @@
 # Schedule — PMP 題庫
 
-> 共 72 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 108 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `match-001` — 拖拉配對題
 
@@ -2027,5 +2027,1014 @@ WIP 限制透過限制每個工作階段同時進行的項目數量,迫使團隊
 **詳解**
 
 時間刻度邏輯圖(Time-Scaled Logic Diagram)結合了網路圖的邏輯相依關係與甘特圖的時間比例呈現方式,活動方框長度對應其工期,同時保留箭頭表示的相依關係,兼具兩種呈現法的優點,故答案為 (b)。里程碑圖只標示重要時間點,不呈現活動工期或相依關係;資源直方圖呈現的是資源負荷而非時程邏輯;管制圖則是品質管理中用於監控製程穩定性的工具,與時程呈現無關。
+
+---
+
+### Q73. `sch-071` — 單選題
+
+**題目 ID**: `sch-071`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During the Daily Standup (Daily Scrum), the team meets for a strict 15-minute timebox so that each member briefly answers three questions: what did I complete yesterday, what will I do today, and what obstacles are blocking me. What is the PRIMARY purpose of this event?
+- 中: 在每日站立會議(Daily Standup / Daily Scrum)中,團隊嚴格控制在 15 分鐘的時間箱內,讓每位成員簡短回答三個問題:昨天完成了什麼、今天要做什麼、遇到什麼障礙。此活動的「主要」目的為何?
+
+**選項**
+
+- (a) To give the Scrum Master a detailed status report so they can update the project schedule baseline / 讓 Scrum Master 取得詳細狀態報告,以便更新專案時程基準
+- (b) To let the team synchronize their work and surface impediments to each other on a daily cadence, not to report status upward to management / 讓團隊每日同步彼此的工作進度、並互相揭露障礙,而非向管理層做進度報告 ✅ **正解**
+- (c) To formally reassign story points among team members based on yesterday's output / 依據昨日產出,正式在團隊成員間重新分配故事點
+- (d) To replace the Sprint Review by demonstrating completed work to stakeholders every day / 取代 Sprint Review,每天向利害關係人展示已完成的工作
+
+**詳解**
+
+每日站立會議的主要目的是團隊內部同步工作進度、互相揭露障礙,以利團隊自我調整,而非向上做正式進度報告,故答案為 (b)。(a) 誤將此會議當成給 Scrum Master 或管理層的狀態報告;(c) 錯誤,重新分配故事點並非站立會議的目的;(d) 錯誤,展示成果給利害關係人是 Sprint Review 的功能,不應由每日站立會議取代。
+
+---
+
+### Q74. `sch-072` — 多選題
+
+**題目 ID**: `sch-072`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Which two statements correctly distinguish the Sprint Review from the Sprint Retrospective? Select two.
+- 中: 關於 Sprint Review(衝刺審查)與 Sprint Retrospective(衝刺回顧)的差異,下列哪兩項敘述正確?請選擇兩項。
+
+**選項**
+
+- (a) The Sprint Review's timebox scales with sprint length, generally capped at around one hour per week of the sprint (e.g., up to two hours for a two-week sprint), and includes stakeholders inspecting the increment / Sprint Review 的時間箱會依衝刺長度縮放,大致以每週上限約一小時為原則(例如兩週衝刺上限約兩小時),且會邀請利害關係人一同檢視增量成果 ✅ **正解**
+- (b) The Sprint Retrospective is an internal team event focused on inspecting how the team worked together and identifying process improvements for the next sprint / Sprint Retrospective 是團隊內部活動,聚焦於檢視團隊協作方式,並找出下一個衝刺可改善的流程做法 ✅ **正解**
+- (c) The Sprint Retrospective is where stakeholders formally accept or reject the working increment / Sprint Retrospective 是利害關係人正式驗收或拒絕可用增量的場合
+- (d) The Sprint Review should exclude the Product Owner to avoid biasing stakeholder feedback / Sprint Review 應排除產品負責人(Product Owner)參與,以避免影響利害關係人的回饋
+- (e) Both events are optional and may be skipped whenever the team feels confident about its progress / 只要團隊對進度有信心,這兩項活動都可以省略不辦
+
+**詳解**
+
+Sprint Review 邀請利害關係人共同檢視可用增量,時間箱依衝刺長度按比例訂定(約每週一小時);Sprint Retrospective 則是團隊內部檢討協作與流程、規劃改善行動的場合,兩者目的不同,故 (a)(b) 正確。(c) 描述的驗收行為屬於 Sprint Review 而非 Retrospective;(d) 錯誤,產品負責人通常應參與 Sprint Review;(e) 錯誤,這兩項都是 Scrum 中建議固定舉辦的時間箱活動,不應隨意省略。
+
+---
+
+### Q75. `sch-073` — 單選題
+
+**題目 ID**: `sch-073`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A Kanban team measures its flow over several weeks and finds an average of 12 items in progress (WIP) at any given time, with an average cycle time of 4 days per item. Using Little's Law (WIP = Throughput × Cycle Time), what is the team's average throughput?
+- 中: 某看板團隊觀察數週後發現,在製品(WIP)平均為 12 項,每項平均週期時間(Cycle Time)為 4 天。依據 Little's Law(WIP = 產出率 Throughput × 週期時間 Cycle Time),此團隊的平均產出率(Throughput)為何?
+
+**選項**
+
+- (a) 1 item per day / 每天 1 項
+- (b) 3 items per day / 每天 3 項 ✅ **正解**
+- (c) 4 items per day / 每天 4 項
+- (d) 48 items per day / 每天 48 項
+
+**詳解**
+
+Little's Law 公式為 WIP = Throughput × Cycle Time,移項可得 Throughput = WIP ÷ Cycle Time = 12 ÷ 4 = 3 項/天,故答案為 (b)。(d) 誤將公式做乘法(12×4=48);(a)(c) 則是常見的除法或代入錯誤。
+
+---
+
+### Q76. `sch-074` — 多選題
+
+**題目 ID**: `sch-074`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A team reviews its Cumulative Flow Diagram (CFD), which plots the cumulative count of items in each workflow stage (To Do, In Progress, Done) over time as stacked bands. Which two statements correctly describe how to read this diagram? Select two.
+- 中: 團隊檢視其累積流圖(Cumulative Flow Diagram, CFD),此圖以堆疊色帶呈現每個工作階段(待辦、進行中、完成)隨時間累積的項目數量。關於此圖的判讀,下列哪兩項敘述正確?請選擇兩項。
+
+**選項**
+
+- (a) The vertical distance between two adjacent bands at a given point in time represents the number of items (WIP) currently sitting in that stage / 在某一時間點,兩條相鄰色帶之間的「垂直距離」代表目前停留在該階段的項目數量(WIP) ✅ **正解**
+- (b) The horizontal distance between two adjacent bands represents the average time (lead/cycle time) items are spending in that stage / 兩條相鄰色帶之間的「水平距離」代表項目停留在該階段的平均時間(前置時間/週期時間) ✅ **正解**
+- (c) A band that steadily widens over time indicates the stage is keeping pace and is not a bottleneck / 色帶隨時間持續變寬,代表該階段的處理速度跟得上,並非瓶頸
+- (d) The CFD can only be produced for Kanban boards and has no meaningful use on a Scrum sprint board / CFD 只能用於看板(Kanban),對 Scrum 衝刺看板毫無意義
+- (e) If the "Done" band's slope becomes flatter, this always means the team's throughput is increasing / 「完成」色帶的斜率若變得更平緩,永遠代表團隊的產出率正在提升
+
+**詳解**
+
+CFD 的核心判讀原則是:同一時間點兩色帶間的垂直距離 = 該階段 WIP;兩色帶間的水平距離 = 項目在該階段停留的前置或週期時間,故 (a)(b) 正確。(c) 錯誤,色帶持續變寬通常代表項目堆積、正是瓶頸警訊,而非跟得上進度;(d) 錯誤,CFD 同樣可套用於 Scrum 的衝刺看板;(e) 錯誤,完成色帶斜率變平緩通常代表產出「趨緩」而非提升,方向恰好相反。
+
+---
+
+### Q77. `sch-075` — 拖拉配對題
+
+**題目 ID**: `sch-075`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Drag and match each iteration/spike type to the description that best fits it.
+- 中: 請將下列每種迭代/尖峰(Spike)類型拖曳配對到最符合的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Iteration 0 / 第零次迭代(Iteration 0)
+- p2: Development Iteration / 開發迭代(Dev Iteration)
+- p3: H (Hardening) Iteration / H(強化)迭代
+- p4: Architecture Spike / 架構尖峰(Architecture Spike)
+- p5: Risk-Based Spike / 風險導向尖峰(Risk-Based Spike)
+
+**選項池(拖曳目標)**
+
+- c1: A short preparatory iteration used to set up the environment, tools, initial backlog, and team logistics before development work begins / 一段短暫的前置迭代,用於在開發工作展開前,建置環境、工具、初始待辦清單與團隊運作方式
+- c2: A regular iteration in which the team builds, integrates, and tests working product increments / 團隊建置、整合並測試可用產品增量的常規迭代
+- c3: An iteration inserted (often before a release) to perform final integration, regression testing, and technical debt cleanup across the whole system / (通常於發布前)安排的迭代,用於執行最終整合、迴歸測試,並清理整個系統的技術債
+- c4: A short, timeboxed investigation used to explore an unproven technical approach or design option before committing to it / 一段短暫、有時間箱限制的探索性工作,用於在正式投入之前,先驗證未經證實的技術做法或設計選項
+- c5: A short, timeboxed investigation aimed specifically at reducing uncertainty around a high-risk area of the product / 一段短暫、有時間箱限制的探索性工作,專門用於降低產品中高風險領域的不確定性
+
+**✅ 正確配對**
+
+- p1 → c1: Iteration 0 → A short preparatory iteration used to set up the environment, tools, initial backlog, and team logistics before development work begins（第零次迭代(Iteration 0) → 一段短暫的前置迭代,用於在開發工作展開前,建置環境、工具、初始待辦清單與團隊運作方式）
+- p2 → c2: Development Iteration → A regular iteration in which the team builds, integrates, and tests working product increments（開發迭代(Dev Iteration) → 團隊建置、整合並測試可用產品增量的常規迭代）
+- p3 → c3: H (Hardening) Iteration → An iteration inserted (often before a release) to perform final integration, regression testing, and technical debt cleanup across the whole system（H(強化)迭代 → (通常於發布前)安排的迭代,用於執行最終整合、迴歸測試,並清理整個系統的技術債）
+- p4 → c4: Architecture Spike → A short, timeboxed investigation used to explore an unproven technical approach or design option before committing to it（架構尖峰(Architecture Spike) → 一段短暫、有時間箱限制的探索性工作,用於在正式投入之前,先驗證未經證實的技術做法或設計選項）
+- p5 → c5: Risk-Based Spike → A short, timeboxed investigation aimed specifically at reducing uncertainty around a high-risk area of the product（風險導向尖峰(Risk-Based Spike) → 一段短暫、有時間箱限制的探索性工作,專門用於降低產品中高風險領域的不確定性）
+
+**詳解**
+
+Iteration 0 是開發前的準備迭代,聚焦於環境與工具建置;Dev Iteration 是產出可用增量的常規迭代;H(強化)迭代常安排在發布前,用於系統整合、迴歸測試與技術債清理;Spike 則是短期、有時間箱的探索性工作,Architecture Spike 聚焦於驗證技術/設計方案的可行性,Risk-Based Spike 則聚焦於降低特定高風險領域的不確定性,兩者目的不同但形式類似,考生常混淆,需依情境判斷探索的重點是「技術可行性」還是「風險降低」。
+
+---
+
+### Q78. `sch-076` — 單選題
+
+**題目 ID**: `sch-076`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A newly formed agile team has had different members rotate in and out every sprint for its first four sprints. Its velocity has swung wildly: 14, 31, 9, and 26 story points. Stakeholders ask the PM to use this data to forecast the release date. What should the PM advise?
+- 中: 一個新成立的敏捷團隊,在前四個衝刺中每次都有不同成員輪替加入或離開。其產出速度(Velocity)劇烈震盪:14、31、9、26 個故事點。利害關係人要求專案經理用這些數據預測發布日期。專案經理應如何建議?
+
+**選項**
+
+- (a) Average the four numbers and present that as a reliable forecast, since velocity is always accurate regardless of team stability / 將四個數字取平均,直接作為可靠預測呈現,因為產出速度不論團隊是否穩定都一定準確
+- (b) Explain that velocity is only a reliable forecasting input once the team's composition and working agreements stabilize, and recommend using a range based on more sprints of stable-team data before committing to a date / 說明唯有在團隊組成與工作默契趨於穩定後,產出速度才會是可靠的預測依據,並建議累積更多穩定團隊的衝刺數據,以區間方式呈現,再承諾具體日期 ✅ **正解**
+- (c) Ignore velocity entirely and switch to estimating remaining work in ideal hours instead / 完全捨棄產出速度,改用理想工時來估算剩餘工作
+- (d) Recommend comparing this team's velocity directly against another team's velocity to validate whether 14–31 points is a normal range / 建議直接拿這個團隊的產出速度與另一個團隊的產出速度比較,以驗證 14~31 是否為正常範圍
+
+**詳解**
+
+產出速度(Velocity)是團隊自身歷史數據的度量,唯有在團隊成員與工作方式趨於穩定後才具有預測參考價值;團隊組成頻繁變動會使速度劇烈波動、難以作為可靠預測依據,應待累積更多穩定期的數據後,以區間而非單一數字溝通預測,故答案為 (b)。(a) 過度簡化且忽略團隊不穩定的影響;(c) 並非必要,只是需更謹慎使用速度數據;(d) 錯誤,速度是團隊專屬的相對度量單位,不同團隊間不可直接比較。
+
+---
+
+### Q79. `sch-077` — 拖拉配對題
+
+**題目 ID**: `sch-077`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each agile event to its typical timebox guideline.
+- 中: 請將下列每個敏捷活動拖曳配對到其典型的時間箱(Timebox)準則。
+
+**配對項目(拖曳來源)**
+
+- p1: Daily Standup (Daily Scrum) / 每日站立會議
+- p2: Sprint Planning / 衝刺規劃
+- p3: Sprint Review / 衝刺審查
+- p4: Sprint Retrospective / 衝刺回顧
+
+**選項池(拖曳目標)**
+
+- c1: Strictly timeboxed to about 15 minutes, held at the same time and place each working day / 嚴格限制在約 15 分鐘內,每個工作日在同一時間、同一地點舉行
+- c2: Timeboxed roughly in proportion to sprint length, e.g., up to about 8 hours for a one-month sprint / 時間箱大致依衝刺長度按比例訂定,例如一個月衝刺上限約 8 小時
+- c3: Timeboxed at roughly one hour per week of the sprint, e.g., up to about 2 hours for a two-week sprint, with stakeholders inspecting the increment / 時間箱大致以每週一小時為原則,例如兩週衝刺上限約 2 小時,由利害關係人一同檢視增量
+- c4: A shorter meeting held after the review and before the next planning, focused on team process improvement / 在審查之後、下一次規劃之前舉行的較短會議,聚焦於團隊流程改善
+
+**✅ 正確配對**
+
+- p1 → c1: Daily Standup (Daily Scrum) → Strictly timeboxed to about 15 minutes, held at the same time and place each working day（每日站立會議 → 嚴格限制在約 15 分鐘內,每個工作日在同一時間、同一地點舉行）
+- p2 → c2: Sprint Planning → Timeboxed roughly in proportion to sprint length, e.g., up to about 8 hours for a one-month sprint（衝刺規劃 → 時間箱大致依衝刺長度按比例訂定,例如一個月衝刺上限約 8 小時）
+- p3 → c3: Sprint Review → Timeboxed at roughly one hour per week of the sprint, e.g., up to about 2 hours for a two-week sprint, with stakeholders inspecting the increment（衝刺審查 → 時間箱大致以每週一小時為原則,例如兩週衝刺上限約 2 小時,由利害關係人一同檢視增量）
+- p4 → c4: Sprint Retrospective → A shorter meeting held after the review and before the next planning, focused on team process improvement（衝刺回顧 → 在審查之後、下一次規劃之前舉行的較短會議,聚焦於團隊流程改善）
+
+**詳解**
+
+每日站立會議嚴格控制在 15 分鐘;衝刺規劃的時間箱大致依衝刺長度按比例訂定(例如一個月衝刺上限約 8 小時);衝刺審查則大致以每週一小時為原則(兩週衝刺約上限 2 小時),邀請利害關係人參與;衝刺回顧通常安排在審查之後、下一次規劃之前,時間較短,聚焦於團隊自身的流程改善,而非對外展示成果。這些時間箱準則有助於控制會議成本、避免會議無限膨脹。
+
+---
+
+### Q80. `sch-078` — 下拉選單題
+
+**題目 ID**: `sch-078`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `People`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A team's sprint is two weeks long, so its Sprint Review is timeboxed to about {{blank1}}, and everyone arrives prepared knowing the meeting will not run indefinitely. In contrast, when a work item is given no timebox or deadline pressure at all, {{blank2}} tends to occur, where team members delay starting meaningful work until the last responsible moment nears.
+- 中: 某團隊的衝刺長度為兩週,因此其衝刺審查(Sprint Review)的時間箱大約訂為 {{blank1}},大家都知道會議不會無限拖延,因此提前準備。相對地,當一項工作完全沒有時間箱或期限壓力時,則容易出現 {{blank2}},也就是團隊成員會拖到最後責任時刻逼近才真正開始投入。
+
+**blank1**
+
+- (a) 15 minutes / 15 分鐘
+- (b) 2 hours / 2 小時 ✅ **正解**
+- (c) 2 days / 2 天
+
+**blank2**
+
+- (a) Parkinson's Law / 帕金森定律(Parkinson's Law)
+- (b) Student Syndrome / 學生症候群(Student Syndrome) ✅ **正解**
+- (c) Little's Law / Little 定律(Little's Law)
+
+
+**詳解**
+
+Sprint Review 的時間箱大致以每週一小時為原則,兩週衝刺約為 2 小時,故 blank1 選 (b)。學生症候群(Student Syndrome)是指人們傾向拖到最後責任時刻才真正開始投入工作,與「工作會膨脹填滿所分配到的全部時間」的帕金森定律(Parkinson's Law)概念相近卻不完全相同:前者強調「延遲開始」,後者強調「即使提早開始也不會提早完成」,故 blank2 應選 (b) 而非 (a)。Little's Law 則是描述 WIP、產出率與週期時間關係的公式,與此處描述的拖延行為無關。
+
+---
+
+### Q81. `sch-079` — 點擊熱區題
+
+**題目 ID**: `sch-079`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: The team's Kanban board has a WIP limit of 3 items for the "In Progress" column. The board currently shows: To Do (5 items), In Progress (5 items), Review (2 items), Done (8 items). Click the column that is currently violating its WIP limit.
+- 中: 團隊看板的「進行中(In Progress)」欄位設有 WIP 限制為 3 項。目前看板狀態為:待辦(5 項)、進行中(5 項)、審查(2 項)、完成(8 項)。請點選目前違反 WIP 限制的欄位。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) To Do (5 items) / 待辦(5 項) [x=5,y=40,w=20,h=20]
+- (n2) In Progress (5 items, WIP limit 3) / 進行中(5 項,WIP 限制 3) ✅ **正解** [x=30,y=40,w=20,h=20]
+- (n3) Review (2 items) / 審查(2 項) [x=55,y=40,w=20,h=20]
+- (n4) Done (8 items) / 完成(8 項) [x=80,y=40,w=18,h=20]
+
+**節點連線(edges,方向性依賴關係,例如網路圖箭頭;有連線的圖面題出考題時不會打亂座標)**
+
+- n1 → n2
+- n2 → n3
+- n3 → n4
+
+**詳解**
+
+題目設定「進行中」欄位的 WIP 限制為 3 項,但目前實際有 5 項卡片停留在該欄位,已超出限制上限 2 項,代表該階段可能發生瓶頸,團隊應優先協助完成進行中的項目,而非拉入新工作,故正解為「進行中」欄位(n2)。待辦、審查、完成欄位在題目中並未被賦予 WIP 限制,也未超出限制,故非本題答案。
+
+---
+
+### Q82. `sch-080` — 單選題
+
+**題目 ID**: `sch-080`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project has a Budget at Completion (BAC) of $400,000. According to the schedule baseline, 45% of the work should have been completed by today, but the team has actually completed only 38% of the work. What is the Schedule Variance (SV), and what does it indicate?
+- 中: 某專案的完工預算(BAC)為 $400,000。依時程基準,今天應完成 45% 的工作,但團隊實際只完成了 38% 的工作。時程變異(SV)為何?這代表什麼意涵?
+
+**選項**
+
+- (a) SV = −$28,000; the project is behind schedule / SV = −$28,000;專案進度落後 ✅ **正解**
+- (b) SV = +$28,000; the project is ahead of schedule / SV = +$28,000;專案進度超前
+- (c) SV = −$180,000; the project is severely behind schedule / SV = −$180,000;專案嚴重落後進度
+- (d) SV = $0; the project is exactly on schedule / SV = $0;專案剛好符合進度
+
+**詳解**
+
+PV(計畫值)= 計畫完成% × BAC = 45% × 400,000 = $180,000。EV(實獲值)= 實際完成% × BAC = 38% × 400,000 = $152,000。SV = EV − PV = 152,000 − 180,000 = −$28,000。SV 為負值代表專案目前落後於時程基準,故答案為 (a)。(c) 誤將 PV 本身當作 SV;(b) 正負號相反;(d) 忽略了計畫與實際完成度之間 7% 的落差。
+
+---
+
+### Q83. `sch-081` — 拖拉配對題
+
+**題目 ID**: `sch-081`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each collaboration game to the description that best fits it.
+- 中: 請將下列協作遊戲(Collaboration Game)拖曳配對到最符合的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Remember the Future / 回憶未來(Remember the Future)
+- p2: Prune the Product Tree / 修剪產品樹(Prune the Product Tree)
+- p3: Speedboat / 快艇(Speedboat)
+
+**選項池(拖曳目標)**
+
+- c1: Stakeholders are asked to imagine the project has already succeeded and describe what that success looks like, helping the team understand stakeholders' definition of success early on / 邀請利害關係人想像專案已經成功,並描述成功的樣貌,協助團隊及早理解利害關係人對成功的定義
+- c2: Stakeholders write candidate features on cards and place them onto a drawn tree, grouping related features on the same branch and positioning features that depend on others higher up, helping visualize and organize the feature set / 利害關係人將候選功能寫在卡片上並貼到畫好的樹上,將相關功能歸類在同一樹枝,需依賴其他功能的項目則位置較高,協助視覺化並整理功能集合
+- c3: Participants draw a boat with sails (driving forces) and anchors (obstacles or risks) to help surface what is propelling the project forward and what is holding it back / 參與者畫出一艘船,搭配風帆(推動力)與船錨(阻礙或風險),協助釐清哪些因素正在推動專案前進、哪些正在拖累專案
+
+**✅ 正確配對**
+
+- p1 → c1: Remember the Future → Stakeholders are asked to imagine the project has already succeeded and describe what that success looks like, helping the team understand stakeholders' definition of success early on（回憶未來(Remember the Future) → 邀請利害關係人想像專案已經成功,並描述成功的樣貌,協助團隊及早理解利害關係人對成功的定義）
+- p2 → c2: Prune the Product Tree → Stakeholders write candidate features on cards and place them onto a drawn tree, grouping related features on the same branch and positioning features that depend on others higher up, helping visualize and organize the feature set（修剪產品樹(Prune the Product Tree) → 利害關係人將候選功能寫在卡片上並貼到畫好的樹上,將相關功能歸類在同一樹枝,需依賴其他功能的項目則位置較高,協助視覺化並整理功能集合）
+- p3 → c3: Speedboat → Participants draw a boat with sails (driving forces) and anchors (obstacles or risks) to help surface what is propelling the project forward and what is holding it back（快艇(Speedboat) → 參與者畫出一艘船,搭配風帆(推動力)與船錨(阻礙或風險),協助釐清哪些因素正在推動專案前進、哪些正在拖累專案）
+
+**詳解**
+
+協作遊戲(Collaboration Games)是敏捷團隊常用於激發利害關係人參與、蒐集需求與排序優先順序的引導技巧。回憶未來透過「假設已成功」的想像,協助團隊提早釐清成功的定義;修剪產品樹透過視覺化的樹狀結構,協助整理與分類功能需求;快艇則透過風帆與船錨的比喻,協助團隊辨識推動與阻礙專案的因素,三者皆強調以低科技、高互動的方式促進團隊與利害關係人之間的溝通與共識。
+
+---
+
+### Q84. `sch-082` — 單選題
+
+**題目 ID**: `sch-082`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Three activities — M, N, and P — are all on the critical path and can each be crashed by at least one day. Crashing Activity M costs an extra $1,800 per day saved, Activity N costs an extra $2,500 per day saved, and Activity P costs an extra $1,200 per day saved. The PM only needs to save one day at the lowest possible additional cost. Which activity should be crashed first?
+- 中: 活動 M、N、P 皆位於要徑上,且每項都至少可被趕工(Crashing)一天。趕工活動 M 每縮短一天需額外花費 $1,800,活動 N 每縮短一天需額外花費 $2,500,活動 P 每縮短一天需額外花費 $1,200。專案經理只需以最低的額外成本節省一天,應優先趕工哪一項活動?
+
+**選項**
+
+- (a) Activity M / 活動 M
+- (b) Activity N / 活動 N
+- (c) Activity P / 活動 P ✅ **正解**
+- (d) It does not matter, since all three are on the critical path / 沒有差別,因為三項都在要徑上
+
+**詳解**
+
+在多項要徑活動皆可壓縮的情況下,應優先選擇「成本斜率(Cost Slope)」最低、也就是每縮短一天所需額外成本最少的活動進行趕工,才能以最低總成本達成壓縮目標。活動 P 每天僅需額外 $1,200,低於活動 M 的 $1,800 與活動 N 的 $2,500,故應優先趕工活動 P,答案為 (c)。雖然三項活動都在要徑上、延遲都會影響完工日,但這不代表趕工哪一項的成本效益相同,仍須比較各自的成本斜率。
+
+---
+
+### Q85. `sch-083` — 多選題
+
+**題目 ID**: `sch-083`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Which two statements correctly describe a Resource Histogram? Select two.
+- 中: 關於資源直方圖(Resource Histogram),下列哪兩項敘述正確?請選擇兩項。
+
+**選項**
+
+- (a) It is a bar chart showing how much of a given resource (such as a person or role) is required or allocated across time periods, making over-allocation easy to spot / 它是一種長條圖,呈現特定資源(如某人或某角色)在各時間區段所需或已分配的數量,能讓資源超額分配的情況一目了然 ✅ **正解**
+- (b) When the histogram shows a resource loaded above its maximum available capacity in a given period, this signals a resource conflict that resource leveling or smoothing may need to address / 當直方圖顯示某資源在特定期間的負荷超過其最大可用產能時,代表出現資源衝突,可能需要透過資源撫平或資源平準來處理 ✅ **正解**
+- (c) It always shows cost data rather than resource-hours or headcount / 它一定顯示成本資料,而非資源工時或人力數量
+- (d) It replaces the need for a network diagram when developing the schedule / 在發展時程時,它可以取代網路圖的需要
+- (e) It can only be produced for individually named people, never for role-based resource pools / 它只能針對具名的個人繪製,絕不能用於以角色為單位的資源池
+
+**詳解**
+
+資源直方圖以長條圖呈現特定資源(可能是具名個人,也可能是角色/資源池)在各時間區段的需求量或分配量,是辨識資源超額分配、及早發現資源衝突的重要視覺化工具,故 (a)(b) 正確。它呈現的通常是工時或人力數量而非成本資料,也不能取代網路圖對邏輯相依關係的呈現,更不限於只能用於具名個人,故 (c)(d)(e) 皆為錯誤敘述。
+
+---
+
+### Q86. `sch-084` — 下拉選單題
+
+**題目 ID**: `sch-084`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A Kanban team observes an average Work in Progress (WIP) of 20 items and a throughput of 4 items per day. Using Little's Law (WIP = Throughput × Cycle Time), the team's average Cycle Time is {{blank1}} days. If the team later reduces its average WIP to 12 items while throughput stays at 4 items per day, the new average Cycle Time would be {{blank2}} days.
+- 中: 某看板團隊觀察到平均在製品(WIP)為 20 項,產出率(Throughput)為每天 4 項。依據 Little's Law(WIP = Throughput × Cycle Time),此團隊的平均週期時間(Cycle Time)為 {{blank1}} 天。若團隊之後將平均 WIP 降低至 12 項,產出率仍維持每天 4 項,則新的平均週期時間為 {{blank2}} 天。
+
+**blank1**
+
+- (a) 3 / 3
+- (b) 5 / 5 ✅ **正解**
+- (c) 8 / 8
+
+**blank2**
+
+- (a) 3 / 3 ✅ **正解**
+- (b) 5 / 5
+- (c) 8 / 8
+
+
+**詳解**
+
+Little's Law 公式為 WIP = Throughput × Cycle Time,移項可得 Cycle Time = WIP ÷ Throughput。第一種情境:20 ÷ 4 = 5 天,對應 blank1。第二種情境:團隊降低 WIP 至 12 項後,12 ÷ 4 = 3 天,對應 blank2。此結果也說明:在產出率不變的前提下,降低在製品數量能有效縮短每個項目的平均週期時間,這是看板方法限制 WIP 的核心理論依據。
+
+---
+
+### Q87. `sch-085` — 點擊熱區題
+
+**題目 ID**: `sch-085`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: The four cards below name different schedule- or resource-related visualization tools. Click the one that displays, as a bar chart across time periods, how much of a given resource (such as a person or role) is required or allocated — making it easy to spot when that resource is loaded above its available capacity.
+- 中: 下方四張卡片列出不同的時程/資源視覺化工具。請點選「以長條圖呈現特定資源(如某人或某角色)在各時間區段所需或已分配數量,讓資源負荷超過可用產能時容易被發現」的工具。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Resource Histogram / 資源直方圖(Resource Histogram) ✅ **正解** [x=10,y=15,w=35,h=25]
+- (n2) Cumulative Flow Diagram / 累積流圖(CFD) [x=55,y=15,w=35,h=25]
+- (n3) Milestone Chart / 里程碑圖(Milestone Chart) [x=10,y=60,w=35,h=25]
+- (n4) Time-Scaled Logic Diagram / 時間刻度邏輯圖 [x=55,y=60,w=35,h=25]
+
+**詳解**
+
+資源直方圖(Resource Histogram)以長條圖呈現特定資源在各時間區段的需求或分配量,是辨識資源超額分配、及早採取資源撫平或平準措施的常用工具;累積流圖呈現的是工作項目在各工作階段隨時間累積的數量,用於觀察流動效率與瓶頸;里程碑圖只呈現重要檢核點日期;時間刻度邏輯圖則結合網路邏輯與時間比例,皆非本題描述的資源負荷視覺化工具。
+
+---
+
+### Q88. `sch-086` — 單選題
+
+**題目 ID**: `sch-086`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A Kanban team's average throughput is 5 items per day, and its average cycle time per item is 6 days. Using Little's Law (WIP = Throughput × Cycle Time), what is the team's average Work in Progress (WIP)?
+- 中: 某看板團隊的平均產出率(Throughput)為每天 5 項,每項平均週期時間(Cycle Time)為 6 天。依據 Little's Law(WIP = Throughput × Cycle Time),此團隊的平均在製品(WIP)為何?
+
+**選項**
+
+- (a) 1.2 items / 1.2 項
+- (b) 11 items / 11 項
+- (c) 30 items / 30 項 ✅ **正解**
+- (d) 0.83 items / 0.83 項
+
+**詳解**
+
+Little's Law 公式:WIP = Throughput × Cycle Time = 5 × 6 = 30 項,故答案為 (c)。(a) 誤將公式做除法(5÷6≈0.83 的相近錯誤);(b) 是加法的錯誤結果(5+6=11);(d) 則是 Throughput 除以 Cycle Time 的錯誤操作,皆非正確公式的應用方式。
+
+---
+
+### Q89. `sch-087` — 拖拉配對題
+
+**題目 ID**: `sch-087`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Drag and match each backlog prioritization technique to the description that best fits it.
+- 中: 請將下列待辦清單優先排序技巧拖曳配對到最符合的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: MoSCoW Prioritization / MoSCoW 優先排序法
+- p2: Dot Voting / 點點投票法(Dot Voting)
+- p3: 100-Point Method / 百點法(Monopoly Money)
+- p4: Kano Analysis / 卡諾分析(Kano Analysis)
+
+**選項池(拖曳目標)**
+
+- c1: Sorts items into four categories — Must have, Should have, Could have, and Won't have this time — to clarify what is essential versus optional / 將項目分成四類——必須有、應該有、可以有、這次不會有——以釐清何者為必要、何者為可有可無
+- c2: Each participant receives a limited number of sticky dots and places them directly on the backlog items they consider most important / 每位參與者獲得有限數量的貼紙圓點,直接貼在自己認為最重要的待辦項目上
+- c3: Each participant is given a fixed pool of points (or play money) to distribute across competing items according to how much they value them / 每位參與者獲得固定總額的點數(或遊戲貨幣),依自己重視的程度分配到不同的候選項目上
+- c4: Plots each feature by degree of functionality/investment against resulting customer satisfaction, distinguishing basic expected features from those that delight customers / 依「功能實現程度/投入」與「客戶滿意度」兩軸繪製各功能,區分出基本必要功能與能讓客戶驚喜的功能
+
+**✅ 正確配對**
+
+- p1 → c1: MoSCoW Prioritization → Sorts items into four categories — Must have, Should have, Could have, and Won't have this time — to clarify what is essential versus optional（MoSCoW 優先排序法 → 將項目分成四類——必須有、應該有、可以有、這次不會有——以釐清何者為必要、何者為可有可無）
+- p2 → c2: Dot Voting → Each participant receives a limited number of sticky dots and places them directly on the backlog items they consider most important（點點投票法(Dot Voting) → 每位參與者獲得有限數量的貼紙圓點,直接貼在自己認為最重要的待辦項目上）
+- p3 → c3: 100-Point Method → Each participant is given a fixed pool of points (or play money) to distribute across competing items according to how much they value them（百點法(Monopoly Money) → 每位參與者獲得固定總額的點數(或遊戲貨幣),依自己重視的程度分配到不同的候選項目上）
+- p4 → c4: Kano Analysis → Plots each feature by degree of functionality/investment against resulting customer satisfaction, distinguishing basic expected features from those that delight customers（卡諾分析(Kano Analysis) → 依「功能實現程度/投入」與「客戶滿意度」兩軸繪製各功能,區分出基本必要功能與能讓客戶驚喜的功能）
+
+**詳解**
+
+MoSCoW 以四個類別快速區分必要性;點點投票法與百點法都是讓利害關係人以有限資源(圓點或點數)分配偏好的排序方式,差別在於點點投票通常較粗略、百點法則能表達更細緻的相對重視程度;卡諾分析則以兩軸模型分析功能對客戶滿意度的影響,協助團隊辨識哪些功能屬於「基本門檻」、哪些屬於「加分驚喜」。四者皆是敏捷團隊用以決定待辦清單優先順序的常見技巧。
+
+---
+
+### Q90. `sch-088` — 單選題
+
+**題目 ID**: `sch-088`
+
+難度: `hard` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An activity has the following three-point estimates: Optimistic = 5 days, Most Likely = 9 days, Pessimistic = 17 days. What is the standard deviation of this activity's duration estimate?
+- 中: 某活動的三點估算如下:樂觀值(O)= 5 天、最可能值(M)= 9 天、悲觀值(P)= 17 天。此活動工期估算的標準差為何?
+
+**選項**
+
+- (a) 1.33 days / 1.33 天
+- (b) 1.67 days / 1.67 天
+- (c) 2.0 days / 2.0 天 ✅ **正解**
+- (d) 2.4 days / 2.4 天
+
+**詳解**
+
+標準差公式 = (P−O)/6 = (17−5)/6 = 12/6 = 2.0 天,故答案為 (c)。標準差愈大,代表悲觀值與樂觀值之間的差距愈大,此活動工期估算的不確定性也愈高;許多考生容易誤用 (P−O)/2 或漏記除以 6,而得出 (a)(b)(d) 等錯誤答案。
+
+---
+
+### Q91. `sch-089` — 多選題
+
+**題目 ID**: `sch-089`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Which two statements correctly describe Monte Carlo Simulation as used in schedule risk analysis? Select two.
+- 中: 關於蒙地卡羅模擬(Monte Carlo Simulation)在時程風險分析中的應用,下列哪兩項敘述正確?請選擇兩項。
+
+**選項**
+
+- (a) It runs the schedule network model many times using randomly varied input values (such as three-point duration estimates) to produce a probability distribution of possible finish dates / 它使用隨機變動的輸入值(如三點工期估算)反覆執行時程網路模型多次,產出可能完工日期的機率分布 ✅ **正解**
+- (b) Its output can express confidence levels, such as an 80% probability of finishing by a certain date, rather than a single fixed date / 其輸出結果可以表達信心水準,例如「有 80% 機率在某日期前完工」,而非單一固定日期 ✅ **正解**
+- (c) It guarantees the project will finish on the single most likely date shown by the simulation / 它保證專案一定會在模擬結果顯示的最可能日期完工
+- (d) It can only be used on small projects with fewer than ten activities / 它只能用於少於十項活動的小型專案
+- (e) It replaces the need to ever perform a forward and backward pass (CPM) on the network diagram / 它能完全取代在網路圖上執行順推法與逆推法(CPM)的需要
+
+**詳解**
+
+蒙地卡羅模擬透過大量隨機模擬,反映工期估算本身的不確定性,產出的是完工日期的機率分布而非單一保證日期,可用來向利害關係人溝通「多少信心水準能在某日期前完工」,故 (a)(b) 正確。(c) 錯誤,模擬結果是機率分布而非保證;(d) 錯誤,此技術常用於大型複雜專案,活動數量並無此類限制;(e) 錯誤,蒙地卡羅模擬是 CPM 分析之外的補充技術,並非取代關係。
+
+---
+
+### Q92. `sch-090` — 下拉選單題
+
+**題目 ID**: `sch-090`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: In Feature-Driven Development (FDD), the team first works with domain experts to build a high-level overall model of the system; this step is called {{blank1}}. The team then decomposes that model into a prioritized list of small, client-valued features; this step is called {{blank2}}.
+- 中: 在功能驅動開發(FDD)中,團隊首先與領域專家合作,建立系統的高階整體模型,此步驟稱為 {{blank1}};接著團隊將此模型拆解為一份依優先順序排列、以客戶價值為中心的小型功能清單,此步驟稱為 {{blank2}}。
+
+**blank1**
+
+- (a) Develop Overall Model / 建立整體模型(Develop Overall Model) ✅ **正解**
+- (b) Build Feature List / 建立功能清單(Build Feature List)
+
+**blank2**
+
+- (a) Develop Overall Model / 建立整體模型(Develop Overall Model)
+- (b) Build Feature List / 建立功能清單(Build Feature List) ✅ **正解**
+
+
+**詳解**
+
+FDD 五大流程依序為:①建立整體模型(Develop Overall Model,由領域專家協助定義核心概念與設計基石)②建立功能清單(Build Feature List,拆解模型並依相似性分組排序)③依功能規劃(Plan by Feature)④依功能設計(Design by Feature)⑤依功能建置(Build by Feature)。本題描述的第一步驟是整體模型的建立,對應 blank1;第二步驟則是將模型拆解為功能清單,對應 blank2。
+
+---
+
+### Q93. `sch-091` — 單選題
+
+**題目 ID**: `sch-091`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: While drafting the Schedule Management Plan, the PM compares several possible scheduling approaches — for example, a purely predictive network-diagram approach versus a hybrid approach using rolling-wave iterations — weighing each option's cost, schedule, resource, and risk trade-offs before selecting a methodology. What data analysis technique is the PM using?
+- 中: 在草擬時程管理計畫時,專案經理比較數種可能的排程方法——例如純預測型的網路圖方法,對比使用滾動式規劃迭代的混合式方法——並權衡各選項在成本、時程、資源與風險上的取捨,才決定採用的方法論。專案經理使用的是哪一種數據分析技術?
+
+**選項**
+
+- (a) Alternative Analysis / 替代方案分析(Alternative Analysis) ✅ **正解**
+- (b) Variance Analysis / 變異分析(Variance Analysis)
+- (c) Trend Analysis / 趨勢分析(Trend Analysis)
+- (d) Reserve Analysis / 儲備分析(Reserve Analysis)
+
+**詳解**
+
+替代方案分析(Alternative Analysis)是針對特定目標,評估並比較多種可行途徑或方案的成本、時程、資源與風險等條件,協助決策者選出最合適方案的技術,常用於制定時程管理計畫、財務管理計畫等規劃階段,故答案為 (a)。變異分析用於比較實際與計畫的差異;趨勢分析需觀察一段時間的績效模式;儲備分析則是評估風險應留多少時間或預算緩衝,三者皆與本題描述的「事前比較多種方法論選項」不同。
+
+---
+
+### Q94. `sch-092` — 拖拉配對題
+
+**題目 ID**: `sch-092`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each Earned Value term related to schedule performance to the description that best fits it.
+- 中: 請將下列與時程績效相關的實獲值(EVM)名詞拖曳配對到最符合的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Planned Value (PV) / 計畫值(PV)
+- p2: Earned Value (EV) / 實獲值(EV)
+- p3: Schedule Variance (SV) / 時程變異(SV)
+- p4: Schedule Performance Index (SPI) / 時程績效指標(SPI)
+
+**選項池(拖曳目標)**
+
+- c1: The budgeted value of the work that was scheduled to be completed by a given point in time (Planned % Complete × BAC) / 到特定時間點為止,「應該」完成的工作所對應的預算值(計畫完成% × BAC)
+- c2: The budgeted value of the work that has actually been completed by a given point in time (Actual % Complete × BAC) / 到特定時間點為止,「實際」已完成的工作所對應的預算值(實際完成% × BAC)
+- c3: EV minus PV; a negative result indicates the project is behind its planned schedule / EV 減 PV;結果為負代表專案落後於計畫時程
+- c4: EV divided by PV; a result below 1.0 indicates the project is behind its planned schedule / EV 除以 PV;結果小於 1.0 代表專案落後於計畫時程
+
+**✅ 正確配對**
+
+- p1 → c1: Planned Value (PV) → The budgeted value of the work that was scheduled to be completed by a given point in time (Planned % Complete × BAC)（計畫值(PV) → 到特定時間點為止,「應該」完成的工作所對應的預算值(計畫完成% × BAC)）
+- p2 → c2: Earned Value (EV) → The budgeted value of the work that has actually been completed by a given point in time (Actual % Complete × BAC)（實獲值(EV) → 到特定時間點為止,「實際」已完成的工作所對應的預算值(實際完成% × BAC)）
+- p3 → c3: Schedule Variance (SV) → EV minus PV; a negative result indicates the project is behind its planned schedule（時程變異(SV) → EV 減 PV;結果為負代表專案落後於計畫時程）
+- p4 → c4: Schedule Performance Index (SPI) → EV divided by PV; a result below 1.0 indicates the project is behind its planned schedule（時程績效指標(SPI) → EV 除以 PV;結果小於 1.0 代表專案落後於計畫時程）
+
+**詳解**
+
+PV(計畫值)與 EV(實獲值)是實獲值管理(EVM)的兩個基礎量測值,分別代表「應完成」與「實際完成」的工作預算價值;以兩者為基礎,SV(時程變異,相減)與 SPI(時程績效指標,相除)則是用來評估時程績效的中層指標,負的 SV 或小於 1.0 的 SPI 皆代表專案落後於時程基準,是監控時程(Monitor and Control Schedule)過程中常用的核心公式。
+
+---
+
+### Q95. `sch-093` — 單選題
+
+**題目 ID**: `sch-093`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A product owner takes the long-term Product Roadmap and works with the team to break it into a sequence of concrete releases, each containing a set of iterations aimed at delivering specific business capabilities to market. What is this activity called?
+- 中: 產品負責人將長期的產品路徑圖(Product Roadmap)拆解為一系列具體的發布(Release),每個發布包含數個迭代,旨在將特定的商業能力推向市場。這項活動稱為什麼?
+
+**選項**
+
+- (a) Agile Release Planning / 敏捷發布規劃(Agile Release Planning) ✅ **正解**
+- (b) Rolling Wave Planning / 滾動式規劃(Rolling Wave Planning)
+- (c) Backlog Refinement / 待辦清單精煉(Backlog Refinement)
+- (d) Sprint Planning / 衝刺規劃(Sprint Planning)
+
+**詳解**
+
+敏捷發布規劃(Agile Release Planning)是將高層級的產品路徑圖,拆解為一連串具體發布與迭代的規劃活動,協助團隊將長期願景轉化為可執行的短期交付步驟,故答案為 (a)。滾動式規劃是「近細遠粗」的漸進明細化規劃節奏,並非專指路徑圖拆解;待辦清單精煉是持續為待辦項目補充細節、估算與排序的活動;衝刺規劃則是單一迭代層級的規劃,範圍皆比敏捷發布規劃更小或性質不同。
+
+---
+
+### Q96. `sch-094` — 點擊熱區題
+
+**題目 ID**: `sch-094`
+
+難度: `hard` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: The diagram below shows a network with Kickoff followed by three parallel tasks — Beta, Gamma, and Delta — which all merge into Wrap-up. Kickoff takes 4 days, Beta takes 10 days, Gamma takes 7 days, Delta takes 2 days, and Wrap-up takes 5 days. Among the three parallel tasks, click the one whose Total Float is exactly 8 days.
+- 中: 下圖網路中,Kickoff 之後分為三條並行任務——Beta、Gamma、Delta,三者完成後皆匯流至 Wrap-up。Kickoff 需時 4 天、Beta 需時 10 天、Gamma 需時 7 天、Delta 需時 2 天、Wrap-up 需時 5 天。在三條並行任務中,請點選「總浮時恰好為 8 天」的任務。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Kickoff (4 days) / Kickoff(4天) [x=5,y=40,w=16,h=20]
+- (n2) Beta (10 days) / Beta(10天) [x=28,y=8,w=16,h=20]
+- (n3) Gamma (7 days) / Gamma(7天) [x=28,y=40,w=16,h=20]
+- (n4) Delta (2 days) / Delta(2天) ✅ **正解** [x=28,y=75,w=16,h=20]
+- (n5) Wrap-up (5 days) / Wrap-up(5天) [x=58,y=40,w=16,h=20]
+
+**節點連線(edges,方向性依賴關係,例如網路圖箭頭;有連線的圖面題出考題時不會打亂座標)**
+
+- n1 → n2
+- n1 → n3
+- n1 → n4
+- n2 → n5
+- n3 → n5
+- n4 → n5
+
+**詳解**
+
+三條路徑:Kickoff→Beta→Wrap-up = 4+10+5 = 19 天,最長,為要徑;Kickoff→Gamma→Wrap-up = 4+7+5 = 16 天,總浮時 = 19−16 = 3 天;Kickoff→Delta→Wrap-up = 4+2+5 = 11 天,總浮時 = 19−11 = 8 天。三條並行任務中,總浮時恰好為 8 天的是 Delta,故答案為 (n4)。Beta 所在路徑最長,總浮時為 0,是要徑上的任務。
+
+---
+
+### Q97. `sch-095` — 多選題
+
+**題目 ID**: `sch-095`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Which two statements correctly describe how Wideband Delphi and Planning Poker each help reduce bias when a team assigns story points? Select two.
+- 中: 關於團隊在分配故事點時,寬頻德爾菲法(Wideband Delphi)與撲克牌估算法(Planning Poker)如何協助降低偏誤,下列哪兩項敘述正確?請選擇兩項。
+
+**選項**
+
+- (a) In Wideband Delphi, estimates are gathered anonymously across multiple rounds so that team members are not unduly influenced by more vocal or senior colleagues (the bandwagon effect) / 在寬頻德爾菲法中,估算會經多輪匿名蒐集,使團隊成員不會過度受較資深或較敢發言的同事影響(從眾效應) ✅ **正解**
+- (b) In Planning Poker, team members reveal their estimate cards simultaneously, which helps prevent an early, visible estimate from anchoring everyone else's judgment / 在撲克牌估算法中,團隊成員同時亮出估算卡牌,有助於避免提早亮出的估算值錨定其他人的判斷 ✅ **正解**
+- (c) Affinity Estimating requires every item to be discussed individually and assigned a precise numeric point value before it can be grouped / 相對估算分組法(Affinity Estimating)要求每個項目都必須先被個別討論並賦予精確的數字點數,才能分組
+- (d) Both techniques guarantee that every team member's estimate will be numerically identical once the round is complete / 這兩種技巧都能保證一輪結束後,每位團隊成員的估算數字必定完全相同
+- (e) T-shirt sizing (S/M/L/XL) is a form of precise numeric estimation with no relative comparison involved / 衣服尺寸估算法(S/M/L/XL)是一種精確的數字估算方式,不涉及相對比較
+
+**詳解**
+
+寬頻德爾菲法透過多輪匿名蒐集估算,降低從眾效應(Bandwagon Effect)的影響,故 (a) 正確;撲克牌估算法讓成員同時亮牌,避免第一個公開的估算值錨定其他人的判斷,故 (b) 正確。(c) 錯誤,相對估算分組法(Affinity Estimating)的特色正是「不逐一詳細討論」,而是依相對大小快速分組;(d) 錯誤,這兩種技巧的目的是促成收斂與共識,而非保證數字完全一致,遇分歧仍需討論;(e) 錯誤,衣服尺寸估算法是相對、粗略的估算方式,並非精確數字估算。
+
+---
+
+### Q98. `sch-096` — 單選題
+
+**題目 ID**: `sch-096`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An organization wants a way to choose and tailor its own "way of working" (WoW) by drawing on practices from Scrum, Kanban, SAFe, and even traditional predictive approaches, rather than adopting a single prescribed method. Which of the following best describes what they are looking for?
+- 中: 某組織希望有一種方式,能夠融合 Scrum、看板、SAFe 甚至傳統預測型做法中的實務,自行選擇並客製化組織的「工作方式(WoW)」,而非採用單一固定方法論。下列何者最能描述他們正在尋找的方法?
+
+**選項**
+
+- (a) Disciplined Agile (DA) / 紀律敏捷(Disciplined Agile) ✅ **正解**
+- (b) Extreme Programming (XP) / 極限編程(XP)
+- (c) PRINCE2 / PRINCE2
+- (d) The Scrum Guide / Scrum 指南
+
+**詳解**
+
+紀律敏捷(Disciplined Agile, DA)是一套「工具」而非單一「方法論」,融合了 Agile、Lean、Kanban、SAFe 與傳統做法,協助組織依專案特性選擇並客製化自己的工作方式(Way of Working, WoW),強調「沒有一種方法適用所有情境」,故答案為 (a)。極限編程(XP)、Scrum 指南本身各自是具體且較為固定的單一方法論;PRINCE2 則是一套結構化的專案管理方法論,皆非本題所描述「協助選擇並融合多種方法」的工具型框架。
+
+---
+
+### Q99. `sch-097` — 拖拉配對題
+
+**題目 ID**: `sch-097`
+
+難度: `hard` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Drag and match each framework or method to the description that best fits it.
+- 中: 請將下列框架或方法拖曳配對到最符合的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: SAFe (Scaled Agile Framework) / SAFe(規模化敏捷框架)
+- p2: Disciplined Agile (DA) / 紀律敏捷(DA)
+- p3: Crystal / Crystal 方法
+- p4: FDD (Feature-Driven Development) / 功能驅動開發(FDD)
+
+**選項池(拖曳目標)**
+
+- c1: A framework for large enterprises that blends agile, lean, and DevOps principles to align multiple teams around common business objectives, typically requiring significant leadership commitment and training to adopt / 適用於大型企業的框架,融合敏捷、精實與 DevOps 原則,協助多團隊對齊共同商業目標,採用時通常需要高強度的領導投入與訓練
+- c2: A toolkit, rather than a single fixed method, that helps an organization choose and tailor its own way of working by drawing on agile, lean, Kanban, and even traditional practices / 一套工具而非單一固定方法,協助組織融合敏捷、精實、看板甚至傳統做法,自行選擇並客製化工作方式
+- c3: A family of lightweight methods whose specific practices scale up or down based on team size and project criticality, prioritizing people, interaction, and communication over heavy process / 一系列輕量級方法家族,依團隊規模與專案重要性調整具體實務作法,重視人員、互動與溝通勝過繁重流程
+- c4: A method centered on an upfront overall model and a prioritized feature list, suited to large, complex systems that need architectural discipline alongside iterative feature delivery / 一種以事前建立整體模型與功能優先清單為核心的方法,適用於需要架構紀律、同時採迭代式功能交付的大型複雜系統
+
+**✅ 正確配對**
+
+- p1 → c1: SAFe (Scaled Agile Framework) → A framework for large enterprises that blends agile, lean, and DevOps principles to align multiple teams around common business objectives, typically requiring significant leadership commitment and training to adopt（SAFe(規模化敏捷框架) → 適用於大型企業的框架,融合敏捷、精實與 DevOps 原則,協助多團隊對齊共同商業目標,採用時通常需要高強度的領導投入與訓練）
+- p2 → c2: Disciplined Agile (DA) → A toolkit, rather than a single fixed method, that helps an organization choose and tailor its own way of working by drawing on agile, lean, Kanban, and even traditional practices（紀律敏捷(DA) → 一套工具而非單一固定方法,協助組織融合敏捷、精實、看板甚至傳統做法,自行選擇並客製化工作方式）
+- p3 → c3: Crystal → A family of lightweight methods whose specific practices scale up or down based on team size and project criticality, prioritizing people, interaction, and communication over heavy process（Crystal 方法 → 一系列輕量級方法家族,依團隊規模與專案重要性調整具體實務作法,重視人員、互動與溝通勝過繁重流程）
+- p4 → c4: FDD (Feature-Driven Development) → A method centered on an upfront overall model and a prioritized feature list, suited to large, complex systems that need architectural discipline alongside iterative feature delivery（功能驅動開發(FDD) → 一種以事前建立整體模型與功能優先清單為核心的方法,適用於需要架構紀律、同時採迭代式功能交付的大型複雜系統）
+
+**詳解**
+
+SAFe 適合需要多團隊對齊、高規範的大型企業環境;紀律敏捷(DA)是協助組織融合多種方法、客製化工作方式的工具型框架;Crystal 是依團隊規模分級(如 Clear、Yellow、Orange 等)的輕量級方法家族,強調人員互動勝過流程;FDD 則透過事前整體模型與功能清單,兼顧架構紀律與迭代交付,適用於大型複雜系統。四者皆是因應不同組織規模與情境而發展出的方法論或框架,是「因材施教(Tailoring)」精神的具體展現。
+
+---
+
+### Q100. `sch-098` — 下拉選單題
+
+**題目 ID**: `sch-098`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A team takes its high-level Product Roadmap and breaks it down into a series of concrete {{blank1}}, each of which is further broken down into specific {{blank2}} that the team will work through sprint by sprint. This overall breakdown process is known as Agile Release Planning.
+- 中: 團隊將高層級的產品路徑圖(Product Roadmap)拆解為一系列具體的 {{blank1}},每個 {{blank1}} 再進一步拆解為團隊會逐個衝刺完成的具體 {{blank2}}。這整個拆解過程稱為敏捷發布規劃(Agile Release Planning)。
+
+**blank1**
+
+- (a) Releases / 發布(Releases) ✅ **正解**
+- (b) Story Points / 故事點(Story Points)
+
+**blank2**
+
+- (a) Releases / 發布(Releases)
+- (b) Iterations (Sprints) / 迭代(衝刺,Iterations/Sprints) ✅ **正解**
+
+
+**詳解**
+
+敏捷發布規劃(Agile Release Planning)將產品路徑圖由上而下拆解:先拆解為數個發布(Release),每個發布再進一步拆解為數個迭代(Iteration/Sprint),團隊即依此逐個迭代完成工作,故 blank1 應選「發布(Releases)」,blank2 應選「迭代(Iterations/Sprints)」。故事點是用於估算個別待辦項目工作量的單位,並非發布規劃拆解出的層級,不適用於本題的兩個空格。
+
+---
+
+### Q101. `sch-099` — 單選題
+
+**題目 ID**: `sch-099`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: During Develop Schedule, the risk register identifies several specific, analyzed risks — such as a known but uncertain permit delay — that could affect the project finish date. To protect the finish date against these already-identified risks, without changing the deterministic duration estimates of the activities themselves, what should the PM add to the schedule?
+- 中: 在發展時程過程中,風險登記冊列出數項已被具體分析的風險——例如已知但不確定的許可延遲——可能影響專案完工日。為了在不更動各活動本身確定性工期估算的前提下,保護完工日不受這些「已識別」風險的影響,專案經理應在時程中加入什麼?
+
+**選項**
+
+- (a) A contingency reserve (schedule buffer) sized based on the identified risks in the risk register / 依風險登記冊中已識別的風險訂定規模的權變儲備(時程緩衝) ✅ **正解**
+- (b) Unlimited crashing applied to every activity in the schedule / 對時程中每項活動都進行無上限的趕工
+- (c) A management reserve controlled directly by the sponsor, outside the PM's authority / 由贊助人直接掌控、專案經理權限之外的管理儲備
+- (d) Nothing, since three-point estimates already fully account for all possible risk / 不需要加入任何東西,因為三點估算已完全涵蓋所有可能的風險
+
+**詳解**
+
+針對已被識別且分析過的已知風險(Known-Unknowns),應加入權變儲備(Contingency Reserve,亦即時程緩衝),其規模通常依風險登記冊中的具體風險評估訂定,且屬於專案經理權限範圍內、納入時程基準管理,故答案為 (a)。無上限趕工並非因應已識別風險的做法,且會大幅增加成本;管理儲備(Management Reserve)則是用來因應「未知的未知」(Unknown-Unknowns),通常由管理層掌控、不納入基準;三點估算雖能反映活動本身的不確定性,但無法涵蓋風險登記冊中具體識別出的個別風險事件,仍需額外的權變儲備。
+
+---
+
+### Q102. `sch-100` — 多選題
+
+**題目 ID**: `sch-100`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Which two statements correctly describe when Feature-Driven Development (FDD) tends to be a good fit? Select two.
+- 中: 關於功能驅動開發(FDD)適合採用的情境,下列哪兩項敘述正確?請選擇兩項。
+
+**選項**
+
+- (a) It suits large, complex systems that benefit from an upfront overall model and strong architectural/design discipline / 它適合需要事前建立整體模型與強架構/設計紀律的大型複雜系統 ✅ **正解**
+- (b) It combines short, regular feature-level iterations with a domain-expert-driven overall model, making it useful when predictability and structured planning matter alongside iterative delivery / 它結合短期規律的功能層級迭代與由領域專家主導的整體模型,適合同時重視可預測性、結構化規劃與迭代交付的情境 ✅ **正解**
+- (c) It is intended primarily for very small teams building a minimum viable product with minimal upfront design / 它主要是為打造最小可行產品(MVP)的極小型團隊設計,幾乎不需要事前設計
+- (d) It eliminates the need for any feature list or planning once the overall model is complete / 一旦整體模型完成,就不再需要任何功能清單或規劃
+- (e) It cannot be combined with iterative, incremental delivery of working software / 它無法與可用軟體的迭代增量交付方式並用
+
+**詳解**
+
+FDD 適合大型、複雜系統,透過事前建立整體模型與依功能規劃/設計/建置,兼顧架構紀律與迭代交付的可預測性,故 (a)(b) 正確。(c) 錯誤,FDD 並非為極小型 MVP 團隊設計,反而更適合大型團隊與複雜系統;(d) 錯誤,建立功能清單、依功能規劃等後續步驟仍是 FDD 流程中不可或缺的部分;(e) 錯誤,FDD 本身即整合了敏捷開發與迭代增量交付的精神,並非與之互斥。
+
+---
+
+### Q103. `sch-101` — 拖拉配對題
+
+**題目 ID**: `sch-101`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each story point estimation technique to the description that best fits it.
+- 中: 請將下列故事點估算技巧拖曳配對到最符合的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Planning Poker / 撲克牌估算法(Planning Poker)
+- p2: Affinity Estimating / 相對估算分組法(Affinity Estimating)
+- p3: Wideband Delphi / 寬頻德爾菲法(Wideband Delphi)
+- p4: T-Shirt Sizing / 衣服尺寸估算法(T-Shirt Sizing)
+
+**選項池(拖曳目標)**
+
+- c1: Team members each privately select a Fibonacci-based numeric card and reveal their estimates simultaneously, discussing any large gaps before converging / 每位團隊成員各自私下選擇一張以費波那契數列為基礎的數字卡牌,同時亮牌,若估算差距過大則進一步討論後收斂
+- c2: Team members quietly sort work items into relative-size groupings based on how they compare to one another, without discussing each item individually in detail / 團隊成員安靜地依工作項目彼此的相對大小進行分組,不逐一詳細討論個別項目
+- c3: Estimates are collected anonymously across multiple rounds, with team members revising their estimates after seeing the group's (also anonymous) spread, to avoid one person's opinion dominating / 估算會經多輪匿名蒐集,團隊成員在看到(同樣匿名的)團體估算分布後修正自己的估算,以避免單一人的意見主導結果
+- c4: Items are sorted into broad relative categories such as S, M, L, and XL rather than being assigned precise numeric values / 項目被歸類到 S、M、L、XL 等粗略的相對類別中,而非被賦予精確的數字
+
+**✅ 正確配對**
+
+- p1 → c1: Planning Poker → Team members each privately select a Fibonacci-based numeric card and reveal their estimates simultaneously, discussing any large gaps before converging（撲克牌估算法(Planning Poker) → 每位團隊成員各自私下選擇一張以費波那契數列為基礎的數字卡牌,同時亮牌,若估算差距過大則進一步討論後收斂）
+- p2 → c2: Affinity Estimating → Team members quietly sort work items into relative-size groupings based on how they compare to one another, without discussing each item individually in detail（相對估算分組法(Affinity Estimating) → 團隊成員安靜地依工作項目彼此的相對大小進行分組,不逐一詳細討論個別項目）
+- p3 → c3: Wideband Delphi → Estimates are collected anonymously across multiple rounds, with team members revising their estimates after seeing the group's (also anonymous) spread, to avoid one person's opinion dominating（寬頻德爾菲法(Wideband Delphi) → 估算會經多輪匿名蒐集,團隊成員在看到(同樣匿名的)團體估算分布後修正自己的估算,以避免單一人的意見主導結果）
+- p4 → c4: T-Shirt Sizing → Items are sorted into broad relative categories such as S, M, L, and XL rather than being assigned precise numeric values（衣服尺寸估算法(T-Shirt Sizing) → 項目被歸類到 S、M、L、XL 等粗略的相對類別中,而非被賦予精確的數字）
+
+**詳解**
+
+四種故事點估算技巧皆強調相對比較而非絕對精確數字:撲克牌估算法透過同時亮牌避免錨定效應;相對估算分組法讓團隊快速依相對大小分組,不逐一細究;寬頻德爾菲法以多輪匿名蒐集降低從眾效應;衣服尺寸估算法則以最粗略的類別(S/M/L/XL)快速排序。這些技巧共同的精神是:與其追求不切實際的絕對精確度,不如善用團隊對相對規模的直覺判斷。
+
+---
+
+### Q104. `sch-102` — 下拉選單題
+
+**題目 ID**: `sch-102`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: To protect the schedule against risks that have already been identified and analyzed in the risk register (known-unknowns), the PM adds a {{blank1}} to the schedule, which remains within the PM's authority. To protect against risks that could not have been foreseen at all (unknown-unknowns), a separate {{blank2}}, typically controlled at a higher organizational level, is set aside instead.
+- 中: 為了保護時程不受已於風險登記冊中被識別並分析過的風險(已知的未知)影響,專案經理會在時程中加入 {{blank1}},此項儲備仍屬於專案經理的權限範圍;而為了因應完全無法預見的風險(未知的未知),則會另外預留 {{blank2}},通常由組織較高層級掌控。
+
+**blank1**
+
+- (a) Contingency Reserve / 權變儲備(Contingency Reserve) ✅ **正解**
+- (b) Management Reserve / 管理儲備(Management Reserve)
+
+**blank2**
+
+- (a) Contingency Reserve / 權變儲備(Contingency Reserve)
+- (b) Management Reserve / 管理儲備(Management Reserve) ✅ **正解**
+
+
+**詳解**
+
+權變儲備(Contingency Reserve)是針對風險登記冊中已識別、已分析過的已知風險(Known-Unknowns)所預留的緩衝,屬於專案經理權限範圍內,通常納入時程或成本基準管理,對應 blank1。管理儲備(Management Reserve)則是為因應完全無法預見的未知風險(Unknown-Unknowns)而預留,通常由贊助人或管理層掌控,不納入基準,需經正式變更程序才能動用,對應 blank2。兩者雖然都是「緩衝」的概念,但適用對象、管理權限與是否納入基準皆不相同,是考試中容易混淆的一組名詞。
+
+---
+
+### Q105. `sch-103` — 單選題
+
+**題目 ID**: `sch-103`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: The project is currently 10 days behind the approved schedule baseline. Ahead of the steering committee meeting, a senior manager privately asks the PM to report the project as "on track" in the summary slide, promising that the delay will "surely be recovered" next month. What should the PM do?
+- 中: 專案目前落後於核准時程基準 10 天。在指導委員會會議前,一位資深經理私下要求專案經理在摘要投影片上將專案回報為「進度正常」,並保證下個月「一定能追回」延遲。專案經理應如何做?
+
+**選項**
+
+- (a) Report the project as on track as requested, since the manager is confident it will recover / 依要求回報進度正常,因為經理有信心能追回進度
+- (b) Report the actual schedule status transparently, including the variance, root cause, and a recovery plan, regardless of the informal request / 誠實透明地回報實際時程狀況,包含變異、根本原因與復原計畫,不受此非正式要求影響 ✅ **正解**
+- (c) Report the project as on track in the meeting, but privately tell a few trusted stakeholders the truth / 在會議中回報進度正常,但私下告訴少數信任的利害關係人真相
+- (d) Decline to attend the steering committee meeting to avoid the conflict / 拒絕出席指導委員會會議以迴避此衝突
+
+**詳解**
+
+依照專業責任與誠實原則,專案經理應誠實、透明地回報專案實際狀況,包含時程變異、根本原因分析與具體的復原計畫,即使這與某位經理私下的非正式要求相牴觸,也不應為求好看而隱瞞或美化真實績效,故答案為 (b)。依要求虛報進度、對不同對象選擇性揭露真相,或迴避正式報告場合,皆違背誠實揭露與利害關係人溝通的專業責任,可能造成更大的信任危機與決策失誤。
+
+---
+
+### Q106. `sch-104` — 點擊熱區題
+
+**題目 ID**: `sch-104`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: The four cards below give possible reasons agile teams often use a Fibonacci-like sequence (1, 2, 3, 5, 8, 13, 21...) rather than a simple linear scale (1, 2, 3, 4, 5...) when assigning story points. Click the card that correctly explains this choice.
+- 中: 下方四張卡片列出敏捷團隊在分配故事點時,常使用費波那契數列(1、2、3、5、8、13、21…)而非簡單線性數列(1、2、3、4、5…)的可能原因。請點選正確解釋此做法的卡片。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) The widening gaps between larger numbers reflect that estimates naturally become less precise as item size and uncertainty grow, discouraging false precision on large items / 數字間隔隨數值增大而擴大,反映項目規模與不確定性愈大時,估算自然愈不精確,避免對大型項目做出虛假的精確估算 ✅ **正解** [x=10,y=15,w=35,h=25]
+- (n2) It guarantees that every story will be completed within exactly that many days / 它保證每個故事都會剛好在對應的天數內完成 [x=55,y=15,w=35,h=25]
+- (n3) It is required by the Scrum Guide as the only permitted estimation scale / 這是 Scrum 指南規定唯一允許使用的估算數列 [x=10,y=60,w=35,h=25]
+- (n4) It ensures the team's velocity will be identical in every sprint / 它能確保團隊的產出速度在每個衝刺都完全相同 [x=55,y=60,w=35,h=25]
+
+**詳解**
+
+費波那契類數列(如 1、2、3、5、8、13、21)隨數值增大,相鄰數字間的間距也隨之擴大,恰好反映出:項目規模愈大,估算的不確定性通常也愈高,團隊不應該、也難以對大型項目做出過度精確的估算,故答案為 (n1)。故事點本身只是相對規模的估算單位,不代表保證的完成天數;Scrum 指南也未硬性規定必須使用費波那契數列(團隊可依共識選擇任何相對估算尺度,如衣服尺寸);故事點與產出速度也無法保證每次迭代完全相同,產出速度本身即存在自然波動。
+
+---
+
+### Q107. `sch-105` — 多選題
+
+**題目 ID**: `sch-105`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Which two statements correctly describe the use of Kano Analysis for prioritizing product features? Select two.
+- 中: 關於使用卡諾分析(Kano Analysis)為產品功能排序優先順序,下列哪兩項敘述正確?請選擇兩項。
+
+**選項**
+
+- (a) It plots features along two axes — degree of functionality/investment and resulting customer satisfaction — to reveal which features yield disproportionate satisfaction gains / 它以「功能實現程度/投入」與「客戶滿意度」兩軸繪製功能,以呈現哪些功能能帶來不成比例的滿意度提升 ✅ **正解**
+- (b) It helps distinguish basic expected features from features that delight customers, informing which increments of work stakeholders may value most / 它有助於區分基本必要功能與能讓客戶驚喜的功能,協助判斷利害關係人可能最重視哪些工作增量 ✅ **正解**
+- (c) It assigns Fibonacci-based numeric estimates to each feature's implementation effort / 它會為每項功能的實作工作量賦予以費波那契數列為基礎的數字估算
+- (d) It is only used at project closure to evaluate lessons learned, never during backlog prioritization / 它只用於專案結束時評估經驗教訓,絕不會用於待辦清單排序
+- (e) It guarantees that features with the highest satisfaction score always require the least implementation effort / 它保證滿意度分數最高的功能,一定需要最少的實作工作量
+
+**詳解**
+
+卡諾分析以「功能實現程度」與「客戶滿意度」兩軸,協助團隊區分基本必要功能(不滿足會導致強烈不滿,滿足卻不特別加分)與能帶來超乎預期滿意度的功能,故 (a)(b) 正確。(c) 錯誤,賦予費波那契數字估算屬於故事點估算技巧(如撲克牌估算法),並非卡諾分析的功能;(d) 錯誤,卡諾分析通常用於規劃階段協助待辦清單排序,而非僅限於專案結束時的回顧;(e) 錯誤,滿意度高的功能不必然代表實作工作量最低,兩者並無必然的反向關係。
+
+---
+
+### Q108. `sch-106` — 單選題
+
+**題目 ID**: `sch-106`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Two days before the Sprint Review, the team is already fully committed to its sprint backlog based on its historical velocity. A stakeholder asks the PM to add "just one more small item" directly into the current sprint, without going through the Product Owner or discussing capacity with the team. What should the PM do?
+- 中: 距離衝刺審查(Sprint Review)還有兩天,團隊已依歷史產出速度全力承諾完成本次衝刺待辦清單。一位利害關係人要求專案經理直接在本次衝刺中「多加一個小項目」,未經產品負責人同意,也未與團隊討論產能。專案經理應如何做?
+
+**選項**
+
+- (a) Add the item immediately since it is described as small, to keep the stakeholder happy / 因為對方說是小項目,立即加入以讓利害關係人滿意
+- (b) Redirect the stakeholder to raise the request with the Product Owner for prioritization in the product backlog, and protect the team's current sprint commitment from unplanned mid-sprint additions / 引導該利害關係人將需求提交給產品負責人,由其在產品待辦清單中排序,並保護團隊目前的衝刺承諾不受計畫外的中途插入影響 ✅ **正解**
+- (c) Add the item and instruct the team to work unpaid overtime to absorb the extra work / 加入該項目,並指示團隊以無償加班來吸收額外工作量
+- (d) Silently remove a different committed item from the sprint without telling the team, to make room for the new one / 未告知團隊,私下從衝刺中移除另一項已承諾的項目,以騰出空間給新項目
+
+**詳解**
+
+依服務型領導(Servant Leadership)精神,專案經理應保護團隊的衝刺承諾不受計畫外中途插入的干擾,並尊重產品負責人對產品待辦清單的排序權責,將新需求導回正式管道由產品負責人評估與排序,故答案為 (b)。未經評估直接插入項目、以無償加班強迫吸收額外工作,或未告知團隊便私自調整承諾範圍,皆違背保護團隊、尊重團隊自組織與透明溝通的核心原則。
 
 ---

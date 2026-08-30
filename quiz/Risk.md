@@ -1,6 +1,6 @@
 # Risk — PMP 題庫
 
-> 共 72 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 108 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `hs-002` — 點擊熱區題
 
@@ -1989,5 +1989,1017 @@ Accept(接受)代表不主動採取任何行動來確保或提高機會發生的
 **詳解**
 
 維護一份即時、透明且對關鍵利害關係人開放的風險登錄表,能確保資訊一致且可追溯,是有效風險溝通的核心做法;延後回報、私下討論或刻意省略高嚴重度風險,都會造成資訊不對稱,損害利害關係人對專案的信任,也可能使風險惡化到難以處理的地步。
+
+---
+
+### Q73. `rsk-072` — 單選題
+
+**題目 ID**: `rsk-072`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project team is developing a brand-new AI-driven feature where cause-and-effect relationships are only apparent in hindsight, and the right solution can only be discovered through experimentation. According to the Cynefin framework, which decision-making sequence should the team follow?
+- 中: 專案團隊正在開發一項全新的 AI 驅動功能,其因果關係只有在事後才看得出來,且正確的解決方案只能透過實驗才能發現。根據 Cynefin 框架,團隊應遵循哪一種決策順序?
+
+**選項**
+
+- (a) Sense → Categorize → Respond / 感受→分類→回應
+- (b) Sense → Analyze → Respond / 感受→分析→回應
+- (c) Probe → Sense → Respond / 探討→感受→回應 ✅ **正解**
+- (d) Act → Sense → Respond / 行動→感受→回應
+
+**詳解**
+
+情境中因果關係僅能事後回顧、需透過實驗才能找出解法,屬於 Cynefin 框架中的 Complex(複雜)象限。此象限的處理方式是 Probe(探討,透過實驗、原型等方式探索)→ Sense(感受,觀察浮現的模式)→ Respond(回應,依浮現的模式採取行動),屬於 Emergent Practice(新興實務)。Simple 象限採 Sense→Categorize→Respond,對應 Best Practice;Complicated 象限採 Sense→Analyze→Respond,對應 Good Practice;Chaotic 象限則須先果斷行動穩定局勢,採 Act→Sense→Respond,對應 Novel Practice。
+
+---
+
+### Q74. `rsk-073` — 單選題
+
+**題目 ID**: `rsk-073`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A new initiative involves requirements that stakeholders still cannot agree on, and a technology stack the team has never used before. Using the Stacey Matrix, where does this initiative fall, and what development approach is most appropriate?
+- 中: 某新專案的需求利害關係人仍無法達成共識,且團隊從未使用過所採用的技術堆疊。依 Stacey Matrix,此專案落在哪個區域?應採用哪種開發方式較為適合?
+
+**選項**
+
+- (a) Simple zone; a predictive (waterfall) approach / 簡單區;應採用預測式(瀑布)方法
+- (b) Complicated zone; a predictive approach with heavy expert input / 複雜(Complicated)區;應採用大量仰賴專家判斷的預測式方法
+- (c) Complex zone; an adaptive (agile) approach / 複雜(Complex)區;應採用調適型(敏捷)方法 ✅ **正解**
+- (d) Chaos zone; the project should be cancelled immediately / 混亂(Chaos)區;應立即終止專案
+
+**詳解**
+
+Stacey Matrix 以「需求確定性」與「科技確定性」兩個維度判斷專案落點。此情境中需求(利害關係人無法達成共識)與科技(團隊從未使用過)兩者確定性都低,落在 Complex(複雜)區,適合採用調適型(敏捷)方法,透過短週期迭代、及早且頻繁地取得回饋來逐步降低不確定性。Simple 區(需求與科技皆確定)適合預測式方法;Complicated 區(僅其中一項不確定)仍可仰賴專家判斷以預測式為主;Chaos(混亂)區代表需求與科技的不確定程度更為極端、幾乎毫無共識,雖然風險最高,但仍應先設法穩定情勢,而非直接終止專案。
+
+---
+
+### Q75. `rsk-074` — 單選題
+
+**題目 ID**: `rsk-074`
+
+難度: `easy` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Before kicking off a critical release, the project team holds a session where members imagine that the release has already failed, and work backward to identify what could have caused that failure. What technique is the team using?
+- 中: 在啟動一項關鍵發布前,專案團隊舉行一場會議,讓成員想像發布已經失敗,並反向推導可能導致失敗的原因。團隊使用的是哪種技術?
+
+**選項**
+
+- (a) Retrospective / 回顧會議(Retrospective)
+- (b) Pre-Mortem / 事前驗屍(Pre-Mortem) ✅ **正解**
+- (c) Lessons Learned Register / 經驗教訓登錄表(Lessons Learned Register)
+- (d) Root Cause Analysis after an incident / 事故發生後的根本原因分析(Root Cause Analysis)
+
+**詳解**
+
+Pre-Mortem(事前驗屍)是在專案或發布「執行之前」,讓團隊假設專案已經失敗,藉此提前找出可能導致失敗的原因,並據此檢視、調整計畫以降低或消除這些風險,屬於前瞻性的風險識別技術。Retrospective(回顧會議)與 Lessons Learned 都是在活動「結束之後」回顧已發生的事;Root Cause Analysis 通常是在事故已經發生後才用來找出根本原因,同樣屬於事後分析,與 Pre-Mortem 的事前預防性質不同。
+
+---
+
+### Q76. `rsk-075` — 多選題
+
+**題目 ID**: `rsk-075`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Select three characteristics that describe a Complex Adaptive System (CAS), which also explain why agile frameworks are considered well suited to this environment.
+- 中: 請選出三項描述「複雜適應系統(Complex Adaptive System, CAS)」的特色,這些特色也說明了為何敏捷框架特別適合此類環境。
+
+**選項**
+
+- (a) Emergence: patterns and solutions arise organically from the interactions among individual agents / 湧現(Emergence):模式與解決方案透過個體互動自然浮現 ✅ **正解**
+- (b) Adaptability: the system's behavior evolves in response to feedback and new information / 適應性(Adaptability):系統行為會依回饋與新資訊而演變 ✅ **正解**
+- (c) Non-Linearity: a small change can produce a disproportionately large and unpredictable effect / 非線性(Non-Linearity):微小改變可能造成不成比例的巨大且難以預測的影響 ✅ **正解**
+- (d) Centralized command: all behavior is dictated top-down by a single controlling authority / 集中指揮:所有行為皆由單一權威由上而下決定
+- (e) Full predictability: outcomes can always be calculated precisely in advance / 完全可預測性:結果總能事先精確計算
+
+**詳解**
+
+CAS(複雜適應系統)由大量自主個體透過互動、學習與適應動態調整行為組成,具備湧現(Emergence,由下而上自然產生模式與解法)、適應性(Adaptability,依回饋調整行為)與非線性(Non-Linearity,微小改變可能造成巨大且無法預期的結果)等特色,並強調自我管理與回饋迴路(Feedback Loop)。敏捷框架(如 Scrum、Kanban、SAFe)鼓勵實驗、迭代學習與去中心化決策,正好呼應 CAS 的運作方式;集中指揮與完全可預測性則與 CAS 由下而上、充滿不確定性的本質相違背。
+
+---
+
+### Q77. `rsk-076` — 多選題
+
+**題目 ID**: `rsk-076`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A team is about to begin a high-risk integration phase. The PM facilitates a pre-mortem exercise before work starts. Select two activities that are part of a proper pre-mortem.
+- 中: 團隊即將展開一個高風險的整合階段。PM 在工作開始前主持一場事前驗屍(Pre-Mortem)活動。請選出屬於正確 Pre-Mortem 做法的兩項活動。
+
+**選項**
+
+- (a) Ask the team to imagine the integration has already failed and brainstorm all plausible causes / 請團隊想像整合已經失敗,並腦力激盪列出所有可能的失敗原因 ✅ **正解**
+- (b) Review the project plan afterward and adjust it to reduce or eliminate the identified failure causes / 事後檢視專案計畫,並調整計畫以降低或消除已識別的失敗原因 ✅ **正解**
+- (c) Wait until the integration actually fails before discussing what went wrong / 等到整合真的失敗後,才討論出了什麼問題
+- (d) Assign blame to the team member most likely to cause a failure / 指派究責給最可能導致失敗的團隊成員
+- (e) Skip documenting the causes since the exercise is only a thought experiment / 因為這只是思想實驗,不需要記錄任何原因
+
+**詳解**
+
+Pre-Mortem 的正確做法是在執行「之前」,讓團隊假設失敗已經發生、腦力激盪列出可能原因,再據此檢視並調整專案計畫以降低或消除這些風險因素。等到失敗真的發生才討論、究責特定成員,或不記錄任何討論結果,都違反 Pre-Mortem 事前預防、心理安全與可追溯的精神。
+
+---
+
+### Q78. `rsk-077` — 拖拉配對題
+
+**題目 ID**: `rsk-077`
+
+難度: `hard` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each Cynefin framework domain to its correct decision-making sequence and practice type.
+- 中: 請將下列 Cynefin 框架的每個象限,拖曳配對到其正確的決策順序與實務類型。
+
+**配對項目(拖曳來源)**
+
+- p1: Simple (Clear) / 簡單(Simple)
+- p2: Complicated / 複雜(Complicated)
+- p3: Complex / 複雜(Complex)
+- p4: Chaotic / 混亂(Chaotic)
+- p5: Disorder / 失序(Disorder)
+
+**選項池(拖曳目標)**
+
+- c1: Sense → Categorize → Respond; Best Practice applies / 感受→分類→回應;適用最佳實務(Best Practice)
+- c2: Sense → Analyze → Respond; Good Practice applies / 感受→分析→回應;適用良好實務(Good Practice)
+- c3: Probe → Sense → Respond; Emergent Practice applies / 探討→感受→回應;適用新興實務(Emergent Practice)
+- c4: Act → Sense → Respond; Novel Practice applies / 行動→感受→回應;適用新奇實務(Novel Practice)
+- c5: The domain cannot yet be determined; break the situation into smaller parts to identify which of the other four domains it belongs to / 尚無法判斷所屬象限;應將情況拆解成更小的部分,以判斷其屬於其他四個象限中的哪一個
+
+**✅ 正確配對**
+
+- p1 → c1: Simple (Clear) → Sense → Categorize → Respond; Best Practice applies（簡單(Simple) → 感受→分類→回應;適用最佳實務(Best Practice)）
+- p2 → c2: Complicated → Sense → Analyze → Respond; Good Practice applies（複雜(Complicated) → 感受→分析→回應;適用良好實務(Good Practice)）
+- p3 → c3: Complex → Probe → Sense → Respond; Emergent Practice applies（複雜(Complex) → 探討→感受→回應;適用新興實務(Emergent Practice)）
+- p4 → c4: Chaotic → Act → Sense → Respond; Novel Practice applies（混亂(Chaotic) → 行動→感受→回應;適用新奇實務(Novel Practice)）
+- p5 → c5: Disorder → The domain cannot yet be determined; break the situation into smaller parts to identify which of the other four domains it belongs to（失序(Disorder) → 尚無法判斷所屬象限;應將情況拆解成更小的部分,以判斷其屬於其他四個象限中的哪一個）
+
+**詳解**
+
+Cynefin 框架將問題情境分為四個明確象限加上中央的 Disorder(失序):Simple(簡單)採 Sense→Categorize→Respond,適用已知的 Best Practice;Complicated(複雜)採 Sense→Analyze→Respond,需仰賴專家分析,適用 Good Practice;Complex(複雜)因果關係僅能事後回顧,採 Probe→Sense→Respond,透過實驗讓解法浮現,屬於 Emergent Practice;Chaotic(混亂)情勢危急,須先果斷行動穩定局勢,採 Act→Sense→Respond,屬於 Novel Practice;Disorder(失序)則代表尚無法判斷情況屬於哪個象限,此時應將情境拆解成較小的部分,分別歸類到其他四個象限後再個別處理。
+
+---
+
+### Q79. `rsk-078` — 拖拉配對題
+
+**題目 ID**: `rsk-078`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Drag and match each term to its correct description.
+- 中: 請將下列每個名詞,拖曳配對到正確的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Risk-Adjusted Backlog / 風險調整式待辦清單
+- p2: Risk Spike / 風險突刺(Risk Spike)
+- p3: Risk Burn Down Chart / 風險燃盡圖
+- p4: Variance Analysis / 差異分析(Variance Analysis)
+- p5: Trend Analysis / 趨勢分析(Trend Analysis)
+
+**選項池(拖曳目標)**
+
+- c1: Re-sequences backlog items after risk responses are planned, so the team addresses higher-risk work earlier / 在風險回應規劃完成後,重新排序待辦清單,讓團隊優先處理風險較高的工作
+- c2: A short, timeboxed research activity used to explore and reduce uncertainty about a specific risk / 一種短期、限時的研究活動,用以探索並降低某項特定風險的不確定性
+- c3: A chart showing the amount of remaining risk exposure over time, where a thicker band represents greater risk / 顯示隨時間變化的剩餘風險曝險程度的圖表,帶狀越厚代表風險越高
+- c4: Compares actual results against the plan at a single point in time to measure the size of a deviation / 在單一時間點比較實際結果與計畫,以衡量偏差的大小
+- c5: Examines data over a period of time to detect a repeating pattern, distinguishing early-warning signals from indicators of what has already happened / 觀察一段時間內的資料以找出重複出現的模式,區分「事前預警訊號」與「事後已發生結果的指標」
+
+**✅ 正確配對**
+
+- p1 → c1: Risk-Adjusted Backlog → Re-sequences backlog items after risk responses are planned, so the team addresses higher-risk work earlier（風險調整式待辦清單 → 在風險回應規劃完成後,重新排序待辦清單,讓團隊優先處理風險較高的工作）
+- p2 → c2: Risk Spike → A short, timeboxed research activity used to explore and reduce uncertainty about a specific risk（風險突刺(Risk Spike) → 一種短期、限時的研究活動,用以探索並降低某項特定風險的不確定性）
+- p3 → c3: Risk Burn Down Chart → A chart showing the amount of remaining risk exposure over time, where a thicker band represents greater risk（風險燃盡圖 → 顯示隨時間變化的剩餘風險曝險程度的圖表,帶狀越厚代表風險越高）
+- p4 → c4: Variance Analysis → Compares actual results against the plan at a single point in time to measure the size of a deviation（差異分析(Variance Analysis) → 在單一時間點比較實際結果與計畫,以衡量偏差的大小）
+- p5 → c5: Trend Analysis → Examines data over a period of time to detect a repeating pattern, distinguishing early-warning signals from indicators of what has already happened（趨勢分析(Trend Analysis) → 觀察一段時間內的資料以找出重複出現的模式,區分「事前預警訊號」與「事後已發生結果的指標」）
+
+**詳解**
+
+敏捷風險工具中,風險調整式待辦清單是在風險回應規劃後,將高風險項目排序提前處理;風險突刺(Risk Spike)是短期限時的研究活動,用來探索與降低特定技術或需求風險的不確定性;風險燃盡圖以帶狀厚度呈現隨時間變化的剩餘風險程度,帶狀越厚風險越高。差異分析(Variance Analysis)是在單一時間點比較實際與計畫的差距;趨勢分析(Trend Analysis)則需要一段時間的觀察以找出模式,並可進一步分為 Leading Metric(即將發生狀況的早期預警指標)與 Lagging Metric(已發生狀況的落後指標)兩種。
+
+---
+
+### Q80. `rsk-079` — 下拉選單題
+
+**題目 ID**: `rsk-079`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A project team notices that code review turnaround time has been steadily increasing over the past three sprints, which signals that a schedule risk is about to emerge before it actually causes a delay — this is an example of a {{blank1}}. In contrast, the number of production defects reported after last month's release only tells the team what has already happened, making it an example of a {{blank2}}.
+- 中: 專案團隊注意到過去三個衝刺(Sprint)以來,程式碼審查(Code Review)所需時間持續增加,這在時程風險真正造成延誤之前就預先發出警訊,屬於 {{blank1}} 的範例。相對地,上個月發布後回報的正式環境缺陷數量,只能告訴團隊已經發生的事,屬於 {{blank2}} 的範例。
+
+**blank1**
+
+- (a) Leading Metric / 領先指標(Leading Metric) ✅ **正解**
+- (b) Lagging Metric / 落後指標(Lagging Metric)
+
+**blank2**
+
+- (a) Leading Metric / 領先指標(Leading Metric)
+- (b) Lagging Metric / 落後指標(Lagging Metric) ✅ **正解**
+
+
+**詳解**
+
+趨勢分析(Trend Analysis)需要觀察一段時間的資料以找出模式,並可分為 Leading Metric(領先指標,即將發生狀況的早期訊號,能在風險真正造成衝擊前示警)與 Lagging Metric(落後指標,已經發生狀況的結果性指標)。程式碼審查時間持續拉長屬於能預先示警的領先指標;發布後才回報的缺陷數量則只反映已發生的結果,屬於落後指標。
+
+---
+
+### Q81. `rsk-080` — 點擊熱區題
+
+**題目 ID**: `rsk-080`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: The Stacey Matrix judges a project along two axes: requirements certainty and technology certainty. Click the zone that represents LOW requirements certainty and LOW technology certainty (but not yet a total lack of agreement), where an adaptive (agile) approach is most appropriate.
+- 中: Stacey Matrix 依「需求確定性」與「科技確定性」兩軸來判斷專案落點。請點選「需求確定性低」且「科技確定性低」(但尚未到完全沒有共識的程度)、最適合採用調適型(敏捷)方法的區域。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (z1) Simple: requirements clear, technology known / 簡單(Simple):需求清楚、科技已知 [x=5,y=40,w=20,h=20]
+- (z2) Complicated: requirements clear, technology uncertain / 複雜(Complicated):需求清楚、科技不確定 [x=28,y=40,w=20,h=20]
+- (z3) Complex: requirements unclear, technology uncertain / 複雜(Complex):需求不清楚、科技不確定 ✅ **正解** [x=51,y=40,w=20,h=20]
+- (z4) Chaos: requirements in conflict, technology completely unknown, no agreement at all / 混亂(Chaos):需求相互矛盾、科技完全未知,毫無共識 [x=74,y=40,w=20,h=20]
+
+**詳解**
+
+Stacey Matrix 中,Simple(簡單)區代表需求與科技皆確定,適合預測式方法;Complicated(複雜)區代表其中一項不確定,仍可仰賴專家判斷以預測式為主;Complex(複雜)區代表需求與科技兩者確定性都低,但團隊仍有基本共識可循,此區最適合以調適型(敏捷)方法透過短週期迭代與頻繁回饋來逐步降低不確定性;Chaos(混亂)區則是不確定程度更為極端、幾乎毫無共識,須先設法穩定情勢,才能將情境帶回可管理的區域。
+
+---
+
+### Q82. `rsk-081` — 單選題
+
+**題目 ID**: `rsk-081`
+
+難度: `easy` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A risk has a 12% probability of occurring. If it occurs, it will cause a $150,000 cost overrun. What is the Expected Monetary Value (EMV) of this risk?
+- 中: 某風險發生機率為 12%,一旦發生將造成 15 萬美金的成本超支。此風險的期望貨幣價值(EMV)為多少?
+
+**選項**
+
+- (a) -$18,000 / -$18,000 ✅ **正解**
+- (b) -$150,000 / -$150,000
+- (c) -$12,000 / -$12,000
+- (d) $18,000 / $18,000
+
+**詳解**
+
+EMV = 機率 × 衝擊金額 = 12% × (-$150,000) = -$18,000。因為是威脅(負面風險),EMV 為負值,代表預期損失金額;(c) 誤將機率百分比直接當成金額計算。
+
+---
+
+### Q83. `rsk-082` — 單選題
+
+**題目 ID**: `rsk-082`
+
+難度: `easy` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An opportunity has a 70% probability of occurring. If it occurs, it will generate an $18,000 bonus for early delivery. What is the Expected Monetary Value (EMV) of this opportunity?
+- 中: 某機會有 70% 機率發生,一旦發生將因提前交付獲得 1.8 萬美金獎金。此機會的期望貨幣價值(EMV)為多少?
+
+**選項**
+
+- (a) $18,000 / $18,000
+- (b) $12,600 / $12,600 ✅ **正解**
+- (c) $5,400 / $5,400
+- (d) $70,000 / $70,000
+
+**詳解**
+
+EMV = 70% × $18,000 = $12,600。因為是機會(正面風險),EMV 為正值,代表預期收益金額;(c) 誤用互補機率 30% 計算(30% × $18,000 = $5,400)。
+
+---
+
+### Q84. `rsk-083` — 單選題
+
+**題目 ID**: `rsk-083`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project faces a risk with a 50% probability of causing an $80,000 loss. The PM is considering a mitigation action costing $18,000 that would reduce the probability to 15% (the impact stays at $80,000 if it still occurs). Compare the net expected value of "do nothing" versus "mitigate," and determine which option the PM should choose.
+- 中: 專案面臨一項風險,有 50% 機率造成 8 萬美金損失。PM 正考慮花費 1.8 萬美金採取減緩措施,可將發生機率降至 15%(若仍發生,衝擊金額不變)。請比較「不採取行動」與「採取減緩措施」的淨期望值,並判斷 PM 應選擇哪個方案。
+
+**選項**
+
+- (a) Do nothing: net EV = -$40,000; choose to do nothing / 不採取行動:淨期望值 -$40,000,應選擇不採取行動
+- (b) Mitigate: net EV = -$30,000; choose to mitigate / 採取減緩措施:淨期望值 -$30,000,應選擇減緩 ✅ **正解**
+- (c) Mitigate: net EV = -$18,000; choose to mitigate / 採取減緩措施:淨期望值 -$18,000,應選擇減緩
+- (d) Both options have equal expected value / 兩者期望值相同,選哪個都可以
+
+**詳解**
+
+不採取行動 EMV = 50% × (-$80,000) = -$40,000。採取減緩措施淨期望值 = 減緩成本 $18,000 + 剩餘風險期望值(15% × $80,000 = $12,000)= -$30,000。因為 -$30,000 優於(損失小於)-$40,000,故應選擇採取減緩措施,可節省 $10,000;(c) 誤將剩餘風險期望值遺漏未加總計算。
+
+---
+
+### Q85. `rsk-084` — 單選題
+
+**題目 ID**: `rsk-084`
+
+難度: `hard` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: The PM is comparing two options for a subsystem. Option A (in-house build) costs a fixed $45,000. Option B (outsourcing) has a 65% chance of costing $30,000 and a 35% chance of costing $85,000 (due to rework risk). Which option has the lower expected cost, and by how much?
+- 中: PM 正在比較某子系統的兩項方案。方案 A(內部建置)固定成本 4.5 萬美金。方案 B(外包)有 65% 機率成本為 3 萬美金、35% 機率成本為 8.5 萬美金(因返工風險)。哪個方案期望成本較低?低多少?
+
+**選項**
+
+- (a) Option A; expected cost is lower by $4,250 / 方案 A;期望成本較低,少 $4,250 ✅ **正解**
+- (b) Option B; expected cost is lower by $4,250 / 方案 B;期望成本較低,少 $4,250
+- (c) Option A; expected cost is lower by $19,500 / 方案 A;期望成本較低,少 $19,500
+- (d) Both options have the same expected cost / 兩方案期望成本相同
+
+**詳解**
+
+方案 B 的期望成本 = 65% × $30,000 + 35% × $85,000 = $19,500 + $29,750 = $49,250。方案 A 為固定成本 $45,000,低於方案 B 的期望成本 $49,250,故應選擇方案 A,可省下 $4,250;(c) 誤將差額算成方案 B 其中一個分支的加權金額,而非兩方案的總差距。
+
+---
+
+### Q86. `rsk-085` — 單選題
+
+**題目 ID**: `rsk-085`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: While reviewing upcoming legislation, the PM learns that a proposed nationwide regulatory change—if enacted—could force the entire product line (not just this project) to be redesigned, an outcome far beyond the scope of any single project's budget or schedule authority. What should the PM do?
+- 中: PM 在檢視即將上路的法規時發現,一項可能通過的全國性法規變動,一旦生效將迫使整個產品線(而非僅此專案)重新設計,其影響遠超出任何單一專案的預算或時程職權範圍。PM 應該怎麼做?
+
+**選項**
+
+- (a) Handle it independently using Mitigate, since the PM is ultimately responsible for all project risks / 由 PM 獨自使用減緩(Mitigate)策略處理,因為 PM 對所有專案風險負最終責任
+- (b) Escalate the risk to the sponsor, PMO, or portfolio/executive level, since its impact and required decision exceed the PM's authority / 將此風險上呈給發起人、PMO 或投資組合/高層,因為其衝擊與所需決策已超出 PM 職權範圍 ✅ **正解**
+- (c) Ignore it until the regulation is officially enacted, since it is still uncertain / 在法規正式生效前先忽略此風險,因為目前仍不確定
+- (d) Add it to a watch list and take no further action, since it involves the whole product line / 將其加入觀察清單且不再進一步處理,因為它涉及整個產品線
+
+**詳解**
+
+Escalate(上呈)適用於風險的影響範圍或所需決策超出 PM 或專案本身的職權(如影響整個產品線、組織策略層級),此時應上報給 Sponsor、PMO 或投資組合/高層決策,而非由 PM 自行以 Mitigate 等方式處理;完全忽略或僅記錄於觀察清單卻不採取任何後續行動,都可能讓組織錯失及早因應的機會。
+
+---
+
+### Q87. `rsk-086` — 單選題
+
+**題目 ID**: `rsk-086`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: The executive steering committee is not concerned with any single identified risk in isolation. Instead, they want to know the combined effect of all individual risks plus broader sources of uncertainty (such as overall market volatility and organizational change) on whether the project will meet its strategic objectives. Which concept are they asking about?
+- 中: 執行指導委員會並不關心任何單一已識別風險本身。他們想了解的是,所有個別風險加上更廣泛的不確定性來源(如整體市場波動、組織變動)加總後,對專案能否達成策略目標的綜合影響。委員會詢問的是哪一項概念?
+
+**選項**
+
+- (a) Individual Project Risk / 個別專案風險(Individual Project Risk)
+- (b) Overall Project Risk / 整體專案風險(Overall Project Risk) ✅ **正解**
+- (c) Risk Register / 風險登錄表(Risk Register)
+- (d) Risk Trigger / 風險觸發徵兆(Risk Trigger)
+
+**詳解**
+
+Overall Project Risk(整體專案風險)是所有個別風險加上其他不確定性來源(如市場波動、組織變動等)加總後,對專案整體目標(尤其是策略層級目標)造成的綜合曝險程度,常是高層決策者關注的層級;Individual Project Risk(個別專案風險)則是可能影響單一或多項活動、目標的特定不確定事件,是 PM 團隊日常管理的主要對象;Risk Register 是逐項風險紀錄,Risk Trigger 是風險即將發生的徵兆,皆非題目描述的整體加總概念。
+
+---
+
+### Q88. `rsk-087` — 單選題
+
+**題目 ID**: `rsk-087`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: While configuring a new module, a mid-level developer notices a subtle flaw that could cause intermittent data loss under rare conditions. The developer is unsure whether it's significant enough to bother the PM, and past experience on other projects has taught them that raising "unproven" concerns sometimes draws criticism. Which action best reflects the behavior the PM should be actively cultivating on this team?
+- 中: 一位中階工程師在設定新模組時,注意到一個可能在罕見條件下導致間歇性資料遺失的細微瑕疵。該工程師不確定是否嚴重到值得告知 PM,且過去在其他專案的經驗讓他學到,提出「未經證實」的疑慮有時會招來批評。下列哪一項行動最能反映 PM 應該在此團隊中積極培養的行為?
+
+**選項**
+
+- (a) The developer should quietly monitor the situation alone and only raise it once it becomes a confirmed failure / 工程師應獨自默默觀察,直到確認真的失效才提出
+- (b) The developer should feel safe raising the concern immediately, even while still uncertain, without fear of blame or ridicule / 工程師應能安心立即提出疑慮,即使仍不確定,也不必擔心被責備或嘲笑 ✅ **正解**
+- (c) The developer should only mention it during the annual performance review / 工程師應只在年度績效考核時提及
+- (d) The developer should report it anonymously to avoid any association with their name / 工程師應匿名回報,避免與自己的名字產生任何關聯
+
+**詳解**
+
+建立心理安全感(Psychological Safety),讓團隊成員即使在不確定的情況下也能安心、及早提出疑慮而不必擔心被責備或嘲笑,是 PM 應積極培養的團隊文化,能讓風險在造成實際衝擊前就被及早發現與處理;要求成員獨自觀察到確認失效才回報、拖到績效考核才提、或必須匿名才敢回報,都反映團隊缺乏心理安全感,不利於風險及早浮現。
+
+---
+
+### Q89. `rsk-088` — 單選題
+
+**題目 ID**: `rsk-088`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: After the PMO announces that each team's average risk-response turnaround time will now be tracked and shown on a public dashboard reviewed by senior executives, the team's reported response times immediately improve, even though no new tools, staffing, or process changes were introduced. What phenomenon does this most likely illustrate?
+- 中: PMO 宣布將追蹤各團隊的平均風險回應處理時間,並公開顯示在高層主管會檢視的儀表板上,結果團隊回報的回應時間立刻改善,儘管並未導入任何新工具、人力或流程變動。這最可能反映的是哪一種現象?
+
+**選項**
+
+- (a) Vanity Metrics / 虛榮指標(Vanity Metrics)
+- (b) Hawthorne Effect / 霍桑效應(Hawthorne Effect) ✅ **正解**
+- (c) Confirmation Bias / 確認偏誤(Confirmation Bias)
+- (d) Correlation vs Causation / 相關性與因果關係的混淆
+
+**詳解**
+
+霍桑效應(Hawthorne Effect)指人們意識到自己正被觀察或衡量時,會不自覺地改變行為以提升表現,即使實際的工具、人力或流程都沒有改變;虛榮指標指數字好看但無助於決策的指標;確認偏誤是選擇性使用支持既有信念的資料;相關性與因果關係混淆則是誤將兩者同時發生的現象當成因果關係,三者皆與題目描述的「被觀察即改變行為」現象不同。
+
+---
+
+### Q90. `rsk-089` — 單選題
+
+**題目 ID**: `rsk-089`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Before starting risk identification, the PM is required by the PMO to use the organization's standardized Risk Breakdown Structure template and a pre-approved risk categorization scheme, both maintained centrally and updated based on lessons learned across past projects. This requirement is an example of which type of influence on the project?
+- 中: 在開始識別風險前,PMO 要求 PM 必須使用組織標準化的風險分解結構(RBS)範本,以及一套經核准的風險分類方案,兩者皆由組織集中維護,並依過往專案的經驗教訓持續更新。這項要求屬於哪一種對專案的影響因素?
+
+**選項**
+
+- (a) Enterprise Environmental Factor (EEF) / 事業環境因素(EEF)
+- (b) Organizational Process Asset (OPA) / 組織過程資產(OPA) ✅ **正解**
+- (c) Work Performance Data / 工作績效數據
+- (d) Assumption Log / 假設紀錄表
+
+**詳解**
+
+組織集中維護、可重複使用、並隨經驗教訓持續更新的標準範本與分類方案(如標準化 RBS 範本、風險分類方案),屬於組織過程資產(OPA);事業環境因素(EEF)通常指組織無法直接控制、屬於外部或既有結構性條件的因素(如市場狀況、組織文化);工作績效數據是活動執行過程中蒐集的原始觀察值;假設紀錄表則是記錄專案假設與限制的文件,皆非此處描述的標準化範本與流程資產。
+
+---
+
+### Q91. `rsk-090` — 多選題
+
+**題目 ID**: `rsk-090`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: The PM notices a troubling pattern on the team over the past two months. Select three observations below that are warning signs the team lacks psychological safety around raising risks.
+- 中: PM 注意到過去兩個月團隊出現令人擔憂的模式。請選出下列三項顯示團隊缺乏「風險回報心理安全感」的警訊。
+
+**選項**
+
+- (a) Risks are only mentioned after they have already become full-blown issues / 風險總是在已經變成完整問題後才被提及 ✅ **正解**
+- (b) When a risk materializes, the team's first instinct is to identify who is to blame rather than how to respond / 風險一旦發生,團隊的第一反應是找出該究責的人,而非思考如何回應 ✅ **正解**
+- (c) New risks are only ever discussed in private one-on-one conversations, never in open team settings / 新風險永遠只在私下一對一對話中討論,從不在公開的團隊場合提出 ✅ **正解**
+- (d) The team maintains a shared, up-to-date risk register visible to all members / 團隊維護一份共享、即時更新且對所有成員可見的風險登錄表
+- (e) Team members openly disagree with the PM's risk assessments during planning meetings / 團隊成員在規劃會議中公開對 PM 的風險評估提出不同意見
+
+**詳解**
+
+風險總是拖到變成問題才提及、發生後先究責而非解決、只敢私下一對一討論而不敢公開提出,都是團隊缺乏心理安全感的典型警訊;反之,維護公開透明的風險登錄表、以及成員能公開表達與 PM 不同的風險判斷,都是心理安全感健康的正面指標,而非警訊。
+
+---
+
+### Q92. `rsk-091` — 多選題
+
+**題目 ID**: `rsk-091`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: When planning how risk management will be structured for a new project, the PM draws on several organizational-level resources. Select three examples below of Organizational Process Assets (OPAs) that would typically support this effort.
+- 中: 在規劃新專案的風險管理架構時,PM 運用了數項組織層級的資源。請選出下列三項通常能支援此項工作的組織過程資產(OPA)範例。
+
+**選項**
+
+- (a) A centrally maintained repository of lessons learned and risk data from prior, similar projects / 中央維護的過往類似專案經驗教訓與風險資料庫 ✅ **正解**
+- (b) A standardized Risk Breakdown Structure (RBS) template used across the organization / 組織通用的標準化風險分解結構(RBS)範本 ✅ **正解**
+- (c) The organization's documented risk management policies and standard procedures / 組織已文件化的風險管理政策與標準作業程序 ✅ **正解**
+- (d) This specific project's current, in-progress Risk Register / 本專案目前進行中的風險登錄表
+- (e) This specific project's approved budget figure / 本專案已核准的預算金額
+
+**詳解**
+
+過往專案的經驗教訓庫、組織通用的 RBS 範本、以及已文件化的風險管理政策與標準作業程序,皆屬於組織層級、可重複使用於多個專案的組織過程資產(OPA);本專案自身的風險登錄表與已核准預算則是這個特定專案的產出/文件,屬於專案文件而非組織層級的過程資產。
+
+---
+
+### Q93. `rsk-092` — 多選題
+
+**題目 ID**: `rsk-092`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Leading a fully distributed team across multiple time zones, the PM wants to increase the odds that emerging risks are surfaced early rather than discovered too late. Select three practices that would help build this culture.
+- 中: 帶領一個跨多時區、完全遠端分散的團隊,PM 希望提高新興風險能被及早發現、而非太晚才被發覺的機率。請選出下列三項有助於建立此文化的做法。
+
+**選項**
+
+- (a) Offer multiple channels (chat, async video, anonymous form) so team members can raise concerns in whatever way feels safest to them / 提供多種管道(聊天、非同步影片、匿名表單),讓成員能以自己覺得最安心的方式提出疑慮 ✅ **正解**
+- (b) Have the PM openly share a past risk they personally missed or misjudged, modeling that admitting uncertainty is safe / PM 主動公開分享自己過去曾錯過或誤判的風險,示範承認不確定性是安全的 ✅ **正解**
+- (c) Publicly thank team members who flag a potential risk early, even if it later turns out to be minor or unfounded / 公開感謝及早提出潛在風險的成員,即使該風險事後證實輕微或不成立 ✅ **正解**
+- (d) Require every raised concern to pass through at least three levels of managerial approval before being logged / 要求每項提出的疑慮須經至少三層主管核准後才能被登錄
+- (e) Quietly note which team members raise the most "false alarm" risks so their input can be weighted less in the future / 私下記錄哪些成員提出最多「假警報」風險,以便未來降低其意見的權重
+
+**詳解**
+
+提供多元且安全的回報管道、PM 以身作則公開承認自己過去的疏漏、公開肯定即使事後證實輕微的及早示警行為,都能降低回報風險的心理門檻,建立主動示警的文化;要求層層核准才能登錄風險、或私下降低特定成員意見的權重,都會提高回報成本、抑制團隊未來主動發聲的意願。
+
+---
+
+### Q94. `rsk-093` — 多選題
+
+**題目 ID**: `rsk-093`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: To improve risk management, a PM sets "number of open risks closed this month" as the team's primary KPI. A few months later: the count of closed risks looks great, but several risks were closed prematurely without real mitigation; when a stakeholder notices that closed-risk counts happened to rise the same month sprint velocity also rose, they assume one caused the other without further investigation; and after being told the closure target was unrealistic given the team's actual capacity, morale visibly drops. Select three measurement pitfalls illustrated in this situation.
+- 中: 為了改善風險管理,PM 將「本月已結案的風險數量」設為團隊主要 KPI。幾個月後:結案風險數量看起來很亮眼,但其中數項風險其實是在未真正落實緩解措施的情況下就被提前結案;當一位利害關係人注意到結案風險數量上升剛好與衝刺速度上升發生在同一個月,便未經進一步查證就認定兩者互為因果;而在得知結案目標其實遠超出團隊實際產能後,團隊士氣明顯下滑。請選出此情境中展現的三項衡量陷阱。
+
+**選項**
+
+- (a) Vanity Metrics — the closure count looks impressive but does not reflect genuine risk reduction / 虛榮指標(Vanity Metrics)——結案數字好看,但未反映真正的風險降低 ✅ **正解**
+- (b) Correlation vs Causation — assuming one metric caused another simply because they moved together / 相關性與因果關係混淆——僅因兩項指標同時變動就認定其中一項導致另一項 ✅ **正解**
+- (c) Demoralization — setting an unrealistic target lowers team morale / 士氣低落(Demoralization)——設定不切實際的目標降低了團隊士氣 ✅ **正解**
+- (d) SMART goal-setting — the KPI is Specific, Measurable, Achievable, Relevant, and Time-bound / SMART 目標設定——此 KPI 符合具體、可衡量、可達成、相關、有時限的原則
+- (e) Risk Data Quality Assessment — evaluating the accuracy and reliability of risk data before analysis / 風險資料品質評估——在分析前評估風險資料的準確性與可靠性
+
+**詳解**
+
+結案數字亮眼卻未反映真實風險降低,是虛榮指標(Vanity Metrics);僅因兩項指標同時上升就斷定其中一項導致另一項,是相關性與因果關係混淆;得知目標超出實際產能後士氣下滑,是士氣低落(Demoralization)常見度量陷阱。此情境中的 KPI 明顯不符合 SMART 中的「可達成(Achievable)」原則,故(d)並非正確描述;風險資料品質評估則是另一項獨立技術,與題目描述的度量陷阱無關。
+
+---
+
+### Q95. `rsk-094` — 多選題
+
+**題目 ID**: `rsk-094`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A previously approved response — upgrading the firewall to mitigate a cybersecurity threat — is now due for execution. Select three actions that correctly belong to the Implement Risk Responses process.
+- 中: 一項先前已核准的回應措施——升級防火牆以減緩資安威脅——目前已到執行階段。請選出下列三項正確屬於「執行風險回應」流程的行動。
+
+**選項**
+
+- (a) Carry out the response exactly as documented and agreed in the Risk Register / 依風險登錄表中已記載並核准的內容確實執行該回應措施 ✅ **正解**
+- (b) Update the Risk Register and Risk Report to reflect the action taken and its effect on remaining exposure / 更新風險登錄表與風險報告,反映已採取的行動及其對剩餘曝險的影響 ✅ **正解**
+- (c) Raise a change request if executing the response requires budget or schedule adjustments beyond the approved baseline / 若執行此回應措施需要超出已核准基準的預算或時程調整,提出變更請求 ✅ **正解**
+- (d) Wait until the cybersecurity threat actually occurs before taking any action, since it hasn't happened yet / 因為威脅尚未發生,故先按兵不動,等威脅真的發生再說
+- (e) Since the response was already approved once, no further documentation or tracking is needed / 因為此回應措施已核准過一次,不需要再進行任何後續文件記錄或追蹤
+
+**詳解**
+
+執行風險回應(Implement Risk Responses)是將已規劃、核准的回應措施付諸實行,依風險登錄表記載內容確實執行、更新風險登錄表與風險報告反映最新狀況、並在需要調整基準時提出變更請求,皆屬此流程的正確作為;既然此措施是主動減緩(Mitigate)而非被動接受(Accept),就不應等威脅真的發生才行動,已核准的措施在執行過程中仍需持續文件記錄與追蹤,而非視為一次性、不需再管理的事項。
+
+---
+
+### Q96. `rsk-095` — 拖拉配對題
+
+**題目 ID**: `rsk-095`
+
+難度: `hard` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each qualitative risk analysis characteristic to its definition.
+- 中: 請將下列每一項定性風險分析特性,拖曳配對到其定義。
+
+**配對項目(拖曳來源)**
+
+- p1: Proximity / 鄰近性(Proximity)
+- p2: Dormancy / 潛伏期(Dormancy)
+- p3: Manageability / 可管理性(Manageability)
+- p4: Controllability / 可控性(Controllability)
+- p5: Connectivity / 連結性(Connectivity)
+
+**選項池(拖曳目標)**
+
+- c1: How soon the risk could actually affect the project; a higher rating means the impact could occur very soon / 風險可能實際影響專案的時間有多近;評分越高代表衝擊可能很快發生
+- c2: How long it would take to discover that the risk has occurred after it actually happens / 風險實際發生後,需要多久才會被發現
+- c3: How easily the project team can manage or reduce the risk's effects using available actions / 專案團隊運用可行措施管理或降低風險影響的難易程度
+- c4: The degree to which the risk owner can directly influence or control the outcome of the risk / 風險負責人能直接影響或控制風險結果的程度
+- c5: The likelihood that this risk, if it occurs, will trigger a chain reaction affecting other risks or areas of the project / 此風險一旦發生,觸發連鎖效應而影響其他風險或專案領域的可能性
+
+**✅ 正確配對**
+
+- p1 → c1: Proximity → How soon the risk could actually affect the project; a higher rating means the impact could occur very soon（鄰近性(Proximity) → 風險可能實際影響專案的時間有多近;評分越高代表衝擊可能很快發生）
+- p2 → c2: Dormancy → How long it would take to discover that the risk has occurred after it actually happens（潛伏期(Dormancy) → 風險實際發生後,需要多久才會被發現）
+- p3 → c3: Manageability → How easily the project team can manage or reduce the risk's effects using available actions（可管理性(Manageability) → 專案團隊運用可行措施管理或降低風險影響的難易程度）
+- p4 → c4: Controllability → The degree to which the risk owner can directly influence or control the outcome of the risk（可控性(Controllability) → 風險負責人能直接影響或控制風險結果的程度）
+- p5 → c5: Connectivity → The likelihood that this risk, if it occurs, will trigger a chain reaction affecting other risks or areas of the project（連結性(Connectivity) → 此風險一旦發生,觸發連鎖效應而影響其他風險或專案領域的可能性）
+
+**詳解**
+
+定性風險分析除了機率與衝擊外,還可運用鄰近性(多快會影響專案)、潛伏期(發生後多久才被發現)、可管理性(能否有效管理降低影響)、可控性(負責人能否直接影響結果)、連結性(是否會連帶引發其他風險)等特性,協助更細緻地判斷風險的緊急程度與處理優先順序,五者容易在考題中互相混淆。
+
+---
+
+### Q97. `rsk-096` — 拖拉配對題
+
+**題目 ID**: `rsk-096`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Drag and match each component of the Risk Management Plan to what it defines.
+- 中: 請將下列風險管理計畫的每一項組成內容,拖曳配對到其所定義的項目。
+
+**配對項目(拖曳來源)**
+
+- p1: Risk Strategy / 風險策略
+- p2: Risk Categories (RBS) / 風險分類(RBS)
+- p3: Probability and Impact Definitions / 機率與衝擊量表定義
+- p4: Risk Management Funding / 風險管理資金
+- p5: Risk Timing / 風險辨識時機頻率
+
+**選項池(拖曳目標)**
+
+- c1: Describes the general approach and methodology the project will use to manage risk / 描述專案將採用的整體風險管理方法與作法
+- c2: Groups potential risks by their source (e.g., technical, external, organizational, project management) to support structured identification / 依風險來源(如技術、外部、組織、專案管理)將潛在風險分組,以利結構化識別
+- c3: Defines the scales used to rate how likely a risk is to occur and how severe its effect would be / 定義用於評分風險發生可能性與衝擊嚴重程度的量表
+- c4: Establishes protocols for how contingency and management reserves will be funded and accessed / 建立應變準備金與管理準備金的資金編列與動用規範
+- c5: Specifies how often risk identification and reassessment activities will be carried out throughout the project / 規定專案全程風險識別與再評估活動的執行頻率
+
+**✅ 正確配對**
+
+- p1 → c1: Risk Strategy → Describes the general approach and methodology the project will use to manage risk（風險策略 → 描述專案將採用的整體風險管理方法與作法）
+- p2 → c2: Risk Categories (RBS) → Groups potential risks by their source (e.g., technical, external, organizational, project management) to support structured identification（風險分類(RBS) → 依風險來源(如技術、外部、組織、專案管理)將潛在風險分組,以利結構化識別）
+- p3 → c3: Probability and Impact Definitions → Defines the scales used to rate how likely a risk is to occur and how severe its effect would be（機率與衝擊量表定義 → 定義用於評分風險發生可能性與衝擊嚴重程度的量表）
+- p4 → c4: Risk Management Funding → Establishes protocols for how contingency and management reserves will be funded and accessed（風險管理資金 → 建立應變準備金與管理準備金的資金編列與動用規範）
+- p5 → c5: Risk Timing → Specifies how often risk identification and reassessment activities will be carried out throughout the project（風險辨識時機頻率 → 規定專案全程風險識別與再評估活動的執行頻率）
+
+**詳解**
+
+風險管理計畫(Risk Management Plan)是規劃風險管理(Plan Risk Management)流程的核心產出,內容涵蓋風險策略(整體方法論)、風險分類(RBS 依來源分組)、機率/衝擊量表定義、風險管理資金編列規範,以及風險辨識與再評估的頻率安排,這些條款多由組織治理層級與 PM 共同制訂,為後續所有風險活動建立遊戲規則。
+
+---
+
+### Q98. `rsk-097` — 拖拉配對題
+
+**題目 ID**: `rsk-097`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Drag and match each leadership style to how it tends to affect the team's risk-reporting behavior.
+- 中: 請將下列每一種領導風格,拖曳配對到其對團隊風險回報行為的典型影響。
+
+**配對項目(拖曳來源)**
+
+- p1: Servant Leadership / 僕人式領導
+- p2: Laissez-Faire / 放任式領導
+- p3: Directive (Command-and-Control) / 指令式(Command-and-Control)領導
+- p4: Transactional Leadership / 交易式領導
+
+**選項池(拖曳目標)**
+
+- c1: The PM focuses on removing obstacles and empowering the team, which builds the psychological safety needed for risks to surface early / PM 專注於排除障礙、賦權團隊,建立讓風險能及早浮現所需的心理安全感
+- c2: The PM grants the team broad autonomy with minimal oversight, so whether risks get reported depends heavily on the team's own initiative / PM 給予團隊高度自主性、極少介入,風險是否被回報高度仰賴團隊自身的主動性
+- c3: The PM makes risk-related decisions largely alone with limited team input, which can discourage members from voicing risks that contradict the PM's view / PM 多半獨自做出風險相關決策、鮮少採納團隊意見,可能使成員不敢提出與 PM 看法相左的風險
+- c4: The PM ties risk reporting to explicit rewards or penalties, steering team behavior toward specific measurable targets / PM 將風險回報與明確獎懲掛鉤,引導團隊行為朝向特定可衡量目標
+
+**✅ 正確配對**
+
+- p1 → c1: Servant Leadership → The PM focuses on removing obstacles and empowering the team, which builds the psychological safety needed for risks to surface early（僕人式領導 → PM 專注於排除障礙、賦權團隊,建立讓風險能及早浮現所需的心理安全感）
+- p2 → c2: Laissez-Faire → The PM grants the team broad autonomy with minimal oversight, so whether risks get reported depends heavily on the team's own initiative（放任式領導 → PM 給予團隊高度自主性、極少介入,風險是否被回報高度仰賴團隊自身的主動性）
+- p3 → c3: Directive (Command-and-Control) → The PM makes risk-related decisions largely alone with limited team input, which can discourage members from voicing risks that contradict the PM's view（指令式(Command-and-Control)領導 → PM 多半獨自做出風險相關決策、鮮少採納團隊意見,可能使成員不敢提出與 PM 看法相左的風險）
+- p4 → c4: Transactional Leadership → The PM ties risk reporting to explicit rewards or penalties, steering team behavior toward specific measurable targets（交易式領導 → PM 將風險回報與明確獎懲掛鉤,引導團隊行為朝向特定可衡量目標）
+
+**詳解**
+
+不同領導風格會直接影響團隊是否願意及早回報風險:僕人式領導透過排除障礙、賦權團隊建立心理安全感,最有利於風險及早浮現,也是考試中最常被強調的風格;放任式領導完全交由團隊自主,回報品質不穩定;指令式領導容易讓成員不敢提出與 PM 相左的意見;交易式領導則以明確獎懲驅動特定行為,可能導致團隊只回報「對自己有利」的風險而非全面透明。
+
+---
+
+### Q99. `rsk-098` — 拖拉配對題
+
+**題目 ID**: `rsk-098`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Drag and match each Enterprise Environmental Factor (EEF) example to the type of risk it primarily introduces, based on Risk Breakdown Structure (RBS) categories.
+- 中: 請將下列每一項事業環境因素(EEF)範例,拖曳配對到其依風險分解結構(RBS)分類主要引發的風險類型。
+
+**配對項目(拖曳來源)**
+
+- p1: A sudden national election leading to political instability in the target market / 目標市場發生政局動盪的全國大選
+- p2: A rival company patents a key technology the project was planning to use / 競爭對手為專案原計畫使用的關鍵技術申請專利
+- p3: A severe regional drought disrupts the water supply needed for a manufacturing process / 嚴重區域乾旱影響製造流程所需的水源供應
+- p4: The organization's IT department mandates all new systems must migrate to a new cloud platform within six months / 組織 IT 部門要求所有新系統須在六個月內遷移至新雲端平台
+- p5: A major industry conference reveals a new open-source framework is rapidly replacing the technology stack the project currently relies on / 一場重要產業研討會顯示新的開源框架正快速取代專案目前依賴的技術堆疊
+
+**選項池(拖曳目標)**
+
+- c1: External market/political risk — political and market conditions outside the project's control / 外部市場與政治風險——超出專案控制範圍的政治與市場條件
+- c2: External legal/technical risk — a competitor's intellectual property action affecting technical feasibility / 外部法律與技術風險——競爭對手的智慧財產權行動影響技術可行性
+- c3: External environmental/operational risk — a natural/environmental factor disrupting operations / 外部環境與營運風險——自然/環境因素影響營運
+- c4: Internal organizational risk — an internal policy mandate imposing new constraints on the project / 內部組織風險——內部政策要求為專案帶來新限制
+- c5: External technological risk — a shift in the broader technology landscape threatens the project's current technical approach / 外部科技風險——更廣泛的科技趨勢轉變,威脅專案現行的技術做法
+
+**✅ 正確配對**
+
+- p1 → c1: A sudden national election leading to political instability in the target market → External market/political risk — political and market conditions outside the project's control（目標市場發生政局動盪的全國大選 → 外部市場與政治風險——超出專案控制範圍的政治與市場條件）
+- p2 → c2: A rival company patents a key technology the project was planning to use → External legal/technical risk — a competitor's intellectual property action affecting technical feasibility（競爭對手為專案原計畫使用的關鍵技術申請專利 → 外部法律與技術風險——競爭對手的智慧財產權行動影響技術可行性）
+- p3 → c3: A severe regional drought disrupts the water supply needed for a manufacturing process → External environmental/operational risk — a natural/environmental factor disrupting operations（嚴重區域乾旱影響製造流程所需的水源供應 → 外部環境與營運風險——自然/環境因素影響營運）
+- p4 → c4: The organization's IT department mandates all new systems must migrate to a new cloud platform within six months → Internal organizational risk — an internal policy mandate imposing new constraints on the project（組織 IT 部門要求所有新系統須在六個月內遷移至新雲端平台 → 內部組織風險——內部政策要求為專案帶來新限制）
+- p5 → c5: A major industry conference reveals a new open-source framework is rapidly replacing the technology stack the project currently relies on → External technological risk — a shift in the broader technology landscape threatens the project's current technical approach（一場重要產業研討會顯示新的開源框架正快速取代專案目前依賴的技術堆疊 → 外部科技風險——更廣泛的科技趨勢轉變,威脅專案現行的技術做法）
+
+**詳解**
+
+RBS 依風險來源將風險分為技術、外部、組織、專案管理等類別:政局動盪屬於外部市場/政治風險;競爭對手專利屬於外部法律/技術風險;天災影響供應鏈屬於外部環境/營運風險;組織內部 IT 政策要求則屬於組織類的內部風險,而非外部驅動;科技趨勢快速轉變則屬於外部技術風險。考生須留意「內部組織政策」與「外部事業環境因素」在 RBS 分類上的差異,不能一概歸類為外部風險。
+
+---
+
+### Q100. `rsk-099` — 下拉選單題
+
+**題目 ID**: `rsk-099`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A risk has an 18% probability of occurring and would cause a $95,000 loss if it does. The EMV of this risk is {{blank1}}. A one-time process change that would completely eliminate this risk costs a fixed $16,000. Since this fixed cost is lower than the risk's expected loss, the PM should {{blank2}}.
+- 中: 某風險發生機率為 18%,一旦發生將造成 9.5 萬美金損失。此風險的 EMV 為 {{blank1}}。一項能徹底消除此風險的一次性流程變更,固定成本為 1.6 萬美金。由於此固定成本低於該風險的期望損失,PM 應該 {{blank2}}。
+
+**blank1**
+
+- (a) -$17,100 / -$17,100 ✅ **正解**
+- (b) -$95,000 / -$95,000
+- (c) -$16,000 / -$16,000
+- (d) $17,100 / $17,100
+
+**blank2**
+
+- (a) Accept the risk and take no action / 接受風險且不採取任何行動
+- (b) Implement the process change to avoid the risk / 實施此流程變更以避免此風險 ✅ **正解**
+
+
+**詳解**
+
+EMV = 機率 × 衝擊金額 = 18% × (-$95,000) = -$17,100。此流程變更能徹底消除風險發生的可能性,屬於 Avoid(避免)策略,其固定成本 $16,000 低於不採取行動的期望損失 $17,100,故 PM 應實施此流程變更以避免風險,可省下 $1,100。
+
+---
+
+### Q101. `rsk-100` — 下拉選單題
+
+**題目 ID**: `rsk-100`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A newly enacted data-privacy regulation is an example of an {{blank1}} — a factor originating outside the project's boundaries that the project team generally cannot change, yet must still account for. In the Risk Breakdown Structure (RBS), the risk this regulation introduces would typically be classified under the {{blank2}} category.
+- 中: 一項新頒布的資料隱私法規,屬於 {{blank1}} 的範例——一種源自專案邊界之外、專案團隊通常無法改變、卻仍須納入考量的因素。在風險分解結構(RBS)中,此法規所帶來的風險通常會被歸類於 {{blank2}} 類別。
+
+**blank1**
+
+- (a) Enterprise Environmental Factor (EEF) / 事業環境因素(EEF) ✅ **正解**
+- (b) Organizational Process Asset (OPA) / 組織過程資產(OPA)
+- (c) Work Performance Data / 工作績效數據
+- (d) Lessons Learned Register / 經驗教訓登錄表
+
+**blank2**
+
+- (a) Technical / 技術類
+- (b) External / 外部類 ✅ **正解**
+- (c) Organizational / 組織類
+- (d) Project Management / 專案管理類
+
+
+**詳解**
+
+新頒布的法規屬於組織無法控制、源自專案外部的事業環境因素(EEF);相對地,組織過程資產(OPA)是組織可累積、重複使用的範本與經驗庫,兩者性質不同。在 RBS 分類中,此類法規、市場、匯率等外部驅動的風險通常歸類於「外部(External)」類別,而非技術、組織或專案管理類別。
+
+---
+
+### Q102. `rsk-101` — 下拉選單題
+
+**題目 ID**: `rsk-101`
+
+難度: `hard` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A response that is defined and formally agreed upon in advance, but is only triggered and executed once a specific, pre-identified condition actually occurs, is called a {{blank1}}. This differs from an unplanned response improvised on the spot to address an emergent issue for which no risk response had been prepared in advance, which is called a {{blank2}}.
+- 中: 一種事先定義並正式核准、但只有在特定、預先識別的條件真正出現時才會被觸發並執行的回應措施,稱為 {{blank1}}。這與針對一項先前未曾規劃任何風險回應的突發問題,臨時即興擬定的非計畫性回應不同,後者稱為 {{blank2}}。
+
+**blank1**
+
+- (a) Contingent Response Strategy / 應變回應策略(Contingent Response Strategy) ✅ **正解**
+- (b) Workaround / 應急對策(Workaround)
+- (c) Management Reserve / 管理準備金
+- (d) Risk Audit / 風險稽核
+
+**blank2**
+
+- (a) Contingent Response Strategy / 應變回應策略(Contingent Response Strategy)
+- (b) Workaround / 應急對策(Workaround) ✅ **正解**
+- (c) Contingency Reserve / 應變準備金
+- (d) Risk Reassessment / 風險再評估
+
+
+**詳解**
+
+Contingent Response Strategy(應變回應策略)是事先規劃、經核准,但只有在特定觸發條件出現時才會執行的回應措施,屬於「有備而來」的預先設計;Workaround(應急對策)則是針對一項先前完全未被識別、也未規劃任何回應的突發問題,臨時即興擬定的非計畫性對策,兩者的關鍵差異在於「是否事先規劃」。
+
+---
+
+### Q103. `rsk-102` — 下拉選單題
+
+**題目 ID**: `rsk-102`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `People`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: When team members avoid reporting emerging risks because they fear being blamed or seen as incompetent, the condition missing on this team is {{blank1}}. A project manager who builds trust by admitting their own past mistakes, removes obstacles for the team, and actively empowers members to surface bad news early is demonstrating {{blank2}}.
+- 中: 當團隊成員因害怕被究責或被視為能力不足,而避免回報新興風險時,這個團隊所欠缺的條件是 {{blank1}}。一位透過承認自己過去的錯誤來建立信任、為團隊排除障礙、並積極賦權成員及早提出壞消息的專案經理,正展現出 {{blank2}}。
+
+**blank1**
+
+- (a) Psychological Safety / 心理安全感(Psychological Safety) ✅ **正解**
+- (b) Risk Appetite / 風險胃納
+- (c) Risk Tolerance / 風險容忍度
+- (d) Resilience / 韌性
+
+**blank2**
+
+- (a) Command-and-control leadership / 指令控制式領導
+- (b) Servant Leadership / 僕人式領導(Servant Leadership) ✅ **正解**
+- (c) Laissez-Faire leadership / 放任式領導
+- (d) Transactional leadership / 交易式領導
+
+
+**詳解**
+
+心理安全感(Psychological Safety)指團隊成員相信即使提出不確定或不利消息,也不會因此遭受責備或負面評價,是及早發現風險的關鍵基礎;僕人式領導(Servant Leadership)強調 PM 以身作則、排除障礙、賦權團隊,是建立此種心理安全感最常被強調的領導風格,與指令控制式、放任式或交易式領導的核心邏輯不同。
+
+---
+
+### Q104. `rsk-103` — 點擊熱區題
+
+**題目 ID**: `rsk-103`
+
+難度: `hard` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Below are four identified risk cards showing probability and impact. Click the risk with the highest Expected Monetary Value (EMV) of loss.
+- 中: 下方列出四張已識別風險卡片,分別標示機率與衝擊。請點選具有最高期望貨幣價值(EMV)損失的風險。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (r1) 35% probability, $60,000 impact / 機率 35%,衝擊 6 萬美金 [x=5,y=40,w=20,h=20]
+- (r2) 12% probability, $220,000 impact / 機率 12%,衝擊 22 萬美金 ✅ **正解** [x=28,y=40,w=20,h=20]
+- (r3) 55% probability, $35,000 impact / 機率 55%,衝擊 3.5 萬美金 [x=51,y=40,w=20,h=20]
+- (r4) 5% probability, $500,000 impact / 機率 5%,衝擊 50 萬美金 [x=74,y=40,w=20,h=20]
+
+**詳解**
+
+分別計算四項風險的 EMV:r1 = 35% × $60,000 = $21,000;r2 = 12% × $220,000 = $26,400;r3 = 55% × $35,000 = $19,250;r4 = 5% × $500,000 = $25,000。r2 的 EMV 最高($26,400),即使其發生機率是四者中第二低,仍不能僅憑機率或衝擊金額單一數字判斷優先順序,而須以 EMV(機率 × 衝擊)綜合衡量。
+
+---
+
+### Q105. `rsk-104` — 點擊熱區題
+
+**題目 ID**: `rsk-104`
+
+難度: `hard` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: The diagram below is a decision tree. From the Start node, the PM can choose Expedited Shipping (fixed cost $32,000, guarantees on-time delivery) or Standard Shipping. If Standard Shipping is chosen, there is an 80% chance of $0 additional cost and a 20% chance of a $170,000 contractual penalty for missing the delivery milestone. Click the node the PM should choose because it has the lower expected cost.
+- 中: 下圖為一決策樹:從起點(Start)節點,PM 可選擇「加急運送」(固定成本 3.2 萬美金,保證準時交付)或「標準運送」。若選擇標準運送,有 80% 機率無須額外成本、20% 機率須支付 17 萬美金的違約罰款(因錯過交付里程碑)。請點選 PM 應選擇的節點,因為其期望成本較低。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Start / 起點(Start) [x=5,y=5,w=25,h=35]
+- (n2) Expedited Shipping: fixed $32,000 / 加急運送:固定成本 3.2 萬美金 ✅ **正解** [x=36.66666666666667,y=5,w=25,h=35]
+- (n3) Standard Shipping / 標準運送 [x=68.33333333333334,y=5,w=25,h=35]
+- (n4) Outcome: 80% chance, $0 / 結果:80% 機率,成本 $0 [x=55,y=47.5,w=20,h=35]
+- (n5) Outcome: 20% chance, $170,000 / 結果:20% 機率,成本 17 萬美金 [x=77,y=47.5,w=20,h=35]
+
+**節點連線(edges,方向性依賴關係,例如網路圖箭頭;有連線的圖面題出考題時不會打亂座標)**
+
+- n1 → n2
+- n1 → n3
+- n3 → n4
+- n3 → n5
+
+**詳解**
+
+標準運送的期望成本 = 80% × $0 + 20% × $170,000 = $0 + $34,000 = $34,000。加急運送為固定成本 $32,000,低於標準運送的期望成本 $34,000,故 PM 應選擇「加急運送」節點,差額為 $2,000。此題其中一分支結果為 $0,考生須留意不能省略此分支,仍應完整代入計算。
+
+---
+
+### Q106. `rsk-105` — 點擊熱區題
+
+**題目 ID**: `rsk-105`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Below are four Risk Breakdown Structure (RBS) top-level category cards. Click the card that best classifies this risk: "Two senior developers may resign mid-project because of an internal corporate reorganization initiative that is unrelated to this specific project."
+- 中: 下方列出四張風險分解結構(RBS)頂層分類卡片。請點選最適合分類下列風險的卡片:「兩位資深開發人員可能因公司內部一項與本專案無關的組織重組計畫,而在專案執行到一半時離職。」
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (z1) Technical / 技術類(Technical) [x=5,y=40,w=20,h=20]
+- (z2) External / 外部類(External) [x=28,y=40,w=20,h=20]
+- (z3) Organizational / 組織類(Organizational) ✅ **正解** [x=51,y=40,w=20,h=20]
+- (z4) Project Management / 專案管理類(Project Management) [x=74,y=40,w=20,h=20]
+
+**詳解**
+
+此風險源自公司內部的組織重組計畫,屬於組織本身治理與人力配置決策所引發的風險,而非源自專案外部(如市場、法規)、技術本身、或專案管理實務(如估算、排程規劃)的缺失,故應歸類於 RBS 的「組織類(Organizational)」;技術類通常指技術本身的不確定性,外部類指專案邊界之外的因素,專案管理類則指專案管理實務缺失所致的風險。
+
+---
+
+### Q107. `rsk-106` — 單選題
+
+**題目 ID**: `rsk-106`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A university's academic integrity office reviews flagged essays by hand, and the dean proposes licensing an AI detection service to backstop the reviewers, worried that miscalls are slipping through. What should the project manager do first?
+- 中: 某大學學術誠信辦公室以人工方式審查被標記的論文,院長提議採購一套 AI 偵測服務作為審查人員的後盾,擔心誤判正在悄悄發生。專案經理應該最先做什麼?
+
+**選項**
+
+- (a) Pilot the AI service on last term's essays and compare its calls with the reviewers' decisions. / 先用上學期的論文試跑 AI 服務,並比對其判定結果與審查人員的決定
+- (b) Verify that the risk management plan covers essay review and is up to date. / 確認風險管理計畫是否涵蓋論文審查、內容是否已更新
+- (c) Analyze how often reviewer miscalls occur and what damage one causes. / 分析審查人員誤判發生的頻率,以及一次誤判會造成多大的損害 ✅ **正解**
+- (d) Evaluate the service's detection accuracy and its annual licensing cost. / 評估該服務的偵測準確率與年度授權費用
+
+**詳解**
+
+院長在還沒有人量化「誤判到底多常發生、一次誤判會造成多嚴重的後果」之前,就已經跳到「採購 AI 服務」這個具體解方,屬於典型的先開藥方、後看病情。專案經理此時該做的第一步,是回到風險識別/定性分析的基本功:先弄清楚問題本身的機率與衝擊有多大,才有辦法判斷是否真的需要導入 AI、以及要用什麼標準去驗收這套服務的表現。試跑比對、評估準確率與費用,都是已經預設「要導入 AI」之後才會做的次一步驗證動作;檢查風險管理計畫涵蓋範圍雖然也是合理動作,但無助於回答「問題有多嚴重」這個當下最急迫的問題,優先順序較低。
+
+---
+
+### Q108. `rsk-107` — 單選題
+
+**題目 ID**: `rsk-107`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A builder adopting a new modular construction method wants an AI model that predicts onsite safety incidents for its upcoming projects, and the team is choosing the training data. Which data should the team use?
+- 中: 一家正在採用新式模組化營造工法的建商,想建立一套 AI 模型來預測未來專案的工地安全事故,團隊正在挑選訓練資料。團隊應該使用哪一種資料?
+
+**選項**
+
+- (a) Every incident record the company holds, to maximize the sample size. / 公司持有的所有事故紀錄,以求樣本數最大化
+- (b) Records from recent projects that completed without any incidents. / 近期沒有發生任何事故、順利完工的專案紀錄
+- (c) Synthetic incident data generated to enlarge and balance the sample. / 額外生成的合成事故資料,用來擴大並平衡樣本
+- (d) Records from past projects whose methods and conditions resemble the modular builds. / 工法與現場條件跟這次模組化營造相近的過往專案紀錄 ✅ **正解**
+
+**詳解**
+
+預測模型只有在訓練資料的情境跟預測目標情境相近時,學到的樣態才轉移得過去;這家建商採用的是新式模組化工法,若訓練資料大多來自傳統工法、條件迥異的專案,模型學到的風險樣態很可能對不上模組化營造現場的實際狀況。一味追求樣本數最大化,會把大量不相干工法的雜訊也一併餵進模型;只用零事故的專案,樣本會嚴重偏態,模型學不到事故是怎麼發生的;合成資料能補足樣本不足,但前提仍是先有具代表性的真實資料當基礎,不能本末倒置優先於挑選相似情境的真實紀錄。
 
 ---

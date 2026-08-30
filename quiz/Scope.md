@@ -1,6 +1,6 @@
 # Scope — PMP 題庫
 
-> 共 71 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 108 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `sc-005` — 單選題
 
@@ -1935,5 +1935,1020 @@ WBS 編碼架構(常稱為 Code of Accounts)提供每個組成項目一個唯一
 **詳解**
 
 替代方案分析(Alternatives Analysis)是定義範疇(Define Scope)過程中常用的技術,用於系統性比較不同的做法(例如自製 vs. 外購 vs. 委外)以決定最適合的範疇內容;100% Rule 與分解用於發展範疇結構、滾動式規劃用於漸進明確化規劃深度、確認範疇則是交付後客戶驗收的流程,皆與此題「定案範疇前比較做法」的情境不同。
+
+---
+
+### Q72. `scp-071` — 單選題
+
+**題目 ID**: `scp-071`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: On an agile project, a large piece of business capability is broken down into a hierarchy before it becomes actionable work for a sprint. Which sequence, from largest to smallest, correctly represents this Agile decomposition hierarchy?
+- 中: 在敏捷專案中,一項龐大的商業能力必須先被拆解成不同層級,才能成為 Sprint 中可執行的工作。下列由大到小的敏捷拆解層級,何者正確?
+
+**選項**
+
+- (a) Epic → Feature → Story → Task / 史詩(Epic) → 特色功能(Feature) → 使用者故事(Story) → 任務(Task) ✅ **正解**
+- (b) Feature → Epic → Task → Story / 特色功能(Feature) → 史詩(Epic) → 任務(Task) → 使用者故事(Story)
+- (c) Story → Epic → Feature → Task / 使用者故事(Story) → 史詩(Epic) → 特色功能(Feature) → 任務(Task)
+- (d) Task → Story → Epic → Feature / 任務(Task) → 使用者故事(Story) → 史詩(Epic) → 特色功能(Feature)
+
+**詳解**
+
+敏捷專案中需求拆解的階層由大到小依序為 Epic(史詩,涵蓋範圍最大的商業能力)、Feature(特色功能)、Story(使用者故事)、Task(通常可在 1 到 3 天內完成的具體任務)。例如「會計系統」作為 Epic,拆解為「收帳」等 Feature,再拆解為「產生發票」、「收帳」等 Story,最後拆解為「建立客戶資料」、「增減品項」等 Task。其餘選項的排序皆與此階層邏輯不符。
+
+---
+
+### Q73. `scp-072` — 單選題
+
+**題目 ID**: `scp-072`
+
+難度: `easy` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A stakeholder asks why the Product Backlog keeps changing order every week even though no new requirements were formally added. Which statement best explains this characteristic of the Product Backlog?
+- 中: 有利害關係人詢問,為什麼即使沒有正式新增需求,產品待辦清單(Product Backlog)每週的排序卻一直在變動?下列何者最能解釋產品待辦清單的此項特性?
+
+**選項**
+
+- (a) The Product Backlog is a static, one-time document finalized at project initiation and should not change order. / 產品待辦清單是專案啟動時一次定案的靜態文件,排序不應變動。
+- (b) The Product Backlog is a dynamic, evolving list that the product owner continuously reorders by business value as understanding and priorities change. / 產品待辦清單是動態演變的清單,產品負責人會隨著理解與優先順序的變化,持續依商業價值重新排序。 ✅ **正解**
+- (c) Only the Scrum Master is authorized to reorder backlog items, and the changes reflect the Scrum Master's own judgment. / 只有 Scrum Master 有權重新排序待辦項目,變動反映的是 Scrum Master 的判斷。
+- (d) Reordering indicates uncontrolled scope creep that the Change Control Board should investigate. / 重新排序代表未經控管的範疇潛變,應由變更管控委員會調查。
+
+**詳解**
+
+產品待辦清單(Product Backlog)本質上是動態且持續演變的清單,由產品負責人(Product Owner)依商業價值持續重新排序與精煉(Backlog Refinement/Grooming),價值最高的項目優先開發。這是敏捷專案漸進明確化範疇的正常做法,並非範疇潛變;重新排序也是產品負責人的職責,而非 Scrum Master(Scrum Master 負責促進流程,不主宰內容優先順序)。
+
+---
+
+### Q74. `scp-073` — 多選題
+
+**題目 ID**: `scp-073`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Select the THREE elements that together make up the "3 C's" framework commonly used to describe the lifecycle of a well-formed user story.
+- 中: 請選出構成使用者故事(User Story)常見「3C」框架的三個要素。
+
+**選項**
+
+- (a) Card / 卡片(Card) ✅ **正解**
+- (b) Conversation / 對話(Conversation) ✅ **正解**
+- (c) Confirmation / 確認(Confirmation) ✅ **正解**
+- (d) Contract / 合約(Contract)
+- (e) Compliance / 合規(Compliance)
+
+**詳解**
+
+使用者故事常以「3C」描述其完整生命週期:Card(卡片,簡短記錄故事內容,通常僅具備足夠資訊供後續討論,而非完整規格)、Conversation(對話,團隊與客戶或產品負責人針對故事細節持續溝通釐清)、Confirmation(確認,雙方就完成的驗收標準達成共識)。合約(Contract)與合規(Compliance)並非 3C 框架的組成要素,且敏捷宣言明確主張「與客戶合作」優於「合約協商」,與強調書面合約的做法方向相反。
+
+---
+
+### Q75. `scp-074` — 下拉選單題
+
+**題目 ID**: `scp-074`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A team estimates the relative size and complexity of backlog items using an abstract, comparative unit called {{blank1}}, rather than absolute hours. To forecast how long the remaining Product Backlog will take to complete, the team calculates the average amount of that unit it completes per sprint, known as {{blank2}}.
+- 中: 團隊使用一種抽象、相對比較的單位來估算待辦項目的規模與複雜度,稱為 {{blank1}},而非絕對工時。為預測剩餘產品待辦清單大約需要多久才能完成,團隊會計算每個 Sprint 平均完成該單位的數量,稱為 {{blank2}}。
+
+**blank1**
+
+- (a) Story Points / 故事點(Story Points) ✅ **正解**
+- (b) Earned Value / 實獲值(Earned Value)
+- (c) Work Packages / 工作包(Work Packages)
+
+**blank2**
+
+- (a) Cycle Time / 週期時間(Cycle Time)
+- (b) Velocity / 速度(Velocity) ✅ **正解**
+- (c) Lead Time / 前置時間(Lead Time)
+
+
+**詳解**
+
+故事點(Story Points)是敏捷團隊用來估算待辦項目相對規模與複雜度的抽象單位,採相對比較(而非絕對工時)方式估算,常搭配費波那契數列使用;速度(Velocity)則是團隊每個 Sprint 平均能完成的故事點數量,用於回推剩餘待辦清單大約還需要多少個 Sprint 才能消耗完畢。實獲值(Earned Value)屬於成本/時程績效衡量工具,週期時間(Cycle Time)與前置時間(Lead Time)則分別衡量單一工作項目的處理時間與從需求提出到交付的總時間,皆與「每 Sprint 完成故事點的速率」概念不同。
+
+---
+
+### Q76. `scp-075` — 拖拉配對題
+
+**題目 ID**: `scp-075`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each Story Point estimation technique to the description that best fits it.
+- 中: 請將下列每種故事點估算技術拖曳配對到最符合的描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Affinity Estimating / 親和估算法(Affinity Estimating)
+- p2: T-Shirt Sizing / 衣服尺寸估算法(T-Shirt Sizing)
+- p3: Wideband Delphi / 寬頻德爾菲法(Wideband Delphi)
+- p4: Planning Poker / 撲克牌估算法(Planning Poker)
+
+**選項池(拖曳目標)**
+
+- c1: An anonymous, round-based technique in which estimates are submitted and discussed over several rounds specifically to avoid one person's estimate swaying others (the bandwagon effect). / 一種匿名、分輪次的技術,估計值經過數輪提交與討論,目的是避免某人的估計影響他人(從眾效應)。
+- c2: Items are quickly categorized using clothing-size labels such as S, M, L, and XL. / 使用衣服尺寸標籤(如 S、M、L、XL)快速將項目分類。
+- c3: Team members simultaneously reveal cards bearing Fibonacci-like numbers to estimate a story's size. / 團隊成員同時亮出印有費波那契數列數字的卡牌,以估算故事的大小。
+- c4: The team groups work items by relative size and complexity without discussing each item individually in detail. / 團隊依工作項目間的相對大小與複雜度快速分組,不逐一詳細討論每個項目。
+
+**✅ 正確配對**
+
+- p1 → c4: Affinity Estimating → The team groups work items by relative size and complexity without discussing each item individually in detail.（親和估算法(Affinity Estimating) → 團隊依工作項目間的相對大小與複雜度快速分組,不逐一詳細討論每個項目。）
+- p2 → c2: T-Shirt Sizing → Items are quickly categorized using clothing-size labels such as S, M, L, and XL.（衣服尺寸估算法(T-Shirt Sizing) → 使用衣服尺寸標籤(如 S、M、L、XL)快速將項目分類。）
+- p3 → c1: Wideband Delphi → An anonymous, round-based technique in which estimates are submitted and discussed over several rounds specifically to avoid one person's estimate swaying others (the bandwagon effect).（寬頻德爾菲法(Wideband Delphi) → 一種匿名、分輪次的技術,估計值經過數輪提交與討論,目的是避免某人的估計影響他人(從眾效應)。）
+- p4 → c3: Planning Poker → Team members simultaneously reveal cards bearing Fibonacci-like numbers to estimate a story's size.（撲克牌估算法(Planning Poker) → 團隊成員同時亮出印有費波那契數列數字的卡牌,以估算故事的大小。）
+
+**詳解**
+
+親和估算法(Affinity Estimating)讓團隊依工作項目彼此的相對大小與複雜度快速分組,無需逐一詳細討論;衣服尺寸估算法(T-Shirt Sizing)以 S、M、L、XL 等尺寸標籤概略分類故事大小,是親和估算的一種常見呈現方式;寬頻德爾菲法(Wideband Delphi)是匿名分配故事點的討論方法,經過數輪盲選提交與討論後估計值逐漸收斂,目的在避免從眾效應(Bandwagon Effect);撲克牌估算法(Planning Poker)則是團隊成員各持印有費波那契數列(1、2、3、5、8、13、21…)的撲克牌,針對每個故事同時亮牌估算,速度較快且最為常用。四者皆為敏捷團隊常見的相對估算技術,但匿名程度、速度與呈現形式各不相同。
+
+---
+
+### Q77. `scp-076` — 多選題
+
+**題目 ID**: `scp-076`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A product owner wants stakeholders to prioritize a long backlog by distributing a limited, fixed resource (such as sticker dots, play money, or points) across the items they value most, rather than sorting items into ordinal ranks or fixed categories. Select the THREE techniques that fit this resource-allocation style of prioritization.
+- 中: 產品負責人希望利害關係人以「分配有限的固定資源」(例如貼紙點點、玩具鈔票或點數)到他們最重視的項目上,來為冗長的待辦清單排序,而非直接將項目排成序位或歸入固定類別。請選出符合此「資源分配式」排序風格的三種技術。
+
+**選項**
+
+- (a) Dot Voting — each participant receives a fixed number of dot stickers to place on preferred items. / 點點投票法,每位參與者獲得固定數量的圓點貼紙,貼在偏好的項目上。 ✅ **正解**
+- (b) Monopoly Money — each participant receives an equal amount of play money to allocate across items based on perceived value. / 大富翁金錢法,每位參與者獲得等量的虛擬貨幣,依認知價值分配到不同項目上。 ✅ **正解**
+- (c) 100 Point Method — each participant distributes 100 points across items according to relative importance. / 百分點法,每位參與者將 100 點依相對重要性分配到不同項目上。 ✅ **正解**
+- (d) Simple Scheme — items are simply ranked in ordinal order such as first, second, third. / 簡單排序法,直接將項目依序排為第一、第二、第三…
+- (e) MoSCoW — items are sorted into Must have, Should have, Could have, Won't have categories. / MoSCoW,將項目分類為必須有、應該有、可以有、這次不會有。
+
+**詳解**
+
+點點投票法(Dot Voting)、大富翁金錢法(Monopoly Money)、百分點法(100 Point Method)三者的共同特色,是讓每位參與者分配一份「有限且固定總量」的資源(貼紙點數、虛擬貨幣或分數)到自己最重視的項目上,藉由資源分配的集中程度反映群體對相對優先順序的偏好。簡單排序法(Simple Scheme)是直接將項目排成 1、2、3…的序位排序法,MoSCoW 則是把項目歸入四個固定類別,兩者皆非「分配有限資源」的排序風格,因此不屬於本題所指的技術。
+
+---
+
+### Q78. `scp-077` — 點擊熱區題
+
+**題目 ID**: `scp-077`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: In the Speedboat collaboration game, stakeholders sketch a boat moving toward a goal and label different elements around it to visualize what helps or hinders the product's progress. Click the element that represents the risks and impediments dragging the product's progress back.
+- 中: 在 Speedboat(快艇)協作遊戲中,利害關係人會畫出一艘朝向目標前進的船,並在周圍標示不同元素,以視覺化呈現哪些因素有助於或阻礙產品的進展。請點選代表「拖累產品進展的風險與阻礙因素」的元素。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Wind — pushes the boat forward, representing helpful forces driving the product ahead. / 風——推動船前進,代表有助於推展產品的正面力量。 [x=5,y=5,w=40,h=35]
+- (n2) Island — represents the destination, i.e. the product's goal or vision. / 島嶼——代表船的目的地,即產品的目標或願景。 [x=52.5,y=5,w=40,h=35]
+- (n3) Anchor — drags the boat back, representing risks and impediments slowing the product down. / 錨——拖住船隻,代表拖慢產品前進的風險與阻礙。 ✅ **正解** [x=5,y=47.5,w=40,h=35]
+- (n4) Boat — represents the product or team itself, moving across the water. / 船——代表產品或團隊本身,在水面上移動。 [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+Speedboat(快艇,亦稱 Sailboat)是常見的敏捷協作遊戲,透過畫出一艘朝目標(島嶼)前進的船,標示出推動前進的動力(風)與拖累前進的阻力(錨),協助團隊與利害關係人共同辨識產品推進過程中的機會與風險。錨(Anchor)代表阻礙進展的風險與impediment,是本題所指的元素;風代表助力、島嶼代表目標願景、船則代表產品或團隊本身,三者皆非「拖累進展的風險與阻礙」。
+
+---
+
+### Q79. `scp-078` — 單選題
+
+**題目 ID**: `scp-078`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: During backlog preparation, a facilitator asks stakeholders to design the packaging of their future product as if it were being sold on a retail shelf — choosing a catchy name, an image, and the two or three most compelling selling-point features to print on the box. What technique is being used, and what is its primary purpose?
+- 中: 在待辦清單準備階段,主持人請利害關係人設計未來產品的「包裝盒」,假想它即將上架零售,並決定吸引人的名稱、圖像,以及要印在盒子上、最能打動買家的兩到三項賣點功能。這是應用了什麼技術?其主要目的為何?
+
+**選項**
+
+- (a) The Product Box method, a value-based analysis technique that helps stakeholders identify and articulate the product's most valuable and marketable features. / 產品盒法(Product Box),一種價值導向分析技術,協助利害關係人辨識並清楚表達產品中最有價值、最具市場吸引力的功能。 ✅ **正解**
+- (b) The Kano model, used to classify each requirement as basic, performance, or excitement attributes. / Kano 模型,用於將每項需求分類為基本、效能或驚喜屬性。
+- (c) Planning Poker, used to reach consensus on story point estimates. / 撲克牌估算法,用於就故事點估算達成共識。
+- (d) The Definition of Done, used to confirm a deliverable meets agreed completion criteria. / 完成定義,用於確認交付標的是否符合議定的完成標準。
+
+**詳解**
+
+產品盒法(Product Box)是價值導向分析與拆解(Value-Based Analysis and Decomposition)中常用的協作技術,讓利害關係人以「設計產品包裝」的思維,聚焦挑選出最重要、最好賣的功能並具體表達出來,藉此釐清並排序產品的核心價值主張。Kano 模型是需求分類工具、撲克牌估算法用於故事點估算、完成定義(Definition of Done)則是交付驗收標準,三者皆與本題「設計包裝盒呈現賣點」的情境不同。
+
+---
+
+### Q80. `scp-079` — 單選題
+
+**題目 ID**: `scp-079`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Unlike a traditional Work Breakdown Structure, which organizes deliverables by hierarchical decomposition, a Value Breakdown Structure (VBS) restructures deliverables so that the project prioritizes delivery in which order?
+- 中: 與依階層分解交付物的傳統工作分解結構(WBS)不同,價值分解結構(Value Breakdown Structure, VBS)重新組織交付物,使專案依何種順序優先交付?
+
+**選項**
+
+- (a) Delivering the highest-value deliverables to stakeholders first, rather than strictly following technical dependency order. / 優先交付對利害關係人價值最高的交付物,而非嚴格依技術相依順序排列。 ✅ **正解**
+- (b) Grouping deliverables strictly by which functional department will perform the work. / 嚴格依執行工作的職能部門分組交付物。
+- (c) Listing deliverables in alphabetical order for easier document review. / 依字母順序列出交付物,以利文件審閱。
+- (d) Grouping deliverables solely by their estimated cost, from least expensive to most expensive. / 僅依估算成本由低至高分組交付物。
+
+**詳解**
+
+價值分解結構(VBS)是一種將交付物依「商業價值高低」排序、最先交付高價值項目的思維方式,常見於強調及早交付價值的專案情境;這與依部門分組、依字母排序或單純依成本高低排序皆不同,VBS 的核心在於「價值優先」而非單純的結構或成本考量。
+
+---
+
+### Q81. `scp-080` — 多選題
+
+**題目 ID**: `scp-080`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Select the THREE elements typically included in the Quality Management Plan produced during Define Scope.
+- 中: 請選出「定義範疇」流程所產出的品質管理計畫中,通常會包含的三項元素。
+
+**選項**
+
+- (a) Quality standards the deliverables must meet (e.g., accessibility standards such as WCAG) / 交付標的必須符合的品質標準(例如 WCAG 等無障礙標準) ✅ **正解**
+- (b) Roles and responsibilities for quality-related activities / 品質相關活動的角色與職責 ✅ **正解**
+- (c) The approach for controlling and managing quality, including how non-conformance is handled / 品質控制與管理方法,包含如何處理不合規情況 ✅ **正解**
+- (d) The project's critical path duration / 專案的要徑工期
+- (e) Individual team members' compensation and benefits / 個別團隊成員的薪酬福利
+
+**詳解**
+
+品質管理計畫是定義範疇流程的產出之一,內容通常包含品質標準(如 WCAG)、角色與職責、控制與管理方法、不合規與持續改善程序等,目的在及早規劃以「Prevent Defect」、避免後續重工;要徑工期屬於 Schedule 領域,團隊薪酬福利屬於 Resources 領域,皆非品質管理計畫的內容。
+
+---
+
+### Q82. `scp-081` — 下拉選單題
+
+**題目 ID**: `scp-081`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: The tool used during {{blank1}} to determine how deliverables will be tested and inspected against stakeholder standards, planned before detailed requirements are even gathered, is called {{blank2}}.
+- 中: 在 {{blank1}} 流程中,用來決定交付物將如何被測試與檢視以符合利害關係人標準的工具,在詳細需求蒐集之前就先行規劃,稱為 {{blank2}}。
+
+**blank1**
+
+- (a) Plan Scope Management / 規劃範疇管理(Plan Scope Management) ✅ **正解**
+- (b) Validate Scope / 確認範疇(Validate Scope)
+- (c) Develop Scope Structure / 發展範疇結構(Develop Scope Structure)
+
+**blank2**
+
+- (a) Test and Inspection Planning / 測試與檢驗規劃(Test and Inspection Planning) ✅ **正解**
+- (b) Control Quality / 品質管制(Control Quality)
+- (c) Requirements Traceability Matrix / 需求追溯矩陣(RTM)
+
+
+**詳解**
+
+測試與檢驗規劃(Test and Inspection Planning)是規劃範疇管理(Plan Scope Management)流程的工具之一,及早規劃交付物將如何被測試與檢視,確保能符合利害關係人標準,而非等到確認範疇或品質管制階段才臨時決定;這與發展範疇結構(拆解 WBS)以及 RTM(追蹤需求)所屬階段與用途皆不同。
+
+---
+
+### Q83. `scp-082` — 拖拉配對題
+
+**題目 ID**: `scp-082`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each requirement statement to the requirement category it belongs to.
+- 中: 請將下列每則需求敘述拖曳配對到其所屬的需求類別。
+
+**配對項目(拖曳來源)**
+
+- p1: "The digital transformation initiative must increase online transaction throughput by 40% to meet the company's five-year strategic plan." / 「此數位轉型計畫必須將線上交易吞吐量提升 40%,以符合公司五年策略計畫。」
+- p2: "The regional sales director needs the new dashboard to show her team's commission calculations in real time." / 「區域業務總監需要新儀表板能即時顯示其團隊的佣金計算結果。」
+- p3: "The system must allow a user to reset their password within three steps." / 「系統必須讓使用者能在三個步驟內重設密碼。」
+- p4: "The system must respond to any user request within two seconds under normal load." / 「系統在正常負載下,必須在兩秒內回應任何使用者請求。」
+- p5: "All customer service staff must complete two hours of training on the new ticketing system before go-live." / 「所有客服人員必須在新工單系統上線前完成兩小時的訓練。」
+
+**選項池(拖曳目標)**
+
+- c1: Business Requirement / 商業需求(Business Requirement)
+- c2: Stakeholder Requirement / 利害關係人需求(Stakeholder Requirement)
+- c3: Solution Requirement — Functional / 解決方案需求-功能性(Functional)
+- c4: Solution Requirement — Non-Functional / 解決方案需求-非功能性(Non-Functional)
+- c5: Transition / Readiness Requirement / 轉換/就緒需求(Transition Requirement)
+
+**✅ 正確配對**
+
+- p1 → c1: "The digital transformation initiative must increase online transaction throughput by 40% to meet the company's five-year strategic plan." → Business Requirement（「此數位轉型計畫必須將線上交易吞吐量提升 40%,以符合公司五年策略計畫。」 → 商業需求(Business Requirement)）
+- p2 → c2: "The regional sales director needs the new dashboard to show her team's commission calculations in real time." → Stakeholder Requirement（「區域業務總監需要新儀表板能即時顯示其團隊的佣金計算結果。」 → 利害關係人需求(Stakeholder Requirement)）
+- p3 → c3: "The system must allow a user to reset their password within three steps." → Solution Requirement — Functional（「系統必須讓使用者能在三個步驟內重設密碼。」 → 解決方案需求-功能性(Functional)）
+- p4 → c4: "The system must respond to any user request within two seconds under normal load." → Solution Requirement — Non-Functional（「系統在正常負載下,必須在兩秒內回應任何使用者請求。」 → 解決方案需求-非功能性(Non-Functional)）
+- p5 → c5: "All customer service staff must complete two hours of training on the new ticketing system before go-live." → Transition（「所有客服人員必須在新工單系統上線前完成兩小時的訓練。」 → Readiness Requirement / 轉換/就緒需求(Transition Requirement)）
+
+**詳解**
+
+需求可分為多個層級:Business Requirement(策略目標、高階組織需求)、Stakeholder Requirement(個別利害關係人的需求)、Solution Requirement 又分為 Functional(產品必須做到的功能)與 Non-Functional(產品該如何表現,如效能、可靠度),以及 Transition/Readiness Requirement(暫時性需求,如訓練、資料轉移)。正確辨識需求所屬層級,有助於後續追蹤、驗證與範疇管理。
+
+---
+
+### Q84. `scp-083` — 單選題
+
+**題目 ID**: `scp-083`
+
+難度: `hard` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Among all six Scope processes, Validate Scope is unique in that its list of inputs does NOT include the Project Management Plan. What best explains why?
+- 中: 在所有六個範疇流程中,確認範疇(Validate Scope)的輸入清單中沒有包含專案管理計畫(PM Plan),這與其他流程不同。下列何者最能解釋原因?
+
+**選項**
+
+- (a) By the time Validate Scope occurs, scope should already have been planned and baselined earlier in the project, so the process instead relies on Verified Deliverables and the already-established scope baseline documents. / 到了確認範疇階段,範疇早已在專案較早期完成規劃與基準化,因此此流程改為仰賴已查證交付物與既有的範疇基準文件。 ✅ **正解**
+- (b) The Project Management Plan is never created on projects that use Validate Scope. / 使用確認範疇流程的專案,從不會建立專案管理計畫。
+- (c) Validate Scope is always the very first process performed on any project, before any planning occurs. / 確認範疇永遠是任何專案最先執行的流程,發生在任何規劃之前。
+- (d) The Project Management Plan is classified as an Enterprise Environmental Factor rather than a project document. / 專案管理計畫被歸類為企業環境因素,而非專案文件。
+
+**詳解**
+
+確認範疇是六個範疇流程中唯一輸入不包含 PM Plan 的流程,因為到了此階段,範疇規劃與基準化工作理應早已完成;此流程改為仰賴已查證交付物(Verified Deliverables)與既有的範疇基準文件來進行客戶驗收,而非重新參照整份 PM Plan。其餘選項皆屬錯誤或不合理的敘述。
+
+---
+
+### Q85. `scp-084` — 單選題
+
+**題目 ID**: `scp-084`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During a formal Validate Scope walkthrough, the customer reviews a completed deliverable against the documented acceptance criteria and determines it does not meet one of the criteria, declining to sign off. What should happen next?
+- 中: 在正式的確認範疇審查中,客戶依已記錄的驗收標準檢視已完成的交付標的,判定其未符合其中一項標準,因而拒絕簽署。接下來應該發生什麼?
+
+**選項**
+
+- (a) The project manager should treat this as a Change Request output of Validate Scope, documenting the gap and working with the team to address it before re-presenting the deliverable for acceptance. / 專案經理應將此視為確認範疇的變更請求產出,記錄落差並與團隊合作修正,再重新提交交付標的以供驗收。 ✅ **正解**
+- (b) The team should proceed to project closure anyway, since the deliverable was completed according to the original technical specification. / 團隊應直接進入結案,因為交付標的已依原始技術規格完成。
+- (c) The project manager should ask a different stakeholder with less authority to sign off instead. / 專案經理應改請另一位權限較低的利害關係人簽署。
+- (d) The rejection should be recorded as a risk and no further action should be taken until the next phase gate. / 應將此拒絕記錄為風險,直到下一個階段關卡前不採取進一步行動。
+
+**詳解**
+
+確認範疇的產出除了已驗收交付物,也包含變更請求(當客戶拒絕接受時);此情境下專案經理應正視客戶的正式拒絕,記錄落差並與團隊合作修正後再次提交驗收,而非略過客戶意見逕行結案、另尋較弱勢的利害關係人簽署,或消極不作為。
+
+---
+
+### Q86. `scp-085` — 點擊熱區題
+
+**題目 ID**: `scp-085`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A team spends time deeply observing and interviewing actual end users to understand their unspoken frustrations and underlying needs, before jumping to define any technical solution. Click the technique that best matches this user-centered approach.
+- 中: 團隊花時間深入觀察並訪談實際終端使用者,以了解其未明說的困擾與潛在需求,而非急著跳去定義技術解法。請點選最符合此使用者中心做法的技術。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Design Thinking / 設計思考(Design Thinking) ✅ **正解** [x=5,y=5,w=40,h=35]
+- (n2) Earned Value Analysis / 實獲值分析(Earned Value Analysis) [x=52.5,y=5,w=40,h=35]
+- (n3) Critical Path Method / 要徑法(Critical Path Method) [x=5,y=47.5,w=40,h=35]
+- (n4) 100% Rule / 百分百法則(100% Rule) [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+設計思考(Design Thinking)是以使用者為中心,透過深度觀察與理解使用者潛在需求,才進一步定義解決方案的技術,是引出並分析需求流程中常用的工具之一;實獲值分析與要徑法分屬 Finance 與 Schedule 領域的績效/時程分析工具,100% Rule 是 WBS 分解的規範原則,三者皆與「深入理解使用者潛在需求」無關。
+
+---
+
+### Q87. `scp-086` — 拖拉配對題
+
+**題目 ID**: `scp-086`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each Monitor and Control Scope data analysis technique to the question it primarily helps answer.
+- 中: 請將下列每項「監控範疇」的數據分析技術拖曳配對到其主要協助回答的問題。
+
+**配對項目(拖曳來源)**
+
+- p1: Variance Analysis / 變異分析(Variance Analysis)
+- p2: Trend Analysis / 趨勢分析(Trend Analysis)
+- p3: Root Cause Analysis / 根本原因分析(Root Cause Analysis)
+- p4: Performance Review / 績效審查(Performance Review)
+
+**選項池(拖曳目標)**
+
+- c1: How far apart is what actually happened from what the scope baseline said should happen? / 實際發生的情況,與範疇基準所規劃的情況相差多少?
+- c2: Is the size or frequency of scope variances increasing or decreasing over time? / 範疇變異的幅度或頻率,隨時間是在擴大還是縮小?
+- c3: What is the underlying reason a scope deviation keeps recurring, beneath its surface symptoms? / 某項範疇偏差反覆發生的表面症狀背後,真正的根本原因是什麼?
+- c4: Comparing overall scope performance against the plan across multiple metrics at a review checkpoint. / 在檢查點上,綜合多項指標比對整體範疇表現與計畫的落差。
+
+**✅ 正確配對**
+
+- p1 → c1: Variance Analysis → How far apart is what actually happened from what the scope baseline said should happen?（變異分析(Variance Analysis) → 實際發生的情況,與範疇基準所規劃的情況相差多少?）
+- p2 → c2: Trend Analysis → Is the size or frequency of scope variances increasing or decreasing over time?（趨勢分析(Trend Analysis) → 範疇變異的幅度或頻率,隨時間是在擴大還是縮小?）
+- p3 → c3: Root Cause Analysis → What is the underlying reason a scope deviation keeps recurring, beneath its surface symptoms?（根本原因分析(Root Cause Analysis) → 某項範疇偏差反覆發生的表面症狀背後,真正的根本原因是什麼?）
+- p4 → c4: Performance Review → Comparing overall scope performance against the plan across multiple metrics at a review checkpoint.（績效審查(Performance Review) → 在檢查點上,綜合多項指標比對整體範疇表現與計畫的落差。）
+
+**詳解**
+
+變異分析比較實際與範疇基準的落差;趨勢分析觀察落差隨時間是否擴大或縮小;根本原因分析探究表面症狀背後真正的成因,以避免同樣問題反覆發生;績效審查則是在檢查點綜合比對整體範疇表現與計畫的落差。四者皆是監控範疇常用的數據分析工具,但著重角度不同。
+
+---
+
+### Q88. `scp-087` — 點擊熱區題
+
+**題目 ID**: `scp-087`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A control chart tracking a recurring scope-related quality metric shows a center line, an upper control limit (UCL), and a lower control limit (LCL). All data points fall within the limits, but the last seven consecutive points all lie above the center line. Click the description of what this pattern indicates.
+- 中: 一張追蹤重複性範疇相關品質指標的管制圖,包含中心線、管制上限(UCL)與管制下限(LCL)。所有資料點皆落在管制界限之內,但最後七個連續資料點全部都落在中心線的同一側(上方)。請點選此圖形所代表的意義。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) The process is out of control due to a special cause, even though no point exceeds the control limits, because seven consecutive points on the same side violate the Rule of Seven. / 即使沒有任何點超出管制界限,流程仍因特殊原因而失控,因為連續七點落在同一側違反了偏離法則(Rule of Seven)。 ✅ **正解** [x=5,y=5,w=40,h=35]
+- (n2) The process is perfectly stable and requires no further investigation, since every point is within the control limits. / 流程完全穩定、不需進一步調查,因為每個點都在管制界限之內。 [x=52.5,y=5,w=40,h=35]
+- (n3) This pattern means the scope baseline itself must be immediately re-baselined. / 此圖形代表範疇基準本身必須立即重新設定基準。 [x=5,y=47.5,w=40,h=35]
+- (n4) This pattern can only be meaningfully interpreted after the project moves into Closing. / 此圖形只有在專案進入結束階段後才有意義可解讀。 [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+依偏離法則(Rule of Seven),即使所有資料點都落在管制界限內,只要連續七點落在中心線同一側,就代表流程並非單純受共同原因變異影響,而是已出現特殊原因(Special Cause),流程可能已經失控,必須立即停止並調查;並非「界限內就代表穩定」,也不代表需要立即重設基準,重設基準是另一個獨立的決策,更與專案是否進入結束階段無關。
+
+---
+
+### Q89. `scp-088` — 下拉選單題
+
+**題目 ID**: `scp-088`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A data-presentation tool used to identify whether two variables (such as requirement complexity and defect rate) are correlated is called {{blank1}}; a different tool that groups data into intervals to show the frequency and shape of its distribution is called {{blank2}}.
+- 中: 用來辨識兩個變數(例如需求複雜度與缺陷率)之間是否存在關聯性的資料呈現工具稱為 {{blank1}};另一種將資料分組為區間、以呈現其分布頻率與形狀的工具則稱為 {{blank2}}。
+
+**blank1**
+
+- (a) Scatter Diagram / 散佈圖(Scatter Diagram) ✅ **正解**
+- (b) Control Chart / 管制圖(Control Chart)
+- (c) Histogram / 直方圖(Histogram)
+
+**blank2**
+
+- (a) Control Chart / 管制圖(Control Chart)
+- (b) Histogram / 直方圖(Histogram) ✅ **正解**
+- (c) Scatter Diagram / 散佈圖(Scatter Diagram)
+
+
+**詳解**
+
+散佈圖(Scatter Diagram)用於辨識兩變數間是否存在關聯性或趨勢;直方圖(Histogram)則將資料分組計算出現頻率,呈現資料的分布形態(如常態分布、偏態分布);管制圖(Control Chart)用於監控流程穩定度。三者皆是監控範疇常用的數據呈現工具,但用途不同,常被考題要求辨別。
+
+---
+
+### Q90. `scp-089` — 單選題
+
+**題目 ID**: `scp-089`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A software team integrates automated build, test, and deployment pipelines so that every code change is automatically verified against acceptance criteria and quickly surfaced if it deviates from agreed scope. This is an example of which Monitor and Control Scope tool category?
+- 中: 某軟體團隊整合了自動化建置、測試與部署流程,讓每次程式碼變更都能自動依驗收標準進行驗證,並在偏離已議定範疇時快速被發現。這是屬於「監控範疇」的哪一類工具?
+
+**選項**
+
+- (a) Process Automation, such as CI/CD pipelines and automated testing, which help detect scope deviations quickly and continuously. / 流程自動化,例如 CI/CD 流程與自動化測試,協助快速且持續地偵測範疇偏差。 ✅ **正解**
+- (b) Expert Judgment, relying solely on a senior architect's manual review of each change. / 專家判斷,完全仰賴資深架構師對每次變更的人工審查。
+- (c) The Requirements Traceability Matrix, used only at project closure. / 需求追溯矩陣,僅在專案結束時使用。
+- (d) Rolling Wave Planning, used to plan far-future work at a high level. / 滾動式規劃,用於高階規劃遠期工作。
+
+**詳解**
+
+CI/CD(持續整合/持續交付)、自動化測試與監控系統,是監控範疇工具中的「流程自動化(Process Automations)」類別,能快速、持續且不完全依賴人工介入地偵測範疇或品質偏差;專家判斷、RTM 與滾動式規劃雖然也是專案管理常見工具,但並非此情境所描述的自動化持續驗證做法。
+
+---
+
+### Q91. `scp-090` — 單選題
+
+**題目 ID**: `scp-090`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A Scrum team has 180 story points remaining in its Product Backlog. Over the past four sprints, the team completed 32, 28, 30, and 30 story points respectively. Based on the team's average velocity, approximately how many more sprints will the team need to complete the remaining backlog?
+- 中: 某 Scrum 團隊的產品待辦清單尚剩餘 180 個故事點。過去四個 Sprint,團隊分別完成了 32、28、30、30 個故事點。依團隊的平均速度(Velocity)估算,團隊大約還需要多少個 Sprint 才能完成剩餘待辦清單?
+
+**選項**
+
+- (a) Approximately 4 sprints / 約 4 個 Sprint
+- (b) Approximately 6 sprints / 約 6 個 Sprint ✅ **正解**
+- (c) Approximately 9 sprints / 約 9 個 Sprint
+- (d) Approximately 12 sprints / 約 12 個 Sprint
+
+**詳解**
+
+平均速度 = (32+28+30+30) ÷ 4 = 120 ÷ 4 = 30 個故事點/Sprint。剩餘待辦清單 180 點 ÷ 平均速度 30 點/Sprint = 6 個 Sprint。速度(Velocity)是敏捷團隊常用來回推剩餘待辦清單約需多少個 Sprint 完成的預測指標。
+
+---
+
+### Q92. `scp-091` — 點擊熱區題
+
+**題目 ID**: `scp-091`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: In a collaboration game, stakeholders draw a tree and write candidate features on paper leaves, attaching them to branches — features that depend on other features being in place first are placed higher up on the tree, closer to what they build upon. This helps the team visually cluster, group, and sequence features. Click the name of this game.
+- 中: 在某個協作遊戲中,利害關係人畫出一棵樹,並將候選功能寫在紙製葉片上貼到樹枝上——需要依賴其他功能先到位才能實現的功能,會被貼在樹的較高處,靠近它所依附的功能。這有助於團隊以視覺化方式將功能分類、分組並排序。請點選此遊戲的名稱。
+
+**熱區選項**(方括號是畫面上的座標百分比,新增題目不填也沒關係,匯入時會自動排版)
+
+- (n1) Prune the Product Tree / 修剪產品樹(Prune the Product Tree) ✅ **正解** [x=5,y=5,w=40,h=35]
+- (n2) Remember the Future / 回想未來(Remember the Future) [x=52.5,y=5,w=40,h=35]
+- (n3) Speedboat / 快艇(Speedboat) [x=5,y=47.5,w=40,h=35]
+- (n4) Product Box / 產品盒(Product Box) [x=52.5,y=47.5,w=40,h=35]
+
+**詳解**
+
+修剪產品樹(Prune the Product Tree)是讓利害關係人在紙條上寫下候選功能並貼到一棵畫出的樹上,依賴關係較高、需先有其他功能才能實現的項目貼在較高處,藉此方便分類、分組與排序功能;回想未來是請利害關係人想像成功情境後回推;快艇是用船隻意象辨識推動力與阻力;產品盒是設計包裝盒呈現賣點,三者皆與本情境「畫樹貼葉片依賴關係排序」不同。
+
+---
+
+### Q93. `scp-092` — 單選題
+
+**題目 ID**: `scp-092`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: In this collaboration game, a facilitator asks stakeholders to imagine that the project has already succeeded, describe what that success looks like in vivid detail, and then work backward to identify what needed to happen to get there. What is this technique called?
+- 中: 在這個協作遊戲中,主持人請利害關係人想像專案已經成功,生動地描述成功的樣貌,再回推需要發生哪些事情才能達成。這個技巧稱為什麼?
+
+**選項**
+
+- (a) Remember the Future / 回想未來(Remember the Future) ✅ **正解**
+- (b) Prune the Product Tree / 修剪產品樹(Prune the Product Tree)
+- (c) Speedboat / 快艇(Speedboat)
+- (d) Nominal Group Technique / 名目群體技術(Nominal Group Technique)
+
+**詳解**
+
+回想未來(Remember the Future)請利害關係人先想像專案已經成功的畫面,再回推需要做到什麼才能達成該成功,協助團隊初步了解利害關係人對「成功」的定義;修剪產品樹用於功能分類排序,快艇用於辨識推動力與阻力,名目群體技術是結構化腦力激盪投票法,皆與本情境「先想像成功再回推」的做法不同。
+
+---
+
+### Q94. `scp-093` — 單選題
+
+**題目 ID**: `scp-093`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A change request expanding a deliverable's scope has just been formally approved by the Change Control Board. What must the project manager ensure happens next so the project's scope structure stays consistent?
+- 中: 一項擴增交付標的範疇的變更請求剛被變更管控委員會正式核准。專案經理必須確保接下來發生什麼事,才能讓專案的範疇結構保持一致?
+
+**選項**
+
+- (a) The team quietly begins the new work immediately, without updating any scope documents, since the change was already approved. / 團隊悄悄立即開始新工作,不更新任何範疇文件,因為變更已經核准。
+- (b) The project manager ensures the approved change flows into Develop Scope Structure so the WBS, WBS Dictionary, and Scope Statement are updated to reflect the new scope before work begins. / 專案經理確保已核准的變更被納入發展範疇結構流程,使 WBS、WBS 字典與範疇說明書在動工前都更新以反映新範疇。 ✅ **正解**
+- (c) The change is recorded only in the risk register and no other document needs to change. / 此變更只需記錄在風險登記冊中,不需更動其他文件。
+- (d) The project manager should reject implementing the change since the scope baseline is supposed to remain fixed once set. / 專案經理應拒絕執行此變更,因為範疇基準一旦設定就不應再更動。
+
+**詳解**
+
+已核准的變更請求是發展範疇結構(Develop Scope Structure)流程的輸入之一,專案經理應確保此類核准的變更被正式納入,使 WBS、WBS 字典與範疇說明書等範疇基準文件同步更新,才能動工,以維持文件與實際範疇的一致性;悄悄動工不更新文件、僅記錄於風險登記冊,或完全拒絕已核准的變更,皆不符合正確的變更管控後續程序。
+
+---
+
+### Q95. `scp-094` — 多選題
+
+**題目 ID**: `scp-094`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: According to the categories of requirements documented during Elicit and Analyze Requirements, select the THREE items that would typically fall under "Quality Requirements."
+- 中: 依「引出並分析需求」流程中記載的需求分類,請選出通常會被歸類在「品質需求(Quality Requirements)」下的三個項目。
+
+**選項**
+
+- (a) Testing criteria the deliverable must pass / 交付標的必須通過的測試標準 ✅ **正解**
+- (b) Certification or regulatory compliance requirements / 認證或法規遵循要求 ✅ **正解**
+- (c) Formal validation methods, such as UAT or pilot feedback / 正式的驗證方法,例如 UAT 或試行回饋 ✅ **正解**
+- (d) The team member's annual salary adjustment schedule / 團隊成員的年度調薪時程
+- (e) The project's critical path float calculation / 專案要徑的浮時計算
+
+**詳解**
+
+品質需求(Quality Requirement)通常包含測試(Test)、認證(Certification)、驗證(Validation)與驗收標準(Acceptance Criteria)等項目,用來確保交付標的的品質符合利害關係人與法規標準;團隊薪資調整屬 Resources 領域,要徑浮時計算屬 Schedule 領域,皆非品質需求的內容。
+
+---
+
+### Q96. `scp-095` — 多選題
+
+**題目 ID**: `scp-095`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Over the past several sprints, trend analysis shows that small, unauthorized scope deviations keep recurring across different features, each time individually minor but collectively adding up. Select the TWO most appropriate actions for the project manager.
+- 中: 過去數個 Sprint 的趨勢分析顯示,不同功能之間不斷反覆出現小型、未經授權的範疇偏差,每次個別看似輕微,但累積起來卻不容小覷。請選出專案經理應採取的兩項最適當行動。
+
+**選項**
+
+- (a) Apply root cause analysis to identify the underlying systemic reason these small deviations keep recurring, such as unclear acceptance criteria or informal change requests being accepted verbally. / 運用根本原因分析,找出這些小偏差不斷發生的根本系統性原因,例如驗收標準不清或口頭變更請求被接受。 ✅ **正解**
+- (b) Reinforce the formal change control process with the team and stakeholders so future deviations, however small, are properly evaluated and documented. / 與團隊及利害關係人重申正式變更管控流程,確保未來偏差無論大小都經過適當評估與記錄。 ✅ **正解**
+- (c) Ignore the trend since each individual deviation was too small to matter on its own. / 忽略此趨勢,因為每個個別偏差單獨來看都太小,不重要。
+- (d) Publicly reprimand the entire team in the next status meeting without further investigation. / 在下次狀態會議中公開斥責整個團隊,且不做進一步調查。
+- (e) Immediately terminate the change control process since it is clearly not working. / 立即終止變更管控流程,因為它顯然沒有作用。
+
+**詳解**
+
+趨勢分析顯示反覆發生的模式時,專案經理應運用根本原因分析找出系統性成因(而非只處理個別事件的表面症狀),並與團隊、利害關係人重申正式變更管控流程的重要性,防止未來再次發生;忽視趨勢、未經調查就公開究責,或直接放棄變更管控流程,皆無助於解決根本問題。
+
+---
+
+### Q97. `scp-096` — 下拉選單題
+
+**題目 ID**: `scp-096`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A category of requirements covering temporary needs that exist only to help the organization transition into using the new product — such as staff training or data conversion — is called {{blank1}}. This is distinct from {{blank2}}, which describes the ongoing features and functions the product itself must deliver.
+- 中: 一種涵蓋暫時性需求的需求類別,僅存在於協助組織順利過渡到使用新產品——例如員工訓練或資料轉移——稱為 {{blank1}}。這與 {{blank2}} 不同,後者描述的是產品本身必須具備的持續性特色與功能。
+
+**blank1**
+
+- (a) Transition / Readiness Requirement / 轉換/就緒需求(Transition Requirement) ✅ **正解**
+- (b) Business Requirement / 商業需求(Business Requirement)
+- (c) Project Requirement / 專案需求(Project Requirement)
+
+**blank2**
+
+- (a) Business Requirement / 商業需求(Business Requirement)
+- (b) Solution Requirement / Functional Requirement / 解決方案需求/功能需求(Functional Requirement) ✅ **正解**
+- (c) Quality Requirement / 品質需求(Quality Requirement)
+
+
+**詳解**
+
+轉換/就緒需求(Transition/Readiness Requirement)是暫時性需求,僅為協助組織從舊狀態過渡到使用新產品/系統而存在,例如訓練、資料轉移,一旦轉換完成便不再需要;這與描述產品本身必須具備、持續存在的功能特色的解決方案需求(功能需求)不同,也與描述高階策略目標的商業需求不同。
+
+---
+
+### Q98. `scp-097` — 單選題
+
+**題目 ID**: `scp-097`
+
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Which document, used as an input to Elicit and Analyze Requirements, describes the business need and justification for undertaking the project in the first place — distinct from the individual Business Requirements later documented as part of Requirements Documentation?
+- 中: 哪一份文件被用作「引出並分析需求」流程的輸入,描述了專案之所以被啟動的商業需求與理由——不同於後續在需求文件中記載的個別商業需求(Business Requirements)?
+
+**選項**
+
+- (a) Business Case / 商業論證(Business Case) ✅ **正解**
+- (b) Requirements Traceability Matrix / 需求追溯矩陣(RTM)
+- (c) WBS Dictionary / WBS 字典(WBS Dictionary)
+- (d) Scope Management Plan / 範疇管理計畫(Scope Management Plan)
+
+**詳解**
+
+商業論證(Business Case)描述專案的商業需求與啟動理由,是引出並分析需求流程的輸入之一,提供探索需求的基準點;它與後續在需求文件中記載、描述具體策略目標的商業需求層級不同(Business Case 較高階、屬啟動階段文件),RTM、WBS 字典與範疇管理計畫則分別是不同流程的產出,皆非本題所指文件。
+
+---
+
+### Q99. `scp-098` — 多選題
+
+**題目 ID**: `scp-098`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Select the THREE attributes commonly recorded for each entry in a Requirements Traceability Matrix (RTM).
+- 中: 請選出需求追溯矩陣(RTM)中,每個條目通常會記錄的三項屬性。
+
+**選項**
+
+- (a) A unique requirement ID / 唯一的需求編號 ✅ **正解**
+- (b) The requirement's priority and current status / 需求的優先順序與目前狀態 ✅ **正解**
+- (c) The owner responsible for the requirement / 負責該需求的擁有者 ✅ **正解**
+- (d) The team's sprint velocity for the current iteration / 團隊本次迭代的 Sprint 速度
+- (e) The overall project's critical path duration / 整個專案的要徑工期
+
+**詳解**
+
+RTM 常見屬性包含唯一編號(ID)、描述、擁有者(Owner)、優先程度、狀態與日期,額外屬性可能還有穩定性、複雜度、驗收標準等,用於追蹤需求從來源到交付、驗證的完整脈絡;Sprint 速度屬於 Schedule/敏捷績效指標,要徑工期屬於 Schedule 領域,皆非 RTM 記錄的屬性。
+
+---
+
+### Q100. `scp-099` — 單選題
+
+**題目 ID**: `scp-099`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A senior stakeholder tells the project manager, "The deliverable is obviously fine — let's skip the formal Validate Scope walkthrough and just move to closing, it'll save everyone a week." What should the project manager do?
+- 中: 一位資深利害關係人告訴專案經理:「這個交付標的顯然沒問題——我們跳過正式的確認範疇審查,直接進入結案吧,這樣能幫大家省一週時間。」專案經理應該怎麼做?
+
+**選項**
+
+- (a) Agree, since the stakeholder is senior and the time savings benefit the whole team. / 同意,因為此利害關係人資深,而且省下的時間對整個團隊都有利。
+- (b) Politely but firmly explain that Validate Scope requires a formal review against documented acceptance criteria, and that skipping it removes the opportunity to catch gaps before closure — then continue to pursue the formal walkthrough. / 有禮貌但堅定地說明,確認範疇需要依已記錄的驗收標準進行正式審查,跳過將失去在結案前抓出落差的機會——接著持續推動正式審查。 ✅ **正解**
+- (c) Skip the walkthrough for this stakeholder but tell other stakeholders it did happen. / 對這位利害關係人跳過審查,但告訴其他利害關係人審查有進行。
+- (d) Escalate the stakeholder's suggestion directly to an external regulator for review. / 將這位利害關係人的建議直接上呈外部監管機構審查。
+
+**詳解**
+
+即使建議來自資深利害關係人且立意良善(節省時間),確認範疇的正式審查程序不應被跳過,因為這是確保交付物真正符合驗收標準、避免結案後才發現落差的重要把關機制;專案經理應堅定但有禮地說明並持續推動正式審查,而非配合跳過、對不同利害關係人說法不一,或不成比例地將此事上呈外部機構。
+
+---
+
+### Q101. `scp-100` — 拖拉配對題
+
+**題目 ID**: `scp-100`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each Scope process to a tool/technique that is characteristically used within it.
+- 中: 請將下列每個範疇流程拖曳配對到其常運用的代表性工具/技術。
+
+**配對項目(拖曳來源)**
+
+- p1: Plan Scope Management / 規劃範疇管理(Plan Scope Management)
+- p2: Elicit and Analyze Requirements / 引出並分析需求(Elicit and Analyze Requirements)
+- p3: Define Scope / 定義範疇(Define Scope)
+- p4: Develop Scope Structure / 發展範疇結構(Develop Scope Structure)
+- p5: Validate Scope / 確認範疇(Validate Scope)
+
+**選項池(拖曳目標)**
+
+- c1: Test and Inspection Planning / 測試與檢驗規劃(Test and Inspection Planning)
+- c2: Design Thinking / 設計思考(Design Thinking)
+- c3: Product Analysis (e.g., Value Engineering) / 產品分析(如價值工程)
+- c4: Decomposition / 分解(Decomposition)
+- c5: Inspection / 檢視(Inspection)
+
+**✅ 正確配對**
+
+- p1 → c1: Plan Scope Management → Test and Inspection Planning（規劃範疇管理(Plan Scope Management) → 測試與檢驗規劃(Test and Inspection Planning)）
+- p2 → c2: Elicit and Analyze Requirements → Design Thinking（引出並分析需求(Elicit and Analyze Requirements) → 設計思考(Design Thinking)）
+- p3 → c3: Define Scope → Product Analysis (e.g., Value Engineering)（定義範疇(Define Scope) → 產品分析(如價值工程)）
+- p4 → c4: Develop Scope Structure → Decomposition（發展範疇結構(Develop Scope Structure) → 分解(Decomposition)）
+- p5 → c5: Validate Scope → Inspection（確認範疇(Validate Scope) → 檢視(Inspection)）
+
+**詳解**
+
+規劃範疇管理運用測試與檢驗規劃及早設想驗證方式;引出並分析需求常用設計思考深入理解使用者潛在需求;定義範疇運用產品分析(如價值工程)將高階描述轉化為具體交付物;發展範疇結構運用分解技術將交付物拆成工作包;確認範疇則透過檢視(Inspection)確認交付物是否符合驗收標準。五個流程各自對應的代表性工具不同,是常見易混淆考點。
+
+---
+
+### Q102. `scp-101` — 單選題
+
+**題目 ID**: `scp-101`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project needs input on requirements from over 2,000 customers spread across a dozen countries, and time is limited. Which data-gathering technique is generally most appropriate for efficiently collecting broad input from this large, geographically dispersed group?
+- 中: 某專案需要向分散在十幾個國家、超過 2,000 位的客戶蒐集需求意見,且時間有限。對於這個規模龐大、地理分散的群體,哪一種資料蒐集技術通常最適合有效率地蒐集廣泛意見?
+
+**選項**
+
+- (a) One-on-one interviews with every single customer / 與每位客戶進行一對一訪談
+- (b) Questionnaires and surveys, which can efficiently reach a large, geographically dispersed audience for broad quantitative input / 問卷與調查,能有效率地觸及大規模、地理分散的受眾以蒐集廣泛的量化意見 ✅ **正解**
+- (c) A single in-person focus group held at company headquarters / 在公司總部舉辦單一場實體焦點團體
+- (d) A facilitated workshop requiring all 2,000 customers to attend the same session / 引導式工作坊,要求全部 2,000 位客戶出席同一場會議
+
+**詳解**
+
+問卷與調查(Questionnaire and Survey)適合快速、有效率地觸及大規模且地理分散的受眾,蒐集廣泛的量化意見;對 2,000 位分散各地的客戶逐一進行一對一訪談、召開單一實體焦點團體或要求全員出席同一場工作坊,皆不符合時間有限、規模龐大且地理分散的情境限制。
+
+---
+
+### Q103. `scp-102` — 多選題
+
+**題目 ID**: `scp-102`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During Define Scope, the project team uses decision-making tools to converge on the final set of project requirements from many candidate items. Select the THREE decision-making techniques appropriate for this purpose.
+- 中: 在定義範疇過程中,專案團隊運用決策工具,從眾多候選項目中收斂出最終的專案需求集合。請選出三項適合此用途的決策技術。
+
+**選項**
+
+- (a) Voting / 投票(Voting) ✅ **正解**
+- (b) Autocratic decision making / 獨裁式決策(Autocratic Decision Making) ✅ **正解**
+- (c) Multicriteria decision analysis / 多準則決策分析(Multicriteria Decision Analysis) ✅ **正解**
+- (d) Earned Value Analysis / 實獲值分析(Earned Value Analysis)
+- (e) Critical Path Method / 要徑法(Critical Path Method)
+
+**詳解**
+
+定義範疇流程中的決策工具包含投票、獨裁式決策(由單一具權限者拍板)與多準則決策分析,協助團隊從眾多候選需求中收斂出最終的專案需求;實獲值分析屬於 Finance 領域的績效衡量工具,要徑法屬於 Schedule 領域的時程分析工具,皆非用於收斂需求的決策技術。
+
+---
+
+### Q104. `scp-103` — 下拉選單題
+
+**題目 ID**: `scp-103`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A new government data-privacy regulation that the project team has no control over, but must comply with when defining scope, is an example of {{blank1}}; the organization's own pre-existing WBS templates and lessons-learned repository, which the team may choose to draw on, are examples of {{blank2}}.
+- 中: 一項團隊無法控制、但在定義範疇時必須遵守的新政府資料隱私法規,是 {{blank1}} 的一個例子;而組織自身既有的 WBS 範本與經驗教訓資料庫,是團隊可自行選擇運用的 {{blank2}} 範例。
+
+**blank1**
+
+- (a) Enterprise Environmental Factors (EEF) / 企業環境因素(EEF) ✅ **正解**
+- (b) Organizational Process Assets (OPA) / 組織過程資產(OPA)
+- (c) Change Requests / 變更請求(Change Requests)
+
+**blank2**
+
+- (a) Enterprise Environmental Factors (EEF) / 企業環境因素(EEF)
+- (b) Organizational Process Assets (OPA) / 組織過程資產(OPA) ✅ **正解**
+- (c) Verified Deliverables / 已查證交付物(Verified Deliverables)
+
+
+**詳解**
+
+企業環境因素(EEF)是專案團隊無法控制、卻會影響專案的外部或內部條件,例如政府法規;組織過程資產(OPA)則是組織既有、可被團隊選擇運用的政策、範本與經驗教訓等資源,例如既有的 WBS 範本。兩者皆是範疇相關流程常見的輸入類別,但性質不同,需正確辨別何者屬於「不可控的環境因素」、何者屬於「組織內部可運用的資產」。
+
+---
+
+### Q105. `scp-104` — 拖拉配對題
+
+**題目 ID**: `scp-104`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each WBS Dictionary field to the example content that would typically appear under it.
+- 中: 請將下列每個 WBS 字典欄位拖曳配對到其通常會出現的範例內容。
+
+**配對項目(拖曳來源)**
+
+- p1: Description of Work / 工作描述(Description of Work)
+- p2: Responsible Organization or Individual / 負責組織或個人(Responsible Organization or Individual)
+- p3: Acceptance Criteria / 驗收標準(Acceptance Criteria)
+- p4: Milestones / 里程碑(Milestones)
+- p5: Resource Requirements / 所需資源(Resource Requirements)
+
+**選項池(拖曳目標)**
+
+- c1: "Design, build, and unit-test the user authentication module, including login and password reset flows." / 「設計、建置並單元測試使用者驗證模組,包含登入與密碼重設流程。」
+- c2: "Backend Engineering Team, led by Jordan Lee." / 「後端工程團隊,由 Jordan Lee 領導。」
+- c3: "Must pass all security penetration tests and support at least 500 concurrent logins." / 「必須通過所有滲透測試,並支援至少 500 個並發登入。」
+- c4: "Module code freeze scheduled for the end of Week 6." / 「模組程式碼凍結預計於第 6 週結束。」
+- c5: "Two senior backend developers and one QA engineer for four weeks." / 「兩名資深後端開發人員與一名 QA 工程師,為期四週。」
+
+**✅ 正確配對**
+
+- p1 → c1: Description of Work → "Design, build, and unit-test the user authentication module, including login and password reset flows."（工作描述(Description of Work) → 「設計、建置並單元測試使用者驗證模組,包含登入與密碼重設流程。」）
+- p2 → c2: Responsible Organization or Individual → "Backend Engineering Team, led by Jordan Lee."（負責組織或個人(Responsible Organization or Individual) → 「後端工程團隊,由 Jordan Lee 領導。」）
+- p3 → c3: Acceptance Criteria → "Must pass all security penetration tests and support at least 500 concurrent logins."（驗收標準(Acceptance Criteria) → 「必須通過所有滲透測試,並支援至少 500 個並發登入。」）
+- p4 → c4: Milestones → "Module code freeze scheduled for the end of Week 6."（里程碑(Milestones) → 「模組程式碼凍結預計於第 6 週結束。」）
+- p5 → c5: Resource Requirements → "Two senior backend developers and one QA engineer for four weeks."（所需資源(Resource Requirements) → 「兩名資深後端開發人員與一名 QA 工程師,為期四週。」）
+
+**詳解**
+
+WBS 字典針對每個工作包提供詳細資訊,常見欄位包含工作描述(說明具體要做什麼)、負責組織/個人(誰來做)、驗收標準(如何判定完成)、里程碑(關鍵時間點)與所需資源(需要哪些人力/物力);這些欄位補充了 WBS 圖形本身無法呈現的細節,方便後續執行、追蹤與驗收。
+
+---
+
+### Q106. `scp-105` — 拖拉配對題
+
+**題目 ID**: `scp-105`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each layer of the WBS hierarchy to its description.
+- 中: 請將下列每個 WBS 階層拖曳配對到其描述。
+
+**配對項目(拖曳來源)**
+
+- p1: Project (top layer) / 專案(最上層)
+- p2: Control Account (middle layer) / 控制帳戶(中層)
+- p3: Work Package (bottom layer) / 工作包(最下層)
+
+**選項池(拖曳目標)**
+
+- c1: The single top-level node representing the entire project; there is only one of these in a WBS. / 代表整個專案的單一最上層節點;一份 WBS 中只有一個。
+- c2: A management control point where scope, budget, and schedule are integrated and compared to earned value; sits between the project level and the work packages. / 一個管理控制點,範疇、預算與時程在此整合並與實獲值比對;位於專案層級與工作包之間。
+- c3: The smallest, most granular unit of the WBS, appropriately sized to be reliably estimated, assigned, and tracked. / WBS 中最小、顆粒度最細的單位,適合被可靠地估算、指派與追蹤。
+
+**✅ 正確配對**
+
+- p1 → c1: Project (top layer) → The single top-level node representing the entire project; there is only one of these in a WBS.（專案(最上層) → 代表整個專案的單一最上層節點;一份 WBS 中只有一個。）
+- p2 → c2: Control Account (middle layer) → A management control point where scope, budget, and schedule are integrated and compared to earned value; sits between the project level and the work packages.（控制帳戶(中層) → 一個管理控制點,範疇、預算與時程在此整合並與實獲值比對;位於專案層級與工作包之間。）
+- p3 → c3: Work Package (bottom layer) → The smallest, most granular unit of the WBS, appropriately sized to be reliably estimated, assigned, and tracked.（工作包(最下層) → WBS 中最小、顆粒度最細的單位,適合被可靠地估算、指派與追蹤。）
+
+**詳解**
+
+WBS 的階層結構由上而下依序為:上層是專案本身(僅一個節點)、中層是控制帳戶(Control Account,管理控制點,範疇、預算、時程在此整合以利績效衡量)、下層(可有多個)則是工作包(Work Package,WBS 最小單位)。正確理解此三層結構有助於分辨「控制帳戶」與「工作包」在管理上的不同角色。
+
+---
+
+### Q107. `scp-106` — 多選題
+
+**題目 ID**: `scp-106`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A stakeholder insists on adding a new requirement that conflicts with the project's approved Business Case and strategic objectives. Select the TWO most appropriate actions for the project manager.
+- 中: 一位利害關係人堅持要加入一項與專案已核准的商業論證及策略目標相衝突的新需求。請選出專案經理應採取的兩項最適當行動。
+
+**選項**
+
+- (a) Discuss the conflict openly with the stakeholder, explaining how the request diverges from the approved Business Case and strategic objectives. / 與該利害關係人坦誠討論此衝突,說明此請求與已核准的商業論證及策略目標有何出入。 ✅ **正解**
+- (b) If the stakeholder still believes the requirement has merit, route it through formal change control so its impact and alignment can be properly evaluated before any decision is made. / 若該利害關係人仍認為此需求有其必要性,則透過正式變更管控流程處理,以便在做出決定前妥善評估其影響與一致性。 ✅ **正解**
+- (c) Add the requirement immediately without further discussion, since the stakeholder insisted. / 因為利害關係人堅持,直接加入此需求而不再進一步討論。
+- (d) Ignore the Business Case entirely and let the team decide based on personal preference. / 完全忽視商業論證,讓團隊依個人喜好自行決定。
+
+**詳解**
+
+當利害關係人的需求與已核准的商業論證及策略目標衝突時,專案經理應先坦誠溝通落差所在,若對方仍堅持有其價值,則應透過正式變更管控流程妥善評估影響與一致性後再做決定,而非未經討論就逕行採納,也不應完全忽視商業論證放任團隊自行決定,這樣才能確保範疇異動與專案的商業目標保持一致。
+
+---
+
+### Q108. `scp-107` — 單選題
+
+**題目 ID**: `scp-107`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A language app's backlog includes a custom pronunciation scoring feature planned a year ago; a developer notes that new off the shelf AI speech models now do the same job, likely making the item obsolete. What should the project manager do?
+- 中: 某語言學習 App 的產品待辦清單裡,有一項一年前規劃的客製化發音評分功能;一位開發人員指出,現成的新款 AI 語音模型現在也能做到一樣的事,這個項目很可能已經過時了。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Bring the observation to the product owner to rule on the item's remaining value. / 把這個觀察反映給產品負責人,由他來裁定這個項目是否還有剩餘價值 ✅ **正解**
+- (b) Run a short technical spike comparing the new models against the planned feature. / 進行一次簡短的技術探究(spike),比較新模型跟原規劃功能的差異
+- (c) Let the team vote on whether the item stays in the backlog. / 讓團隊投票決定這個項目是否留在待辦清單裡
+- (d) Ask the sponsor whether the feature should be cut from the plan. / 詢問贊助人這項功能是否應該從計畫中刪除
+
+**詳解**
+
+待辦清單裡的項目是否還有價值、該不該留下,屬於產品負責人(Product Owner)的職責範圍,這是敏捷團隊角色分工裡明確授權給 PO 的決策,PM 不該越俎代庖,也不該把這個決定丟給團隊投票或贊助人裁決,尊重角色分工上已經被賦予的決策權,正是賦權團隊成員與利害關係人精神的具體展現。技術探究本身沒有錯,但它是 PO 判斷「這個功能到底還值不值得做」時可能會用到的其中一項輸入資訊,並不能取代把最終裁定權交還給 PO 這個步驟。
 
 ---

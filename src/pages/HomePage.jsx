@@ -2,7 +2,15 @@ import { useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { sampleQuestions } from '../data/sampleQuestions.js'
 import { flaggedQuestions } from '../data/flaggedQuestions.js'
-import { EXAM_SPEC, QUICK_QUIZ_SPEC, createExamSession } from '../engine/examEngine.js'
+import { manualReviewIds } from '../data/manualReviewIds.js'
+import {
+  EXAM_SPEC,
+  QUICK_QUIZ_SPEC,
+  REVIEW_SPEC,
+  buildWrongQuestionPool,
+  computeEffectiveDurationMinutes,
+  createExamSession,
+} from '../engine/examEngine.js'
 import { bi } from '../components/exam/AnswerReveal.jsx'
 import {
   clearHistory,
@@ -26,6 +34,7 @@ const DOMAIN_LABELS = {
 const MODE_LABELS = {
   standard: '標準模式',
   quick: '小考模式',
+  review: '重點複習',
 }
 
 export default function HomePage() {
@@ -51,13 +60,31 @@ export default function HomePage() {
   const historyByMode = useMemo(() => {
     const standard = []
     const quick = []
+    const review = []
     for (const r of history) {
       if (r.mode === 'quick') quick.push(r)
+      else if (r.mode === 'review') review.push(r)
       else standard.push(r)
     }
-    return { standard, quick }
+    return { standard, quick, review }
   }, [history])
   const visibleHistory = historyByMode[historyTab]
+
+  // 重點複習模式的題目池:歷史錯題(見 buildWrongQuestionPool)+ 使用者手動標記需要加強的題目(見 manualReviewIds.js)
+  // 後者不依賴作答紀錄,方便使用者在 App 外自評「這幾題我不熟」時直接加入,不用先在 App 裡答錯一次
+  const reviewPool = useMemo(() => {
+    const fromHistory = buildWrongQuestionPool(history, sampleQuestions)
+    const fromHistoryIds = new Set(fromHistory.map((q) => q.id))
+    const manualQuestions = manualReviewIds
+      .filter((id) => !fromHistoryIds.has(id))
+      .map((id) => sampleQuestions.find((q) => q.id === id))
+      .filter(Boolean)
+    return [...fromHistory, ...manualQuestions]
+  }, [history])
+  const reviewQuestionCount = Math.min(REVIEW_SPEC.totalQuestions, reviewPool.length)
+  // 題數不到 15 題滿額時,作答時間也跟著等比例縮短(維持跟小考模式一樣的每題平均時間),
+  // 不會出現「10 題卻給 20 分鐘」這種比例失衡的狀況——實際考試時 createExamSession() 也是用同一個算法
+  const reviewDurationMinutes = computeEffectiveDurationMinutes(REVIEW_SPEC, reviewQuestionCount)
 
   function parseBreakpoints() {
     return breakInput
@@ -78,6 +105,11 @@ export default function HomePage() {
 
   function startQuickQuiz() {
     const session = createExamSession(sampleQuestions, QUICK_QUIZ_SPEC)
+    navigate('/exam', { state: { newSession: session } })
+  }
+
+  function startReviewExam() {
+    const session = createExamSession(reviewPool, REVIEW_SPEC)
     navigate('/exam', { state: { newSession: session } })
   }
 
@@ -119,7 +151,7 @@ export default function HomePage() {
         </p>
       </header>
 
-      <section className="grid gap-4 sm:grid-cols-2">
+      <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
           <h2 className="mb-3 text-lg font-semibold text-gray-900">標準模式(對應 8th 版新制正式考試)</h2>
           <dl className="grid grid-cols-2 gap-3 text-sm">
@@ -179,6 +211,40 @@ export default function HomePage() {
             開始小考({QUICK_QUIZ_SPEC.totalQuestions} 題)
           </button>
         </div>
+
+        <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <h2 className="mb-3 text-lg font-semibold text-gray-900">重點複習模式</h2>
+          <dl className="grid grid-cols-2 gap-3 text-sm">
+            <div>
+              <dt className="text-gray-400">題數</dt>
+              <dd className="font-medium text-gray-800">{reviewQuestionCount} 題</dd>
+            </div>
+            <div>
+              <dt className="text-gray-400">時間</dt>
+              <dd className="font-medium text-gray-800">{reviewDurationMinutes} 分鐘</dd>
+            </div>
+            <div className="col-span-2">
+              <dt className="text-gray-400">目前錯題池</dt>
+              <dd className="font-medium text-gray-800">{reviewPool.length} 題</dd>
+            </div>
+          </dl>
+          <p className="mt-4 rounded-md bg-purple-50 px-3 py-2 text-xs text-purple-700">
+            只從「先前答錯過、且之後沒有答對過」的題目裡抽,不做 domain 配比。同一題只要之後複習答對就會從池子移除,不會一直重複出現。
+          </p>
+          {reviewPool.length === 0 ? (
+            <p className="mt-4 rounded-md bg-gray-50 px-3 py-2 text-center text-xs text-gray-400">
+              目前沒有錯題可複習,先去考幾場累積紀錄吧!
+            </p>
+          ) : (
+            <button
+              type="button"
+              onClick={startReviewExam}
+              className="mt-4 w-full rounded-md bg-purple-600 px-5 py-2.5 font-medium text-white hover:bg-purple-700"
+            >
+              開始重點複習({reviewQuestionCount} 題)
+            </button>
+          )}
+        </div>
       </section>
 
       <section className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
@@ -191,7 +257,7 @@ export default function HomePage() {
               value={breakInput}
               onChange={(e) => setBreakInput(e.target.value)}
               className="w-56 rounded-md border border-gray-300 px-3 py-1.5"
-              placeholder="例如 62, 124"
+              placeholder="例如 60, 120"
             />
           </label>
           <label className="flex flex-col gap-1 text-sm text-gray-600">
@@ -257,7 +323,7 @@ export default function HomePage() {
         {importMessage && <p className="mb-3 text-xs text-blue-600">{importMessage}</p>}
 
         <div className="mb-3 flex gap-1 border-b border-gray-200">
-          {['standard', 'quick'].map((tab) => (
+          {['standard', 'quick', 'review'].map((tab) => (
             <button
               key={tab}
               type="button"
