@@ -2,13 +2,16 @@ import { DOMAINS, DOMAIN_WEIGHTS, getTimeRecommendation } from '../schema/questi
 
 // 固定考試規格 — 對應 8th 版新制格式 (docs 第 0 節)
 // 題數依 docs:/20260824-PMP-course-note.md 開頭「180 questions, 240 min」校正(原本用的 185 是專案初期的舊數字)
+// 分段題號依 docs:/pmi-exam-structure-20260902.md(PMI 2026/09/02 官方新制):
+// Section 1 (1-40,案例題為主) → 休息 → Section 2 (41-100) → 休息 → Section 3 (101-180)
 export const EXAM_SPEC = {
   mode: 'standard',
   totalQuestions: 180,
   durationMinutes: 240,
   domainWeights: DOMAIN_WEIGHTS,
-  // 每個作答到第 N 題後,強制進入一次休息(對應真實 PMP 考試的兩次選擇性休息,180 題平分三段每段 60 題)
-  breakAfterQuestions: [60, 120],
+  // 每個作答到第 N 題後,強制進入一次休息,同時也是「區段邊界」——過了這個邊界,
+  // 邊界(含)以前的題目會被鎖定,不能再回去改答案(見 isQuestionLocked)
+  breakAfterQuestions: [40, 100],
 }
 
 /** 小考模式:介面與計分邏輯跟標準模式完全相同,只是題數少、時間短,方便平常快速練習 */
@@ -82,6 +85,54 @@ function shuffleQuestionOptions(question) {
   return q
 }
 
+// PMI 2026/09/02 新制 Section 1(前 N 題)以案例研究為主 —— 詳見 docs:/pmi-exam-structure-20260902.md。
+// 題庫現在已經有真正的案例題組(quiz-md-parser 的「所屬案例」/caseId 分組),固定挑 3 組完整案例
+// 塞進 Section 1 最前面;Section 1 剩餘名額(3 組用不完的部分)才用「情境類 timeCategory」近似
+// 補滿,維持這段舊邏輯的向下相容(題庫案例題組數量還不夠多時,這個近似仍然有意義)。
+const CASE_STUDY_LIKE_TIME_CATEGORIES = ['predictive_scenario', 'agile_scenario']
+const TARGET_CASE_STUDY_COUNT = 3
+
+/**
+ * 把題庫池依 caseId 分組,抽出最多 count 組完整的案例題組(同一組的子題全部一起抽出,
+ * 不會拆散、也不會讓「沒被抽到的那組」的子題脫離情境單獨出現在考卷裡)。
+ * 回傳 { clusters, remainingPool }:clusters 是被抽中的案例題組陣列(每組內部保持原始題序,
+ * 不洗牌,因為案例子題通常有邏輯先後,例如「上一題的變更被核准後,接下來...」);
+ * remainingPool 是排除掉所有 caseId 題目(不論有沒有被抽中)後的一般題目池。
+ */
+function pickCaseStudyClusters(pool, count) {
+  const byCaseId = new Map()
+  for (const q of pool) {
+    if (!q.caseId) continue
+    if (!byCaseId.has(q.caseId)) byCaseId.set(q.caseId, [])
+    byCaseId.get(q.caseId).push(q)
+  }
+  const chosenIds = shuffle([...byCaseId.keys()]).slice(0, count)
+  const clusters = chosenIds.map((id) => byCaseId.get(id))
+  const remainingPool = pool.filter((q) => !q.caseId)
+  return { clusters, remainingPool }
+}
+
+/**
+ * 把已經抽好的一般題目排序,讓「情境類」題目盡量集中在 Section 1 剩餘名額裡(案例題組用掉的
+ * 名額之外),名額不夠時用其他題目補滿,不會擋住抽題;section1Size 沒有意義(0、undefined、
+ * 或小於等於案例題組已用掉的題數)時退回單純洗牌,不做分段,但案例題組仍固定排在最前面。
+ */
+function orderWithCaseStudyFirstSection(caseStudyQuestions, standaloneSelected, section1Size) {
+  const remainingSection1Slots = (section1Size || 0) - caseStudyQuestions.length
+  if (remainingSection1Slots <= 0 || section1Size >= caseStudyQuestions.length + standaloneSelected.length) {
+    return [...caseStudyQuestions, ...shuffle(standaloneSelected)]
+  }
+  const scenario = shuffle(standaloneSelected.filter((q) => CASE_STUDY_LIKE_TIME_CATEGORIES.includes(q.timeCategory)))
+  const standard = shuffle(standaloneSelected.filter((q) => !CASE_STUDY_LIKE_TIME_CATEGORIES.includes(q.timeCategory)))
+
+  const usedScenario = Math.min(scenario.length, remainingSection1Slots)
+  const usedStandard = Math.max(0, remainingSection1Slots - usedScenario)
+  const section1Filler = shuffle([...scenario.slice(0, usedScenario), ...standard.slice(0, usedStandard)])
+  const rest = shuffle([...scenario.slice(usedScenario), ...standard.slice(usedStandard)])
+
+  return [...caseStudyQuestions, ...section1Filler, ...rest]
+}
+
 /**
  * 依 domain 配分從題庫池抽題。骨架階段題庫量遠小於 185,
  * 此函式會依比例盡量抽取,不足時就地取用該 domain 全部題目,不會重複出題。
@@ -102,24 +153,32 @@ export function buildExam(pool, spec = EXAM_SPEC) {
     }
   }
 
-  const byDomain = Object.fromEntries(DOMAINS.map((d) => [d, shuffle(pool.filter((q) => q.domain === d))]))
+  // 只有標準模式才抽案例題組(小考/複習題數太少塞不下一整組,也不適合把使用者的錯題複習
+  // 打散進一個共用情境裡),其餘模式一律把 caseId 題目排除在抽題池之外,不會單獨脫離情境出現。
+  const { clusters, remainingPool } =
+    spec.mode === 'standard' ? pickCaseStudyClusters(pool, TARGET_CASE_STUDY_COUNT) : { clusters: [], remainingPool: pool.filter((q) => !q.caseId) }
+  const caseStudyQuestions = clusters.flat()
 
-  const requestedTotal = Math.min(spec.totalQuestions, pool.length)
+  const byDomain = Object.fromEntries(DOMAINS.map((d) => [d, shuffle(remainingPool.filter((q) => q.domain === d))]))
+
+  const requestedTotal = Math.min(spec.totalQuestions, remainingPool.length + caseStudyQuestions.length)
+  const standaloneTarget = Math.max(0, requestedTotal - caseStudyQuestions.length)
   const selected = []
 
   for (const domain of DOMAINS) {
-    const target = Math.round(requestedTotal * spec.domainWeights[domain])
+    const target = Math.round(standaloneTarget * spec.domainWeights[domain])
     const take = byDomain[domain].splice(0, Math.min(target, byDomain[domain].length))
     selected.push(...take)
   }
 
-  // 若因無條件捨入或某 domain 題數不足而未達 requestedTotal,從剩餘題目補足
+  // 若因無條件捨入或某 domain 題數不足而未達 standaloneTarget,從剩餘題目補足
   const leftover = shuffle(DOMAINS.flatMap((d) => byDomain[d]))
-  while (selected.length < requestedTotal && leftover.length > 0) {
+  while (selected.length < standaloneTarget && leftover.length > 0) {
     selected.push(leftover.shift())
   }
 
-  const questions = shuffle(selected).map(shuffleQuestionOptions)
+  const ordered = orderWithCaseStudyFirstSection(caseStudyQuestions, selected, spec.breakAfterQuestions?.[0])
+  const questions = ordered.map(shuffleQuestionOptions)
 
   return {
     questions,
@@ -128,6 +187,7 @@ export function buildExam(pool, spec = EXAM_SPEC) {
       actualTotal: questions.length,
       poolSize: pool.length,
       isDemoPool: questions.length < spec.totalQuestions,
+      caseStudyCount: clusters.length,
     },
   }
 }
@@ -221,6 +281,19 @@ export function tickQuestionTiming(session) {
 export function shouldBreakAfter(questionNumber, session) {
   const { spec, breaksTaken } = session
   return spec.breakAfterQuestions.includes(questionNumber) && !breaksTaken.includes(questionNumber)
+}
+
+/**
+ * PMI 2026/09/02 新制:區段一旦離開(=已經觸發過該邊界的休息,記錄在 breaksTaken),
+ * 邊界(含)以前的題目就鎖定,不能再回去修改答案。鎖定範圍取 breaksTaken 目前為止的最大值,
+ * 一路往後推進不會回退(進到 Section 3 後,Section 1、2 都算鎖定)。
+ * questionNumber 為 1-indexed 題號(對應 UI 上顯示的「第 N 題」,不是陣列 index)。
+ */
+export function isQuestionLocked(questionNumber, session) {
+  const breaksTaken = session?.breaksTaken || []
+  if (breaksTaken.length === 0) return false
+  const lockedUpTo = Math.max(...breaksTaken)
+  return questionNumber <= lockedUpTo
 }
 
 /** 判斷單題作答是否正確,依 questionType 而異 */

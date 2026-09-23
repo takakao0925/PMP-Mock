@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:local": "vite build",
     "preview": "vite preview",
     "export:quiz": "node scripts/export-quiz-md.mjs",
     "import:quiz": "node scripts/import-quiz-md.mjs",
@@ -23,6 +24,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "@vitejs/plugin-react": "^6.0.4",
     "tailwindcss": "^4.3.3",
-    "vite": "^8.1.5"
+    "vite": "^8.1.5",
+    "vite-plugin-singlefile": "^2.3.3"
   }
 }

@@ -67,6 +67,19 @@ function extractExplanation(block) {
   return m[1].trim()
 }
 
+// 情境題組(case study):選填欄位,只有屬於某個案例題組的子題才會有。格式跟一般題幹的
+// 「- EN: / - 中:」單行寫法不同(情境敘述通常是 200-400 字的長文,才會用獨立的
+// 「**案例情境 EN**」/「**案例情境 中**」區塊,避免跟 extractStem()/body 切割用的
+// 「- 中:」單行判斷式互相打架。
+function extractCaseInfo(block, id) {
+  const caseIdMatch = block.match(/\*\*所屬案例\*\*[:：]\s*`([^`]+)`/)
+  if (!caseIdMatch) return null
+  const enMatch = block.match(/\*\*案例情境 EN\*\*\n\n([\s\S]+?)\n\n\*\*案例情境 中\*\*/)
+  const zhMatch = block.match(/\*\*案例情境 中\*\*\n\n([\s\S]+?)\n\n\*\*題幹/)
+  if (!enMatch || !zhMatch) throw new Error(`有 **所屬案例** 但找不到完整的案例情境內容(id: ${id})`)
+  return { caseId: caseIdMatch[1].trim(), caseContext: { en: enMatch[1].trim(), zh: zhMatch[1].trim() } }
+}
+
 // EN/ZH 分隔用 " / " 是理想格式,但大量題目(尤其純數字選項、或英文本身已內嵌中文註解的寫法)
 // 常常沒有標準的「空白-斜線-空白」分隔。三層 fallback,依序嘗試,盡量搶救格式不夠嚴謹的題目:
 // 1) 標準的 " / "(最安全,不會誤判內容裡巧合出現的斜線)
@@ -130,6 +143,7 @@ export function parseBlock(block) {
 
   const stem = extractStem(block)
   const explanation = extractExplanation(block)
+  const caseInfo = extractCaseInfo(block, id)
 
   const detailIdx = block.indexOf('**詳解**')
   const stemLineEnd = block.indexOf('- 中:')
@@ -230,6 +244,10 @@ export function parseBlock(block) {
 
   q.explanation = explanation
   if (auditNoteMatch) q.auditNote = auditNoteMatch[1].trim()
+  if (caseInfo) {
+    q.caseId = caseInfo.caseId
+    q.caseContext = caseInfo.caseContext
+  }
   return q
 }
 

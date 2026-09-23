@@ -88,6 +88,10 @@ export function getTimeRecommendation(timeCategory) {
  * @property {'definition'|'calculation'|'agile_scenario'|'predictive_scenario'} timeCategory - 建議作答秒數分類,見 TIME_RECOMMENDATIONS
  * @property {LocalizedText} stem                   - 題幹。dropdown 題型可用 {{blankId}} 標記填空位置(兩語言都要標記)
  * @property {string} explanation                   - 詳解(僅供 PM 本人複習用,固定繁中,不隨考試語言切換)
+ * @property {string} [caseId]                      - 若此題屬於情境題組(case study),同一組的所有子題共用同一個 caseId;
+ *   questionType 仍是子題本身真實的型別(single_choice/multiple_response/...),不會是 'case_set'
+ *   ('case_set' 目前只是畫面標籤的預留位置,尚未真的拿來當 questionType 用)
+ * @property {LocalizedText} [caseContext]           - 情境題組共用的背景敘述(約200-400字),同一組每個子題都重複帶這個欄位
  *
  * 依 questionType 而異的欄位:
  *

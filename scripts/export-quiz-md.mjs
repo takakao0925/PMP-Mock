@@ -112,6 +112,18 @@ function renderQuestion(q, num) {
     `難度: \`${q.difficulty}\` ｜ 建議作答時間分類: \`${q.timeCategory}\` ｜ 版本標籤: \`${q.edition}\` ｜ 原始 performanceDomain: \`${q.performanceDomain}\` ｜ ECO domain: \`${q.domain}\``,
   )
   lines.push('')
+  if (q.caseId) {
+    lines.push(`**所屬案例**：\`${q.caseId}\``)
+    lines.push('')
+    lines.push('**案例情境 EN**')
+    lines.push('')
+    lines.push(q.caseContext.en)
+    lines.push('')
+    lines.push('**案例情境 中**')
+    lines.push('')
+    lines.push(q.caseContext.zh)
+    lines.push('')
+  }
   if (q.questionType !== 'dropdown') {
     lines.push('**題幹**')
     lines.push('')
@@ -132,9 +144,20 @@ function renderQuestion(q, num) {
 
 fs.mkdirSync(OUT_DIR, { recursive: true })
 
+// 情境題組(case study)的子題可能各自標記不同的 performanceDomain(案例情境常橫跨多個領域),
+// 但為了讓使用者能在同一個檔案裡完整看到、編輯一組案例的所有子題,匯出「歸檔到哪個檔案」這件事
+// 改用「這組案例第一次出現時的 domain」決定,不逐題各自判斷;子題自己的 domain/performanceDomain
+// 欄位仍保留各自真實值,只影響出題配分統計,不影響歸檔位置。
+const caseHomeDomain = {}
 const byDomain = Object.fromEntries(PERFORMANCE_DOMAINS_PMBOK8.map((d) => [d, []]))
 for (const q of sampleQuestions) {
-  const domain = resolve8thDomain(q)
+  let domain
+  if (q.caseId) {
+    if (!caseHomeDomain[q.caseId]) caseHomeDomain[q.caseId] = resolve8thDomain(q)
+    domain = caseHomeDomain[q.caseId]
+  } else {
+    domain = resolve8thDomain(q)
+  }
   if (!byDomain[domain]) byDomain[domain] = []
   byDomain[domain].push(q)
 }

@@ -6,7 +6,7 @@ import NavigationPanel from '../components/exam/NavigationPanel.jsx'
 import BreakScreen from '../components/exam/BreakScreen.jsx'
 import QuestionCountdown from '../components/exam/QuestionCountdown.jsx'
 import { ConfirmDialog, PromptDialog } from '../components/common/Dialogs.jsx'
-import { scoreExam, shouldBreakAfter, tickQuestionTiming } from '../engine/examEngine.js'
+import { isQuestionLocked, scoreExam, shouldBreakAfter, tickQuestionTiming } from '../engine/examEngine.js'
 import {
   addIssueReport,
   clearProgress,
@@ -18,6 +18,26 @@ import {
 } from '../engine/storage.js'
 import { getTimeRecommendation } from '../schema/questionSchema.js'
 import { DEFAULT_LANG, pickText } from '../utils/i18n.js'
+
+/**
+ * 情境題組(case study)共用背景敘述面板。同一組的 5-6 道子題會連續出現,這裡用 <details>
+ * 讓使用者每題都能重新展開/收合閱讀情境,不需要額外的 state 記住「這題有沒有展開過」。
+ * 標題順便顯示「這組第 X/Y 題」,幫助使用者知道自己在案例題組裡的進度。
+ */
+function CaseContextPanel({ question, allQuestions, lang }) {
+  const siblings = allQuestions.filter((q) => q.caseId === question.caseId)
+  const indexInCase = siblings.findIndex((q) => q.id === question.id)
+  return (
+    <details open className="rounded-xl border border-indigo-200 bg-indigo-50 p-4 open:pb-5">
+      <summary className="cursor-pointer text-sm font-semibold text-indigo-800">
+        📋 案例情境(這組第 {indexInCase + 1} / {siblings.length} 題,可收合)
+      </summary>
+      <p className="mt-3 whitespace-pre-line text-sm leading-relaxed text-indigo-900">
+        {pickText(question.caseContext, lang)}
+      </p>
+    </details>
+  )
+}
 
 export default function ExamPage() {
   const location = useLocation()
@@ -118,7 +138,12 @@ export default function ExamPage() {
   }
 
   function goPrev() {
-    updateSession((prev) => ({ ...prev, currentIndex: Math.max(0, prev.currentIndex - 1) }))
+    updateSession((prev) => {
+      const prevIndex = Math.max(0, prev.currentIndex - 1)
+      // 區段鎖定(PMI 2026/09/02 新制):上一題如果落在已鎖定的區段內,不能倒退過去
+      if (isQuestionLocked(prevIndex + 1, prev)) return prev
+      return { ...prev, currentIndex: prevIndex }
+    })
   }
 
   function goNext() {
@@ -140,7 +165,11 @@ export default function ExamPage() {
   }
 
   function jumpTo(idx) {
-    updateSession((prev) => ({ ...prev, currentIndex: idx }))
+    updateSession((prev) => {
+      // 區段鎖定(PMI 2026/09/02 新制):不能跳回已鎖定區段的題目
+      if (isQuestionLocked(idx + 1, prev)) return prev
+      return { ...prev, currentIndex: idx }
+    })
   }
 
   function endBreak() {
@@ -210,6 +239,10 @@ export default function ExamPage() {
         </div>
       </header>
 
+      {currentQuestion.caseId && (
+        <CaseContextPanel question={currentQuestion} allQuestions={session.questions} lang={lang} />
+      )}
+
       <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
         <QuestionRenderer
           question={currentQuestion}
@@ -224,7 +257,8 @@ export default function ExamPage() {
         <button
           type="button"
           onClick={goPrev}
-          disabled={session.currentIndex === 0}
+          disabled={session.currentIndex === 0 || isQuestionLocked(session.currentIndex, session)}
+          title={isQuestionLocked(session.currentIndex, session) ? '上一段已鎖定,無法返回修改答案' : undefined}
           className="rounded-md border border-gray-300 px-4 py-2 font-medium text-gray-600 hover:bg-gray-50 disabled:opacity-40"
         >
           上一題
@@ -257,6 +291,8 @@ export default function ExamPage() {
           flags={session.flags}
           currentIndex={session.currentIndex}
           onJump={jumpTo}
+          isLocked={(idx) => isQuestionLocked(idx + 1, session)}
+          sectionBoundaries={session.spec.breakAfterQuestions}
         />
       </section>
 

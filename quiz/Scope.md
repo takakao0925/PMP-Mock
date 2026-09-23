@@ -1,6 +1,6 @@
 # Scope — PMP 題庫
 
-> 共 108 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 139 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `sc-005` — 單選題
 
@@ -2324,7 +2324,7 @@ Speedboat(快艇,亦稱 Sailboat)是常見的敏捷協作遊戲,透過畫出一�
 
 **題目 ID**: `scp-085`
 
-難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
 
 **題幹**
 
@@ -2560,7 +2560,7 @@ CI/CD(持續整合/持續交付)、自動化測試與監控系統,是監控範�
 
 **題目 ID**: `scp-094`
 
-難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
 
 **題幹**
 
@@ -2640,7 +2640,7 @@ CI/CD(持續整合/持續交付)、自動化測試與監控系統,是監控範�
 
 **題目 ID**: `scp-097`
 
-難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
 
 **題幹**
 
@@ -2950,5 +2950,793 @@ WBS 的階層結構由上而下依序為:上層是專案本身(僅一個節點)�
 **詳解**
 
 待辦清單裡的項目是否還有價值、該不該留下,屬於產品負責人(Product Owner)的職責範圍,這是敏捷團隊角色分工裡明確授權給 PO 的決策,PM 不該越俎代庖,也不該把這個決定丟給團隊投票或贊助人裁決,尊重角色分工上已經被賦予的決策權,正是賦權團隊成員與利害關係人精神的具體展現。技術探究本身沒有錯,但它是 PO 判斷「這個功能到底還值不值得做」時可能會用到的其中一項輸入資訊,並不能取代把最終裁定權交還給 PO 這個步驟。
+
+---
+
+### Q109. `scp-108` — 單選題
+
+**題目 ID**: `scp-108`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An agile team is in the middle of a two-week sprint with committed deliverables when the product owner asks to add a new security enhancement that was not part of the original sprint scope. What should the project manager do?
+- 中: 一個敏捷團隊正在執行一個兩週衝刺,已經有承諾的交付項目,這時產品負責人要求加入一項不在原本衝刺範疇內的安全強化功能。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Submit the new feature through the formal change control process for approval. / 透過正式的變更管制流程提交這項新功能申請
+- (b) Work with the product owner to add it to the product backlog for prioritization in a future sprint. / 與產品負責人一起把它加入產品待辦清單,留待未來衝刺排優先順序 ✅ **正解**
+- (c) Immediately incorporate the feature into the current sprint to address the security concern. / 立刻把這項功能塞進目前的衝刺以因應安全疑慮
+- (d) Reject the request since it was not part of the original project scope. / 因為不在原始範疇內就直接拒絕這項請求
+
+**詳解**
+
+在敏捷方法中,變更是透過產品待辦清單的優先順序排定來管理,而不是走傳統的正式變更管制流程;即使是安全性相關的新需求,也應該先進入待辦清單,由 PO 依價值排序後排入未來衝刺,而不是打斷目前已經承諾的衝刺範疇,也不能因為不在原始範疇內就一概拒絕。
+
+---
+
+### Q110. `scp-109` — 單選題
+
+**題目 ID**: `scp-109`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An agile team is distributed across three office locations and has been working remotely with video calls and collaboration tools, but communication delays are increasingly affecting sprint velocity. What should the project manager do to improve collaboration?
+- 中: 一個敏捷團隊分散在三個辦公地點,一直用視訊會議和協作工具遠端合作,但溝通延遲越來越明顯地影響衝刺速度。專案經理應該怎麼做來改善協作?
+
+**選項**
+
+- (a) Invest in better video conferencing technology to improve the remote experience. / 投資更好的視訊會議技術改善遠端體驗
+- (b) Arrange for team members to work together in the same location for the most critical project phases. / 安排團隊成員在最關鍵的專案階段實體共處一地工作 ✅ **正解**
+- (c) Establish more frequent check-in meetings across locations without changing anything else. / 增加跨地點的例行檢查會議,其他不做改變
+- (d) Reorganize the work to minimize dependencies so each site works independently. / 重新分工以降低依賴,讓每個據點各自獨立作業
+
+**詳解**
+
+敏捷特別重視面對面溝通與實體共處(co-location)所帶來的協作效益,遠端工具再好也難以完全取代;當分散地點造成的溝通延遲已經明顯影響到速度時,安排關鍵階段實體共處,會比單純升級視訊工具、加開會議、或讓各據點各自為政更能解決根本問題。
+
+---
+
+### Q111. `scp-110` — 單選題
+
+**題目 ID**: `scp-110`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: An organization decides to transition all development teams from waterfall to agile at once, wanting to "get the benefits as quickly as possible." What should the project manager recommend?
+- 中: 一家組織決定讓所有開發團隊立刻從瀑布式一次轉換到敏捷式,希望「盡快取得敏捷的效益」。專案經理應該建議什麼?
+
+**選項**
+
+- (a) Support switching all teams simultaneously right after training to ensure consistent adoption. / 支持所有團隊在訓練後立刻同步轉換,確保採用一致
+- (b) Run a pilot with 1-2 teams first, gather lessons learned, refine the approach, then gradually roll out. / 先讓 1-2 個團隊試行,蒐集經驗、調整做法後再逐步推廣 ✅ **正解**
+- (c) Let agile apply only to brand-new projects while current projects finish under the old method. / 只讓全新專案採用敏捷,現有專案維持舊方法做完
+- (d) Split teams into two groups, with the second group starting exactly three months later regardless of results. / 把團隊分兩批,第二批不論結果如何一律三個月後開始
+
+**詳解**
+
+重大方法論轉換應該用試行(pilot)的方式漸進推動,先在少數團隊驗證、蒐集教訓並調整做法,再逐步擴大到其他團隊,這樣能在正式全面推廣前及早發現問題、培養變革種子成員。一次全面轉換風險過高,而機械式地按時間分批(不論試行結果如何)則沒有真正從試行中學習。
+
+---
+
+### Q112. `scp-111` — 單選題
+
+**題目 ID**: `scp-111`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: An agile customer was highly engaged during initial requirements gathering but has missed the last two sprint reviews, saying they are "too busy" for regular meetings. What should the project manager do?
+- 中: 一位敏捷專案的客戶在初期需求蒐集階段參與度很高,但最近錯過了兩次衝刺審查會議,表示自己「太忙」無法定期開會。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Continue development on the original requirements since the customer already expressed trust in the team. / 依原始需求繼續開發,因為客戶已經表達過對團隊的信任
+- (b) Have the product owner make validation decisions based on their own business knowledge while the customer is unavailable. / 客戶無法配合期間,讓產品負責人依自己的商業知識代為驗證
+- (c) Insist on regular customer feedback sessions and adjust the schedule if necessary to accommodate them. / 堅持安排定期的客戶回饋場次,必要時調整時程配合客戶 ✅ **正解**
+- (d) Pause development entirely until the customer becomes available again. / 完全暫停開發,直到客戶重新有空為止
+
+**詳解**
+
+持續的客戶回饋在敏捷方法裡不是可有可無的選項,而是核心要求;即使客戶因忙碌而缺席,PM 也應該堅持安排回饋場次並視情況調整時程配合客戶,而不是放棄回饋機制自行往下做、讓 PO 代替客戶做驗證決策,或反過來讓整個專案停擺等待客戶。
+
+---
+
+### Q113. `scp-112` — 單選題
+
+**題目 ID**: `scp-112`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An agile team just completed a sprint with all committed features delivered, consistent velocity, and no major blockers. Some team members suggest skipping the retrospective this time since "everything went well." What should the project manager do?
+- 中: 一個敏捷團隊剛完成一個衝刺,所有承諾的功能都交付了,速度穩定,也沒有重大阻礙。有些團隊成員建議這次跳過回顧會議,因為「一切都很順利」。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Skip the retrospective and use the time for more detailed sprint planning instead. / 跳過回顧會議,把時間用在更詳細的下個衝刺規劃上
+- (b) Hold the full retrospective as planned, focusing on what worked well and how to do even better. / 照計畫進行完整的回顧會議,聚焦在哪裡做得好、如何做得更好 ✅ **正解**
+- (c) Replace the retrospective with a celebration of the team's successful delivery. / 把回顧會議改成單純慶祝這次成功交付
+- (d) Hold only a brief 15-minute check for issues, then move straight to sprint planning. / 只花 15 分鐘簡短檢查有沒有問題,就直接進入下個衝刺規劃
+
+**詳解**
+
+即使衝刺進行得很順利,回顧會議依然有其價值,因為持續改善不該只在出問題時才做,順利的衝刺也能找出讓表現更上一層樓的機會,並預防小問題演變成大問題。跳過回顧、把時間挪去規劃或單純慶祝、或用極簡化的檢查取代完整回顧,都會讓團隊錯失持續改善的機會。
+
+---
+
+### Q114. `scp-113` — 單選題
+
+**題目 ID**: `scp-113`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A mobile app project is 50% complete according to the schedule, but stakeholders are questioning whether the final product will meet expectations because the agile team hasn't yet shown any working functionality. What should the project manager do to address these concerns?
+- 中: 一個行動應用專案依時程已完成 50%,但利害關係人開始質疑最終產品是否能符合期望,因為這個敏捷團隊至今還沒展示過任何可運作的功能。專案經理應該怎麼做來回應這些疑慮?
+
+**選項**
+
+- (a) Create detailed percentage-completion status reports for each feature and present them to stakeholders. / 為每個功能製作詳細的完成百分比狀態報告,提交給利害關係人
+- (b) Organize a demonstration session showing stakeholders the working components developed so far. / 安排一場展示會議,向利害關係人展示目前已完成的可運作元件 ✅ **正解**
+- (c) Schedule weekly meetings to provide verbal progress updates and address concerns through communication. / 安排每週會議,用口頭方式報告進度並回應疑慮
+- (d) Reassure stakeholders the project is on schedule and ask them to trust the process until the next milestone. / 向利害關係人保證專案準時,請他們在下個里程碑前先信任這個過程
+
+**詳解**
+
+可操作、可見的成果(如 MVP、原型或已完成的元件)是證明專案真的在往前推進、也能讓最終交付物符合期望的最有力方式,能讓利害關係人取得具體回饋而不只是聽口頭保證。詳細的百分比報告、口頭更新、或單純要求信任,都無法提供利害關係人真正需要的具體、可驗證的進度證據。
+
+---
+
+### Q115. `scp-114` — 單選題
+
+**題目 ID**: `scp-114`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Your agile development project has team members distributed across three different office locations in New York City. The team has been working remotely using video calls and collaboration tools, but you've noticed increasing communication delays and coordination challenges affecting sprint velocity. What should you do to enhance collaboration?
+- 中: 你的敏捷開發專案有團隊成員分散在紐約市三個不同的辦公地點。團隊一直用視訊會議與協作工具遠端合作,但你注意到溝通延遲越來越明顯,已經影響到衝刺速度。你應該怎麼做來提升協作?
+
+**選項**
+
+- (a) Invest in better video conferencing technology and collaboration tools to improve the remote working experience. / 投資更好的視訊會議技術與協作工具,改善遠端工作體驗
+- (b) Arrange for team members from different locations to travel and work together in the same location for the most critical project phases. / 安排不同地點的成員在最關鍵的專案階段前往同一地點實體共處工作 ✅ **正解**
+- (c) Establish more frequent check-in meetings and structured communication protocols to improve coordination across locations. / 增加跨地點的例行檢查會議與結構化溝通規範,改善協調
+- (d) Reorganize the work to minimize dependencies between different locations and allow each site to work more independently. / 重新分工以降低不同地點間的依賴,讓各據點更能獨立作業
+
+**詳解**
+
+即使遠端團隊能靠良好工具與流程有效運作,某些協作活動仍能從實體共處(co-location)獲得顯著效益;當分散地點造成的溝通延遲已經明顯影響速度時,安排關鍵階段實體共處,會比單純升級視訊工具、加開會議、或讓各據點各自為政更能解決根本問題。
+
+---
+
+### Q116. `scp-115` — 單選題
+
+**題目 ID**: `scp-115`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Your organization has decided to transition from traditional waterfall project management to agile methodologies across all development teams. The CTO wants to implement agile practices organization-wide immediately to "get the benefits as quickly as possible" and has scheduled agile training for all teams next month. What should you recommend for implementing this methodology change?
+- 中: 你的組織決定讓所有開發團隊從傳統瀑布式專案管理轉換到敏捷方法。技術長希望立刻在全組織推行敏捷實務,以「盡快取得效益」,並已安排下個月為所有團隊進行敏捷訓練。你應該對這項方法論轉換提出什麼建議?
+
+**選項**
+
+- (a) Support the CTO's plan to implement agile across all teams simultaneously after the training to ensure consistent adoption and quick benefits realization. / 支持技術長的計畫,訓練後所有團隊同步導入敏捷,確保採用一致並盡快取得效益
+- (b) Select 1-2 teams for an initial agile pilot project, gather lessons learned, refine the approach, then gradually roll out to additional teams based on pilot results. / 先選 1-2 個團隊進行敏捷試行,蒐集經驗、調整做法後,再依試行結果逐步推廣到其他團隊 ✅ **正解**
+- (c) Implement agile only for new projects while allowing current projects to finish using traditional methods, then transition all teams once current work is completed. / 只讓新專案採用敏捷,現有專案維持傳統方法做完,之後才全面轉換
+- (d) Divide the teams into two groups and implement agile in phases: first group starts immediately after training, second group starts 3 months later. / 把團隊分兩批導入敏捷:第一批訓練後立刻開始,第二批三個月後開始
+
+**詳解**
+
+重大方法論轉換應該用試行(pilot)的方式漸進推動,先在少數團隊驗證、蒐集教訓並依此調整做法,再逐步擴大到其他團隊,這樣能在正式全面推廣前及早發現問題、培養變革種子成員,屬於組織變革管理裡「支援組織變革」這項任務的具體實踐。一次全面轉換風險過高,而機械式地按時間分批(不論試行結果如何)則沒有真正從試行中學習調整。
+
+---
+
+### Q117. `scp-116` — 單選題
+
+**題目 ID**: `scp-116`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Your team has completed the first major deliverable of your web application project: a fully functional user authentication system. The system meets all technical specifications and passes all automated tests, but the customer has been traveling and won't be available for validation testing until the end of the next phase. What should you do?
+- 中: 你的團隊完成了網頁應用專案的第一個主要交付物:一套功能完整的使用者驗證系統。這套系統符合所有技術規格,也通過了所有自動化測試,但客戶正在出差,要到下一階段結束才有空進行驗收測試。你應該怎麼做?
+
+**選項**
+
+- (a) Deploy the authentication system to production since it meets all technical requirements and has passed internal quality checks, then get customer validation afterward. / 因為已符合所有技術要求且通過內部品質檢查,先部署上線,之後再取得客戶驗收
+- (b) Continue with the next development phase while waiting for customer validation, since the technical team is confident the deliverable meets requirements. / 因為技術團隊有信心這個交付物符合需求,先繼續下一階段開發,同時等待客戶驗收
+- (c) Wait for the customer to return and validate the authentication system before proceeding with deployment or the next development phase. / 等客戶回來驗收這套系統後,再進行部署或下一階段開發 ✅ **正解**
+- (d) Present the authentication system to a customer representative or proxy who can provide preliminary validation until the primary customer is available. / 找一位客戶代理人先提供初步驗收,直到原本的客戶有空為止
+
+**詳解**
+
+客戶驗收不只是一個形式上的手續,而是確保交付物真正符合商業需求與使用者期待的關鍵品質關卡;即使技術規格與自動化測試都通過,也不能取代真正客戶的驗收。應該等客戶回來正式驗收後,才繼續部署或進入下一階段開發,而不是先上線再補驗收、邊等邊往下做,或找代理人先做初步驗收頂替。
+
+---
+
+### Q118. `scp-117` — 單選題
+
+**題目 ID**: `scp-117`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Your team is debating whether to implement a new feature requested by stakeholders. The feature would enhance user experience but requires additional development time. The project sponsor supports it, but the timeline is already tight, and the development team is split on its value. What should you do?
+- 中: 團隊正在爭論是否要實作利害關係人要求的一項新功能。這項功能能提升使用者體驗,但需要額外的開發時間。專案贊助人支持這項功能,但時程已經很緊,團隊對這項功能的價值也意見分歧。你應該怎麼做?
+
+**選項**
+
+- (a) Implement the feature since it enhances user experience and has sponsor support, accepting the timeline impact as necessary for quality. / 因為能提升體驗又有贊助人支持,就實作這項功能,接受對時程造成的影響
+- (b) Decline the feature to protect the timeline and original scope commitments, explaining the trade-offs to stakeholders. / 為了保護時程與原始範疇承諾而婉拒這項功能,向利害關係人說明取捨
+- (c) Negotiate a compromise by implementing a simplified version of the feature that requires less development time. / 協商折衷方案,實作一個開發時間較短的簡化版功能
+- (d) Add the feature to the backlog for the next project phase, acknowledging its value while maintaining current scope and timeline commitments. / 把這項功能加入待辦清單留給下一階段處理,肯定其價值的同時維持目前的範疇與時程承諾 ✅ **正解**
+
+**詳解**
+
+不是每個專案情境都有一個明顯完美的正確答案,這一題就是這種情境:四個選項都各有道理,也各有代價。在必須做出選擇時,應該依循穩健的專案管理原則做判斷,而不是無止盡地自我懷疑。這裡最能同時兼顧「保護目前範疇與時程承諾」與「不埋沒這項功能的價值」的做法,是把它正式加入待辦清單留待下一階段處理——這既沒有貿然犧牲時程去趕工實作,也沒有直接抹殺這項功能的價值,比起接受時程衝擊硬做、或還沒與利害關係人討論就自行協商簡化版本,是相對最平衡的選擇。
+
+---
+
+### Q119. `scp-118` — 單選題
+
+**題目 ID**: `scp-118`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A software development team using Scrum is preparing for sprint planning. The product owner has added several new high-priority items to the backlog just before sprint planning, replacing items the team had already refined and estimated as likely candidates for the sprint. The development team is concerned the last-minute changes will disrupt the sprint. What should the product owner do?
+- 中: 一個採用 Scrum 的軟體開發團隊正在準備衝刺規劃。產品負責人在衝刺規劃前,把幾個新的高優先級項目加進待辦清單,取代了團隊原本已經精化並估算、視為這次衝刺熱門候選的項目。開發團隊擔心這種臨時異動會打亂這次衝刺。產品負責人應該怎麼做?
+
+**選項**
+
+- (a) Defer the new items to the next sprint to preserve the team's preparation work. / 把新項目延後到下一個衝刺,以保留團隊已經做的準備工作
+- (b) Present the new items during sprint planning and allow the team to select the work they commit to completing. / 在衝刺規劃會議上提出新項目,讓團隊自行決定要承諾完成哪些工作 ✅ **正解**
+- (c) Remove the lowest-priority items from the backlog to accommodate the new high-priority additions. / 把待辦清單中優先級最低的項目移除,以容納新增的高優先級項目
+- (d) Escalate the conflict to the scrum master to determine which items should be included in the sprint. / 把這個衝突升級給 Scrum Master,由其決定哪些項目該納入這次衝刺
+
+**詳解**
+
+產品負責人本來就擁有維護與排序產品待辦清單的權責,可以在衝刺規劃前的任何時間點加入新項目。開發團隊則負責決定這次衝刺要承諾完成多少工作量。衝刺規劃正是讓這兩項職責同時發揮作用、共同協作的場合,所以正確做法是在會議上提出新項目,交由團隊自行評估並決定承諾範圍。
+
+直接把新項目延後到下一個衝刺,等於忽略了產品負責人本來就有權依照目前的優先順序調整待辦清單。移除最低優先級項目也沒有必要,因為產品負責人本來就可以重新排序讓新項目優先被考慮,原本較低優先級的項目仍可以留在待辦清單上等待未來處理。把衝突升級給 Scrum Master 則是弄錯了這個角色的職責,衝刺承諾的決定權在於產品負責人與開發團隊之間,不屬於 Scrum Master。
+
+---
+
+### Q120. `scp-119` — 單選題
+
+**題目 ID**: `scp-119`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is leading an enterprise technology modernization initiative. The server infrastructure and network cabling must meet data center compliance standards that were defined before the project began. The employee-facing dashboards and reporting tools, however, have generated conflicting input from department heads who cannot agree on what information they need or how it should be displayed. What should the project manager do?
+- 中: 一位專案經理正在領導一項企業技術現代化計畫。伺服器基礎設施與網路佈線必須符合專案開始前就已經訂定好的資料中心合規標準。然而,面向員工的儀表板與報表工具卻收到各部門主管彼此衝突的意見,大家對於需要哪些資訊、該如何呈現都無法達成共識。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Apply a predictive approach to the entire project. / 對整個專案採用預測式方法
+- (b) Apply an adaptive approach to the entire project. / 對整個專案採用調適式(敏捷)方法
+- (c) Separate the project into two independent projects with distinct methodologies. / 把這個專案拆成兩個各自獨立、採用不同方法論的專案
+- (d) Use a predictive approach for the infrastructure component and an adaptive approach for the dashboards and reporting tools. / 基礎設施部分採用預測式方法,儀表板與報表工具部分採用調適式方法 ✅ **正解**
+
+**詳解**
+
+當專案中不同組成部分的特性截然不同時,混合式方法正是為此而生。基礎設施工作已有事先訂定好的合規標準,適合用預測式方法做完整規劃。儀表板與報表工具的需求還沒有定案、各部門意見分歧,正好適合用疊代式開發持續蒐集回饋、逐步收斂需求。
+
+整個專案都採用預測式方法,會讓儀表板與報表工具在利害關係人需求都還沒釐清之前就被鎖進固定範疇,而這正是調適式方法設計來因應的情境。整個專案都採用調適式方法,則不適合基礎設施部分,因為合規標準已經明確,也需要正式文件紀錄。把專案拆成兩個獨立專案也沒有必要,單一專案架構搭配混合式框架就能同時管理好這兩個組成部分,拆分反而會增加整合與協調上的風險。
+
+---
+
+### Q121. `scp-120` — 單選題
+
+**題目 ID**: `scp-120`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is leading development of a new mobile app for a startup. The startup has clear specifications for the app's core features. Beyond that core, users' preferences for additional features are unknown and will need to be discovered through early user feedback. The app has a fixed launch date in eight months. What development approach should the project manager recommend?
+- 中: 一位專案經理正在為一家新創公司領導一款新行動應用程式的開發。這家新創公司對應用程式的核心功能有明確的規格,但除了核心功能以外,使用者對額外功能的偏好還是未知數,需要透過早期使用者回饋才能發掘。這款應用程式有一個固定的上線日期,八個月後就要推出。專案經理應該建議採用什麼開發方法?
+
+**選項**
+
+- (a) Use a hybrid approach, applying predictive planning to the core features and adaptive iterations for the remaining features. / 採用混合式方法,核心功能用預測式規劃,其餘功能用調適式疊代開發 ✅ **正解**
+- (b) Use a predictive approach to maintain tight control over schedule and budget given the fixed deadline. / 因為上線日期固定,採用預測式方法以嚴格掌控時程與預算
+- (c) Use an adaptive approach to incorporate user feedback as the product evolves beyond its core functionality. / 採用調適式方法,讓產品在核心功能之外能持續納入使用者回饋演進
+- (d) Use an adaptive approach since the startup environment and uncertain user preferences make flexibility more valuable than upfront planning. / 因為新創環境與使用者偏好的不確定性,彈性比事前規劃更有價值,所以採用調適式方法
+
+**詳解**
+
+核心的交易與帳戶管理功能規格明確,適合用預測式方法做規劃。其餘功能的需求則真的還是未知數,只能透過使用者回饋逐步顯現,這正是調適式方法所擅長因應的狀況。混合式方法的精神就是讓每種方法論用在真正適合它的地方,而不是用單一方法硬套在特性截然不同的需求上。
+
+完全採用預測式方法雖然能妥善規劃已知的核心功能,卻會讓還在演進中的功能被迫套進固定範疇的模式,在使用者偏好還沒釐清前就先定案,很可能做出不符合需求的功能。完全採用調適式方法雖然能很好地處理演進中的功能,卻對已有穩定明確規格、能受益於事前規劃與明確基準的核心功能套用了不必要的彈性。新創環境與使用者偏好的不確定性確實存在,但那只適用於專案的一部分,核心功能規格明確又有固定的上線日期,仍然需要預測式的紀律,所以全面採用調適式方法並不足夠。
+
+---
+
+### Q122. `scp-121` — 單選題
+
+**題目 ID**: `scp-121`
+
+難度: `easy` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is overseeing the development of an enterprise reporting tool. The first of three planned releases is nearly complete. Before transitioning to the next release cycle, the project manager needs to verify that all deliverables meet the established completion standard. What should the project manager do?
+- 中: 一位專案經理正在監督一套企業報表工具的開發。三次規劃發布中的第一次即將完成。在進入下一個發布週期之前,專案經理需要確認所有交付物都符合既定的完成標準。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Review the backlog to confirm all user stories assigned to this release have been marked complete. / 檢視待辦清單,確認指派給這次發布的所有使用者故事都已標記為完成
+- (b) Compare the completed deliverables against the team's definition of done. / 把已完成的交付物對照團隊的「完成的定義」(Definition of Done)進行比對 ✅ **正解**
+- (c) Schedule a review with stakeholders to evaluate whether the release meets their expectations. / 安排與利害關係人的審查會議,評估這次發布是否符合他們的期望
+- (d) Assess whether the release has achieved its intended business value against the original business case. / 依據原始商業論證,評估這次發布是否已達成預期的商業價值
+
+**詳解**
+
+「完成的定義」是團隊事先訂好、客觀的完成標準。把交付物拿來對照這個標準,能提供一致且雙方都認可的依據,在進入下一階段之前確認這個階段是不是真的完成了。
+
+單純檢視待辦清單只能確認哪些任務被標記為完成,卻無法驗證每個項目是否真的符合團隊訂定的品質與完成標準。與利害關係人的審查會議雖然能提供有價值的回饋,但那是主觀的評估,無法取代團隊一開始就訂好的客觀標準。商業價值評估則是衡量這次發布是否達成預期成果,這是另一項有意義但不同的工作,並不等同於確認交付物是否符合完成標準。
+
+---
+
+### Q123. `scp-122` — 單選題
+
+**題目 ID**: `scp-122`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A development team building a real-time data processing system discovers during a sprint that the existing integration architecture cannot handle the required throughput without significant latency. No existing documentation or prior project records address this specific constraint. The product owner must demonstrate a working prototype to investors in three weeks. What should the project manager do?
+- 中: 一個正在建置即時資料處理系統的開發團隊,在某次衝刺中發現現有的整合架構無法在不產生明顯延遲的情況下處理所需的吞吐量。現有文件與過往專案紀錄都沒有處理過這個特定限制。產品負責人必須在三週內向投資人展示一個可運作的原型。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Organize an SME workshop to gather institutional knowledge about data processing architectures and identify potential solutions. / 舉辦領域專家(SME)工作坊,蒐集組織內部關於資料處理架構的經驗知識,找出可能的解法
+- (b) Authorize a timeboxed technical spike to investigate potential architectural solutions and assess their feasibility before committing to a fix. / 授權進行一次限時的技術衝刺(technical spike),在真正投入修正之前先調查可能的架構解法並評估其可行性 ✅ **正解**
+- (c) Submit a change request to extend the sprint and adjust the prototype timeline to accommodate the technical investigation. / 提出變更請求,延長這次衝刺並調整原型時程,以容納這項技術調查
+- (d) Perform a comprehensive feasibility study of all available data processing architectures to identify the optimal solution. / 針對所有可用的資料處理架構,執行一次全面的可行性研究,以找出最佳解法
+
+**詳解**
+
+技術衝刺(technical spike)正是為了這種情境而設計:遇到卡住進度、又無法從既有文件找到答案的技術未知數。它能在限定的時間內產出可行動的調查結果,既維持了時程壓力,也創造出往前推進所需要的探索空間,屬於專案經理主動排除團隊障礙的做法。團隊已經用盡了被動的知識來源,接下來需要的是主動、動手的調查,而不是繼續翻找文件。
+
+以知識蒐集為主的專家工作坊,適合用在需要把內隱知識整理出來分享的情境,但這裡真正需要的是主動的技術調查,而且知識庫早就已經查過卻沒有找到可用的答案。提出變更請求延長時程,等於還沒嘗試任何針對性的調查就先在時程上讓步,而技術衝刺很可能根本不需要更動時程就能解決這個限制。至於對所有架構做一次全面的可行性研究,對於只剩三週的投資人展示期限來說太過龐大,屬於過度分析,聚焦、限時的實驗式調查才是比較合適的做法。
+
+---
+
+### Q124. `scp-123` — 單選題
+
+**題目 ID**: `scp-123`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A project manager is leading the development of a digital marketing tool for an advertising agency transitioning from waterfall to agile delivery. The marketing team has expressed that they want a flexible, iterative approach to defining the tool's features rather than a comprehensive upfront requirements document. What should the project manager do first?
+- 中: 一位專案經理正在領導一套數位行銷工具的開發,委託的廣告代理商正處於從瀑布式轉型為敏捷交付的過程。行銷團隊表示,他們希望用有彈性、疊代式的方式來定義這套工具的功能,而不是先做一份完整的事前需求文件。專案經理首先應該怎麼做?
+
+**選項**
+
+- (a) Document the full list of marketing tool features and acceptance criteria in a formal requirements specification. / 把行銷工具的完整功能清單與驗收標準寫進一份正式的需求規格書
+- (b) Facilitate a workshop with the product owner and development team to build the initial product backlog and define acceptance criteria. / 與產品負責人及開發團隊共同召開工作坊,建立初始產品待辦清單並定義驗收標準 ✅ **正解**
+- (c) Set up a collaboration portal where the marketing team can submit feature requests as they identify them. / 建立一個協作平台,讓行銷團隊在想到功能需求時隨時提交
+- (d) Schedule discovery sessions with the marketing team to identify all mandatory features before development begins. / 在開發開始前,先安排與行銷團隊的探索會議,找出所有必要功能
+
+**詳解**
+
+在敏捷情境下,真正有意義的第一步通常是先與產品負責人和團隊建立對於價值的共同理解,並把它轉化成初始待辦清單。共同召開工作坊能立刻做到這件事,用敏捷實際運作的形式(使用者故事、待辦項目、驗收標準)展開疊代式的需求探索,也呼應了這家代理商正在推動的方法論轉型。
+
+正式需求規格書本身在現實中並非全然錯誤,專案經理當然可以事先了解流程與痛點,但在 PMP 考試的脈絡裡,這通常被視為前置分析,而不是真正建立起敏捷交付機制的第一個行動。功能請求提交平台雖然可能有幫助,但只是被動的蒐集機制,並沒有建立起用來定義與排序工作的核心敏捷架構。在開發開始前就找出所有必要功能,本質上仍然是詳盡的事前需求蒐集,不管包裝得多麼不正式,反映的仍是預測式思維。
+
+---
+
+### Q125. `scp-124` — 單選題
+
+**題目 ID**: `scp-124`
+
+難度: `easy` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project team is building a customer-facing mobile app using an agile approach. The team is midway through their third sprint. During backlog refinement, the product owner identifies three new user stories based on recent customer feedback. What impact does this have on the project?
+- 中: 一個專案團隊正在用敏捷方法開發一款面向顧客的行動應用程式,目前進行到第三個衝刺的一半。在待辦清單精化過程中,產品負責人根據近期的顧客回饋,識別出三個新的使用者故事。這對專案會造成什麼影響?
+
+**選項**
+
+- (a) The project scope, timeline, and budget must be formally revised to accommodate the additional features. / 必須正式修訂專案的範疇、時程與預算,以容納這些額外功能
+- (b) The team will need to request additional resources to deliver the new features alongside planned sprint work. / 團隊需要申請額外資源,才能在既定衝刺工作之外交付這些新功能
+- (c) The backlog grows, and the new stories may be prioritized into upcoming sprints. / 待辦清單變大,這些新故事可能會被排入未來的衝刺當中 ✅ **正解**
+- (d) The contingency reserve should be reviewed to determine whether it covers the cost of the additional features. / 應該檢視應變準備金,確認它是否足以涵蓋這些額外功能的成本
+
+**詳解**
+
+題目提到衝刺,代表這很可能是一個敏捷專案。在敏捷專案裡,新的使用者故事會被加進產品待辦清單,增加項目會讓待辦清單變大,而這些項目可能由產品負責人排入未來的衝刺當中。
+
+正式修訂範疇、時程與預算,是把預測式的變更控制套用在敏捷情境裡。在敏捷專案中,範疇是透過待辦清單管理來演進的,而不是靠正式的基準變更。申請額外資源也不是面對新使用者故事的自動反應,敏捷團隊本來就是透過衝刺規劃與待辦清單精化來管理產能。檢視應變準備金則是預測式風險管理的做法,在待辦清單精化過程中加入新的使用者故事,本來就是敏捷交付的正常環節,而不是需要動用準備金分析的成本風險事件。
+
+---
+
+### Q126. `scp-125` — 單選題
+
+**題目 ID**: `scp-125`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An organization uses a hybrid delivery approach. During a release, the business stakeholders request a demonstration of the working product, but the agile team argues that stopping to prepare a formal demo will disrupt their cadence. What should the project manager do?
+- 中: 一個組織採用混合式交付方法。在某次發布期間,業務利害關係人要求對可運作的產品進行展示,但敏捷團隊認為,停下來準備一場正式展示會打亂他們的工作節奏。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Tell the stakeholders the product will be shown only at project closure. / 告訴利害關係人,產品只會在專案結案時展示
+- (b) Ask the team to prepare a separate formal presentation outside of sprints. / 請團隊在衝刺之外另外準備一場正式簡報
+- (c) Invite the stakeholders to the existing iteration review meeting. / 邀請利害關係人參加既有的疊代審查會議 ✅ **正解**
+- (d) Provide the stakeholders with written status reports instead of a demo. / 提供利害關係人書面狀態報告,取代展示
+
+**詳解**
+
+疊代審查會議本來就是為了展示可運作的增量成果、蒐集回饋而存在的活動。邀請利害關係人參加,就能用團隊原本工作節奏裡既有的一個場合來滿足他們的需求,不會造成團隊擔心的那種額外干擾。
+
+把展示延後到專案結案,會讓混合式與敏捷方法原本設計要提供的及早且頻繁的回饋機制整個消失。另外準備一場正式簡報,恰好就是團隊反對的那種節奏之外的額外負擔,而現成的場合本來就已經存在,沒有必要另起爐灶。提供書面狀態報告則是用文件取代了實際運作產品的現場展示,既不是利害關係人真正要求的東西,得到的回饋品質也會比較弱。
+
+---
+
+### Q127. `scp-126` — 單選題
+
+**題目 ID**: `scp-126`
+
+難度: `easy` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A regional airline is revamping its loyalty rewards platform using Scrum. Before an upcoming sprint planning session, the vice president of sales contacts the project manager directly and asks that a promotional campaign feature be moved to the top of the product backlog. What should the project manager do?
+- 中: 一家區域性航空公司正在用 Scrum 方法翻新其會員忠誠度平台。在即將到來的衝刺規劃之前,業務副總裁直接聯繫專案經理,要求把一項促銷活動功能移到產品待辦清單的最頂端。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Personally reorder the backlog to reflect the vice president's request, given the seniority of the stakeholder. / 專案經理親自依照副總裁的要求重新排序待辦清單,因為這是位階很高的利害關係人
+- (b) Direct the vice president's request to the product owner, who is responsible for evaluating and deciding on backlog priority. / 把副總裁的要求轉交給產品負責人,由其負責評估並決定待辦清單的優先順序 ✅ **正解**
+- (c) Escalate the request to the project steering committee for formal approval before any reprioritization occurs. / 把這項要求上呈給專案指導委員會,取得正式核准後才進行重新排序
+- (d) Tell the vice president that backlog order cannot be changed until the current release cycle is complete. / 告訴副總裁,在目前的發布週期結束之前,待辦清單的順序不能異動
+
+**詳解**
+
+產品待辦清單的排序權責屬於產品負責人,這是產品負責人的核心職責之一,不需要專案經理代為決定,也不需要經過任何額外的核准層級。專案經理正確的做法,是引導這類請求回到應有的管道,讓產品負責人依據商業價值與優先順序自行評估是否要調整排序。
+
+專案經理親自重新排序,等於是越權介入了本來不屬於自己的職責範圍,即使提出請求的人位階很高也一樣。把這件事升級給指導委員會審核,是把敏捷架構下單純的待辦清單管理,套用了預測型專案才需要的正式治理層級,徒增不必要的延遲。告訴副總裁順序不能改也不正確,因為只要還沒進入衝刺執行階段,待辦清單本來就可以隨時因應優先順序變化而調整,重點是由誰來做這個決定,而不是完全不能改。
+
+---
+
+### Q128. `scp-127` — 單選題
+
+**題目 ID**: `scp-127`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A renewable energy company is building a monitoring dashboard for its wind farms. The sensor communication protocol and data logging format must comply with a grid operator's technical specification that was finalized before the project began. The dashboard's visualizations, however, are being revised repeatedly because control-room operators keep changing their preferences after each demo. What development approach should the project manager recommend?
+- 中: 一家再生能源公司正在建置一套風場監控儀表板。感測器通訊協定與資料紀錄格式,必須符合電網公司在專案開始前就已經定案的技術規格。但儀表板的視覺化呈現方式卻不斷被修改,因為控制室的操作人員每次看完展示後都會改變偏好。專案經理應該建議採用什麼開發方法?
+
+**選項**
+
+- (a) Apply a predictive approach to the entire project because the grid compliance requirements demand formal documentation. / 因為電網合規要求需要正式文件,對整個專案採用預測式方法
+- (b) Apply an adaptive approach to the entire project because operator preferences keep evolving. / 因為操作人員的偏好持續在變,對整個專案採用調適式方法
+- (c) Apply a predictive approach to the sensor and protocol component and an adaptive approach to the dashboard visualization component. / 對感測器與通訊協定的部分採用預測式方法,對儀表板視覺化的部分採用調適式方法 ✅ **正解**
+- (d) Split the initiative into two fully independent projects, each with its own project manager and governance structure. / 把這項計畫拆成兩個完全獨立的專案,各自配置專案經理與治理架構
+
+**詳解**
+
+感測器通訊協定與資料紀錄格式的規格已經在專案開始前定案,屬於固定且明確的需求,適合用預測式方法完整規劃並建立基準。儀表板視覺化的呈現方式則持續因為使用者回饋而改變,適合用調適式方法透過反覆展示與修改逐步收斂。同一專案內兩種特性並存,正是混合式方法應該派上用場的情境。
+
+整個專案都採用預測式方法,會讓仍在演進中的視覺化需求被迫過早鎖定,操作人員後續的回饋將難以被有效納入。整個專案都採用調適式方法,則會讓已經定案、需要正式文件佐證合規性的通訊協定規格,承擔不必要的重複疊代成本。把專案拆成兩個獨立專案也沒有必要,單一專案架構搭配混合式框架即可同時兼顧兩種元件的特性,拆分反而會增加跨團隊整合的複雜度與風險。
+
+---
+
+### Q129. `scp-128` — 單選題
+
+**題目 ID**: `scp-128`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A university IT department is building a new learning management system in three planned releases. The first release, covering course material uploads and gradebook entry, is nearly complete. Before the team moves into the next release cycle, the project manager needs to confirm that the delivered features truly meet the required completion standard. What should the project manager do?
+- 中: 一所大學的資訊部門正在分三次發布建置一套新的學習管理系統。第一次發布涵蓋教材上傳與成績登錄功能,即將完成。在進入下一個發布週期之前,專案經理需要確認交付的功能是否真的符合要求的完成標準。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Confirm on the sprint board that all stories assigned to this release show a "done" status. / 在衝刺看板上確認,指派給這次發布的所有故事卡都已顯示為「完成」狀態
+- (b) Compare the delivered features against the team's definition of done. / 把交付的功能對照團隊的「完成的定義」進行比對 ✅ **正解**
+- (c) Ask the faculty advisory committee whether they are satisfied with the release. / 詢問教師諮詢委員會,對這次發布是否感到滿意
+- (d) Verify that the release stayed within the budget approved for this phase. / 確認這次發布是否維持在這個階段核准的預算範圍內
+
+**詳解**
+
+「完成的定義」是團隊事先訂好、客觀且具體的完成標準,涵蓋像是程式碼審查、測試涵蓋率、文件更新等具體條件。把交付的功能拿來對照這個標準,才能提供一致且可驗證的依據,確認這個階段的工作是不是真的完成,而不是只憑印象判斷。
+
+單純看板上的「完成」狀態,只反映團隊成員自己標記的進度,不保證每個項目真的符合品質與完成的客觀條件。詢問教師諮詢委員會的滿意度雖然有參考價值,但那是主觀感受,無法取代團隊一開始就訂好的客觀標準。確認預算是否超支則是另一項重要但不同面向的管理工作,並不能回答交付物本身是否真正達到完成標準這個問題。
+
+---
+
+### Q130. `scp-129` — 單選題
+
+**題目 ID**: `scp-129`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A biotech company's team is building lab sample-tracking software. Mid-sprint, the team discovers that a legacy instrument's data interface cannot handle the sampling frequency required by a new protocol without risking data integrity. No internal documentation addresses this specific limitation. The team must demonstrate a working prototype to regulatory auditors in two weeks. What should the project manager do?
+- 中: 一家生物科技公司的團隊正在建置實驗室樣本追蹤軟體。在某次衝刺進行到一半時,團隊發現一台舊型儀器的資料介面,無法在不影響資料完整性的情況下處理新協定所要求的取樣頻率。內部沒有任何文件處理過這個特定限制。團隊必須在兩週內向法規查核員展示一個可運作的原型。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Organize a cross-team knowledge-sharing session to gather senior engineers' past experience with similar instrument integrations. / 舉辦跨團隊知識分享會,蒐集資深工程師過去處理類似儀器整合問題的經驗
+- (b) Authorize a timeboxed technical spike to investigate possible solutions for the interface limitation and assess their feasibility. / 授權進行一次限時的技術衝刺,調查這項介面限制的可能解法並評估其可行性 ✅ **正解**
+- (c) Submit a change request to postpone the regulatory demonstration until the issue is fully resolved. / 提出變更請求,把法規查核展示時程延後,直到問題完全解決為止
+- (d) Commission a comprehensive technical feasibility study of every available lab data-acquisition solution on the market. / 委託一份完整的技術可行性研究,評估市面上所有可用的實驗室資料擷取方案
+
+**詳解**
+
+技術衝刺正是為了這種情境而生:進度卡在一個既有文件也查不到答案的技術未知數上,又有明確的時間壓力。授權一次限時的技術衝刺,能在有限時間內產出可行動的調查結果,既不無限期拖延,也給團隊足夠的空間動手驗證可能的解法,是專案經理主動排除障礙的具體做法。
+
+知識分享會適合用在需要把內隱經驗整理出來擴散的情境,但團隊已經確認內部沒有現成文件可用,真正需要的是針對這個特定限制的主動調查。提出變更請求延後查核展示,等於還沒嘗試任何針對性調查就先在時程上讓步,而技術衝刺很可能根本不需要更動展示時程就能找到出路。委託一份涵蓋所有市場方案的完整可行性研究,對只剩兩週的查核期限來說規模過大,屬於過度分析,聚焦且限時的實驗式調查才是更合適的做法。
+
+---
+
+### Q131. `scp-130` — 單選題
+
+**題目 ID**: `scp-130`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A regional bank's retail online banking division has always delivered systems using a waterfall approach. Leadership has decided the division should transition to agile delivery for its next initiative. The project has just been approved. What should the project manager do first?
+- 中: 一家區域性銀行的零售網路銀行部門,過去一直用瀑布式方法交付系統。管理階層決定,這個部門下一個計畫要改用敏捷方式交付。專案剛核准啟動。專案經理首先應該怎麼做?
+
+**選項**
+
+- (a) Write a complete traditional requirements specification covering every foreseeable online banking feature before development starts. / 在開發開始前,先撰寫一份完整的傳統需求規格書,涵蓋所有可預見的網路銀行功能
+- (b) Facilitate a workshop with the product owner and development team to build the initial product backlog and define acceptance criteria. / 與產品負責人及開發團隊共同舉辦工作坊,建立初版產品待辦清單並定義驗收標準 ✅ **正解**
+- (c) Hold a series of discovery sessions with branch staff to exhaustively gather every possible feature suggestion first. / 先舉辦一系列與分行行員的探索會議,窮盡蒐集所有可能的功能建議
+- (d) Require the development team to complete a full traditional project management plan before any development work begins. / 要求開發團隊先完成一份完整的傳統專案管理計畫書,才能啟動任何開發工作
+
+**詳解**
+
+從瀑布式轉型為敏捷,真正有意義的第一步通常是先與產品負責人和團隊建立起對價值的共同理解,並把它轉化成初版產品待辦清單與驗收標準。共同舉辦工作坊能立即用敏捷實際運作的形式展開這個過程,也直接呼應管理階層要求的方法論轉型。
+
+撰寫完整的傳統需求規格書,本質上仍然是預測型思維下的產物,與敏捷精神背道而馳,也不是啟動敏捷交付架構所需要的第一個行動。窮盡式的探索會議雖然立意良善,但耗時且容易在需求還沒真正落地前就過度發散,不如透過待辦清單疊代收斂來得有效率。要求先完成完整的傳統專案管理計畫書,則是把預測型專案的治理模式套用在敏捷轉型上,會拖延團隊真正開始交付價值的時間。
+
+---
+
+### Q132. `scp-131` — 單選題
+
+**題目 ID**: `scp-131`
+
+難度: `easy` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: On a hospital's patient portal development team, two senior developers disagree about the order of items in the product backlog. The disagreement has delayed sprint planning for several days, and both developers ask the project manager to make the final call on the order. What should the project manager do?
+- 中: 在一家醫院的病患入口網站開發團隊中,兩位資深開發人員對於產品待辦清單的排序有不同意見。這場爭論已經讓衝刺規劃延誤了好幾天,兩人都要求專案經理做出最終的排序裁決。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Personally review both developers' arguments and decide the final backlog order. / 專案經理親自審視雙方的論點,決定最終的待辦清單排序
+- (b) Remind the team that backlog ordering authority belongs to the product owner, who should make the final decision. / 提醒團隊,待辦清單的排序權責屬於產品負責人,應該由產品負責人做出最終決定 ✅ **正解**
+- (c) Convene a change control board to formally vote on the backlog ordering dispute. / 召集變更管制委員會,針對這次的排序爭議進行正式表決
+- (d) Suggest each developer implement half of the disputed features, then let the team vote on which version to keep. / 建議兩位開發人員各自實作一半有爭議的功能,再讓團隊投票決定保留哪一個版本
+
+**詳解**
+
+產品待辦清單的排序權責明確屬於產品負責人,而不是專案經理,也不是團隊成員之間協商的結果。專案經理正確的做法,是把爭論導回應有的決策者身上,讓產品負責人依據商業價值做出最終判斷,同時協助團隊理解各自角色的職責邊界。
+
+專案經理親自裁決排序,等於是越權介入了不屬於自己職責範圍的決定。召集變更管制委員會表決,則是把敏捷架構下單純的待辦清單排序議題,套用了預測型專案才需要的正式治理機制,既沒必要也會拖慢速度。讓兩人各自實作一半再投票,不但浪費開發資源在其中一種必然被捨棄的版本上,也完全繞過了本來就該負責這件事的產品負責人。
+
+---
+
+### Q133. `scp-132` — 多選題
+
+**題目 ID**: `scp-132`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A national insurance company is building the next generation of its claims processing system. The claims adjudication engine must calculate payouts using statutory formulas and rate tables published by the insurance regulator before the project began, and these rules cannot be altered without a formal regulatory filing. Meanwhile, the customer service chatbot used to intake complaints is still having its conversation flow and issue-categorization logic adjusted based on ongoing feedback from support agents. Select the **two** statements that correctly describe how the project should approach its development methodology.
+- 中: 一家全國性保險公司正在建置新一代的理賠處理系統。理賠核定引擎必須依照保險主管機關在專案開始前公布的法定公式與費率表計算賠付金額,這些規則若要更動必須經過正式的法規申報程序。同時,用來受理客訴的客服聊天機器人,其對話流程與問題分類邏輯,仍在根據客服人員的持續回饋進行調整。請選出下列**兩項**正確描述本專案應如何選擇開發方法的敘述。
+
+**選項**
+
+- (a) The claims adjudication engine is well suited to a predictive approach because its rules are already fixed by regulation. / 理賠核定引擎因為規則已經被法規訂定明確,適合採用預測式方法 ✅ **正解**
+- (b) The complaint intake chatbot is well suited to an adaptive approach because its logic is still evolving based on feedback. / 客訴聊天機器人因為邏輯仍在根據回饋演進,適合採用調適式方法 ✅ **正解**
+- (c) The entire system should use an adaptive approach so that it can respond quickly to future regulatory changes. / 整個系統都應該採用調適式方法,以便未來法規異動時能快速回應
+- (d) The entire system should use a predictive approach because the insurance industry is heavily regulated overall. / 整個系統都應該採用預測式方法,因為保險業整體受到高度監理
+- (e) Both components should use the same methodology to simplify the team's workflow. / 兩個元件都應該採用相同的方法論,以簡化團隊的工作流程
+
+**詳解**
+
+理賠核定引擎的計算規則已經由法規明確訂定,且更動需要正式申報程序,屬於固定且需要嚴謹文件紀錄的需求,適合用預測式方法規劃與建立基準。客訴聊天機器人的對話流程與分類邏輯則仍在持續根據客服人員回饋調整,屬於會隨回饋演進的需求,適合用調適式方法透過反覆疊代收斂。同一系統內兩種元件特性不同,正是混合式方法應該同時並存兩種做法的典型情境。
+
+整個系統都採用調適式方法,會讓已經法定明確、需要正式文件佐證合規性的核定引擎承擔不必要的重複疊代成本,也不利於因應法規申報要求。整個系統都採用預測式方法,則會讓仍在演進中的聊天機器人邏輯被迫過早鎖定,難以有效納入客服人員持續產生的回饋。要求兩個元件採用相同方法論以求流程簡化,忽略了兩者需求特性本質上的差異,為了統一而犧牲了各自應有的彈性或紀律,並非恰當的方法選擇依據。
+
+---
+
+### Q134. `scp-133` — 單選題
+
+**題目 ID**: `scp-133`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A boutique hotel chain is developing an integrated booking and loyalty platform. Near the end of a sprint, the marketing director says during the iteration review that the demonstrated features "look fine," but the scrum master points out that no one has formally confirmed whether the features actually meet the team's completion standard. What should the project manager do?
+- 中: 一家精品連鎖旅館集團正在開發一套整合訂房與會員忠誠度的平台。在某次衝刺快結束時,行銷總監在迭代審查會議上表示這次展示的功能「看起來還不錯」,但 Scrum Master 指出,還沒有人正式確認這些功能是否真的符合團隊訂定的完成標準。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Treat the marketing director's positive comment as sufficient confirmation that the sprint's deliverables are complete. / 把行銷總監的正面評語視為足以確認這次衝刺的交付物已經完成
+- (b) Have the team check each deliverable against the team's definition of done to confirm it truly meets the completion standard. / 請團隊將每一項交付物逐一對照團隊的「完成的定義」,確認是否真正符合完成標準 ✅ **正解**
+- (c) Let the product owner make a subjective final call on whether the overall quality of the deliverables is acceptable. / 由產品負責人主觀判斷這批交付物的整體品質是否可以接受,並做出最終裁定
+- (d) Simply check whether all the sprint's task cards have been moved to the "done" column on the task board. / 只檢查這次衝刺的任務卡是否都已經被移到看板上的「完成」欄位
+
+**詳解**
+
+「完成的定義」是團隊自己訂定的客觀完成標準,不受個人主觀感受影響。把每一項交付物對照這個標準逐一檢核,才能提供一致且可驗證的依據,確認交付物是不是真的完成,這也是團隊維持品質一致性的核心做法。
+
+行銷總監的正面評語只是主觀印象,並不是團隊事先定義好的客觀標準,不能取代真正的完成度檢核。讓產品負責人主觀裁定整體品質,同樣缺乏客觀依據,容易因人而異。只看任務卡是否移到「完成」欄位,也只反映團隊成員自己標記的進度,無法保證每個項目真的符合品質與完成的具體條件。
+
+---
+
+### Q135. `scp-134` — 單選題
+
+**題目 ID**: `scp-134`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A telecom carrier's billing system team is integrating a new third-party mobile payment gateway. Mid-sprint, the team discovers the gateway's transaction status codes are incompatible with the existing billing reconciliation logic, which could cause duplicate charges. No prior integration case addresses this specific incompatibility. Marketing has already publicly announced that the new payment method will launch with a promotion in three weeks. What should the project manager do?
+- 中: 一家電信業者的帳務系統團隊正在整合一個新的第三方行動支付閘道。在某次衝刺進行到一半時,團隊發現這個閘道回傳的交易狀態碼,與既有的帳務核銷邏輯不相容,可能導致重複扣款。過去沒有任何整合案例處理過這個特定的不相容問題。行銷部門已經公開宣布這個新支付方式將在三週後隨促銷活動同步上線。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Arrange for senior billing engineers to hold an internal knowledge-sharing session about past payment gateway integrations. / 安排資深帳務工程師舉辦內部知識分享會,討論過去支付閘道整合的經驗
+- (b) Authorize a timeboxed technical spike focused on investigating the status code incompatibility and identifying a viable fix. / 授權進行一次聚焦於狀態碼不相容問題的限時技術衝刺,找出可行的修正方向 ✅ **正解**
+- (c) Immediately notify marketing that the promotion launch must be postponed until the issue is completely resolved. / 立即通知行銷部門,促銷活動上線時間必須延後,直到問題徹底解決
+- (d) Commission an external consultant to perform a full technical evaluation comparing every major mobile payment gateway on the market. / 委託外部顧問對市面上所有主流行動支付閘道進行一次完整的技術評估比較
+
+**詳解**
+
+技術衝刺正是為了這種情境設計的:進度卡在一個既有案例也查不到答案的技術未知數上,而且有明確的時間壓力。授權一次聚焦的限時技術衝刺,能在有限時間內針對這個特定的不相容問題產出可行動的調查結果,是專案經理主動協助團隊排除障礙的做法,也不必然需要動用到延後上線這種較重的手段。
+
+內部知識分享會適合處理團隊內部已經累積但沒有被整理出來的經驗,但題目已經說明過去沒有類似的整合案例可循,真正需要的是主動的技術調查而不是經驗蒐集。立即要求延後促銷上線,等於還沒嘗試任何針對性調查就先讓步犧牲時程,而技術衝刺很可能根本不需要更動上線時間就能找到解法。委託外部顧問對市場上所有支付閘道做全面評估比較,對只剩三週的上線期限而言規模過大,也偏離了眼前真正要解決的具體相容性問題。
+
+---
+
+### Q136. `scp-135` — 單選題
+
+**題目 ID**: `scp-135`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A local government's tax filing system has historically been outsourced and delivered using a waterfall approach. After years of delayed deliveries and frequent requirement changes, leadership has directed the delivery team to adopt agile for the next phase of online filing features. The project has just been approved. What should the project manager prioritize first?
+- 中: 某地方政府的稅務申報系統過去一直委外並用瀑布式方法交付。經歷多年的延遲交付與頻繁的需求變更後,上級指示承辦團隊在下一階段的線上申報功能改採敏捷方式交付。專案剛核准啟動。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Have the delivery team write a complete feature specification covering every foreseeable filing scenario before seeking approval. / 先由承辦團隊撰寫一份涵蓋所有可預見申報情境的完整功能規格書,再送交核准
+- (b) Facilitate a workshop with the business-appointed product owner and development team to build the initial product backlog and define acceptance criteria. / 與業務單位指派的產品負責人及開發團隊共同舉辦工作坊,建立初版產品待辦清單並定義驗收標準 ✅ **正解**
+- (c) Hold a series of public town halls to exhaustively collect every possible taxpayer feature request before planning begins. / 先舉辦一系列民眾座談會,窮盡蒐集所有可能的納稅人功能需求後才開始規劃
+- (d) Require the development team to complete a full traditional project management plan before any development work starts. / 要求開發團隊先完成一份完整的傳統專案管理計畫書,才能啟動任何開發工作
+
+**詳解**
+
+從瀑布式轉型為敏捷,真正有意義的第一步是先與產品負責人和團隊建立起對價值的共同理解,並把它轉化成初版產品待辦清單與驗收標準。共同舉辦工作坊能立即用敏捷實際運作的形式展開這個過程,直接對應上級要求的方法論轉型,也讓團隊儘早開始交付可用的增量成果,回應過去延遲交付的問題。
+
+撰寫完整的功能規格書,本質上仍是預測型思維的產物,恰好是造成過去交付延遲與變更頻繁問題的根源之一,與轉型的初衷背道而馳。窮盡式的民眾座談會雖然立意良善,卻容易在需求還沒真正落地前過度發散,拖延團隊真正開始交付的時間。要求先完成完整的傳統專案管理計畫書,則是把預測型專案的治理模式套用在敏捷轉型上,同樣會延誤團隊開始運作的時程。
+
+---
+
+### Q137. `scp-136` — 單選題
+
+**題目 ID**: `scp-136`
+
+難度: `easy` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An e-commerce company's last-mile delivery tracking platform team is midway through its fifth sprint. Based on recent customer complaint analysis, the product owner identifies two new user stories: real-time delivery exception alerts and a return-status lookup feature. What impact does this have on the project?
+- 中: 一家電商公司的最後一哩配送追蹤平台團隊,目前進行到第五個衝刺的一半。根據近期的客訴分析,產品負責人識別出兩個新的使用者故事:即時配送異常通知,以及退貨進度查詢功能。這對這個專案會造成什麼影響?
+
+**選項**
+
+- (a) A formal change request must be submitted immediately to re-approve the project's scope baseline. / 必須立即提出正式變更請求,重新核准專案的範疇基準
+- (b) The backlog grows, and the new stories may be prioritized into upcoming sprints. / 待辦清單會因此增加項目,這些新故事之後可能會被排入未來的衝刺中 ✅ **正解**
+- (c) The team must immediately request additional developers to complete the new stories within the current sprint. / 團隊必須立刻申請額外的開發人力,才能在本次衝刺內完成這些新故事
+- (d) The project's contingency reserve should be reviewed to determine whether it covers the cost of the new features. / 應該檢視專案的應變準備金,確認它是否足以支應這些新功能的成本
+
+**詳解**
+
+題目描述的是一個以衝刺為節奏運作的敏捷專案。在敏捷專案裡,新識別出的使用者故事會被加進產品待辦清單,讓待辦清單自然成長,而這些項目日後可能由產品負責人依優先順序排入未來的衝刺當中,這是敏捷交付正常且預期中的一環。
+
+要求立即提出正式變更請求重新核准範疇基準,是把預測型的變更管制思維套用在敏捷情境上,敏捷專案的範疇本來就是透過待辦清單管理持續演進,不需要走這種正式基準變更流程。立刻申請額外人力也不是面對新故事的自動反應,團隊本來就是透過衝刺規劃與待辦清單精化來管理產能與工作負荷。檢視應變準備金則是預測型風險管理的做法,識別出新的使用者故事屬於敏捷交付的正常環節,並非需要動用準備金分析的成本風險事件。
+
+---
+
+### Q138. `scp-137` — 多選題
+
+**題目 ID**: `scp-137`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A retail chain's in-store POS system team uses Scrum. It is day three of the current sprint. Based on an unplanned promotional campaign from headquarters marketing, the product owner adds two new user stories to the product backlog: a limited-time discount display and a real-time loyalty-point calculator. Select the **two** statements that correctly describe the appropriate response to this situation.
+- 中: 一家連鎖零售業者的門市 POS 系統團隊採用 Scrum。目前是本次衝刺的第三天。因為總部行銷部門一項臨時的促銷企劃,產品負責人在產品待辦清單中新增了兩個使用者故事:限時折扣顯示,以及會員點數即時試算。請選出下列**兩項**正確描述這個情況下適當處理方式的敘述。
+
+**選項**
+
+- (a) The two new stories are added to the product backlog, and the product owner decides which future sprint they are prioritized into. / 這兩個新故事會加進產品待辦清單,由產品負責人決定未來排入哪一次衝刺 ✅ **正解**
+- (b) The scope already committed to for the current sprint does not automatically change unless the development team agrees to take on the additional work. / 本次衝刺已經承諾的範圍不會自動改變,除非開發團隊自己同意承接額外的工作 ✅ **正解**
+- (c) The project manager must immediately initiate formal change control and submit the two new stories to a change control board. / 專案經理必須立刻啟動正式的變更管制流程,將這兩個新故事送交變更管制委員會審核
+- (d) Because new items were added to the backlog, the project's scope baseline must be reset and approved by senior management. / 因為待辦清單新增了項目,專案的範疇基準必須重新設定並取得高階主管核准
+- (e) The development team should immediately stop the current sprint and re-plan a new sprint to incorporate the two new stories. / 開發團隊應該立即中止本次衝刺,重新規劃一次衝刺以納入這兩個新故事
+
+**詳解**
+
+在敏捷專案中,產品負責人本來就有權隨時把新識別出的項目加進產品待辦清單,這屬於待辦清單持續精化與成長的正常過程,日後由產品負責人依優先順序決定排入哪一次衝刺。與此同時,衝刺一旦開始,團隊已經承諾的工作範圍受到保護,不會因為待辦清單新增項目就自動被迫調整,除非開發團隊自己評估後同意額外承接,這正是衝刺這個限時容器所提供的穩定性。
+
+啟動正式的變更管制流程並送交變更管制委員會,是把預測型專案的治理機制套用在敏捷情境裡,待辦清單的成長本來就不需要走這種正式審核。要求重新設定範疇基準並取得高階主管核准,同樣是預測型思維,敏捷專案的範疇是透過待辦清單持續演進,而不是靠正式基準變更。中止當前衝刺重新規劃,則是不必要的重大干擾,新故事完全可以留在待辦清單中等待未來的衝刺,不需要打斷正在進行中的工作節奏。
+
+---
+
+### Q139. `scp-138` — 單選題
+
+**題目 ID**: `scp-138`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A nonprofit organization is developing a donor management platform using an agile approach. Board members tell the project manager they want to regularly see actual progress and a working version of the platform, and suggest the project manager prepare a formal written status report every two weeks for the administrative assistant to forward to the board. The development team is concerned that preparing this extra report will take time away from building features. What should the project manager do?
+- 中: 一個非營利組織正在用敏捷方法開發捐款人管理平台。董事會成員告訴專案經理,他們希望能定期看到實際的進度與可運作的平台版本,並建議專案經理每兩週準備一份正式的書面狀態報告,交由行政助理轉發給董事會。開發團隊則擔心,額外準備這份報告會占用原本用來開發功能的時間。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Agree to the board's suggestion and have the team schedule time to prepare the written status report. / 同意董事會的建議,請團隊安排時間製作書面狀態報告
+- (b) Invite the board members to attend the team's existing iteration review meeting to see a working product increment. / 邀請董事會成員參加團隊既有的迭代審查會議,實際查看可運作的產品增量 ✅ **正解**
+- (c) Tell the board that detailed progress will only be shared once the entire platform is complete. / 告訴董事會,詳細進度只會在整個平台開發完成後才會對外公布
+- (d) Have the administrative assistant regularly compile screenshots of the team's sprint board to forward to the board members. / 請行政助理定期彙整團隊衝刺看板的截圖,轉發給董事會成員
+
+**詳解**
+
+迭代審查會議本來就是為了展示可運作的產品增量、蒐集回饋而存在的既有場合。邀請董事會成員參加,就能用團隊原本工作節奏裡已經存在的活動來滿足他們定期看到實際進度的需求,不需要額外增加團隊的負擔,也能讓董事會直接看到真正可運作的成果而不只是描述。
+
+同意準備額外的書面狀態報告,恰好就是團隊擔心的那種節奏之外的額外工作,而現成的場合本來就足以達到同樣的目的,沒有必要另外新增。告訴董事會要等到整個平台完成才公布進度,會讓敏捷方法原本設計要提供的及早且頻繁的回饋機制整個消失,也不符合董事會的合理期待。請行政助理彙整看板截圖轉發,同樣是用間接的文件形式取代實際運作產品的現場展示,得到的回饋品質會比直接參與審查會議來得薄弱。
 
 ---

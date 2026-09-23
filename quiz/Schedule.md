@@ -1,6 +1,6 @@
 # Schedule — PMP 題庫
 
-> 共 108 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 123 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `match-001` — 拖拉配對題
 
@@ -3036,5 +3036,392 @@ FDD 適合大型、複雜系統,透過事前建立整體模型與依功能規劃
 **詳解**
 
 依服務型領導(Servant Leadership)精神,專案經理應保護團隊的衝刺承諾不受計畫外中途插入的干擾,並尊重產品負責人對產品待辦清單的排序權責,將新需求導回正式管道由產品負責人評估與排序,故答案為 (b)。未經評估直接插入項目、以無償加班強迫吸收額外工作,或未告知團隊便私自調整承諾範圍,皆違背保護團隊、尊重團隊自組織與透明溝通的核心原則。
+
+---
+
+### Q109. `sch-107` — 單選題
+
+**題目 ID**: `sch-107`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A stakeholder criticizes an agile team for "having no real plan," pointing out that the team only plans in detail right before each sprint rather than upfront for the whole project. How should the project manager respond?
+- 中: 一位利害關係人批評某個敏捷團隊「根本沒有真正的計畫」,理由是這個團隊只在每次衝刺前才做詳細規劃,而不是在專案一開始就把全部規劃好。專案經理應該如何回應?
+
+**選項**
+
+- (a) Agree and recommend the team switch to upfront, comprehensive planning like predictive projects. / 同意這個看法,建議團隊改採像預測式專案那樣一開始就做完整規劃
+- (b) Explain that agile planning is iterative and just-in-time, done before each sprint based on the latest priorities, not the absence of planning. / 說明敏捷規劃是迭代且即時的,依最新優先順序在每次衝刺前進行,並不代表沒有計畫 ✅ **正解**
+- (c) Apologize and promise to create a complete upfront schedule for the remainder of the project. / 道歉並承諾為專案剩餘部分做出完整的事前排程
+- (d) Ignore the criticism since agile teams are not expected to justify their planning approach. / 忽略這個批評,因為敏捷團隊不需要為自己的規劃方式辯護
+
+**詳解**
+
+敏捷規劃不代表沒有計畫,而是採取迭代且即時(just-in-time)的方式,在每次衝刺開始前依最新的待辦清單優先順序進行規劃,讓計畫能持續反映最新資訊。PM 應該向利害關係人清楚說明這個差異,而不是附和對方、承諾改回一次性完整規劃,或乾脆不理會這個合理的疑問。
+
+---
+
+### Q110. `sch-108` — 單選題
+
+**題目 ID**: `sch-108`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A predictive project has several delayed activities at once: UI design is 2 weeks behind, database optimization is 1 week behind, security review has slipped 3 weeks, and integration testing prep is 4 days behind. What should the project manager focus on first when assessing schedule impact?
+- 中: 一個預測式專案同時有多項活動延誤:UI 設計落後 2 週、資料庫優化落後 1 週、安全審查落後 3 週、整合測試準備落後 4 天。專案經理在評估時程影響時,應該優先關注什麼?
+
+**選項**
+
+- (a) Identify which of the delayed activities are on the critical path and will actually impact the project end date. / 找出這些延誤活動中,哪些位於要徑上、會真正影響專案完工日期 ✅ **正解**
+- (b) Address the security review first since it has the longest delay. / 優先處理安全審查,因為它延誤時間最長
+- (c) Focus on the UI design delay since it affects stakeholder-visible user experience. / 優先處理 UI 設計延誤,因為它影響利害關係人看得到的使用者體驗
+- (d) Work on all four delays simultaneously since they are all behind schedule. / 同時處理這四項延誤,因為它們都落後進度
+
+**詳解**
+
+多項活動同時延誤時,真正決定專案完工日期是否受影響的關鍵,是這些活動是否位於要徑(Critical Path)上;延誤時間最長、或最容易被利害關係人看見的活動,不必然就是對完工日期影響最大的活動,單純依延誤天數或能見度排序容易誤判真正的優先順序,同時處理全部四項也未必是資源最有效的分配方式。
+
+---
+
+### Q111. `sch-109` — 單選題
+
+**題目 ID**: `sch-109`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is six weeks behind schedule on a construction project with a fixed completion deadline the sponsor has confirmed cannot be moved. A schedule review shows that additional equipment and crews can be mobilized for certain critical path activities to reduce their duration. However, several other critical path activities involve specialized inspections and technical handoffs that must be fully completed before successor work can begin. What schedule compression technique should the project manager apply first?
+- 中: 某建設專案的專案經理進度落後六週,贊助人已確認完工期限無法變動。時程檢視顯示,部分要徑活動可以動員額外的設備與人力來縮短工期;然而,另有數項要徑活動涉及專業檢驗與技術性交接,必須完全完成後,後續工作才能開始。專案經理應優先採用哪一種時程壓縮技術?
+
+**選項**
+
+- (a) Fast-track selected critical path activities by overlapping successor work wherever possible to recover time. / 將部分要徑活動快速跟進(Fast-track),盡可能讓後續工作與其重疊以搶回時間
+- (b) Crash the longest-duration activities on the schedule first to recover the maximum amount of time overall. / 優先趕工(Crash)時程中工期最長的活動,以搶回最多整體時間
+- (c) Crash the critical path activities where additional equipment and crews can be mobilized. / 對可動員額外設備與人力的要徑活動進行趕工(Crash) ✅ **正解**
+- (d) Re-baseline the project schedule to reflect the current projected completion date. / 重新設定時程基準(Re-baseline),以反映目前預估的完工日期
+
+**詳解**
+
+由於完工期限已固定不可更動,專案經理必須選擇在要徑上「可行且有效」的壓縮技術。時程檢視顯示,部分要徑活動可以透過增加設備與人力來縮短工期,而另一部分要徑活動因涉及技術性交接與檢驗程序,必須依序完成,不適合重疊執行,因此正解為 (c):針對可動員額外資源的要徑活動進行趕工。
+
+(a) 快速跟進要求活動之間能夠安全重疊,但題目已明確指出部分要徑活動涉及專業檢驗與技術交接,必須完全完成才能開始後續工作,強行重疊會帶來返工或品質風險,並不可行。(b) 優先趕工「工期最長」的活動,而不考慮該活動是否在要徑上,忽略了要徑邏輯;若趕工的是非要徑活動,即使縮短工期也不會提前專案完工日,等於是沒有效益地投入額外資源與成本。(d) 重新設定基準只是被動接受延誤,並未先窮盡各種可行的壓縮手段,只有在趕工、快速跟進等壓縮策略都已評估且無法達成目標時,才會考慮重新設基準。
+
+---
+
+### Q112. `sch-110` — 單選題
+
+**題目 ID**: `sch-110`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is reviewing a schedule update and finds that two activities have been delayed. Activity A is on the critical path and is one day behind its planned start. Activity B has eight days of total float and is seven days behind its planned start. The project deadline cannot be moved. What should the project manager do first?
+- 中: 專案經理正在檢視時程更新報告,發現兩項活動已經延誤。活動 A 位於要徑上,實際開始時間比計畫晚了一天。活動 B 有八天的總浮時(Total Float),實際開始時間比計畫晚了七天。專案期限無法變動。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Focus recovery efforts on Activity B. / 將復原心力集中在活動 B
+- (b) Focus recovery efforts on Activity A. / 將復原心力集中在活動 A ✅ **正解**
+- (c) Reallocate resources from Activity B to Activity A. / 將資源從活動 B 重新分配給活動 A
+- (d) Escalate to the project sponsor. / 向專案贊助人呈報升級
+
+**詳解**
+
+活動 A 位於要徑上,浮時為零,任何進一步的延誤都會直接推遲專案完工日期。活動 B 雖然已經用掉八天浮時中的七天,值得密切關注,但目前尚未真正威脅到完工期限,因為它仍剩餘一天浮時。在期限固定的情況下,要徑活動永遠是優先處理的對象,無論另一項活動的絕對延誤天數有多大,因此正解為 (b)。
+
+(a) 活動 B 的絕對延誤天數確實比較大,且已接近成為要徑,但決定優先順序的關鍵是「剩餘浮時」與「是否在要徑上」,而不是絕對延誤天數,因此不應優先處理活動 B。(c) 重新分配資源給活動 A 或許是合理做法之一,但題目並未提供足夠資訊證明「把資源從活動 B 移走」是正確且必要的作法;考試邏輯上應優先選擇範圍更廣、恆為有效的答案,而非可能適用、也可能不適用的特定行動。(d) 在專案經理還沒有嘗試以一般時程管理手段處理延誤之前就升級呈報,為時過早。
+
+---
+
+### Q113. `sch-111` — 單選題
+
+**題目 ID**: `sch-111`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is estimating the effort required to develop a series of technical reports for a regulatory submission. Using a parametric model based on report complexity and resource hours per page, the initial estimate exceeds the available budget. The scope cannot be reduced and the deadline is fixed. What should the project manager do to reduce the effort estimate?
+- 中: 專案經理正在估算為某項法規送審而製作一系列技術報告所需的工作量。使用以報告複雜度與每頁所需資源工時為基礎的參數估算模型,初步估算結果超出可用預算。範疇無法縮減,期限也已固定。專案經理應該怎麼做才能降低工作量估算值?
+
+**選項**
+
+- (a) Assign experienced technical writers who can produce the same reports in fewer hours. / 指派經驗豐富的技術寫手,讓他們能以更少工時完成相同的報告 ✅ **正解**
+- (b) Assign additional technical writers to distribute the work across a larger team. / 增加技術寫手人數,將工作分攤給更多人力
+- (c) Break the reports into smaller sections to produce a more accurate estimate. / 將報告拆解成更小的段落,以做出更精確的估算
+- (d) Implement document automation tools to handle formatting and templating tasks. / 導入文件自動化工具,處理格式與範本套用等工作
+
+**詳解**
+
+在參數估算法中,工作量等於「工作量體」除以「生產力比率」。題目指出這個參數模型是以報告複雜度與「每頁所需資源工時」為基礎,也就是說,模型中真正可以調整的變數本質上就是人力生產力。指派更有經驗的寫手,讓他們用更少工時完成同樣的報告,直接改變了「每頁工時」這個參數,因此正解為 (a)。
+
+(b) 增加技術寫手人數只是把工作量分攤給更多人,並不會降低所需的總工時,反而可能因為溝通協調成本增加,使估算值不減反增。(c) 將報告拆解成更小段落有助於提升估算的精確度,但並不會改變完成這些工作實際所需的總工時。(d) 導入文件自動化工具或許能減少部分格式化與範本套用的工作,但本身需要額外的導入與建置成本,屬於比單純調整既有模型中「人力生產力」參數範圍更大的解決方案。
+
+---
+
+### Q114. `sch-112` — 單選題
+
+**題目 ID**: `sch-112`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A project is currently 15% behind schedule. The sponsor believes recovery is possible with overtime. The finance manager warns the budget cannot absorb additional costs. The PMO requires that recovery options be formally analyzed and approved before implementation. What should the project manager do?
+- 中: 某專案目前進度落後 15%。贊助人認為透過加班可以挽回進度,財務經理則警告預算無法吸收額外成本,專案管理辦公室(PMO)則要求任何復原方案都必須先經過正式分析與核准才能付諸實行。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Conduct a structured impact analysis and present recovery options with cost, schedule, and risk trade-offs for formal approval. / 進行結構化的影響分析,列出各項復原方案在成本、時程與風險上的取捨,提交正式核准 ✅ **正解**
+- (b) Analyze the critical path to identify tasks that can be fast-tracked or reduced in scope to recover the schedule. / 分析要徑,找出可以快速跟進或縮減範疇以挽回進度的任務
+- (c) Request authorization from the sponsor to implement overtime immediately given the severity of the schedule variance. / 鑒於時程差異嚴重,向贊助人請求授權,立即實施加班
+- (d) Crash critical path activities using existing budget reserves to recover schedule without exceeding the total budget. / 動用現有預算儲備金,對要徑活動進行趕工,在不超出總預算的前提下挽回進度
+
+**詳解**
+
+題目中三位利害關係人各自提出不同的限制條件:贊助人重視時效,財務經理重視預算上限,PMO 則要求任何行動前必須先完成正式分析與核准的治理程序。專案經理無法只靠採取其中任何單一選項就同時滿足這三項要求;唯有進行一項涵蓋多種復原方案、並清楚呈現成本、時程與風險取捨的結構化分析,才能同時回應這三項限制,並符合 PMO 在行動前要求正式核准的規定,因此正解為 (a)。
+
+(b) 分析要徑以找出可快速跟進或縮減範疇的機會,本身是復原分析中一項有效的技術,但若只單獨提出這個做法,就跳過了完整的方案評估與正式核准程序,未能滿足 PMO 的要求。(c) 向贊助人請求授權加班,雖然回應了贊助人偏好的做法,卻忽略了財務經理提出的預算疑慮,也未經過 PMO 要求的治理程序。(d) 動用儲備金對要徑活動趕工,在正式分析與核准完成之前就先行動,違反了 PMO 的治理要求,而且只是單方面假設儲備金足以吸收成本,並未獲得財務經理的確認。
+
+---
+
+### Q115. `sch-113` — 單選題
+
+**題目 ID**: `sch-113`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager reviewing the resource plan discovers that a senior engineer is assigned to two parallel activities during the same two-week period, creating an overallocation. One activity is on the critical path. The other has four days of total float. The non-critical activity can be delayed within its available float. The project deadline cannot be moved. Which technique should the project manager apply?
+- 中: 專案經理在檢視資源計畫時發現,一位資深工程師在同一個為期兩週的期間內,被同時指派到兩項平行進行的活動上,造成資源超額分配。其中一項活動位於要徑上,另一項活動則有四天的總浮時。非要徑活動可以在其可用浮時範圍內延後執行。專案期限無法變動。專案經理應該採用哪一種技術?
+
+**選項**
+
+- (a) Resource leveling / 資源撫平(Resource leveling)
+- (b) Resource smoothing / 資源平滑(Resource smoothing) ✅ **正解**
+- (c) Crashing / 趕工(Crashing)
+- (d) Fast-tracking / 快速跟進(Fast-tracking)
+
+**詳解**
+
+資源平滑是在活動「可用的浮時範圍內」調整其時程,藉此解決資源超額分配的問題,同時不影響專案完工日期。題目中的非要徑活動擁有四天浮時,正好提供了消除這次資源衝突所需的彈性空間;由於專案期限已經固定,能夠維持原有時程的技術,自然優於可能延後完工日的技術,因此正解為 (b)。
+
+(a) 資源撫平同樣是根據資源限制調整活動時間來解決超額分配,但它有可能因此延後專案整體時程;既然本題已有浮時可供運用,就沒有必要使用可能延長工期的資源撫平。(c) 趕工是透過增加資源來縮短要徑活動的工期,用於處理「時程壓縮」的需求,但本題面對的是資源超額分配問題,而非時程壓縮,趕工用錯了對象。(d) 快速跟進是讓原本循序進行的活動重疊執行,以達到壓縮時程的目的,它和趕工一樣屬於時程壓縮技術,並不能解決資源超額分配的問題。
+
+---
+
+### Q116. `sch-114` — 單選題
+
+**題目 ID**: `sch-114`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A solar farm construction project is three weeks behind schedule, and the interconnection date agreed with the utility company cannot be moved. The schedule shows that trenching and cable-laying, a critical path activity, can be shortened by mobilizing additional crews and equipment. Another critical path activity, obtaining the county interconnection permit, cannot be shortened because it depends on a fixed statutory review period regardless of resources applied. The single longest-duration activity in the entire schedule is environmental sound-level monitoring, which is not on the critical path and has 12 days of total float. What should the project manager crash?
+- 中: 某太陽能發電廠建設專案進度落後三週,與電力公司談定的併網日期無法變動。時程顯示,要徑上的「挖溝與布纜」活動可以透過動員額外人力與設備來縮短工期;另一項要徑活動「取得縣政府併網許可」則因受限於法定固定審查期,無論投入多少資源都無法縮短。整份時程中工期最長的單一活動是「環境噪音監測」,它並不在要徑上,擁有 12 天總浮時。專案經理應該對哪項活動進行趕工(Crashing)?
+
+**選項**
+
+- (a) Crash the environmental sound-level monitoring activity because it has the longest duration in the schedule. / 對「環境噪音監測」活動進行趕工,因為它是時程中工期最長的活動
+- (b) Crash the trenching and cable-laying activity because it is on the critical path and its duration can genuinely be reduced with more resources. / 對「挖溝與布纜」活動進行趕工,因為它位於要徑上,且確實可以透過投入更多資源來縮短工期 ✅ **正解**
+- (c) Crash the county interconnection permit activity because it is on the critical path and the schedule is behind. / 對「取得縣政府併網許可」活動進行趕工,因為它位於要徑上且時程已經落後
+- (d) Crash both the permit activity and the environmental monitoring activity simultaneously to maximize the chance of recovering time. / 同時對「取得縣政府併網許可」與「環境噪音監測」兩項活動進行趕工,以最大化挽回時間的機會
+
+**詳解**
+
+趕工的正確做法,是在要徑上找出「真正能夠透過投入額外資源縮短工期」的活動下手,而不是不分是否在要徑上,一律挑工期最長的活動,也不是只看是否在要徑上就貿然趕工。題目中「挖溝與布纜」同時滿足兩個條件:位於要徑上,且能透過額外人力與設備真正縮短工期,因此正解為 (b)。
+
+(a) 環境噪音監測雖然是整份時程中工期最長的單一活動,但它不在要徑上、還有 12 天浮時,即使把它的工期壓縮,專案完工日也不會因此提前,等於白白投入資源。(c) 併網許可雖然位於要徑上,但題目已明確說明它的工期受限於法定固定審查期,無論投入多少資源都無法縮短,對它趕工不會產生任何效果。(d) 同時趕工許可與監測活動,前者不會產生效果、後者不在要徑上,兩者都無助於挽回進度,反而浪費資源。
+
+---
+
+### Q117. `sch-115` — 單選題
+
+**題目 ID**: `sch-115`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A hospital is implementing a new electronic health record (EHR) system with a go-live date fixed by a regulatory compliance deadline. During a schedule review, the project manager finds that "data migration validation testing" is on the critical path and is two days behind its planned finish. "Clinical staff training sessions" has ten days of total float and is nine days behind its planned finish. Which activity should the project manager focus recovery efforts on first?
+- 中: 某醫院正在導入新的電子病歷(EHR)系統,上線日期受法規遵循期限限制而無法變動。專案經理在時程檢視時發現,「資料轉檔驗證測試」位於要徑上,實際完成時間比計畫晚了兩天;「臨床人員教育訓練」有十天總浮時,實際完成時間比計畫晚了九天。專案經理應該優先將復原心力放在哪項活動?
+
+**選項**
+
+- (a) Clinical staff training sessions, because it has accumulated a much larger absolute delay. / 「臨床人員教育訓練」,因為它累積的絕對延誤天數大得多
+- (b) Data migration validation testing, because it is on the critical path with zero float, so any further delay pushes out go-live. / 「資料轉檔驗證測試」,因為它位於要徑上且浮時為零,任何進一步延誤都會推遲上線日期 ✅ **正解**
+- (c) Both activities equally, since together they represent the largest combined delay in the schedule. / 兩項活動應同等優先處理,因為兩者合計代表時程中最大的延誤總量
+- (d) Neither activity yet, since the training sessions still have one day of float remaining. / 兩項活動都還不需要優先處理,因為教育訓練仍剩餘一天浮時
+
+**詳解**
+
+判斷優先順序的關鍵,是活動有沒有浮時、在不在要徑上,而不是看延誤的絕對天數多寡。「資料轉檔驗證測試」位於要徑上,浮時為零,即使只延誤兩天,也會直接推遲上線日期;「臨床人員教育訓練」雖然延誤天數較大,但仍有一天浮時尚未用盡,尚未威脅到完工日期,因此正解為 (b)。
+
+(a) 教育訓練的絕對延誤天數確實比較大,但決定優先順序的不是絕對延誤天數,而是浮時與要徑歸屬,選這個選項忽略了要徑邏輯。(c) 兩者「同等優先」的說法,忽視了要徑活動零浮時的急迫性遠高於仍有浮時的活動,並不成立。(d) 教育訓練確實還剩一天浮時,但這不代表兩項活動都不需要處理,要徑上的資料轉檔驗證測試仍必須立即處理,選項的推論並不正確。
+
+---
+
+### Q118. `sch-116` — 單選題
+
+**題目 ID**: `sch-116`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A civil engineering firm is estimating the effort needed to inspect a portfolio of bridges using a parametric model: total hours equal the number of bridges multiplied by the average inspection hours per bridge. The initial estimate exceeds the client's budget. The number of bridges cannot be reduced and the deadline is fixed. What should the project manager do to reduce the effort estimate?
+- 中: 某土木工程公司正在使用參數估算模型,估算檢驗一批橋樑所需的工作量:總工時等於橋樑數量乘以每座橋樑的平均檢驗工時。初步估算結果超出客戶預算。橋樑數量無法縮減,期限也已固定。專案經理應該怎麼做才能降低工作量估算值?
+
+**選項**
+
+- (a) Assign inspectors experienced with standardized digital checklist tools who can complete each bridge inspection in fewer hours. / 指派熟悉標準化數位檢核清單工具的檢驗人員,讓每座橋樑的檢驗能以更少工時完成 ✅ **正解**
+- (b) Assign additional inspectors so more bridges can be inspected in parallel during the same period. / 增加檢驗人員數量,以便在同一期間內平行檢驗更多座橋樑
+- (c) Break each bridge inspection into smaller checklist items to produce a more accurate estimate. / 將每座橋樑的檢驗拆解成更小的檢核項目,以做出更精確的估算
+- (d) Procure an enterprise-wide asset management software platform to track all inspection records. / 採購一套企業級資產管理軟體平台,用來追蹤所有檢驗紀錄
+
+**詳解**
+
+在這個參數估算模型中,總工時等於「橋樑數量」乘以「每座橋樑的平均檢驗工時」。橋樑數量已經固定無法縮減,因此要降低總工時估算值,唯一有效的做法是調整模型中真正的參數,也就是「每座橋樑的平均檢驗工時」。指派熟悉標準化數位工具、能更快完成檢驗的人員,直接降低了這個參數,因此正解為 (a)。
+
+(b) 增加檢驗人員只是把工作分攤給更多人同時進行,並不會降低完成每座橋樑檢驗所需的總工時,也就是參數本身沒有改變,反而可能因協調成本增加而使估算值上升。(c) 把檢驗拆解成更小的檢核項目有助於提升估算的精確度,但並不會改變實際需要的總工時。(d) 採購企業級資產管理軟體是規模遠大於本題需求的解決方案,牽涉額外的導入與建置成本,並非單純調整模型中既有參數的作法。
+
+---
+
+### Q119. `sch-117` — 多選題
+
+**題目 ID**: `sch-117`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A shipbuilding project fell behind schedule after a storm damaged the dry dock, and several activities now need schedule recovery. Which two statements correctly describe how crashing should be applied in this situation? Select two.
+- 中: 某造船專案因暴風雨損毀乾塢而落後進度,現有多項活動需要進行時程復原。關於在此情況下應如何正確運用趕工(Crashing),下列哪兩項敘述正確?請選擇兩項。
+
+**選項**
+
+- (a) Crashing should only be applied to critical path activities where adding resources such as labor or equipment can genuinely shorten the activity's duration. / 趕工只應套用在要徑上、且投入額外資源(如人力或設備)確實能縮短工期的活動 ✅ **正解**
+- (b) After crashing selected activities, the project manager should recheck the critical path, because compressing those activities may shift which path is now critical. / 在對選定活動趕工之後,專案經理應重新檢查要徑,因為壓縮這些活動可能改變哪一條路徑成為新的要徑 ✅ **正解**
+- (c) The project manager should crash the activity with the single longest duration in the schedule, regardless of whether it lies on the critical path. / 專案經理應該對整份時程中工期最長的單一活動進行趕工,不論該活動是否位於要徑上
+- (d) All delayed activities should be crashed uniformly to ensure the schedule recovers as much time as possible. / 所有延誤的活動都應一律進行趕工,以確保盡可能挽回最多時間
+- (e) An activity that depends on a fixed inspection or certification period should be crashed by simply adding more inspectors to that activity. / 若某活動受限於固定的檢驗或認證期,應直接透過增加檢驗人員來對該活動進行趕工
+
+**詳解**
+
+趕工正確的運用方式,是鎖定要徑上「真正能透過投入額外資源縮短工期」的活動,而不是不分是否在要徑上一律挑工期最長的活動下手,因此 (a) 正確。此外,趕工壓縮了原本要徑上的活動之後,時程中的關鍵路徑可能因此轉移到另一條原本非要徑的路徑上,專案經理必須重新計算並確認新的要徑,才能確保復原措施真正有效,因此 (b) 也正確。
+
+(c) 錯誤,只看工期長短、不考慮是否在要徑上,若趕工的活動並非要徑活動,即使縮短工期也不會提前完工日,等於無效投入。(d) 錯誤,對所有延誤活動一律趕工,忽略了部分活動可能不在要徑上、或其工期根本無法透過資源縮短,將造成資源浪費。(e) 錯誤,若活動的工期是受限於固定的檢驗或認證期間,這類期間通常不會因為增加人力而縮短,增加檢驗人員並不能真正壓縮工期。
+
+---
+
+### Q120. `sch-118` — 單選題
+
+**題目 ID**: `sch-118`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A telecom company is deploying 5G base stations. A senior RF engineer is assigned to two activities during the same week: "antenna alignment," which is on the critical path with zero float, and "site documentation review," which has six days of total float. The two assignments overlap and create a resource overallocation. The non-critical activity can be delayed within its available float. The rollout deadline, tied to a spectrum license condition, cannot be moved. Which technique should the project manager apply?
+- 中: 某電信公司正在部署 5G 基地台。一位資深射頻(RF)工程師在同一週內被指派到兩項活動:「天線校準」位於要徑上,浮時為零;「站點文件審查」則有六天總浮時。這兩項指派時間重疊,造成資源超額分配。非要徑活動可以在其可用浮時範圍內延後執行。與頻譜執照條件綁定的上線期限無法變動。專案經理應該採用哪一種技術?
+
+**選項**
+
+- (a) Resource leveling / 資源撫平(Resource leveling)
+- (b) Resource smoothing / 資源平滑(Resource smoothing) ✅ **正解**
+- (c) Fast-tracking / 快速跟進(Fast-tracking)
+- (d) Crashing / 趕工(Crashing)
+
+**詳解**
+
+資源平滑是在活動「可用的浮時範圍內」調整其時程,以消除資源超額分配,同時不影響要徑與完工日期。題目中的「站點文件審查」並非要徑活動,擁有六天浮時,足以將它延後執行以避開與天線校準的衝突;既然完工期限已因頻譜執照條件而固定,能夠不影響完工日的技術自然優於可能延後完工日的技術,因此正解為 (b)。
+
+(a) 資源撫平同樣是為了解決資源超額分配而調整活動時程,但它有可能因此延後專案整體完工日;本題已有浮時可供運用,沒有必要使用可能延長工期的資源撫平。(c) 快速跟進是讓原本循序進行的活動重疊執行,用於處理時程壓縮,並非用來解決資源衝突,用錯了問題性質。(d) 趕工是透過增加資源來縮短要徑活動工期,同樣是處理時程壓縮的技術,無法解決本題單一工程師被重複指派所造成的資源衝突。
+
+---
+
+### Q121. `sch-119` — 單選題
+
+**題目 ID**: `sch-119`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An e-commerce company is migrating its checkout platform to a new payment gateway. The retail launch date is fixed to coincide with a major holiday sales event. A schedule review shows two delayed activities. "Payment gateway certification testing" is on the critical path and is three days behind its planned finish. "Marketing landing page copywriting" has seven days of total float and is six days behind its planned finish. What should the project manager do first?
+- 中: 某電商公司正在將結帳平台遷移到新的金流服務商。零售上線日期與一項重要的假期促銷活動綁定,無法變動。時程檢視顯示兩項活動已經延誤:「金流閘道認證測試」位於要徑上,實際完成時間比計畫晚了三天;「行銷登陸頁文案撰寫」有七天總浮時,實際完成時間比計畫晚了六天。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Focus recovery efforts on the payment gateway certification testing activity, since it is on the critical path with zero float. / 將復原心力集中在「金流閘道認證測試」活動,因為它位於要徑上且浮時為零 ✅ **正解**
+- (b) Focus recovery efforts on the marketing landing page copywriting activity, since its absolute delay of six days is greater. / 將復原心力集中在「行銷登陸頁文案撰寫」活動,因為它的絕對延誤天數六天更大
+- (c) Reallocate resources from the copywriting activity to the certification testing activity without further analysis. / 未經進一步分析,直接將資源從文案撰寫活動重新分配給認證測試活動
+- (d) Treat both activities as equal priority, since their combined delay represents the greatest overall schedule risk. / 將兩項活動視為同等優先,因為兩者合計的延誤代表整體時程風險最大
+
+**詳解**
+
+判斷優先順序的依據是活動有沒有浮時、在不在要徑上,而不是延誤的絕對天數多寡。「金流閘道認證測試」位於要徑上,浮時為零,三天延誤會直接推遲上線日期;「行銷登陸頁文案撰寫」雖然延誤六天,但仍有一天浮時尚未用盡,尚未威脅到上線日期,因此正解為 (a)。
+
+(b) 文案撰寫的絕對延誤天數確實比較大,但這不是決定優先順序的依據,忽略了要徑邏輯。(c) 重新分配資源或許是合理的後續行動之一,但題目並未提供足夠資訊證明應在「未經進一步分析」的情況下貿然執行,考試邏輯上應優先選擇範圍更廣、恆為有效的判斷,而非未經評估的特定行動。(d) 兩項活動「同等優先」的說法,忽視了要徑活動零浮時的急迫性遠高於仍有浮時的活動,並不成立。
+
+---
+
+### Q122. `sch-120` — 單選題
+
+**題目 ID**: `sch-120`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A cross-border logistics company's warehouse automation project is 20% behind schedule. The client wants delivery accelerated as soon as possible. The vendor management office warns that the contracted cost ceiling cannot be exceeded. The corporate risk committee requires that any schedule recovery plan undergo formal risk assessment and sign-off before it is executed. What should the project manager do?
+- 中: 某跨國物流公司的倉儲自動化專案目前進度落後 20%。客戶希望盡快加快交付,供應商管理辦公室警告合約成本上限不得超支,公司風險委員會則要求任何時程復原方案都必須先經過正式風險評估與簽核才能執行。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Conduct a structured impact analysis and present multiple recovery options with their cost, schedule, and risk trade-offs for formal sign-off. / 進行結構化的影響分析,列出多個復原方案在成本、時程與風險上的取捨,提交正式簽核 ✅ **正解**
+- (b) Immediately fast-track the remaining automation installation activities to satisfy the client's request for faster delivery. / 立即對剩餘的自動化安裝活動採取快速跟進,以滿足客戶要求加快交付
+- (c) Ask the client to formally approve an increase to the contracted cost ceiling before taking any recovery action. / 在採取任何復原行動之前,先請客戶正式核准提高合約成本上限
+- (d) Use the project's contingency reserve to crash critical path activities immediately, since the total budget would not be exceeded. / 立即動用專案的應急儲備金對要徑活動進行趕工,因為這樣不會超出總預算
+
+**詳解**
+
+題目中三方利害關係人各自提出不同的限制條件:客戶重視交付時效,供應商管理辦公室重視成本上限,風險委員會則要求任何行動前必須先完成正式風險評估與簽核的治理程序。專案經理無法只靠採取其中任何單一選項就同時滿足這三項要求,唯有進行一項涵蓋多種復原方案、並清楚呈現成本、時程與風險取捨的結構化分析,才能同時回應這三項限制,也才能滿足風險委員會在行動前要求正式簽核的規定,因此正解為 (a)。
+
+(b) 立即快速跟進雖然回應了客戶對時效的要求,卻沒有評估對成本與風險的影響,也跳過了風險委員會要求的正式評估與簽核程序。(c) 請客戶核准提高成本上限,只回應了成本這一項限制,並未处理時程與治理程序的要求,而且尚未進行任何分析就先提出這項請求,並不成熟。(d) 動用應急儲備金趕工雖然名義上未超出總預算,但在正式風險評估與簽核完成之前就先行動,違反了風險委員會要求的治理程序。
+
+---
+
+### Q123. `sch-121` — 單選題
+
+**題目 ID**: `sch-121`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A film production company discovers that its lead cinematographer has been scheduled for two overlapping shoots in the same week. One shoot, filming the climactic scene, is on the critical path with zero float. The other shoot, filming a supporting subplot scene, has five days of total float. The wrap deadline, tied to a distributor release window, cannot be moved. Which technique should the production manager apply to resolve the overallocation?
+- 中: 某電影製作公司發現,首席攝影師在同一週被排定同時參與兩場重疊的拍攝。其中一場是拍攝高潮場景,位於要徑上,浮時為零;另一場是拍攝支線劇情場景,擁有五天總浮時。與發行商上映檔期綁定的殺青期限無法變動。製作經理應該採用哪一種技術來解決這次資源超額分配?
+
+**選項**
+
+- (a) Crashing, by hiring a second camera crew for the climactic scene. / 趕工,為高潮場景加派第二組攝影團隊
+- (b) Fast-tracking, by filming both scenes simultaneously with split crews. / 快速跟進,以分組人力同時拍攝兩場場景
+- (c) Resource smoothing, by delaying the supporting subplot shoot within its available float. / 資源平滑,在支線劇情拍攝的可用浮時範圍內將其延後 ✅ **正解**
+- (d) Resource leveling, by extending the overall production schedule to separate the two shoots. / 資源撫平,延長整體製作時程以錯開兩場拍攝
+
+**詳解**
+
+資源平滑是在活動「可用的浮時範圍內」調整其時程,以消除資源超額分配,同時不影響要徑與完工日期。支線劇情場景並非要徑活動,擁有五天浮時,足以將它延後拍攝以避開與高潮場景的攝影師衝突;由於殺青期限已因發行檔期而固定,能夠不影響完工日的技術優於可能延後完工日的技術,因此正解為 (c)。
+
+(a) 趕工是透過增加資源來縮短要徑活動工期,用於處理時程壓縮,並非用來解決同一位攝影師被重複指派所造成的資源衝突,用錯了問題性質。(b) 快速跟進是讓原本循序進行的活動重疊執行以壓縮時程,同樣是時程壓縮技術,無法解決資源衝突,而且本題兩場拍攝都需要同一位首席攝影師,分組同時拍攝並不能真正化解衝突。(d) 資源撫平同樣是為了解決資源超額分配而調整活動時程,但它有可能因此延後專案整體完工日;本題已有浮時可供運用,沒有必要使用可能延長工期的資源撫平。
 
 ---

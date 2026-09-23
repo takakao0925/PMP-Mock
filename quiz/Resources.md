@@ -1,6 +1,6 @@
 # Resources — PMP 題庫
 
-> 共 115 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 158 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `sc-001` — 單選題
 
@@ -3145,5 +3145,1220 @@ Lead the Team 過程中若發現團隊績效問題需要額外資源(如預算)�
 **詳解**
 
 團隊內部完全沒有機器學習的建置與維運經驗,靠短期訓練營現學現賣在時間與品質上都難以支撐一個要正式上線的詐欺偵測系統;招募新的 PM 解決的是專案管理能力,不是機器學習的技術能力落差;而討論優先順序是需求評估階段該做的事,題目已經明講評估已經完成。在完全沒有內部能力、又需要盡快補上這個缺口時,將建置工作外包給有實績的專業廠商,才能在保留任務所有權的同時,最快取得公司目前欠缺、也來不及自行養成的技術能力。
+
+---
+
+### Q116. `res-116` — 單選題
+
+**題目 ID**: `res-116`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A team has struggled with a difficult technical problem for a week and morale is dropping. A junior developer privately says they feel "out of their depth" with the current requirements. What should the project manager do?
+- 中: 團隊已經被一個困難的技術問題卡了一週,士氣持續下滑。一位資淺工程師私下表示自己覺得「能力跟不上」目前的需求。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Take over the technical problem personally and give each team member specific implementation instructions. / 親自接手技術問題,並給每位團隊成員具體的實作指示
+- (b) Bring in a senior consultant to solve it quickly and show the team the correct approach. / 找一位資深顧問快速解決,並示範正確做法給團隊看
+- (c) Pair junior and senior developers together, hold individual coaching conversations, and recognize small wins along the way. / 讓資深與資淺工程師配對合作,個別進行輔導對話,並肯定過程中的小進展 ✅ **正解**
+- (d) Reassign the difficult work only to senior developers and give juniors simpler tasks instead. / 把困難的工作只分給資深工程師,資淺工程師改分派簡單任務
+
+**詳解**
+
+僕人式領導者的角色,是在團隊遇到困境時創造學習與成長的條件,而不是自己跳下去接管、找外部顧問取代團隊,或乾脆把困難工作從資淺成員身上抽走。透過資深帶資淺的配對、個別輔導與肯定小進展,才能同時解決眼前的技術困境並培養團隊的長期能力。
+
+---
+
+### Q117. `res-117` — 單選題
+
+**題目 ID**: `res-117`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A multi-workstream implementation project (data migration, process redesign, training, and configuration) is progressing well on each individual stream, but the project manager notices timeline conflicts and missing dependencies between streams. What should the project manager do first?
+- 中: 一個多工作流的導入專案(資料遷移、流程重新設計、教育訓練、系統設定)每一條工作流各自進展順利,但專案經理注意到工作流之間出現時程衝突與缺失的依賴關係。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Focus on whichever stream is furthest behind schedule first. / 先專注在進度最落後的那條工作流
+- (b) Convene an integration session with all stream leads to identify dependencies and align timelines. / 召集所有工作流負責人開整合會議,釐清依賴關係並對齊時程 ✅ **正解**
+- (c) Delegate the integration issue to each stream lead to resolve directly with each other. / 把整合問題交給各工作流負責人自行互相協調
+- (d) Escalate the coordination challenge to the sponsor since it spans multiple departments. / 因為跨部門,直接把協調難題上報給贊助人
+
+**詳解**
+
+PM 的角色是整合者,必須超越單一工作流的視角,主動召集所有相關負責人,找出依賴關係與衝突並對齊時程,而不是只盯著進度最落後的一條、把整合責任下放給各自為政、或還沒嘗試自己協調就直接上報贊助人。
+
+---
+
+### Q118. `res-118` — 單選題
+
+**題目 ID**: `res-118`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager has received approval to move to the next phase and needs a detailed work breakdown structure, but the development team won't be available for a planning discussion for another week. What should the project manager do?
+- 中: 專案經理已獲准進入下一階段,需要一份詳細的工作分解結構,但開發團隊要一週後才有空進行規劃討論。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Create the detailed WBS alone based on past experience to keep momentum, then review it with the team later. / 依過去經驗獨自完成詳細 WBS 以維持進度,之後再跟團隊一起檢視
+- (b) Assign WBS creation to the technical lead alone since they know the architecture best. / 把 WBS 製作全交給技術主管一人,因為他最了解架構
+- (c) Create a high-level framework, then have the team break down the detailed components together once available. / 先建立高層級框架,等團隊有空後再一起完成詳細分解 ✅ **正解**
+- (d) Wait the full week and only start the WBS once the whole team is available. / 完全等一週,等整個團隊有空後才開始做 WBS
+
+**詳解**
+
+真正要執行工作的團隊,才最清楚工作分解需要細到什麼程度、有哪些依賴與細節;即使 PM 有過去經驗、想維持專案動能,也不該獨自完成詳細分解或全部交給單一技術主管代勞。比較平衡的做法是自己先搭出高層級框架維持進度,細節分解則留給團隊到齊後共同完成,而不是為了等團隊而完全停擺一整週。
+
+---
+
+### Q119. `res-119` — 單選題
+
+**題目 ID**: `res-119`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Based on experience with similar projects, the project manager has a strong opinion on the sequence of upcoming activities. What should the project manager do regarding activity sequencing and time estimates?
+- 中: 依過去類似專案的經驗,專案經理對接下來活動的執行順序有明確的想法。專案經理應該如何處理活動排序與時間估算?
+
+**選項**
+
+- (a) Present the proposed sequence to the team and ask them only to provide time estimates for each phase. / 把提議的順序交給團隊,只請他們針對各階段提供時間估算
+- (b) Share the requirements with the team and let them determine the sequence and timing based on their technical expertise. / 把需求分享給團隊,讓他們依技術專業自行決定順序與時程 ✅ **正解**
+- (c) Finalize the schedule based on personal experience, remaining open to change only if technical constraints appear. / 依個人經驗訂定時程,只有出現技術限制時才願意調整
+- (d) Create the schedule alone since past experience with similar projects is the most reliable input. / 因為過去類似專案的經驗最可靠,獨自訂出時程即可
+
+**詳解**
+
+即使 PM 對類似專案有豐富經驗,每個團隊仍有各自獨特的技術限制、工作方式與效率模式;真正要執行活動的人,才最了解怎麼排序與需要多少時間。把需求交給團隊,讓他們依專業自行決定順序與時程,遠比 PM 單方面訂好順序、只留估時給團隊,或堅持己見到出現限制才調整,更能得到貼近實際的排程。
+
+---
+
+### Q120. `res-120` — 單選題
+
+**題目 ID**: `res-120`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Over the past month, a normally top-performing team member has become disengaged and their work quality has declined. What should the project manager do before implementing any performance measures?
+- 中: 過去一個月,一位原本表現頂尖的團隊成員變得意興闌珊,工作品質也下滑。專案經理在採取任何績效措施之前應該先做什麼?
+
+**選項**
+
+- (a) Implement performance improvement measures immediately since declining performance affects the whole project. / 立刻實施績效改善措施,因為績效下滑會影響整個專案
+- (b) Schedule a private conversation to understand what might be affecting this person's motivation and engagement. / 安排一場私下對話,了解可能影響這個人動機與投入的原因 ✅ **正解**
+- (c) Reassign this person to less critical tasks until performance improves. / 把這個人調去不那麼關鍵的任務,直到績效改善
+- (d) Discuss the performance decline with the whole team to get collective input on how to help. / 在團隊會議上討論這個人的績效下滑,徵求大家的意見
+
+**詳解**
+
+每位成員的驅動力不同,可能來自成長、認同、金錢或使命感;在採取任何正式績效措施之前,PM 應該先私下了解這位成員動機下滑的真正原因,而不是直接懲罰性地調任、在公開場合討論個人績效問題(這會傷害當事人的顏面與信任),或不了解狀況就急著上矯正措施。
+
+---
+
+### Q121. `res-121` — 單選題
+
+**題目 ID**: `res-121`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: The project manager discovers that a team member has been reporting 8 hours of work on days when they were only present for 4-5 hours, for the past three weeks. A manager suggests this is a "minor timesheet issue" that happens often. What should the project manager do?
+- 中: 專案經理發現一位團隊成員過去三週持續回報 8 小時工時,但實際只在場 4 到 5 小時。一位主管暗示這只是「常見的小問題」。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Address the timesheet issue directly with the team member, document the conversation, and set clear expectations going forward. / 直接跟這位成員談這個工時問題,記錄對話內容,並訂定明確的後續期望 ✅ **正解**
+- (b) Overlook the discrepancy since the person is technically competent and the project can't afford delays. / 因為這個人技術能力強、專案又耗不起延誤,選擇睜一隻眼閉一隻眼
+- (c) Quietly ask other team members to verify the situation before taking any action. / 私下詢問其他團隊成員求證,之後再採取行動
+- (d) Focus only on this person's deliverable quality rather than their reported hours. / 只關注這個人的交付品質,不追究回報的工時
+
+**詳解**
+
+即使有主管暗示這是常見的小問題、或當事人技術能力不錯,PM 都有責任正面且一致地處理誠信/倫理違規,直接與當事人溝通、記錄過程並訂出明確期望,而不是睜一隻眼閉一隻眼、繞過當事人向其他人求證,或只看交付品質而迴避誠信問題本身。
+
+---
+
+### Q122. `res-122` — 單選題
+
+**題目 ID**: `res-122`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During a design review, junior team members stay silent and simply nod whenever the senior architect speaks, even though the project manager can see puzzled expressions on their faces. What should the project manager do to improve this dynamic?
+- 中: 在一次設計審查中,每當資深架構師發言,資淺團隊成員都只是沉默點頭,即使專案經理能看出他們臉上的困惑表情。專案經理應該怎麼做來改善這個狀況?
+
+**選項**
+
+- (a) Meet with junior members individually to gather their input privately, then present it anonymously later. / 私下個別會見資淺成員蒐集意見,之後再匿名提出
+- (b) Establish ground rules that encourage questions and alternative viewpoints, and model respectful disagreement yourself. / 建立鼓勵提問與不同意見的基本規則,並親自示範如何有禮貌地表達不同看法 ✅ **正解**
+- (c) Ask the senior architect privately to be more open to questions from junior members. / 私下請資深架構師對資淺成員的提問更開放一些
+- (d) Rotate meeting leadership so junior members take turns leading the technical discussion. / 輪流讓資淺成員主持技術討論會議
+
+**詳解**
+
+要讓建設性的衝突與提問變成團隊常態,PM 需要主動建立明確的討論規則,並親自示範如何尊重地表達不同意見,才能真正建立起心理安全感。只私下蒐集意見再匿名轉達、單獨要求資深架構師改變態度、或單靠輪值主持,都無法從根本上建立起讓所有人敢於提問的團隊文化。
+
+---
+
+### Q123. `res-123` — 單選題
+
+**題目 ID**: `res-123`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: The marketing director asks the project's only skilled UI designer to quickly build a promotional landing page for an upcoming trade show. The designer is already at full capacity on critical project features. What should the project manager do?
+- 中: 行銷主管請專案裡唯一具備 UI 設計技能的成員,快速做一個給即將到來的展會使用的宣傳落地頁。這位設計師目前已經全力投入在專案的關鍵功能上。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Ask the designer to take it on since it's only a few hours and could benefit the company. / 請設計師接下這個任務,反正只要幾小時,對公司也有幫助
+- (b) Discuss the request and its capacity impact with the designer, then decline if it would compromise primary project responsibilities. / 與設計師討論這項請求對產能的影響,如果會影響專案主要職責就婉拒 ✅ **正解**
+- (c) Have the designer train another team member to take over the promotional work immediately. / 讓設計師立刻訓練另一位成員接手宣傳工作
+- (d) Approve the request automatically since it came from a director-level stakeholder. / 因為是主管層級提出的請求就自動核准
+
+**詳解**
+
+PM 的職責之一,是替團隊擋下看似立意良善、卻會打斷專注力與產能的額外請求;正確做法是先跟當事人討論這項請求對現有工作的產能衝擊,若會影響專案關鍵職責就婉拒,而不是只因為「只要幾小時」或「對方是主管」就直接答應,也不該臨時要求當事人分心去訓練別人接手。
+
+---
+
+### Q124. `res-124` — 多選題
+
+**題目 ID**: `res-124`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: When a team lacks sufficient expertise in a new tool needed for the project, which of the following approaches best reflects encouraging peer learning and knowledge sharing? (Select two.)
+- 中: 當團隊缺乏專案所需新工具的足夠專業時,下列哪兩項做法最符合鼓勵同儕學習與知識分享的精神?(請選擇兩項)
+
+**選項**
+
+- (a) Organize peer learning sessions where more experienced members teach less experienced ones. / 安排同儕學習場合,讓較有經驗的成員教導經驗較少的成員 ✅ **正解**
+- (b) Pair team members with different skill levels together on related tasks. / 讓不同技能程度的成員搭配合作相關任務 ✅ **正解**
+- (c) Rely solely on formal external training courses for all skill development. / 完全仰賴正式的外部訓練課程來發展技能
+- (d) Hire an entirely new team with the required expertise to replace the current one. / 直接聘用一整批具備所需專業的新團隊來取代現有團隊
+
+**詳解**
+
+鼓勵協作與知識分享,強調的是同儕共學、跨技能程度的搭配合作,能降低對單一專家的過度依賴,同時提升團隊整體韌性。完全仰賴正式訓練忽略了同儕共學同樣重要的價值,而直接換掉整個團隊則完全違背了「培養現有團隊能力」的精神。
+
+---
+
+### Q125. `res-125` — 單選題
+
+**題目 ID**: `res-125`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A team member consistently arrives late to meetings, interrupts others, and misses deadlines. This is affecting team morale, and other members have complained to the project manager. What should the project manager do first?
+- 中: 一位團隊成員經常開會遲到、打斷他人發言,也常錯過截止日期。這已經影響到團隊士氣,其他成員也向專案經理反映。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Address the performance issue with the individual in a private one-on-one conversation. / 私下與這位成員進行一對一對話,處理績效問題 ✅ **正解**
+- (b) Discuss the team member's behavior at the next team meeting to ensure transparency. / 在下一次團隊會議上公開討論這位成員的行為,確保透明
+- (c) Document the issues and escalate directly to human resources for disciplinary action. / 記錄問題並直接上報人資單位進行懲處
+- (d) Reassign this team member to tasks that require less collaboration with others. / 把這位成員調去不需要太多協作的任務
+
+**詳解**
+
+當問題出在單一成員身上時,PM 應該先私下與當事人溝通,這樣最有機會促成正向的行為改變,也能維護對方的顏面與尊重;公開在會議上討論、跳過溝通直接上報人資,或消極地把人調離協作性工作,都不是處理個別績效問題該優先採取的做法。
+
+---
+
+### Q126. `res-126` — 單選題
+
+**題目 ID**: `res-126`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During your weekly team meeting, a heated argument breaks out between the lead developer and the QA manager about testing timelines. The developer insists that QA is being unreasonable by demanding too much time for testing, while the QA manager argues that the developer is rushing code and creating quality problems. What should you do FIRST?
+- 中: 在每週團隊會議上,技術主管與 QA 主管爆發激烈爭執,爭論的是測試時程。技術主管堅持 QA 要求的測試時間太過分,QA 主管則認為技術主管趕工趕出了品質問題。你應該優先做什麼?
+
+**選項**
+
+- (a) Stop the argument immediately and remind both team members about professional behavior expectations in meetings. / 立刻制止爭執,提醒雙方會議中應有的專業行為
+- (b) Schedule separate one-on-one meetings with each team member to understand their underlying concerns and perspectives before attempting resolution. / 分別與兩人安排一對一會談,先了解各自真正的顧慮與觀點,再嘗試解決 ✅ **正解**
+- (c) Implement a new process that allocates specific time for development and testing phases to prevent future scheduling conflicts. / 實施新流程,明訂開發與測試各自的時間配置,以防未來再衝突
+- (d) Facilitate a discussion between both team members to find a compromise on the testing timeline that works for everyone. / 促成雙方討論,找出雙方都能接受的測試時程折衷方案
+
+**詳解**
+
+表面上看似針對特定議題的衝突,往往是溝通落差、角色混淆、優先順序衝突或需求未被滿足等更深層問題的徵兆;在真正嘗試解決之前,應該先分別了解雙方各自真正在意的原因,而不是急著制止、直接推出新規則,或還沒釐清根本原因就撮合雙方談判折衷。
+
+---
+
+### Q127. `res-127` — 單選題
+
+**題目 ID**: `res-127`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Your project has received approval to proceed with the next phase: developing a new inventory management module. You have the high-level requirements and need to create a detailed work breakdown structure for planning and estimation purposes, but your development team won't be available for detailed planning discussions for another week. What should you do?
+- 中: 你的專案已獲准進入下一階段:開發一個新的庫存管理模組。你手上有高層級需求,需要製作一份詳細的工作分解結構以利規劃與估算,但開發團隊還要一週後才有空進行詳細規劃討論。你應該怎麼做?
+
+**選項**
+
+- (a) Wait for the development team to become available and have them create the WBS together, even though it will delay the planning process by a week. / 等開發團隊有空後一起製作 WBS,即使會讓規劃流程延後一週
+- (b) Create a detailed WBS based on your previous experience with similar modules to keep the project moving forward, then review it with the team when they become available. / 依過去類似模組的經驗獨自完成詳細 WBS 以維持專案進度,等團隊有空後再一起檢視
+- (c) Assign the WBS creation to the technical lead since they have both the technical expertise and familiarity with the current system architecture. / 把 WBS 製作交給技術主管,因為他兼具技術專業與熟悉現有架構
+- (d) Create a high-level WBS framework based on your experience, then have the team provide detailed breakdown of each major component when they're available. / 依經驗先建立高層級 WBS 框架,等團隊有空後再由他們完成各主要元件的詳細分解 ✅ **正解**
+
+**詳解**
+
+即使 PM 有經驗、也想維持專案動能,真正要執行工作的團隊才最了解完成工作實際需要什麼;比較平衡的做法是自己先搭出高層級框架維持進度,詳細分解則留給團隊到齊後共同完成,而不是獨自做完整份詳細 WBS、全部交給單一技術主管代勞,或為了等團隊而讓規劃完全停擺一整週。
+
+---
+
+### Q128. `res-128` — 單選題
+
+**題目 ID**: `res-128`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Your web development project is progressing well when the marketing director approaches you with an "urgent" request for your lead developer to quickly create a promotional landing page for an upcoming trade show. The lead developer is already working at full capacity on critical project features, but they're the only team member with the specific skills needed for this promotional work. What should you do?
+- 中: 你的網站開發專案進展順利,這時行銷主管找上你,「緊急」請求你的技術主管快速做一個給即將到來的展會使用的宣傳落地頁。技術主管目前已經全力投入在專案的關鍵功能上,但他也是團隊裡唯一具備這項宣傳工作所需技能的人。你應該怎麼做?
+
+**選項**
+
+- (a) Ask the lead developer to take on the promotional landing page since it's only a few hours and could benefit the company significantly. / 請技術主管接下這個宣傳落地頁,反正只要幾小時,對公司也有明顯幫助
+- (b) Negotiate with the marketing director to delay the promotional landing page until after the current sprint is completed. / 與行銷主管協商,把宣傳落地頁延到目前衝刺結束後再做
+- (c) Have the lead developer train another team member to handle the promotional work so the expertise can be distributed across the team. / 讓技術主管訓練另一位成員來處理這項宣傳工作,分散專業能力
+- (d) Discuss the request with the lead developer to understand the capacity impact, then decline if it would compromise their focus on primary project responsibilities. / 與技術主管討論這項請求對產能的影響,如果會影響其主要職責就婉拒 ✅ **正解**
+
+**詳解**
+
+PM 的職責之一,是替團隊擋下看似立意良善、卻會打斷專注力與產能的額外請求;正確做法是先跟當事人討論這項請求對現有工作的產能衝擊,若會影響專案關鍵職責就婉拒,而不是直接答應、單方面協商延期,或臨時要求當事人分心去訓練別人接手。
+
+---
+
+### Q129. `res-129` — 單選題
+
+**題目 ID**: `res-129`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**所屬案例**：`cs-b`
+
+**案例情境 EN**
+
+A regional bank with a long history of predictive project management has launched a pilot initiative to modernize its mobile banking application using agile practices. The initiative has been assigned to a senior project manager with fifteen years of experience delivering predictive, waterfall-based projects.
+
+The mobile app's feature set is not fully defined at the outset, since customer research indicates preferences will continue to evolve based on user testing. A product owner has been assigned to own the product backlog, and the development team works in two-week sprints. During the first two sprints, the team struggled to agree on how to divide work during sprint planning, often falling silent and waiting for direction. The project manager responded by personally assigning specific backlog items to each developer at the start of every sprint.
+
+By the fourth sprint, the project manager noticed that developers had stopped proposing their own task breakdowns entirely and simply waited each sprint for individual assignments. Midway through the fifth sprint, the project manager also reordered several backlog items, pushing lower-priority security enhancements to the bottom of the backlog in order to protect the sprint's delivery date. Several developers have since told the scrum master they feel disconnected from the roadmap beyond the current sprint and are unsure why certain items were deprioritized.
+
+**案例情境 中**
+
+一家有著長期預測式專案管理歷史的區域銀行,啟動了一項用敏捷實務來現代化其行動銀行 App 的試辦計畫。這項計畫被指派給一位擁有十五年瀑布式專案交付經驗的資深專案經理。
+
+這個行動 App 的功能清單在一開始並未完全定義,因為顧客研究顯示,使用者偏好會隨著使用者測試持續演變。一位產品負責人被指派負責管理產品待辦清單,開發團隊以兩週為一個衝刺運作。在前兩個衝刺中,團隊在衝刺規劃時很難就如何分配工作達成共識,經常陷入沉默、等待指示。專案經理的回應是親自在每個衝刺開始時,把特定的待辦項目指派給每位開發人員。
+
+到了第四個衝刺,專案經理注意到開發人員已經完全不再主動提出自己的工作分解方式,每個衝刺都只是等待個別指派。第五個衝刺進行到一半時,專案經理還重新排列了幾項待辦清單項目,把優先順序較低的安全性強化功能推到清單底部,以保護這個衝刺的交付日期。幾位開發人員已經向團隊引導者反映,他們感覺跟目前衝刺之外的產品路線圖脫節,也不清楚為什麼某些項目的優先順序被調降。
+
+**題幹**
+
+- EN: Based on the details provided, which development approach is the project using?
+- 中: 依據上述細節,這個專案採用的是哪一種開發方法?
+
+**選項**
+
+- (a) Predictive / 預測型
+- (b) Incremental / 增量型
+- (c) Hybrid / 混合型
+- (d) Agile / 敏捷型 ✅ **正解**
+
+**詳解**
+
+情境描述了不斷演變的需求、由產品負責人管理的產品待辦清單,以及以兩週為單位運作的衝刺,這些特徵都對應敏捷方法。預測型方法會在一開始就定義固定的範疇、時程與成本並依基準管理,跟情境描述不符;增量描述的是交付釋出的方式而非管理方法;混合型是刻意結合預測與敏捷元素,情境中專案經理的直接指派行為反映的是舊習慣尚未調整,而不是刻意設計的混合式做法。
+
+---
+
+### Q130. `res-130` — 單選題
+
+**題目 ID**: `res-130`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**所屬案例**：`cs-b`
+
+**案例情境 EN**
+
+A regional bank with a long history of predictive project management has launched a pilot initiative to modernize its mobile banking application using agile practices. The initiative has been assigned to a senior project manager with fifteen years of experience delivering predictive, waterfall-based projects.
+
+The mobile app's feature set is not fully defined at the outset, since customer research indicates preferences will continue to evolve based on user testing. A product owner has been assigned to own the product backlog, and the development team works in two-week sprints. During the first two sprints, the team struggled to agree on how to divide work during sprint planning, often falling silent and waiting for direction. The project manager responded by personally assigning specific backlog items to each developer at the start of every sprint.
+
+By the fourth sprint, the project manager noticed that developers had stopped proposing their own task breakdowns entirely and simply waited each sprint for individual assignments. Midway through the fifth sprint, the project manager also reordered several backlog items, pushing lower-priority security enhancements to the bottom of the backlog in order to protect the sprint's delivery date. Several developers have since told the scrum master they feel disconnected from the roadmap beyond the current sprint and are unsure why certain items were deprioritized.
+
+**案例情境 中**
+
+一家有著長期預測式專案管理歷史的區域銀行,啟動了一項用敏捷實務來現代化其行動銀行 App 的試辦計畫。這項計畫被指派給一位擁有十五年瀑布式專案交付經驗的資深專案經理。
+
+這個行動 App 的功能清單在一開始並未完全定義,因為顧客研究顯示,使用者偏好會隨著使用者測試持續演變。一位產品負責人被指派負責管理產品待辦清單,開發團隊以兩週為一個衝刺運作。在前兩個衝刺中,團隊在衝刺規劃時很難就如何分配工作達成共識,經常陷入沉默、等待指示。專案經理的回應是親自在每個衝刺開始時,把特定的待辦項目指派給每位開發人員。
+
+到了第四個衝刺,專案經理注意到開發人員已經完全不再主動提出自己的工作分解方式,每個衝刺都只是等待個別指派。第五個衝刺進行到一半時,專案經理還重新排列了幾項待辦清單項目,把優先順序較低的安全性強化功能推到清單底部,以保護這個衝刺的交付日期。幾位開發人員已經向團隊引導者反映,他們感覺跟目前衝刺之外的產品路線圖脫節,也不清楚為什麼某些項目的優先順序被調降。
+
+**題幹**
+
+- EN: Based on the project approach, what should be the project manager's primary role?
+- 中: 依這個專案的開發方法,專案經理的主要角色應該是什麼?
+
+**選項**
+
+- (a) Directing team members and assigning tasks to ensure sprint goals are met. / 指揮團隊成員並指派任務,以確保達成衝刺目標
+- (b) Facilitating the team's work by removing impediments and supporting self-organization. / 透過移除阻礙與支持團隊自組織來促進團隊的工作 ✅ **正解**
+- (c) Reporting sprint progress to the sponsor and adjusting the delivery schedule accordingly. / 向贊助人報告衝刺進度,並據以調整交付時程
+
+**詳解**
+
+在以產品負責人、待辦清單管理與迭代衝刺為架構的敏捷專案裡,專案經理的角色是服務團隊而非指揮團隊,也就是移除阻礙、保護團隊不受干擾、支持團隊自組織的能力,而不是指派工作或做待辦清單的排序決策。指揮並指派任務違背了敏捷團隊自組織、自行認領工作的精神;向贊助人報告並調整時程,則是把預測型思維套用在一個以迭代規劃、衝刺交付為核心的敏捷架構上。
+
+---
+
+### Q131. `res-131` — 單選題
+
+**題目 ID**: `res-131`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**所屬案例**：`cs-b`
+
+**案例情境 EN**
+
+A regional bank with a long history of predictive project management has launched a pilot initiative to modernize its mobile banking application using agile practices. The initiative has been assigned to a senior project manager with fifteen years of experience delivering predictive, waterfall-based projects.
+
+The mobile app's feature set is not fully defined at the outset, since customer research indicates preferences will continue to evolve based on user testing. A product owner has been assigned to own the product backlog, and the development team works in two-week sprints. During the first two sprints, the team struggled to agree on how to divide work during sprint planning, often falling silent and waiting for direction. The project manager responded by personally assigning specific backlog items to each developer at the start of every sprint.
+
+By the fourth sprint, the project manager noticed that developers had stopped proposing their own task breakdowns entirely and simply waited each sprint for individual assignments. Midway through the fifth sprint, the project manager also reordered several backlog items, pushing lower-priority security enhancements to the bottom of the backlog in order to protect the sprint's delivery date. Several developers have since told the scrum master they feel disconnected from the roadmap beyond the current sprint and are unsure why certain items were deprioritized.
+
+**案例情境 中**
+
+一家有著長期預測式專案管理歷史的區域銀行,啟動了一項用敏捷實務來現代化其行動銀行 App 的試辦計畫。這項計畫被指派給一位擁有十五年瀑布式專案交付經驗的資深專案經理。
+
+這個行動 App 的功能清單在一開始並未完全定義,因為顧客研究顯示,使用者偏好會隨著使用者測試持續演變。一位產品負責人被指派負責管理產品待辦清單,開發團隊以兩週為一個衝刺運作。在前兩個衝刺中,團隊在衝刺規劃時很難就如何分配工作達成共識,經常陷入沉默、等待指示。專案經理的回應是親自在每個衝刺開始時,把特定的待辦項目指派給每位開發人員。
+
+到了第四個衝刺,專案經理注意到開發人員已經完全不再主動提出自己的工作分解方式,每個衝刺都只是等待個別指派。第五個衝刺進行到一半時,專案經理還重新排列了幾項待辦清單項目,把優先順序較低的安全性強化功能推到清單底部,以保護這個衝刺的交付日期。幾位開發人員已經向團隊引導者反映,他們感覺跟目前衝刺之外的產品路線圖脫節,也不清楚為什麼某些項目的優先順序被調降。
+
+**題幹**
+
+- EN: What was the consequence of the project manager personally assigning backlog items to developers each sprint?
+- 中: 專案經理每個衝刺都親自把待辦項目指派給開發人員,造成了什麼後果?
+
+**選項**
+
+- (a) The team became dependent on the project manager for direction rather than developing self-organization skills. / 團隊變得依賴專案經理給予指示,而不是培養自組織能力 ✅ **正解**
+- (b) The product owner's ability to manage the backlog effectively was undermined. / 產品負責人有效管理待辦清單的能力被削弱了
+- (c) The team's inability to meet the sprint delivery date was a direct result of the task assignments. / 團隊無法準時交付衝刺成果,是這些任務指派直接造成的
+- (d) The pilot program lost credibility with senior leadership due to the ongoing sprint planning struggles. / 這個試辦計畫因為持續的衝刺規劃困難,在高階主管面前失去了信譽
+
+**詳解**
+
+專案經理直接指派任務,等於用指令式做法取代了團隊的自組織,情境明確指出團隊因此不再主動提出自己的工作分解方式,轉而每個衝刺都等待個別指派,這正好違背了敏捷的核心精神之一,也讓試辦計畫原本想培養的能力無從建立。產品負責人負責的是待辦清單本身,任務指派是衝刺層級的事,不會直接影響產品負責人的待辦清單職權;情境並未指出交付日期真的沒有達成,或高階主管對試辦計畫的觀感如何,這兩個推論都超出了情境提供的資訊。
+
+---
+
+### Q132. `res-132` — 單選題
+
+**題目 ID**: `res-132`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**所屬案例**：`cs-b`
+
+**案例情境 EN**
+
+A regional bank with a long history of predictive project management has launched a pilot initiative to modernize its mobile banking application using agile practices. The initiative has been assigned to a senior project manager with fifteen years of experience delivering predictive, waterfall-based projects.
+
+The mobile app's feature set is not fully defined at the outset, since customer research indicates preferences will continue to evolve based on user testing. A product owner has been assigned to own the product backlog, and the development team works in two-week sprints. During the first two sprints, the team struggled to agree on how to divide work during sprint planning, often falling silent and waiting for direction. The project manager responded by personally assigning specific backlog items to each developer at the start of every sprint.
+
+By the fourth sprint, the project manager noticed that developers had stopped proposing their own task breakdowns entirely and simply waited each sprint for individual assignments. Midway through the fifth sprint, the project manager also reordered several backlog items, pushing lower-priority security enhancements to the bottom of the backlog in order to protect the sprint's delivery date. Several developers have since told the scrum master they feel disconnected from the roadmap beyond the current sprint and are unsure why certain items were deprioritized.
+
+**案例情境 中**
+
+一家有著長期預測式專案管理歷史的區域銀行,啟動了一項用敏捷實務來現代化其行動銀行 App 的試辦計畫。這項計畫被指派給一位擁有十五年瀑布式專案交付經驗的資深專案經理。
+
+這個行動 App 的功能清單在一開始並未完全定義,因為顧客研究顯示,使用者偏好會隨著使用者測試持續演變。一位產品負責人被指派負責管理產品待辦清單,開發團隊以兩週為一個衝刺運作。在前兩個衝刺中,團隊在衝刺規劃時很難就如何分配工作達成共識,經常陷入沉默、等待指示。專案經理的回應是親自在每個衝刺開始時,把特定的待辦項目指派給每位開發人員。
+
+到了第四個衝刺,專案經理注意到開發人員已經完全不再主動提出自己的工作分解方式,每個衝刺都只是等待個別指派。第五個衝刺進行到一半時,專案經理還重新排列了幾項待辦清單項目,把優先順序較低的安全性強化功能推到清單底部,以保護這個衝刺的交付日期。幾位開發人員已經向團隊引導者反映,他們感覺跟目前衝刺之外的產品路線圖脫節,也不清楚為什麼某些項目的優先順序被調降。
+
+**題幹**
+
+- EN: Was the project manager's decision to reorder the backlog and deprioritize the security enhancements appropriate?
+- 中: 專案經理重新排列待辦清單、將安全性強化功能調降優先順序的決定是否恰當?
+
+**選項**
+
+- (a) Yes, because the project manager is responsible for ensuring the sprint delivery date is met. / 恰當,因為專案經理有責任確保衝刺交付日期被達成
+- (b) No, because backlog reprioritization requires approval from senior leadership before implementation. / 不恰當,因為待辦清單重新排序在實施前需要高階主管核准
+- (c) No, because the product backlog is the product owner's responsibility and reprioritization decisions belong exclusively to them. / 不恰當,因為產品待辦清單是產品負責人的職責,重新排序的決定完全屬於他們 ✅ **正解**
+- (d) No, because deprioritizing security enhancements mid-project violates the agile principle of responding to change over following a plan. / 不恰當,因為專案中途調降安全性項目優先順序,違反了敏捷「回應變化重於遵循計畫」的原則
+
+**詳解**
+
+產品待辦清單的所有權與管理權完全屬於產品負責人,不論動機為何,重新排序待辦清單都是產品負責人的決策;專案經理繞過了適當的職權,單方面做出了範疇優先順序的決定。專案經理對交付負有責任,但不代表可以透過跳過既有角色分工的行動來履行這個責任;高階主管核准不是待辦清單決策該走的管道,這個職權屬於產品負責人而非組織層級;敏捷本來就擁抱回應變化(包含調整範疇),問題不在於範疇被調降,而在於這個決定是由錯的人做出的。
+
+---
+
+### Q133. `res-133` — 單選題
+
+**題目 ID**: `res-133`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**所屬案例**：`cs-b`
+
+**案例情境 EN**
+
+A regional bank with a long history of predictive project management has launched a pilot initiative to modernize its mobile banking application using agile practices. The initiative has been assigned to a senior project manager with fifteen years of experience delivering predictive, waterfall-based projects.
+
+The mobile app's feature set is not fully defined at the outset, since customer research indicates preferences will continue to evolve based on user testing. A product owner has been assigned to own the product backlog, and the development team works in two-week sprints. During the first two sprints, the team struggled to agree on how to divide work during sprint planning, often falling silent and waiting for direction. The project manager responded by personally assigning specific backlog items to each developer at the start of every sprint.
+
+By the fourth sprint, the project manager noticed that developers had stopped proposing their own task breakdowns entirely and simply waited each sprint for individual assignments. Midway through the fifth sprint, the project manager also reordered several backlog items, pushing lower-priority security enhancements to the bottom of the backlog in order to protect the sprint's delivery date. Several developers have since told the scrum master they feel disconnected from the roadmap beyond the current sprint and are unsure why certain items were deprioritized.
+
+**案例情境 中**
+
+一家有著長期預測式專案管理歷史的區域銀行,啟動了一項用敏捷實務來現代化其行動銀行 App 的試辦計畫。這項計畫被指派給一位擁有十五年瀑布式專案交付經驗的資深專案經理。
+
+這個行動 App 的功能清單在一開始並未完全定義,因為顧客研究顯示,使用者偏好會隨著使用者測試持續演變。一位產品負責人被指派負責管理產品待辦清單,開發團隊以兩週為一個衝刺運作。在前兩個衝刺中,團隊在衝刺規劃時很難就如何分配工作達成共識,經常陷入沉默、等待指示。專案經理的回應是親自在每個衝刺開始時,把特定的待辦項目指派給每位開發人員。
+
+到了第四個衝刺,專案經理注意到開發人員已經完全不再主動提出自己的工作分解方式,每個衝刺都只是等待個別指派。第五個衝刺進行到一半時,專案經理還重新排列了幾項待辦清單項目,把優先順序較低的安全性強化功能推到清單底部,以保護這個衝刺的交付日期。幾位開發人員已經向團隊引導者反映,他們感覺跟目前衝刺之外的產品路線圖脫節,也不清楚為什麼某些項目的優先順序被調降。
+
+**題幹**
+
+- EN: What should the project manager have done during the first two sprints, instead of personally assigning tasks?
+- 中: 在前兩個衝刺中,專案經理應該怎麼做,而不是親自指派任務?
+
+**選項**
+
+- (a) Asked the product owner to take a more active role in facilitating sprint planning until the team gained confidence. / 請產品負責人在團隊建立信心之前,更積極地參與主持衝刺規劃
+- (b) Escalated the team's struggles to senior leadership given the importance of the pilot program's success. / 因為這個試辦計畫的成敗很重要,把團隊的困難上報給高階主管
+- (c) Coached the team on sprint planning practices to build their self-organization capability over time. / 教練團隊衝刺規劃的做法,逐步培養團隊的自組織能力 ✅ **正解**
+- (d) Reduced the number of backlog items assigned to each sprint to give the team a more manageable workload. / 減少每個衝刺分配的待辦項目數量,讓團隊工作量更容易負荷
+
+**詳解**
+
+在敏捷方法中,專案經理的角色是培養團隊的能力,而不是在團隊遇到困難時直接接手取代;教練團隊學習衝刺規劃的做法,才能從根本上培養自組織能力,而不是用指令式做法取代這個能力的養成。主持衝刺規劃不屬於產品負責人的角色,把這個責任轉移給產品負責人誤解了角色分工;團隊剛接觸敏捷時在自組織上遇到困難,是專案經理可以直接處理的採用初期挑戰,上報高階主管言之過早;減少待辦項目數量處理的是工作量問題,並沒有解決團隊無法自組織這個根本問題,只是處理了表面症狀。
+
+---
+
+### Q134. `res-134` — 下拉選單題
+
+**題目 ID**: `res-134`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**所屬案例**：`cs-b`
+
+**案例情境 EN**
+
+A regional bank with a long history of predictive project management has launched a pilot initiative to modernize its mobile banking application using agile practices. The initiative has been assigned to a senior project manager with fifteen years of experience delivering predictive, waterfall-based projects.
+
+The mobile app's feature set is not fully defined at the outset, since customer research indicates preferences will continue to evolve based on user testing. A product owner has been assigned to own the product backlog, and the development team works in two-week sprints. During the first two sprints, the team struggled to agree on how to divide work during sprint planning, often falling silent and waiting for direction. The project manager responded by personally assigning specific backlog items to each developer at the start of every sprint.
+
+By the fourth sprint, the project manager noticed that developers had stopped proposing their own task breakdowns entirely and simply waited each sprint for individual assignments. Midway through the fifth sprint, the project manager also reordered several backlog items, pushing lower-priority security enhancements to the bottom of the backlog in order to protect the sprint's delivery date. Several developers have since told the scrum master they feel disconnected from the roadmap beyond the current sprint and are unsure why certain items were deprioritized.
+
+**案例情境 中**
+
+一家有著長期預測式專案管理歷史的區域銀行,啟動了一項用敏捷實務來現代化其行動銀行 App 的試辦計畫。這項計畫被指派給一位擁有十五年瀑布式專案交付經驗的資深專案經理。
+
+這個行動 App 的功能清單在一開始並未完全定義,因為顧客研究顯示,使用者偏好會隨著使用者測試持續演變。一位產品負責人被指派負責管理產品待辦清單,開發團隊以兩週為一個衝刺運作。在前兩個衝刺中,團隊在衝刺規劃時很難就如何分配工作達成共識,經常陷入沉默、等待指示。專案經理的回應是親自在每個衝刺開始時,把特定的待辦項目指派給每位開發人員。
+
+到了第四個衝刺,專案經理注意到開發人員已經完全不再主動提出自己的工作分解方式,每個衝刺都只是等待個別指派。第五個衝刺進行到一半時,專案經理還重新排列了幾項待辦清單項目,把優先順序較低的安全性強化功能推到清單底部,以保護這個衝刺的交付日期。幾位開發人員已經向團隊引導者反映,他們感覺跟目前衝刺之外的產品路線圖脫節,也不清楚為什麼某些項目的優先順序被調降。
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: To address the developers' concern about feeling disconnected from the roadmap, the scrum master explains: "You do not need a separate long-term plan document because {{blank1}}, and each sprint planning session {{blank2}}."
+- 中: 為了回應開發人員感覺跟路線圖脫節的疑慮,團隊引導者解釋:「你們不需要另外一份長期計畫文件,因為{{blank1}},而且每次衝刺規劃{{blank2}}。」
+
+**blank1**
+
+- (a) the product backlog itself already shows the team's prioritized future work / 產品待辦清單本身就已經呈現了團隊未來工作的優先順序 ✅ **正解**
+- (b) the sponsor tracks the full roadmap privately on the team's behalf / 贊助人會私下代替團隊追蹤完整路線圖
+- (c) leadership will inform the team whenever priorities change / 高階主管會在優先順序改變時通知團隊
+
+**blank2**
+
+- (a) refines and reveals more of that future work through iterative planning / 透過迭代規劃逐步細化並揭露更多未來工作內容 ✅ **正解**
+- (b) locks in the full roadmap for the rest of the project / 把專案剩餘部分的完整路線圖鎖定下來
+- (c) has no connection to the sprints that came before it / 跟先前的衝刺完全沒有關聯
+
+
+**詳解**
+
+敏捷團隊的路線圖可視性來自產品待辦清單本身及其持續的優先排序,而不是另外一份靜態的長期計畫文件;每次衝刺規劃都會依最新資訊逐步細化待辦清單,讓團隊持續看到未來工作內容的樣貌,這正是迭代規劃取代傳統長期計畫文件的方式。重新導入一份鎖定的長期路線圖文件會走回預測型思維,也違背敏捷持續回應變化的精神。
+
+---
+
+### Q135. `res-135` — 單選題
+
+**題目 ID**: `res-135`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager in a balanced matrix organization needs a senior developer full-time for a critical six-week delivery phase. The functional manager has agreed to provide the developer only part-time, citing departmental commitments. Direct negotiations have continued for two weeks without resolution, and the phase start date is one week away. What should the project manager do?
+- 中: 在一個平衡矩陣型組織中,專案經理需要一位資深開發人員在一個為期六週的關鍵交付階段全職投入。職能經理表示,因為部門本身另有工作承諾,只能讓這位開發人員兼職支援。雙方已經直接協商兩週,仍未解決,而這個階段的開始日期只剩一週。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Begin the phase with the part-time developer and request additional support if the workload becomes unmanageable. / 先用兼職開發人員展開這個階段,如果之後工作量變得無法負荷,再要求增援
+- (b) Escalate the resource conflict to the project sponsor to resolve with the functional manager. / 把這項資源衝突上報給專案贊助人,由贊助人出面與職能經理協調解決 ✅ **正解**
+- (c) Revise the project schedule to accommodate part-time resource availability. / 修改專案時程,以配合這位資源只能兼職支援的現況
+- (d) Document the resource constraint as a risk and continue negotiating with the functional manager. / 把這項資源限制記錄為風險,並繼續與職能經理協商
+
+**詳解**
+
+在矩陣型組織中,專案經理與職能經理共享權責,無法單方面裁定資源歸屬,因此直接協商本來就是正確的第一步。但協商已經進行兩週卻毫無進展,距離階段開始只剩一週,這代表合理的直接協商手段已經用盡。此時專案贊助人擁有專案經理所沒有的組織層級權力,能夠出面解決跨部門的資源衝突,是這個時間點最恰當的做法。
+
+其餘選項都不理想。直接用兼職人力展開這個關鍵階段,等於接受一個已知的重大限制,讓團隊從一開始就承擔可預見的失敗風險,而不是趕在工作開始前先解決問題。修改時程則等於把職能經理尚未經過適當管道確認的立場當成定局,而專案經理其實還有升級選項可用。至於把限制記錄成風險並繼續協商,只是重複一個已經證明無效的做法;剩下一週時間,同樣的協商方式不太可能得到不同的結果。
+
+---
+
+### Q136. `res-136` — 單選題
+
+**題目 ID**: `res-136`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Two developers on a mobile app project disagree about whether to build using a native or cross-platform framework. The disagreement has delayed sprint planning in each of the last two sprints and is creating tension within the team. No resolution has emerged despite both developers having discussed their positions informally. What should the project manager do?
+- 中: 在一個行動應用程式專案中,兩位開發人員對於要採用原生框架還是跨平台框架意見不合。這個分歧已經連續兩個衝刺延誤了衝刺規劃,也讓團隊內部出現緊張氣氛。儘管兩人已經私下討論過各自的立場,仍然沒有達成共識。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Meet separately with each developer to understand their technical reasoning before holding any joint discussion. / 先分別和兩位開發人員個別會談,了解他們各自的技術考量,之後再進行聯合討論
+- (b) Research the merits of each framework and present a recommendation to break the deadlock. / 自行研究兩種框架的優缺點,提出建議來打破僵局
+- (c) Bring both developers together to work through the trade-offs and reach a mutually acceptable decision. / 把兩位開發人員找來一起討論,共同權衡利弊,達成雙方都能接受的決定 ✅ **正解**
+- (d) Add the framework decision to the next sprint retrospective with the full team. / 把框架選擇這個議題留到下次全體團隊的迴顧會議再討論
+
+**詳解**
+
+這個衝突已經橫跨兩個衝刺,私下討論也無法化解,顯示需要的是正式的「面對面解決問題」做法。把雙方找來、在有結構的場合中一起釐清各自的考量並做出共同決定,遠比繼續個別對話或延後處理更有效,也是這個時間點最恰當的介入方式。
+
+其他做法都有明顯不足。個別會談雖然能幫助專案經理理解雙方立場,卻無法創造出讓兩人共同做出決定的條件;而且兩位開發人員早就清楚彼此的看法,問題本質是技術性的,不是人際摩擦,真正欠缺的是一個能一起把利弊攤開來談的場合。專案經理自己研究後給出技術建議,等於把決策權從最了解狀況的人手中拿走,也可能做出兩人都不真心認同、難以落實的方案。把議題丟到迴顧會議聽起來很「敏捷」,但其實是把一個正在阻礙進度的衝突,當成流程改善事項處理。這個分歧已經拖延兩個衝刺,若不建立具體的解決機制,只是把問題排到未來,等於又是一種拖延。
+
+---
+
+### Q137. `res-137` — 單選題
+
+**題目 ID**: `res-137`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is leading the design phase of a product development initiative. The organization has successfully used agile sprint cycles on similar projects, and the project manager believes introducing them now could improve team alignment and deliverable quality. The current team was assembled specifically for this project and most members have limited experience with agile methods. What should the project manager do first?
+- 中: 專案經理正在領導一項產品開發計畫的設計階段。該組織過去在類似專案上成功採用過敏捷衝刺週期,專案經理認為現在導入衝刺週期,有機會提升團隊協作一致性與交付品質。目前的團隊是專門為這個專案組成的,大多數成員在敏捷方法上的經驗都很有限。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Request that the sponsor allocate an experienced agile coach to support the team in adopting sprint cycles. / 請贊助人指派一位有經驗的敏捷教練,協助團隊導入衝刺週期
+- (b) Update the project plan to incorporate sprint cycles and schedule the first sprint planning session. / 更新專案計畫以納入衝刺週期,並排定第一次衝刺規劃會議
+- (c) Assess the team's current experience with agile methods before deciding whether to introduce sprint cycles. / 在決定是否導入衝刺週期之前,先評估團隊目前對敏捷方法的熟悉程度 ✅ **正解**
+- (d) Introduce sprint cycles and use retrospectives to identify and address capability gaps as they emerge. / 直接導入衝刺週期,再透過迴顧會議找出並處理隨之浮現的能力落差
+
+**詳解**
+
+是否導入衝刺週期,應該根據這個團隊實際的能力,而不是其他團隊在其他專案上的成功經驗來決定。先評估團隊目前對敏捷方法的熟悉程度,才能判斷導入是否可行、需要哪些額外支援,以及設計階段的時程是否容許這樣的轉換。在完成評估之前就採取行動,等於冒著導入一套團隊還無法有效執行的做法的風險。
+
+其他選項都跳過了這個關鍵的評估步驟。請贊助人指派敏捷教練,是在能力落差還沒被確認或衡量之前,就先假設團隊需要外部支援,但真正需不需要支援、需要什麼樣的支援,應該由評估結果決定。直接更新專案計畫並排定衝刺規劃會議,等於把「是否導入」這個決定當成已經定案,若團隊的能力其實不足以支撐這套計畫,整份計畫可能根本無法執行。至於直接導入再靠迴顧會議補救,是對一個已知的導入風險採取被動因應的態度;迴顧會議本來是用來在既有框架內做流程改善,並不能彌補團隊一開始就缺乏執行這種交付方式所需的基本技能。
+
+---
+
+### Q138. `res-138` — 單選題
+
+**題目 ID**: `res-138`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A senior developer approaches the project manager, expressing frustration that a mandatory support rotation is interfering with their primary development work. The project manager wants to apply a compromise approach to find a solution that works for both the developer and the project. What should the project manager do first?
+- 中: 一位資深開發人員向專案經理表達不滿,認為強制性的支援輪值影響了他原本的主要開發工作。專案經理想採用妥協的方式,找出一個對這位開發人員與專案雙方都可行的解決方案。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Listen carefully to the developer's concerns and acknowledge the impact the rotation is having on their work. / 仔細聆聽這位開發人員的顧慮,並認同輪值制度確實對他的工作造成了影響 ✅ **正解**
+- (b) Explain the business reasons for the support rotation. / 說明設置支援輪值制度的業務理由
+- (c) Propose a modified rotation schedule that reduces the developer's support hours while maintaining coverage. / 提出調整後的輪值表,在維持支援量的前提下減少這位開發人員的輪值時數
+- (d) Offer to reassign some of the developer's lower-priority tasks to offset the time lost to support duties. / 提出把這位開發人員部分優先順序較低的任務,轉派給其他人以補足輪值占用的時間
+
+**詳解**
+
+妥協的前提,是先對等地理解雙方的立場,才能找出真正的中間點。先聆聽並認同這位開發人員的感受,能確保專案經理在提出限制條件或解決方案之前,完全掌握是什麼原因造成這份不滿。若還沒聽清楚就直接說明立場或提出方案,並不能稱為妥協。
+
+其餘做法都跳過了「先聽」這個前提。先說明業務理由,等於在對方的顧慮被充分聽見之前,就先端出專案經理自己的立場,讓對話變成辯護,而不是雙向溝通,這不是妥協該有的開場方式。提出調整後的輪值表,是在還沒完整理解這位開發人員真正在意什麼之前,就直接跳到具體方案,這個方案很可能根本沒有對症下藥。提出重新分派任務雖然立意良好,但本質上仍然是一個先提出的解決方案;還沒聆聽就先提方案,等於跳過了讓妥協得以成立的那一步。
+
+---
+
+### Q139. `res-139` — 單選題
+
+**題目 ID**: `res-139`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is leading a cross-functional product development team made up of engineers, designers, and business analysts with varying levels of experience. The project manager wants every team member developing skills they will carry beyond this project. What should the project manager do?
+- 中: 專案經理正在領導一個跨職能的產品開發團隊,成員包括工程師、設計師與商業分析師,彼此的經驗程度不一。專案經理希望每位團隊成員都能培養出可以帶到這個專案以外、持續使用的技能。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Assign tasks based on each team member's current strongest skills to maximize the team's immediate delivery capacity. / 依照每位成員目前最擅長的技能來分派任務,以求最大化團隊眼前的交付能力
+- (b) Hold regular team workshops where members present their areas of expertise and collaborate on shared challenges. / 定期舉辦團隊工作坊,讓成員分享各自的專業領域,並一起合作解決共同的挑戰
+- (c) Organize mentorship pairings that connect less experienced members with seasoned colleagues to build skills and alignment. / 安排師徒配對,讓經驗較淺的成員與資深同事結對,藉此培養技能並建立共識 ✅ **正解**
+- (d) Create individual development plans for each team member that map their growth goals to the project's objectives. / 為每位團隊成員制定個人發展計畫,把他們的成長目標對應到專案目標上
+
+**詳解**
+
+師徒配對同時回應了專案經理設定的兩個目標。經驗較淺的成員透過與資深同事持續互動來培養技能,這段關係同時也自然而然地建立起對專案運作方式與目標的共識。這種成長是內嵌在日常工作中的,而不是額外安排、跟工作脫節的活動。
+
+其他選項都有各自的侷限。依現有強項分派任務,能讓每個人立刻發揮所長,提升團隊眼前的交付量,但並沒有拓展任何人的能力,優化的是產出而不是成長。團隊工作坊確實創造了知識分享與合作的機會,但終究是週期性的活動,無法提供師徒關係那種持續、以互動為基礎的學習過程。個人發展計畫能記錄成長目標、建立結構化的路徑,但終究只是規畫工具,計畫本身並不會像實際進行中的師徒帶領那樣,真正培養出技能。
+
+---
+
+### Q140. `res-140` — 單選題
+
+**題目 ID**: `res-140`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Several founding attorneys at a regional law firm are approaching retirement. These attorneys hold deep institutional knowledge about client relationships, case strategies, and firm processes built over decades. The firm has engaged a project manager to capture this knowledge before it is lost. What should the project manager do?
+- 中: 一家地區型法律事務所裡,幾位創辦合夥律師即將退休。這些律師擁有數十年累積下來、關於客戶關係、案件策略與事務所作業流程的深厚內部知識。事務所聘請了一位專案經理,希望在這些知識流失之前把它保存下來。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Interview the retiring attorneys to document their expertise and have them review the drafts for accuracy before they leave. / 訪談即將退休的律師以記錄他們的專業知識,並在他們離職前請他們審閱草稿是否正確
+- (b) Pair the retiring attorneys with junior staff in a formal mentorship program to transfer knowledge directly. / 讓即將退休的律師與資淺同仁配對,透過正式的師徒制度直接傳承知識 ✅ **正解**
+- (c) Collect and organize the attorneys' case files, personal notes, and correspondence into a centralized archive. / 蒐集並整理這些律師的案件檔案、個人筆記與往來書信,建立一個集中的檔案庫
+- (d) Document lessons learned from the firm's key engagements and update the organization's information repositories. / 記錄事務所重要業務案件的經驗教訓,並更新組織的資訊庫
+
+**詳解**
+
+題目描述的這類知識,包括客戶關係的掌握、案件策略的判斷力,以及事務所內部不成文的做事習慣,大多屬於難以完全用文字表達的隱性知識。隱性知識是透過經驗累積而成的,最有效的傳遞方式是透過直接互動、觀察、討論與長時間的帶領,而不是單純書面記錄。正式的師徒制度正好在這些律師離開之前,創造出讓這種傳承得以發生的條件。
+
+其他做法都只能捕捉到部分知識。訪談退休律師並請他們審閱文件,有助於把專業知識寫下來,但這種方式主要捕捉到的是外顯知識,容易漏掉細膩的判斷力與從未被明說過的做事習慣。整理案件檔案與往來書信,蒐集的是既有的外顯紀錄,無法處理那些從未被寫下來、只存在於律師經驗與判斷中的隱性知識。記錄經驗教訓能保留過去案件發生的經過與學到的教訓,但和訪談一樣,比較適合用來保存外顯知識;這些律師內部知識中帶有人際互動與經驗色彩的部分,單靠書面記錄很難被完整保留下來。
+
+---
+
+### Q141. `res-141` — 單選題
+
+**題目 ID**: `res-141`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager takes over a struggling project and finds that team members are unclear about who is responsible for several key deliverables. Work is being duplicated and some tasks are falling through the cracks. What should the project manager do?
+- 中: 一位專案經理接手一個陷入困境的專案,發現團隊成員對於好幾項關鍵交付項目由誰負責並不清楚。結果工作出現重複進行的情況,也有部分任務乏人問津、被漏掉。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Create a RACI chart and review it with the team. / 建立一份 RACI 責任矩陣,並與團隊一起檢視 ✅ **正解**
+- (b) Increase the frequency of status meetings to track work. / 增加狀態會議的頻率,以追蹤工作進度
+- (c) Ask each team member to document what they are working on. / 請每位團隊成員記錄自己目前在做的工作
+- (d) Escalate the resourcing confusion to the project sponsor. / 把這個資源分工混亂的問題上報給專案贊助人
+
+**詳解**
+
+RACI 責任矩陣會明確標示出每項交付項目由誰負責執行、由誰擔負最終責任、需要諮詢誰,以及需要告知誰。把這份矩陣拿出來和團隊一起檢視,能直接消除造成重複工作與任務遺漏的那種責任不清狀況,因為每一項活動都會有一個清楚、經過共識確認的負責人。
+
+其他做法都無法真正解決根本問題。增加狀態會議的頻率只是加強了監督,卻沒有指定任何人的職責歸屬,同樣的混亂在會議與會議之間依然存在。請每位成員記錄自己目前的工作,雖然能揭露出重疊之處,卻沒有解決往後每項交付項目該由誰負責這個問題。把問題上報給贊助人,則是把一個原本就屬於專案經理職責範圍、也有能力自己解決的問題,當成別人的事情推出去。
+
+---
+
+### Q142. `res-142` — 單選題
+
+**題目 ID**: `res-142`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A software development team has been working together for eight months and is about to begin a critical delivery phase. Four senior developers with extensive industry experience are being added to support the increased workload. The phase begins in one week. What should the project manager do?
+- 中: 一個軟體開發團隊已經共事八個月,即將進入一個關鍵的交付階段。為了因應增加的工作量,四位擁有豐富業界經驗的資深開發人員即將加入團隊。這個階段將在一週後展開。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Plan structured team integration activities before the phase begins to help the expanded team establish working norms. / 在這個階段開始之前,規劃有結構的團隊融合活動,協助擴編後的團隊建立共同的工作默契 ✅ **正解**
+- (b) Conduct technical onboarding sessions focused on the codebase and tools so the new developers can contribute immediately. / 舉辦聚焦於程式碼庫與工具的技術導入課程,讓新加入的開發人員能立即上手貢獻
+- (c) Schedule a kickoff meeting to introduce the new developers and align the full team on phase objectives. / 安排一場啟動會議,介紹新加入的開發人員,並讓全體團隊對這個階段的目標取得共識
+- (d) Ask a senior team member to coordinate the new developers' integration informally during the first sprint. / 請一位資深團隊成員在第一個衝刺期間,以非正式方式協調新進開發人員的融入
+
+**詳解**
+
+只要團隊組成出現重大變動,團隊動態就會重新歸零,不論新加入的成員經驗多豐富、原本的團隊過去表現多好都一樣。有結構的團隊融合活動,能針對這個擴編後的團隊重新需要建立的工作默契、溝通模式與互信基礎來設計,而這些正是團隊要能有效運作之前必須先重新建立的東西。
+
+其他做法都只處理了問題的一部分。技術導入課程能解決知識轉移的問題,卻沒有處理團隊動態;資深開發人員或許在工具與流程上不太需要摸索,但他們仍然需要和一個已經有八個月共事默契的團隊,重新建立起工作關係。啟動會議能讓大家對目標取得共識,但這只是單一事件,無法持續回應成員大幅異動所帶來的團隊發展需求。請資深成員以非正式方式協調融入,則是把整合的責任交出去,卻沒有提供有結構的支援;當團隊組成一次新增四位成員、變動幅度這麼大時,靠臨時性的做法往往難以得到穩定一致的結果。
+
+---
+
+### Q143. `res-143` — 拖拉配對題
+
+**題目 ID**: `res-143`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Match each team scenario to the correct stage of Tuckman's Ladder.
+- 中: 請將下列每個團隊情境配對到正確的 Tuckman 團隊發展階段。
+
+**配對項目(拖曳來源)**
+
+- p1: Team members have just joined the project. They are polite, asking questions about their responsibilities, and looking to the project manager for direction. / 團隊成員剛加入這個專案,彼此態度客氣有禮,不斷詢問自己的職責範圍,並仰賴專案經理指引方向
+- p2: The team has established working agreements, openly shares knowledge, and resolves disagreements constructively while building trust. / 團隊已經建立共同的工作默契,能坦誠分享知識,並在建立互信的同時以建設性的方式化解歧見
+- p3: Team members disagree about priorities, challenge each other's ideas during meetings, and conflict has started affecting collaboration. / 團隊成員對優先順序意見不合,在會議中互相質疑彼此的想法,衝突已經開始影響到協作
+- p4: The team consistently meets sprint goals with minimal supervision. Members proactively solve problems, collaborate effectively, and focus on delivering value. / 團隊在極少監督的情況下持續達成衝刺目標,成員主動解決問題、有效協作,並專注於交付價值
+
+**選項池(拖曳目標)**
+
+- c1: Forming / 形成期
+- c2: Storming / 風暴期
+- c3: Norming / 規範期
+- c4: Performing / 表現期
+
+**✅ 正確配對**
+
+- p1 → c1: Team members have just joined the project. They are polite, asking questions about their responsibilities, and looking to the project manager for direction. → Forming（團隊成員剛加入這個專案,彼此態度客氣有禮,不斷詢問自己的職責範圍,並仰賴專案經理指引方向 → 形成期）
+- p2 → c3: The team has established working agreements, openly shares knowledge, and resolves disagreements constructively while building trust. → Norming（團隊已經建立共同的工作默契,能坦誠分享知識,並在建立互信的同時以建設性的方式化解歧見 → 規範期）
+- p3 → c2: Team members disagree about priorities, challenge each other's ideas during meetings, and conflict has started affecting collaboration. → Storming（團隊成員對優先順序意見不合,在會議中互相質疑彼此的想法,衝突已經開始影響到協作 → 風暴期）
+- p4 → c4: The team consistently meets sprint goals with minimal supervision. Members proactively solve problems, collaborate effectively, and focus on delivering value. → Performing（團隊在極少監督的情況下持續達成衝刺目標,成員主動解決問題、有效協作,並專注於交付價值 → 表現期）
+
+**詳解**
+
+情境一屬於形成期,因為團隊剛剛組成,成員還在摸索自己的角色,並仰賴專案經理提供方向。情境二屬於規範期,因為團隊已經建立起共同的工作默契、培養出互信,並能以建設性的方式一起有效合作、化解歧見。情境三屬於風暴期,因為團隊成員對優先順序有分歧、在會議中互相挑戰彼此的想法,而衝突已經開始影響到協作,這個階段的特徵正是團隊在磨合不同意見與立場時所出現的緊張氣氛。情境四屬於表現期,因為團隊能在極少監督下穩定交付成果,有效協作、主動解決問題,並持續專注在達成專案目標與交付價值上。
+
+---
+
+### Q144. `res-144` — 單選題
+
+**題目 ID**: `res-144`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager leading a hospital's electronic health record (EHR) implementation, operating in a balanced matrix organization, needs a database architect assigned full-time for a critical four-week go-live stabilization phase. The IT functional manager has offered only 60% availability, citing ongoing support obligations for another clinical system. The project manager and functional manager have negotiated directly for twelve days without reaching agreement, and the go-live phase begins in four days. What should the project manager do?
+- 中: 一位負責醫院電子病歷系統導入的專案經理身處平衡矩陣型組織,需要一位資料庫架構師在為期四週的關鍵上線穩定期全職投入。IT 職能經理表示,因為另一套臨床系統仍有既有的支援義務,只能提供六成的可用時間。專案經理與職能經理已經直接協商十二天,仍未達成共識,而上線階段將在四天後展開。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Begin the go-live phase with the 60% availability and reassess once real workload data is available. / 先以六成可用時間展開上線階段,等取得實際工作量資料後再重新評估
+- (b) Ask the project sponsor to intervene and help resolve the resourcing disagreement with the functional manager. / 請專案贊助人出面,協助與職能經理解決這項資源分配的歧見 ✅ **正解**
+- (c) Adjust the go-live schedule to fit the architect's reduced availability. / 調整上線時程,以配合架構師較低的可用時間
+- (d) Continue negotiating directly with the functional manager while documenting the shortfall as a risk. / 持續直接與職能經理協商,同時把這項人力缺口記錄為風險
+
+**詳解**
+
+在矩陣型組織中,專案經理原本就應該先嘗試與職能經理直接協商,這一點專案經理已經做到了。但十二天的協商沒有任何進展,距離上線只剩四天,代表合理的直接協商空間已經用盡,再拖下去只會讓風險持續累積。此時請贊助人出面,運用專案經理本身沒有的組織層級權力來協調跨部門的資源分配,才是這個時間點最務實的做法。
+
+其餘選項都等於接受現況或原地打轉。直接用六成人力展開一個關鍵的上線穩定期,等於明知資源不足仍冒險上場,把問題留到出狀況才處理。調整時程等於默認職能經理片面的立場已成定局,卻沒有先用得到的升級管道去爭取。持續用同樣的方式協商,只是重複一個十二天都沒有效果的做法,四天內不太可能出現不同的結果。
+
+---
+
+### Q145. `res-145` — 單選題
+
+**題目 ID**: `res-145`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: On a wind farm construction project, a civil engineer and a structural engineer disagree about the turbine foundation design approach. The disagreement has caused the design review to be postponed for three consecutive review cycles, and both engineers have grown visibly frustrated with each other during meetings. What should the project manager do?
+- 中: 在一個風力發電場建置專案中,一位土木工程師與一位結構工程師對於風機基礎的設計方式意見不合。這個分歧已經連續三次讓設計審查會議延期,兩人在會議中也明顯對彼此感到不耐。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Ask each engineer to submit a written justification for their preferred approach for the project manager to compare. / 請兩位工程師分別提交書面說明,闡述各自偏好方案的理由,交由專案經理比較
+- (b) Postpone the design decision until after the procurement phase, when more information will be available. / 把設計決定延後到採購階段之後,等取得更多資訊再決定
+- (c) Bring both engineers together in a structured session to work through the technical trade-offs and reach a joint decision. / 安排一場有結構的會議,讓兩位工程師一起討論技術上的取捨,共同做出決定 ✅ **正解**
+- (d) Select the approach favored by the more senior of the two engineers to end the disagreement quickly. / 採用兩人之中資歷較深那位工程師偏好的方案,以盡快結束爭執
+
+**詳解**
+
+這個分歧已經連續拖延三次審查,雙方的挫折感也已經顯現,顯示需要的是正式的面對面問題解決做法。把兩位工程師找來,在有結構的場合中一起把技術上的取捨攤開來談、共同做出決定,才能產生一個雙方都認同、真正能落地執行的方案,也是唯一能同時處理進度延遲與人際緊張這兩個問題的做法。
+
+其他選項都不夠。請雙方各自提交書面說明,再由專案經理自己比較裁定,等於把決策權從最了解技術細節的人手中拿走,而且裁定結果未必能讓另一方真心接受。延後決定只是把問題往後推,基礎設計沒有確定,後續採購與施工排程都會持續受阻。直接採用資深工程師的方案是用位階取代討論,忽略了另一位工程師的專業意見,也沒有真正化解雙方的歧見,反而可能讓關係更緊繃。
+
+---
+
+### Q146. `res-146` — 單選題
+
+**題目 ID**: `res-146`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager at a commercial construction firm wants to introduce a Kanban board to track punch-list items on a new renovation project, because a different division within the company used Kanban successfully on a past project. The team assigned to this renovation project has never used Kanban or any visual workflow board before. What should the project manager do first?
+- 中: 一家商業建築公司的專案經理,想在一個新的翻新工程專案中導入 Kanban 看板來追蹤驗收清單項目,原因是公司內另一個部門過去曾成功用過 Kanban。被指派到這個翻新專案的團隊,過去從未使用過 Kanban 或任何視覺化工作看板。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Introduce the Kanban board immediately and adjust its columns based on issues that surface during the first two weeks. / 立即導入 Kanban 看板,並根據前兩週浮現的問題調整欄位設計
+- (b) Assess this team's current familiarity and comfort with visual workflow tools before deciding whether to introduce Kanban. / 在決定是否導入 Kanban 之前,先評估這個團隊目前對視覺化工作流程工具的熟悉程度與接受度 ✅ **正解**
+- (c) Mandate that the renovation team adopt the exact same Kanban setup used by the other division. / 要求翻新工程團隊採用與另一個部門完全相同的 Kanban 設定
+- (d) Ask the division that succeeded with Kanban to take over tracking the punch-list items directly. / 請那個成功導入 Kanban 的部門,直接接手負責追蹤這個專案的驗收清單項目
+
+**詳解**
+
+另一個部門的成功經驗,並不能保證這個從未接觸過視覺化看板的團隊也會順利接受同樣的做法。應該先評估這個團隊目前對這類工具的熟悉程度與接受度,才能判斷是否適合導入、需要哪些額外的引導,以及導入時機是否恰當。
+
+其他選項都跳過了這個評估步驟。立即導入再邊做邊調整,等於讓一個完全陌生的團隊在毫無準備的情況下摸索,可能拖累驗收清單的追蹤效果。要求完全比照另一個部門的設定,忽略了兩個團隊的工作內容與熟悉程度可能截然不同,現成的設定未必適用。請另一個部門直接接手追蹤工作,則完全迴避了培養這個團隊自身能力的目標,也沒有真正解決問題。
+
+---
+
+### Q147. `res-147` — 單選題
+
+**題目 ID**: `res-147`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A quality inspector on a food processing plant upgrade project tells the project manager that a newly required weekend inspection rotation is disrupting family commitments. The project manager wants to use a compromise approach to reach a solution that works for both the inspector and the project. What should the project manager do first?
+- 中: 一家食品加工廠升級專案中的一位品管檢驗員向專案經理反映,新規定的週末輪值檢驗安排打亂了他的家庭生活安排。專案經理想採用妥協的方式,找出對這位檢驗員與專案雙方都可行的解決辦法。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Listen to the inspector's concerns and acknowledge the disruption the rotation is causing. / 聆聽這位檢驗員的顧慮,並認同輪值安排確實對他造成了困擾 ✅ **正解**
+- (b) Explain why the weekend inspection rotation is required for regulatory compliance. / 說明為什麼基於法規要求,必須實施週末輪值檢驗
+- (c) Propose swapping the inspector onto a weekday-only rotation with a colleague covering weekends. / 提出把這位檢驗員換成只需平日輪值,由其他同事負責週末
+- (d) Offer additional pay as compensation for the inconvenience of the weekend rotation. / 提供額外津貼,作為週末輪值造成不便的補償
+
+**詳解**
+
+妥協要能真正對症下藥,前提是先對等地理解對方的處境。先聆聽並認同這位檢驗員的困擾,能讓專案經理在提出任何限制或方案之前,完全掌握問題的核心,這才是妥協該有的起點。
+
+其餘做法都跳過了「先聽」這一步。先說明法規要求,等於在對方的顧慮被聽見之前就先端出專案立場,讓對話變成單向說明。提出換班方案雖然聽起來合理,但還沒確認這位檢驗員真正在意的是什麼就直接給方案,方案很可能文不對題。提供額外津貼同樣是還沒釐清問題就先拋出解法,忽略了對方在意的可能不是金錢,而是無法陪伴家人的時間安排。
+
+---
+
+### Q148. `res-148` — 單選題
+
+**題目 ID**: `res-148`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A logistics company's veteran warehouse operations manager, who has spent twenty-two years building informal relationships with suppliers and developing unwritten techniques for resolving shipment disputes, plans to retire in three months. Company leadership has asked the project manager overseeing the warehouse modernization project to ensure this expertise is not lost. What should the project manager do?
+- 中: 一家物流公司的資深倉儲營運經理,花了二十二年時間建立起與供應商的非正式關係,也發展出一套解決貨運糾紛的不成文技巧,即將在三個月後退休。公司高層要求負責倉儲現代化專案的專案經理,確保這些專業不會因此流失。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Interview the retiring manager and compile the responses into a detailed operations handbook before departure. / 訪談這位即將退休的經理,並在他離職前把訪談內容整理成一份詳細的作業手冊
+- (b) Pair the retiring manager with a successor in a structured mentorship arrangement for the remaining three months. / 在剩餘的三個月裡,安排這位即將退休的經理與接班人進行有結構的師徒配對 ✅ **正解**
+- (c) Archive the manager's email correspondence and dispute-resolution records for future reference. / 把這位經理的電子郵件往來與糾紛處理紀錄存檔,供未來參考
+- (d) Have the manager record a series of training videos covering common supplier issues. / 請這位經理錄製一系列訓練影片,說明常見的供應商問題
+
+**詳解**
+
+題目描述的知識,包括與供應商之間的非正式關係與處理糾紛時的臨場判斷,大多屬於難以完整寫下來的隱性知識。這類知識最有效的傳遞方式是透過直接互動、觀察與長時間的帶領,而結構化的師徒配對正好能在這位經理離職前創造出讓知識實際傳承的機會。
+
+其他做法都只能捕捉部分知識。訪談整理成手冊能記錄下外顯的作業流程,卻很難完整呈現多年累積下來的人脈判斷與臨場應變。存檔電子郵件與紀錄保留的只是既有的書面資料,無法補上那些從未被寫下來的做法。錄製訓練影片同樣偏向單向的知識輸出,缺少師徒關係中那種持續互動、即時回饋與實務演練的過程。
+
+---
+
+### Q149. `res-149` — 單選題
+
+**題目 ID**: `res-149`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager takes over a delayed municipal road resurfacing project and discovers that engineers, inspectors, and contractors are unclear about who must approve material substitutions. As a result, some substitutions have been approved twice by different people, while others were never approved at all and caused rework. What should the project manager do?
+- 中: 一位專案經理接手一個進度落後的市政道路鋪面工程,發現工程師、檢驗人員與承包商都不清楚材料替換需要由誰核准。結果有些替換案被不同人重複核准了兩次,有些則完全沒人核准就直接施工,導致返工。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Create a RACI matrix for material substitution approvals and review it with all parties. / 針對材料替換核准流程建立一份 RACI 責任矩陣,並與所有相關人員一起檢視 ✅ **正解**
+- (b) Require every material substitution to be discussed at the weekly progress meeting before proceeding. / 規定每一項材料替換都必須先在每週進度會議上討論,才能繼續施工
+- (c) Ask each party to keep a personal log of the substitutions they have approved. / 請每一方各自保留一份自己核准過的材料替換紀錄
+- (d) Escalate the approval confusion to the client agency for a ruling. / 把這項核准混亂的問題上報給業主機關,請他們裁定
+
+**詳解**
+
+RACI 責任矩陣能明確標示出材料替換核准這件事,由誰負責執行、由誰擔負最終責任、需要諮詢誰、需要告知誰。把矩陣拿出來和工程師、檢驗人員、承包商一起檢視,能直接消除重複核准與遺漏核准這兩種問題,因為每個角色的職責都會變得清楚且經過共識確認。
+
+其他做法都無法根治問題。要求每項替換都在週會討論,只是增加了溝通頻率,卻沒有指定任何人的核准職責,遺漏或重複核准的情況依然可能在週會之間發生。請各方各自留存紀錄,雖然能事後追查,卻無法預先防止職責不清造成的混亂。把問題上報給業主機關,則是把一個屬於專案經理職責範圍、本來就能自行解決的問題,交給了外部單位。
+
+---
+
+### Q150. `res-150` — 單選題
+
+**題目 ID**: `res-150`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A game development studio's core team of six has worked together for over a year across multiple sprints. With three months remaining before launch, three contract artists are added to help complete outstanding art assets for the final production sprints. What should the project manager do?
+- 中: 一家遊戲開發工作室的六人核心團隊,已經一起經歷過好幾個衝刺、共事超過一年。距離上市只剩三個月,為了完成剩餘的美術素材,團隊新增了三位外包美術人員,將投入最後幾個生產衝刺。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Hold a single kickoff meeting to introduce the contract artists and review the remaining launch milestones. / 舉辦一場啟動會議,介紹這三位外包美術人員,並檢視剩餘的上市里程碑
+- (b) Plan structured team integration activities before the next sprint begins to help the team re-establish working norms. / 在下一個衝刺開始前,規劃有結構的團隊融合活動,協助團隊重新建立工作默契 ✅ **正解**
+- (c) Have the contract artists work independently and sync with the core team only during sprint reviews. / 讓外包美術人員獨立作業,僅在衝刺審查會議時與核心團隊同步
+- (d) Rely on the studio's existing onboarding documentation to bring the contract artists up to speed. / 依靠工作室既有的導入文件,讓外包美術人員自行熟悉狀況
+
+**詳解**
+
+即使核心團隊過去合作再久、默契再好,只要成員組成出現變動,團隊動態就會重新洗牌。有結構的團隊融合活動,能針對這個新組成的九人團隊重新建立溝通模式與互信基礎,而這正是在最後衝刺階段要能有效協作之前,必須先處理好的事。
+
+其他做法都只顧到一部分。單一場啟動會議能傳遞資訊,卻無法持續回應團隊組成改變後所需要的磨合過程。讓外包人員獨立作業、只在審查時同步,幾乎放棄了讓新舊成員真正融入彼此工作方式的機會,在時間緊迫的最後衝刺階段風險更高。依靠既有的導入文件只能傳遞制度性的知識,無法建立起這個特定團隊此刻所需要的協作默契與信任。
+
+---
+
+### Q151. `res-151` — 單選題
+
+**題目 ID**: `res-151`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager coordinating an aircraft-on-ground (AOG) repair effort at an airline's maintenance, repair, and overhaul facility needs a certified avionics technician assigned full-time for a two-week critical repair window. The hangar operations manager, who controls technician shift rosters, has offered only intermittent coverage due to other scheduled maintenance checks. The project manager has negotiated directly with the hangar operations manager for nine working days without resolution, and the repair window begins in two days. What should the project manager do?
+- 中: 一位協調某航空公司維修中心「飛機停飛待修」（AOG）搶修工作的專案經理,需要一位持有證照的航電技師在為期兩週的關鍵搶修期間全職投入。掌控技師排班表的機棚營運經理,以其他既定的維修檢查為由,只能提供斷斷續續的支援。專案經理已與機棚營運經理直接協商九個工作天,仍未解決,而搶修期間將在兩天後展開。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Begin the repair window with intermittent technician coverage and adjust the repair sequence as availability allows. / 先以斷斷續續的技師支援展開搶修期間,再依可用時間調整維修順序
+- (b) Escalate the resourcing conflict to the maintenance director for resolution with the hangar operations manager. / 把這項資源調度衝突上報給維修部門主管,由主管出面與機棚營運經理解決 ✅ **正解**
+- (c) Extend the repair window to accommodate the technician's intermittent availability. / 延長搶修期間,以配合技師斷斷續續的可用時間
+- (d) Continue direct negotiations with the hangar operations manager while formally logging the resourcing risk. / 持續與機棚營運經理直接協商,同時正式登錄這項資源風險
+
+**詳解**
+
+九個工作天的直接協商已經用盡了專案經理在同層級關係中能運用的手段,距離搶修期間開始只剩兩天,情勢已經沒有時間再等待同樣的協商方式產生不同結果。這時候上報給擁有跨部門調度權力的維修部門主管,才能真正打破僵局,爭取到搶修所需要的專責技師。
+
+其餘選項都等於接受一個已知會拖累搶修效率與飛安風險的限制。用斷斷續續的支援展開關鍵搶修,等於明知資源不足仍貿然開始。延長搶修期間會讓飛機停飛時間拉長,造成更大的營運與成本損失,而且這是在還沒動用升級管道前就先讓步。持續用同樣方式協商並只做記錄,則是重複一個九天都沒有效果的做法,兩天內同樣不太可能出現突破。
+
+---
+
+### Q152. `res-152` — 多選題
+
+**題目 ID**: `res-152`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Which two of the following situations make the confronting or problem-solving conflict management style the most appropriate choice? (Select two.)
+- 中: 下列哪兩種情況最適合採用面對面、開誠布公一起解決問題（confronting/problem-solving）的衝突處理風格?（請選擇兩項）
+
+**選項**
+
+- (a) The conflict has escalated over time and is now actively undermining the team's ability to collaborate. / 這個衝突已經隨著時間持續升高,現在正實際妨礙團隊的協作能力 ✅ **正解**
+- (b) A durable resolution is needed that both parties will genuinely accept and follow going forward. / 需要一個雙方都能真心接受並在往後持續遵循的長久解決方案 ✅ **正解**
+- (c) A decision must be made within the next few minutes and there is no time for discussion. / 必須在接下來幾分鐘內做出決定,完全沒有時間討論
+- (d) Preserving a fragile working relationship matters more than resolving the underlying disagreement. / 維繫一段脆弱的工作關係,比解決根本的分歧更重要
+
+**詳解**
+
+面對面解決問題風格最適合用在已經擴大、開始影響團隊運作的衝突,以及需要雙方都真正投入、才能產生持久解決方案的情境。這個風格需要時間讓雙方把利弊攤開來談,並共同做出決定,因此當時間極度有限、必須立刻拍板時,更適合用強迫等其他風格先做出決定。若維繫關係的優先順序高於解決問題本身,通常會選擇遷就而不是面對面解決問題,因為遷就會刻意讓一方的立場退讓,以避免正面處理分歧。
+
+---
+
+### Q153. `res-153` — 單選題
+
+**題目 ID**: `res-153`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager at a pharmaceutical research organization wants to introduce daily stand-up meetings for a newly formed lab team assembled from chemistry, regulatory, and quality departments, because a clinical trials team elsewhere in the organization adopted stand-ups with good results. This lab team has never worked in an iterative or highly collaborative format before. What should the project manager do first?
+- 中: 一家藥廠研發機構的專案經理,想為一個剛從化學、法規與品保部門組成的實驗室團隊導入每日站立會議,原因是公司內另一個臨床試驗團隊採用站立會議後成效不錯。這個實驗室團隊過去從未用過迭代式或高度協作的工作方式。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Assess this lab team's current experience and comfort with iterative, highly collaborative work formats before introducing stand-ups. / 在導入站立會議之前,先評估這個實驗室團隊目前對迭代式、高度協作工作方式的經驗與適應程度 ✅ **正解**
+- (b) Introduce daily stand-ups immediately, modeling the format on the clinical trials team's approach. / 立即導入每日站立會議,並比照臨床試驗團隊的做法設計格式
+- (c) Ask the clinical trials team to co-facilitate the lab team's first few stand-up meetings. / 請臨床試驗團隊協助主持實驗室團隊前幾次的站立會議
+- (d) Postpone any process changes until after the current research phase concludes. / 把任何流程變動都延後,等目前的研究階段結束後再說
+
+**詳解**
+
+另一個團隊採用站立會議的成功經驗,並不能證明這個從未有過迭代式協作經驗的實驗室團隊也適合直接套用。應該先評估這個團隊目前的經驗與適應程度,才能判斷導入是否可行、需要哪些準備,以及這個時間點是否恰當。
+
+其他選項都跳過了這一步評估。直接比照導入,等於假設兩個團隊的起點相同,卻忽略了這個實驗室團隊完全沒有相關經驗的事實。請臨床試驗團隊協助主持,雖然提供了一定的支援,但依然是在還沒確認這個團隊是否準備好、需要什麼樣支援之前就貿然行動。把流程變動一律延後,則是不必要地放棄了在目前研究階段就開始評估與準備的機會,無助於解決任何問題。
+
+---
+
+### Q154. `res-154` — 單選題
+
+**題目 ID**: `res-154`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Two subcontractor supervisors on a highway widening project disagree over how shared heavy equipment should be scheduled between their crews. The project manager decides to pursue a compromise between the two supervisors. What should the project manager do first?
+- 中: 在一個高速公路拓寬工程中,兩位分包商工班主管對於共用的重型機具應該如何在各自班組之間排程意見不合。專案經理決定在兩位主管之間尋求妥協。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Listen to each supervisor's scheduling concerns and acknowledge how the current arrangement is affecting their crews. / 聆聽兩位主管各自的排程顧慮,並認同目前的安排確實影響了他們各自的班組 ✅ **正解**
+- (b) Explain the overall project schedule constraints that require the equipment to be shared in the first place. / 說明導致這項機具必須共用的整體專案時程限制
+- (c) Propose a fixed rotation schedule that splits equipment access evenly between the two crews. / 提出一份固定的輪替排程,把機具使用時間平均分配給兩個班組
+- (d) Ask each supervisor to submit their preferred equipment schedule in writing for comparison. / 請兩位主管各自以書面提交偏好的機具排程,供雙方比較
+
+**詳解**
+
+妥協要能真正找到雙方都能接受的中間點,前提是先對等地理解兩邊的立場與感受。先聆聽兩位主管的顧慮並認同機具排程對各自班組造成的影響,能確保專案經理在提出任何限制或方案之前,已經掌握問題的全貌。
+
+其餘做法都跳過了這個前提。先說明時程限制,等於在雙方的顧慮被充分聽見之前就先端出專案的立場,容易讓對話變成單向說明而非協商。提出固定的平均分配方案雖然看似公平,卻是在還沒完整理解雙方真正在意什麼之前就直接跳到解法,平均分配未必真正對症下藥。請雙方書面提交偏好排程再比較,同樣是還沒進行對話就先蒐集立場,少了妥協所需要的雙向理解過程。
+
+---
+
+### Q155. `res-155` — 多選題
+
+**題目 ID**: `res-155`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A shipping company's veteran customs compliance officer, who has built informal relationships with port authorities and developed unwritten techniques for resolving cargo clearance disputes, will retire in two months. Which two of the following approaches would most effectively transfer this tacit knowledge before the officer departs? (Select two.)
+- 中: 一家航運公司的資深報關法規專員,建立了與港口機關的非正式關係,也發展出一套解決貨物通關糾紛的不成文技巧,將在兩個月後退休。下列哪兩項做法最能有效在這位專員離職前傳遞這些隱性知識?（請選擇兩項）
+
+**選項**
+
+- (a) Pair the officer with a successor in a formal mentorship arrangement that works side-by-side on real clearance cases. / 讓這位專員與接班人建立正式的師徒配對,一起處理實際的通關案件 ✅ **正解**
+- (b) Have the successor shadow the officer during live negotiations with port authorities and gradually take on responsibility. / 讓接班人在與港口機關的實際交涉過程中隨行學習,並逐步接手責任 ✅ **正解**
+- (c) Ask the officer to write a comprehensive customs compliance procedures manual before leaving. / 請這位專員在離職前撰寫一份完整的報關合規作業手冊
+- (d) Have the officer record a single recorded briefing summarizing common clearance disputes. / 請這位專員錄製一段簡報,總結常見的通關糾紛狀況
+
+**詳解**
+
+隱性知識包含臨場判斷與長年累積的人脈關係,最有效的傳遞方式是透過直接互動與實務參與。正式的師徒配對讓接班人能在真實案件中向資深專員學習,而隨行參與實際交涉並逐步接手,則讓接班人親身體驗那些難以言傳的協商技巧與應變方式,兩者都能捕捉到書面資料無法呈現的內容。
+
+撰寫作業手冊與錄製簡報都只能記錄下外顯的流程與知識,對於臨場判斷、人脈關係這類隱性知識,幫助有限,也無法取代實際參與帶來的學習效果。
+
+---
+
+### Q156. `res-156` — 單選題
+
+**題目 ID**: `res-156`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: On an insurance company's claims system upgrade project, business analysts and QA testers have overlapping responsibilities for verifying defect fixes. Some defects have been retested by both roles, wasting effort, while others were never retested at all and reached production. What should the project manager do?
+- 中: 在一家保險公司的理賠系統升級專案中,業務分析師與 QA 測試人員在驗證缺陷修復這件事上職責重疊。有些缺陷被兩個角色重複測試,浪費了工時,有些缺陷卻完全沒人重新測試就直接上線。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Create a RACI matrix that clarifies defect retesting responsibilities and review it with both roles. / 建立一份 RACI 責任矩陣,釐清缺陷重新測試的職責分工,並與兩個角色一起檢視 ✅ **正解**
+- (b) Add an extra defect status review meeting each week to catch untested items. / 每週增加一場額外的缺陷狀態審查會議,以找出未經測試的項目
+- (c) Ask business analysts to stop retesting defects altogether. / 請業務分析師完全停止重新測試缺陷
+- (d) Escalate the overlapping responsibilities to the IT director for a decision. / 把這項職責重疊的問題上報給 IT 主管,請其裁定
+
+**詳解**
+
+RACI 責任矩陣能明確標示出缺陷重新測試這項工作,由誰負責執行、由誰擔負最終責任、需要諮詢誰、需要告知誰。把矩陣拿出來和業務分析師與 QA 測試人員一起檢視,能同時消除重複測試與遺漏測試這兩種相反的問題,因為每一項缺陷都會有清楚且經過共識確認的負責歸屬。
+
+其他做法都不夠周全。增加審查會議只是多了一層監督,卻沒有從根本上釐清誰該負責什麼,同樣的重複與遺漏仍可能在會議之間發生。直接要求業務分析師停止重新測試,是在沒有釐清完整分工邏輯的情況下片面取消一個角色的職責,可能反而製造出新的測試缺口。把問題上報給 IT 主管,則是把一個屬於專案經理職責範圍、能夠自行釐清的問題,交由他人裁定。
+
+---
+
+### Q157. `res-157` — 單選題
+
+**題目 ID**: `res-157`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: An agricultural technology company's field-data science team of five has worked together for ten months. Ahead of the harvest-season data collection surge, five new remote-sensing analysts are added to the team to handle the increased workload. What should the project manager do?
+- 中: 一家農業科技公司的田間資料科學團隊,五人已經共事十個月。為了因應即將到來的收穫季資料蒐集高峰,團隊新增了五位遙測分析師來因應增加的工作量。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Send the new analysts a written onboarding guide covering data pipelines and tools. / 提供新加入的分析師一份書面導入指南,說明資料處理流程與工具
+- (b) Plan structured team integration activities before the harvest-season workload begins. / 在收穫季工作量開始之前,規劃有結構的團隊融合活動 ✅ **正解**
+- (c) Hold a single meeting introducing the new analysts and reviewing harvest-season targets. / 召開一場會議,介紹新加入的分析師並檢視收穫季的目標
+- (d) Let the new analysts integrate naturally as they begin working alongside the existing team. / 讓新加入的分析師在開始與現有團隊共事的過程中自然融入
+
+**詳解**
+
+當新成員的人數幾乎等同於原本的團隊規模時,團隊動態必然會重新洗牌,原有十個月建立起來的默契不會自動延續到擴編後的團隊上。有結構的團隊融合活動,能針對這個幾乎重組的十人團隊,重新建立起溝通模式、工作默契與互信基礎,而這些正是要在收穫季高強度工作量來臨前,先處理好的關鍵。
+
+其他做法都只處理了部分需求。書面導入指南能傳遞工具與流程知識,卻無法建立起團隊之間的協作默契。單一場介紹會議雖然能讓大家對目標有基本共識,但無法持續回應如此大規模人員異動所帶來的磨合需求。讓成員自然融入,在人數變動如此劇烈、且即將進入高工作量期間的情況下,風險太高,容易造成混亂與效率低落。
+
+---
+
+### Q158. `res-158` — 拖拉配對題
+
+**題目 ID**: `res-158`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A retail chain has formed a cross-store analytics team to build a unified sales-forecasting model. Match each team scenario below to the correct stage of Tuckman's Ladder.
+- 中: 一家零售連鎖企業組成了一個跨門市分析團隊,負責建置統一的銷售預測模型。請將下列每個團隊情境配對到正確的 Tuckman 團隊發展階段。
+
+**配對項目(拖曳來源)**
+
+- p1: New members have just joined the analytics initiative. They are cautious with one another, ask detailed questions about scope, and wait for the project manager to set direction. / 新成員剛加入這項分析計畫,彼此相處謹慎,不斷詢問工作範圍的細節,並等待專案經理設定方向
+- p2: Members clash over which sales metrics should drive the forecasting model, openly challenge each other's approaches during review sessions, and the tension has begun undermining cooperation. / 成員對於哪些銷售指標應該主導預測模型意見不合,在審查會議上公開質疑彼此的做法,這股緊張氣氛已經開始影響協作
+- p3: The team has settled on shared data conventions, openly exchanges model assumptions, and works through disagreements constructively as trust grows. / 團隊已經確立共同的資料規範,能坦誠交流模型假設,並在互信逐漸建立的同時以建設性方式化解歧見
+- p4: The team consistently delivers biweekly forecasting updates with minimal oversight, self-organizes to resolve data-quality blockers, and stays focused on business outcomes. / 團隊在極少監督下持續完成每兩週一次的預測更新,能自行組織解決資料品質障礙,並專注於業務成果
+
+**選項池(拖曳目標)**
+
+- c1: Forming / 形成期
+- c2: Storming / 風暴期
+- c3: Norming / 規範期
+- c4: Performing / 表現期
+
+**✅ 正確配對**
+
+- p1 → c1: New members have just joined the analytics initiative. They are cautious with one another, ask detailed questions about scope, and wait for the project manager to set direction. → Forming（新成員剛加入這項分析計畫,彼此相處謹慎,不斷詢問工作範圍的細節,並等待專案經理設定方向 → 形成期）
+- p2 → c2: Members clash over which sales metrics should drive the forecasting model, openly challenge each other's approaches during review sessions, and the tension has begun undermining cooperation. → Storming（成員對於哪些銷售指標應該主導預測模型意見不合,在審查會議上公開質疑彼此的做法,這股緊張氣氛已經開始影響協作 → 風暴期）
+- p3 → c3: The team has settled on shared data conventions, openly exchanges model assumptions, and works through disagreements constructively as trust grows. → Norming（團隊已經確立共同的資料規範,能坦誠交流模型假設,並在互信逐漸建立的同時以建設性方式化解歧見 → 規範期）
+- p4 → c4: The team consistently delivers biweekly forecasting updates with minimal oversight, self-organizes to resolve data-quality blockers, and stays focused on business outcomes. → Performing（團隊在極少監督下持續完成每兩週一次的預測更新,能自行組織解決資料品質障礙,並專注於業務成果 → 表現期）
+
+**詳解**
+
+情境一屬於形成期,因為新成員剛加入,彼此還在謹慎試探,對工作範圍不熟悉,仰賴專案經理提供方向。情境二屬於風暴期,因為成員針對關鍵指標的選擇出現公開衝突,彼此質疑對方的做法,而這股緊張已經實際影響到協作,這正是風暴期在磨合不同觀點時常見的特徵。情境三屬於規範期,因為團隊已經對資料規範等工作方式建立共識,能坦誠溝通、以建設性方式處理歧見,顯示互信正在成形。情境四屬於表現期,因為團隊能在極少監督下穩定產出、自行解決問題,並持續專注在業務成果上,這是團隊發展最成熟的階段。
 
 ---

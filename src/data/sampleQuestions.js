@@ -5532,7 +5532,7 @@ export const sampleQuestions = [
   },
   {
     id: "gov-094",
-    edition: "pmbok7",
+    edition: "pmbok8",
     domain: "People",
     performanceDomain: "Governance",
     questionType: "matching",
@@ -5629,7 +5629,7 @@ export const sampleQuestions = [
   },
   {
     id: "gov-095",
-    edition: "pmbok7",
+    edition: "pmbok8",
     domain: "BusinessEnvironment",
     performanceDomain: "Governance",
     questionType: "single_choice",
@@ -5850,7 +5850,7 @@ export const sampleQuestions = [
   },
   {
     id: "gov-099",
-    edition: "pmbok7",
+    edition: "pmbok8",
     domain: "BusinessEnvironment",
     performanceDomain: "Governance",
     questionType: "multiple_response",
@@ -6291,6 +6291,2335 @@ export const sampleQuestions = [
     ],
     correctAnswer: "b",
     explanation: "專案已經接近收尾,此時 PM 最關鍵的職責是帶著團隊做回顧,找出「公平性需求為何在啟動階段就被遺漏」這個根本原因,並把改善措施沉澱進組織過程資產(OPA),讓這個教訓能真正被未來所有專案繼承,這正好對應持續改善流程這項任務所強調的組織層級學習。其餘選項都是還沒找出根本原因,就直接跳去指定的片面補救措施:不是所有組織都設有負責任 AI 委員會,強制介入屬於缺乏根因分析的行政命令;將偏誤測試塞進 DoD 只能在開發後期把關品質,無法解決「啟動階段需求蒐集不全」這個源頭問題;單純辦培訓也無法保證未來的需求蒐集流程真的會被制度化地改善。",
+  },
+  {
+    id: "gov-106",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A predictive infrastructure project has finished all deliverables and the client's operations team is ready to take over daily maintenance. Before releasing the project team, what should the project manager confirm first?",
+      zh: "一個瀑布式基礎建設專案已完成所有交付物,客戶的維運團隊也準備好接手日常維護。在解散專案團隊之前,專案經理應該先確認什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "That the sponsor has formally accepted project completion and all deliverables have been transitioned.",
+          zh: "贊助人已正式核准專案完成,且所有交付物都已完成移交",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "That every team member has updated their personal resume with this project's achievements.",
+          zh: "每位團隊成員都已把這個專案的成果更新到個人履歷上",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "That the next project the team will move to has already been fully staffed.",
+          zh: "團隊接下來要接的下一個專案已經完成人力配置",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "That the client's marketing department has announced the go-live publicly.",
+          zh: "客戶的行銷部門已經公開宣布上線消息",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "結案階段最關鍵的一步,是取得利害關係人(通常是贊助人或客戶)對專案完成的正式核准,並確認所有交付物已完整移交,這是「Manage Project Closure」任務裡明確要求的動作,也是後續才能安心解散團隊、結清合約與釋出資源的前提。團隊成員的履歷、下一個專案的人力配置、行銷宣傳都不是結案驗收的必要條件,也不是 PM 此時該優先確認的事項。",
+  },
+  {
+    id: "gov-107",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project's final deliverable will be handed off to an internal operations team that has never supported this type of system before. What should the project manager do as part of closing the project?",
+      zh: "專案的最終交付物即將移交給一個從未支援過這類系統的內部維運團隊。身為結案工作的一部分,專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Validate the operations team's readiness to take over, including training and documentation handoff.",
+          zh: "確認維運團隊接手的準備度,包括教育訓練與文件移交是否到位",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Immediately transfer all responsibility and close the project regardless of the team's readiness.",
+          zh: "不論對方準備度如何,立刻轉移所有責任並結案",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask the sponsor to hire external consultants to permanently replace the operations team.",
+          zh: "請贊助人雇用外部顧問永久取代維運團隊",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Delay closure indefinitely until the operations team becomes fully expert in the system.",
+          zh: "無限期延後結案,直到維運團隊完全成為該系統的專家",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "「驗證移交準備度(Validate readiness for transition)」是結案過程的明確任務之一;當接手方過去沒有支援類似系統的經驗時,PM 更應該主動確認教育訓練、操作文件、支援窗口等移交要件是否到位,而不是不顧準備度直接甩鍋、找外部顧問取代原團隊,或反過來把結案無限期拖延到對方變成專家為止(這既不切實際,也違背專案應在合理時間內正式收尾的原則)。",
+  },
+  {
+    id: "gov-108",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "According to the \"Manage Project Closure\" task, which of the following activities should the project manager conclude when closing a project? (Select three.)",
+      zh: "依據「管理專案結案」這項任務,專案經理在結案時應該完成以下哪三項活動?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Finalize financial reconciliation and close out contracts.",
+          zh: "完成財務結算並結清合約",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Conduct final lessons learned and retrospectives.",
+          zh: "進行最終的經驗學習與回顧",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Release project resources for reassignment.",
+          zh: "釋出專案資源以供重新分配",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Begin scope definition for the organization's next unrelated project.",
+          zh: "開始為組織下一個不相關的專案定義範疇",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "依據 ECO 對「Manage Project Closure」的定義,結案時應完成的活動包括:財務結算與合約結清、進行最終的經驗學習/回顧會議、釋出專案資源。定義下一個不相關專案的範疇屬於全新專案的啟動工作,跟這個專案的結案毫無關聯,不屬於此任務範圍。",
+  },
+  {
+    id: "gov-109",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project sponsor asks how the team will know the project is ready to close. Complete the project manager's response: \"We will first {{blank1}}, and only after that criteria is met will we formally {{blank2}} project completion.\"",
+      zh: "專案贊助人問專案團隊要怎麼知道專案已經準備好可以結案。請完成專案經理的回覆:「我們會先{{blank1}},只有在符合這些條件之後,才會正式{{blank2}}專案完成。」",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "determine the specific criteria needed to successfully close the project or phase",
+              zh: "確定成功結案所需的具體條件",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "ask the marketing team to announce the launch",
+              zh: "請行銷團隊宣布上線",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "reassign all team members to new projects",
+              zh: "把所有團隊成員重新分配到新專案",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "obtain stakeholder approval of",
+              zh: "取得利害關係人核准",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "postpone indefinitely",
+              zh: "無限期延後",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "ignore",
+              zh: "忽略",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "結案的正確順序是先明確定義「什麼樣的條件才算成功結案」(Determine criteria to successfully close the project or phase),達成這些條件後,才正式取得利害關係人對專案完成的核准(Obtain project stakeholder approval of project completion)。提前重新分配團隊或直接宣布上線,都跳過了確認結案條件與正式核准這兩個必要步驟。",
+  },
+  {
+    id: "gov-110",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Midway through a predictive project, a key stakeholder submits a change request. The project manager immediately begins implementing the change to keep the stakeholder happy, without a formal impact assessment. What did the project manager fail to do?",
+      zh: "在一個瀑布式專案執行到一半時,一位重要利害關係人提出了一項變更請求。專案經理為了讓這位利害關係人滿意,沒有經過正式的影響評估就立刻開始實施這項變更。專案經理漏做了什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Follow the formal change control process to assess impact before implementing.",
+          zh: "在實施前依循正式的變更管制流程評估影響",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Immediately reject the change since it came from only one stakeholder.",
+          zh: "因為變更只由一位利害關係人提出就立刻拒絕",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask the team to vote on whether the change should be implemented.",
+          zh: "讓團隊投票決定是否該實施這項變更",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Wait until the project is fully complete before considering the request.",
+          zh: "等到專案完全結束後才考慮這項請求",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "在預測式(瀑布)環境中,任何變更都必須先經過正式的變更管制流程評估對範疇、時程、成本、品質、風險等各方面的影響,取得核准後才能實施,即使提出者是重要利害關係人也不例外,單方面急著討好對方而跳過評估是常見的陷阱。直接拒絕、丟給團隊投票、或拖到專案結束才處理,都不是正確的變更管制做法。",
+  },
+  {
+    id: "gov-111",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "In a traditional (predictive) project, a team member asks the project manager who has the final authority to approve a scope change request.",
+      zh: "在一個傳統(預測式)專案中,一位團隊成員詢問專案經理,誰對範疇變更請求擁有最終核准權。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The sponsor or change control board, depending on the governance structure.",
+          zh: "依治理結構而定,由贊助人或變更管制委員會核准",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The project manager, since they own all scope decisions.",
+          zh: "專案經理,因為所有範疇決策都由他掌控",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Whichever team member proposed the original requirement.",
+          zh: "提出原始需求的那位團隊成員",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The most senior developer on the team.",
+          zh: "團隊裡資歷最深的開發人員",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "在傳統(瀑布式)治理架構下,範疇變更的正式核准權通常屬於贊助人或變更管制委員會(CCB),而不是專案經理本人。PM 的角色是評估影響、提出建議並執行核准後的變更,但並不擁有範疇的最終決策權,這一點在題目強調「WHO 做決策」時特別容易被誤答成 PM 本人。",
+  },
+  {
+    id: "gov-112",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Before approving any change request, the project manager should assess its impact across which of the following areas? (Select all that apply.)",
+      zh: "在核准任何變更請求之前,專案經理應該評估其對以下哪些領域的影響?(請選擇所有符合的選項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Scope",
+          zh: "範疇",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Schedule",
+          zh: "時程",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Cost and risk",
+          zh: "成本與風險",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The personal preferences of whichever team member is currently on vacation",
+          zh: "目前正在休假的那位團隊成員的個人喜好",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "任何變更都不會是孤立事件,PM 身為整合者的角色,必須評估變更對範疇、時程、成本與風險等所有領域的連動影響,才能做出負責任的核准決策。休假中團隊成員的個人喜好與變更評估毫無關聯。",
+  },
+  {
+    id: "gov-113",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Three months into a long, demanding project, the team has become so focused on completing daily tasks that they've lost sight of why the project matters to the organization. What should the project manager do?",
+      zh: "專案執行三個月後,團隊變得非常專注於完成每天的任務,卻逐漸忘記這個專案對組織而言的意義。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Regularly reinforce and communicate the project vision so the team understands how their work contributes to the bigger goal.",
+          zh: "定期向團隊重申並溝通專案願景,讓大家理解自己的工作如何貢獻於更大的目標",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Add more detailed task checklists so the team focuses purely on execution.",
+          zh: "增加更詳細的任務清單,讓團隊更專注在執行上",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Replace the team members who seem least motivated.",
+          zh: "撤換看起來最沒有動力的團隊成員",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Wait until the project ends to explain the overall vision during the closing celebration.",
+          zh: "等到專案結束時,在慶祝活動上再說明整體願景",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "長期專案很容易讓團隊在日復一日的任務執行中逐漸遺忘最初的願景與動機,PM 的職責之一就是定期重申並溝通願景,幫助團隊理解自己每天的工作如何連結到組織的整體目標,藉此維持士氣與方向感。增加任務清單、撤換人員、或等到專案結束才說明願景,都無助於解決「團隊忘記為何而戰」這個當下的問題。",
+  },
+  {
+    id: "gov-114",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A customer satisfaction improvement project's charter simply states the goal as \"improve customer satisfaction.\" Midway through, the VP of Sales believes success means fewer complaints, while the IT Director believes success means the new system launches on time. What should the project manager do?",
+      zh: "一個顧客滿意度改善專案的章程只寫著「提升顧客滿意度」這個目標。專案執行到一半,業務副總認為成功代表客訴減少,而 IT 主管則認為成功代表新系統準時上線。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Facilitate a session with all stakeholders to define specific, measurable success criteria everyone agrees on.",
+          zh: "召集所有利害關係人,共同定義大家都同意的具體、可衡量成功標準",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Proceed with the IT Director's definition since the system launch date is easiest to measure.",
+          zh: "採用 IT 主管的定義,因為系統上線日期最容易衡量",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Let each department define success independently for their own area.",
+          zh: "讓每個部門各自為自己的領域定義成功",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Avoid the topic since the charter has already been signed and cannot be revisited.",
+          zh: "避開這個議題,因為章程已經簽署,不能再重新討論",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "當不同利害關係人對「成功」有不同解讀時,PM 必須主動召集大家釐清並達成一致、可衡量的成功標準(涵蓋範疇、品質、時程、成本、價值等面向),確保所有人對專案目標有共同理解,而不是任選一方的定義、放任各自解讀、或迴避問題不處理。章程內容模糊本身就是需要被主動澄清的訊號,不代表不能討論。",
+  },
+  {
+    id: "gov-115",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A team just completed a module and discovered several process improvements: an earlier technical review would have caught a defect sooner, and testing every third iteration provided better feedback than testing every iteration. What should the project manager do before starting the next module?",
+      zh: "團隊剛完成一個模組,並發現了幾個流程改善點:更早進行技術審查其實能更快抓到某個缺陷,而且每三次迭代測試一次,比每次迭代都測試提供了更好的回饋。專案經理在開始下一個模組之前應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Immediately document these lessons and adjust the approach for the next module before development begins.",
+          zh: "立刻記錄這些經驗,並在下一個模組開發前就調整做法",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Wait until the full project retrospective at the end to document these lessons comprehensively.",
+          zh: "等到專案結束時的完整回顧會議再一併記錄這些經驗",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Continue with the current approach since the team will naturally improve on their own.",
+          zh: "維持現有做法,因為團隊自然會慢慢進步",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Only apply these lessons if the same exact defect happens again.",
+          zh: "只有在完全一樣的缺陷再次發生時才套用這些經驗",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "回饋循環的價值在於盡快把新學到的經驗應用到接下來的工作,而不是把所有經驗都留到專案結束才一次處理。當團隊在完成一個模組後就發現具體、可行動的流程改善點時,應該立刻記錄並在下一個模組開始前調整做法,才能持續提升品質、減少重工,並確保交付持續貼近專案目標。",
+  },
+  {
+    id: "gov-116",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "During your weekly status meeting, the project sponsor mentions that due to new regulatory requirements, the project timeline needs to be accelerated by one month to meet a compliance deadline. The sponsor states, \"This is critical for the business and needs to happen.\" What should you do NEXT?",
+      zh: "在每週狀態會議上,專案贊助人提到因為新的法規要求,專案時程需要提前一個月以符合合規期限。贊助人表示:「這對公司來說至關重要,必須完成。」你接下來應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Begin working with the team immediately to develop a compressed schedule that meets the sponsor's requirements.",
+          zh: "立刻與團隊合作,擬定符合贊助人要求的壓縮時程",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Ask the sponsor to submit a formal change request detailing the regulatory requirements and timeline changes before proceeding with any schedule analysis.",
+          zh: "請贊助人先提交正式變更請求,詳述法規要求與時程異動內容,之後才進行時程分析",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Analyze the current schedule to identify opportunities for compression and present options to the sponsor for their decision.",
+          zh: "分析目前時程找出可壓縮的機會,再把選項提交給贊助人決定",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Schedule a follow-up meeting with the sponsor and key stakeholders to discuss the impact of accelerating the timeline.",
+          zh: "安排與贊助人和主要利害關係人的後續會議,討論加速時程的影響",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "即使變更來自贊助人這樣的高權力利害關係人,或理由聽起來顯然必要(如法規合規),都必須依循正式的變更管制流程:先取得正式的變更請求,才能據以進行影響分析與決策,不能因為對方位階高或理由急迫就跳過流程直接動手壓縮時程或私下分析。",
+  },
+  {
+    id: "gov-117",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "You receive a change request from the marketing team to add a social media integration feature to your mobile app project. The request seems straightforward and your lead developer mentions it would be \"easy to add,\" estimating about 2 days of work. What should you do?",
+      zh: "你收到行銷團隊提出的變更請求,想在行動 App 專案裡加入社群媒體整合功能。這個請求看起來很單純,你的技術主管也表示「很容易加」,估計約 2 天工作量。你應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Approve the change request immediately since it's low-risk and the team has done similar work before.",
+          zh: "立刻核准這項變更請求,因為風險低且團隊做過類似的事",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Ask the marketing team to wait until the next change control board meeting to maintain proper governance.",
+          zh: "請行銷團隊等到下一次變更管制委員會會議,以維持治理程序",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Conduct a thorough impact assessment of the change request on scope, schedule, cost, quality, and risk before making any decisions.",
+          zh: "在做出任何決定前,先針對範疇、時程、成本、品質與風險做完整的影響評估",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Since it's urgent and seems simple, implement the feature now and document the change retroactively.",
+          zh: "因為看起來急迫又單純,先實作這項功能,之後再補記錄變更",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "看起來「容易」的變更,往往藏著表面看不到的複雜度或下游影響,唯有透過系統性的影響評估(範疇、時程、成本、品質、風險)才能真正發現;不該因為聽起來簡單就直接核准或先做再補文件,單純要求對方等下次會議也不算真正完成評估這個步驟。",
+  },
+  {
+    id: "gov-118",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "The project manager has noted the COO's direct task assignments in personal meeting notes but has not recorded it in any formal project document. What is the appropriate project document to formally capture this situation?",
+      zh: "專案經理已經在個人會議筆記中記下營運長直接指派任務的情況,但尚未記錄在任何正式專案文件裡。什麼才是正式記錄這個狀況的合適文件?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The risk register",
+          zh: "風險登錄冊",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The change log",
+          zh: "變更日誌",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The issue log",
+          zh: "議題日誌",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The lessons learned register",
+          zh: "經驗學習登錄冊",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "營運長跳過專案經理直接指派任務,這件事已經正在發生,屬於議題(issue)而非風險(尚未發生的不確定事件),應該記錄進議題日誌,由議題日誌追蹤問題本身、指派負責人並監控解決進度。風險登錄冊記錄的是尚未發生的不確定事件;變更日誌追蹤的是範疇/時程/成本基準的核准或駁回變更,營運長的行為不是對基準的變更;經驗學習登錄冊則是留給未來專案參考的知識,不適合用來處理正在發生的問題。",
+    caseId: "cs-a",
+    caseContext: {
+      en: "A project manager is leading a 14-month supply chain management system integration for a mid-sized apparel retailer. The project sponsor, the company's Chief Operating Officer, is under pressure from the board to reduce warehouse fulfillment delays before the holiday season. The approved scope covers inventory synchronization, vendor order automation, and staff training across two distribution centers.\n\nSix months into execution, the COO asks the team to add a real-time freight-tracking dashboard that was explicitly excluded from the approved scope, calling it a small addition that does not need formal review. The project manager estimates the dashboard would require four additional weeks and $60,000 in unbudgeted development cost.\n\nThe COO has since started attending the team's biweekly working sessions directly and assigning tasks to developers without going through the project manager. When the project manager raised the concern, the COO responded that the holiday deadline is fixed and the team should focus on results rather than process. The project manager has noted the COO's direct task assignments in personal meeting notes but has not taken further action. With the holiday deadline approaching and developers receiving conflicting instructions from the project manager and the COO, the project manager must decide how to proceed.",
+      zh: "一位專案經理正在為一家中型服飾零售商執行一項為期14個月的供應鏈管理系統整合專案。專案贊助人,也就是公司的營運長,正承受董事會的壓力,必須在假日銷售旺季前降低倉儲出貨延誤。已核准的範疇涵蓋庫存同步、供應商訂單自動化,以及兩個配送中心的員工訓練。\n\n專案執行到第六個月時,營運長要求團隊加入一個即時貨運追蹤儀表板,這項功能明確被排除在已核准範疇之外,營運長稱這只是個小增項,不需要正式審查。專案經理估計這個儀表板需要額外四週時間與 $60,000 未編列預算的開發成本。\n\n此後,營運長開始直接出席團隊的雙週工作會議,並跳過專案經理直接指派任務給開發人員。當專案經理提出疑慮時,營運長回應假日截止日期不能更動,團隊應該專注在成果而非流程上。專案經理已經在個人會議筆記中記下營運長直接指派任務的情況,但尚未採取進一步行動。隨著假日截止日期逼近,開發人員同時收到專案經理與營運長互相矛盾的指示,專案經理必須決定該如何處理。",
+    },
+  },
+  {
+    id: "gov-119",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Based on the details provided, which development approach is the project using?",
+      zh: "依據上述細節,這個專案採用的是哪一種開發方法?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Agile",
+          zh: "敏捷型",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Hybrid",
+          zh: "混合型",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Incremental",
+          zh: "增量型",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Predictive",
+          zh: "預測型",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "情境中的已核准範疇基準、明確排除在範疇外的功能項目、以及依時程與成本評估變更影響的做法,都是計畫驅動(plan-driven)環境的特徵,對應預測型(瀑布式)開發方法。情境裡沒有出現任何敏捷指標(如迭代交付週期、產品待辦清單、自組織團隊),混合型也就無從談起;增量描述的是交付物釋出的方式而非管理方法本身,情境中也沒有分階段增量釋出的證據。",
+    caseId: "cs-a",
+    caseContext: {
+      en: "A project manager is leading a 14-month supply chain management system integration for a mid-sized apparel retailer. The project sponsor, the company's Chief Operating Officer, is under pressure from the board to reduce warehouse fulfillment delays before the holiday season. The approved scope covers inventory synchronization, vendor order automation, and staff training across two distribution centers.\n\nSix months into execution, the COO asks the team to add a real-time freight-tracking dashboard that was explicitly excluded from the approved scope, calling it a small addition that does not need formal review. The project manager estimates the dashboard would require four additional weeks and $60,000 in unbudgeted development cost.\n\nThe COO has since started attending the team's biweekly working sessions directly and assigning tasks to developers without going through the project manager. When the project manager raised the concern, the COO responded that the holiday deadline is fixed and the team should focus on results rather than process. The project manager has noted the COO's direct task assignments in personal meeting notes but has not taken further action. With the holiday deadline approaching and developers receiving conflicting instructions from the project manager and the COO, the project manager must decide how to proceed.",
+      zh: "一位專案經理正在為一家中型服飾零售商執行一項為期14個月的供應鏈管理系統整合專案。專案贊助人,也就是公司的營運長,正承受董事會的壓力,必須在假日銷售旺季前降低倉儲出貨延誤。已核准的範疇涵蓋庫存同步、供應商訂單自動化,以及兩個配送中心的員工訓練。\n\n專案執行到第六個月時,營運長要求團隊加入一個即時貨運追蹤儀表板,這項功能明確被排除在已核准範疇之外,營運長稱這只是個小增項,不需要正式審查。專案經理估計這個儀表板需要額外四週時間與 $60,000 未編列預算的開發成本。\n\n此後,營運長開始直接出席團隊的雙週工作會議,並跳過專案經理直接指派任務給開發人員。當專案經理提出疑慮時,營運長回應假日截止日期不能更動,團隊應該專注在成果而非流程上。專案經理已經在個人會議筆記中記下營運長直接指派任務的情況,但尚未採取進一步行動。隨著假日截止日期逼近,開發人員同時收到專案經理與營運長互相矛盾的指示,專案經理必須決定該如何處理。",
+    },
+  },
+  {
+    id: "gov-120",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "The COO has requested the addition of a freight-tracking dashboard, claiming it does not need formal review. What should the project manager do?",
+      zh: "營運長要求加入貨運追蹤儀表板,並宣稱不需要正式審查。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Comply with the COO's request since the sponsor has the authority to approve change requests.",
+          zh: "依營運長的要求辦理,因為贊助人有權核准變更請求",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Submit a change request to formally evaluate the addition through the integrated change control process.",
+          zh: "提交變更請求,透過整合變更管制流程正式評估這項增項",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Refuse the addition and remind the COO that the dashboard was explicitly excluded from the approved scope.",
+          zh: "拒絕這項增項,並提醒營運長儀表板已明確被排除在核准範疇之外",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Negotiate with the COO to informally trade away another scope item to accommodate the addition.",
+          zh: "與營運長私下協商,用拿掉另一項範疇項目來換取這項增項",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "不論變更看起來多小、也不論提出者的職位多高,任何對已核准範疇基準的變更都必須透過整合變更管制流程正式評估;提交變更請求能確保這項增項對範疇、時程、成本的影響被正式評估,並交由適當的決策者核准或駁回。私下同意會繞過整合變更管制流程,贊助人有核准變更的職權不代表可以省略正式提交變更請求這個步驟;直接拒絕誤解了專案經理的角色(職責是確保變更被正式評估,不是逕自阻擋);私下用其他項目交換一樣是在沒有正式變更請求的情況下修改基準。",
+    caseId: "cs-a",
+    caseContext: {
+      en: "A project manager is leading a 14-month supply chain management system integration for a mid-sized apparel retailer. The project sponsor, the company's Chief Operating Officer, is under pressure from the board to reduce warehouse fulfillment delays before the holiday season. The approved scope covers inventory synchronization, vendor order automation, and staff training across two distribution centers.\n\nSix months into execution, the COO asks the team to add a real-time freight-tracking dashboard that was explicitly excluded from the approved scope, calling it a small addition that does not need formal review. The project manager estimates the dashboard would require four additional weeks and $60,000 in unbudgeted development cost.\n\nThe COO has since started attending the team's biweekly working sessions directly and assigning tasks to developers without going through the project manager. When the project manager raised the concern, the COO responded that the holiday deadline is fixed and the team should focus on results rather than process. The project manager has noted the COO's direct task assignments in personal meeting notes but has not taken further action. With the holiday deadline approaching and developers receiving conflicting instructions from the project manager and the COO, the project manager must decide how to proceed.",
+      zh: "一位專案經理正在為一家中型服飾零售商執行一項為期14個月的供應鏈管理系統整合專案。專案贊助人,也就是公司的營運長,正承受董事會的壓力,必須在假日銷售旺季前降低倉儲出貨延誤。已核准的範疇涵蓋庫存同步、供應商訂單自動化,以及兩個配送中心的員工訓練。\n\n專案執行到第六個月時,營運長要求團隊加入一個即時貨運追蹤儀表板,這項功能明確被排除在已核准範疇之外,營運長稱這只是個小增項,不需要正式審查。專案經理估計這個儀表板需要額外四週時間與 $60,000 未編列預算的開發成本。\n\n此後,營運長開始直接出席團隊的雙週工作會議,並跳過專案經理直接指派任務給開發人員。當專案經理提出疑慮時,營運長回應假日截止日期不能更動,團隊應該專注在成果而非流程上。專案經理已經在個人會議筆記中記下營運長直接指派任務的情況,但尚未採取進一步行動。隨著假日截止日期逼近,開發人員同時收到專案經理與營運長互相矛盾的指示,專案經理必須決定該如何處理。",
+    },
+  },
+  {
+    id: "gov-121",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "The COO continues to dismiss the project manager's concerns and directs developers directly. What should the project manager do?",
+      zh: "營運長持續無視專案經理的疑慮,並直接指揮開發人員。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Escalate the matter to the project steering committee or equivalent governing body responsible for project oversight.",
+          zh: "把這件事上報給專案指導委員會或負責監督的對等治理機構",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Escalate the concern directly to the board of directors since only the board can override the COO.",
+          zh: "直接把疑慮上報給董事會,因為只有董事會能夠推翻營運長",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Continue documenting the behavior and raise it at the next scheduled status meeting.",
+          zh: "繼續記錄這個行為,並在下次排定的狀態會議上提出",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Report the COO to the developers' functional managers for corrective action.",
+          zh: "把營運長的行為回報給開發人員的職能經理,要求採取矯正行動",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "當贊助人或高階主管破壞專案經理的職權、繞過既有治理架構時,專案經理應該把問題上報給適當的專案治理機構(如指導委員會或專案董事會),這是處理贊助人越權干預這類治理問題的正確途徑。直接跳過中間層級找董事會,略過了適當的升級管道;情況已經被記錄且已經提出過疑慮,再等下次排定會議太過被動,無法即時處理正在發生的混亂;開發人員的職能經理無權處理營運長違反專案治理的行為。",
+    caseId: "cs-a",
+    caseContext: {
+      en: "A project manager is leading a 14-month supply chain management system integration for a mid-sized apparel retailer. The project sponsor, the company's Chief Operating Officer, is under pressure from the board to reduce warehouse fulfillment delays before the holiday season. The approved scope covers inventory synchronization, vendor order automation, and staff training across two distribution centers.\n\nSix months into execution, the COO asks the team to add a real-time freight-tracking dashboard that was explicitly excluded from the approved scope, calling it a small addition that does not need formal review. The project manager estimates the dashboard would require four additional weeks and $60,000 in unbudgeted development cost.\n\nThe COO has since started attending the team's biweekly working sessions directly and assigning tasks to developers without going through the project manager. When the project manager raised the concern, the COO responded that the holiday deadline is fixed and the team should focus on results rather than process. The project manager has noted the COO's direct task assignments in personal meeting notes but has not taken further action. With the holiday deadline approaching and developers receiving conflicting instructions from the project manager and the COO, the project manager must decide how to proceed.",
+      zh: "一位專案經理正在為一家中型服飾零售商執行一項為期14個月的供應鏈管理系統整合專案。專案贊助人,也就是公司的營運長,正承受董事會的壓力,必須在假日銷售旺季前降低倉儲出貨延誤。已核准的範疇涵蓋庫存同步、供應商訂單自動化,以及兩個配送中心的員工訓練。\n\n專案執行到第六個月時,營運長要求團隊加入一個即時貨運追蹤儀表板,這項功能明確被排除在已核准範疇之外,營運長稱這只是個小增項,不需要正式審查。專案經理估計這個儀表板需要額外四週時間與 $60,000 未編列預算的開發成本。\n\n此後,營運長開始直接出席團隊的雙週工作會議,並跳過專案經理直接指派任務給開發人員。當專案經理提出疑慮時,營運長回應假日截止日期不能更動,團隊應該專注在成果而非流程上。專案經理已經在個人會議筆記中記下營運長直接指派任務的情況,但尚未採取進一步行動。隨著假日截止日期逼近,開發人員同時收到專案經理與營運長互相矛盾的指示,專案經理必須決定該如何處理。",
+    },
+  },
+  {
+    id: "gov-122",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "What should the project manager have done at the start of the project to prevent the situation described in the case study?",
+      zh: "專案經理在專案一開始應該做什麼,才能預防案例中描述的這種狀況?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Scheduled regular status meetings with the COO to maintain ongoing alignment.",
+          zh: "安排與營運長的定期狀態會議,維持持續的對齊",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Identified sponsor interference as a risk and developed a mitigation strategy during planning.",
+          zh: "在規劃階段把贊助人干預識別為風險,並擬定緩解策略",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Established a stakeholder engagement plan that defined the COO's role and formal decision-making process.",
+          zh: "建立利害關係人參與計畫,明確定義營運長的角色與正式決策流程",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Ensured the COO reviewed and signed off on the change control process.",
+          zh: "確保營運長審閱並簽署變更管制流程",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "在專案一開始就主動進行利害關係人參與規劃,能明確界定贊助人角色的邊界、溝通期望與正式決策職權,降低日後贊助人越權干預的模糊空間,也讓專案經理在邊界被跨越時有明確的依據可以引用。定期會議只是維持接觸,若沒有明確的角色與決策協定,頻繁互動本身無法防止越權;把贊助人干預列為風險只是承認可能性,仍屬被動,主動的利害關係人參與規劃才能真正預防問題發生;確保簽署變更管制流程只處理雙方關係的一個面向,無法建立防範這種狀況所需的整體溝通與決策架構。",
+    caseId: "cs-a",
+    caseContext: {
+      en: "A project manager is leading a 14-month supply chain management system integration for a mid-sized apparel retailer. The project sponsor, the company's Chief Operating Officer, is under pressure from the board to reduce warehouse fulfillment delays before the holiday season. The approved scope covers inventory synchronization, vendor order automation, and staff training across two distribution centers.\n\nSix months into execution, the COO asks the team to add a real-time freight-tracking dashboard that was explicitly excluded from the approved scope, calling it a small addition that does not need formal review. The project manager estimates the dashboard would require four additional weeks and $60,000 in unbudgeted development cost.\n\nThe COO has since started attending the team's biweekly working sessions directly and assigning tasks to developers without going through the project manager. When the project manager raised the concern, the COO responded that the holiday deadline is fixed and the team should focus on results rather than process. The project manager has noted the COO's direct task assignments in personal meeting notes but has not taken further action. With the holiday deadline approaching and developers receiving conflicting instructions from the project manager and the COO, the project manager must decide how to proceed.",
+      zh: "一位專案經理正在為一家中型服飾零售商執行一項為期14個月的供應鏈管理系統整合專案。專案贊助人,也就是公司的營運長,正承受董事會的壓力,必須在假日銷售旺季前降低倉儲出貨延誤。已核准的範疇涵蓋庫存同步、供應商訂單自動化,以及兩個配送中心的員工訓練。\n\n專案執行到第六個月時,營運長要求團隊加入一個即時貨運追蹤儀表板,這項功能明確被排除在已核准範疇之外,營運長稱這只是個小增項,不需要正式審查。專案經理估計這個儀表板需要額外四週時間與 $60,000 未編列預算的開發成本。\n\n此後,營運長開始直接出席團隊的雙週工作會議,並跳過專案經理直接指派任務給開發人員。當專案經理提出疑慮時,營運長回應假日截止日期不能更動,團隊應該專注在成果而非流程上。專案經理已經在個人會議筆記中記下營運長直接指派任務的情況,但尚未採取進一步行動。隨著假日截止日期逼近,開發人員同時收到專案經理與營運長互相矛盾的指示,專案經理必須決定該如何處理。",
+    },
+  },
+  {
+    id: "gov-123",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "The change request for the freight-tracking dashboard has been approved. Which of the following should the project manager update to reflect the approved change? (Select three.)",
+      zh: "貨運追蹤儀表板的變更請求已經核准。以下哪三項是專案經理應該更新以反映這項核准變更的項目?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The scope baseline",
+          zh: "範疇基準",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The schedule baseline",
+          zh: "時程基準",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The cost baseline",
+          zh: "成本基準",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The project charter",
+          zh: "專案章程",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "已核准的變更必須在工作開始前反映到專案的範疇、時程與成本基準,確保專案往後是依正確的目標被衡量,也讓核准的變更正式併入專案管理計畫。專案章程是在專案啟動階段確立,不會因為範疇變更而更新,範疇變更所帶來的影響是反映在範疇基準,而不是回頭修改章程。",
+    caseId: "cs-a",
+    caseContext: {
+      en: "A project manager is leading a 14-month supply chain management system integration for a mid-sized apparel retailer. The project sponsor, the company's Chief Operating Officer, is under pressure from the board to reduce warehouse fulfillment delays before the holiday season. The approved scope covers inventory synchronization, vendor order automation, and staff training across two distribution centers.\n\nSix months into execution, the COO asks the team to add a real-time freight-tracking dashboard that was explicitly excluded from the approved scope, calling it a small addition that does not need formal review. The project manager estimates the dashboard would require four additional weeks and $60,000 in unbudgeted development cost.\n\nThe COO has since started attending the team's biweekly working sessions directly and assigning tasks to developers without going through the project manager. When the project manager raised the concern, the COO responded that the holiday deadline is fixed and the team should focus on results rather than process. The project manager has noted the COO's direct task assignments in personal meeting notes but has not taken further action. With the holiday deadline approaching and developers receiving conflicting instructions from the project manager and the COO, the project manager must decide how to proceed.",
+      zh: "一位專案經理正在為一家中型服飾零售商執行一項為期14個月的供應鏈管理系統整合專案。專案贊助人,也就是公司的營運長,正承受董事會的壓力,必須在假日銷售旺季前降低倉儲出貨延誤。已核准的範疇涵蓋庫存同步、供應商訂單自動化,以及兩個配送中心的員工訓練。\n\n專案執行到第六個月時,營運長要求團隊加入一個即時貨運追蹤儀表板,這項功能明確被排除在已核准範疇之外,營運長稱這只是個小增項,不需要正式審查。專案經理估計這個儀表板需要額外四週時間與 $60,000 未編列預算的開發成本。\n\n此後,營運長開始直接出席團隊的雙週工作會議,並跳過專案經理直接指派任務給開發人員。當專案經理提出疑慮時,營運長回應假日截止日期不能更動,團隊應該專注在成果而非流程上。專案經理已經在個人會議筆記中記下營運長直接指派任務的情況,但尚未採取進一步行動。隨著假日截止日期逼近,開發人員同時收到專案經理與營運長互相矛盾的指示,專案經理必須決定該如何處理。",
+    },
+  },
+  {
+    id: "gov-124",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading a healthcare facility construction project. The organization recently adopted a new data privacy framework that adds documentation and approval steps to several project processes. The lead contractor approaches the project manager and argues that the new requirements are unnecessary overhead that will delay delivery and asks whether they can be reduced or skipped for lower-risk activities. What should the project manager do?",
+      zh: "一位專案經理正在領導一項醫療院所建設專案。組織最近採用了一套新的資料隱私框架,為多項專案流程增加了文件與核准步驟。主承包商向專案經理表示,這些新要求是不必要的額外負擔,將會拖延交付進度,並詢問是否可以針對風險較低的活動減少或省略這些步驟。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Calculate the cost savings from avoiding potential privacy violations and share the analysis with the team.",
+          zh: "計算避免潛在隱私違規可能節省的成本,並將分析結果分享給團隊",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Implement automated compliance tracking tools to minimize the time the team spends on documentation.",
+          zh: "導入自動化合規追蹤工具,盡量減少團隊花在文件作業上的時間",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Educate the team and contractors on the purpose of the privacy requirements to build understanding and alignment.",
+          zh: "教育團隊與承包商了解隱私要求背後的目的,以建立共識與一致性",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Identify ways to integrate the compliance activities into existing workflows to reduce perceived disruption.",
+          zh: "找出方法將合規活動整合進現有工作流程,降低團隊感受到的干擾",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "當強制性要求遭遇抵制時,根本原因通常是團隊不理解這些要求存在的意義,教育正是直接處理這個根本原因的做法。如果沒有建立起共同的理解,無論是導入工具或調整工作流程,都只能暫時降低摩擦,底層的認知落差依然存在,日後很可能以抵抗或偷工減料的方式重新浮現。選項(a)提供的是財務論證,但財務誘因不能建立起對要求本身的真正理解,承包商如果只是因為划算才配合,遇到情況允許時仍然會想辦法規避。選項(b)的合規追蹤工具或許之後有幫助,但在利害關係人尚未認同與理解要求之前就先導入解決方案,順序本末倒置,承包商仍可能一邊使用工具一邊抵制。選項(d)把合規活動整合進既有流程同樣是有用的做法,但這應該在雙方已經取得共識之後才進行,不該在對方還在質疑要求有沒有必要時,就急著把要求簡化融入日常作業。",
+  },
+  {
+    id: "gov-125",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A luxury hospitality brand is renovating its flagship hotel to reinforce its identity as a premium, heritage-focused destination. The renovation involves design decisions, contractor selections, and material choices across an 18-month project. The project manager must ensure all decisions and deliverables consistently reflect the brand identity throughout delivery. What should the project manager do?",
+      zh: "一個高端飯店品牌正在翻新其旗艦飯店,以強化其作為高端、注重傳承特色目的地的品牌形象。這項為期18個月的翻新專案涉及設計決策、承包商選擇與材料選用。專案經理必須確保所有決策與交付成果在整個交付過程中,都能持續呼應品牌形象。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Hold weekly status meetings with contractors to communicate brand standards and collect feedback on progress.",
+          zh: "與承包商召開每週狀態會議,溝通品牌標準並蒐集進度回饋",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Schedule regular check-ins with the hotel's CEO to ensure executive alignment and facilitate high-level decision-making.",
+          zh: "安排與飯店執行長的定期會談,確保高層一致並促進高階決策",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Regularly compare design decisions, contractor outputs, and deliverables against the brand vision and standards documented during project initiation.",
+          zh: "定期將設計決策、承包商產出與交付成果,對照專案啟動階段所記錄的品牌願景與標準進行比對",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Update the project charter whenever design preferences evolve to ensure documentation reflects the current brand direction.",
+          zh: "每當設計偏好有所變動時就更新專案章程,確保文件反映當前的品牌方向",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "在啟動階段建立的願景聲明與標準,是判斷專案是否達成目標的權威依據。要在整個交付期間持續確保一致性,關鍵機制是有系統地把進度與交付成果拿來對照這些既有文件,而不是單靠臨時溝通或仰賴高層治理就能做到。選項(a)每週與承包商開會固然能傳達期待,但這只是溝通,不等於建立起一套有系統的比對機制,一旦缺乏結構化的比對流程,執行結果仍然可能逐漸偏離標準而不被察覺。選項(b)與執行長的定期會談有助於高層治理與重大決策,但並非設計用來在工作層級逐項檢視具體的設計決策與交付成果是否符合已記錄的品牌願景。選項(d)的專案章程是啟動階段用來授權專案的文件,如果每次品牌偏好出現變動就去修改章程,反而會破壞章程原本應該提供的穩定基準功能,這是誤用了這份文件。",
+  },
+  {
+    id: "gov-126",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading the third phase of a long-running infrastructure modernization program. Most of the current team joined recently and was not involved in the first two phases. Several significant architectural decisions were made during earlier phases that will affect current planning. What should the project team do first?",
+      zh: "一位專案經理正在領導一項長期基礎建設現代化計畫(program)的第三階段。目前團隊中大多數成員都是最近才加入,並未參與前兩個階段。前兩個階段做出了幾項重大的架構決策,這些決策將會影響目前的規劃工作。專案團隊應該首先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Review the final deliverables from the earlier phases to understand what was built.",
+          zh: "檢視前幾個階段的最終交付成果,了解過去實際建置了什麼",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Review the program's documentation repository including phase reports, decision logs, and retrospectives.",
+          zh: "檢視計畫的文件庫,包括階段報告、決策日誌與回顧紀錄",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Arrange meetings with team members who worked on the earlier phases to discuss their experiences directly.",
+          zh: "安排與參與過前幾個階段的團隊成員開會,直接討論他們的經驗",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Analyze the differences between the original program plan and what was actually delivered in each phase.",
+          zh: "分析原始計畫與各階段實際交付結果之間的差異",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "組織已經文件化的知識資產,是了解前幾個階段發生了什麼事、以及背後原因的主要來源。階段報告、決策日誌與回顧紀錄,以結構化且完整的形式保存了架構決策背後的考量與取捨,而且不需要依賴前任團隊成員是否還在或是否有空。選項(a)檢視最終交付成果只能看到「建置了什麼」,看不到當初做決策的理由、權衡與教訓,而這些正是文件庫能提供的內容。選項(c)找前團隊成員開會固然有幫助,但應該是在檢視現有文件之後的補充做法,畢竟前成員未必還在,個人記憶也不如正式紀錄可靠。選項(d)只比較原始計畫與實際交付結果,範圍過於狹窄,無法涵蓋計畫知識庫中完整的決策脈絡與經驗教訓。",
+  },
+  {
+    id: "gov-127",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager at a pharmaceutical company is developing a governance framework for a new drug development program. Before building new governance structures, the project manager wants to leverage whatever existing guidance is available within the organization. What should the project manager do first?",
+      zh: "一家製藥公司的專案經理,正在為一項新藥開發計畫建立治理框架。在建立新的治理架構之前,專案經理希望先善用組織內部既有的任何指引。專案經理應該首先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Research governance standards published by pharmaceutical regulatory bodies.",
+          zh: "研究製藥法規機構所發布的治理標準",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Review academic literature on governance best practices in regulated industries.",
+          zh: "檢閱受監管產業中關於治理最佳實務的學術文獻",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Review governance frameworks, policies, and templates used in previous drug development programs.",
+          zh: "檢視過去新藥開發計畫所使用的治理框架、政策與範本",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Evaluate project management software platforms that can support governance tracking and reporting.",
+          zh: "評估能支援治理追蹤與報告的專案管理軟體平台",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "來自過去相似計畫的組織過程資產,是最直接可用的起點。這些資產包含組織已經開發並經過實務驗證的治理架構、政策與範本,不僅能節省時間,也能確保新的治理框架立足於組織內部已被證實可行的做法。選項(a)法規機構發布的標準屬於事業環境因素,也就是外部輸入,而題目明確要求的是「組織內部既有的指引」,並非外部規範。選項(b)學術文獻提供的是外部的最佳實務參考,同樣不是專案經理要優先善用的組織內部既有指引。選項(d)評估專案管理軟體平台是在支援治理的執行面,屬於實作工具,而不是治理框架內容本身的來源。",
+  },
+  {
+    id: "gov-128",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is overseeing a software quality initiative. The operations director has asked the project manager to use six months of defect data to build a systematic approach to improving development processes. The approach must include diagnosing process gaps, piloting fixes, verifying their effectiveness, and making successful changes permanent. What should the project manager do?",
+      zh: "一位專案經理正在負責一項軟體品質改善計畫。營運總監要求專案經理運用六個月的缺陷資料,建立一套有系統的方法來改善開發流程。這套方法必須包含診斷流程缺口、試行修正方案、驗證成效,以及將成功的變更予以制度化。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Set SMART objectives tied to defect reduction targets for each development team.",
+          zh: "為每個開發團隊設定與缺陷減少目標相連結的SMART目標",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Embed the plan-do-check-act cycle into the development workflow to systematically diagnose, test, verify, and institutionalize process improvements.",
+          zh: "將PDCA(計畫-執行-查核-行動)循環嵌入開發工作流程,有系統地診斷、測試、驗證並制度化流程改善",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Benchmark the team's defect rates against industry standards to identify where improvement efforts should be focused.",
+          zh: "將團隊的缺陷率與產業標準進行標竿比較,找出應該聚焦改善的方向",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Apply root cause analysis whenever a defect spike occurs to prevent the same problems from recurring.",
+          zh: "每當缺陷數量激增時就進行根本原因分析,以防止同樣的問題再次發生",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "營運總監描述的四項活動,恰好對應PDCA循環的四個步驟:診斷流程缺口對應「計畫(Plan)」,試行修正方案對應「執行(Do)」,驗證成效對應「查核(Check)」,將變更予以制度化對應「行動(Act)」。把這個循環嵌入工作流程,正好能建立起這項計畫所需要的、有系統且可重複執行的改善結構。選項(a)設定SMART目標能建立可衡量的目標,但並沒有涵蓋營運總監所指定的那些活動內容。選項(c)標竿比較能找出相對於外部標準的落差所在,但無法建立起用來測試與制度化修正方案的循環機制。選項(d)根本原因分析是一種被動式工具,只在問題發生時才啟動,處理的是個別事件,而不是把主動、持續的改善文化嵌入到日常工作流程之中。",
+  },
+  {
+    id: "gov-129",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is overseeing a pharmaceutical product development project. The core research team and a remote regulatory compliance team frequently exchange updated technical documents, and both teams must approve documents before submission. Delayed approvals trigger costly timeline extensions. Which practice would assure the project manager that all documents are current, available, and properly approved?",
+      zh: "一位專案經理正在負責一項製藥產品開發專案。核心研究團隊與一個遠端的法規合規團隊經常互相交換更新過的技術文件,而且兩個團隊都必須核准文件之後才能送件。核准延遲會導致代價高昂的時程延長。哪一項做法能讓專案經理確信所有文件都是最新版本、可以取得、並且已經正確核准?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Allow each team to develop their own document management system tailored to their workflow.",
+          zh: "讓每個團隊各自開發符合自身工作流程的文件管理系統",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Require each team member to maintain personal copies of all relevant documents and flag updates to their team lead.",
+          zh: "要求每位團隊成員自行保管所有相關文件的個人副本,並將更新回報給團隊主管",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Assign the project sponsor to oversee a shared document repository and approve all version changes.",
+          zh: "指派專案贊助人負責監督共用文件庫,並核准所有版本變更",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Establish and oversee a single document registry and change control system that both teams access and use.",
+          zh: "建立並親自監督一套單一的文件登錄與變更管制系統,供兩個團隊共同存取使用",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "由專案經理親自監督的單一文件登錄系統,能為兩個團隊建立起唯一的真實來源(single source of truth)。所有文件的版本、更新與核准都透過同一套系統流轉,這代表專案經理隨時都能確認文件是最新的,並且已經取得雙方核准,不會再因為版本不一致或追蹤上的落差而延誤。選項(a)讓兩個團隊各自打造符合自身偏好的系統,反而會造成版本不一致,一旦兩個團隊各自獨立管理文件,就沒有可靠的方法確認雙方使用的是同一個最新版本。選項(b)個人保管副本並回報團隊主管,文件會隨著時間逐漸分歧,而且回報主管的做法並不構成受控的系統,也無法讓專案經理掌握核准狀態的全貌。選項(c)把文件監督責任交給專案贊助人,等於把專案管理層級的職責加諸在一個執行層級的角色上,贊助人通常缺乏足夠的時間與作業層面的脈絡,難以進行文件層級的細部管控。",
+  },
+  {
+    id: "gov-130",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is overseeing a commercial building renovation. During a contract document review, the project manager realizes the electrical contractor currently working on the project is not on the organization's approved vendor list. The contractor has been performing well and no issues have occurred. What should the project manager do first?",
+      zh: "一位專案經理正在負責一項商業大樓翻新專案。在合約文件審查過程中,專案經理發現目前正在專案中工作的電力承包商,並不在組織的核准供應商名單上。這家承包商的表現一直很好,也沒有發生過任何問題。專案經理應該首先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Document the situation as a compliance risk and assess what corrective action may be needed.",
+          zh: "將此情況記錄為合規風險,並評估可能需要採取的矯正措施",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Continue working with the vendor since no performance issues have occurred and raise the concern at the next scheduled project review.",
+          zh: "由於尚未出現任何績效問題,先繼續與這家供應商合作,並在下次排定的專案審查會議中提出這項疑慮",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Submit a change request to replace the vendor with one from the approved vendor list.",
+          zh: "提交變更請求,將這家供應商替換為核准名單上的供應商",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Halt work with the vendor until their approval status is formally resolved through the organization's vendor onboarding process.",
+          zh: "暫停與這家供應商的合作,直到其核准狀態透過組織的供應商審核流程正式解決為止",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "雖然目前沒有出現任何績效問題,但供應商是否在核准名單上,是一項獨立於績效表現之外的合規要求。先將這件事記錄為合規風險,並評估相關政策的影響,才能確保後續的應對方式是相稱且經過充分了解的。選項(b)因為績效表現良好就延後處理,等於把一項治理要求當成可有可無的選項,供應商是否核准是治理層面的義務,不會因為表現好壞而改變。選項(c)在情況都還沒被充分評估之前就直接提交變更請求要求換掉供應商,做法過於躁進,如果還有其他矯正途徑可以採用,換掉供應商未必是必要的做法。選項(d)在情況尚未被評估之前就直接暫停合作,同樣是不相稱的反應,在採取會打斷專案進行的行動之前,應該先了解暫停合作對合約與商業層面可能造成的衝擊。",
+  },
+  {
+    id: "gov-131",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Halfway through a project, the project manager discovers that a deliverable accepted by the customer last month does not meet a documented quality requirement. The defect was missed during quality control. What should the project manager do first?",
+      zh: "專案進行到一半時,專案經理發現上個月已經被客戶驗收的一項交付成果,其實並不符合文件所記載的品質要求。這個缺陷在品質管制階段被漏掉了。專案經理應該首先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Determine the root cause of why the defect was not detected.",
+          zh: "找出這個缺陷當初為什麼沒有被偵測出來的根本原因",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Apologize to the customer and offer a discount on the contract.",
+          zh: "向客戶道歉,並在合約上提供折扣",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Quietly rework the deliverable before anyone else notices.",
+          zh: "在其他人發現之前,悄悄把交付成果重新做過",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Update the quality management plan to prevent future defects.",
+          zh: "更新品質管理計畫,以預防未來再發生類似缺陷",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "了解品質管制當初為什麼沒能攔截這個缺陷,是必要的第一步,因為根本原因會同時決定這項交付成果該如何補救、以及需要做哪些流程調整才能避免同樣的缺口再次發生。如果在還不了解問題的情況下就貿然行動,很可能會重蹈覆轍。選項(b)道歉並提供折扣,是在專案經理還沒搞清楚問題所在、甚至還不確定這樣的回應是否恰當之前,就直接跳到商業層面的讓步。選項(c)悄悄重做交付成果,等於對客戶隱瞞已知的品質問題,違反透明原則與專業責任。選項(d)更新品質管理計畫雖然是之後合理的步驟,但如果在根本原因還沒釐清之前就先動手修改,更新的內容很可能無法真正對症下藥,處理到真正造成問題的原因。",
+  },
+  {
+    id: "gov-132",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager introduces an AI chatbot that answers routine stakeholder questions regarding milestones, deliverables, and project status. During a steering committee meeting, several stakeholders state they did not realize AI was responding to many of their questions and express concern about how project information is being communicated. What should the project manager do?",
+      zh: "一位專案經理導入了一個AI聊天機器人,用來回答利害關係人關於里程碑、交付成果與專案狀態的例行問題。在一次指導委員會會議中,幾位利害關係人表示他們並不知道自己先前有許多問題其實是由AI回覆的,並對專案資訊的溝通方式表達了疑慮。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Continue using the chatbot because the information provided is accurate.",
+          zh: "繼續使用這個聊天機器人,因為它提供的資訊是正確的",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Explain how AI supports project communications and when it is being used.",
+          zh: "說明AI如何協助專案溝通,以及在什麼情況下會使用AI",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Disable the chatbot until every stakeholder approves its use.",
+          zh: "停用這個聊天機器人,直到所有利害關係人都同意使用為止",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Limit AI responses to internal project team members only.",
+          zh: "將AI的回覆範圍限制在內部專案團隊成員之內",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "負責任地使用AI,前提是保持透明。利害關係人應該清楚了解AI在什麼時候、以什麼方式協助專案溝通,這樣才能維持大家對專案資訊的信任與信心。選項(a)資訊正確與否,並不能滿足透明度的要求,問題的核心是利害關係人不知情,而不是資訊本身是否準確。選項(c)要求所有利害關係人都先同意才能使用AI,這並不是負責任使用AI所必須具備的前提條件。選項(d)把AI的使用範圍限縮在內部團隊,並沒有真正解決利害關係人所提出的溝通疑慮,問題依然存在。",
+  },
+  {
+    id: "gov-133",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is informed by a team member that a small but deliberate shortcut was taken on a safety-related deliverable to save time, and it was not reported. What should the project manager do?",
+      zh: "一位團隊成員告訴專案經理,為了節省時間,在一項與安全相關的交付成果上刻意抄了一個小捷徑,而且這件事並沒有被回報。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Allow the shortcut to stand since the deliverable appears to function.",
+          zh: "因為交付成果看起來能正常運作,就讓這個抄捷徑的做法維持原樣",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Quietly correct the deliverable without involving anyone else.",
+          zh: "在不讓其他人知道的情況下,悄悄把交付成果修正過來",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Address the safety issue transparently and ensure it is corrected.",
+          zh: "公開透明地處理這項安全問題,並確保它被確實修正",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reprimand the team member and consider the matter closed.",
+          zh: "訓誡這位團隊成員,並視此事已經處理完畢",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "安全與誠信是專案經理不可妥協的專業責任。專案經理必須公開處理這個問題,確保交付成果被修正到應有的標準,並做適當的紀錄,不論當初抄捷徑的原因是不是時間壓力,都不能作為理由。選項(a)讓這個抄捷徑的做法維持原樣,等於接受了一項刻意對安全所做的妥協,這是不能被接受的。選項(b)悄悄修正,等於隱瞞了一項本應公開透明處理的安全問題,而且這類事情很可能後續還是需要對外揭露。選項(d)訓誡團隊成員並視為結案,懲罰了當事人,卻沒有確認這項攸關安全的交付成果是否真的已經被修正過來。",
+  },
+  {
+    id: "gov-134",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is implementing a new customs clearance system for an international logistics company. During planning, the team learns that the customs authority might revise electronic filing regulations within the next six months, but nothing has been officially announced and it is unclear whether the change will actually happen. Where should the project manager record this uncertainty?",
+      zh: "一位專案經理正在為一家跨國物流公司建置新的通關作業系統。在規劃階段,團隊得知海關總署可能在未來六個月內調整電子申報規定,但目前尚未正式公告任何細節,也不確定是否真的會實施。專案經理應該把這項不確定性記錄在哪一份文件?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The issue log",
+          zh: "議題日誌",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The risk register",
+          zh: "風險登錄冊",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The change log",
+          zh: "變更日誌",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The lessons learned register",
+          zh: "經驗學習登錄冊",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "這是一個尚未發生、且高度不確定的未來事件,屬於風險而非已經發生的問題,因此應該記錄進風險登錄冊,並展開後續的風險評估與因應規劃。議題日誌記錄的是已經實際發生且需要處理的問題;變更日誌追蹤的是已核准或駁回的範疇/時程/成本基準變更,這裡並沒有任何變更請求;經驗學習登錄冊保存的是可供未來專案參考的知識,而不是用來追蹤中的不確定事件。",
+  },
+  {
+    id: "gov-135",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Drag and match each of the following 4 situations to the project document that would most appropriately be used to record it.",
+      zh: "請將下列 4 種情境拖曳配對到最適合用來記錄的專案文件。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "A key supplier just informed the team that a critical component shipment will be delayed by three weeks, and the delay is already confirmed.",
+            zh: "一位主要供應商剛通知團隊,一項關鍵零件的出貨將延遲三週,而且這項延誤已經確定發生",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "There is a possibility that a new export tariff could be introduced next year, but nothing has been confirmed yet.",
+            zh: "明年有可能會實施一項新的出口關稅,但目前尚未確定",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "The change control board approved an addition to the project scope last week.",
+            zh: "變更控制委員會上週核准了一項範疇增項",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "At the end of the project, the team documented what worked well and what should be improved for future similar projects.",
+            zh: "專案結束時,團隊記錄下哪些做法成效良好、哪些地方應該在未來類似專案中改進",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Issue log",
+            zh: "議題日誌",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Risk register",
+            zh: "風險登錄冊",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Change log",
+            zh: "變更日誌",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Lessons learned register",
+            zh: "經驗學習登錄冊",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "四份文件對應四種不同性質的情境。已經確定發生且需要處理的供應商延誤屬於議題,應記錄進議題日誌;尚未發生、也不確定是否會發生的關稅政策屬於風險,應記錄進風險登錄冊;已核准的範疇變更應記錄進變更日誌,用來追蹤基準的異動歷程;專案結束時整理出的經驗與教訓是為了讓未來類似專案參考,應記錄進經驗學習登錄冊。這四份文件的關鍵差異在於:事情是否已經發生、是否確定、以及是否涉及基準變更。",
+  },
+  {
+    id: "gov-136",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A fintech company is simultaneously developing a mobile payment app and a companion physical point-of-sale device. The software team works in two-week sprints and continuously delivers features from a prioritized product backlog. The hardware team must follow formal regulatory testing and sign-off gates, manufacturing only after an approved technical baseline passes certification review. Which development approach is this project using?",
+      zh: "一家金融科技公司同時開發一款行動支付應用程式,以及搭配使用的實體收款裝置。軟體團隊以兩週為一個衝刺週期,依據產品待辦清單持續交付功能;硬體團隊則必須依循正式的法規檢測與簽核關卡,在核准的技術基準通過驗證機構審查後才能量產。這個專案採用的是哪一種開發方法?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Purely agile",
+          zh: "純敏捷型",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Hybrid",
+          zh: "混合型",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Purely predictive",
+          zh: "純預測型",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Incremental",
+          zh: "增量型",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "軟體團隊的衝刺週期與產品待辦清單是敏捷元素的特徵,硬體團隊的正式基準審查與法規簽核關卡則是預測式(計畫驅動)元素的特徵。同一個專案裡,不同元件依各自的特性採用不同的開發方法,這正是混合型開發方法的定義。純敏捷型無法涵蓋硬體端的正式基準審查要求;純預測型無法涵蓋軟體端的衝刺與待辦清單;增量型描述的是分批釋出交付物的方式,而不是情境中依元件特性分別採用不同管理方法的組合模式。",
+  },
+  {
+    id: "gov-137",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "An independent game studio is developing a mobile game. The team is a small, self-organizing group that works from a prioritized product backlog, completes a sprint every two weeks, holds a retrospective after each sprint, and adjusts upcoming sprint content based on real-time player feedback. Which development approach best fits this project?",
+      zh: "一家獨立遊戲工作室正在開發一款手機遊戲。團隊是一個自組織的小型團隊,依據優先順序排列的產品待辦清單進行開發,每兩週完成一個衝刺,並在每次衝刺結束後召開回顧會議,依玩家的即時回饋調整下一個衝刺要交付的功能。這個專案最符合哪一種開發方法?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Agile",
+          zh: "敏捷型",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Predictive",
+          zh: "預測型",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Hybrid",
+          zh: "混合型",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Waterfall",
+          zh: "瀑布型",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "自組織團隊、依優先順序排列的產品待辦清單、固定長度的衝刺、衝刺回顧,以及依回饋快速調整交付內容,都是敏捷方法的核心特徵。情境中沒有出現任何已核准的固定範疇基準或正式階段審查等預測式元素,因此不構成混合型;瀑布型是預測型的另一種說法,與情境描述的迭代交付方式相反。",
+  },
+  {
+    id: "gov-138",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading the installation of a new onboard entertainment system across a cruise line's fleet. The captain of one ship urgently requests adding a live sports streaming feature before the ship departs for peak season in two weeks, stating there is no time for a formal review. What should the project manager do?",
+      zh: "一位專案經理正在負責為一家郵輪公司的船隊安裝新的船上娛樂系統。其中一艘船的船長要求緊急加入一項現場體育賽事直播串流功能,並表示因為船隻兩週後就要出航進入旺季,沒有時間走正式審查流程。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Implement the feature immediately given the time pressure, and submit a change request afterward.",
+          zh: "因為時間緊迫,先實施這項功能,之後再補提交變更請求",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Follow the integrated change control process to assess the impact on scope, schedule, and cost before implementing.",
+          zh: "依循整合變更管制流程,先評估這項增項對範疇、時程與成本的影響,再交由適當層級核准",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Refuse the request since the captain is not the project sponsor and has no authority to request scope changes.",
+          zh: "拒絕這項要求,因為船長不是專案贊助人,沒有權力提出範疇變更",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Quietly ask the development team to fast-track the work through informal channels to avoid delaying departure.",
+          zh: "私下請開發團隊利用非正式管道加快開發,避免延誤出航時間",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "不論時間有多緊迫、提出者身分為何,任何對已核准範疇的變更都必須先透過整合變更管制流程進行正式評估,確認對範疇、時程、成本等各方面的影響後,再由適當的決策層級核准或駁回。先斬後奏會讓專案在缺乏正式評估的情況下承擔未知風險;直接以身分不符為由拒絕,忽略了這項需求仍然應該被正式提出與評估的可能性;透過非正式管道加快開發同樣是在規避正式的變更管制程序。",
+  },
+  {
+    id: "gov-139",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading an equipment upgrade project at a semiconductor fab. The plant manager cites yield concerns and urgently demands the addition of an extra testing chamber, stating the request is non-negotiable. Regardless of who is requesting the change or how urgent it seems, which three actions should the project manager take before implementing it? (Select three.)",
+      zh: "一位專案經理正在負責一家半導體廠的設備升級專案。廠長以良率問題為由,要求緊急加入一座額外的測試腔體,並表示這項要求沒有討論空間。不論這項變更的提出者職位多高、要求多麼緊急,專案經理在正式實施前應該採取以下哪三項做法?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Submit a formal change request into the change control process.",
+          zh: "提交正式的變更請求,將這項增項納入變更管制流程",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Assess the impact of the addition on scope, schedule, and cost.",
+          zh: "評估這項增項對範疇、時程與成本的影響",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Obtain approval from the change control board or an equivalent authorized body.",
+          zh: "取得具備核准權限的變更控制委員會或相當層級的同意",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Direct the team to begin procuring and installing the testing chamber right away to avoid delaying the yield fix.",
+          zh: "直接安排團隊開始採購與安裝測試腔體,以免耽誤良率改善時程",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "即使要求來自廠長且理由充分,任何範疇變更都必須透過正式的變更請求進入整合變更管制流程,評估對範疇、時程、成本的影響,並取得具備核准權限的機構或角色同意後才能實施。直接安排團隊開始採購與安裝,等於跳過了整個評估與核准程序,是必須避免的做法。",
+  },
+  {
+    id: "gov-140",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading a hospital-wide electronic health record (EHR) rollout. The project sponsor, the hospital's CFO, has repeatedly bypassed the project manager, directly instructing nursing informatics staff and IT analysts to prioritize one department's configuration ahead of the agreed rollout sequence. The project manager already raised this with the CFO, who dismissed the concern, citing pressure to show quick wins to the board. What should the project manager do next?",
+      zh: "一位專案經理正在負責一家醫院全院電子病歷系統的導入專案。專案贊助人,也就是財務長,近來屢次跳過專案經理,直接指示護理資訊人員與資訊分析師,優先處理某個科別的系統設定,打亂了原本議定的導入順序。專案經理已經向財務長反映這個問題,但財務長以需要儘快向董事會展示成果為由,不予理會。專案經理接下來應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Defer to the CFO's position and adjust the rollout sequence accordingly.",
+          zh: "尊重財務長的職位,配合調整導入順序",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Escalate the situation to the project steering committee or an equivalent governing body.",
+          zh: "把這個情況上報給專案指導委員會或相當的治理機構",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Privately ask the informatics staff and analysts to quietly revert to the original sequence afterward.",
+          zh: "私下請護理資訊人員與資訊分析師之後再悄悄調整回原本的順序",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Wait until the next scheduled project review meeting to raise the issue.",
+          zh: "等到下一次排定的專案審查會議時,再把問題提出來討論",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "當贊助人持續繞過專案經理的職權,且已經直接反映卻未獲回應時,適當的做法是把這個治理問題上報給指導委員會或相當層級的治理機構,由具備裁量權的機構介入處理。單純配合會讓專案治理架構持續被破壞;私下要求人員之後再調整回來屬於陽奉陰違,不但沒有解決根本問題,也可能造成更大的混亂;被動等待下一次排定會議無法即時處理正在發生的衝突,可能讓混亂持續擴大。",
+  },
+  {
+    id: "gov-141",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A telecom company is rolling out a 5G network across a metropolitan area in coordination with the city council. During execution, one council member frequently contacts field engineers directly to request site placement changes based on constituent complaints, bypassing both the project manager and the city's designated liaison role. What should the project manager have done at project initiation to prevent this?",
+      zh: "一家電信公司正在都會區推動一項5G基地台布建專案,過程中需要與市議會協調。專案執行期間,一位市議員經常直接聯繫現場工程師,依居民陳情要求變更基地台設置地點,完全沒有透過專案經理或城市端指定的聯絡窗口。專案經理在專案一開始應該做什麼,才能預防這種狀況發生?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Add a note in the project charter reminding council members not to contact engineers directly.",
+          zh: "在專案章程中加註提醒市議員不得直接聯繫工程師",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Establish a stakeholder engagement plan that clearly defines the council's role and the formal decision-making channel.",
+          zh: "建立利害關係人參與計畫,明確定義市議會與市議員在專案中的角色與正式的決策溝通管道",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Hold a monthly community briefing so residents have a chance to voice concerns.",
+          zh: "安排每月一次的社區說明會,讓居民有機會表達意見",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Require all council members to sign a non-disclosure agreement.",
+          zh: "要求所有市議會成員簽署保密協議",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "在規劃階段建立利害關係人參與計畫,明確定義各方(包括市議會與個別議員)的角色、溝通管道與決策權限,能在問題發生前就先劃清界線,讓現場工程師與專案經理在被跨越界線時有明確依據可以援引。專案章程只是啟動階段的授權文件,不是用來規範個別利害關係人日常互動行為的工具;社區說明會有助於蒐集民意,但無法建立起規範議員與工程團隊互動方式的正式機制;保密協議處理的是資訊保密問題,與這裡的溝通管道混亂無關。",
+  },
+  {
+    id: "gov-142",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "In a university campus renovation project, the change control board approved a change request last week to add solar panel arrays to the library roof. Which of the following documents should the project manager update to reflect this approved change?",
+      zh: "一所大學的校園整修專案中,變更控制委員會上週核准了一項在圖書館屋頂加裝太陽能板陣列的變更請求。專案經理接下來應該更新以下哪一項文件,以反映這項已核准的變更?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The project charter",
+          zh: "專案章程",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The scope baseline",
+          zh: "範疇基準",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The stakeholder register",
+          zh: "利害關係人登錄冊",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The project business case",
+          zh: "專案商業論證",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "已核准的變更必須反映到範疇基準,連同相關的時程與成本基準一併更新,確保後續的專案績效衡量是以正確、最新的基準為依據。專案章程是啟動階段用來正式授權專案的文件,不會因為個別範疇變更而修改;利害關係人登錄冊記錄的是利害關係人的資訊與參與程度,與範疇變更無關;商業論證是用來說明專案存在理由與價值的文件,同樣不會因單一範疇增項而更新。",
+  },
+  {
+    id: "gov-143",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "In an airport terminal expansion project, the change control board approved a change request to add two additional security screening lanes. Which three documents should the project manager update to reflect this approved change? (Select three.)",
+      zh: "一項機場航廈擴建專案中,變更控制委員會核准了一項增加兩條安全檢查通道的變更請求。專案經理應該更新以下哪三項文件,以反映這項已核准的變更?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The scope baseline",
+          zh: "範疇基準",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The schedule baseline",
+          zh: "時程基準",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The cost baseline",
+          zh: "成本基準",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The project charter",
+          zh: "專案章程",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "已核准的變更會影響範疇、時程與成本三項基準,專案經理必須同步更新這三項基準,確保專案管理計畫反映最新且經過核准的內容,後續的績效衡量才會以正確的基準為依據。專案章程是啟動階段的授權文件,不會因為個別的範疇變更而回頭修改。",
+  },
+  {
+    id: "gov-144",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager at an airline's customer service center is asked by the VP of customer experience to use 12 months of complaint data to build a systematic method that identifies service gaps, pilots fixes at a few call centers, confirms the improvement works, and then permanently rolls out the successful changes across all centers. What should the project manager do?",
+      zh: "一家航空公司的客服中心專案經理,被顧客體驗副總裁要求運用過去12個月的客訴資料,建立一套有系統的方法找出服務缺口、在少數幾個客服中心試行改善做法、確認成效後再將有效的做法推廣到所有中心並固定下來。專案經理應該採取以下哪一項做法?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Embed the plan-do-check-act (PDCA) cycle into the service process to systematically diagnose gaps, pilot changes, verify results, and institutionalize improvements.",
+          zh: "將PDCA(計畫-執行-查核-行動)循環嵌入客服流程,系統性地診斷缺口、試行、驗證並制度化改善做法",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Set a complaint-count KPI target for each customer service representative.",
+          zh: "針對每位客服人員設定客訴件數的KPI目標",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Benchmark the complaint data against industry service standards.",
+          zh: "將客訴資料與同業的服務水準進行標竿比較",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Hold a review meeting every time complaint volume spikes.",
+          zh: "每次發生客訴高峰時就召開檢討會議",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "副總裁描述的四項活動,分別對應PDCA循環的四個階段:找出服務缺口對應「計畫」,在少數中心試行對應「執行」,確認成效對應「查核」,推廣並固定做法對應「行動」。把PDCA循環嵌入流程,正好能建立起這項任務需要的、可重複執行的系統性改善機制,這也是持續流程改善精神的具體實踐。設定KPI目標只是建立衡量指標,並未涵蓋診斷、試行與制度化的完整循環;標竿比較只能看出與同業的落差,無法建立測試與制度化解決方案的機制;每次客訴高峰才召開檢討會議屬於被動反應,而非主動、持續的系統性改善。",
+  },
+  {
+    id: "gov-145",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading phase 4 of a multi-year dam and flood-control program. Most current engineers are newly assigned and were not involved in the first three phases, which produced major spillway-capacity design decisions that will affect current planning. What should the project team do first?",
+      zh: "一位專案經理正在領導一項多年期水壩暨防洪工程計畫(program)的第四階段。目前大多數工程師都是新指派加入,並未參與前三個階段,而前三個階段做出的溢洪道容量設計決策,將直接影響目前這個階段的規劃工作。專案團隊應該首先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Review the as-built drawings from the first three phases to understand what was actually constructed.",
+          zh: "檢視前三個階段的最終竣工圖說,了解實際建造的內容",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Review the program's documentation repository, including phase reports, design decision logs, and retrospectives.",
+          zh: "檢視計畫的文件庫,包括階段報告、設計決策日誌與回顧紀錄",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Contact senior engineers who worked on the first three phases to learn from their experience directly.",
+          zh: "聯繫參與過前三個階段的資深工程師,直接請教他們的經驗",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Conduct a new independent engineering analysis of the spillway capacity.",
+          zh: "重新針對溢洪道容量進行一次獨立的工程分析",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "計畫文件庫中的階段報告、設計決策日誌與回顧紀錄,完整保存了前幾個階段做出重大設計決策背後的考量、限制與權衡,是最直接且不需要依賴特定人員是否仍在職的資訊來源。檢視竣工圖說只能看到「蓋了什麼」,無法看到當初決策的理由與限制條件;聯繫資深工程師固然有幫助,但應該在檢視既有文件之後作為補充,而不是最先採取的做法;在還沒了解過去決策脈絡之前就重新進行獨立分析,可能做出與既有結構或限制不相容的判斷,也是重複投入資源。",
+  },
+  {
+    id: "gov-146",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A multi-year satellite communications program is entering a later phase, and most engineers on the team are newly assigned. Before scheduling any interviews, the project manager wants to first understand the major decisions from earlier phases through existing program documentation. Which three types of documents should be reviewed first? (Select three.)",
+      zh: "一項多年期衛星通訊計畫(program)進入後續階段,團隊中多數工程師都是新加入的成員。專案經理希望在安排任何訪談之前,先透過既有的計畫文件了解過去各階段的重大決策脈絡。以下哪三種文件最適合作為優先檢視的來源?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Phase reports submitted at the end of each phase",
+          zh: "各階段結束時提交的階段報告",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Decision logs documenting major decisions and their rationale",
+          zh: "記錄重大決策與其理由的決策日誌",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Retrospective records held at the end of each phase",
+          zh: "各階段結束後召開的回顧會議紀錄",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Team members' personal performance appraisal records",
+          zh: "團隊成員的個人績效考核紀錄",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+      "c",
+    ],
+    selectCount: 3,
+    explanation: "階段報告、決策日誌與回顧紀錄,共同構成了計畫層級的知識庫,完整記載過去各階段做了哪些決策、原因是什麼,以及當時學到的經驗教訓,能幫助新加入的工程師在不依賴前任成員個人記憶的情況下,快速掌握脈絡。個人績效考核紀錄是人力資源管理用途的機密文件,既不適合也不應該被用來了解專案的技術或決策脈絡。",
+  },
+  {
+    id: "gov-147",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager at a regional bank is tasked with establishing a governance framework for a new open banking and fintech partnership program. Before designing new governance structures, the project manager wants to leverage whatever internal guidance already exists. What should the project manager do first?",
+      zh: "一家區域銀行的專案經理,正在為一項新的開放銀行暨金融科技夥伴合作計畫建立治理框架。在設計新的治理架構之前,專案經理希望先善用組織內部既有的任何指引。專案經理應該首先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Research open banking governance guidance published by financial regulators.",
+          zh: "研究金融監理機關發布的開放銀行治理指引",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Review the governance frameworks, policies, and templates used in the bank's past merger integration or system conversion programs.",
+          zh: "檢視銀行過去執行併購整合或系統轉換計畫時所使用的治理框架、政策與範本",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Consult fintech governance white papers published by industry consulting firms.",
+          zh: "參考產業顧問公司發表的金融科技治理白皮書",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Evaluate software platforms on the market that support governance tracking and reporting.",
+          zh: "評估市面上支援治理追蹤與報告的軟體平台",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "組織過去執行類似計畫時所累積的治理框架、政策與範本,屬於已經在組織內部驗證過的過程資產,是最直接可用的起點,能節省時間並確保新框架立足於組織熟悉且可行的做法之上。監理機關的指引屬於外部的事業環境因素,並非題目所要求的「組織內部既有指引」;顧問公司白皮書同樣是外部的參考資料;評估軟體平台處理的是治理執行的工具面,而不是治理框架本身的內容來源。",
+  },
+  {
+    id: "gov-148",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager producing a feature film works with an overseas VFX studio and a separate sound design studio. All three parties frequently exchange updated cut versions and asset files, and both studios must sign off on a version before it is locked. Which practice would best ensure that all versions are current, accessible, and properly approved by all parties?",
+      zh: "一位專案經理正在製作一部電影,需要與一間海外的特效工作室,以及另一間獨立的混音工作室協作。三方經常互相交換更新過的剪輯版本與素材檔案,而且特效與混音工作室都必須在版本鎖定前完成確認。哪一項做法最能確保所有版本都是最新的、可以取得的,並且已經正確被各方確認?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Let each studio maintain version records in whatever way is convenient for them.",
+          zh: "讓每間工作室依照自己習慣的方式各自保管版本紀錄",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Establish and personally oversee a single shared document registry and version control system used by all three parties.",
+          zh: "由專案經理親自監督,建立並使用一套三方共用的單一文件登錄與版本管制系統",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Hold a weekly video call to verbally confirm which version each party is currently using.",
+          zh: "每週召開視訊會議,口頭確認各方目前使用的版本",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Assign one of the studios to be the custodian of the master version for all assets.",
+          zh: "指派其中一間工作室負責保管所有素材的主版本",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "由專案經理親自監督的單一共用文件登錄與版本管制系統,能為三方建立唯一的真實來源,所有版本的更新與確認都透過同一套系統進行,讓專案經理隨時能掌握目前哪個版本才是最新且已核准的版本。讓各工作室各自保管紀錄,容易造成版本分歧且難以追蹤;每週口頭確認版本不是受控的系統,容易因為記憶或溝通落差出錯;指派其中一間工作室保管主版本,等於把跨團隊協調的職責交給其中一方,可能造成利益衝突或資訊不對等,也不是專案經理應有的做法。",
+  },
+  {
+    id: "gov-149",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager overseeing the construction of a solar farm discovers, during a contract audit, that the subcontractor responsible for panel-mounting installation is not on the organization's approved vendor list. The subcontractor has performed reliably with no issues to date. What should the project manager do first?",
+      zh: "一位專案經理正在負責一座太陽能發電場的建置專案。在合約稽核過程中,專案經理發現負責面板支架安裝的分包商並不在組織的核准供應商名單上。這家分包商至今表現穩定,也沒有發生過任何問題。專案經理應該首先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Leave the situation as is since the subcontractor is performing well, and address it at the next vendor review cycle.",
+          zh: "因為分包商表現良好,先維持現狀,等到下次供應商評鑑週期再處理",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Document the situation as a compliance risk and assess what corrective action may be needed.",
+          zh: "將此情況記錄為合規風險,並評估可能需要採取的因應措施",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Immediately terminate the contract and switch to a vendor on the approved list.",
+          zh: "立即終止與這家分包商的合約,改用核准名單上的廠商",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Ask the subcontractor to quietly submit the approval paperwork without formally reporting the situation.",
+          zh: "要求分包商私下補件申請,先不對外正式呈報這個情況",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "供應商是否在核准名單上,是一項獨立於績效表現之外的合規要求,無論表現多好都不能取代這項要求。先將情況記錄為合規風險並評估影響與因應做法,才能確保後續處理方式相稱且經過充分了解。因為表現良好就延後處理,等於把治理要求當成可有可無的選項;在還沒完整評估之前就立即終止合約,可能對工期與成本造成不必要的衝擊;私下要求補件而不正式呈報,則是規避了應有的透明處理程序,可能讓合規缺口持續存在而未被記錄。",
+  },
+  {
+    id: "gov-150",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager oversees the manufacturing of a brake component supplied to an automaker. A batch shipped and accepted by the automaker two months ago is now found to have a dimensional defect that should have been caught during in-plant quality control but was not. What should the project manager do first?",
+      zh: "一位專案經理負責一項汽車煞車零件的製造專案,兩個月前已交貨且被原廠客戶驗收的一批零件,近日被發現尺寸公差不符合品質要求,而這個缺陷原本應該在廠內品質管制階段被攔截下來,卻沒有被發現。專案經理應該首先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Immediately notify the customer and propose a replacement and compensation plan.",
+          zh: "立即通知客戶並提出更換零件的賠償方案",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Determine the root cause of why the defect was not detected during quality control.",
+          zh: "找出這批零件的缺陷當初為什麼沒有在品質管制階段被偵測出來的根本原因",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Provide additional training to the quality control staff to prevent recurrence.",
+          zh: "加強品質管制人員的教育訓練,避免同樣的事再發生",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Re-inspect all unshipped inventory from the same batch.",
+          zh: "重新檢驗庫存中所有尚未出貨的同批零件",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "在採取任何補救或流程調整之前,必須先了解品質管制當初為什麼沒能攔截這個缺陷,根本原因會決定後續該如何處理這批已交付的零件、以及需要調整哪些流程環節,才能真正避免同樣的缺口再次發生。如果還沒釐清原因就直接提出賠償方案,可能無法對應到問題真正的成因,也可能不是唯一或最恰當的處理方式;直接加強教育訓練或重新檢驗庫存零件,雖然之後都可能是合理的行動,但若在根本原因尚未查明前就先執行,很可能無法真正對症下藥,甚至遺漏了其他環節的問題。",
+  },
+  {
+    id: "gov-151",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "In an insurance claims modernization project, the project manager introduces an AI tool that automatically drafts claim status summaries sent to policyholders and business stakeholders. In a review meeting, several stakeholders say they had assumed a claims adjuster personally wrote every summary they received and express concern about not being informed. What should the project manager do?",
+      zh: "一家保險公司的理賠系統現代化專案中,專案經理導入了一項AI工具,自動為保戶與業務利害關係人草擬理賠進度摘要。在一次審查會議中,多位利害關係人表示,他們原本以為每一份收到的摘要都是由理賠專員親自撰寫,對於溝通方式沒有事先被告知感到不安。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Take no further action since the content of the summaries is accurate.",
+          zh: "因為摘要內容正確無誤,不需要特別說明",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Explain to stakeholders how and when AI is used in claims communications.",
+          zh: "向利害關係人說明AI在理賠溝通中扮演的角色,以及在什麼情況下會被使用",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Disable the AI tool until every stakeholder personally reviews every summary.",
+          zh: "停用AI工具,直到所有利害關係人都親自審核每一份摘要為止",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Restrict AI-drafted summaries to internal team use only, and stop using them for any external communication.",
+          zh: "只針對內部團隊使用AI草擬摘要,不再用於任何對外溝通",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "負責任地使用AI,前提是對利害關係人保持透明,清楚說明AI在什麼時候、以什麼方式參與專案溝通,這樣才能維持大家對溝通內容的信任。摘要內容正確與否,無法取代利害關係人「不知情」這個核心問題;要求所有利害關係人親自審核每份摘要並不是使用AI所必須具備的前提,也會讓AI失去原本要達成的效率;把AI侷限在內部使用,並沒有真正回應利害關係人對於對外溝通透明度的疑慮。",
+  },
+  {
+    id: "gov-152",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager oversees the installation of fire suppression systems in a high-rise office building. A subcontractor foreman privately tells the project manager that, to meet the handover deadline, the team skipped a required pressure test on one floor and did not report it to the inspector. What should the project manager do?",
+      zh: "一位專案經理負責一棟高樓辦公大樓的消防灑水系統安裝專案。一位分包商工頭私下告訴專案經理,為了趕上交屋期限,團隊在其中一個樓層跳過了規定必須執行的管路加壓測試,而且沒有向查驗人員通報這件事。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Leave the floor as is for now due to the tight handover deadline and test it later when there is time.",
+          zh: "因為交屋期限緊迫,先讓這個樓層維持現狀,之後有機會再補測",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Privately ask the subcontractor to complete the test quickly without informing the inspector or the owner.",
+          zh: "私下要求分包商盡快補做測試,不讓查驗人員或業主知道",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Address the safety issue transparently, ensure the required test is completed, and report it truthfully to the inspector.",
+          zh: "公開透明地處理這項安全問題,確保完成必要的測試並如實通報查驗人員",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reprimand the foreman and tell him not to bring similar issues to the project manager again.",
+          zh: "訓誡這位工頭,並要求他以後不要再讓專案經理知道類似情況",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "安全相關的合規要求不能因為交期壓力而妥協,專案經理必須公開透明地處理這個問題,確保缺漏的測試被確實完成,並如實向查驗人員通報,不能因為趕工而讓一項攸關人身安全的檢測環節被隱瞞。讓樓層維持現狀不處理,等於接受了一項對安全的刻意妥協;私下要求補測而不通報查驗人員,等於隱瞞了本應公開揭露的安全缺失;訓誡工頭並要求他別再讓專案經理知情,不但沒有解決問題,反而可能助長未來類似情況被進一步隱瞞。",
+  },
+  {
+    id: "gov-153",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A theme park company is building a new themed land to reinforce its identity as a family-focused immersive experience brand. The two-year expansion involves multiple external design firms, ride manufacturers, and food and beverage vendors. The project manager must ensure that all design decisions and deliverables consistently reflect the park's thematic vision throughout construction. What should the project manager do?",
+      zh: "一家主題樂園公司正在興建一個全新的主題園區,以強化其作為家庭沈浸式體驗品牌的定位。這項為期兩年的擴建案涉及多家外部設計公司、遊樂設施製造商與餐飲廠商。專案經理必須確保各方的設計決策與交付成果,在整個興建期間都能持續呼應園區既定的主題願景。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Hold weekly coordination meetings with all external vendors to communicate the current design direction.",
+          zh: "每週與所有外部廠商召開協調會議,溝通目前的設計方向",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Schedule regular check-ins with the company's CEO to ensure executive alignment on the thematic direction.",
+          zh: "安排與公司執行長的定期會談,確保高層對主題方向的想法一致",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Regularly compare each vendor's design decisions and deliverables against the vision statement and design standards documented during project initiation.",
+          zh: "定期將各家廠商的設計決策與交付成果,對照專案啟動階段所記錄的主題願景聲明與設計標準進行比對",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Update the project charter whenever design disagreements arise to reflect the latest consensus on theming direction.",
+          zh: "每當設計出現分歧時,就更新專案章程以反映最新的主題方向共識",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "在啟動階段建立的願景聲明與設計標準,是判斷各方產出是否符合品牌定位的權威依據。要在長期且涉及多方廠商的興建過程中維持一致性,關鍵在於有系統地把各項設計決策與交付成果拿來對照這份既有文件,而不是單靠臨時溝通或高層共識。每週協調會議有助於同步進度,但不等於建立起系統性的比對機制;與執行長的定期會談有助於高層決策,但無法在工作層級逐項檢視具體設計是否符合已記錄的願景;專案章程是啟動階段用來授權專案的文件,若因設計分歧就頻繁修改,會破壞章程原本應提供的穩定基準功能,是誤用了這份文件。",
+  },
+  {
+    id: "gov-154",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Governance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager at an agricultural equipment manufacturer is leading a tractor export project. The organization recently adopted new export control compliance checks, adding review steps for shipments to certain countries. The engineering team lead argues the new checks are unnecessary bureaucracy for farm tractors, will slow delivery, and asks whether they can be skipped for shipments that are \"obviously low-risk.\" What should the project manager do?",
+      zh: "一家農業機械製造商的專案經理正在負責一項曳引機出口專案。組織最近導入了新的出口管制合規檢查,針對出貨到特定國家的品項增加了審查步驟。工程團隊主管向專案經理表示,這些新的審查步驟對一般農業曳引機來說是不必要的官僚程序,會拖慢交貨速度,並詢問是否可以針對「明顯低風險」的出貨項目省略這些步驟。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Calculate the cost of compliance-related delays and share the financial analysis with the engineering team.",
+          zh: "計算因合規延遲導致的成本,並與工程團隊分享財務分析結果",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Implement an automated export compliance screening tool to minimize the time the team spends on review paperwork.",
+          zh: "導入自動化的出口合規篩選工具,盡量減少工程團隊處理審查文件的時間",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Educate the engineering team on the purpose and applicability of the export control requirements to build shared understanding and consistent compliance.",
+          zh: "教育工程團隊了解出口管制要求背後的目的與適用範圍,以建立共識與一致的遵循態度",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Find ways to integrate the review steps into the existing shipping workflow to reduce the disruption the team feels.",
+          zh: "找出方法將合規審查步驟整合進現有的出貨流程,降低團隊感受到的干擾",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "當強制性的合規要求遭遇抵制時,根本原因通常是團隊不理解這些要求為何存在、以及為什麼即使看似低風險的項目也適用,教育正是直接處理這個根本原因的做法,能建立起工程團隊對要求的理解與一致遵循的態度。如果沒有建立起共同理解,無論是財務論證、自動化工具或流程整合,都只能暫時降低摩擦,團隊仍可能在情況允許時想辦法規避審查。選項(a)的財務分析提供的是誘因,而非對要求本身的理解;選項(b)的自動化工具或許之後有幫助,但在團隊還沒認同要求必要性之前就先導入解決方案,順序本末倒置;選項(d)把審查步驟整合進既有流程同樣是有用的做法,但應該在雙方已經取得共識之後才進行,不該在對方還質疑要求有沒有必要時,就急著把審查簡化融入日常作業。",
   },
   {
     id: "sc-005",
@@ -11305,7 +13634,7 @@ export const sampleQuestions = [
   },
   {
     id: "scp-085",
-    edition: "pmbok7",
+    edition: "pmbok8",
     domain: "BusinessEnvironment",
     performanceDomain: "Scope",
     questionType: "hotspot",
@@ -11822,7 +14151,7 @@ export const sampleQuestions = [
   },
   {
     id: "scp-094",
-    edition: "pmbok7",
+    edition: "pmbok8",
     domain: "BusinessEnvironment",
     performanceDomain: "Scope",
     questionType: "multiple_response",
@@ -12007,7 +14336,7 @@ export const sampleQuestions = [
   },
   {
     id: "scp-097",
-    edition: "pmbok7",
+    edition: "pmbok8",
     domain: "BusinessEnvironment",
     performanceDomain: "Scope",
     questionType: "single_choice",
@@ -12680,6 +15009,1423 @@ export const sampleQuestions = [
     ],
     correctAnswer: "a",
     explanation: "待辦清單裡的項目是否還有價值、該不該留下,屬於產品負責人(Product Owner)的職責範圍,這是敏捷團隊角色分工裡明確授權給 PO 的決策,PM 不該越俎代庖,也不該把這個決定丟給團隊投票或贊助人裁決,尊重角色分工上已經被賦予的決策權,正是賦權團隊成員與利害關係人精神的具體展現。技術探究本身沒有錯,但它是 PO 判斷「這個功能到底還值不值得做」時可能會用到的其中一項輸入資訊,並不能取代把最終裁定權交還給 PO 這個步驟。",
+  },
+  {
+    id: "scp-108",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "An agile team is in the middle of a two-week sprint with committed deliverables when the product owner asks to add a new security enhancement that was not part of the original sprint scope. What should the project manager do?",
+      zh: "一個敏捷團隊正在執行一個兩週衝刺,已經有承諾的交付項目,這時產品負責人要求加入一項不在原本衝刺範疇內的安全強化功能。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Submit the new feature through the formal change control process for approval.",
+          zh: "透過正式的變更管制流程提交這項新功能申請",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Work with the product owner to add it to the product backlog for prioritization in a future sprint.",
+          zh: "與產品負責人一起把它加入產品待辦清單,留待未來衝刺排優先順序",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Immediately incorporate the feature into the current sprint to address the security concern.",
+          zh: "立刻把這項功能塞進目前的衝刺以因應安全疑慮",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reject the request since it was not part of the original project scope.",
+          zh: "因為不在原始範疇內就直接拒絕這項請求",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "在敏捷方法中,變更是透過產品待辦清單的優先順序排定來管理,而不是走傳統的正式變更管制流程;即使是安全性相關的新需求,也應該先進入待辦清單,由 PO 依價值排序後排入未來衝刺,而不是打斷目前已經承諾的衝刺範疇,也不能因為不在原始範疇內就一概拒絕。",
+  },
+  {
+    id: "scp-109",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "An agile team is distributed across three office locations and has been working remotely with video calls and collaboration tools, but communication delays are increasingly affecting sprint velocity. What should the project manager do to improve collaboration?",
+      zh: "一個敏捷團隊分散在三個辦公地點,一直用視訊會議和協作工具遠端合作,但溝通延遲越來越明顯地影響衝刺速度。專案經理應該怎麼做來改善協作?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Invest in better video conferencing technology to improve the remote experience.",
+          zh: "投資更好的視訊會議技術改善遠端體驗",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Arrange for team members to work together in the same location for the most critical project phases.",
+          zh: "安排團隊成員在最關鍵的專案階段實體共處一地工作",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Establish more frequent check-in meetings across locations without changing anything else.",
+          zh: "增加跨地點的例行檢查會議,其他不做改變",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reorganize the work to minimize dependencies so each site works independently.",
+          zh: "重新分工以降低依賴,讓每個據點各自獨立作業",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "敏捷特別重視面對面溝通與實體共處(co-location)所帶來的協作效益,遠端工具再好也難以完全取代;當分散地點造成的溝通延遲已經明顯影響到速度時,安排關鍵階段實體共處,會比單純升級視訊工具、加開會議、或讓各據點各自為政更能解決根本問題。",
+  },
+  {
+    id: "scp-110",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "An organization decides to transition all development teams from waterfall to agile at once, wanting to \"get the benefits as quickly as possible.\" What should the project manager recommend?",
+      zh: "一家組織決定讓所有開發團隊立刻從瀑布式一次轉換到敏捷式,希望「盡快取得敏捷的效益」。專案經理應該建議什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Support switching all teams simultaneously right after training to ensure consistent adoption.",
+          zh: "支持所有團隊在訓練後立刻同步轉換,確保採用一致",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Run a pilot with 1-2 teams first, gather lessons learned, refine the approach, then gradually roll out.",
+          zh: "先讓 1-2 個團隊試行,蒐集經驗、調整做法後再逐步推廣",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Let agile apply only to brand-new projects while current projects finish under the old method.",
+          zh: "只讓全新專案採用敏捷,現有專案維持舊方法做完",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Split teams into two groups, with the second group starting exactly three months later regardless of results.",
+          zh: "把團隊分兩批,第二批不論結果如何一律三個月後開始",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "重大方法論轉換應該用試行(pilot)的方式漸進推動,先在少數團隊驗證、蒐集教訓並調整做法,再逐步擴大到其他團隊,這樣能在正式全面推廣前及早發現問題、培養變革種子成員。一次全面轉換風險過高,而機械式地按時間分批(不論試行結果如何)則沒有真正從試行中學習。",
+  },
+  {
+    id: "scp-111",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "An agile customer was highly engaged during initial requirements gathering but has missed the last two sprint reviews, saying they are \"too busy\" for regular meetings. What should the project manager do?",
+      zh: "一位敏捷專案的客戶在初期需求蒐集階段參與度很高,但最近錯過了兩次衝刺審查會議,表示自己「太忙」無法定期開會。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Continue development on the original requirements since the customer already expressed trust in the team.",
+          zh: "依原始需求繼續開發,因為客戶已經表達過對團隊的信任",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Have the product owner make validation decisions based on their own business knowledge while the customer is unavailable.",
+          zh: "客戶無法配合期間,讓產品負責人依自己的商業知識代為驗證",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Insist on regular customer feedback sessions and adjust the schedule if necessary to accommodate them.",
+          zh: "堅持安排定期的客戶回饋場次,必要時調整時程配合客戶",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Pause development entirely until the customer becomes available again.",
+          zh: "完全暫停開發,直到客戶重新有空為止",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "持續的客戶回饋在敏捷方法裡不是可有可無的選項,而是核心要求;即使客戶因忙碌而缺席,PM 也應該堅持安排回饋場次並視情況調整時程配合客戶,而不是放棄回饋機制自行往下做、讓 PO 代替客戶做驗證決策,或反過來讓整個專案停擺等待客戶。",
+  },
+  {
+    id: "scp-112",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "An agile team just completed a sprint with all committed features delivered, consistent velocity, and no major blockers. Some team members suggest skipping the retrospective this time since \"everything went well.\" What should the project manager do?",
+      zh: "一個敏捷團隊剛完成一個衝刺,所有承諾的功能都交付了,速度穩定,也沒有重大阻礙。有些團隊成員建議這次跳過回顧會議,因為「一切都很順利」。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Skip the retrospective and use the time for more detailed sprint planning instead.",
+          zh: "跳過回顧會議,把時間用在更詳細的下個衝刺規劃上",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Hold the full retrospective as planned, focusing on what worked well and how to do even better.",
+          zh: "照計畫進行完整的回顧會議,聚焦在哪裡做得好、如何做得更好",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Replace the retrospective with a celebration of the team's successful delivery.",
+          zh: "把回顧會議改成單純慶祝這次成功交付",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Hold only a brief 15-minute check for issues, then move straight to sprint planning.",
+          zh: "只花 15 分鐘簡短檢查有沒有問題,就直接進入下個衝刺規劃",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "即使衝刺進行得很順利,回顧會議依然有其價值,因為持續改善不該只在出問題時才做,順利的衝刺也能找出讓表現更上一層樓的機會,並預防小問題演變成大問題。跳過回顧、把時間挪去規劃或單純慶祝、或用極簡化的檢查取代完整回顧,都會讓團隊錯失持續改善的機會。",
+  },
+  {
+    id: "scp-113",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A mobile app project is 50% complete according to the schedule, but stakeholders are questioning whether the final product will meet expectations because the agile team hasn't yet shown any working functionality. What should the project manager do to address these concerns?",
+      zh: "一個行動應用專案依時程已完成 50%,但利害關係人開始質疑最終產品是否能符合期望,因為這個敏捷團隊至今還沒展示過任何可運作的功能。專案經理應該怎麼做來回應這些疑慮?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Create detailed percentage-completion status reports for each feature and present them to stakeholders.",
+          zh: "為每個功能製作詳細的完成百分比狀態報告,提交給利害關係人",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Organize a demonstration session showing stakeholders the working components developed so far.",
+          zh: "安排一場展示會議,向利害關係人展示目前已完成的可運作元件",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Schedule weekly meetings to provide verbal progress updates and address concerns through communication.",
+          zh: "安排每週會議,用口頭方式報告進度並回應疑慮",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reassure stakeholders the project is on schedule and ask them to trust the process until the next milestone.",
+          zh: "向利害關係人保證專案準時,請他們在下個里程碑前先信任這個過程",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "可操作、可見的成果(如 MVP、原型或已完成的元件)是證明專案真的在往前推進、也能讓最終交付物符合期望的最有力方式,能讓利害關係人取得具體回饋而不只是聽口頭保證。詳細的百分比報告、口頭更新、或單純要求信任,都無法提供利害關係人真正需要的具體、可驗證的進度證據。",
+  },
+  {
+    id: "scp-114",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Your agile development project has team members distributed across three different office locations in New York City. The team has been working remotely using video calls and collaboration tools, but you've noticed increasing communication delays and coordination challenges affecting sprint velocity. What should you do to enhance collaboration?",
+      zh: "你的敏捷開發專案有團隊成員分散在紐約市三個不同的辦公地點。團隊一直用視訊會議與協作工具遠端合作,但你注意到溝通延遲越來越明顯,已經影響到衝刺速度。你應該怎麼做來提升協作?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Invest in better video conferencing technology and collaboration tools to improve the remote working experience.",
+          zh: "投資更好的視訊會議技術與協作工具,改善遠端工作體驗",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Arrange for team members from different locations to travel and work together in the same location for the most critical project phases.",
+          zh: "安排不同地點的成員在最關鍵的專案階段前往同一地點實體共處工作",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Establish more frequent check-in meetings and structured communication protocols to improve coordination across locations.",
+          zh: "增加跨地點的例行檢查會議與結構化溝通規範,改善協調",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reorganize the work to minimize dependencies between different locations and allow each site to work more independently.",
+          zh: "重新分工以降低不同地點間的依賴,讓各據點更能獨立作業",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "即使遠端團隊能靠良好工具與流程有效運作,某些協作活動仍能從實體共處(co-location)獲得顯著效益;當分散地點造成的溝通延遲已經明顯影響速度時,安排關鍵階段實體共處,會比單純升級視訊工具、加開會議、或讓各據點各自為政更能解決根本問題。",
+  },
+  {
+    id: "scp-115",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Your organization has decided to transition from traditional waterfall project management to agile methodologies across all development teams. The CTO wants to implement agile practices organization-wide immediately to \"get the benefits as quickly as possible\" and has scheduled agile training for all teams next month. What should you recommend for implementing this methodology change?",
+      zh: "你的組織決定讓所有開發團隊從傳統瀑布式專案管理轉換到敏捷方法。技術長希望立刻在全組織推行敏捷實務,以「盡快取得效益」,並已安排下個月為所有團隊進行敏捷訓練。你應該對這項方法論轉換提出什麼建議?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Support the CTO's plan to implement agile across all teams simultaneously after the training to ensure consistent adoption and quick benefits realization.",
+          zh: "支持技術長的計畫,訓練後所有團隊同步導入敏捷,確保採用一致並盡快取得效益",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Select 1-2 teams for an initial agile pilot project, gather lessons learned, refine the approach, then gradually roll out to additional teams based on pilot results.",
+          zh: "先選 1-2 個團隊進行敏捷試行,蒐集經驗、調整做法後,再依試行結果逐步推廣到其他團隊",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Implement agile only for new projects while allowing current projects to finish using traditional methods, then transition all teams once current work is completed.",
+          zh: "只讓新專案採用敏捷,現有專案維持傳統方法做完,之後才全面轉換",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Divide the teams into two groups and implement agile in phases: first group starts immediately after training, second group starts 3 months later.",
+          zh: "把團隊分兩批導入敏捷:第一批訓練後立刻開始,第二批三個月後開始",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "重大方法論轉換應該用試行(pilot)的方式漸進推動,先在少數團隊驗證、蒐集教訓並依此調整做法,再逐步擴大到其他團隊,這樣能在正式全面推廣前及早發現問題、培養變革種子成員,屬於組織變革管理裡「支援組織變革」這項任務的具體實踐。一次全面轉換風險過高,而機械式地按時間分批(不論試行結果如何)則沒有真正從試行中學習調整。",
+  },
+  {
+    id: "scp-116",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Your team has completed the first major deliverable of your web application project: a fully functional user authentication system. The system meets all technical specifications and passes all automated tests, but the customer has been traveling and won't be available for validation testing until the end of the next phase. What should you do?",
+      zh: "你的團隊完成了網頁應用專案的第一個主要交付物:一套功能完整的使用者驗證系統。這套系統符合所有技術規格,也通過了所有自動化測試,但客戶正在出差,要到下一階段結束才有空進行驗收測試。你應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Deploy the authentication system to production since it meets all technical requirements and has passed internal quality checks, then get customer validation afterward.",
+          zh: "因為已符合所有技術要求且通過內部品質檢查,先部署上線,之後再取得客戶驗收",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Continue with the next development phase while waiting for customer validation, since the technical team is confident the deliverable meets requirements.",
+          zh: "因為技術團隊有信心這個交付物符合需求,先繼續下一階段開發,同時等待客戶驗收",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Wait for the customer to return and validate the authentication system before proceeding with deployment or the next development phase.",
+          zh: "等客戶回來驗收這套系統後,再進行部署或下一階段開發",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Present the authentication system to a customer representative or proxy who can provide preliminary validation until the primary customer is available.",
+          zh: "找一位客戶代理人先提供初步驗收,直到原本的客戶有空為止",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "客戶驗收不只是一個形式上的手續,而是確保交付物真正符合商業需求與使用者期待的關鍵品質關卡;即使技術規格與自動化測試都通過,也不能取代真正客戶的驗收。應該等客戶回來正式驗收後,才繼續部署或進入下一階段開發,而不是先上線再補驗收、邊等邊往下做,或找代理人先做初步驗收頂替。",
+  },
+  {
+    id: "scp-117",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Your team is debating whether to implement a new feature requested by stakeholders. The feature would enhance user experience but requires additional development time. The project sponsor supports it, but the timeline is already tight, and the development team is split on its value. What should you do?",
+      zh: "團隊正在爭論是否要實作利害關係人要求的一項新功能。這項功能能提升使用者體驗,但需要額外的開發時間。專案贊助人支持這項功能,但時程已經很緊,團隊對這項功能的價值也意見分歧。你應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Implement the feature since it enhances user experience and has sponsor support, accepting the timeline impact as necessary for quality.",
+          zh: "因為能提升體驗又有贊助人支持,就實作這項功能,接受對時程造成的影響",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Decline the feature to protect the timeline and original scope commitments, explaining the trade-offs to stakeholders.",
+          zh: "為了保護時程與原始範疇承諾而婉拒這項功能,向利害關係人說明取捨",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Negotiate a compromise by implementing a simplified version of the feature that requires less development time.",
+          zh: "協商折衷方案,實作一個開發時間較短的簡化版功能",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Add the feature to the backlog for the next project phase, acknowledging its value while maintaining current scope and timeline commitments.",
+          zh: "把這項功能加入待辦清單留給下一階段處理,肯定其價值的同時維持目前的範疇與時程承諾",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "不是每個專案情境都有一個明顯完美的正確答案,這一題就是這種情境:四個選項都各有道理,也各有代價。在必須做出選擇時,應該依循穩健的專案管理原則做判斷,而不是無止盡地自我懷疑。這裡最能同時兼顧「保護目前範疇與時程承諾」與「不埋沒這項功能的價值」的做法,是把它正式加入待辦清單留待下一階段處理——這既沒有貿然犧牲時程去趕工實作,也沒有直接抹殺這項功能的價值,比起接受時程衝擊硬做、或還沒與利害關係人討論就自行協商簡化版本,是相對最平衡的選擇。",
+  },
+  {
+    id: "scp-118",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A software development team using Scrum is preparing for sprint planning. The product owner has added several new high-priority items to the backlog just before sprint planning, replacing items the team had already refined and estimated as likely candidates for the sprint. The development team is concerned the last-minute changes will disrupt the sprint. What should the product owner do?",
+      zh: "一個採用 Scrum 的軟體開發團隊正在準備衝刺規劃。產品負責人在衝刺規劃前,把幾個新的高優先級項目加進待辦清單,取代了團隊原本已經精化並估算、視為這次衝刺熱門候選的項目。開發團隊擔心這種臨時異動會打亂這次衝刺。產品負責人應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Defer the new items to the next sprint to preserve the team's preparation work.",
+          zh: "把新項目延後到下一個衝刺,以保留團隊已經做的準備工作",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Present the new items during sprint planning and allow the team to select the work they commit to completing.",
+          zh: "在衝刺規劃會議上提出新項目,讓團隊自行決定要承諾完成哪些工作",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Remove the lowest-priority items from the backlog to accommodate the new high-priority additions.",
+          zh: "把待辦清單中優先級最低的項目移除,以容納新增的高優先級項目",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Escalate the conflict to the scrum master to determine which items should be included in the sprint.",
+          zh: "把這個衝突升級給 Scrum Master,由其決定哪些項目該納入這次衝刺",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "產品負責人本來就擁有維護與排序產品待辦清單的權責,可以在衝刺規劃前的任何時間點加入新項目。開發團隊則負責決定這次衝刺要承諾完成多少工作量。衝刺規劃正是讓這兩項職責同時發揮作用、共同協作的場合,所以正確做法是在會議上提出新項目,交由團隊自行評估並決定承諾範圍。\n\n直接把新項目延後到下一個衝刺,等於忽略了產品負責人本來就有權依照目前的優先順序調整待辦清單。移除最低優先級項目也沒有必要,因為產品負責人本來就可以重新排序讓新項目優先被考慮,原本較低優先級的項目仍可以留在待辦清單上等待未來處理。把衝突升級給 Scrum Master 則是弄錯了這個角色的職責,衝刺承諾的決定權在於產品負責人與開發團隊之間,不屬於 Scrum Master。",
+  },
+  {
+    id: "scp-119",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A project manager is leading an enterprise technology modernization initiative. The server infrastructure and network cabling must meet data center compliance standards that were defined before the project began. The employee-facing dashboards and reporting tools, however, have generated conflicting input from department heads who cannot agree on what information they need or how it should be displayed. What should the project manager do?",
+      zh: "一位專案經理正在領導一項企業技術現代化計畫。伺服器基礎設施與網路佈線必須符合專案開始前就已經訂定好的資料中心合規標準。然而,面向員工的儀表板與報表工具卻收到各部門主管彼此衝突的意見,大家對於需要哪些資訊、該如何呈現都無法達成共識。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Apply a predictive approach to the entire project.",
+          zh: "對整個專案採用預測式方法",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Apply an adaptive approach to the entire project.",
+          zh: "對整個專案採用調適式(敏捷)方法",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Separate the project into two independent projects with distinct methodologies.",
+          zh: "把這個專案拆成兩個各自獨立、採用不同方法論的專案",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Use a predictive approach for the infrastructure component and an adaptive approach for the dashboards and reporting tools.",
+          zh: "基礎設施部分採用預測式方法,儀表板與報表工具部分採用調適式方法",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "當專案中不同組成部分的特性截然不同時,混合式方法正是為此而生。基礎設施工作已有事先訂定好的合規標準,適合用預測式方法做完整規劃。儀表板與報表工具的需求還沒有定案、各部門意見分歧,正好適合用疊代式開發持續蒐集回饋、逐步收斂需求。\n\n整個專案都採用預測式方法,會讓儀表板與報表工具在利害關係人需求都還沒釐清之前就被鎖進固定範疇,而這正是調適式方法設計來因應的情境。整個專案都採用調適式方法,則不適合基礎設施部分,因為合規標準已經明確,也需要正式文件紀錄。把專案拆成兩個獨立專案也沒有必要,單一專案架構搭配混合式框架就能同時管理好這兩個組成部分,拆分反而會增加整合與協調上的風險。",
+  },
+  {
+    id: "scp-120",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A project manager is leading development of a new mobile app for a startup. The startup has clear specifications for the app's core features. Beyond that core, users' preferences for additional features are unknown and will need to be discovered through early user feedback. The app has a fixed launch date in eight months. What development approach should the project manager recommend?",
+      zh: "一位專案經理正在為一家新創公司領導一款新行動應用程式的開發。這家新創公司對應用程式的核心功能有明確的規格,但除了核心功能以外,使用者對額外功能的偏好還是未知數,需要透過早期使用者回饋才能發掘。這款應用程式有一個固定的上線日期,八個月後就要推出。專案經理應該建議採用什麼開發方法?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Use a hybrid approach, applying predictive planning to the core features and adaptive iterations for the remaining features.",
+          zh: "採用混合式方法,核心功能用預測式規劃,其餘功能用調適式疊代開發",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Use a predictive approach to maintain tight control over schedule and budget given the fixed deadline.",
+          zh: "因為上線日期固定,採用預測式方法以嚴格掌控時程與預算",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Use an adaptive approach to incorporate user feedback as the product evolves beyond its core functionality.",
+          zh: "採用調適式方法,讓產品在核心功能之外能持續納入使用者回饋演進",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Use an adaptive approach since the startup environment and uncertain user preferences make flexibility more valuable than upfront planning.",
+          zh: "因為新創環境與使用者偏好的不確定性,彈性比事前規劃更有價值,所以採用調適式方法",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "核心的交易與帳戶管理功能規格明確,適合用預測式方法做規劃。其餘功能的需求則真的還是未知數,只能透過使用者回饋逐步顯現,這正是調適式方法所擅長因應的狀況。混合式方法的精神就是讓每種方法論用在真正適合它的地方,而不是用單一方法硬套在特性截然不同的需求上。\n\n完全採用預測式方法雖然能妥善規劃已知的核心功能,卻會讓還在演進中的功能被迫套進固定範疇的模式,在使用者偏好還沒釐清前就先定案,很可能做出不符合需求的功能。完全採用調適式方法雖然能很好地處理演進中的功能,卻對已有穩定明確規格、能受益於事前規劃與明確基準的核心功能套用了不必要的彈性。新創環境與使用者偏好的不確定性確實存在,但那只適用於專案的一部分,核心功能規格明確又有固定的上線日期,仍然需要預測式的紀律,所以全面採用調適式方法並不足夠。",
+  },
+  {
+    id: "scp-121",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A project manager is overseeing the development of an enterprise reporting tool. The first of three planned releases is nearly complete. Before transitioning to the next release cycle, the project manager needs to verify that all deliverables meet the established completion standard. What should the project manager do?",
+      zh: "一位專案經理正在監督一套企業報表工具的開發。三次規劃發布中的第一次即將完成。在進入下一個發布週期之前,專案經理需要確認所有交付物都符合既定的完成標準。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Review the backlog to confirm all user stories assigned to this release have been marked complete.",
+          zh: "檢視待辦清單,確認指派給這次發布的所有使用者故事都已標記為完成",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Compare the completed deliverables against the team's definition of done.",
+          zh: "把已完成的交付物對照團隊的「完成的定義」(Definition of Done)進行比對",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Schedule a review with stakeholders to evaluate whether the release meets their expectations.",
+          zh: "安排與利害關係人的審查會議,評估這次發布是否符合他們的期望",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Assess whether the release has achieved its intended business value against the original business case.",
+          zh: "依據原始商業論證,評估這次發布是否已達成預期的商業價值",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "「完成的定義」是團隊事先訂好、客觀的完成標準。把交付物拿來對照這個標準,能提供一致且雙方都認可的依據,在進入下一階段之前確認這個階段是不是真的完成了。\n\n單純檢視待辦清單只能確認哪些任務被標記為完成,卻無法驗證每個項目是否真的符合團隊訂定的品質與完成標準。與利害關係人的審查會議雖然能提供有價值的回饋,但那是主觀的評估,無法取代團隊一開始就訂好的客觀標準。商業價值評估則是衡量這次發布是否達成預期成果,這是另一項有意義但不同的工作,並不等同於確認交付物是否符合完成標準。",
+  },
+  {
+    id: "scp-122",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A development team building a real-time data processing system discovers during a sprint that the existing integration architecture cannot handle the required throughput without significant latency. No existing documentation or prior project records address this specific constraint. The product owner must demonstrate a working prototype to investors in three weeks. What should the project manager do?",
+      zh: "一個正在建置即時資料處理系統的開發團隊,在某次衝刺中發現現有的整合架構無法在不產生明顯延遲的情況下處理所需的吞吐量。現有文件與過往專案紀錄都沒有處理過這個特定限制。產品負責人必須在三週內向投資人展示一個可運作的原型。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Organize an SME workshop to gather institutional knowledge about data processing architectures and identify potential solutions.",
+          zh: "舉辦領域專家(SME)工作坊,蒐集組織內部關於資料處理架構的經驗知識,找出可能的解法",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Authorize a timeboxed technical spike to investigate potential architectural solutions and assess their feasibility before committing to a fix.",
+          zh: "授權進行一次限時的技術衝刺(technical spike),在真正投入修正之前先調查可能的架構解法並評估其可行性",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Submit a change request to extend the sprint and adjust the prototype timeline to accommodate the technical investigation.",
+          zh: "提出變更請求,延長這次衝刺並調整原型時程,以容納這項技術調查",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Perform a comprehensive feasibility study of all available data processing architectures to identify the optimal solution.",
+          zh: "針對所有可用的資料處理架構,執行一次全面的可行性研究,以找出最佳解法",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "技術衝刺(technical spike)正是為了這種情境而設計:遇到卡住進度、又無法從既有文件找到答案的技術未知數。它能在限定的時間內產出可行動的調查結果,既維持了時程壓力,也創造出往前推進所需要的探索空間,屬於專案經理主動排除團隊障礙的做法。團隊已經用盡了被動的知識來源,接下來需要的是主動、動手的調查,而不是繼續翻找文件。\n\n以知識蒐集為主的專家工作坊,適合用在需要把內隱知識整理出來分享的情境,但這裡真正需要的是主動的技術調查,而且知識庫早就已經查過卻沒有找到可用的答案。提出變更請求延長時程,等於還沒嘗試任何針對性的調查就先在時程上讓步,而技術衝刺很可能根本不需要更動時程就能解決這個限制。至於對所有架構做一次全面的可行性研究,對於只剩三週的投資人展示期限來說太過龐大,屬於過度分析,聚焦、限時的實驗式調查才是比較合適的做法。",
+  },
+  {
+    id: "scp-123",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A project manager is leading the development of a digital marketing tool for an advertising agency transitioning from waterfall to agile delivery. The marketing team has expressed that they want a flexible, iterative approach to defining the tool's features rather than a comprehensive upfront requirements document. What should the project manager do first?",
+      zh: "一位專案經理正在領導一套數位行銷工具的開發,委託的廣告代理商正處於從瀑布式轉型為敏捷交付的過程。行銷團隊表示,他們希望用有彈性、疊代式的方式來定義這套工具的功能,而不是先做一份完整的事前需求文件。專案經理首先應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Document the full list of marketing tool features and acceptance criteria in a formal requirements specification.",
+          zh: "把行銷工具的完整功能清單與驗收標準寫進一份正式的需求規格書",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Facilitate a workshop with the product owner and development team to build the initial product backlog and define acceptance criteria.",
+          zh: "與產品負責人及開發團隊共同召開工作坊,建立初始產品待辦清單並定義驗收標準",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Set up a collaboration portal where the marketing team can submit feature requests as they identify them.",
+          zh: "建立一個協作平台,讓行銷團隊在想到功能需求時隨時提交",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Schedule discovery sessions with the marketing team to identify all mandatory features before development begins.",
+          zh: "在開發開始前,先安排與行銷團隊的探索會議,找出所有必要功能",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "在敏捷情境下,真正有意義的第一步通常是先與產品負責人和團隊建立對於價值的共同理解,並把它轉化成初始待辦清單。共同召開工作坊能立刻做到這件事,用敏捷實際運作的形式(使用者故事、待辦項目、驗收標準)展開疊代式的需求探索,也呼應了這家代理商正在推動的方法論轉型。\n\n正式需求規格書本身在現實中並非全然錯誤,專案經理當然可以事先了解流程與痛點,但在 PMP 考試的脈絡裡,這通常被視為前置分析,而不是真正建立起敏捷交付機制的第一個行動。功能請求提交平台雖然可能有幫助,但只是被動的蒐集機制,並沒有建立起用來定義與排序工作的核心敏捷架構。在開發開始前就找出所有必要功能,本質上仍然是詳盡的事前需求蒐集,不管包裝得多麼不正式,反映的仍是預測式思維。",
+  },
+  {
+    id: "scp-124",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A project team is building a customer-facing mobile app using an agile approach. The team is midway through their third sprint. During backlog refinement, the product owner identifies three new user stories based on recent customer feedback. What impact does this have on the project?",
+      zh: "一個專案團隊正在用敏捷方法開發一款面向顧客的行動應用程式,目前進行到第三個衝刺的一半。在待辦清單精化過程中,產品負責人根據近期的顧客回饋,識別出三個新的使用者故事。這對專案會造成什麼影響?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The project scope, timeline, and budget must be formally revised to accommodate the additional features.",
+          zh: "必須正式修訂專案的範疇、時程與預算,以容納這些額外功能",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The team will need to request additional resources to deliver the new features alongside planned sprint work.",
+          zh: "團隊需要申請額外資源,才能在既定衝刺工作之外交付這些新功能",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The backlog grows, and the new stories may be prioritized into upcoming sprints.",
+          zh: "待辦清單變大,這些新故事可能會被排入未來的衝刺當中",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The contingency reserve should be reviewed to determine whether it covers the cost of the additional features.",
+          zh: "應該檢視應變準備金,確認它是否足以涵蓋這些額外功能的成本",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "題目提到衝刺,代表這很可能是一個敏捷專案。在敏捷專案裡,新的使用者故事會被加進產品待辦清單,增加項目會讓待辦清單變大,而這些項目可能由產品負責人排入未來的衝刺當中。\n\n正式修訂範疇、時程與預算,是把預測式的變更控制套用在敏捷情境裡。在敏捷專案中,範疇是透過待辦清單管理來演進的,而不是靠正式的基準變更。申請額外資源也不是面對新使用者故事的自動反應,敏捷團隊本來就是透過衝刺規劃與待辦清單精化來管理產能。檢視應變準備金則是預測式風險管理的做法,在待辦清單精化過程中加入新的使用者故事,本來就是敏捷交付的正常環節,而不是需要動用準備金分析的成本風險事件。",
+  },
+  {
+    id: "scp-125",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "An organization uses a hybrid delivery approach. During a release, the business stakeholders request a demonstration of the working product, but the agile team argues that stopping to prepare a formal demo will disrupt their cadence. What should the project manager do?",
+      zh: "一個組織採用混合式交付方法。在某次發布期間,業務利害關係人要求對可運作的產品進行展示,但敏捷團隊認為,停下來準備一場正式展示會打亂他們的工作節奏。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Tell the stakeholders the product will be shown only at project closure.",
+          zh: "告訴利害關係人,產品只會在專案結案時展示",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Ask the team to prepare a separate formal presentation outside of sprints.",
+          zh: "請團隊在衝刺之外另外準備一場正式簡報",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Invite the stakeholders to the existing iteration review meeting.",
+          zh: "邀請利害關係人參加既有的疊代審查會議",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Provide the stakeholders with written status reports instead of a demo.",
+          zh: "提供利害關係人書面狀態報告,取代展示",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "疊代審查會議本來就是為了展示可運作的增量成果、蒐集回饋而存在的活動。邀請利害關係人參加,就能用團隊原本工作節奏裡既有的一個場合來滿足他們的需求,不會造成團隊擔心的那種額外干擾。\n\n把展示延後到專案結案,會讓混合式與敏捷方法原本設計要提供的及早且頻繁的回饋機制整個消失。另外準備一場正式簡報,恰好就是團隊反對的那種節奏之外的額外負擔,而現成的場合本來就已經存在,沒有必要另起爐灶。提供書面狀態報告則是用文件取代了實際運作產品的現場展示,既不是利害關係人真正要求的東西,得到的回饋品質也會比較弱。",
+  },
+  {
+    id: "scp-126",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A regional airline is revamping its loyalty rewards platform using Scrum. Before an upcoming sprint planning session, the vice president of sales contacts the project manager directly and asks that a promotional campaign feature be moved to the top of the product backlog. What should the project manager do?",
+      zh: "一家區域性航空公司正在用 Scrum 方法翻新其會員忠誠度平台。在即將到來的衝刺規劃之前,業務副總裁直接聯繫專案經理,要求把一項促銷活動功能移到產品待辦清單的最頂端。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Personally reorder the backlog to reflect the vice president's request, given the seniority of the stakeholder.",
+          zh: "專案經理親自依照副總裁的要求重新排序待辦清單,因為這是位階很高的利害關係人",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Direct the vice president's request to the product owner, who is responsible for evaluating and deciding on backlog priority.",
+          zh: "把副總裁的要求轉交給產品負責人,由其負責評估並決定待辦清單的優先順序",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Escalate the request to the project steering committee for formal approval before any reprioritization occurs.",
+          zh: "把這項要求上呈給專案指導委員會,取得正式核准後才進行重新排序",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Tell the vice president that backlog order cannot be changed until the current release cycle is complete.",
+          zh: "告訴副總裁,在目前的發布週期結束之前,待辦清單的順序不能異動",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "產品待辦清單的排序權責屬於產品負責人,這是產品負責人的核心職責之一,不需要專案經理代為決定,也不需要經過任何額外的核准層級。專案經理正確的做法,是引導這類請求回到應有的管道,讓產品負責人依據商業價值與優先順序自行評估是否要調整排序。\n\n專案經理親自重新排序,等於是越權介入了本來不屬於自己的職責範圍,即使提出請求的人位階很高也一樣。把這件事升級給指導委員會審核,是把敏捷架構下單純的待辦清單管理,套用了預測型專案才需要的正式治理層級,徒增不必要的延遲。告訴副總裁順序不能改也不正確,因為只要還沒進入衝刺執行階段,待辦清單本來就可以隨時因應優先順序變化而調整,重點是由誰來做這個決定,而不是完全不能改。",
+  },
+  {
+    id: "scp-127",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A renewable energy company is building a monitoring dashboard for its wind farms. The sensor communication protocol and data logging format must comply with a grid operator's technical specification that was finalized before the project began. The dashboard's visualizations, however, are being revised repeatedly because control-room operators keep changing their preferences after each demo. What development approach should the project manager recommend?",
+      zh: "一家再生能源公司正在建置一套風場監控儀表板。感測器通訊協定與資料紀錄格式,必須符合電網公司在專案開始前就已經定案的技術規格。但儀表板的視覺化呈現方式卻不斷被修改,因為控制室的操作人員每次看完展示後都會改變偏好。專案經理應該建議採用什麼開發方法?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Apply a predictive approach to the entire project because the grid compliance requirements demand formal documentation.",
+          zh: "因為電網合規要求需要正式文件,對整個專案採用預測式方法",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Apply an adaptive approach to the entire project because operator preferences keep evolving.",
+          zh: "因為操作人員的偏好持續在變,對整個專案採用調適式方法",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Apply a predictive approach to the sensor and protocol component and an adaptive approach to the dashboard visualization component.",
+          zh: "對感測器與通訊協定的部分採用預測式方法,對儀表板視覺化的部分採用調適式方法",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Split the initiative into two fully independent projects, each with its own project manager and governance structure.",
+          zh: "把這項計畫拆成兩個完全獨立的專案,各自配置專案經理與治理架構",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "感測器通訊協定與資料紀錄格式的規格已經在專案開始前定案,屬於固定且明確的需求,適合用預測式方法完整規劃並建立基準。儀表板視覺化的呈現方式則持續因為使用者回饋而改變,適合用調適式方法透過反覆展示與修改逐步收斂。同一專案內兩種特性並存,正是混合式方法應該派上用場的情境。\n\n整個專案都採用預測式方法,會讓仍在演進中的視覺化需求被迫過早鎖定,操作人員後續的回饋將難以被有效納入。整個專案都採用調適式方法,則會讓已經定案、需要正式文件佐證合規性的通訊協定規格,承擔不必要的重複疊代成本。把專案拆成兩個獨立專案也沒有必要,單一專案架構搭配混合式框架即可同時兼顧兩種元件的特性,拆分反而會增加跨團隊整合的複雜度與風險。",
+  },
+  {
+    id: "scp-128",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A university IT department is building a new learning management system in three planned releases. The first release, covering course material uploads and gradebook entry, is nearly complete. Before the team moves into the next release cycle, the project manager needs to confirm that the delivered features truly meet the required completion standard. What should the project manager do?",
+      zh: "一所大學的資訊部門正在分三次發布建置一套新的學習管理系統。第一次發布涵蓋教材上傳與成績登錄功能,即將完成。在進入下一個發布週期之前,專案經理需要確認交付的功能是否真的符合要求的完成標準。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Confirm on the sprint board that all stories assigned to this release show a \"done\" status.",
+          zh: "在衝刺看板上確認,指派給這次發布的所有故事卡都已顯示為「完成」狀態",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Compare the delivered features against the team's definition of done.",
+          zh: "把交付的功能對照團隊的「完成的定義」進行比對",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask the faculty advisory committee whether they are satisfied with the release.",
+          zh: "詢問教師諮詢委員會,對這次發布是否感到滿意",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Verify that the release stayed within the budget approved for this phase.",
+          zh: "確認這次發布是否維持在這個階段核准的預算範圍內",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "「完成的定義」是團隊事先訂好、客觀且具體的完成標準,涵蓋像是程式碼審查、測試涵蓋率、文件更新等具體條件。把交付的功能拿來對照這個標準,才能提供一致且可驗證的依據,確認這個階段的工作是不是真的完成,而不是只憑印象判斷。\n\n單純看板上的「完成」狀態,只反映團隊成員自己標記的進度,不保證每個項目真的符合品質與完成的客觀條件。詢問教師諮詢委員會的滿意度雖然有參考價值,但那是主觀感受,無法取代團隊一開始就訂好的客觀標準。確認預算是否超支則是另一項重要但不同面向的管理工作,並不能回答交付物本身是否真正達到完成標準這個問題。",
+  },
+  {
+    id: "scp-129",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A biotech company's team is building lab sample-tracking software. Mid-sprint, the team discovers that a legacy instrument's data interface cannot handle the sampling frequency required by a new protocol without risking data integrity. No internal documentation addresses this specific limitation. The team must demonstrate a working prototype to regulatory auditors in two weeks. What should the project manager do?",
+      zh: "一家生物科技公司的團隊正在建置實驗室樣本追蹤軟體。在某次衝刺進行到一半時,團隊發現一台舊型儀器的資料介面,無法在不影響資料完整性的情況下處理新協定所要求的取樣頻率。內部沒有任何文件處理過這個特定限制。團隊必須在兩週內向法規查核員展示一個可運作的原型。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Organize a cross-team knowledge-sharing session to gather senior engineers' past experience with similar instrument integrations.",
+          zh: "舉辦跨團隊知識分享會,蒐集資深工程師過去處理類似儀器整合問題的經驗",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Authorize a timeboxed technical spike to investigate possible solutions for the interface limitation and assess their feasibility.",
+          zh: "授權進行一次限時的技術衝刺,調查這項介面限制的可能解法並評估其可行性",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Submit a change request to postpone the regulatory demonstration until the issue is fully resolved.",
+          zh: "提出變更請求,把法規查核展示時程延後,直到問題完全解決為止",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Commission a comprehensive technical feasibility study of every available lab data-acquisition solution on the market.",
+          zh: "委託一份完整的技術可行性研究,評估市面上所有可用的實驗室資料擷取方案",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "技術衝刺正是為了這種情境而生:進度卡在一個既有文件也查不到答案的技術未知數上,又有明確的時間壓力。授權一次限時的技術衝刺,能在有限時間內產出可行動的調查結果,既不無限期拖延,也給團隊足夠的空間動手驗證可能的解法,是專案經理主動排除障礙的具體做法。\n\n知識分享會適合用在需要把內隱經驗整理出來擴散的情境,但團隊已經確認內部沒有現成文件可用,真正需要的是針對這個特定限制的主動調查。提出變更請求延後查核展示,等於還沒嘗試任何針對性調查就先在時程上讓步,而技術衝刺很可能根本不需要更動展示時程就能找到出路。委託一份涵蓋所有市場方案的完整可行性研究,對只剩兩週的查核期限來說規模過大,屬於過度分析,聚焦且限時的實驗式調查才是更合適的做法。",
+  },
+  {
+    id: "scp-130",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A regional bank's retail online banking division has always delivered systems using a waterfall approach. Leadership has decided the division should transition to agile delivery for its next initiative. The project has just been approved. What should the project manager do first?",
+      zh: "一家區域性銀行的零售網路銀行部門,過去一直用瀑布式方法交付系統。管理階層決定,這個部門下一個計畫要改用敏捷方式交付。專案剛核准啟動。專案經理首先應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Write a complete traditional requirements specification covering every foreseeable online banking feature before development starts.",
+          zh: "在開發開始前,先撰寫一份完整的傳統需求規格書,涵蓋所有可預見的網路銀行功能",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Facilitate a workshop with the product owner and development team to build the initial product backlog and define acceptance criteria.",
+          zh: "與產品負責人及開發團隊共同舉辦工作坊,建立初版產品待辦清單並定義驗收標準",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Hold a series of discovery sessions with branch staff to exhaustively gather every possible feature suggestion first.",
+          zh: "先舉辦一系列與分行行員的探索會議,窮盡蒐集所有可能的功能建議",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Require the development team to complete a full traditional project management plan before any development work begins.",
+          zh: "要求開發團隊先完成一份完整的傳統專案管理計畫書,才能啟動任何開發工作",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "從瀑布式轉型為敏捷,真正有意義的第一步通常是先與產品負責人和團隊建立起對價值的共同理解,並把它轉化成初版產品待辦清單與驗收標準。共同舉辦工作坊能立即用敏捷實際運作的形式展開這個過程,也直接呼應管理階層要求的方法論轉型。\n\n撰寫完整的傳統需求規格書,本質上仍然是預測型思維下的產物,與敏捷精神背道而馳,也不是啟動敏捷交付架構所需要的第一個行動。窮盡式的探索會議雖然立意良善,但耗時且容易在需求還沒真正落地前就過度發散,不如透過待辦清單疊代收斂來得有效率。要求先完成完整的傳統專案管理計畫書,則是把預測型專案的治理模式套用在敏捷轉型上,會拖延團隊真正開始交付價值的時間。",
+  },
+  {
+    id: "scp-131",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "On a hospital's patient portal development team, two senior developers disagree about the order of items in the product backlog. The disagreement has delayed sprint planning for several days, and both developers ask the project manager to make the final call on the order. What should the project manager do?",
+      zh: "在一家醫院的病患入口網站開發團隊中,兩位資深開發人員對於產品待辦清單的排序有不同意見。這場爭論已經讓衝刺規劃延誤了好幾天,兩人都要求專案經理做出最終的排序裁決。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Personally review both developers' arguments and decide the final backlog order.",
+          zh: "專案經理親自審視雙方的論點,決定最終的待辦清單排序",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Remind the team that backlog ordering authority belongs to the product owner, who should make the final decision.",
+          zh: "提醒團隊,待辦清單的排序權責屬於產品負責人,應該由產品負責人做出最終決定",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Convene a change control board to formally vote on the backlog ordering dispute.",
+          zh: "召集變更管制委員會,針對這次的排序爭議進行正式表決",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Suggest each developer implement half of the disputed features, then let the team vote on which version to keep.",
+          zh: "建議兩位開發人員各自實作一半有爭議的功能,再讓團隊投票決定保留哪一個版本",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "產品待辦清單的排序權責明確屬於產品負責人,而不是專案經理,也不是團隊成員之間協商的結果。專案經理正確的做法,是把爭論導回應有的決策者身上,讓產品負責人依據商業價值做出最終判斷,同時協助團隊理解各自角色的職責邊界。\n\n專案經理親自裁決排序,等於是越權介入了不屬於自己職責範圍的決定。召集變更管制委員會表決,則是把敏捷架構下單純的待辦清單排序議題,套用了預測型專案才需要的正式治理機制,既沒必要也會拖慢速度。讓兩人各自實作一半再投票,不但浪費開發資源在其中一種必然被捨棄的版本上,也完全繞過了本來就該負責這件事的產品負責人。",
+  },
+  {
+    id: "scp-132",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "multiple_response",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A national insurance company is building the next generation of its claims processing system. The claims adjudication engine must calculate payouts using statutory formulas and rate tables published by the insurance regulator before the project began, and these rules cannot be altered without a formal regulatory filing. Meanwhile, the customer service chatbot used to intake complaints is still having its conversation flow and issue-categorization logic adjusted based on ongoing feedback from support agents. Select the **two** statements that correctly describe how the project should approach its development methodology.",
+      zh: "一家全國性保險公司正在建置新一代的理賠處理系統。理賠核定引擎必須依照保險主管機關在專案開始前公布的法定公式與費率表計算賠付金額,這些規則若要更動必須經過正式的法規申報程序。同時,用來受理客訴的客服聊天機器人,其對話流程與問題分類邏輯,仍在根據客服人員的持續回饋進行調整。請選出下列**兩項**正確描述本專案應如何選擇開發方法的敘述。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The claims adjudication engine is well suited to a predictive approach because its rules are already fixed by regulation.",
+          zh: "理賠核定引擎因為規則已經被法規訂定明確,適合採用預測式方法",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The complaint intake chatbot is well suited to an adaptive approach because its logic is still evolving based on feedback.",
+          zh: "客訴聊天機器人因為邏輯仍在根據回饋演進,適合採用調適式方法",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The entire system should use an adaptive approach so that it can respond quickly to future regulatory changes.",
+          zh: "整個系統都應該採用調適式方法,以便未來法規異動時能快速回應",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The entire system should use a predictive approach because the insurance industry is heavily regulated overall.",
+          zh: "整個系統都應該採用預測式方法,因為保險業整體受到高度監理",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "Both components should use the same methodology to simplify the team's workflow.",
+          zh: "兩個元件都應該採用相同的方法論,以簡化團隊的工作流程",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "理賠核定引擎的計算規則已經由法規明確訂定,且更動需要正式申報程序,屬於固定且需要嚴謹文件紀錄的需求,適合用預測式方法規劃與建立基準。客訴聊天機器人的對話流程與分類邏輯則仍在持續根據客服人員回饋調整,屬於會隨回饋演進的需求,適合用調適式方法透過反覆疊代收斂。同一系統內兩種元件特性不同,正是混合式方法應該同時並存兩種做法的典型情境。\n\n整個系統都採用調適式方法,會讓已經法定明確、需要正式文件佐證合規性的核定引擎承擔不必要的重複疊代成本,也不利於因應法規申報要求。整個系統都採用預測式方法,則會讓仍在演進中的聊天機器人邏輯被迫過早鎖定,難以有效納入客服人員持續產生的回饋。要求兩個元件採用相同方法論以求流程簡化,忽略了兩者需求特性本質上的差異,為了統一而犧牲了各自應有的彈性或紀律,並非恰當的方法選擇依據。",
+  },
+  {
+    id: "scp-133",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A boutique hotel chain is developing an integrated booking and loyalty platform. Near the end of a sprint, the marketing director says during the iteration review that the demonstrated features \"look fine,\" but the scrum master points out that no one has formally confirmed whether the features actually meet the team's completion standard. What should the project manager do?",
+      zh: "一家精品連鎖旅館集團正在開發一套整合訂房與會員忠誠度的平台。在某次衝刺快結束時,行銷總監在迭代審查會議上表示這次展示的功能「看起來還不錯」,但 Scrum Master 指出,還沒有人正式確認這些功能是否真的符合團隊訂定的完成標準。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Treat the marketing director's positive comment as sufficient confirmation that the sprint's deliverables are complete.",
+          zh: "把行銷總監的正面評語視為足以確認這次衝刺的交付物已經完成",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Have the team check each deliverable against the team's definition of done to confirm it truly meets the completion standard.",
+          zh: "請團隊將每一項交付物逐一對照團隊的「完成的定義」,確認是否真正符合完成標準",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Let the product owner make a subjective final call on whether the overall quality of the deliverables is acceptable.",
+          zh: "由產品負責人主觀判斷這批交付物的整體品質是否可以接受,並做出最終裁定",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Simply check whether all the sprint's task cards have been moved to the \"done\" column on the task board.",
+          zh: "只檢查這次衝刺的任務卡是否都已經被移到看板上的「完成」欄位",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "「完成的定義」是團隊自己訂定的客觀完成標準,不受個人主觀感受影響。把每一項交付物對照這個標準逐一檢核,才能提供一致且可驗證的依據,確認交付物是不是真的完成,這也是團隊維持品質一致性的核心做法。\n\n行銷總監的正面評語只是主觀印象,並不是團隊事先定義好的客觀標準,不能取代真正的完成度檢核。讓產品負責人主觀裁定整體品質,同樣缺乏客觀依據,容易因人而異。只看任務卡是否移到「完成」欄位,也只反映團隊成員自己標記的進度,無法保證每個項目真的符合品質與完成的具體條件。",
+  },
+  {
+    id: "scp-134",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A telecom carrier's billing system team is integrating a new third-party mobile payment gateway. Mid-sprint, the team discovers the gateway's transaction status codes are incompatible with the existing billing reconciliation logic, which could cause duplicate charges. No prior integration case addresses this specific incompatibility. Marketing has already publicly announced that the new payment method will launch with a promotion in three weeks. What should the project manager do?",
+      zh: "一家電信業者的帳務系統團隊正在整合一個新的第三方行動支付閘道。在某次衝刺進行到一半時,團隊發現這個閘道回傳的交易狀態碼,與既有的帳務核銷邏輯不相容,可能導致重複扣款。過去沒有任何整合案例處理過這個特定的不相容問題。行銷部門已經公開宣布這個新支付方式將在三週後隨促銷活動同步上線。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Arrange for senior billing engineers to hold an internal knowledge-sharing session about past payment gateway integrations.",
+          zh: "安排資深帳務工程師舉辦內部知識分享會,討論過去支付閘道整合的經驗",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Authorize a timeboxed technical spike focused on investigating the status code incompatibility and identifying a viable fix.",
+          zh: "授權進行一次聚焦於狀態碼不相容問題的限時技術衝刺,找出可行的修正方向",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Immediately notify marketing that the promotion launch must be postponed until the issue is completely resolved.",
+          zh: "立即通知行銷部門,促銷活動上線時間必須延後,直到問題徹底解決",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Commission an external consultant to perform a full technical evaluation comparing every major mobile payment gateway on the market.",
+          zh: "委託外部顧問對市面上所有主流行動支付閘道進行一次完整的技術評估比較",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "技術衝刺正是為了這種情境設計的:進度卡在一個既有案例也查不到答案的技術未知數上,而且有明確的時間壓力。授權一次聚焦的限時技術衝刺,能在有限時間內針對這個特定的不相容問題產出可行動的調查結果,是專案經理主動協助團隊排除障礙的做法,也不必然需要動用到延後上線這種較重的手段。\n\n內部知識分享會適合處理團隊內部已經累積但沒有被整理出來的經驗,但題目已經說明過去沒有類似的整合案例可循,真正需要的是主動的技術調查而不是經驗蒐集。立即要求延後促銷上線,等於還沒嘗試任何針對性調查就先讓步犧牲時程,而技術衝刺很可能根本不需要更動上線時間就能找到解法。委託外部顧問對市場上所有支付閘道做全面評估比較,對只剩三週的上線期限而言規模過大,也偏離了眼前真正要解決的具體相容性問題。",
+  },
+  {
+    id: "scp-135",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A local government's tax filing system has historically been outsourced and delivered using a waterfall approach. After years of delayed deliveries and frequent requirement changes, leadership has directed the delivery team to adopt agile for the next phase of online filing features. The project has just been approved. What should the project manager prioritize first?",
+      zh: "某地方政府的稅務申報系統過去一直委外並用瀑布式方法交付。經歷多年的延遲交付與頻繁的需求變更後,上級指示承辦團隊在下一階段的線上申報功能改採敏捷方式交付。專案剛核准啟動。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Have the delivery team write a complete feature specification covering every foreseeable filing scenario before seeking approval.",
+          zh: "先由承辦團隊撰寫一份涵蓋所有可預見申報情境的完整功能規格書,再送交核准",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Facilitate a workshop with the business-appointed product owner and development team to build the initial product backlog and define acceptance criteria.",
+          zh: "與業務單位指派的產品負責人及開發團隊共同舉辦工作坊,建立初版產品待辦清單並定義驗收標準",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Hold a series of public town halls to exhaustively collect every possible taxpayer feature request before planning begins.",
+          zh: "先舉辦一系列民眾座談會,窮盡蒐集所有可能的納稅人功能需求後才開始規劃",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Require the development team to complete a full traditional project management plan before any development work starts.",
+          zh: "要求開發團隊先完成一份完整的傳統專案管理計畫書,才能啟動任何開發工作",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "從瀑布式轉型為敏捷,真正有意義的第一步是先與產品負責人和團隊建立起對價值的共同理解,並把它轉化成初版產品待辦清單與驗收標準。共同舉辦工作坊能立即用敏捷實際運作的形式展開這個過程,直接對應上級要求的方法論轉型,也讓團隊儘早開始交付可用的增量成果,回應過去延遲交付的問題。\n\n撰寫完整的功能規格書,本質上仍是預測型思維的產物,恰好是造成過去交付延遲與變更頻繁問題的根源之一,與轉型的初衷背道而馳。窮盡式的民眾座談會雖然立意良善,卻容易在需求還沒真正落地前過度發散,拖延團隊真正開始交付的時間。要求先完成完整的傳統專案管理計畫書,則是把預測型專案的治理模式套用在敏捷轉型上,同樣會延誤團隊開始運作的時程。",
+  },
+  {
+    id: "scp-136",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "An e-commerce company's last-mile delivery tracking platform team is midway through its fifth sprint. Based on recent customer complaint analysis, the product owner identifies two new user stories: real-time delivery exception alerts and a return-status lookup feature. What impact does this have on the project?",
+      zh: "一家電商公司的最後一哩配送追蹤平台團隊,目前進行到第五個衝刺的一半。根據近期的客訴分析,產品負責人識別出兩個新的使用者故事:即時配送異常通知,以及退貨進度查詢功能。這對這個專案會造成什麼影響?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "A formal change request must be submitted immediately to re-approve the project's scope baseline.",
+          zh: "必須立即提出正式變更請求,重新核准專案的範疇基準",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The backlog grows, and the new stories may be prioritized into upcoming sprints.",
+          zh: "待辦清單會因此增加項目,這些新故事之後可能會被排入未來的衝刺中",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The team must immediately request additional developers to complete the new stories within the current sprint.",
+          zh: "團隊必須立刻申請額外的開發人力,才能在本次衝刺內完成這些新故事",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The project's contingency reserve should be reviewed to determine whether it covers the cost of the new features.",
+          zh: "應該檢視專案的應變準備金,確認它是否足以支應這些新功能的成本",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "題目描述的是一個以衝刺為節奏運作的敏捷專案。在敏捷專案裡,新識別出的使用者故事會被加進產品待辦清單,讓待辦清單自然成長,而這些項目日後可能由產品負責人依優先順序排入未來的衝刺當中,這是敏捷交付正常且預期中的一環。\n\n要求立即提出正式變更請求重新核准範疇基準,是把預測型的變更管制思維套用在敏捷情境上,敏捷專案的範疇本來就是透過待辦清單管理持續演進,不需要走這種正式基準變更流程。立刻申請額外人力也不是面對新故事的自動反應,團隊本來就是透過衝刺規劃與待辦清單精化來管理產能與工作負荷。檢視應變準備金則是預測型風險管理的做法,識別出新的使用者故事屬於敏捷交付的正常環節,並非需要動用準備金分析的成本風險事件。",
+  },
+  {
+    id: "scp-137",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Scope",
+    questionType: "multiple_response",
+    difficulty: "hard",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A retail chain's in-store POS system team uses Scrum. It is day three of the current sprint. Based on an unplanned promotional campaign from headquarters marketing, the product owner adds two new user stories to the product backlog: a limited-time discount display and a real-time loyalty-point calculator. Select the **two** statements that correctly describe the appropriate response to this situation.",
+      zh: "一家連鎖零售業者的門市 POS 系統團隊採用 Scrum。目前是本次衝刺的第三天。因為總部行銷部門一項臨時的促銷企劃,產品負責人在產品待辦清單中新增了兩個使用者故事:限時折扣顯示,以及會員點數即時試算。請選出下列**兩項**正確描述這個情況下適當處理方式的敘述。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The two new stories are added to the product backlog, and the product owner decides which future sprint they are prioritized into.",
+          zh: "這兩個新故事會加進產品待辦清單,由產品負責人決定未來排入哪一次衝刺",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The scope already committed to for the current sprint does not automatically change unless the development team agrees to take on the additional work.",
+          zh: "本次衝刺已經承諾的範圍不會自動改變,除非開發團隊自己同意承接額外的工作",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The project manager must immediately initiate formal change control and submit the two new stories to a change control board.",
+          zh: "專案經理必須立刻啟動正式的變更管制流程,將這兩個新故事送交變更管制委員會審核",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Because new items were added to the backlog, the project's scope baseline must be reset and approved by senior management.",
+          zh: "因為待辦清單新增了項目,專案的範疇基準必須重新設定並取得高階主管核准",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "The development team should immediately stop the current sprint and re-plan a new sprint to incorporate the two new stories.",
+          zh: "開發團隊應該立即中止本次衝刺,重新規劃一次衝刺以納入這兩個新故事",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "在敏捷專案中,產品負責人本來就有權隨時把新識別出的項目加進產品待辦清單,這屬於待辦清單持續精化與成長的正常過程,日後由產品負責人依優先順序決定排入哪一次衝刺。與此同時,衝刺一旦開始,團隊已經承諾的工作範圍受到保護,不會因為待辦清單新增項目就自動被迫調整,除非開發團隊自己評估後同意額外承接,這正是衝刺這個限時容器所提供的穩定性。\n\n啟動正式的變更管制流程並送交變更管制委員會,是把預測型專案的治理機制套用在敏捷情境裡,待辦清單的成長本來就不需要走這種正式審核。要求重新設定範疇基準並取得高階主管核准,同樣是預測型思維,敏捷專案的範疇是透過待辦清單持續演進,而不是靠正式基準變更。中止當前衝刺重新規劃,則是不必要的重大干擾,新故事完全可以留在待辦清單中等待未來的衝刺,不需要打斷正在進行中的工作節奏。",
+  },
+  {
+    id: "scp-138",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Scope",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A nonprofit organization is developing a donor management platform using an agile approach. Board members tell the project manager they want to regularly see actual progress and a working version of the platform, and suggest the project manager prepare a formal written status report every two weeks for the administrative assistant to forward to the board. The development team is concerned that preparing this extra report will take time away from building features. What should the project manager do?",
+      zh: "一個非營利組織正在用敏捷方法開發捐款人管理平台。董事會成員告訴專案經理,他們希望能定期看到實際的進度與可運作的平台版本,並建議專案經理每兩週準備一份正式的書面狀態報告,交由行政助理轉發給董事會。開發團隊則擔心,額外準備這份報告會占用原本用來開發功能的時間。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Agree to the board's suggestion and have the team schedule time to prepare the written status report.",
+          zh: "同意董事會的建議,請團隊安排時間製作書面狀態報告",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Invite the board members to attend the team's existing iteration review meeting to see a working product increment.",
+          zh: "邀請董事會成員參加團隊既有的迭代審查會議,實際查看可運作的產品增量",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Tell the board that detailed progress will only be shared once the entire platform is complete.",
+          zh: "告訴董事會,詳細進度只會在整個平台開發完成後才會對外公布",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Have the administrative assistant regularly compile screenshots of the team's sprint board to forward to the board members.",
+          zh: "請行政助理定期彙整團隊衝刺看板的截圖,轉發給董事會成員",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "迭代審查會議本來就是為了展示可運作的產品增量、蒐集回饋而存在的既有場合。邀請董事會成員參加,就能用團隊原本工作節奏裡已經存在的活動來滿足他們定期看到實際進度的需求,不需要額外增加團隊的負擔,也能讓董事會直接看到真正可運作的成果而不只是描述。\n\n同意準備額外的書面狀態報告,恰好就是團隊擔心的那種節奏之外的額外工作,而現成的場合本來就足以達到同樣的目的,沒有必要另外新增。告訴董事會要等到整個平台完成才公布進度,會讓敏捷方法原本設計要提供的及早且頻繁的回饋機制整個消失,也不符合董事會的合理期待。請行政助理彙整看板截圖轉發,同樣是用間接的文件形式取代實際運作產品的現場展示,得到的回饋品質會比直接參與審查會議來得薄弱。",
   },
   {
     id: "match-001",
@@ -19325,6 +23071,692 @@ export const sampleQuestions = [
     explanation: "依服務型領導(Servant Leadership)精神,專案經理應保護團隊的衝刺承諾不受計畫外中途插入的干擾,並尊重產品負責人對產品待辦清單的排序權責,將新需求導回正式管道由產品負責人評估與排序,故答案為 (b)。未經評估直接插入項目、以無償加班強迫吸收額外工作,或未告知團隊便私自調整承諾範圍,皆違背保護團隊、尊重團隊自組織與透明溝通的核心原則。",
   },
   {
+    id: "sch-107",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A stakeholder criticizes an agile team for \"having no real plan,\" pointing out that the team only plans in detail right before each sprint rather than upfront for the whole project. How should the project manager respond?",
+      zh: "一位利害關係人批評某個敏捷團隊「根本沒有真正的計畫」,理由是這個團隊只在每次衝刺前才做詳細規劃,而不是在專案一開始就把全部規劃好。專案經理應該如何回應?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Agree and recommend the team switch to upfront, comprehensive planning like predictive projects.",
+          zh: "同意這個看法,建議團隊改採像預測式專案那樣一開始就做完整規劃",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Explain that agile planning is iterative and just-in-time, done before each sprint based on the latest priorities, not the absence of planning.",
+          zh: "說明敏捷規劃是迭代且即時的,依最新優先順序在每次衝刺前進行,並不代表沒有計畫",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Apologize and promise to create a complete upfront schedule for the remainder of the project.",
+          zh: "道歉並承諾為專案剩餘部分做出完整的事前排程",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Ignore the criticism since agile teams are not expected to justify their planning approach.",
+          zh: "忽略這個批評,因為敏捷團隊不需要為自己的規劃方式辯護",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "敏捷規劃不代表沒有計畫,而是採取迭代且即時(just-in-time)的方式,在每次衝刺開始前依最新的待辦清單優先順序進行規劃,讓計畫能持續反映最新資訊。PM 應該向利害關係人清楚說明這個差異,而不是附和對方、承諾改回一次性完整規劃,或乾脆不理會這個合理的疑問。",
+  },
+  {
+    id: "sch-108",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A predictive project has several delayed activities at once: UI design is 2 weeks behind, database optimization is 1 week behind, security review has slipped 3 weeks, and integration testing prep is 4 days behind. What should the project manager focus on first when assessing schedule impact?",
+      zh: "一個預測式專案同時有多項活動延誤:UI 設計落後 2 週、資料庫優化落後 1 週、安全審查落後 3 週、整合測試準備落後 4 天。專案經理在評估時程影響時,應該優先關注什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Identify which of the delayed activities are on the critical path and will actually impact the project end date.",
+          zh: "找出這些延誤活動中,哪些位於要徑上、會真正影響專案完工日期",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Address the security review first since it has the longest delay.",
+          zh: "優先處理安全審查,因為它延誤時間最長",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Focus on the UI design delay since it affects stakeholder-visible user experience.",
+          zh: "優先處理 UI 設計延誤,因為它影響利害關係人看得到的使用者體驗",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Work on all four delays simultaneously since they are all behind schedule.",
+          zh: "同時處理這四項延誤,因為它們都落後進度",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "多項活動同時延誤時,真正決定專案完工日期是否受影響的關鍵,是這些活動是否位於要徑(Critical Path)上;延誤時間最長、或最容易被利害關係人看見的活動,不必然就是對完工日期影響最大的活動,單純依延誤天數或能見度排序容易誤判真正的優先順序,同時處理全部四項也未必是資源最有效的分配方式。",
+  },
+  {
+    id: "sch-109",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is six weeks behind schedule on a construction project with a fixed completion deadline the sponsor has confirmed cannot be moved. A schedule review shows that additional equipment and crews can be mobilized for certain critical path activities to reduce their duration. However, several other critical path activities involve specialized inspections and technical handoffs that must be fully completed before successor work can begin. What schedule compression technique should the project manager apply first?",
+      zh: "某建設專案的專案經理進度落後六週,贊助人已確認完工期限無法變動。時程檢視顯示,部分要徑活動可以動員額外的設備與人力來縮短工期;然而,另有數項要徑活動涉及專業檢驗與技術性交接,必須完全完成後,後續工作才能開始。專案經理應優先採用哪一種時程壓縮技術?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Fast-track selected critical path activities by overlapping successor work wherever possible to recover time.",
+          zh: "將部分要徑活動快速跟進(Fast-track),盡可能讓後續工作與其重疊以搶回時間",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Crash the longest-duration activities on the schedule first to recover the maximum amount of time overall.",
+          zh: "優先趕工(Crash)時程中工期最長的活動,以搶回最多整體時間",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Crash the critical path activities where additional equipment and crews can be mobilized.",
+          zh: "對可動員額外設備與人力的要徑活動進行趕工(Crash)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Re-baseline the project schedule to reflect the current projected completion date.",
+          zh: "重新設定時程基準(Re-baseline),以反映目前預估的完工日期",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "由於完工期限已固定不可更動,專案經理必須選擇在要徑上「可行且有效」的壓縮技術。時程檢視顯示,部分要徑活動可以透過增加設備與人力來縮短工期,而另一部分要徑活動因涉及技術性交接與檢驗程序,必須依序完成,不適合重疊執行,因此正解為 (c):針對可動員額外資源的要徑活動進行趕工。\n\n(a) 快速跟進要求活動之間能夠安全重疊,但題目已明確指出部分要徑活動涉及專業檢驗與技術交接,必須完全完成才能開始後續工作,強行重疊會帶來返工或品質風險,並不可行。(b) 優先趕工「工期最長」的活動,而不考慮該活動是否在要徑上,忽略了要徑邏輯;若趕工的是非要徑活動,即使縮短工期也不會提前專案完工日,等於是沒有效益地投入額外資源與成本。(d) 重新設定基準只是被動接受延誤,並未先窮盡各種可行的壓縮手段,只有在趕工、快速跟進等壓縮策略都已評估且無法達成目標時,才會考慮重新設基準。",
+  },
+  {
+    id: "sch-110",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is reviewing a schedule update and finds that two activities have been delayed. Activity A is on the critical path and is one day behind its planned start. Activity B has eight days of total float and is seven days behind its planned start. The project deadline cannot be moved. What should the project manager do first?",
+      zh: "專案經理正在檢視時程更新報告,發現兩項活動已經延誤。活動 A 位於要徑上,實際開始時間比計畫晚了一天。活動 B 有八天的總浮時(Total Float),實際開始時間比計畫晚了七天。專案期限無法變動。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Focus recovery efforts on Activity B.",
+          zh: "將復原心力集中在活動 B",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Focus recovery efforts on Activity A.",
+          zh: "將復原心力集中在活動 A",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Reallocate resources from Activity B to Activity A.",
+          zh: "將資源從活動 B 重新分配給活動 A",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Escalate to the project sponsor.",
+          zh: "向專案贊助人呈報升級",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "活動 A 位於要徑上,浮時為零,任何進一步的延誤都會直接推遲專案完工日期。活動 B 雖然已經用掉八天浮時中的七天,值得密切關注,但目前尚未真正威脅到完工期限,因為它仍剩餘一天浮時。在期限固定的情況下,要徑活動永遠是優先處理的對象,無論另一項活動的絕對延誤天數有多大,因此正解為 (b)。\n\n(a) 活動 B 的絕對延誤天數確實比較大,且已接近成為要徑,但決定優先順序的關鍵是「剩餘浮時」與「是否在要徑上」,而不是絕對延誤天數,因此不應優先處理活動 B。(c) 重新分配資源給活動 A 或許是合理做法之一,但題目並未提供足夠資訊證明「把資源從活動 B 移走」是正確且必要的作法;考試邏輯上應優先選擇範圍更廣、恆為有效的答案,而非可能適用、也可能不適用的特定行動。(d) 在專案經理還沒有嘗試以一般時程管理手段處理延誤之前就升級呈報,為時過早。",
+  },
+  {
+    id: "sch-111",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is estimating the effort required to develop a series of technical reports for a regulatory submission. Using a parametric model based on report complexity and resource hours per page, the initial estimate exceeds the available budget. The scope cannot be reduced and the deadline is fixed. What should the project manager do to reduce the effort estimate?",
+      zh: "專案經理正在估算為某項法規送審而製作一系列技術報告所需的工作量。使用以報告複雜度與每頁所需資源工時為基礎的參數估算模型,初步估算結果超出可用預算。範疇無法縮減,期限也已固定。專案經理應該怎麼做才能降低工作量估算值?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Assign experienced technical writers who can produce the same reports in fewer hours.",
+          zh: "指派經驗豐富的技術寫手,讓他們能以更少工時完成相同的報告",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Assign additional technical writers to distribute the work across a larger team.",
+          zh: "增加技術寫手人數,將工作分攤給更多人力",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Break the reports into smaller sections to produce a more accurate estimate.",
+          zh: "將報告拆解成更小的段落,以做出更精確的估算",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Implement document automation tools to handle formatting and templating tasks.",
+          zh: "導入文件自動化工具,處理格式與範本套用等工作",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "在參數估算法中,工作量等於「工作量體」除以「生產力比率」。題目指出這個參數模型是以報告複雜度與「每頁所需資源工時」為基礎,也就是說,模型中真正可以調整的變數本質上就是人力生產力。指派更有經驗的寫手,讓他們用更少工時完成同樣的報告,直接改變了「每頁工時」這個參數,因此正解為 (a)。\n\n(b) 增加技術寫手人數只是把工作量分攤給更多人,並不會降低所需的總工時,反而可能因為溝通協調成本增加,使估算值不減反增。(c) 將報告拆解成更小段落有助於提升估算的精確度,但並不會改變完成這些工作實際所需的總工時。(d) 導入文件自動化工具或許能減少部分格式化與範本套用的工作,但本身需要額外的導入與建置成本,屬於比單純調整既有模型中「人力生產力」參數範圍更大的解決方案。",
+  },
+  {
+    id: "sch-112",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project is currently 15% behind schedule. The sponsor believes recovery is possible with overtime. The finance manager warns the budget cannot absorb additional costs. The PMO requires that recovery options be formally analyzed and approved before implementation. What should the project manager do?",
+      zh: "某專案目前進度落後 15%。贊助人認為透過加班可以挽回進度,財務經理則警告預算無法吸收額外成本,專案管理辦公室(PMO)則要求任何復原方案都必須先經過正式分析與核准才能付諸實行。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Conduct a structured impact analysis and present recovery options with cost, schedule, and risk trade-offs for formal approval.",
+          zh: "進行結構化的影響分析,列出各項復原方案在成本、時程與風險上的取捨,提交正式核准",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Analyze the critical path to identify tasks that can be fast-tracked or reduced in scope to recover the schedule.",
+          zh: "分析要徑,找出可以快速跟進或縮減範疇以挽回進度的任務",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Request authorization from the sponsor to implement overtime immediately given the severity of the schedule variance.",
+          zh: "鑒於時程差異嚴重,向贊助人請求授權,立即實施加班",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Crash critical path activities using existing budget reserves to recover schedule without exceeding the total budget.",
+          zh: "動用現有預算儲備金,對要徑活動進行趕工,在不超出總預算的前提下挽回進度",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "題目中三位利害關係人各自提出不同的限制條件:贊助人重視時效,財務經理重視預算上限,PMO 則要求任何行動前必須先完成正式分析與核准的治理程序。專案經理無法只靠採取其中任何單一選項就同時滿足這三項要求;唯有進行一項涵蓋多種復原方案、並清楚呈現成本、時程與風險取捨的結構化分析,才能同時回應這三項限制,並符合 PMO 在行動前要求正式核准的規定,因此正解為 (a)。\n\n(b) 分析要徑以找出可快速跟進或縮減範疇的機會,本身是復原分析中一項有效的技術,但若只單獨提出這個做法,就跳過了完整的方案評估與正式核准程序,未能滿足 PMO 的要求。(c) 向贊助人請求授權加班,雖然回應了贊助人偏好的做法,卻忽略了財務經理提出的預算疑慮,也未經過 PMO 要求的治理程序。(d) 動用儲備金對要徑活動趕工,在正式分析與核准完成之前就先行動,違反了 PMO 的治理要求,而且只是單方面假設儲備金足以吸收成本,並未獲得財務經理的確認。",
+  },
+  {
+    id: "sch-113",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager reviewing the resource plan discovers that a senior engineer is assigned to two parallel activities during the same two-week period, creating an overallocation. One activity is on the critical path. The other has four days of total float. The non-critical activity can be delayed within its available float. The project deadline cannot be moved. Which technique should the project manager apply?",
+      zh: "專案經理在檢視資源計畫時發現,一位資深工程師在同一個為期兩週的期間內,被同時指派到兩項平行進行的活動上,造成資源超額分配。其中一項活動位於要徑上,另一項活動則有四天的總浮時。非要徑活動可以在其可用浮時範圍內延後執行。專案期限無法變動。專案經理應該採用哪一種技術?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Resource leveling",
+          zh: "資源撫平(Resource leveling)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Resource smoothing",
+          zh: "資源平滑(Resource smoothing)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Crashing",
+          zh: "趕工(Crashing)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Fast-tracking",
+          zh: "快速跟進(Fast-tracking)",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "資源平滑是在活動「可用的浮時範圍內」調整其時程,藉此解決資源超額分配的問題,同時不影響專案完工日期。題目中的非要徑活動擁有四天浮時,正好提供了消除這次資源衝突所需的彈性空間;由於專案期限已經固定,能夠維持原有時程的技術,自然優於可能延後完工日的技術,因此正解為 (b)。\n\n(a) 資源撫平同樣是根據資源限制調整活動時間來解決超額分配,但它有可能因此延後專案整體時程;既然本題已有浮時可供運用,就沒有必要使用可能延長工期的資源撫平。(c) 趕工是透過增加資源來縮短要徑活動的工期,用於處理「時程壓縮」的需求,但本題面對的是資源超額分配問題,而非時程壓縮,趕工用錯了對象。(d) 快速跟進是讓原本循序進行的活動重疊執行,以達到壓縮時程的目的,它和趕工一樣屬於時程壓縮技術,並不能解決資源超額分配的問題。",
+  },
+  {
+    id: "sch-114",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A solar farm construction project is three weeks behind schedule, and the interconnection date agreed with the utility company cannot be moved. The schedule shows that trenching and cable-laying, a critical path activity, can be shortened by mobilizing additional crews and equipment. Another critical path activity, obtaining the county interconnection permit, cannot be shortened because it depends on a fixed statutory review period regardless of resources applied. The single longest-duration activity in the entire schedule is environmental sound-level monitoring, which is not on the critical path and has 12 days of total float. What should the project manager crash?",
+      zh: "某太陽能發電廠建設專案進度落後三週,與電力公司談定的併網日期無法變動。時程顯示,要徑上的「挖溝與布纜」活動可以透過動員額外人力與設備來縮短工期;另一項要徑活動「取得縣政府併網許可」則因受限於法定固定審查期,無論投入多少資源都無法縮短。整份時程中工期最長的單一活動是「環境噪音監測」,它並不在要徑上,擁有 12 天總浮時。專案經理應該對哪項活動進行趕工(Crashing)?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Crash the environmental sound-level monitoring activity because it has the longest duration in the schedule.",
+          zh: "對「環境噪音監測」活動進行趕工,因為它是時程中工期最長的活動",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Crash the trenching and cable-laying activity because it is on the critical path and its duration can genuinely be reduced with more resources.",
+          zh: "對「挖溝與布纜」活動進行趕工,因為它位於要徑上,且確實可以透過投入更多資源來縮短工期",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Crash the county interconnection permit activity because it is on the critical path and the schedule is behind.",
+          zh: "對「取得縣政府併網許可」活動進行趕工,因為它位於要徑上且時程已經落後",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Crash both the permit activity and the environmental monitoring activity simultaneously to maximize the chance of recovering time.",
+          zh: "同時對「取得縣政府併網許可」與「環境噪音監測」兩項活動進行趕工,以最大化挽回時間的機會",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "趕工的正確做法,是在要徑上找出「真正能夠透過投入額外資源縮短工期」的活動下手,而不是不分是否在要徑上,一律挑工期最長的活動,也不是只看是否在要徑上就貿然趕工。題目中「挖溝與布纜」同時滿足兩個條件:位於要徑上,且能透過額外人力與設備真正縮短工期,因此正解為 (b)。\n\n(a) 環境噪音監測雖然是整份時程中工期最長的單一活動,但它不在要徑上、還有 12 天浮時,即使把它的工期壓縮,專案完工日也不會因此提前,等於白白投入資源。(c) 併網許可雖然位於要徑上,但題目已明確說明它的工期受限於法定固定審查期,無論投入多少資源都無法縮短,對它趕工不會產生任何效果。(d) 同時趕工許可與監測活動,前者不會產生效果、後者不在要徑上,兩者都無助於挽回進度,反而浪費資源。",
+  },
+  {
+    id: "sch-115",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A hospital is implementing a new electronic health record (EHR) system with a go-live date fixed by a regulatory compliance deadline. During a schedule review, the project manager finds that \"data migration validation testing\" is on the critical path and is two days behind its planned finish. \"Clinical staff training sessions\" has ten days of total float and is nine days behind its planned finish. Which activity should the project manager focus recovery efforts on first?",
+      zh: "某醫院正在導入新的電子病歷(EHR)系統,上線日期受法規遵循期限限制而無法變動。專案經理在時程檢視時發現,「資料轉檔驗證測試」位於要徑上,實際完成時間比計畫晚了兩天;「臨床人員教育訓練」有十天總浮時,實際完成時間比計畫晚了九天。專案經理應該優先將復原心力放在哪項活動?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Clinical staff training sessions, because it has accumulated a much larger absolute delay.",
+          zh: "「臨床人員教育訓練」,因為它累積的絕對延誤天數大得多",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Data migration validation testing, because it is on the critical path with zero float, so any further delay pushes out go-live.",
+          zh: "「資料轉檔驗證測試」,因為它位於要徑上且浮時為零,任何進一步延誤都會推遲上線日期",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Both activities equally, since together they represent the largest combined delay in the schedule.",
+          zh: "兩項活動應同等優先處理,因為兩者合計代表時程中最大的延誤總量",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Neither activity yet, since the training sessions still have one day of float remaining.",
+          zh: "兩項活動都還不需要優先處理,因為教育訓練仍剩餘一天浮時",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "判斷優先順序的關鍵,是活動有沒有浮時、在不在要徑上,而不是看延誤的絕對天數多寡。「資料轉檔驗證測試」位於要徑上,浮時為零,即使只延誤兩天,也會直接推遲上線日期;「臨床人員教育訓練」雖然延誤天數較大,但仍有一天浮時尚未用盡,尚未威脅到完工日期,因此正解為 (b)。\n\n(a) 教育訓練的絕對延誤天數確實比較大,但決定優先順序的不是絕對延誤天數,而是浮時與要徑歸屬,選這個選項忽略了要徑邏輯。(c) 兩者「同等優先」的說法,忽視了要徑活動零浮時的急迫性遠高於仍有浮時的活動,並不成立。(d) 教育訓練確實還剩一天浮時,但這不代表兩項活動都不需要處理,要徑上的資料轉檔驗證測試仍必須立即處理,選項的推論並不正確。",
+  },
+  {
+    id: "sch-116",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A civil engineering firm is estimating the effort needed to inspect a portfolio of bridges using a parametric model: total hours equal the number of bridges multiplied by the average inspection hours per bridge. The initial estimate exceeds the client's budget. The number of bridges cannot be reduced and the deadline is fixed. What should the project manager do to reduce the effort estimate?",
+      zh: "某土木工程公司正在使用參數估算模型,估算檢驗一批橋樑所需的工作量:總工時等於橋樑數量乘以每座橋樑的平均檢驗工時。初步估算結果超出客戶預算。橋樑數量無法縮減,期限也已固定。專案經理應該怎麼做才能降低工作量估算值?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Assign inspectors experienced with standardized digital checklist tools who can complete each bridge inspection in fewer hours.",
+          zh: "指派熟悉標準化數位檢核清單工具的檢驗人員,讓每座橋樑的檢驗能以更少工時完成",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Assign additional inspectors so more bridges can be inspected in parallel during the same period.",
+          zh: "增加檢驗人員數量,以便在同一期間內平行檢驗更多座橋樑",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Break each bridge inspection into smaller checklist items to produce a more accurate estimate.",
+          zh: "將每座橋樑的檢驗拆解成更小的檢核項目,以做出更精確的估算",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Procure an enterprise-wide asset management software platform to track all inspection records.",
+          zh: "採購一套企業級資產管理軟體平台,用來追蹤所有檢驗紀錄",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "在這個參數估算模型中,總工時等於「橋樑數量」乘以「每座橋樑的平均檢驗工時」。橋樑數量已經固定無法縮減,因此要降低總工時估算值,唯一有效的做法是調整模型中真正的參數,也就是「每座橋樑的平均檢驗工時」。指派熟悉標準化數位工具、能更快完成檢驗的人員,直接降低了這個參數,因此正解為 (a)。\n\n(b) 增加檢驗人員只是把工作分攤給更多人同時進行,並不會降低完成每座橋樑檢驗所需的總工時,也就是參數本身沒有改變,反而可能因協調成本增加而使估算值上升。(c) 把檢驗拆解成更小的檢核項目有助於提升估算的精確度,但並不會改變實際需要的總工時。(d) 採購企業級資產管理軟體是規模遠大於本題需求的解決方案,牽涉額外的導入與建置成本,並非單純調整模型中既有參數的作法。",
+  },
+  {
+    id: "sch-117",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "multiple_response",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A shipbuilding project fell behind schedule after a storm damaged the dry dock, and several activities now need schedule recovery. Which two statements correctly describe how crashing should be applied in this situation? Select two.",
+      zh: "某造船專案因暴風雨損毀乾塢而落後進度,現有多項活動需要進行時程復原。關於在此情況下應如何正確運用趕工(Crashing),下列哪兩項敘述正確?請選擇兩項。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Crashing should only be applied to critical path activities where adding resources such as labor or equipment can genuinely shorten the activity's duration.",
+          zh: "趕工只應套用在要徑上、且投入額外資源(如人力或設備)確實能縮短工期的活動",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "After crashing selected activities, the project manager should recheck the critical path, because compressing those activities may shift which path is now critical.",
+          zh: "在對選定活動趕工之後,專案經理應重新檢查要徑,因為壓縮這些活動可能改變哪一條路徑成為新的要徑",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The project manager should crash the activity with the single longest duration in the schedule, regardless of whether it lies on the critical path.",
+          zh: "專案經理應該對整份時程中工期最長的單一活動進行趕工,不論該活動是否位於要徑上",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "All delayed activities should be crashed uniformly to ensure the schedule recovers as much time as possible.",
+          zh: "所有延誤的活動都應一律進行趕工,以確保盡可能挽回最多時間",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "An activity that depends on a fixed inspection or certification period should be crashed by simply adding more inspectors to that activity.",
+          zh: "若某活動受限於固定的檢驗或認證期,應直接透過增加檢驗人員來對該活動進行趕工",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "趕工正確的運用方式,是鎖定要徑上「真正能透過投入額外資源縮短工期」的活動,而不是不分是否在要徑上一律挑工期最長的活動下手,因此 (a) 正確。此外,趕工壓縮了原本要徑上的活動之後,時程中的關鍵路徑可能因此轉移到另一條原本非要徑的路徑上,專案經理必須重新計算並確認新的要徑,才能確保復原措施真正有效,因此 (b) 也正確。\n\n(c) 錯誤,只看工期長短、不考慮是否在要徑上,若趕工的活動並非要徑活動,即使縮短工期也不會提前完工日,等於無效投入。(d) 錯誤,對所有延誤活動一律趕工,忽略了部分活動可能不在要徑上、或其工期根本無法透過資源縮短,將造成資源浪費。(e) 錯誤,若活動的工期是受限於固定的檢驗或認證期間,這類期間通常不會因為增加人力而縮短,增加檢驗人員並不能真正壓縮工期。",
+  },
+  {
+    id: "sch-118",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A telecom company is deploying 5G base stations. A senior RF engineer is assigned to two activities during the same week: \"antenna alignment,\" which is on the critical path with zero float, and \"site documentation review,\" which has six days of total float. The two assignments overlap and create a resource overallocation. The non-critical activity can be delayed within its available float. The rollout deadline, tied to a spectrum license condition, cannot be moved. Which technique should the project manager apply?",
+      zh: "某電信公司正在部署 5G 基地台。一位資深射頻(RF)工程師在同一週內被指派到兩項活動:「天線校準」位於要徑上,浮時為零;「站點文件審查」則有六天總浮時。這兩項指派時間重疊,造成資源超額分配。非要徑活動可以在其可用浮時範圍內延後執行。與頻譜執照條件綁定的上線期限無法變動。專案經理應該採用哪一種技術?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Resource leveling",
+          zh: "資源撫平(Resource leveling)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Resource smoothing",
+          zh: "資源平滑(Resource smoothing)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Fast-tracking",
+          zh: "快速跟進(Fast-tracking)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Crashing",
+          zh: "趕工(Crashing)",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "資源平滑是在活動「可用的浮時範圍內」調整其時程,以消除資源超額分配,同時不影響要徑與完工日期。題目中的「站點文件審查」並非要徑活動,擁有六天浮時,足以將它延後執行以避開與天線校準的衝突;既然完工期限已因頻譜執照條件而固定,能夠不影響完工日的技術自然優於可能延後完工日的技術,因此正解為 (b)。\n\n(a) 資源撫平同樣是為了解決資源超額分配而調整活動時程,但它有可能因此延後專案整體完工日;本題已有浮時可供運用,沒有必要使用可能延長工期的資源撫平。(c) 快速跟進是讓原本循序進行的活動重疊執行,用於處理時程壓縮,並非用來解決資源衝突,用錯了問題性質。(d) 趕工是透過增加資源來縮短要徑活動工期,同樣是處理時程壓縮的技術,無法解決本題單一工程師被重複指派所造成的資源衝突。",
+  },
+  {
+    id: "sch-119",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "An e-commerce company is migrating its checkout platform to a new payment gateway. The retail launch date is fixed to coincide with a major holiday sales event. A schedule review shows two delayed activities. \"Payment gateway certification testing\" is on the critical path and is three days behind its planned finish. \"Marketing landing page copywriting\" has seven days of total float and is six days behind its planned finish. What should the project manager do first?",
+      zh: "某電商公司正在將結帳平台遷移到新的金流服務商。零售上線日期與一項重要的假期促銷活動綁定,無法變動。時程檢視顯示兩項活動已經延誤:「金流閘道認證測試」位於要徑上,實際完成時間比計畫晚了三天;「行銷登陸頁文案撰寫」有七天總浮時,實際完成時間比計畫晚了六天。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Focus recovery efforts on the payment gateway certification testing activity, since it is on the critical path with zero float.",
+          zh: "將復原心力集中在「金流閘道認證測試」活動,因為它位於要徑上且浮時為零",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Focus recovery efforts on the marketing landing page copywriting activity, since its absolute delay of six days is greater.",
+          zh: "將復原心力集中在「行銷登陸頁文案撰寫」活動,因為它的絕對延誤天數六天更大",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Reallocate resources from the copywriting activity to the certification testing activity without further analysis.",
+          zh: "未經進一步分析,直接將資源從文案撰寫活動重新分配給認證測試活動",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Treat both activities as equal priority, since their combined delay represents the greatest overall schedule risk.",
+          zh: "將兩項活動視為同等優先,因為兩者合計的延誤代表整體時程風險最大",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "判斷優先順序的依據是活動有沒有浮時、在不在要徑上,而不是延誤的絕對天數多寡。「金流閘道認證測試」位於要徑上,浮時為零,三天延誤會直接推遲上線日期;「行銷登陸頁文案撰寫」雖然延誤六天,但仍有一天浮時尚未用盡,尚未威脅到上線日期,因此正解為 (a)。\n\n(b) 文案撰寫的絕對延誤天數確實比較大,但這不是決定優先順序的依據,忽略了要徑邏輯。(c) 重新分配資源或許是合理的後續行動之一,但題目並未提供足夠資訊證明應在「未經進一步分析」的情況下貿然執行,考試邏輯上應優先選擇範圍更廣、恆為有效的判斷,而非未經評估的特定行動。(d) 兩項活動「同等優先」的說法,忽視了要徑活動零浮時的急迫性遠高於仍有浮時的活動,並不成立。",
+  },
+  {
+    id: "sch-120",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A cross-border logistics company's warehouse automation project is 20% behind schedule. The client wants delivery accelerated as soon as possible. The vendor management office warns that the contracted cost ceiling cannot be exceeded. The corporate risk committee requires that any schedule recovery plan undergo formal risk assessment and sign-off before it is executed. What should the project manager do?",
+      zh: "某跨國物流公司的倉儲自動化專案目前進度落後 20%。客戶希望盡快加快交付,供應商管理辦公室警告合約成本上限不得超支,公司風險委員會則要求任何時程復原方案都必須先經過正式風險評估與簽核才能執行。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Conduct a structured impact analysis and present multiple recovery options with their cost, schedule, and risk trade-offs for formal sign-off.",
+          zh: "進行結構化的影響分析,列出多個復原方案在成本、時程與風險上的取捨,提交正式簽核",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Immediately fast-track the remaining automation installation activities to satisfy the client's request for faster delivery.",
+          zh: "立即對剩餘的自動化安裝活動採取快速跟進,以滿足客戶要求加快交付",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask the client to formally approve an increase to the contracted cost ceiling before taking any recovery action.",
+          zh: "在採取任何復原行動之前,先請客戶正式核准提高合約成本上限",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Use the project's contingency reserve to crash critical path activities immediately, since the total budget would not be exceeded.",
+          zh: "立即動用專案的應急儲備金對要徑活動進行趕工,因為這樣不會超出總預算",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "題目中三方利害關係人各自提出不同的限制條件:客戶重視交付時效,供應商管理辦公室重視成本上限,風險委員會則要求任何行動前必須先完成正式風險評估與簽核的治理程序。專案經理無法只靠採取其中任何單一選項就同時滿足這三項要求,唯有進行一項涵蓋多種復原方案、並清楚呈現成本、時程與風險取捨的結構化分析,才能同時回應這三項限制,也才能滿足風險委員會在行動前要求正式簽核的規定,因此正解為 (a)。\n\n(b) 立即快速跟進雖然回應了客戶對時效的要求,卻沒有評估對成本與風險的影響,也跳過了風險委員會要求的正式評估與簽核程序。(c) 請客戶核准提高成本上限,只回應了成本這一項限制,並未处理時程與治理程序的要求,而且尚未進行任何分析就先提出這項請求,並不成熟。(d) 動用應急儲備金趕工雖然名義上未超出總預算,但在正式風險評估與簽核完成之前就先行動,違反了風險委員會要求的治理程序。",
+  },
+  {
+    id: "sch-121",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Schedule",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A film production company discovers that its lead cinematographer has been scheduled for two overlapping shoots in the same week. One shoot, filming the climactic scene, is on the critical path with zero float. The other shoot, filming a supporting subplot scene, has five days of total float. The wrap deadline, tied to a distributor release window, cannot be moved. Which technique should the production manager apply to resolve the overallocation?",
+      zh: "某電影製作公司發現,首席攝影師在同一週被排定同時參與兩場重疊的拍攝。其中一場是拍攝高潮場景,位於要徑上,浮時為零;另一場是拍攝支線劇情場景,擁有五天總浮時。與發行商上映檔期綁定的殺青期限無法變動。製作經理應該採用哪一種技術來解決這次資源超額分配?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Crashing, by hiring a second camera crew for the climactic scene.",
+          zh: "趕工,為高潮場景加派第二組攝影團隊",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Fast-tracking, by filming both scenes simultaneously with split crews.",
+          zh: "快速跟進,以分組人力同時拍攝兩場場景",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Resource smoothing, by delaying the supporting subplot shoot within its available float.",
+          zh: "資源平滑,在支線劇情拍攝的可用浮時範圍內將其延後",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Resource leveling, by extending the overall production schedule to separate the two shoots.",
+          zh: "資源撫平,延長整體製作時程以錯開兩場拍攝",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "資源平滑是在活動「可用的浮時範圍內」調整其時程,以消除資源超額分配,同時不影響要徑與完工日期。支線劇情場景並非要徑活動,擁有五天浮時,足以將它延後拍攝以避開與高潮場景的攝影師衝突;由於殺青期限已因發行檔期而固定,能夠不影響完工日的技術優於可能延後完工日的技術,因此正解為 (c)。\n\n(a) 趕工是透過增加資源來縮短要徑活動工期,用於處理時程壓縮,並非用來解決同一位攝影師被重複指派所造成的資源衝突,用錯了問題性質。(b) 快速跟進是讓原本循序進行的活動重疊執行以壓縮時程,同樣是時程壓縮技術,無法解決資源衝突,而且本題兩場拍攝都需要同一位首席攝影師,分組同時拍攝並不能真正化解衝突。(d) 資源撫平同樣是為了解決資源超額分配而調整活動時程,但它有可能因此延後專案整體完工日;本題已有浮時可供運用,沒有必要使用可能延長工期的資源撫平。",
+  },
+  {
     id: "calc-001",
     edition: "pmbok8",
     domain: "Process",
@@ -25630,6 +30062,1153 @@ export const sampleQuestions = [
     ],
     correctAnswer: "c",
     explanation: "題目已經明講這份合約「payment tied to accepted work」,也就是付款與驗收綁在一起,專案經理該追蹤的自然是直接對應「驗收合格與否」的指標:已驗收交付的功能數、審查時被退回的件數、以及找到的瑕疵數,這組指標能直接反映廠商實際交付出多少「合格」的價值,也是決定是否付款的依據。一句話總結這個判準:Payment rides on accepted work, so the metrics that matter are acceptance anchored(付款是綁定在驗收合格的工作上,所以真正該追蹤的指標必須錨定在驗收結果上)。測試對話數、運算時數、衝刺完成數,以及人力配置、預算耗用、故事點數,都是偏向過程與投入面的效率指標,跟「這批工作到底有沒有被驗收通過」沒有直接關聯;廠商自行回報的準確率與進行中迭代次數,則是未經第三方驗證的廠商自報數字,無法客觀反映實際驗收結果,也偏離了「依驗收付款」這個合約重點。",
+  },
+  {
+    id: "fin-109",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A procurement team drafts a vendor contract with steep penalty clauses for any delay, unlimited vendor liability for any issue, and very limited payment milestones. What should the project manager recommend about this contract structure?",
+      zh: "採購團隊起草了一份廠商合約,裡面訂有嚴苛的延誤罰則、要求廠商承擔無上限的責任,而且付款里程碑非常少。專案經理應該對這份合約結構提出什麼建議?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Proceed as drafted since it maximizes protection for the organization.",
+          zh: "照原稿進行,因為這樣最大程度保護了組織的權益",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Modify the contract to create more balanced risk sharing, reasonable payment terms, and mutual incentives for successful delivery.",
+          zh: "修改合約,建立更平衡的風險分擔、合理的付款條件,以及雙方都有誘因促成成功交付的機制",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Add even more penalty clauses to further guarantee vendor performance.",
+          zh: "再加入更多罰則條款,進一步保證廠商的履約表現",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Keep the current terms but add a bonus for early delivery.",
+          zh: "維持現有條款,只額外加上提前交付的獎金",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "當廠商承擔過度風險或利潤空間被壓縮到過低時,往往會導致廠商偷工減料、態度轉為對立、或整體履約品質下降,即使合約條文上看似保護了買方。真正對雙方都有利的合約,應該建立平衡的風險分擔、合理的付款條件,並讓買賣雙方都有誘因促成專案成功,而不是一味加重罰則或維持不對等的條款結構。",
+  },
+  {
+    id: "fin-110",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Due to unexpected technical complexity, a project is now facing both a 15% budget overrun and a 3-week schedule delay. If a trade-off must be made, which should the project manager prioritize addressing?",
+      zh: "因為未預期的技術複雜度,一個專案同時面臨 15% 的預算超支與 3 週的時程延誤。如果必須做出取捨,專案經理應該優先處理哪一項?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Reduce scope and features to protect the original timeline, accepting the budget overrun.",
+          zh: "縮減範疇與功能以保護原始時程,接受預算超支",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Negotiate additional funding to cover the overrun while accepting the 3-week delay.",
+          zh: "爭取追加預算來因應超支,同時接受 3 週延誤",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Address the budget overrun first with cost-reduction measures, then work on compressing the schedule.",
+          zh: "先用降低成本的措施處理預算超支,再設法壓縮時程",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Accept smaller overruns in both budget and schedule rather than fully solving either.",
+          zh: "讓預算與時程都各自接受一點超支,而不是完全解決任何一項",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "當專案必須在成本與時程之間做取捨時,一般會優先控制預算,因為成本超支對組織造成的衝擊,通常比時程延誤更嚴重且更難挽回;因此應優先採取降低成本的措施,再視情況處理時程壓縮,而不是直接犧牲範疇保時程、不設限地追加預算,或兩邊都各讓一步卻兩邊都沒真正解決。",
+  },
+  {
+    id: "fin-111",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "A project manager receives the following status update: Budget at Completion (BAC) = $500,000; Planned Value (PV) = $250,000; Earned Value (EV) = $200,000; Actual Cost (AC) = $240,000. What is the Cost Performance Index (CPI) and what does it indicate?",
+      zh: "專案經理收到以下狀態報告:完工預算(BAC)= $500,000;計畫值(PV)= $250,000;實獲值(EV)= $200,000;實際成本(AC)= $240,000。請問成本績效指標(CPI)為何?這代表什麼意義?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "CPI = 0.83; the project is over budget, receiving less value than the amount being spent.",
+          zh: "CPI = 0.83;專案超出預算,獲得的價值低於實際花費的金額。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "CPI = 1.20; the project is under budget, completing more work than planned for the cost incurred.",
+          zh: "CPI = 1.20;專案低於預算,以目前花費的成本完成了比計畫更多的工作。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "CPI = 0.80; the project is over budget, as earned value falls short of planned value.",
+          zh: "CPI = 0.80;專案超出預算,因為實獲值低於計畫值。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "CPI = 1.04; the project is under budget, with costs running slightly below planned value.",
+          zh: "CPI = 1.04;專案低於預算,實際成本略低於計畫值。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "CPI = EV / AC = 200,000 / 240,000 ≈ 0.83。CPI 小於 1 表示成本績效不佳、專案超出預算,每花費 1 元的實際成本,只換得約 0.83 元的實獲價值。選項 (b) 的 1.20 是把公式顛倒計算成 AC/EV(240,000/200,000),是最常見的 EVM 計算錯誤;選項 (c) 的 0.80 其實是把 EV 除以 PV(200,000/250,000),算出來的是 SPI 而非 CPI;選項 (d) 的 1.04 是拿 PV 除以 AC(250,000/240,000),這個組合並不衡量任何標準的成本效率指標。CPI 的定義必須是「實獲值 ÷ 實際成本」,比較的是賺到的價值與花掉的錢,而不是計畫工作量與實際花費的關係。",
+  },
+  {
+    id: "fin-112",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A project manager is presenting the project budget to the sponsor. The budget includes $80,000 in contingency reserves, and $40,000 in management reserves. The sponsor asks who controls each reserve and under what conditions they can be accessed. What should the project manager explain?",
+      zh: "專案經理正在向贊助人簡報專案預算。預算中包含 $80,000 的應變準備金(Contingency Reserve)與 $40,000 的管理準備金(Management Reserve)。贊助人詢問這兩種準備金各自由誰掌控、在什麼條件下才能動用。專案經理應該如何說明?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Contingency reserves are controlled by the project manager and used for identified risks; management reserves are controlled by the sponsor and require formal approval to access.",
+          zh: "應變準備金由專案經理掌控,用於因應已識別的風險;管理準備金則由贊助人掌控,須經正式核准才能動用。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The project manager controls all reserves and can access either type when actual costs exceed the cost baseline.",
+          zh: "專案經理掌控所有準備金,只要實際成本超出成本基準,就能動用任一種準備金。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Both reserve types are controlled by the sponsor and require a formal change request to be used.",
+          zh: "兩種準備金皆由贊助人掌控,動用時都須提出正式變更請求。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Management reserves are part of the cost baseline while contingency reserves sit outside it and require sponsor approval to use.",
+          zh: "管理準備金屬於成本基準的一部分,而應變準備金則在成本基準之外,須經贊助人核准才能動用。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "應變準備金用於因應已識別的風險,包含在成本基準內,當這些風險發生時由專案經理直接動用;管理準備金則是為了因應未知的未知風險(unknown-unknowns)而設置,位於成本基準之外、屬於專案預算的一部分,動用時代表對已核准預算的變更,因此必須經過正式變更請求並取得贊助人核准。選項 (b) 讓專案經理掌控全部準備金,抹除了「已規劃的風險因應」與「須高層授權的未知狀況」之間的治理區別;選項 (c) 要求動用應變準備金也須經贊助人核准,會拖慢對已預先規劃因應措施的風險回應速度,違背設置應變準備金的初衷;選項 (d) 把兩者的歸屬完全講反,管理準備金並不屬於成本基準,應變準備金才是。",
+  },
+  {
+    id: "fin-113",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is procuring cybersecurity services for an upcoming system migration. The organization's procurement policy prefers fixed-price contracts to minimize financial exposure. However, the exact vulnerabilities that will be discovered and addressed cannot be determined until the assessment begins. What contract type should the project manager recommend?",
+      zh: "專案經理正為即將進行的系統遷移採購資安服務。組織的採購政策偏好使用固定價格合約以降低財務風險,但實際上要等到評估開始後,才能知道會發現並需要處理哪些具體弱點。專案經理應該建議採用哪一種合約類型?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Firm Fixed Price",
+          zh: "訂有明確固定總價的合約(FFP)",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Cost Plus Incentive Fee",
+          zh: "成本加誘因費用合約(CPIF)",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Time and Materials",
+          zh: "工時與物料合約(T&M)",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Cost Plus Fixed Fee",
+          zh: "成本加固定費用合約(CPFF)",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "T&M 合約適用於範疇在事前無法完整界定的工作,它一方面讓工作內容能隨著評估進展而調整,一方面又透過事先議定的工時費率讓成本維持透明可控,正好符合本題「弱點要等評估開始後才會逐漸浮現」的情境。FFP 雖然符合組織偏好固定價格的政策,但在範疇未定的情況下採用,等於要求廠商在還不知道工作量的情況下承諾固定總價,這會把不合理的風險轉嫁給廠商,也可能導致廠商為了自保而降低服務品質;CPIF 需要事先設定明確的績效目標才能設計誘因機制,但本題一開始範疇未定,根本沒有基礎可以訂出這些目標;CPFF 會報銷全部成本並外加一筆固定費用,較適合範疇不明確、規模更大、期程更長的委外案,對於一次針對性的資安評估而言,CPFF 帶來的財務風險反而比 T&M 更高,卻沒有額外的效益。",
+  },
+  {
+    id: "fin-114",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "calculation",
+    stem: {
+      en: "Topic: EVM calculations. A project manager receives the following status update at the end of the third month of a six-month project: Budget at Completion (BAC): $600,000; Earned Value (EV): $240,000; Actual Cost (AC): $300,000. Assuming current cost performance continues for the remainder of the project, what is the Estimate at Completion (EAC)?",
+      zh: "主題:EVM 計算。某六個月專案在第三個月底時,專案經理收到以下狀態報告:完工預算(BAC)= $600,000;實獲值(EV)= $240,000;實際成本(AC)= $300,000。假設目前的成本績效在專案剩餘期間持續不變,請問完工估算(EAC)為何?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "$480,000",
+          zh: "$480,000",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "$600,000",
+          zh: "$600,000",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "$660,000",
+          zh: "$660,000",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "$750,000",
+          zh: "$750,000",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "當假設目前的成本績效會延續到專案結束時,應使用 EAC = BAC / CPI。先求 CPI = EV / AC = 240,000 / 300,000 = 0.8。再代入 EAC = BAC / CPI = 600,000 / 0.8 = 750,000。也就是說,若成本效率不改善,專案完工時預期會比原始預算多花 150,000 元。選項 (a) $480,000 是把 BAC 直接乘以 CPI(600,000×0.8),把「除以」誤算成「乘以」,方向完全顛倒;選項 (b) $600,000 就是原始 BAC,等於假設剩餘工作會恢復依照原計畫的效率完成,這與題目「目前績效持續不變」的前提矛盾;選項 (c) $660,000 是套用 AC+(BAC−EV) = 300,000+360,000 這個公式,這個公式假設「目前的落後只是特例、剩餘工作會以原計畫效率(即效率為 1)完成」,同樣不符合本題「績效持續不變」的假設。",
+  },
+  {
+    id: "fin-115",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is selecting a supplier for a large infrastructure project. One supplier has the lowest price, while another follows responsible sourcing practices and has a stronger environmental record. Both suppliers satisfy the technical requirements. What should the project manager do?",
+      zh: "專案經理正在為一項大型基礎建設專案挑選供應商。其中一家供應商報價最低,另一家則採行負責任的採購作法,環保紀錄也較佳。兩家供應商都符合技術要求。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Select the supplier with the lowest purchase price.",
+          zh: "選擇報價最低的供應商。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Evaluate both suppliers using sustainability and long-term value.",
+          zh: "以永續性與長期價值來評估這兩家供應商。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Choose the supplier with the shortest delivery schedule.",
+          zh: "選擇交貨時程最短的供應商。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Allow the procurement manager to make the selection.",
+          zh: "交由採購經理來決定。",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "永續採購(Sustainable Procurement)強調在決策時同時衡量環境、社會與經濟三個面向的長期價值,而不是只看眼前的價格高低。本題兩家供應商都已符合技術要求,真正的決策重點在於誰能帶來更好的整體長期價值,因此應該把永續性與長期效益一併納入評估。選項 (a) 只看最低報價,忽略了三重基線(triple bottom line)中環境與社會面的考量;選項 (c) 把交貨時程當成唯一標準,同樣不是永續性的決策依據;選項 (d) 把選擇責任完全交給採購經理,但評估專案採購對整體專案的影響仍是專案經理的職責,不應完全放手不管。",
+  },
+  {
+    id: "fin-116",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is overseeing the development of a new office facility. The design team proposes incorporating energy-efficient systems including solar panels, smart climate controls, and sustainable building materials. Several department heads are pushing back, arguing the upfront costs are too high and the budget should be allocated elsewhere. What should the project manager do?",
+      zh: "專案經理正在督導一棟新辦公大樓的開發專案。設計團隊提議導入節能系統,包括太陽能板、智慧空調控制系統與永續建材。多位部門主管表示反對,認為前期成本太高,預算應該用在別的地方。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Ask the project sponsor to reinforce the organization's sustainability commitments to the resistant department heads.",
+          zh: "請專案贊助人出面,向持反對意見的部門主管重申組織的永續承諾。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Present data showing reduced operating costs, regulatory risk reduction, and long-term return on investment for the energy-efficient systems.",
+          zh: "提出數據,說明節能系統能降低營運成本、減少法規風險,並帶來長期投資報酬。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Schedule a mandatory sustainability workshop for all department heads to build awareness of the organization's environmental goals.",
+          zh: "為所有部門主管安排一場強制參加的永續工作坊,以建立對組織環保目標的認識。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Review the project charter and business case to identify the sustainability requirements that have already been formally approved.",
+          zh: "回頭檢視專案章程與商業論證,找出已正式核准的永續性需求。",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "部門主管反對的核心理由是財務考量,因此最直接有效的做法,就是針對這個財務疑慮本身提出數據,證明前期投入的成本能透過長期節省的營運費用、降低的法規風險與具體的投資報酬回收來彌補。這樣做正面回應了真正的反對理由,而不是訴諸權威、強制要求出席,或只是退回文件裡尋求依據。選項 (a) 請贊助人出面重申承諾,等於把專案經理原本能自行處理的利害關係人共識問題往上升級,在還沒嘗試直接溝通之前就越過自己的職責找靠山;選項 (c) 安排強制工作坊只能廣泛提升對環保目標的認知,並沒有回應部門主管具體提出的預算疑慮,認知提升不代表財務疑慮就會消失;選項 (d) 回頭檢視章程與商業論證雖然有助於確認需求本身是否存在,但只是確認「這項需求已經被核准過」,並不能說服原本就持懷疑態度的主管,也沒有處理他們真正在意的預算分配問題。",
+  },
+  {
+    id: "fin-117",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A technology company is implementing a new enterprise software system. The IT director argues the implementation costs should be capitalized as a long-term asset. The operations director wants them treated as operational expenses for an immediate tax deduction. The project sponsor asks the project manager to classify the costs however will secure budget approval most quickly. The company's controller warns that improper classification could trigger a regulatory audit. What should the project manager do?",
+      zh: "某科技公司正在導入一套新的企業軟體系統。IT 總監主張導入成本應資本化為長期資產,營運總監則希望將其列為營業費用以立即取得稅務扣抵。專案贊助人要求專案經理採用能最快取得預算核准的分類方式。公司財務長(controller)則警告,若分類不當可能引發法規稽核。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Follow the project sponsor's direction and classify the costs in the way that secures the fastest budget approval.",
+          zh: "依照贊助人的指示,採用能最快取得預算核准的分類方式。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Work with the IT director, operations director, and controller to classify costs according to applicable accounting standards.",
+          zh: "與 IT 總監、營運總監及財務長共同合作,依照適用的會計準則來分類成本。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Divide the costs between capital and operational categories to give each director partial satisfaction.",
+          zh: "把成本拆分為資本與營運兩類,讓兩位總監各自得到部分滿足。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Defer the classification decision until later in the project when actual costs are more clearly defined.",
+          zh: "把分類決策延後到專案後期、等實際成本更明確時再處理。",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "成本分類必須依照會計準則來判定,不是取決於哪位利害關係人的偏好或核准預算的速度快慢。財務長已經指出這裡存在真實的合規風險,專案經理的角色是把正確的人找齊、確保決策依循適用的會計準則,而不是尋求一個政治上皆大歡喜的折衷方案。選項 (a) 聽命贊助人以核准速度為優先,等於把一項合規要求當成了利害關係人的個人偏好來處理,為了行政上的方便而做出不當分類,無論是誰下的指示,都構成道德與法規上的違規;選項 (c) 把成本任意拆分成兩類來讓雙方各自滿意,製造的正是財務長所警告的那種錯誤分類風險,正確的分類結果不應該是雙方協商出來的妥協;選項 (d) 延後決策只是迴避衝突而非解決問題,而且會讓成本基準遲遲無法確立,造成後續預算的不確定性。",
+  },
+  {
+    id: "fin-118",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is overseeing the renovation of a historic government building. The project is 60% complete. The deputy director has raised concerns that recent contractor invoices suggest the project may be trending toward a cost overrun and has asked the project manager to evaluate the current budget position and the state of the contingency reserve. How should the project manager respond?",
+      zh: "專案經理正在督導一棟歷史性政府建築的整修專案,目前專案完成度為 60%。副局長對近期承包商的請款單提出疑慮,認為專案可能正朝向成本超支的方向發展,並要求專案經理評估目前的預算狀況與應變準備金的餘裕。專案經理該如何回應?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Use cost performance data and forecasting to determine whether the project remains within budget tolerance and initiate a change request if reserves are insufficient.",
+          zh: "運用成本績效數據與預測,判斷專案是否仍在預算容忍範圍內,若準備金不足則提出變更請求。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Review the risk breakdown structure to determine whether a budget overrun qualifies as a formal risk requiring a response.",
+          zh: "檢視風險分解結構(RBS),判斷預算超支是否構成需要因應的正式風險。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Conduct a sensitivity analysis to identify which remaining project activities pose the greatest cost uncertainty.",
+          zh: "進行敏感度分析,找出剩餘活動中成本不確定性最高的項目。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Run a Monte Carlo simulation to model the probability distribution of final project costs and reserve adequacy.",
+          zh: "執行蒙地卡羅模擬,模擬最終專案成本的機率分布與準備金的充足程度。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "副局長問的是「目前的預算狀況」與「準備金是否足夠」,能直接回答這個問題的做法,是運用 CPI、EAC、VAC 等成本績效數據與預測技術,呈現目前績效相對於基準的落差,並推估完工時的最終成本。選項 (b) 風險分解結構只是用來對風險類型做分類,並不能評估目前實際的預算績效,也無法判斷應變準備金能否吸收預期的超支;選項 (c) 敏感度分析是找出「未來哪些活動的成本不確定性最高」,是一種前瞻性的風險排序工具,而不是用來評估「目前」預算狀況的方法;選項 (d) 蒙地卡羅模擬能產生結果的機率分布,是定量風險分析中有效的技術,但對於一個常規的預算狀況評估而言,這個做法明顯過於複雜,而且同樣沒有直接回答「目前準備金是否足夠」這個問題。",
+  },
+  {
+    id: "fin-119",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is managing procurement for a complex deliverable and must choose a contract type. The scope is not yet fully defined and is expected to evolve as work progresses. What should the project manager do?",
+      zh: "專案經理正在為一項複雜的交付項目管理採購事宜,必須選擇合約類型。目前範疇尚未完全界定,而且預期會隨著工作進展而演變。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Use a firm fixed-price contract.",
+          zh: "採用訂有明確固定總價的合約(FFP)。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Avoid contracting until the scope is fully defined.",
+          zh: "等到範疇完全界定清楚後,再進行採購。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Use a purchase order to keep the arrangement simple.",
+          zh: "採用採購訂單(PO),讓安排保持簡單。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Use a cost-reimbursable contract.",
+          zh: "採用成本補償合約。",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "當範疇不確定、且預期會隨著工作進行而演變時,成本補償合約是較適合的選擇,因為它能容納範疇的變動,不會強迫賣方去為一項尚未界定清楚的工作事先報出固定價格,把範疇風險以較合理的方式分配給買賣雙方。選項 (a) 固定總價合約需要有清楚界定的範疇作為前提,在本題情境下採用,會迫使賣方報出不準確的價格,後續也容易因範疇變動而不斷產生變更爭議;選項 (b) 等到範疇完全確定才簽約,在範疇本來就預期會持續演變的情況下並不切實際,可能永遠等不到那個時間點;選項 (c) 採購訂單適合的是簡單、範疇明確、金額較低的採購項目,並不適用於範疇複雜且會不斷演變的交付項目。",
+  },
+  {
+    id: "fin-120",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "calculation",
+    stem: {
+      en: "A project manager at a semiconductor equipment company is tracking the \"Fab Line 9 Automation Retrofit\" project. At the status date: Planned Value (PV) = $300,000; Earned Value (EV) = $276,000; Actual Cost (AC) = $290,000. What is the Schedule Performance Index (SPI), and what does it indicate?",
+      zh: "晶心科技的專案經理正在追蹤「Fab Line 9 自動化改造」專案。於狀態日:計畫值(PV)= $300,000;實獲值(EV)= $276,000;實際成本(AC)= $290,000。請問時程績效指標(SPI)為何?這代表什麼意義?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "SPI = 0.92,專案進度落後於計畫。",
+          zh: "SPI = 0.92,專案進度落後於計畫。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "SPI = 1.09,專案進度超前於計畫。",
+          zh: "SPI = 1.09,專案進度超前於計畫。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "SPI = 0.95,專案進度落後,因為花費比賺得的價值多。",
+          zh: "SPI = 0.95,專案進度落後,因為花費比賺得的價值多。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "SPI = 0.97,專案進度落後於計畫。",
+          zh: "SPI = 0.97,專案進度落後於計畫。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "SPI = EV / PV = 276,000 / 300,000 = 0.92。SPI 小於 1 表示截至目前實際完成的工作價值低於計畫應完成的工作價值,專案進度落後於計畫。選項 (b) 的 1.09 是把公式顛倒計算成 PV/EV(300,000/276,000),方向完全相反,算出來的結果反而顯示「超前」,是最常見的計算錯誤。選項 (c) 的 0.95 其實是用 EV/AC(276,000/290,000)算出來的,那是 CPI 而不是 SPI,雖然巧合之下同樣小於 1,但衡量的是成本效率而非時程進度。選項 (d) 的 0.97 是拿 AC/PV(290,000/300,000)計算,這個組合並不對應任何標準的 EVM 指標。SPI 的定義必須是「實獲值 ÷ 計畫值」,比較的是實際完成的工作與原訂計畫應完成的工作,而不是實際花費的成本。",
+  },
+  {
+    id: "fin-121",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager at a medical device company is ramping up production of a new wearable cardiac monitor. Two cost issues arise in the same week. First, a critical sensor supplier delay that was already logged in the risk register as an identified risk has occurred, and the team wants to air-freight the parts as the planned response, at extra cost. Second, a raw material supplier issues a sudden safety recall that was never anticipated in the risk management plan, forcing unplanned emergency rework. How should the project manager fund each situation?",
+      zh: "一家醫療器材公司的專案經理正在為新款穿戴式心律監測裝置的量產做準備。同一週內出現兩個成本問題。第一,風險登記冊裡早就記錄過的一項已識別風險(關鍵感測器供應商可能延遲交貨)真的發生了,團隊想採用原訂的因應方式,以空運方式加速取得零件,因此會產生額外費用。第二,一家原料供應商突然發出安全召回通知,這是風險管理計畫裡完全沒有預期到的狀況,迫使團隊進行計畫外的緊急重工。專案經理應該如何分別為這兩種情況籌措資金?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Use the contingency reserve directly for the sensor delay response, and use the management reserve, with a formal change request and sponsor approval, for the unforeseen recall.",
+          zh: "感測器延遲的因應措施直接動用應變準備金,而未預期的召回事件則動用管理準備金,並須提出正式變更請求、取得贊助人核准。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Use the management reserve for both situations, so the contingency reserve stays available for larger problems later.",
+          zh: "兩種情況都動用管理準備金,把應變準備金保留給日後更大的問題使用。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Use the contingency reserve for both, since both situations increase project cost and the project manager controls the overall cost baseline.",
+          zh: "兩種情況都動用應變準備金,因為兩者都會增加專案成本,而專案經理本來就掌控整體成本基準。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Request formal sponsor approval before using either reserve, since any reserve expenditure must go through the same approval process.",
+          zh: "動用任一種準備金前都須先取得贊助人的正式核准,因為所有準備金支出都須經過相同的核准流程。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "感測器延遲是風險登記冊裡早已識別、也已規劃好因應方式的已知風險,這類已識別風險的因應成本本來就編列在應變準備金內,由專案經理自行決定動用即可,不需要額外的正式核准。原料召回則是完全沒被預期到的未知風險,屬於管理準備金因應的範圍,管理準備金不包含在成本基準內,動用時代表對已核准預算的變更,必須經過正式變更請求並取得贊助人核准。選項 (b) 把已識別風險的因應也丟給管理準備金處理,不必要地拉高了核准門檻,拖慢原本可以立即執行的因應速度;選項 (c) 想用應變準備金去因應完全未預期的召回事件,但應變準備金的額度是依已識別風險估算出來的,用它去吸收未知風險,可能導致準備金不足以因應真正已識別的風險;選項 (d) 要求兩種情況都須經贊助人核准,抹除了應變準備金「由專案經理自行動用」這個設計初衷,會讓組織對已規劃好的風險因應反應變慢。",
+  },
+  {
+    id: "fin-122",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager at a publishing house is procuring printing services for the annual holiday gift box print run. The page count, paper stock, binding type, and print quantities are all fully specified in the statement of work and are very unlikely to change. What contract type should the project manager select?",
+      zh: "一家出版社的專案經理正在為年度節慶禮盒印刷案採購印刷服務。頁數、紙材、裝訂方式與印刷數量都已在工作說明書中完整界定,而且極不可能變動。專案經理應該選擇哪一種合約類型?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Firm Fixed Price.",
+          zh: "訂有明確固定總價的合約(FFP)。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Cost Plus Fixed Fee.",
+          zh: "成本加固定費用合約(CPFF)。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Time and Materials.",
+          zh: "工時與物料合約(T&M)。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Cost Plus Incentive Fee.",
+          zh: "成本加誘因費用合約(CPIF)。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "當範疇已經完整且清楚界定,而且不太可能再變動時,訂有明確固定總價的合約(FFP)是最合適的選擇,因為賣方能依據明確的規格準確報價,買方也能取得可預期、固定的成本,同時把達成規格所需的執行風險合理地轉移給賣方。選項 (b) 成本加固定費用合約適用於範疇不確定、需要報銷成本的情境,在本題這種範疇已定案的簡單印刷案上採用,反而會讓買方承擔不必要的成本不確定性;選項 (c) 工時與物料合約適合範疇無法事先界定、需要邊做邊調整的工作,對於規格已經固定的印刷案並不合適;選項 (d) 成本加誘因費用合約需要先設定明確的績效目標才能設計誘因機制,通常用在範疇存在一定不確定性、且希望誘導賣方提升效率的大型或複雜採購案,對這種規格已定、風險極低的印刷案而言明顯過於複雜。",
+  },
+  {
+    id: "fin-123",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "calculation",
+    stem: {
+      en: "A solar energy developer's grid interconnection substation project has Budget at Completion (BAC) = $900,000. At the status date: Earned Value (EV) = $360,000; Actual Cost (AC) = $400,000. Assuming current cost performance continues for the remainder of the project, what is the Variance at Completion (VAC)?",
+      zh: "一家太陽能開發商的併網變電站專案,完工預算(BAC)= $900,000。於狀態日:實獲值(EV)= $360,000;實際成本(AC)= $400,000。假設目前的成本績效在專案剩餘期間持續不變,請問完工變異(VAC)為何?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "VAC = −$100,000,專案預期將超出預算完成。",
+          zh: "VAC = −$100,000,專案預期將超出預算完成。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "VAC = +$100,000,專案預期將低於預算完成。",
+          zh: "VAC = +$100,000,專案預期將低於預算完成。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "VAC = −$40,000,誤用「AC + (BAC − EV)」公式計算 EAC 後代入所得的結果。",
+          zh: "VAC = −$40,000,誤用「AC + (BAC − EV)」公式計算 EAC 後代入所得的結果。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "VAC = +$500,000,誤把 AC 當作 EAC、直接以「BAC − AC」計算所得的結果。",
+          zh: "VAC = +$500,000,誤把 AC 當作 EAC、直接以「BAC − AC」計算所得的結果。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "先求 CPI = EV / AC = 360,000 / 400,000 = 0.9。因為假設目前績效持續不變,應以 EAC = BAC / CPI = 900,000 / 0.9 = 1,000,000 來預測完工成本。VAC = BAC − EAC = 900,000 − 1,000,000 = −100,000,負值表示專案完工時預期會超出原始核准預算 100,000 元。選項 (b) 的 +100,000 是把正確答案的正負號直接顛倒,誤以為超支的差額代表低於預算;選項 (c) 的 −40,000 是改用「AC+(BAC−EV)」這個假設「目前落後只是特例、剩餘工作將恢復依原計畫效率完成」的公式去算 EAC(400,000+540,000=940,000),但題目已經明確假設「目前績效持續不變」,不應套用這個公式;選項 (d) 的 +500,000 則是把 AC 誤當成 EAC,直接用 BAC−AC(900,000−400,000)去計算,完全忽略了還需要先預測完工成本這一步。",
+  },
+  {
+    id: "fin-124",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A beverage company's project manager is selecting an aluminum can supplier for a new product line. Supplier X offers the lowest price and the fastest lead time, but has unresolved labor-practice complaints and a low recycled-content ratio. Supplier Y costs slightly more and has a longer lead time, but uses 70% recycled aluminum, holds a verified fair-labor certification, and proposes a multi-year strategic partnership. Both suppliers meet the technical specifications for can strength and finish. What should the project manager recommend?",
+      zh: "一家飲料公司的專案經理正在為新產品線挑選鋁罐供應商。X 供應商報價最低、交期最快,但有尚未解決的勞動條件申訴紀錄,回收材料比例也偏低。Y 供應商報價略高、交期較長,但採用 70% 回收鋁材、持有經第三方驗證的公平勞動認證,並提出多年期策略合作方案。兩家供應商都符合罐體強度與外觀的技術規格。專案經理應該建議採用哪一家?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Select Supplier X because it offers the lowest price.",
+          zh: "選擇 X 供應商,因為報價最低。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Select Supplier X because it has the fastest lead time.",
+          zh: "選擇 X 供應商,因為交期最快。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Evaluate both suppliers based on environmental impact, social responsibility, and long-term value, favoring Supplier Y.",
+          zh: "綜合評估兩家供應商在環境、社會責任與長期價值上的表現,傾向選擇 Y 供應商。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Let the finance department decide based solely on total contract cost.",
+          zh: "交由財務部門單純依合約總金額來決定。",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "永續採購強調在決策時同時衡量環境、社會與財務三個面向的長期價值,而不是只看眼前的報價或交期。Y 供應商雖然單價較高、交期較長,但回收材料比例高、勞動條件有第三方驗證,並提出長期合作方案,能為公司帶來更好的整體長期價值與較低的聲譽及法規風險,因此值得優先考慮。選項 (a) 與 (b) 都只看單一面向(價格或交期),忽略了 X 供應商未解決的勞動申訴所帶來的潛在風險;選項 (d) 把決策完全簡化成合約總金額,同樣忽略了永續性應納入的環境與社會考量,而且評估供應商對專案的整體影響仍是專案經理該負責的事,不應完全交由財務部門單獨決定。",
+  },
+  {
+    id: "fin-125",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A hospital's IT director is proposing a $250,000 upgrade to the patient data encryption system. The finance committee resists the upfront cost and questions whether the investment is justified. What should the IT director do to gain approval?",
+      zh: "某醫院的資訊主管提議投入 $250,000 升級病患資料加密系統。財務委員會對這筆前期支出有所抵觸,質疑這項投資是否合理。資訊主管應該怎麼做才能取得核准?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Ask the hospital's chief medical officer to instruct the finance committee to approve the budget.",
+          zh: "請醫院的醫療長出面,指示財務委員會核准這筆預算。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Present data on long-term return on investment, breach-cost avoidance, and reduced regulatory compliance risk.",
+          zh: "提出長期投資報酬率、避免資料外洩損失、以及降低法規遵循風險等具體數據。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Require all finance committee members to attend a mandatory data-security awareness training session.",
+          zh: "要求所有財務委員會成員參加一場強制性的資安意識培訓課程。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reduce the scope of the upgrade so it can be approved without further discussion.",
+          zh: "縮減升級的範疇,以便不需再進一步討論就能取得核准。",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "財務委員會抵觸的核心理由是成本效益的疑慮,因此最直接有效的做法是針對這個疑慮本身提出具體數據,說明這筆前期投入能透過長期投資報酬、避免資料外洩帶來的鉅額損失,以及降低法規遵循風險來證明其合理性。這樣做正面回應了對方真正在意的問題,而不是訴諸高層權威、強制舉辦培訓,或迴避討論直接縮減範疇。選項 (a) 請醫療長出面下指示,等於用職權壓過理性討論,即使短期內取得核准,也沒有真正解決財務委員會的疑慮,日後容易再度引發爭議;選項 (c) 強制舉辦資安意識培訓,只能提升對資安重要性的認知,並沒有回應委員會具體提出的成本效益疑慮;選項 (d) 縮減範疇來規避討論,可能導致加密系統的防護力道不足以因應實際風險,只是用犧牲成效來換取表面上的核准。",
+  },
+  {
+    id: "fin-126",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "calculation",
+    stem: {
+      en: "A mobile game studio's live-ops content project has Budget at Completion (BAC) = $480,000. At the status date: Earned Value (EV) = $180,000; Actual Cost (AC) = $210,000. The sponsor insists the project must still finish within the original approved BAC. What is the To-Complete Performance Index (TCPI)?",
+      zh: "某手遊工作室的live-ops內容更新專案,完工預算(BAC)= $480,000。於狀態日:實獲值(EV)= $180,000;實際成本(AC)= $210,000。贊助人堅持專案仍須在原始核准的 BAC 內完工。請問完工尚須績效指標(TCPI)為何?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "TCPI ≈ 1.11,剩餘工作必須以比目前更高的效率執行,才能在原訂 BAC 內完工。",
+          zh: "TCPI ≈ 1.11,剩餘工作必須以比目前更高的效率執行,才能在原訂 BAC 內完工。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "TCPI ≈ 0.90,把公式的分子與分母顛倒計算所得的結果。",
+          zh: "TCPI ≈ 0.90,把公式的分子與分母顛倒計算所得的結果。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "TCPI ≈ 0.86,誤把 CPI(EV/AC)當成 TCPI 計算所得的結果。",
+          zh: "TCPI ≈ 0.86,誤把 CPI(EV/AC)當成 TCPI 計算所得的結果。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "TCPI ≈ 0.63,分母漏減 AC、直接以 BAC 計算所得的結果。",
+          zh: "TCPI ≈ 0.63,分母漏減 AC、直接以 BAC 計算所得的結果。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "因為贊助人要求仍須在原始 BAC 內完工,應使用以 BAC 為基準的公式:TCPI = (BAC − EV) / (BAC − AC) = (480,000 − 180,000) / (480,000 − 210,000) = 300,000 / 270,000 ≈ 1.11。TCPI 大於 1 表示剩餘工作必須以比目前更高的效率執行,才能在原訂預算內完工。選項 (b) 的 0.90 是把公式顛倒計算成 (BAC−AC)/(BAC−EV)(270,000/300,000),分子分母對調,方向完全錯誤;選項 (c) 的 0.86 其實是拿 EV/AC(180,000/210,000)去算,那是 CPI 而不是 TCPI,衡量的是目前已發生的成本效率,而不是剩餘工作所需的效率;選項 (d) 的 0.63 是分母忘記減去 AC、直接用 (BAC−EV)/BAC(300,000/480,000)計算,漏掉了「剩餘可用預算」這個關鍵項目。",
+  },
+  {
+    id: "fin-127",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A retail company is migrating its e-commerce platform to a new cloud architecture. The marketing VP wants the migration costs capitalized to protect quarterly operating expense targets. The finance director wants them expensed for an immediate tax deduction. The CEO tells the project manager to classify the costs however will secure board sign-off fastest. The internal auditor warns that improper classification could trigger a compliance finding. What should the project manager do?",
+      zh: "某零售公司正在把電商平台遷移到新的雲端架構。行銷副總希望把遷移成本資本化,以維持季度營業費用目標;財務長則希望列為費用,以便立即取得稅務扣抵;執行長要求專案經理採用能最快取得董事會核准的分類方式;內部稽核則警告,若分類不當可能導致合規稽核缺失。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Follow the CEO's direction and classify the costs in the way that secures the fastest board approval.",
+          zh: "依照執行長的指示,採用能最快取得董事會核准的分類方式。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Convene finance, accounting, and internal audit to classify the costs according to applicable accounting standards.",
+          zh: "召集財務、會計與內部稽核部門,依照適用的會計準則來分類這筆成本。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Split the costs between capital and operating categories to partially satisfy both the marketing VP and the finance director.",
+          zh: "把成本拆分為資本與營業兩類,分別滿足行銷副總與財務長各自的部分需求。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Postpone the classification decision until the migration is complete and actual costs are fully known.",
+          zh: "把分類決策延後到遷移完成、實際成本完全確定之後再處理。",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "成本分類必須依照適用的會計準則來判定,不能為了行政方便、討好任何一方利害關係人,或加快核准速度而任意歸類。內部稽核已經指出這裡存在真實的合規風險,專案經理該做的是把正確的人找齊,包括財務、會計與內部稽核,確保分類決策依循準則,而不是尋求一個政治上皆大歡喜的做法。選項 (a) 聽命執行長以核准速度為優先,等於把一項合規要求當成利害關係人偏好來處理,無論下指示的人是誰,都構成道德與法規上的風險;選項 (c) 任意拆分成兩類讓雙方各自滿意,製造的正是稽核所警告的那種錯誤分類風險,正確的分類結果不該是協商出來的妥協;選項 (d) 延後決策只是迴避問題,而且會讓成本基準遲遲無法確立,對後續的財務報表與預算控管都會造成不確定性。",
+  },
+  {
+    id: "fin-128",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A telecom company's 5G base station rollout project is 45% complete. The CFO asks the project manager whether the project remains within its approved cost baseline. What should the project manager do?",
+      zh: "某電信公司的 5G 基地台建置專案已完成 45%。財務長詢問專案經理,這個專案是否仍在核准的成本基準內。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Use existing performance data such as CPI, EAC, and TCPI to answer the CFO's question directly.",
+          zh: "運用既有的績效數據,例如 CPI、EAC 與 TCPI,直接回答財務長的問題。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Run a Monte Carlo simulation to generate a probability distribution of the final project cost.",
+          zh: "執行蒙地卡羅模擬,產生最終專案成本的機率分布。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Conduct a full quantitative risk analysis before providing any answer.",
+          zh: "在提供任何答案之前,先進行一次完整的定量風險分析。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Tell the CFO the answer cannot be determined until the project reaches 100% completion.",
+          zh: "告訴財務長,要等到專案完成 100% 才能判斷這個問題。",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "財務長問的是一個常規的「目前是否在預算內」的問題,能直接回答這個問題的做法,是運用既有的成本績效指標,像是 CPI、EAC、TCPI,呈現目前績效相對於基準的落差,並推估完工時的最終成本。選項 (b) 蒙地卡羅模擬能產生結果的機率分布,是定量風險分析中有效的技術,但對於這種常規的預算狀況詢問而言明顯過於複雜、不成比例,而且也不是回答這類問題的第一步;選項 (c) 進行完整的定量風險分析同樣是捨近求遠,會耗費不必要的時間才能回應一個原本能立即用既有數據回答的問題;選項 (d) 表示要等到專案完全結束才能判斷,完全忽略了 EVM 的核心價值,也就是能在專案進行中就對完工結果做出可靠的預測。",
+  },
+  {
+    id: "fin-129",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "An aerospace subcontractor's project manager is procuring development of an avionics software module. The exact requirements will evolve based on iterative flight-test results, and the buyer wants cost transparency along with a financial incentive for the vendor to control costs and hit agreed performance targets. What contract type should the project manager recommend?",
+      zh: "一家航太次系統廠商的專案經理正在採購一套航電軟體模組的開發服務。實際需求會隨著反覆的飛行測試結果而逐步演變,買方希望在維持成本透明的同時,也讓賣方有財務誘因去控制成本並達成議定的績效目標。專案經理應該建議採用哪一種合約類型?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Firm Fixed Price.",
+          zh: "訂有明確固定總價的合約(FFP)。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Cost Plus Fixed Fee.",
+          zh: "成本加固定費用合約(CPFF)。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Cost Plus Incentive Fee.",
+          zh: "成本加誘因費用合約(CPIF)。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Time and Materials.",
+          zh: "工時與物料合約(T&M)。",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "成本加誘因費用合約(CPIF)在報銷賣方成本的基礎上,額外訂定與績效目標掛鉤的誘因費用,既能容納因反覆測試而演變的需求,又能誘導賣方主動控制成本、追求達成議定的績效目標,正好符合本題「範疇會演變」且「需要誘因促成效率與績效」這兩個重點。選項 (a) 固定總價合約要求賣方在需求還會演變的情況下先報出固定總價,會迫使賣方承擔不合理的範疇風險;選項 (b) 成本加固定費用合約雖然同樣能報銷成本、容納範疇演變,但固定費用不會隨績效表現變動,對賣方而言缺乏主動控制成本或追求績效目標的財務誘因;選項 (d) 工時與物料合約通常用於規模較小、期程較短、以工時計價的工作,並不適合這種需要與明確績效目標掛鉤誘因機制的複雜研發型採購案。",
+  },
+  {
+    id: "fin-130",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Which two of the following statements about contingency reserve and management reserve are correct? Select two.",
+      zh: "下列關於應變準備金(Contingency Reserve)與管理準備金(Management Reserve)的敘述,哪兩項是正確的?請選擇兩項。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The contingency reserve is used for identified risks and can typically be used at the project manager's own discretion.",
+          zh: "應變準備金用於因應已識別的風險,通常由專案經理自行決定動用。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The management reserve is included within the cost baseline.",
+          zh: "管理準備金包含在成本基準內。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Using the management reserve requires a formal change request and sponsor approval.",
+          zh: "動用管理準備金須經正式變更請求並取得贊助人核准。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The contingency reserve is controlled by the sponsor and requires project manager approval to use.",
+          zh: "應變準備金由贊助人掌控,動用時須經專案經理核准。",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "The management reserve is used for identified risks that have not yet occurred.",
+          zh: "管理準備金用於因應已識別但尚未發生的風險。",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "c",
+    ],
+    selectCount: 2,
+    explanation: "應變準備金用於因應已識別的風險,包含在成本基準內,由專案經理自行掌控動用,因此 (a) 正確。管理準備金用於因應未知的未知風險,不包含在成本基準內,動用時代表對已核准預算的變更,必須經過正式變更請求並取得贊助人核准,因此 (c) 正確。選項 (b) 把管理準備金與成本基準的關係說反了,管理準備金是在成本基準之外的;選項 (d) 把兩種準備金的掌控者角色對調,應變準備金應由專案經理掌控,而不是贊助人;選項 (e) 把管理準備金的用途說錯,已識別但尚未發生的風險屬於應變準備金因應的範圍,管理準備金因應的是未知的未知風險。",
+  },
+  {
+    id: "fin-131",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A household goods company's project manager is selecting a packaging supplier for a new product line. Supplier A offers plastic packaging at the lowest cost with next-day delivery. Supplier B offers plant-based biodegradable packaging at a moderately higher cost, with a longer lead time, but with third-party verified compostability and a strong track record on fair labor practices. Both meet the technical requirements for product protection during shipping. What should the project manager do?",
+      zh: "一家日用品公司的專案經理正在為新產品線挑選包裝供應商。A 供應商提供塑膠包裝,成本最低、隔天即可到貨。B 供應商提供植物基可分解包裝,成本略高、交期較長,但擁有第三方驗證的可堆肥認證,並在公平勞動實務上有良好紀錄。兩家供應商都符合出貨保護的技術要求。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Select Supplier A because it minimizes packaging cost.",
+          zh: "選擇 A 供應商,因為能把包裝成本降到最低。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Select Supplier A because it offers the fastest delivery.",
+          zh: "選擇 A 供應商,因為交期最快。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Evaluate both suppliers based on environmental impact, social practices, and long-term financial value rather than price or delivery speed alone.",
+          zh: "綜合評估兩家供應商在環境影響、社會實務與長期財務價值上的表現,而不是只看價格或交期。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Ask the two suppliers to negotiate a joint bid to split the order equally.",
+          zh: "請兩家供應商協商聯合出貨,平均分配訂單。",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "永續採購要求在決策時同時衡量環境、社會與財務三個面向的長期價值,而不是只看眼前的價格或交期。B 供應商雖然成本較高、交期較長,但可分解材質與公平勞動紀錄能為公司帶來更好的長期環境效益與較低的聲譽風險,值得納入整體評估後優先考慮。選項 (a) 與 (b) 都只以單一面向(價格或交期)做決定,忽略了永續性應納入的環境與社會考量;選項 (d) 要求兩家供應商協商聯合出貨、平均分配訂單,並沒有真正解決「該依什麼標準選擇供應商」這個問題,只是迴避了決策本身。",
+  },
+  {
+    id: "fin-132",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Finance",
+    questionType: "multiple_response",
+    difficulty: "hard",
+    timeCategory: "calculation",
+    stem: {
+      en: "An enterprise SaaS platform project has Budget at Completion (BAC) = $1,000,000. At the status date: Planned Value (PV) = $480,000; Earned Value (EV) = $420,000; Actual Cost (AC) = $400,000. Which two of the following statements are correct? Select two.",
+      zh: "某企業級 SaaS 平台專案,完工預算(BAC)= $1,000,000。於狀態日:計畫值(PV)= $480,000;實獲值(EV)= $420,000;實際成本(AC)= $400,000。下列敘述,哪兩項是正確的?請選擇兩項。",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "SPI ≈ 0.875, indicating the project is behind schedule.",
+          zh: "SPI ≈ 0.875,顯示專案進度落後於計畫。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "CPI ≈ 1.05, indicating good cost efficiency and a project trending under budget.",
+          zh: "CPI ≈ 1.05,顯示成本效率良好,專案有低於預算完成的趨勢。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "VAC is negative, indicating the project is projected to finish over budget.",
+          zh: "VAC 為負值,顯示專案預期將超出預算完成。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "TCPI (based on BAC) is greater than 1, meaning the remaining work must be completed at higher efficiency than achieved so far.",
+          zh: "TCPI(以 BAC 為基準)大於 1,代表剩餘工作必須以比目前更高的效率完成。",
+        },
+      },
+      {
+        id: "e",
+        text: {
+          en: "If current performance continues, the project is projected to finish ahead of schedule and under budget.",
+          zh: "若目前績效持續,專案預期將提前於計畫進度完工,且低於預算完成。",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "SPI = EV/PV = 420,000/480,000 = 0.875,小於 1,顯示進度落後於計畫,因此 (a) 正確。CPI = EV/AC = 420,000/400,000 = 1.05,大於 1,顯示每花費 1 元實際成本能換得超過 1 元的實獲價值,成本效率良好,因此 (b) 正確。再算 EAC = BAC/CPI = 1,000,000/1.05 ≈ 952,381,VAC = BAC−EAC ≈ 1,000,000−952,381 = +47,619,VAC 為正值,顯示專案預期會低於預算完成,並非選項 (c) 所述的負值與超支,因此 (c) 錯誤。TCPI = (BAC−EV)/(BAC−AC) = (1,000,000−420,000)/(1,000,000−400,000) = 580,000/600,000 ≈ 0.97,小於 1,代表剩餘工作即使效率略低於目前水準,仍能在原訂 BAC 內完工,並非選項 (d) 所述的大於 1,因此 (d) 錯誤。選項 (e) 雖然「低於預算完成」的部分正確,但 SPI 小於 1 已經顯示進度落後而非超前,「提前完工」的部分與數據矛盾,因此整句敘述錯誤。",
+  },
+  {
+    id: "fin-133",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Finance",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "An apparel retailer is upgrading its enterprise resource planning (ERP) system. The operations director wants the implementation costs expensed immediately to show a leaner quarterly budget to the board. The IT director wants them capitalized as a long-term asset to spread the impact across future years. The controller has not yet been consulted. What should the project manager do?",
+      zh: "一家服飾零售商正在升級企業資源規劃(ERP)系統。營運總監希望把導入成本立即列為費用,好讓這一季在董事會面前呈現出較精簡的預算數字;資訊長則希望將其資本化為長期資產,把影響分攤到未來幾年。財務長目前尚未被諮詢過。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Side with the operations director since a leaner quarterly budget will please the board.",
+          zh: "支持營運總監的做法,因為較精簡的季度預算數字能讓董事會滿意。",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Side with the IT director since capitalizing spreads the financial impact more evenly.",
+          zh: "支持資訊長的做法,因為資本化能讓財務衝擊分攤得更平均。",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Consult the controller and classify the costs according to the applicable accounting standards.",
+          zh: "諮詢財務長,並依照適用的會計準則來分類這筆成本。",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Let the two directors negotiate a compromise classification between themselves.",
+          zh: "讓兩位總監自行協商出一個折衷的分類方式。",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "成本分類必須依照適用的會計準則來判斷,而不是取決於哪位主管的偏好,也不是為了呈現特定的季度預算數字而任意調整。財務長是判斷成本應資本化或費用化最具權責的角色,目前尚未被諮詢,專案經理該做的是主動把財務長納入決策,確保分類結果依循準則。選項 (a) 與 (b) 都是直接選邊站,依主管的偏好而非會計準則來分類,一旦分類不當,日後可能引發財報或稽核上的問題;選項 (d) 讓兩位總監自行協商出折衷方案,同樣把本該依準則判斷的問題,變成了利害關係人之間的政治協商,正確的分類結果不應該是雙方談判出來的結果。",
   },
   {
     id: "mr-001",
@@ -32129,6 +37708,1053 @@ export const sampleQuestions = [
     ],
     correctAnswer: "b",
     explanation: "這套助手真正的價值,取決於理賠人員能否對它的建議做出正確判斷,而題目已經明講問題出在使用者缺乏這項判斷能力,這是一個被具名指出的人力能力缺口。依「確保團隊成員/利害關係人獲得適當訓練」這項任務的定義,理應由專案經理主動界定訓練需求,並把這項賦能工作正式納入專案範疇裡去規劃與執行,而不是交給部門外的人資單位自行安排、脫離專案掌控。簡化介面、發一份指南,都只是繞過真正的能力缺口做表面補救,無法真正建立起使用者判斷何時該信任、何時該推翻建議的能力。",
+  },
+  {
+    id: "stk-109",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project is 60% complete when a newly hired VP joins the client organization and expresses interest in influencing upcoming design decisions. What should the project manager do first?",
+      zh: "專案進行到 60% 時,客戶端一位新上任的副總表示希望能參與接下來的設計決策。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Meet with the new VP to understand their concerns and update the stakeholder register to include them.",
+          zh: "與這位新副總會面了解其關注點,並更新利害關係人登錄冊納入這位新成員",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Inform the VP that all design decisions were already approved during initiation and cannot change.",
+          zh: "告知副總所有設計決策在啟動階段已核准,無法變動",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask the VP to submit feedback through the existing communication channels without a meeting.",
+          zh: "請副總透過既有溝通管道提交意見,不另外安排會面",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Continue as planned and address the VP's interest during the next project phase.",
+          zh: "照原計畫繼續進行,把處理副總的關注點留到下一階段",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "利害關係人辨識是持續性的工作,不是只在專案啟動時做一次;新的利害關係人(尤其是有影響力的新任主管)一旦出現,PM 應立即主動接觸了解其關切,並更新利害關係人登錄冊,而不是用舊決策當擋箭牌拒絕溝通、把對方晾在一邊,或延後處理讓對方的關注持續累積成更大的阻力。",
+  },
+  {
+    id: "stk-110",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "For the past three months, the project manager has been sending the same weekly email report to every stakeholder, from the executive sponsor to individual developers. Engagement and response rates have been steadily dropping. What is the best approach to improve this?",
+      zh: "過去三個月,專案經理每週都寄同一份郵件報告給所有利害關係人,從高階贊助人到個別開發人員都收到一樣的內容。參與度與回應率持續下滑。改善這個狀況最好的做法是什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Send the reports even more frequently to increase the chance of a response.",
+          zh: "把報告寄送頻率提高,增加對方回應的機會",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Tailor the communication channel, frequency, and content to each stakeholder's specific needs and role.",
+          zh: "依每位利害關係人的角色與需求,客製化溝通管道、頻率與內容",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Require all stakeholders to attend one mandatory monthly meeting instead.",
+          zh: "改成要求所有利害關係人都出席一場強制性的月會",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Add more charts and visuals to the same weekly email to make it more engaging.",
+          zh: "在同一份週報裡加更多圖表讓內容更吸引人",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "用同一種方法對待所有利害關係人,本來就違反「依對象客製化溝通」的原則;高階主管可能只需要精簡摘要,工程師則可能偏好即時的技術細節。與其在同一種失效的方法上加碼(寄更頻繁、加更多圖表)或用一場會議強制所有人配合,更好的做法是依每個人的角色、興趣與偏好,採用多元且客製化的溝通管道與頻率。",
+  },
+  {
+    id: "stk-111",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "During a status meeting, a normally talkative stakeholder becomes unusually quiet and gives only brief, flat responses. What should the project manager do?",
+      zh: "在一場狀態會議中,一位平常很健談的利害關係人變得異常沉默,只給出簡短、平淡的回應。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Continue the meeting as planned since the stakeholder did not raise any explicit objection.",
+          zh: "照原計畫繼續會議,因為對方沒有提出明確反對意見",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Send a group email afterward asking if anyone has unaddressed concerns.",
+          zh: "事後發一封群組信,詢問是否有人有未解決的疑慮",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Reach out to that stakeholder privately to understand what might be bothering them.",
+          zh: "私下聯繫這位利害關係人,了解他們可能在意的事",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Schedule another group meeting with everyone to revisit the same topic.",
+          zh: "再安排一場所有人都參加的會議,重新討論同一個主題",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "情緒智商(EI)要求 PM 讀懂語氣、行為與反應的變化,而不只是字面上說了什麼;當察覺到某位利害關係人態度異常時,應該私下與對方溝通了解真正的顧慮,這樣不僅更容易得到真實的回饋,也避免了在眾人面前讓對方尷尬。忽略異狀、群發郵件、或再開一場大會,都無法有效觸及這位利害關係人真正在意的問題。",
+  },
+  {
+    id: "stk-112",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "A new CRM system will automatically feed data into the Finance team's commission reports and the Customer Service team's warranty tracking, even though neither team will directly use the CRM interface. How should the project manager treat these two teams?",
+      zh: "一套新的 CRM 系統會自動把資料餵給財務部的佣金報表,以及客服部的保固追蹤系統,即使這兩個部門都不會直接使用 CRM 介面。專案經理應該如何看待這兩個部門?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Add both teams to the stakeholder register even though their involvement is indirect.",
+          zh: "把這兩個部門都加入利害關係人登錄冊,即使他們的參與是間接的",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Include them in relevant project communications about the integration.",
+          zh: "讓他們也收到與整合相關的專案溝通",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Exclude them from the register since they won't use the system directly.",
+          zh: "因為不會直接使用系統就把他們排除在登錄冊之外",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Only contact them if integration problems actually occur.",
+          zh: "只有真的發生整合問題時才聯絡他們",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "只要工作、流程或結果會被專案影響,不論是否直接使用交付物,都應被視為利害關係人並妥善管理;財務與客服部門雖然不直接操作 CRM,但他們的日常作業會被這次整合影響,理應被納入登錄冊並收到相關溝通,而不是等出問題才聯絡,或因為「不直接使用」就直接排除在外。",
+  },
+  {
+    id: "stk-113",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project is 75% complete, on time and on budget, when the client requests a new feature they saw on a competitor's product, which could delay launch by several weeks. What should the project manager do first?",
+      zh: "專案完成 75%,目前準時且在預算內,這時客戶提出想加入一項在競爭對手產品上看到的新功能,可能導致上線延後好幾週。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Tell the client that adding features this late will cause delays and suggest a future phase instead.",
+          zh: "告知客戶這麼晚加功能會造成延誤,建議留到未來階段",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Meet with the client to understand the business value of the request, then analyze the full impact on scope, schedule, cost, and quality.",
+          zh: "與客戶會面了解這項需求的商業價值,再完整分析對範疇、時程、成本、品質的影響",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask the development team to estimate the work before discussing anything with the client.",
+          zh: "在跟客戶討論之前,先請開發團隊估算工作量",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Remind the client that the scope was already approved and changes require the formal process.",
+          zh: "提醒客戶範疇已經核准,變更需要走正式流程",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "即使客戶的請求來得突然、可能造成延誤,PM 也不該不經評估就直接拒絕或用流程當理由迴避;正確做法是先了解這項需求對業務的真正價值與急迫性,再完整評估對範疇、時程、成本、品質的影響,才能給客戶一個有依據的建議。跳過理解價值直接找開發團隊估算,或用「已核准」當擋箭牌,都略過了先了解需求本質這一步。",
+  },
+  {
+    id: "stk-114",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading a digital transformation initiative that will significantly change workflows across multiple departments. The initiative has strong executive support but has encountered varying levels of enthusiasm from departmental managers. The project manager needs to align expectations across all stakeholder groups before detailed planning begins. What should the project manager do?",
+      zh: "一位專案經理正在主導一項數位轉型計畫,這項計畫將大幅改變多個部門的工作流程。該計畫獲得高層強力支持,但各部門主管展現出的積極程度不一。專案經理需要在進入詳細規劃之前,先讓所有利害關係人群體的期望達成一致。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Analyze each stakeholder group's concerns and rank expectations according to organizational authority.",
+          zh: "分析每個利害關係人群體的疑慮,並依組織職權高低將期望排序",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Present a detailed business case to all stakeholders demonstrating the initiative's benefits to secure their alignment.",
+          zh: "向所有利害關係人提出詳細的商業論證,展示計畫效益以取得他們的一致支持",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Schedule structured sessions with the project sponsor and key stakeholder groups to discuss the initiative's objectives.",
+          zh: "安排與專案發起人及主要利害關係人群體的結構化會議,共同討論計畫目標",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Identify expectations shared across most stakeholder groups and focus communication efforts on reinforcing those priorities.",
+          zh: "找出多數利害關係人群體共同的期望,並將溝通重點放在強化這些共識上",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "期望對齊需要讓利害關係人真正進入結構化的對話,而不是遠端分析他們,也不是單方面說服他們接受一個預先決定好的立場。與發起人及主要利害關係人群體安排結構化會議,能為積極程度不一、關切點也不同的各個群體創造出建立共同理解的條件。\n\n其他選項錯誤:利害關係人的期望確實需要分析,但不應只依組織職權高低排序後就直接照辦,這忽略了期望本身的內容與正當性。向利害關係人提出商業論證以取得一致支持,把整個過程定調成單向說服,期望對齊應該是透過討論達成共同理解,而不是說服對方接受專案團隊的立場。只鎖定多數群體共有的期望並強化溝通,會讓積極程度較低、關切點不同的群體被忽略,這些群體很可能有需要直接處理的具體疑慮,而不只是被動接收其他人已經認同的重點。",
+  },
+  {
+    id: "stk-115",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading an international research partnership involving teams from six countries across four time zones. Team members speak five different primary languages, and varying levels of English proficiency have caused miscommunication in early project meetings. What should the project manager do?",
+      zh: "一位專案經理正在主導一項跨國研究合作案,參與團隊來自六個國家、橫跨四個時區。團隊成員的母語共有五種不同語言,而英語程度落差已在早期的專案會議中造成溝通誤解。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Conduct daily stand-up meetings to keep all team members aligned.",
+          zh: "召開每日站立會議,讓所有團隊成員保持一致",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Create informal group communication channels to enable rapid information sharing across all teams.",
+          zh: "建立非正式的群組溝通管道,讓各團隊能快速分享資訊",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Use AI translation tools to automatically convert all project communications into each team member's primary language.",
+          zh: "使用 AI 翻譯工具,自動把所有專案溝通內容轉換成每位成員的母語",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Provide project updates in multiple languages and schedule structured virtual sessions that accommodate different time zones to collect input from all teams.",
+          zh: "以多種語言提供專案進度更新,並安排考量不同時區的結構化線上會議,蒐集所有團隊的意見",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "針對全球化團隊的包容性溝通,必須同時處理題目中點出的兩個障礙,也就是語言與地理時區。用多種語言提供更新內容,能確保訊息對所有參與者都容易理解;安排考量時區差異的結構化線上會議,則能確保每個團隊都有實質機會參與並提供意見,而不是因為排程或語言而被系統性地排除在外。\n\n其他選項錯誤:橫跨四個時區召開每日同步會議,會迫使部分成員在不合理的時段參加,這既不永續也不包容,跨越大時區差異也很難維持穩定的即時協作。非正式管道能補充溝通,但本身不構成一套包容性的策略,群組聊天無法解決語言障礙,也無法確保有結構地蒐集意見,反而更利於習慣非正式書面溝通的成員。AI 翻譯工具只能部分解決語言可及性的問題,卻用自動化取代了有結構的人際互動,不同語言的翻譯品質落差很大,無法保證專案內容中細膩的語意能被準確傳達,也無法建立真正蒐集意見所需要的結構化討論場合。",
+  },
+  {
+    id: "stk-116",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "During a monthly status review, a project manager faces three conflicting stakeholder requests. The technical lead wants access to raw defect logs and test results to conduct their own analysis. The project sponsor finds the current reports too dense and asks for simpler executive summaries. The procurement lead needs detailed cost breakdown data. What should the project manager do?",
+      zh: "在一次月度狀態審查中,專案經理面對三個互相衝突的利害關係人請求:技術主管想要取得原始的缺陷紀錄與測試結果,自己進行分析;專案發起人覺得目前的報告太過密集,要求更簡化的高層摘要;採購主管則需要詳細的成本細項資料。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Grant all stakeholders access to the raw defect logs and cost data so each can analyze what they need independently.",
+          zh: "讓所有利害關係人都能存取原始的缺陷紀錄與成本資料,讓每個人自行分析所需內容",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Simplify all reports to high-level summaries and provide raw data only upon formal request.",
+          zh: "把所有報告都簡化成高層級摘要,原始資料只在正式提出申請時才提供",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Develop separate reports tailored to each stakeholder's stated information needs.",
+          zh: "依每位利害關係人明確表達的資訊需求,分別開發客製化報告",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Explain that raw project data is processed into analyzed information and formatted into reports tailored to each stakeholder's role and information needs.",
+          zh: "向利害關係人說明,原始專案資料會先經過分析處理,再依各自的角色與資訊需求整理成對應格式的報告",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "每位利害關係人都已經清楚表達了不同的資訊需求,正確的做法就是依照這些已表明的需求,分別產出對應的客製化報告。有效的溝通管理,意味著把對的資訊、用對的格式,交給對的人,而不是對需求明顯不同的一群人套用同一套做法。\n\n其他選項錯誤:讓所有利害關係人都能存取原始資料,等於迴避了 PM 應負責的資料處理與呈現工作,對發起人與採購主管而言,沒有脈絡的原始紀錄與數字並不合用。把所有報告都簡化成高層級摘要,雖然滿足了發起人的需求,卻讓需要更多細節的技術主管與採購主管得不到他們要的資訊。向利害關係人說明資料處理的層級架構,雖然有教育意義,卻沒有解決眼前的問題,因為利害關係人問的不是資料如何被管理,而是已經明確說出了自己需要什麼,PM 應該直接依此行動。",
+  },
+  {
+    id: "stk-117",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is overseeing a custom ERP implementation. Midway through the timeline, a financial review shows costs are 18% above the approved baseline. The client's operations director has sent a message noting delays in deliverable reviews and questioning whether the implementation is on track. What should the project manager do first?",
+      zh: "一位專案經理正在監督一項客製化 ERP 系統的導入專案。時程進行到中段時,財務審查顯示成本已超出核准基準 18%。客戶端的營運總監發來訊息,指出交付項目審查有延誤,並質疑導入專案是否仍在正軌上。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Analyze the cost variances to identify the root cause before communicating with the client.",
+          zh: "先分析成本差異找出根本原因,再與客戶溝通",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Submit a change request through governance to revise the budget baseline to reflect current spending.",
+          zh: "透過治理流程提出變更申請,修訂預算基準以反映目前的實際支出",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Meet with the client's operations director to acknowledge the stated concerns.",
+          zh: "與客戶的營運總監會面,回應並認可對方提出的疑慮",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Update the risk register with the cost overrun and schedule concern as newly identified risks.",
+          zh: "把成本超支與時程疑慮列為新辨識出的風險,更新風險登錄冊",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "由於客戶已經主動提出具體疑慮,當下最優先的事是利害關係人互動與溝通。專案經理應該先即時回應利害關係人提出的問題,接著才進行變異調查、決定矯正行動,並視需要更新正式紀錄並回報利害關係人。\n\n其他選項錯誤:完成成本分析當然有必要,但那應該接在先回應客戶之後進行,若在回應客戶之前就先做完整分析,會讓客戶原本急需的回應被延遲。透過治理流程提出調高預算基準的變更申請,等於在還沒搞清楚超支原因、也還沒與客戶溝通之前,就把超支視為既定事實處理。更新風險登錄冊只是內部動作,無法處理客戶關係,也沒有回應客戶已經表達出來的疑慮。",
+  },
+  {
+    id: "stk-118",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading the rollout of a new enterprise resource planning system across multiple business units. Six months in, several business unit leaders who were actively engaged during planning have become less visible. One has missed two consecutive steering committee meetings. The project sponsor asks the project manager to assess whether stakeholder support remains sufficient to proceed. How should the project manager assess current stakeholder engagement?",
+      zh: "一位專案經理正在主導新版企業資源規劃系統於多個事業單位的上線推行。專案進行六個月後,幾位在規劃階段十分積極參與的事業單位主管,參與度明顯降低,其中一位已連續缺席兩次指導委員會會議。專案發起人要求專案經理評估目前的利害關係人支持度是否足以讓專案繼續進行。專案經理應該如何評估目前的利害關係人參與狀況?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Review the stakeholder engagement matrix to compare current engagement levels against planned targets.",
+          zh: "檢視利害關係人參與矩陣,比較目前的參與程度與原訂目標",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Analyze the risk register and issue log to identify documented stakeholder-related concerns.",
+          zh: "分析風險登錄冊與議題日誌,找出已記錄在案的利害關係人相關疑慮",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Conduct interviews or targeted check-ins with key stakeholders to understand their current commitment and any shifts in their priorities.",
+          zh: "與關鍵利害關係人進行訪談或針對性的個別溝通,了解他們目前的投入程度以及優先順序是否有所轉變",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Update the stakeholder communications plan to ensure outreach frequency and channels remain appropriate.",
+          zh: "更新利害關係人溝通計畫,確保聯繫頻率與管道仍然合適",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "當參與度可能因外部因素而改變時,最可靠的評估方式就是直接向當事人求證。訪談與針對性的個別溝通,能反映利害關係人此刻真實的狀態,而不是原本規劃或過去記錄下來的狀態。\n\n其他選項錯誤:題目問的不是第一步該做什麼,也不是該查閱哪份正式文件,而是該如何評估目前的參與狀況。利害關係人參與矩陣顯示的是規劃階段與過去記錄的參與程度,本身無法告訴專案經理利害關係人現在實際的投入狀態如何。風險登錄冊與議題日誌能呈現已正式記錄的疑慮,但無法衡量目前的參與程度,一位正在悄悄疏離的利害關係人,很可能還沒出現在這兩份文件裡。更新溝通計畫屬於矯正行動,而不是評估動作,發起人要求的是評估目前的參與狀況,這需要先蒐集最新的資訊,才談得上更新計畫。",
+  },
+  {
+    id: "stk-119",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is managing a virtual team spread across four time zones. Team members frequently miss meetings, and decisions are being delayed because not everyone is present when key topics are discussed. What should the project manager do?",
+      zh: "一位專案經理正在管理一個橫跨四個時區的虛擬團隊。團隊成員經常缺席會議,而由於討論關鍵議題時並非所有人都在場,決策因此一再延遲。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Hold all meetings during the project manager's own working hours.",
+          zh: "把所有會議都排在專案經理自己的工作時段",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Make all decisions without waiting for absent team members.",
+          zh: "不等缺席的團隊成員,直接做出所有決策",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Record meetings only and stop holding live sessions entirely.",
+          zh: "只錄製會議紀錄,完全停止舉行即時會議",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Establish a communication plan that rotates meeting times and uses asynchronous methods.",
+          zh: "建立一套會議時段輪替、並搭配非同步方法的溝通計畫",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "輪替會議時段的溝通計畫,能把不便之處公平分攤到各個時區,再搭配非同步的方法,讓成員即使無法出席即時會議,也能參與決策討論。兩者結合,同時處理了出席率問題與決策延遲問題。\n\n其他選項錯誤:把所有會議都排在專案經理自己的時段,等於把整個負擔丟給其他地區承擔,問題只會持續存在。不等缺席成員就直接做決策,雖然能加快速度,卻排除了這些成員的意見,不僅可能損及參與感,也讓決策品質與團隊士氣承受風險。只錄影並取消即時會議,失去了寶貴的即時互動,缺席成員依然沒有管道能在決策定案之前表達意見並產生影響。",
+  },
+  {
+    id: "stk-120",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading a regulatory compliance project. The Chief Compliance Officer was actively engaged during planning but has since stopped attending review meetings and is not responding to emails. The project's next milestone is approaching and the sponsor suggests proceeding, noting that the CCO's silence could be interpreted as tacit approval. What should the project manager do?",
+      zh: "一位專案經理正在主導一項法規遵循專案。該公司的法遵長(CCO)在規劃階段十分積極參與,但後來不再出席審查會議,也不回覆電子郵件。專案下一個里程碑即將到來,發起人建議直接繼續推進,並表示法遵長的沉默可以視為默許。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Attempt alternative approaches to re-engage the CCO.",
+          zh: "嘗試用不同的方式重新讓法遵長參與進來",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Proceed with the milestone to maintain the project schedule and document the CCO's non-response in the risk register.",
+          zh: "為了維持專案時程,直接推進里程碑,並把法遵長未回應的情況記錄到風險登錄冊",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Escalate to executive leadership.",
+          zh: "向高階主管呈報升級",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Revise the project plan to reduce dependency on the CCO.",
+          zh: "修改專案計畫,降低對法遵長的依賴",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "一位關鍵利害關係人變得不再參與,並不代表他在專案裡的角色就此消失,在法規遵循的情境下,法遵長的參與並非可有可無的選項。專案經理應該先嘗試不同的溝通管道、調整溝通方式,或找出造成對方疏離的原因並加以處理,而不是急著升級或直接繼續推進。如果嘗試重新讓對方參與之後仍然失敗,而里程碑仍然需要合規方面的意見或核准,專案經理才應該透過正式的治理路徑往上呈報,而不是在沒有取得合規把關的情況下逕自推進。\n\n其他選項錯誤:把法遵長未回應的情況記錄到風險登錄冊,等於把一個原本活躍的參與缺口,當成可以接受的既定風險處理掉,而不是把它當成需要解決的問題,這麼做也無法保護專案免於在缺少關鍵合規利害關係人把關的情況下貿然推進所帶來的後果。向高階主管呈報升級,在多次嘗試重新接觸都失敗之後或許合適,但在還沒試過其他方法之前就升級,為時過早。在法規遵循專案中降低對法遵長的依賴,並不是專案經理能單方面決定的事,而且可能讓整個專案的合規地位陷入風險。",
+  },
+  {
+    id: "stk-121",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading the implementation of a smart ticketing system for a city's public transit network. The bus authority, the metro authority, and the city finance office each have different priorities regarding hardware compatibility, real-time ticketing analytics, and cost control. The project manager needs to align these three parties' expectations before the requirements specification is finalized. What should the project manager do?",
+      zh: "一位專案經理正在主導一座城市大眾運輸智慧票證系統的建置案。公車機構、地鐵機構與市府財政單位,分別在既有硬體相容性、即時票證分析、成本控制上有不同的優先考量。專案經理需要在需求規格定案之前,先讓這三方的期望達成一致。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Rank the three parties' priorities according to their relative authority within the city government structure and finalize the scope accordingly.",
+          zh: "依照三方在市府治理架構中的相對權力高低排序優先順序,並依此定案範疇",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Prepare a complete business case demonstrating return on investment to gain all three parties' support for a predetermined direction.",
+          zh: "準備一份完整的商業論證,展示投資報酬,以取得三方對既定方向的支持",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Schedule a structured session with the project sponsor and representatives from all three parties to discuss and clarify their respective priorities.",
+          zh: "安排與專案發起人以及三方代表的結構化會議,共同討論並釐清各自的優先順序",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Collect each party's written input separately by email, then have the project manager consolidate it into a single version of the requirements.",
+          zh: "先分別以電子郵件蒐集各方書面意見,再由專案經理彙整成單一版本的需求",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "三方對優先順序的看法不同,而且這些差異都有各自的正當理由,對齊期望需要讓三方真正進入對話,而不是由專案經理遠端彙整或代為決定。安排與發起人及三方代表的結構化會議,能讓大家在同一個場合中把彼此的考量攤開來討論,達成真正的共同理解。\n\n其他選項錯誤:依權力高低排序優先順序,忽略了每一方需求本身的正當性與急迫性,也可能讓權力較小的一方訴求被系統性忽視。準備商業論證去說服三方支持既定方向,把整個過程定調成單向說服,而不是雙向對齊期望。只靠電子郵件分別蒐集意見再由專案經理彙整,少了讓三方直接討論、釐清彼此差異與取捨的機會,彙整結果也容易變成專案經理個人的判斷,而非三方共同認可的結論。",
+  },
+  {
+    id: "stk-122",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A pharmaceutical company is building a new clinical trial management platform. The R&D vice president wants to prioritize speed to accelerate ongoing drug trials, the regulatory affairs vice president insists on complete audit-trail compliance, and the chief information security officer requires strict access controls. Before the system design workshop begins, the three executives disagree on priorities. What should the project manager do first to align their expectations?",
+      zh: "一家製藥公司要建置一套新的臨床試驗管理平台。研發副總裁希望優先考量上線速度以加快正在進行的藥物試驗,法規事務副總裁堅持必須符合完整的稽核追蹤要求,資訊安全長則要求嚴格的存取控管。在系統設計工作坊開始前,三位主管對優先順序意見分歧。專案經理應該優先怎麼做,以對齊三方的期望?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Give the chief information security officer's requirements priority based on organizational seniority and adjust the others as needed.",
+          zh: "依組織職位高低,優先納入資訊安全長的要求,其餘視情況調整",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Prepare a complete benefit analysis document and submit it to all three executives to persuade them to agree on one unified timeline.",
+          zh: "先準備一份完整的效益分析文件,提交給三位主管,以爭取他們支持統一走同一套時程",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask each executive to submit a written list of priorities separately, then finalize the design based on whichever priorities appear most often.",
+          zh: "請三位主管各自提交書面優先順序清單,再依出現次數最多的項目直接定案",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Facilitate a structured workshop with the project sponsor and all three executives to openly discuss their priorities and concerns.",
+          zh: "安排與專案發起人及三位主管面對面的結構化工作坊,共同討論彼此的優先順序與疑慮",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "三位主管的訴求各自代表不同但同樣重要的考量,速度、合規、安全都不是可以隨意犧牲的面向。要真正對齊期望,必須讓三方在同一個場合中面對面討論,理解彼此立場背後的原因,才可能找出兼顧各方的設計方向。\n\n其他選項錯誤:依職位高低優先納入某一方要求,等於在還沒理解各方考量之前就預先決定了取捨結果。準備效益分析文件去說服三方接受統一時程,把對齊期望變成單向說服,而不是共同討論。請各自提交清單再依出現次數定案,看似客觀,實際上略過了讓三方理解彼此為何堅持某項優先順序的過程,可能做出表面多數決、卻無人真正認同的結果。",
+  },
+  {
+    id: "stk-123",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "An international fashion retail group is rolling out a new inventory management system across stores in Tokyo, São Paulo, and Berlin. The store managers' primary languages are Japanese, Portuguese, and German respectively. Project updates have so far only been sent in English by email, and this has caused the Berlin and São Paulo stores to repeatedly misunderstand the go-live timeline and operating requirements. What should the project manager do?",
+      zh: "一家國際時尚零售集團要在東京、聖保羅、柏林三地門市導入新的庫存管理系統。三地店經理的母語分別是日文、葡萄牙文、德文。目前專案更新一律只用英文透過電子郵件發送,已導致柏林與聖保羅門市多次誤解上線時程與操作要求。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Reduce the frequency of updates but keep them in English only, adding more screenshots for clarity.",
+          zh: "降低更新頻率,但仍只用英文發送,只是加上更多截圖說明",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Create a single informal group chat where all three store managers can freely discuss in English to speed up information flow.",
+          zh: "建立單一群組聊天,讓三地店經理以英文自由討論以加速資訊流通",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Switch to a machine translation service to automatically convert all English emails into Japanese, Portuguese, and German, and stop holding any meetings.",
+          zh: "改用機器翻譯服務自動將所有英文郵件轉換成日文、葡萄牙文、德文版本,不再安排任何會議",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Provide updates in each store's primary language and schedule structured video meetings that account for the time differences among the three cities.",
+          zh: "以三地語言分別提供專案更新内容,並安排考量三地時差的結構化視訊會議,蒐集各地意見",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "造成誤解的根本原因同時包含語言隔閡與缺乏真人互動的結構化溝通。以各店慣用語言分別提供更新内容,能確保訊息本身容易被理解;搭配考量時差的結構化視訊會議,則能確保三地店經理都有實質機會提出疑問與意見,而不是被動接收單向訊息。\n\n其他選項錯誤:降低更新頻率但仍只用英文,並未處理語言障礙這個核心問題,截圖只能輔助理解,無法取代母語溝通。單一英文群組聊天仍然排除了英語程度較弱的成員,也無法確保有結構地蒐集各地意見。改用自動翻譯並取消會議,雖然處理了部分語言問題,卻用機器取代了真人互動,翻譯品質難以保證,也失去了讓各地即時提問、釐清疑慮的管道。",
+  },
+  {
+    id: "stk-124",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "An international nonprofit organization is coordinating a vaccine logistics project with field teams in Kenya, the Philippines, and Peru, spanning three time zones. Team members communicate in English, Swahili, Tagalog, and Spanish. Currently all project messages are sent through a single English-language Slack channel, and field teams are expected to reply within headquarters' business hours. Two field teams have recently reported repeatedly missing important messages. Which two of the following actions should the project manager take to build a more inclusive communication approach? (Select two.)",
+      zh: "一個國際非營利組織正在協調一項疫苗物流專案,現場團隊分別在肯亞、菲律賓與秘魯,橫跨三個時區。團隊成員分別使用英文、史瓦希里文、他加祿語與西班牙文溝通。目前所有專案訊息只透過一個英文 Slack 頻道發送,且要求各地團隊在總部所在時區的上班時間内回覆。近期已有兩個現場團隊反映經常錯過重要訊息。專案經理應該採取以下哪兩項作法,以建立更具包容性的溝通方式?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Provide important project messages and updates in each field team's primary language.",
+          zh: "以各團隊慣用語言分別提供重要專案訊息與更新内容",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Establish a structured meeting schedule that rotates across time zones so each region has a reasonable chance to participate in real-time discussions.",
+          zh: "建立輪替時段的結構化會議安排,讓每個時區都有機會在合理時間内參與即時討論",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Switch entirely to automated translation tools for all communications and stop holding any real-time meetings.",
+          zh: "全面改用自動翻譯工具處理所有溝通內容,不再安排任何即時會議",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Require each field team to designate one member to remain on call during headquarters' business hours to ensure messages are received promptly.",
+          zh: "要求各現場團隊指派一人配合總部時區隨時待命,以確保訊息即時傳達",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "包容性溝通需要同時處理語言與時區這兩個造成訊息遺漏的根本原因。以各團隊慣用語言提供重要訊息,能確保内容真正被理解;建立輪替時段的會議安排,則能公平分攤時差帶來的不便,讓每個地區都有機會參與即時討論,而不是只有配合總部時區的人受益。\n\n其他選項錯誤:全面改用自動翻譯並取消即時會議,雖然處理了部分語言問題,卻犧牲了即時互動與釐清疑慮的機會,也無法保證翻譯品質。要求各團隊指派一人配合總部時區待命,把時差帶來的不便全部轉嫁給現場團隊承擔,並未真正建立公平且具包容性的溝通機制。",
+  },
+  {
+    id: "stk-125",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "On a commercial real estate redevelopment project, the lending bank needs detailed cash flow and cost breakdown data for its risk controls, the city planning review board needs a summary focused on regulatory milestone progress, and the property owner wants a simple overall progress dashboard. What should the project manager do before producing the monthly report?",
+      zh: "一項商業地產重建案,放款銀行需要詳細的現金流與成本細項資料以進行風險控管,市府都市計畫審議委員會需要一份聚焦法規里程碑進度的摘要,而業主本人則希望有一份簡單易懂的整體進度儀表板。專案經理在每月報告產出前,應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Use the same complete financial and schedule report and send it to the bank, the review board, and the owner alike.",
+          zh: "統一使用同一份完整的財務與時程報告,發送給銀行、審議委員會與業主三方",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Develop separate reports tailored to each party's stated information needs.",
+          zh: "依三方已表明的資訊需求,分別製作對應的客製化報告內容",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Build a shared project database and let the bank, the review board, and the owner log in to query the raw data they need on their own.",
+          zh: "建立一個共用的專案資料庫,讓銀行、審議委員會與業主自行登入查詢所需資料",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Ask the owner to decide what information should be shared with the bank and the review board.",
+          zh: "徵詢業主意見,由業主決定要對外提供哪些資訊給銀行與審議委員會",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "三方都已經明確表達了不同的資訊需求,正確做法就是依這些已表明的需求,分別產出對應的客製化報告。有效的溝通管理意味著把對的資訊、用對的格式,交給對的人。\n\n其他選項錯誤:統一使用同一份完整報告,會讓只想看摘要的業主與審議委員會被大量不相關的細節淹沒,也未必符合銀行要求的格式。讓三方自行查詢原始資料,等於迴避了專案經理應負責的資料整理與呈現工作,沒有脈絡的原始數字對審議委員會與業主而言並不合用。讓業主決定要對外釋出哪些資訊,把銀行與審議委員會各自明確表達的資訊需求,錯置成由業主單方面決定的事,並不恰當。",
+  },
+  {
+    id: "stk-126",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Stakeholders",
+    questionType: "multiple_response",
+    difficulty: "hard",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A fintech startup using Scrum is building a mobile payment platform. The product owner has clearly stated that after every sprint, they need to see the detailed burndown status and defect list to plan the next sprint. The executive steering committee has clearly stated that at each biweekly governance meeting, they only want a one-page summary of overall progress and risk. The chief financial officer has stated a need for monthly cloud computing cost and staffing detail to reconcile the budget. Which two of the following actions should the Scrum Master and project manager take? (Select two.)",
+      zh: "一個採用 Scrum 開發的金融科技新創公司正在建置行動支付平台。產品負責人已明確表示,每個 Sprint 結束後需要看到詳細的燃盡狀況與缺陷明細,以利下一個 Sprint 規劃;執行委員會的高階主管已明確表示,只想在每兩週一次的治理會議上看到一頁式的整體進度與風險摘要;財務長則已表示需要每月的雲端運算成本與人力投入明細,以核對預算。Scrum Master 與專案經理應該採取以下哪兩項作法?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Provide the product owner with a sprint report that includes the burndown chart and defect detail.",
+          zh: "為產品負責人提供包含燃盡圖與缺陷明細的 Sprint 報告",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Prepare a one-page governance summary focused on overall progress and risk for the executive steering committee.",
+          zh: "為執行委員會準備聚焦整體進度與風險的一頁式治理摘要",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Cancel the chief financial officer's separate cost reporting request and ask them to attend sprint reviews to hear the update directly instead.",
+          zh: "取消財務長個別的成本報告需求,請財務長改為參加 Sprint Review 直接聽取彙報",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Open the entire raw product backlog database to all three parties and stop producing any separate reports.",
+          zh: "將所有原始待辦事項資料庫開放給三方共同存取,不再另外製作報告",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "三方都已經明確表達了各自不同的資訊需求,正確做法是分別提供符合各自需求的內容:給產品負責人 Sprint 層級的燃盡與缺陷細節,給執行委員會聚焦整體進度與風險的簡潔摘要。財務長明確要求的是成本與人力細節,理應另外提供符合此需求的客製化報告。\n\n其他選項錯誤:取消財務長的個別需求並要求其改為參加 Sprint Review,Sprint Review 聚焦的是產品增量展示,並不包含財務長真正需要的成本與人力細節,這麼做並未回應財務長已表明的需求。開放原始待辦事項資料庫並停止另外產出報告,對執行委員會與財務長而言,沒有整理過的原始資料並不合用,也無法滿足他們各自明確表達的資訊需求。",
+  },
+  {
+    id: "stk-127",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "An airline recently upgraded its baggage sorting system. Two weeks after go-live, the airport operations director sends a message complaining that the baggage delay rate has clearly increased and demanding an immediate explanation. When the project manager receives the message, the system performance analysis report still needs two more days to complete. What should the project manager do first?",
+      zh: "一家航空公司的行李分揀系統剛完成升級。上線兩週後,機場營運總監發訊息投訴,指出行李延誤率明顯上升,並要求立刻說明原因。專案經理收到訊息時,系統效能分析報告還需要兩天才能完成。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Complete the full system performance analysis first to confirm the root cause before replying to the operations director.",
+          zh: "先完成完整的系統效能分析,確認根本原因後再回覆營運總監",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Respond to the operations director first, acknowledge the concerns and frustration raised, and explain the timeline for the follow-up investigation.",
+          zh: "先與營運總監溝通,承認並回應對方提出的疑慮與不滿情緒,同時說明後續調查的時間安排",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask the technical team to prepare a draft root cause analysis first, then let the project manager decide whether a formal reply is needed.",
+          zh: "請技術團隊先製作根因分析報告初稿,再由專案經理決定要不要正式回覆",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Log the complaint in the issue log and address it together once the performance analysis is complete.",
+          zh: "在議題日誌中記錄本次投訴,待效能分析完成後再一併處理回覆",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "營運總監已經主動表達了明確的不滿與疑慮,當下最優先的事是先回應這份情緒與關切,而不是讓對方在毫無回音的情況下等待兩天。專案經理應該先承認問題確實存在、回應對方的感受,並清楚說明調查會在什麼時候有結果,再進行後續的根因分析。\n\n其他選項錯誤:先完成完整效能分析再回覆,會讓營運總監在最需要被回應的當下反而得不到任何消息,兩天的等待可能讓不滿情緒進一步升高。讓技術團隊先出草稿、由專案經理自行決定是否回覆,同樣延遲了對營運總監情緒與疑慮的回應。只在議題日誌中記錄、待分析完成再一併處理,是內部管理動作,無法安撫已經主動表達不滿的利害關係人。",
+  },
+  {
+    id: "stk-128",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A regional hospital has implemented a new electronic health record system. After go-live, the head of nursing states in a cross-department meeting, with visible frustration, that the new medication documentation workflow adds nearly ten minutes to every shift handover and expresses concern about patient safety. What should the project manager do first?",
+      zh: "一家區域醫院導入新的電子病歷系統。上線後,護理部主管在跨部門會議上語氣明顯不滿地表示,新系統的用藥紀錄流程讓每次交班都要多花將近十分鐘,並對病患安全感到擔憂。專案經理當下應該優先怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Acknowledge and address the head of nursing's concerns and feelings directly in the meeting, then arrange a detailed workflow investigation afterward.",
+          zh: "立即在會議中回應並認可護理部主管的疑慮與感受,再著手安排流程細節的調查",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Ask the system vendor to provide technical documentation on the medication workflow and analyze the cause of the added time before replying.",
+          zh: "請系統廠商先提供用藥紀錄流程的技術文件,分析交班耗時增加的原因後再回覆",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Suggest that the head of nursing submit the concern through the formal issue reporting channel so it can be scheduled for the next meeting.",
+          zh: "建議護理部主管先透過正式的議題回報管道提出,再排入下次會議討論",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Explain that changes to handover workflows are normal during the early period after a system transition and that the situation will gradually improve.",
+          zh: "向護理部主管說明,交班流程變化通常是系統轉換初期的正常現象,情況會逐漸改善",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "護理部主管已經在會議上直接且明確地表達了不滿與病患安全上的擔憂,專案經理應該先當場回應並認可這份感受,讓對方感覺疑慮被重視,再著手進行流程細節的調查與根本原因分析。\n\n其他選項錯誤:先請廠商提供技術文件、分析原因後再回覆,會讓護理部主管已經表達出來的不滿在當下完全得不到回應。建議對方改走正式回報管道再排入下次會議,等於把一個當面提出的急迫疑慮往後拖延處理。直接告知這是轉換初期的正常現象,略過了認可對方感受這一步,容易讓對方覺得病患安全的擔憂被輕描淡寫地帶過。",
+  },
+  {
+    id: "stk-129",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A university is building a campus-wide online learning platform. The project sponsor is the provost, and college deans were actively engaged during the planning phase. Five months into the project, the provost notices that two colleges' deans have stopped offering any input or feedback recently and wants to know whether their support for the project remains sufficient. How should the project manager assess these two deans' current level of engagement?",
+      zh: "一所大學要建置全校線上學習平台。專案發起人是教務長,各學院院長在規劃階段都相當積極參與並提供意見。專案進行到第五個月,教務長注意到有兩個學院的院長近期都沒有再提出任何意見或回饋,想了解這兩位院長對專案的支持度是否仍然足夠。專案經理應該如何評估這兩位院長目前的參與程度?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Review the original stakeholder engagement assessment matrix to confirm the two deans' planned engagement classification.",
+          zh: "檢視原本的利害關係人參與評估矩陣,確認這兩位院長原訂的參與程度分類",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Check the project issue log to see whether any disputes involving the two colleges have already been recorded.",
+          zh: "查閱專案議題日誌,找出是否已有記錄與這兩個學院相關的爭議",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Schedule individual conversations with the two deans directly to understand their current thinking and whether any new considerations have arisen.",
+          zh: "直接與這兩位院長安排個別會談,了解他們目前的想法與是否有新的考量",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Update the stakeholder communications plan to increase the frequency of outreach to the two colleges.",
+          zh: "更新利害關係人溝通計畫,增加對這兩個學院的溝通頻率",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "要評估的是這兩位院長「目前」的參與狀況,最可靠的方式就是直接與當事人對話,了解他們此刻真實的想法,而不是依賴反映規劃階段或過去記錄的靜態文件。\n\n其他選項錯誤:利害關係人參與評估矩陣反映的是規劃階段設定的分類,無法告訴專案經理這兩位院長現在實際的想法。議題日誌只記錄已正式浮上檯面的爭議,一位正在悄悄減少參與的院長很可能還沒出現在日誌裡。更新溝通計畫屬於矯正行動,應該建立在先了解目前真實狀況的基礎上,而不是在還沒蒐集最新資訊之前就先調整計畫。",
+  },
+  {
+    id: "stk-130",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "An auto parts manufacturing plant is rolling out a production line automation project. Shift supervisors were closely involved in requirements interviews during planning. Three months into execution, the plant manager asks the project manager to confirm the shift supervisors' current acceptance of and willingness to participate in the project, in order to decide whether the rollout pace needs adjusting. What should the project manager do to understand the true current situation?",
+      zh: "一間汽車零件製造廠推動生產線自動化專案。各班線長在規劃階段曾密集參與需求訪談。專案執行到第三個月,廠長要求專案經理確認各班線長目前對這項自動化專案的接受程度與參與意願,以決定是否需要調整推行步調。專案經理應該怎麼做,才能掌握目前真正的狀況?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Review the stakeholder register compiled during the original interviews and compare it against each supervisor's originally stated position.",
+          zh: "重新檢視當初訪談時整理的利害關係人登錄冊,比對各線長原本表達的立場",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Conduct one-on-one interviews or on-site conversations with each shift supervisor to understand their current views and concerns.",
+          zh: "直接與各班線長進行一對一訪談或現場座談,了解他們目前的看法與疑慮",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Check the current risk register to see whether any risks related to the shift supervisors have already been documented.",
+          zh: "查看目前的風險登錄冊,確認是否已有與各班線長相關的風險項目被記錄",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Have the human resources department distribute a satisfaction survey and report the consolidated results to the plant manager next month.",
+          zh: "委託人資部門發放一份滿意度調查問卷,並在下個月彙整結果後再回報廠長",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "廠長要的是各班線長「目前」真實的接受度與參與意願,最直接可靠的方式就是由專案經理親自與各班線長對話,而不是仰賴規劃階段留下的靜態紀錄,也不是拖到下個月才有結果。\n\n其他選項錯誤:利害關係人登錄冊與風險登錄冊都只反映規劃階段或過去某個時間點記錄下來的狀態,無法呈現線長們現在真正的想法。委託人資部門發放問卷並在下個月才彙整結果,不僅拉長了時間,也讓專案經理與線長之間少了直接對話、當場釐清疑慮的機會,而廠長需要的是能盡快用來決定是否調整步調的即時資訊。",
+  },
+  {
+    id: "stk-131",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Stakeholders",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A bank is undertaking a core banking system migration. The chief risk officer was actively engaged and provided frequent input early in the project, but has not attended any governance meetings in the past two months and has not responded to multiple meeting invitations. The next phase, data migration, is about to begin, and the project sponsor suggests proceeding, reasoning that the chief risk officer has not raised any objection. What should the project manager do?",
+      zh: "一家銀行正在進行核心系統遷移專案。風險長在專案早期經常主動提供意見,但過去兩個月都沒有出席任何治理會議,也未回覆多次會議邀請。專案下一階段的資料遷移即將啟動,專案發起人建議直接繼續推進,理由是風險長並未表示反對。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Proceed with the data migration as the sponsor suggests, and log the chief risk officer's non-response in the issue log.",
+          zh: "依發起人建議繼續推進資料遷移,並在議題日誌中記錄風險長未回應的情況",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Escalate the chief risk officer's disengagement directly to the board of directors and ask for the board's intervention.",
+          zh: "直接向董事會呈報風險長失聯的情況,請求董事會介入處理",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Attempt alternative channels to reconnect with the chief risk officer, such as reaching out through their office or arranging an informal one-on-one conversation, to understand why they have been unavailable.",
+          zh: "嘗試透過其他管道重新聯繫風險長,例如透過其辦公室聯繫或安排非正式的一對一交流,了解對方目前無法參與的原因",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Revise the project plan to remove steps in the data migration phase that require the chief risk officer's approval, in order to avoid depending on them.",
+          zh: "調整專案計畫,移除資料遷移階段中需要風險長核准的步驟,以避免依賴對方",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "風險長不再出席會議,不代表他在核心系統遷移這類高風險專案中的把關角色可以被略過。沉默不等於默許,專案經理應該先嘗試不同的管道重新建立聯繫,了解對方無法參與背後的原因,而不是直接照發起人的建議繼續推進,也不是急著升級或繞過對方。\n\n其他選項錯誤:直接推進並只在議題日誌記錄未回應情況,等於把一個活躍的參與缺口當成可以接受的既定風險處理掉,在核心系統遷移這類需要風險把關的專案中風險過高。直接呈報董事會,在還沒嘗試其他管道重新接觸之前就升級,為時過早。調整計畫移除需要風險長核准的步驟,並非專案經理能單方面決定的事,也可能讓專案的風險控管出現漏洞。",
   },
   {
     id: "sc-001",
@@ -38902,6 +45528,2077 @@ export const sampleQuestions = [
     explanation: "團隊內部完全沒有機器學習的建置與維運經驗,靠短期訓練營現學現賣在時間與品質上都難以支撐一個要正式上線的詐欺偵測系統;招募新的 PM 解決的是專案管理能力,不是機器學習的技術能力落差;而討論優先順序是需求評估階段該做的事,題目已經明講評估已經完成。在完全沒有內部能力、又需要盡快補上這個缺口時,將建置工作外包給有實績的專業廠商,才能在保留任務所有權的同時,最快取得公司目前欠缺、也來不及自行養成的技術能力。",
   },
   {
+    id: "res-116",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A team has struggled with a difficult technical problem for a week and morale is dropping. A junior developer privately says they feel \"out of their depth\" with the current requirements. What should the project manager do?",
+      zh: "團隊已經被一個困難的技術問題卡了一週,士氣持續下滑。一位資淺工程師私下表示自己覺得「能力跟不上」目前的需求。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Take over the technical problem personally and give each team member specific implementation instructions.",
+          zh: "親自接手技術問題,並給每位團隊成員具體的實作指示",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Bring in a senior consultant to solve it quickly and show the team the correct approach.",
+          zh: "找一位資深顧問快速解決,並示範正確做法給團隊看",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Pair junior and senior developers together, hold individual coaching conversations, and recognize small wins along the way.",
+          zh: "讓資深與資淺工程師配對合作,個別進行輔導對話,並肯定過程中的小進展",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reassign the difficult work only to senior developers and give juniors simpler tasks instead.",
+          zh: "把困難的工作只分給資深工程師,資淺工程師改分派簡單任務",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "僕人式領導者的角色,是在團隊遇到困境時創造學習與成長的條件,而不是自己跳下去接管、找外部顧問取代團隊,或乾脆把困難工作從資淺成員身上抽走。透過資深帶資淺的配對、個別輔導與肯定小進展,才能同時解決眼前的技術困境並培養團隊的長期能力。",
+  },
+  {
+    id: "res-117",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A multi-workstream implementation project (data migration, process redesign, training, and configuration) is progressing well on each individual stream, but the project manager notices timeline conflicts and missing dependencies between streams. What should the project manager do first?",
+      zh: "一個多工作流的導入專案(資料遷移、流程重新設計、教育訓練、系統設定)每一條工作流各自進展順利,但專案經理注意到工作流之間出現時程衝突與缺失的依賴關係。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Focus on whichever stream is furthest behind schedule first.",
+          zh: "先專注在進度最落後的那條工作流",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Convene an integration session with all stream leads to identify dependencies and align timelines.",
+          zh: "召集所有工作流負責人開整合會議,釐清依賴關係並對齊時程",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Delegate the integration issue to each stream lead to resolve directly with each other.",
+          zh: "把整合問題交給各工作流負責人自行互相協調",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Escalate the coordination challenge to the sponsor since it spans multiple departments.",
+          zh: "因為跨部門,直接把協調難題上報給贊助人",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "PM 的角色是整合者,必須超越單一工作流的視角,主動召集所有相關負責人,找出依賴關係與衝突並對齊時程,而不是只盯著進度最落後的一條、把整合責任下放給各自為政、或還沒嘗試自己協調就直接上報贊助人。",
+  },
+  {
+    id: "res-118",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager has received approval to move to the next phase and needs a detailed work breakdown structure, but the development team won't be available for a planning discussion for another week. What should the project manager do?",
+      zh: "專案經理已獲准進入下一階段,需要一份詳細的工作分解結構,但開發團隊要一週後才有空進行規劃討論。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Create the detailed WBS alone based on past experience to keep momentum, then review it with the team later.",
+          zh: "依過去經驗獨自完成詳細 WBS 以維持進度,之後再跟團隊一起檢視",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Assign WBS creation to the technical lead alone since they know the architecture best.",
+          zh: "把 WBS 製作全交給技術主管一人,因為他最了解架構",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Create a high-level framework, then have the team break down the detailed components together once available.",
+          zh: "先建立高層級框架,等團隊有空後再一起完成詳細分解",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Wait the full week and only start the WBS once the whole team is available.",
+          zh: "完全等一週,等整個團隊有空後才開始做 WBS",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "真正要執行工作的團隊,才最清楚工作分解需要細到什麼程度、有哪些依賴與細節;即使 PM 有過去經驗、想維持專案動能,也不該獨自完成詳細分解或全部交給單一技術主管代勞。比較平衡的做法是自己先搭出高層級框架維持進度,細節分解則留給團隊到齊後共同完成,而不是為了等團隊而完全停擺一整週。",
+  },
+  {
+    id: "res-119",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Based on experience with similar projects, the project manager has a strong opinion on the sequence of upcoming activities. What should the project manager do regarding activity sequencing and time estimates?",
+      zh: "依過去類似專案的經驗,專案經理對接下來活動的執行順序有明確的想法。專案經理應該如何處理活動排序與時間估算?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Present the proposed sequence to the team and ask them only to provide time estimates for each phase.",
+          zh: "把提議的順序交給團隊,只請他們針對各階段提供時間估算",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Share the requirements with the team and let them determine the sequence and timing based on their technical expertise.",
+          zh: "把需求分享給團隊,讓他們依技術專業自行決定順序與時程",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Finalize the schedule based on personal experience, remaining open to change only if technical constraints appear.",
+          zh: "依個人經驗訂定時程,只有出現技術限制時才願意調整",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Create the schedule alone since past experience with similar projects is the most reliable input.",
+          zh: "因為過去類似專案的經驗最可靠,獨自訂出時程即可",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "即使 PM 對類似專案有豐富經驗,每個團隊仍有各自獨特的技術限制、工作方式與效率模式;真正要執行活動的人,才最了解怎麼排序與需要多少時間。把需求交給團隊,讓他們依專業自行決定順序與時程,遠比 PM 單方面訂好順序、只留估時給團隊,或堅持己見到出現限制才調整,更能得到貼近實際的排程。",
+  },
+  {
+    id: "res-120",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Over the past month, a normally top-performing team member has become disengaged and their work quality has declined. What should the project manager do before implementing any performance measures?",
+      zh: "過去一個月,一位原本表現頂尖的團隊成員變得意興闌珊,工作品質也下滑。專案經理在採取任何績效措施之前應該先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Implement performance improvement measures immediately since declining performance affects the whole project.",
+          zh: "立刻實施績效改善措施,因為績效下滑會影響整個專案",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Schedule a private conversation to understand what might be affecting this person's motivation and engagement.",
+          zh: "安排一場私下對話,了解可能影響這個人動機與投入的原因",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Reassign this person to less critical tasks until performance improves.",
+          zh: "把這個人調去不那麼關鍵的任務,直到績效改善",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Discuss the performance decline with the whole team to get collective input on how to help.",
+          zh: "在團隊會議上討論這個人的績效下滑,徵求大家的意見",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "每位成員的驅動力不同,可能來自成長、認同、金錢或使命感;在採取任何正式績效措施之前,PM 應該先私下了解這位成員動機下滑的真正原因,而不是直接懲罰性地調任、在公開場合討論個人績效問題(這會傷害當事人的顏面與信任),或不了解狀況就急著上矯正措施。",
+  },
+  {
+    id: "res-121",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "The project manager discovers that a team member has been reporting 8 hours of work on days when they were only present for 4-5 hours, for the past three weeks. A manager suggests this is a \"minor timesheet issue\" that happens often. What should the project manager do?",
+      zh: "專案經理發現一位團隊成員過去三週持續回報 8 小時工時,但實際只在場 4 到 5 小時。一位主管暗示這只是「常見的小問題」。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Address the timesheet issue directly with the team member, document the conversation, and set clear expectations going forward.",
+          zh: "直接跟這位成員談這個工時問題,記錄對話內容,並訂定明確的後續期望",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Overlook the discrepancy since the person is technically competent and the project can't afford delays.",
+          zh: "因為這個人技術能力強、專案又耗不起延誤,選擇睜一隻眼閉一隻眼",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Quietly ask other team members to verify the situation before taking any action.",
+          zh: "私下詢問其他團隊成員求證,之後再採取行動",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Focus only on this person's deliverable quality rather than their reported hours.",
+          zh: "只關注這個人的交付品質,不追究回報的工時",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "即使有主管暗示這是常見的小問題、或當事人技術能力不錯,PM 都有責任正面且一致地處理誠信/倫理違規,直接與當事人溝通、記錄過程並訂出明確期望,而不是睜一隻眼閉一隻眼、繞過當事人向其他人求證,或只看交付品質而迴避誠信問題本身。",
+  },
+  {
+    id: "res-122",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "During a design review, junior team members stay silent and simply nod whenever the senior architect speaks, even though the project manager can see puzzled expressions on their faces. What should the project manager do to improve this dynamic?",
+      zh: "在一次設計審查中,每當資深架構師發言,資淺團隊成員都只是沉默點頭,即使專案經理能看出他們臉上的困惑表情。專案經理應該怎麼做來改善這個狀況?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Meet with junior members individually to gather their input privately, then present it anonymously later.",
+          zh: "私下個別會見資淺成員蒐集意見,之後再匿名提出",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Establish ground rules that encourage questions and alternative viewpoints, and model respectful disagreement yourself.",
+          zh: "建立鼓勵提問與不同意見的基本規則,並親自示範如何有禮貌地表達不同看法",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask the senior architect privately to be more open to questions from junior members.",
+          zh: "私下請資深架構師對資淺成員的提問更開放一些",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Rotate meeting leadership so junior members take turns leading the technical discussion.",
+          zh: "輪流讓資淺成員主持技術討論會議",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "要讓建設性的衝突與提問變成團隊常態,PM 需要主動建立明確的討論規則,並親自示範如何尊重地表達不同意見,才能真正建立起心理安全感。只私下蒐集意見再匿名轉達、單獨要求資深架構師改變態度、或單靠輪值主持,都無法從根本上建立起讓所有人敢於提問的團隊文化。",
+  },
+  {
+    id: "res-123",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "The marketing director asks the project's only skilled UI designer to quickly build a promotional landing page for an upcoming trade show. The designer is already at full capacity on critical project features. What should the project manager do?",
+      zh: "行銷主管請專案裡唯一具備 UI 設計技能的成員,快速做一個給即將到來的展會使用的宣傳落地頁。這位設計師目前已經全力投入在專案的關鍵功能上。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Ask the designer to take it on since it's only a few hours and could benefit the company.",
+          zh: "請設計師接下這個任務,反正只要幾小時,對公司也有幫助",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Discuss the request and its capacity impact with the designer, then decline if it would compromise primary project responsibilities.",
+          zh: "與設計師討論這項請求對產能的影響,如果會影響專案主要職責就婉拒",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Have the designer train another team member to take over the promotional work immediately.",
+          zh: "讓設計師立刻訓練另一位成員接手宣傳工作",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Approve the request automatically since it came from a director-level stakeholder.",
+          zh: "因為是主管層級提出的請求就自動核准",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "PM 的職責之一,是替團隊擋下看似立意良善、卻會打斷專注力與產能的額外請求;正確做法是先跟當事人討論這項請求對現有工作的產能衝擊,若會影響專案關鍵職責就婉拒,而不是只因為「只要幾小時」或「對方是主管」就直接答應,也不該臨時要求當事人分心去訓練別人接手。",
+  },
+  {
+    id: "res-124",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "When a team lacks sufficient expertise in a new tool needed for the project, which of the following approaches best reflects encouraging peer learning and knowledge sharing? (Select two.)",
+      zh: "當團隊缺乏專案所需新工具的足夠專業時,下列哪兩項做法最符合鼓勵同儕學習與知識分享的精神?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Organize peer learning sessions where more experienced members teach less experienced ones.",
+          zh: "安排同儕學習場合,讓較有經驗的成員教導經驗較少的成員",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Pair team members with different skill levels together on related tasks.",
+          zh: "讓不同技能程度的成員搭配合作相關任務",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Rely solely on formal external training courses for all skill development.",
+          zh: "完全仰賴正式的外部訓練課程來發展技能",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Hire an entirely new team with the required expertise to replace the current one.",
+          zh: "直接聘用一整批具備所需專業的新團隊來取代現有團隊",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "鼓勵協作與知識分享,強調的是同儕共學、跨技能程度的搭配合作,能降低對單一專家的過度依賴,同時提升團隊整體韌性。完全仰賴正式訓練忽略了同儕共學同樣重要的價值,而直接換掉整個團隊則完全違背了「培養現有團隊能力」的精神。",
+  },
+  {
+    id: "res-125",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A team member consistently arrives late to meetings, interrupts others, and misses deadlines. This is affecting team morale, and other members have complained to the project manager. What should the project manager do first?",
+      zh: "一位團隊成員經常開會遲到、打斷他人發言,也常錯過截止日期。這已經影響到團隊士氣,其他成員也向專案經理反映。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Address the performance issue with the individual in a private one-on-one conversation.",
+          zh: "私下與這位成員進行一對一對話,處理績效問題",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Discuss the team member's behavior at the next team meeting to ensure transparency.",
+          zh: "在下一次團隊會議上公開討論這位成員的行為,確保透明",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Document the issues and escalate directly to human resources for disciplinary action.",
+          zh: "記錄問題並直接上報人資單位進行懲處",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reassign this team member to tasks that require less collaboration with others.",
+          zh: "把這位成員調去不需要太多協作的任務",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "當問題出在單一成員身上時,PM 應該先私下與當事人溝通,這樣最有機會促成正向的行為改變,也能維護對方的顏面與尊重;公開在會議上討論、跳過溝通直接上報人資,或消極地把人調離協作性工作,都不是處理個別績效問題該優先採取的做法。",
+  },
+  {
+    id: "res-126",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "During your weekly team meeting, a heated argument breaks out between the lead developer and the QA manager about testing timelines. The developer insists that QA is being unreasonable by demanding too much time for testing, while the QA manager argues that the developer is rushing code and creating quality problems. What should you do FIRST?",
+      zh: "在每週團隊會議上,技術主管與 QA 主管爆發激烈爭執,爭論的是測試時程。技術主管堅持 QA 要求的測試時間太過分,QA 主管則認為技術主管趕工趕出了品質問題。你應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Stop the argument immediately and remind both team members about professional behavior expectations in meetings.",
+          zh: "立刻制止爭執,提醒雙方會議中應有的專業行為",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Schedule separate one-on-one meetings with each team member to understand their underlying concerns and perspectives before attempting resolution.",
+          zh: "分別與兩人安排一對一會談,先了解各自真正的顧慮與觀點,再嘗試解決",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Implement a new process that allocates specific time for development and testing phases to prevent future scheduling conflicts.",
+          zh: "實施新流程,明訂開發與測試各自的時間配置,以防未來再衝突",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Facilitate a discussion between both team members to find a compromise on the testing timeline that works for everyone.",
+          zh: "促成雙方討論,找出雙方都能接受的測試時程折衷方案",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "表面上看似針對特定議題的衝突,往往是溝通落差、角色混淆、優先順序衝突或需求未被滿足等更深層問題的徵兆;在真正嘗試解決之前,應該先分別了解雙方各自真正在意的原因,而不是急著制止、直接推出新規則,或還沒釐清根本原因就撮合雙方談判折衷。",
+  },
+  {
+    id: "res-127",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Your project has received approval to proceed with the next phase: developing a new inventory management module. You have the high-level requirements and need to create a detailed work breakdown structure for planning and estimation purposes, but your development team won't be available for detailed planning discussions for another week. What should you do?",
+      zh: "你的專案已獲准進入下一階段:開發一個新的庫存管理模組。你手上有高層級需求,需要製作一份詳細的工作分解結構以利規劃與估算,但開發團隊還要一週後才有空進行詳細規劃討論。你應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Wait for the development team to become available and have them create the WBS together, even though it will delay the planning process by a week.",
+          zh: "等開發團隊有空後一起製作 WBS,即使會讓規劃流程延後一週",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Create a detailed WBS based on your previous experience with similar modules to keep the project moving forward, then review it with the team when they become available.",
+          zh: "依過去類似模組的經驗獨自完成詳細 WBS 以維持專案進度,等團隊有空後再一起檢視",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Assign the WBS creation to the technical lead since they have both the technical expertise and familiarity with the current system architecture.",
+          zh: "把 WBS 製作交給技術主管,因為他兼具技術專業與熟悉現有架構",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Create a high-level WBS framework based on your experience, then have the team provide detailed breakdown of each major component when they're available.",
+          zh: "依經驗先建立高層級 WBS 框架,等團隊有空後再由他們完成各主要元件的詳細分解",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "即使 PM 有經驗、也想維持專案動能,真正要執行工作的團隊才最了解完成工作實際需要什麼;比較平衡的做法是自己先搭出高層級框架維持進度,詳細分解則留給團隊到齊後共同完成,而不是獨自做完整份詳細 WBS、全部交給單一技術主管代勞,或為了等團隊而讓規劃完全停擺一整週。",
+  },
+  {
+    id: "res-128",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Your web development project is progressing well when the marketing director approaches you with an \"urgent\" request for your lead developer to quickly create a promotional landing page for an upcoming trade show. The lead developer is already working at full capacity on critical project features, but they're the only team member with the specific skills needed for this promotional work. What should you do?",
+      zh: "你的網站開發專案進展順利,這時行銷主管找上你,「緊急」請求你的技術主管快速做一個給即將到來的展會使用的宣傳落地頁。技術主管目前已經全力投入在專案的關鍵功能上,但他也是團隊裡唯一具備這項宣傳工作所需技能的人。你應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Ask the lead developer to take on the promotional landing page since it's only a few hours and could benefit the company significantly.",
+          zh: "請技術主管接下這個宣傳落地頁,反正只要幾小時,對公司也有明顯幫助",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Negotiate with the marketing director to delay the promotional landing page until after the current sprint is completed.",
+          zh: "與行銷主管協商,把宣傳落地頁延到目前衝刺結束後再做",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Have the lead developer train another team member to handle the promotional work so the expertise can be distributed across the team.",
+          zh: "讓技術主管訓練另一位成員來處理這項宣傳工作,分散專業能力",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Discuss the request with the lead developer to understand the capacity impact, then decline if it would compromise their focus on primary project responsibilities.",
+          zh: "與技術主管討論這項請求對產能的影響,如果會影響其主要職責就婉拒",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "PM 的職責之一,是替團隊擋下看似立意良善、卻會打斷專注力與產能的額外請求;正確做法是先跟當事人討論這項請求對現有工作的產能衝擊,若會影響專案關鍵職責就婉拒,而不是直接答應、單方面協商延期,或臨時要求當事人分心去訓練別人接手。",
+  },
+  {
+    id: "res-129",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Based on the details provided, which development approach is the project using?",
+      zh: "依據上述細節,這個專案採用的是哪一種開發方法?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Predictive",
+          zh: "預測型",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Incremental",
+          zh: "增量型",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Hybrid",
+          zh: "混合型",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Agile",
+          zh: "敏捷型",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "情境描述了不斷演變的需求、由產品負責人管理的產品待辦清單,以及以兩週為單位運作的衝刺,這些特徵都對應敏捷方法。預測型方法會在一開始就定義固定的範疇、時程與成本並依基準管理,跟情境描述不符;增量描述的是交付釋出的方式而非管理方法;混合型是刻意結合預測與敏捷元素,情境中專案經理的直接指派行為反映的是舊習慣尚未調整,而不是刻意設計的混合式做法。",
+    caseId: "cs-b",
+    caseContext: {
+      en: "A regional bank with a long history of predictive project management has launched a pilot initiative to modernize its mobile banking application using agile practices. The initiative has been assigned to a senior project manager with fifteen years of experience delivering predictive, waterfall-based projects.\n\nThe mobile app's feature set is not fully defined at the outset, since customer research indicates preferences will continue to evolve based on user testing. A product owner has been assigned to own the product backlog, and the development team works in two-week sprints. During the first two sprints, the team struggled to agree on how to divide work during sprint planning, often falling silent and waiting for direction. The project manager responded by personally assigning specific backlog items to each developer at the start of every sprint.\n\nBy the fourth sprint, the project manager noticed that developers had stopped proposing their own task breakdowns entirely and simply waited each sprint for individual assignments. Midway through the fifth sprint, the project manager also reordered several backlog items, pushing lower-priority security enhancements to the bottom of the backlog in order to protect the sprint's delivery date. Several developers have since told the scrum master they feel disconnected from the roadmap beyond the current sprint and are unsure why certain items were deprioritized.",
+      zh: "一家有著長期預測式專案管理歷史的區域銀行,啟動了一項用敏捷實務來現代化其行動銀行 App 的試辦計畫。這項計畫被指派給一位擁有十五年瀑布式專案交付經驗的資深專案經理。\n\n這個行動 App 的功能清單在一開始並未完全定義,因為顧客研究顯示,使用者偏好會隨著使用者測試持續演變。一位產品負責人被指派負責管理產品待辦清單,開發團隊以兩週為一個衝刺運作。在前兩個衝刺中,團隊在衝刺規劃時很難就如何分配工作達成共識,經常陷入沉默、等待指示。專案經理的回應是親自在每個衝刺開始時,把特定的待辦項目指派給每位開發人員。\n\n到了第四個衝刺,專案經理注意到開發人員已經完全不再主動提出自己的工作分解方式,每個衝刺都只是等待個別指派。第五個衝刺進行到一半時,專案經理還重新排列了幾項待辦清單項目,把優先順序較低的安全性強化功能推到清單底部,以保護這個衝刺的交付日期。幾位開發人員已經向團隊引導者反映,他們感覺跟目前衝刺之外的產品路線圖脫節,也不清楚為什麼某些項目的優先順序被調降。",
+    },
+  },
+  {
+    id: "res-130",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Based on the project approach, what should be the project manager's primary role?",
+      zh: "依這個專案的開發方法,專案經理的主要角色應該是什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Directing team members and assigning tasks to ensure sprint goals are met.",
+          zh: "指揮團隊成員並指派任務,以確保達成衝刺目標",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Facilitating the team's work by removing impediments and supporting self-organization.",
+          zh: "透過移除阻礙與支持團隊自組織來促進團隊的工作",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Reporting sprint progress to the sponsor and adjusting the delivery schedule accordingly.",
+          zh: "向贊助人報告衝刺進度,並據以調整交付時程",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "在以產品負責人、待辦清單管理與迭代衝刺為架構的敏捷專案裡,專案經理的角色是服務團隊而非指揮團隊,也就是移除阻礙、保護團隊不受干擾、支持團隊自組織的能力,而不是指派工作或做待辦清單的排序決策。指揮並指派任務違背了敏捷團隊自組織、自行認領工作的精神;向贊助人報告並調整時程,則是把預測型思維套用在一個以迭代規劃、衝刺交付為核心的敏捷架構上。",
+    caseId: "cs-b",
+    caseContext: {
+      en: "A regional bank with a long history of predictive project management has launched a pilot initiative to modernize its mobile banking application using agile practices. The initiative has been assigned to a senior project manager with fifteen years of experience delivering predictive, waterfall-based projects.\n\nThe mobile app's feature set is not fully defined at the outset, since customer research indicates preferences will continue to evolve based on user testing. A product owner has been assigned to own the product backlog, and the development team works in two-week sprints. During the first two sprints, the team struggled to agree on how to divide work during sprint planning, often falling silent and waiting for direction. The project manager responded by personally assigning specific backlog items to each developer at the start of every sprint.\n\nBy the fourth sprint, the project manager noticed that developers had stopped proposing their own task breakdowns entirely and simply waited each sprint for individual assignments. Midway through the fifth sprint, the project manager also reordered several backlog items, pushing lower-priority security enhancements to the bottom of the backlog in order to protect the sprint's delivery date. Several developers have since told the scrum master they feel disconnected from the roadmap beyond the current sprint and are unsure why certain items were deprioritized.",
+      zh: "一家有著長期預測式專案管理歷史的區域銀行,啟動了一項用敏捷實務來現代化其行動銀行 App 的試辦計畫。這項計畫被指派給一位擁有十五年瀑布式專案交付經驗的資深專案經理。\n\n這個行動 App 的功能清單在一開始並未完全定義,因為顧客研究顯示,使用者偏好會隨著使用者測試持續演變。一位產品負責人被指派負責管理產品待辦清單,開發團隊以兩週為一個衝刺運作。在前兩個衝刺中,團隊在衝刺規劃時很難就如何分配工作達成共識,經常陷入沉默、等待指示。專案經理的回應是親自在每個衝刺開始時,把特定的待辦項目指派給每位開發人員。\n\n到了第四個衝刺,專案經理注意到開發人員已經完全不再主動提出自己的工作分解方式,每個衝刺都只是等待個別指派。第五個衝刺進行到一半時,專案經理還重新排列了幾項待辦清單項目,把優先順序較低的安全性強化功能推到清單底部,以保護這個衝刺的交付日期。幾位開發人員已經向團隊引導者反映,他們感覺跟目前衝刺之外的產品路線圖脫節,也不清楚為什麼某些項目的優先順序被調降。",
+    },
+  },
+  {
+    id: "res-131",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "What was the consequence of the project manager personally assigning backlog items to developers each sprint?",
+      zh: "專案經理每個衝刺都親自把待辦項目指派給開發人員,造成了什麼後果?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The team became dependent on the project manager for direction rather than developing self-organization skills.",
+          zh: "團隊變得依賴專案經理給予指示,而不是培養自組織能力",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The product owner's ability to manage the backlog effectively was undermined.",
+          zh: "產品負責人有效管理待辦清單的能力被削弱了",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The team's inability to meet the sprint delivery date was a direct result of the task assignments.",
+          zh: "團隊無法準時交付衝刺成果,是這些任務指派直接造成的",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The pilot program lost credibility with senior leadership due to the ongoing sprint planning struggles.",
+          zh: "這個試辦計畫因為持續的衝刺規劃困難,在高階主管面前失去了信譽",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "專案經理直接指派任務,等於用指令式做法取代了團隊的自組織,情境明確指出團隊因此不再主動提出自己的工作分解方式,轉而每個衝刺都等待個別指派,這正好違背了敏捷的核心精神之一,也讓試辦計畫原本想培養的能力無從建立。產品負責人負責的是待辦清單本身,任務指派是衝刺層級的事,不會直接影響產品負責人的待辦清單職權;情境並未指出交付日期真的沒有達成,或高階主管對試辦計畫的觀感如何,這兩個推論都超出了情境提供的資訊。",
+    caseId: "cs-b",
+    caseContext: {
+      en: "A regional bank with a long history of predictive project management has launched a pilot initiative to modernize its mobile banking application using agile practices. The initiative has been assigned to a senior project manager with fifteen years of experience delivering predictive, waterfall-based projects.\n\nThe mobile app's feature set is not fully defined at the outset, since customer research indicates preferences will continue to evolve based on user testing. A product owner has been assigned to own the product backlog, and the development team works in two-week sprints. During the first two sprints, the team struggled to agree on how to divide work during sprint planning, often falling silent and waiting for direction. The project manager responded by personally assigning specific backlog items to each developer at the start of every sprint.\n\nBy the fourth sprint, the project manager noticed that developers had stopped proposing their own task breakdowns entirely and simply waited each sprint for individual assignments. Midway through the fifth sprint, the project manager also reordered several backlog items, pushing lower-priority security enhancements to the bottom of the backlog in order to protect the sprint's delivery date. Several developers have since told the scrum master they feel disconnected from the roadmap beyond the current sprint and are unsure why certain items were deprioritized.",
+      zh: "一家有著長期預測式專案管理歷史的區域銀行,啟動了一項用敏捷實務來現代化其行動銀行 App 的試辦計畫。這項計畫被指派給一位擁有十五年瀑布式專案交付經驗的資深專案經理。\n\n這個行動 App 的功能清單在一開始並未完全定義,因為顧客研究顯示,使用者偏好會隨著使用者測試持續演變。一位產品負責人被指派負責管理產品待辦清單,開發團隊以兩週為一個衝刺運作。在前兩個衝刺中,團隊在衝刺規劃時很難就如何分配工作達成共識,經常陷入沉默、等待指示。專案經理的回應是親自在每個衝刺開始時,把特定的待辦項目指派給每位開發人員。\n\n到了第四個衝刺,專案經理注意到開發人員已經完全不再主動提出自己的工作分解方式,每個衝刺都只是等待個別指派。第五個衝刺進行到一半時,專案經理還重新排列了幾項待辦清單項目,把優先順序較低的安全性強化功能推到清單底部,以保護這個衝刺的交付日期。幾位開發人員已經向團隊引導者反映,他們感覺跟目前衝刺之外的產品路線圖脫節,也不清楚為什麼某些項目的優先順序被調降。",
+    },
+  },
+  {
+    id: "res-132",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Was the project manager's decision to reorder the backlog and deprioritize the security enhancements appropriate?",
+      zh: "專案經理重新排列待辦清單、將安全性強化功能調降優先順序的決定是否恰當?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Yes, because the project manager is responsible for ensuring the sprint delivery date is met.",
+          zh: "恰當,因為專案經理有責任確保衝刺交付日期被達成",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "No, because backlog reprioritization requires approval from senior leadership before implementation.",
+          zh: "不恰當,因為待辦清單重新排序在實施前需要高階主管核准",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "No, because the product backlog is the product owner's responsibility and reprioritization decisions belong exclusively to them.",
+          zh: "不恰當,因為產品待辦清單是產品負責人的職責,重新排序的決定完全屬於他們",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "No, because deprioritizing security enhancements mid-project violates the agile principle of responding to change over following a plan.",
+          zh: "不恰當,因為專案中途調降安全性項目優先順序,違反了敏捷「回應變化重於遵循計畫」的原則",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "產品待辦清單的所有權與管理權完全屬於產品負責人,不論動機為何,重新排序待辦清單都是產品負責人的決策;專案經理繞過了適當的職權,單方面做出了範疇優先順序的決定。專案經理對交付負有責任,但不代表可以透過跳過既有角色分工的行動來履行這個責任;高階主管核准不是待辦清單決策該走的管道,這個職權屬於產品負責人而非組織層級;敏捷本來就擁抱回應變化(包含調整範疇),問題不在於範疇被調降,而在於這個決定是由錯的人做出的。",
+    caseId: "cs-b",
+    caseContext: {
+      en: "A regional bank with a long history of predictive project management has launched a pilot initiative to modernize its mobile banking application using agile practices. The initiative has been assigned to a senior project manager with fifteen years of experience delivering predictive, waterfall-based projects.\n\nThe mobile app's feature set is not fully defined at the outset, since customer research indicates preferences will continue to evolve based on user testing. A product owner has been assigned to own the product backlog, and the development team works in two-week sprints. During the first two sprints, the team struggled to agree on how to divide work during sprint planning, often falling silent and waiting for direction. The project manager responded by personally assigning specific backlog items to each developer at the start of every sprint.\n\nBy the fourth sprint, the project manager noticed that developers had stopped proposing their own task breakdowns entirely and simply waited each sprint for individual assignments. Midway through the fifth sprint, the project manager also reordered several backlog items, pushing lower-priority security enhancements to the bottom of the backlog in order to protect the sprint's delivery date. Several developers have since told the scrum master they feel disconnected from the roadmap beyond the current sprint and are unsure why certain items were deprioritized.",
+      zh: "一家有著長期預測式專案管理歷史的區域銀行,啟動了一項用敏捷實務來現代化其行動銀行 App 的試辦計畫。這項計畫被指派給一位擁有十五年瀑布式專案交付經驗的資深專案經理。\n\n這個行動 App 的功能清單在一開始並未完全定義,因為顧客研究顯示,使用者偏好會隨著使用者測試持續演變。一位產品負責人被指派負責管理產品待辦清單,開發團隊以兩週為一個衝刺運作。在前兩個衝刺中,團隊在衝刺規劃時很難就如何分配工作達成共識,經常陷入沉默、等待指示。專案經理的回應是親自在每個衝刺開始時,把特定的待辦項目指派給每位開發人員。\n\n到了第四個衝刺,專案經理注意到開發人員已經完全不再主動提出自己的工作分解方式,每個衝刺都只是等待個別指派。第五個衝刺進行到一半時,專案經理還重新排列了幾項待辦清單項目,把優先順序較低的安全性強化功能推到清單底部,以保護這個衝刺的交付日期。幾位開發人員已經向團隊引導者反映,他們感覺跟目前衝刺之外的產品路線圖脫節,也不清楚為什麼某些項目的優先順序被調降。",
+    },
+  },
+  {
+    id: "res-133",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "What should the project manager have done during the first two sprints, instead of personally assigning tasks?",
+      zh: "在前兩個衝刺中,專案經理應該怎麼做,而不是親自指派任務?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Asked the product owner to take a more active role in facilitating sprint planning until the team gained confidence.",
+          zh: "請產品負責人在團隊建立信心之前,更積極地參與主持衝刺規劃",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Escalated the team's struggles to senior leadership given the importance of the pilot program's success.",
+          zh: "因為這個試辦計畫的成敗很重要,把團隊的困難上報給高階主管",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Coached the team on sprint planning practices to build their self-organization capability over time.",
+          zh: "教練團隊衝刺規劃的做法,逐步培養團隊的自組織能力",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Reduced the number of backlog items assigned to each sprint to give the team a more manageable workload.",
+          zh: "減少每個衝刺分配的待辦項目數量,讓團隊工作量更容易負荷",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "在敏捷方法中,專案經理的角色是培養團隊的能力,而不是在團隊遇到困難時直接接手取代;教練團隊學習衝刺規劃的做法,才能從根本上培養自組織能力,而不是用指令式做法取代這個能力的養成。主持衝刺規劃不屬於產品負責人的角色,把這個責任轉移給產品負責人誤解了角色分工;團隊剛接觸敏捷時在自組織上遇到困難,是專案經理可以直接處理的採用初期挑戰,上報高階主管言之過早;減少待辦項目數量處理的是工作量問題,並沒有解決團隊無法自組織這個根本問題,只是處理了表面症狀。",
+    caseId: "cs-b",
+    caseContext: {
+      en: "A regional bank with a long history of predictive project management has launched a pilot initiative to modernize its mobile banking application using agile practices. The initiative has been assigned to a senior project manager with fifteen years of experience delivering predictive, waterfall-based projects.\n\nThe mobile app's feature set is not fully defined at the outset, since customer research indicates preferences will continue to evolve based on user testing. A product owner has been assigned to own the product backlog, and the development team works in two-week sprints. During the first two sprints, the team struggled to agree on how to divide work during sprint planning, often falling silent and waiting for direction. The project manager responded by personally assigning specific backlog items to each developer at the start of every sprint.\n\nBy the fourth sprint, the project manager noticed that developers had stopped proposing their own task breakdowns entirely and simply waited each sprint for individual assignments. Midway through the fifth sprint, the project manager also reordered several backlog items, pushing lower-priority security enhancements to the bottom of the backlog in order to protect the sprint's delivery date. Several developers have since told the scrum master they feel disconnected from the roadmap beyond the current sprint and are unsure why certain items were deprioritized.",
+      zh: "一家有著長期預測式專案管理歷史的區域銀行,啟動了一項用敏捷實務來現代化其行動銀行 App 的試辦計畫。這項計畫被指派給一位擁有十五年瀑布式專案交付經驗的資深專案經理。\n\n這個行動 App 的功能清單在一開始並未完全定義,因為顧客研究顯示,使用者偏好會隨著使用者測試持續演變。一位產品負責人被指派負責管理產品待辦清單,開發團隊以兩週為一個衝刺運作。在前兩個衝刺中,團隊在衝刺規劃時很難就如何分配工作達成共識,經常陷入沉默、等待指示。專案經理的回應是親自在每個衝刺開始時,把特定的待辦項目指派給每位開發人員。\n\n到了第四個衝刺,專案經理注意到開發人員已經完全不再主動提出自己的工作分解方式,每個衝刺都只是等待個別指派。第五個衝刺進行到一半時,專案經理還重新排列了幾項待辦清單項目,把優先順序較低的安全性強化功能推到清單底部,以保護這個衝刺的交付日期。幾位開發人員已經向團隊引導者反映,他們感覺跟目前衝刺之外的產品路線圖脫節,也不清楚為什麼某些項目的優先順序被調降。",
+    },
+  },
+  {
+    id: "res-134",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "dropdown",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "To address the developers' concern about feeling disconnected from the roadmap, the scrum master explains: \"You do not need a separate long-term plan document because {{blank1}}, and each sprint planning session {{blank2}}.\"",
+      zh: "為了回應開發人員感覺跟路線圖脫節的疑慮,團隊引導者解釋:「你們不需要另外一份長期計畫文件,因為{{blank1}},而且每次衝刺規劃{{blank2}}。」",
+    },
+    blanks: [
+      {
+        id: "blank1",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "the product backlog itself already shows the team's prioritized future work",
+              zh: "產品待辦清單本身就已經呈現了團隊未來工作的優先順序",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "the sponsor tracks the full roadmap privately on the team's behalf",
+              zh: "贊助人會私下代替團隊追蹤完整路線圖",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "leadership will inform the team whenever priorities change",
+              zh: "高階主管會在優先順序改變時通知團隊",
+            },
+          },
+        ],
+      },
+      {
+        id: "blank2",
+        options: [
+          {
+            id: "a",
+            text: {
+              en: "refines and reveals more of that future work through iterative planning",
+              zh: "透過迭代規劃逐步細化並揭露更多未來工作內容",
+            },
+          },
+          {
+            id: "b",
+            text: {
+              en: "locks in the full roadmap for the rest of the project",
+              zh: "把專案剩餘部分的完整路線圖鎖定下來",
+            },
+          },
+          {
+            id: "c",
+            text: {
+              en: "has no connection to the sprints that came before it",
+              zh: "跟先前的衝刺完全沒有關聯",
+            },
+          },
+        ],
+      },
+    ],
+    correctAnswer: {
+      blank1: "a",
+      blank2: "a",
+    },
+    explanation: "敏捷團隊的路線圖可視性來自產品待辦清單本身及其持續的優先排序,而不是另外一份靜態的長期計畫文件;每次衝刺規劃都會依最新資訊逐步細化待辦清單,讓團隊持續看到未來工作內容的樣貌,這正是迭代規劃取代傳統長期計畫文件的方式。重新導入一份鎖定的長期路線圖文件會走回預測型思維,也違背敏捷持續回應變化的精神。",
+    caseId: "cs-b",
+    caseContext: {
+      en: "A regional bank with a long history of predictive project management has launched a pilot initiative to modernize its mobile banking application using agile practices. The initiative has been assigned to a senior project manager with fifteen years of experience delivering predictive, waterfall-based projects.\n\nThe mobile app's feature set is not fully defined at the outset, since customer research indicates preferences will continue to evolve based on user testing. A product owner has been assigned to own the product backlog, and the development team works in two-week sprints. During the first two sprints, the team struggled to agree on how to divide work during sprint planning, often falling silent and waiting for direction. The project manager responded by personally assigning specific backlog items to each developer at the start of every sprint.\n\nBy the fourth sprint, the project manager noticed that developers had stopped proposing their own task breakdowns entirely and simply waited each sprint for individual assignments. Midway through the fifth sprint, the project manager also reordered several backlog items, pushing lower-priority security enhancements to the bottom of the backlog in order to protect the sprint's delivery date. Several developers have since told the scrum master they feel disconnected from the roadmap beyond the current sprint and are unsure why certain items were deprioritized.",
+      zh: "一家有著長期預測式專案管理歷史的區域銀行,啟動了一項用敏捷實務來現代化其行動銀行 App 的試辦計畫。這項計畫被指派給一位擁有十五年瀑布式專案交付經驗的資深專案經理。\n\n這個行動 App 的功能清單在一開始並未完全定義,因為顧客研究顯示,使用者偏好會隨著使用者測試持續演變。一位產品負責人被指派負責管理產品待辦清單,開發團隊以兩週為一個衝刺運作。在前兩個衝刺中,團隊在衝刺規劃時很難就如何分配工作達成共識,經常陷入沉默、等待指示。專案經理的回應是親自在每個衝刺開始時,把特定的待辦項目指派給每位開發人員。\n\n到了第四個衝刺,專案經理注意到開發人員已經完全不再主動提出自己的工作分解方式,每個衝刺都只是等待個別指派。第五個衝刺進行到一半時,專案經理還重新排列了幾項待辦清單項目,把優先順序較低的安全性強化功能推到清單底部,以保護這個衝刺的交付日期。幾位開發人員已經向團隊引導者反映,他們感覺跟目前衝刺之外的產品路線圖脫節,也不清楚為什麼某些項目的優先順序被調降。",
+    },
+  },
+  {
+    id: "res-135",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager in a balanced matrix organization needs a senior developer full-time for a critical six-week delivery phase. The functional manager has agreed to provide the developer only part-time, citing departmental commitments. Direct negotiations have continued for two weeks without resolution, and the phase start date is one week away. What should the project manager do?",
+      zh: "在一個平衡矩陣型組織中,專案經理需要一位資深開發人員在一個為期六週的關鍵交付階段全職投入。職能經理表示,因為部門本身另有工作承諾,只能讓這位開發人員兼職支援。雙方已經直接協商兩週,仍未解決,而這個階段的開始日期只剩一週。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Begin the phase with the part-time developer and request additional support if the workload becomes unmanageable.",
+          zh: "先用兼職開發人員展開這個階段,如果之後工作量變得無法負荷,再要求增援",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Escalate the resource conflict to the project sponsor to resolve with the functional manager.",
+          zh: "把這項資源衝突上報給專案贊助人,由贊助人出面與職能經理協調解決",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Revise the project schedule to accommodate part-time resource availability.",
+          zh: "修改專案時程,以配合這位資源只能兼職支援的現況",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Document the resource constraint as a risk and continue negotiating with the functional manager.",
+          zh: "把這項資源限制記錄為風險,並繼續與職能經理協商",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "在矩陣型組織中,專案經理與職能經理共享權責,無法單方面裁定資源歸屬,因此直接協商本來就是正確的第一步。但協商已經進行兩週卻毫無進展,距離階段開始只剩一週,這代表合理的直接協商手段已經用盡。此時專案贊助人擁有專案經理所沒有的組織層級權力,能夠出面解決跨部門的資源衝突,是這個時間點最恰當的做法。\n\n其餘選項都不理想。直接用兼職人力展開這個關鍵階段,等於接受一個已知的重大限制,讓團隊從一開始就承擔可預見的失敗風險,而不是趕在工作開始前先解決問題。修改時程則等於把職能經理尚未經過適當管道確認的立場當成定局,而專案經理其實還有升級選項可用。至於把限制記錄成風險並繼續協商,只是重複一個已經證明無效的做法;剩下一週時間,同樣的協商方式不太可能得到不同的結果。",
+  },
+  {
+    id: "res-136",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Two developers on a mobile app project disagree about whether to build using a native or cross-platform framework. The disagreement has delayed sprint planning in each of the last two sprints and is creating tension within the team. No resolution has emerged despite both developers having discussed their positions informally. What should the project manager do?",
+      zh: "在一個行動應用程式專案中,兩位開發人員對於要採用原生框架還是跨平台框架意見不合。這個分歧已經連續兩個衝刺延誤了衝刺規劃,也讓團隊內部出現緊張氣氛。儘管兩人已經私下討論過各自的立場,仍然沒有達成共識。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Meet separately with each developer to understand their technical reasoning before holding any joint discussion.",
+          zh: "先分別和兩位開發人員個別會談,了解他們各自的技術考量,之後再進行聯合討論",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Research the merits of each framework and present a recommendation to break the deadlock.",
+          zh: "自行研究兩種框架的優缺點,提出建議來打破僵局",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Bring both developers together to work through the trade-offs and reach a mutually acceptable decision.",
+          zh: "把兩位開發人員找來一起討論,共同權衡利弊,達成雙方都能接受的決定",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Add the framework decision to the next sprint retrospective with the full team.",
+          zh: "把框架選擇這個議題留到下次全體團隊的迴顧會議再討論",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "這個衝突已經橫跨兩個衝刺,私下討論也無法化解,顯示需要的是正式的「面對面解決問題」做法。把雙方找來、在有結構的場合中一起釐清各自的考量並做出共同決定,遠比繼續個別對話或延後處理更有效,也是這個時間點最恰當的介入方式。\n\n其他做法都有明顯不足。個別會談雖然能幫助專案經理理解雙方立場,卻無法創造出讓兩人共同做出決定的條件;而且兩位開發人員早就清楚彼此的看法,問題本質是技術性的,不是人際摩擦,真正欠缺的是一個能一起把利弊攤開來談的場合。專案經理自己研究後給出技術建議,等於把決策權從最了解狀況的人手中拿走,也可能做出兩人都不真心認同、難以落實的方案。把議題丟到迴顧會議聽起來很「敏捷」,但其實是把一個正在阻礙進度的衝突,當成流程改善事項處理。這個分歧已經拖延兩個衝刺,若不建立具體的解決機制,只是把問題排到未來,等於又是一種拖延。",
+  },
+  {
+    id: "res-137",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A project manager is leading the design phase of a product development initiative. The organization has successfully used agile sprint cycles on similar projects, and the project manager believes introducing them now could improve team alignment and deliverable quality. The current team was assembled specifically for this project and most members have limited experience with agile methods. What should the project manager do first?",
+      zh: "專案經理正在領導一項產品開發計畫的設計階段。該組織過去在類似專案上成功採用過敏捷衝刺週期,專案經理認為現在導入衝刺週期,有機會提升團隊協作一致性與交付品質。目前的團隊是專門為這個專案組成的,大多數成員在敏捷方法上的經驗都很有限。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Request that the sponsor allocate an experienced agile coach to support the team in adopting sprint cycles.",
+          zh: "請贊助人指派一位有經驗的敏捷教練,協助團隊導入衝刺週期",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Update the project plan to incorporate sprint cycles and schedule the first sprint planning session.",
+          zh: "更新專案計畫以納入衝刺週期,並排定第一次衝刺規劃會議",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Assess the team's current experience with agile methods before deciding whether to introduce sprint cycles.",
+          zh: "在決定是否導入衝刺週期之前,先評估團隊目前對敏捷方法的熟悉程度",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Introduce sprint cycles and use retrospectives to identify and address capability gaps as they emerge.",
+          zh: "直接導入衝刺週期,再透過迴顧會議找出並處理隨之浮現的能力落差",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "是否導入衝刺週期,應該根據這個團隊實際的能力,而不是其他團隊在其他專案上的成功經驗來決定。先評估團隊目前對敏捷方法的熟悉程度,才能判斷導入是否可行、需要哪些額外支援,以及設計階段的時程是否容許這樣的轉換。在完成評估之前就採取行動,等於冒著導入一套團隊還無法有效執行的做法的風險。\n\n其他選項都跳過了這個關鍵的評估步驟。請贊助人指派敏捷教練,是在能力落差還沒被確認或衡量之前,就先假設團隊需要外部支援,但真正需不需要支援、需要什麼樣的支援,應該由評估結果決定。直接更新專案計畫並排定衝刺規劃會議,等於把「是否導入」這個決定當成已經定案,若團隊的能力其實不足以支撐這套計畫,整份計畫可能根本無法執行。至於直接導入再靠迴顧會議補救,是對一個已知的導入風險採取被動因應的態度;迴顧會議本來是用來在既有框架內做流程改善,並不能彌補團隊一開始就缺乏執行這種交付方式所需的基本技能。",
+  },
+  {
+    id: "res-138",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A senior developer approaches the project manager, expressing frustration that a mandatory support rotation is interfering with their primary development work. The project manager wants to apply a compromise approach to find a solution that works for both the developer and the project. What should the project manager do first?",
+      zh: "一位資深開發人員向專案經理表達不滿,認為強制性的支援輪值影響了他原本的主要開發工作。專案經理想採用妥協的方式,找出一個對這位開發人員與專案雙方都可行的解決方案。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Listen carefully to the developer's concerns and acknowledge the impact the rotation is having on their work.",
+          zh: "仔細聆聽這位開發人員的顧慮,並認同輪值制度確實對他的工作造成了影響",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Explain the business reasons for the support rotation.",
+          zh: "說明設置支援輪值制度的業務理由",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Propose a modified rotation schedule that reduces the developer's support hours while maintaining coverage.",
+          zh: "提出調整後的輪值表,在維持支援量的前提下減少這位開發人員的輪值時數",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Offer to reassign some of the developer's lower-priority tasks to offset the time lost to support duties.",
+          zh: "提出把這位開發人員部分優先順序較低的任務,轉派給其他人以補足輪值占用的時間",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "妥協的前提,是先對等地理解雙方的立場,才能找出真正的中間點。先聆聽並認同這位開發人員的感受,能確保專案經理在提出限制條件或解決方案之前,完全掌握是什麼原因造成這份不滿。若還沒聽清楚就直接說明立場或提出方案,並不能稱為妥協。\n\n其餘做法都跳過了「先聽」這個前提。先說明業務理由,等於在對方的顧慮被充分聽見之前,就先端出專案經理自己的立場,讓對話變成辯護,而不是雙向溝通,這不是妥協該有的開場方式。提出調整後的輪值表,是在還沒完整理解這位開發人員真正在意什麼之前,就直接跳到具體方案,這個方案很可能根本沒有對症下藥。提出重新分派任務雖然立意良好,但本質上仍然是一個先提出的解決方案;還沒聆聽就先提方案,等於跳過了讓妥協得以成立的那一步。",
+  },
+  {
+    id: "res-139",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading a cross-functional product development team made up of engineers, designers, and business analysts with varying levels of experience. The project manager wants every team member developing skills they will carry beyond this project. What should the project manager do?",
+      zh: "專案經理正在領導一個跨職能的產品開發團隊,成員包括工程師、設計師與商業分析師,彼此的經驗程度不一。專案經理希望每位團隊成員都能培養出可以帶到這個專案以外、持續使用的技能。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Assign tasks based on each team member's current strongest skills to maximize the team's immediate delivery capacity.",
+          zh: "依照每位成員目前最擅長的技能來分派任務,以求最大化團隊眼前的交付能力",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Hold regular team workshops where members present their areas of expertise and collaborate on shared challenges.",
+          zh: "定期舉辦團隊工作坊,讓成員分享各自的專業領域,並一起合作解決共同的挑戰",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Organize mentorship pairings that connect less experienced members with seasoned colleagues to build skills and alignment.",
+          zh: "安排師徒配對,讓經驗較淺的成員與資深同事結對,藉此培養技能並建立共識",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Create individual development plans for each team member that map their growth goals to the project's objectives.",
+          zh: "為每位團隊成員制定個人發展計畫,把他們的成長目標對應到專案目標上",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "師徒配對同時回應了專案經理設定的兩個目標。經驗較淺的成員透過與資深同事持續互動來培養技能,這段關係同時也自然而然地建立起對專案運作方式與目標的共識。這種成長是內嵌在日常工作中的,而不是額外安排、跟工作脫節的活動。\n\n其他選項都有各自的侷限。依現有強項分派任務,能讓每個人立刻發揮所長,提升團隊眼前的交付量,但並沒有拓展任何人的能力,優化的是產出而不是成長。團隊工作坊確實創造了知識分享與合作的機會,但終究是週期性的活動,無法提供師徒關係那種持續、以互動為基礎的學習過程。個人發展計畫能記錄成長目標、建立結構化的路徑,但終究只是規畫工具,計畫本身並不會像實際進行中的師徒帶領那樣,真正培養出技能。",
+  },
+  {
+    id: "res-140",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Several founding attorneys at a regional law firm are approaching retirement. These attorneys hold deep institutional knowledge about client relationships, case strategies, and firm processes built over decades. The firm has engaged a project manager to capture this knowledge before it is lost. What should the project manager do?",
+      zh: "一家地區型法律事務所裡,幾位創辦合夥律師即將退休。這些律師擁有數十年累積下來、關於客戶關係、案件策略與事務所作業流程的深厚內部知識。事務所聘請了一位專案經理,希望在這些知識流失之前把它保存下來。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Interview the retiring attorneys to document their expertise and have them review the drafts for accuracy before they leave.",
+          zh: "訪談即將退休的律師以記錄他們的專業知識,並在他們離職前請他們審閱草稿是否正確",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Pair the retiring attorneys with junior staff in a formal mentorship program to transfer knowledge directly.",
+          zh: "讓即將退休的律師與資淺同仁配對,透過正式的師徒制度直接傳承知識",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Collect and organize the attorneys' case files, personal notes, and correspondence into a centralized archive.",
+          zh: "蒐集並整理這些律師的案件檔案、個人筆記與往來書信,建立一個集中的檔案庫",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Document lessons learned from the firm's key engagements and update the organization's information repositories.",
+          zh: "記錄事務所重要業務案件的經驗教訓,並更新組織的資訊庫",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "題目描述的這類知識,包括客戶關係的掌握、案件策略的判斷力,以及事務所內部不成文的做事習慣,大多屬於難以完全用文字表達的隱性知識。隱性知識是透過經驗累積而成的,最有效的傳遞方式是透過直接互動、觀察、討論與長時間的帶領,而不是單純書面記錄。正式的師徒制度正好在這些律師離開之前,創造出讓這種傳承得以發生的條件。\n\n其他做法都只能捕捉到部分知識。訪談退休律師並請他們審閱文件,有助於把專業知識寫下來,但這種方式主要捕捉到的是外顯知識,容易漏掉細膩的判斷力與從未被明說過的做事習慣。整理案件檔案與往來書信,蒐集的是既有的外顯紀錄,無法處理那些從未被寫下來、只存在於律師經驗與判斷中的隱性知識。記錄經驗教訓能保留過去案件發生的經過與學到的教訓,但和訪談一樣,比較適合用來保存外顯知識;這些律師內部知識中帶有人際互動與經驗色彩的部分,單靠書面記錄很難被完整保留下來。",
+  },
+  {
+    id: "res-141",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager takes over a struggling project and finds that team members are unclear about who is responsible for several key deliverables. Work is being duplicated and some tasks are falling through the cracks. What should the project manager do?",
+      zh: "一位專案經理接手一個陷入困境的專案,發現團隊成員對於好幾項關鍵交付項目由誰負責並不清楚。結果工作出現重複進行的情況,也有部分任務乏人問津、被漏掉。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Create a RACI chart and review it with the team.",
+          zh: "建立一份 RACI 責任矩陣,並與團隊一起檢視",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Increase the frequency of status meetings to track work.",
+          zh: "增加狀態會議的頻率,以追蹤工作進度",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask each team member to document what they are working on.",
+          zh: "請每位團隊成員記錄自己目前在做的工作",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Escalate the resourcing confusion to the project sponsor.",
+          zh: "把這個資源分工混亂的問題上報給專案贊助人",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "RACI 責任矩陣會明確標示出每項交付項目由誰負責執行、由誰擔負最終責任、需要諮詢誰,以及需要告知誰。把這份矩陣拿出來和團隊一起檢視,能直接消除造成重複工作與任務遺漏的那種責任不清狀況,因為每一項活動都會有一個清楚、經過共識確認的負責人。\n\n其他做法都無法真正解決根本問題。增加狀態會議的頻率只是加強了監督,卻沒有指定任何人的職責歸屬,同樣的混亂在會議與會議之間依然存在。請每位成員記錄自己目前的工作,雖然能揭露出重疊之處,卻沒有解決往後每項交付項目該由誰負責這個問題。把問題上報給贊助人,則是把一個原本就屬於專案經理職責範圍、也有能力自己解決的問題,當成別人的事情推出去。",
+  },
+  {
+    id: "res-142",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A software development team has been working together for eight months and is about to begin a critical delivery phase. Four senior developers with extensive industry experience are being added to support the increased workload. The phase begins in one week. What should the project manager do?",
+      zh: "一個軟體開發團隊已經共事八個月,即將進入一個關鍵的交付階段。為了因應增加的工作量,四位擁有豐富業界經驗的資深開發人員即將加入團隊。這個階段將在一週後展開。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Plan structured team integration activities before the phase begins to help the expanded team establish working norms.",
+          zh: "在這個階段開始之前,規劃有結構的團隊融合活動,協助擴編後的團隊建立共同的工作默契",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Conduct technical onboarding sessions focused on the codebase and tools so the new developers can contribute immediately.",
+          zh: "舉辦聚焦於程式碼庫與工具的技術導入課程,讓新加入的開發人員能立即上手貢獻",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Schedule a kickoff meeting to introduce the new developers and align the full team on phase objectives.",
+          zh: "安排一場啟動會議,介紹新加入的開發人員,並讓全體團隊對這個階段的目標取得共識",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Ask a senior team member to coordinate the new developers' integration informally during the first sprint.",
+          zh: "請一位資深團隊成員在第一個衝刺期間,以非正式方式協調新進開發人員的融入",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "只要團隊組成出現重大變動,團隊動態就會重新歸零,不論新加入的成員經驗多豐富、原本的團隊過去表現多好都一樣。有結構的團隊融合活動,能針對這個擴編後的團隊重新需要建立的工作默契、溝通模式與互信基礎來設計,而這些正是團隊要能有效運作之前必須先重新建立的東西。\n\n其他做法都只處理了問題的一部分。技術導入課程能解決知識轉移的問題,卻沒有處理團隊動態;資深開發人員或許在工具與流程上不太需要摸索,但他們仍然需要和一個已經有八個月共事默契的團隊,重新建立起工作關係。啟動會議能讓大家對目標取得共識,但這只是單一事件,無法持續回應成員大幅異動所帶來的團隊發展需求。請資深成員以非正式方式協調融入,則是把整合的責任交出去,卻沒有提供有結構的支援;當團隊組成一次新增四位成員、變動幅度這麼大時,靠臨時性的做法往往難以得到穩定一致的結果。",
+  },
+  {
+    id: "res-143",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "Match each team scenario to the correct stage of Tuckman's Ladder.",
+      zh: "請將下列每個團隊情境配對到正確的 Tuckman 團隊發展階段。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "Team members have just joined the project. They are polite, asking questions about their responsibilities, and looking to the project manager for direction.",
+            zh: "團隊成員剛加入這個專案,彼此態度客氣有禮,不斷詢問自己的職責範圍,並仰賴專案經理指引方向",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "The team has established working agreements, openly shares knowledge, and resolves disagreements constructively while building trust.",
+            zh: "團隊已經建立共同的工作默契,能坦誠分享知識,並在建立互信的同時以建設性的方式化解歧見",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "Team members disagree about priorities, challenge each other's ideas during meetings, and conflict has started affecting collaboration.",
+            zh: "團隊成員對優先順序意見不合,在會議中互相質疑彼此的想法,衝突已經開始影響到協作",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "The team consistently meets sprint goals with minimal supervision. Members proactively solve problems, collaborate effectively, and focus on delivering value.",
+            zh: "團隊在極少監督的情況下持續達成衝刺目標,成員主動解決問題、有效協作,並專注於交付價值",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Forming",
+            zh: "形成期",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Storming",
+            zh: "風暴期",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Norming",
+            zh: "規範期",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Performing",
+            zh: "表現期",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c3",
+      p3: "c2",
+      p4: "c4",
+    },
+    explanation: "情境一屬於形成期,因為團隊剛剛組成,成員還在摸索自己的角色,並仰賴專案經理提供方向。情境二屬於規範期,因為團隊已經建立起共同的工作默契、培養出互信,並能以建設性的方式一起有效合作、化解歧見。情境三屬於風暴期,因為團隊成員對優先順序有分歧、在會議中互相挑戰彼此的想法,而衝突已經開始影響到協作,這個階段的特徵正是團隊在磨合不同意見與立場時所出現的緊張氣氛。情境四屬於表現期,因為團隊能在極少監督下穩定交付成果,有效協作、主動解決問題,並持續專注在達成專案目標與交付價值上。",
+  },
+  {
+    id: "res-144",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager leading a hospital's electronic health record (EHR) implementation, operating in a balanced matrix organization, needs a database architect assigned full-time for a critical four-week go-live stabilization phase. The IT functional manager has offered only 60% availability, citing ongoing support obligations for another clinical system. The project manager and functional manager have negotiated directly for twelve days without reaching agreement, and the go-live phase begins in four days. What should the project manager do?",
+      zh: "一位負責醫院電子病歷系統導入的專案經理身處平衡矩陣型組織,需要一位資料庫架構師在為期四週的關鍵上線穩定期全職投入。IT 職能經理表示,因為另一套臨床系統仍有既有的支援義務,只能提供六成的可用時間。專案經理與職能經理已經直接協商十二天,仍未達成共識,而上線階段將在四天後展開。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Begin the go-live phase with the 60% availability and reassess once real workload data is available.",
+          zh: "先以六成可用時間展開上線階段,等取得實際工作量資料後再重新評估",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Ask the project sponsor to intervene and help resolve the resourcing disagreement with the functional manager.",
+          zh: "請專案贊助人出面,協助與職能經理解決這項資源分配的歧見",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Adjust the go-live schedule to fit the architect's reduced availability.",
+          zh: "調整上線時程,以配合架構師較低的可用時間",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Continue negotiating directly with the functional manager while documenting the shortfall as a risk.",
+          zh: "持續直接與職能經理協商,同時把這項人力缺口記錄為風險",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "在矩陣型組織中,專案經理原本就應該先嘗試與職能經理直接協商,這一點專案經理已經做到了。但十二天的協商沒有任何進展,距離上線只剩四天,代表合理的直接協商空間已經用盡,再拖下去只會讓風險持續累積。此時請贊助人出面,運用專案經理本身沒有的組織層級權力來協調跨部門的資源分配,才是這個時間點最務實的做法。\n\n其餘選項都等於接受現況或原地打轉。直接用六成人力展開一個關鍵的上線穩定期,等於明知資源不足仍冒險上場,把問題留到出狀況才處理。調整時程等於默認職能經理片面的立場已成定局,卻沒有先用得到的升級管道去爭取。持續用同樣的方式協商,只是重複一個十二天都沒有效果的做法,四天內不太可能出現不同的結果。",
+  },
+  {
+    id: "res-145",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "On a wind farm construction project, a civil engineer and a structural engineer disagree about the turbine foundation design approach. The disagreement has caused the design review to be postponed for three consecutive review cycles, and both engineers have grown visibly frustrated with each other during meetings. What should the project manager do?",
+      zh: "在一個風力發電場建置專案中,一位土木工程師與一位結構工程師對於風機基礎的設計方式意見不合。這個分歧已經連續三次讓設計審查會議延期,兩人在會議中也明顯對彼此感到不耐。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Ask each engineer to submit a written justification for their preferred approach for the project manager to compare.",
+          zh: "請兩位工程師分別提交書面說明,闡述各自偏好方案的理由,交由專案經理比較",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Postpone the design decision until after the procurement phase, when more information will be available.",
+          zh: "把設計決定延後到採購階段之後,等取得更多資訊再決定",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Bring both engineers together in a structured session to work through the technical trade-offs and reach a joint decision.",
+          zh: "安排一場有結構的會議,讓兩位工程師一起討論技術上的取捨,共同做出決定",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Select the approach favored by the more senior of the two engineers to end the disagreement quickly.",
+          zh: "採用兩人之中資歷較深那位工程師偏好的方案,以盡快結束爭執",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "這個分歧已經連續拖延三次審查,雙方的挫折感也已經顯現,顯示需要的是正式的面對面問題解決做法。把兩位工程師找來,在有結構的場合中一起把技術上的取捨攤開來談、共同做出決定,才能產生一個雙方都認同、真正能落地執行的方案,也是唯一能同時處理進度延遲與人際緊張這兩個問題的做法。\n\n其他選項都不夠。請雙方各自提交書面說明,再由專案經理自己比較裁定,等於把決策權從最了解技術細節的人手中拿走,而且裁定結果未必能讓另一方真心接受。延後決定只是把問題往後推,基礎設計沒有確定,後續採購與施工排程都會持續受阻。直接採用資深工程師的方案是用位階取代討論,忽略了另一位工程師的專業意見,也沒有真正化解雙方的歧見,反而可能讓關係更緊繃。",
+  },
+  {
+    id: "res-146",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A project manager at a commercial construction firm wants to introduce a Kanban board to track punch-list items on a new renovation project, because a different division within the company used Kanban successfully on a past project. The team assigned to this renovation project has never used Kanban or any visual workflow board before. What should the project manager do first?",
+      zh: "一家商業建築公司的專案經理,想在一個新的翻新工程專案中導入 Kanban 看板來追蹤驗收清單項目,原因是公司內另一個部門過去曾成功用過 Kanban。被指派到這個翻新專案的團隊,過去從未使用過 Kanban 或任何視覺化工作看板。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Introduce the Kanban board immediately and adjust its columns based on issues that surface during the first two weeks.",
+          zh: "立即導入 Kanban 看板,並根據前兩週浮現的問題調整欄位設計",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Assess this team's current familiarity and comfort with visual workflow tools before deciding whether to introduce Kanban.",
+          zh: "在決定是否導入 Kanban 之前,先評估這個團隊目前對視覺化工作流程工具的熟悉程度與接受度",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Mandate that the renovation team adopt the exact same Kanban setup used by the other division.",
+          zh: "要求翻新工程團隊採用與另一個部門完全相同的 Kanban 設定",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Ask the division that succeeded with Kanban to take over tracking the punch-list items directly.",
+          zh: "請那個成功導入 Kanban 的部門,直接接手負責追蹤這個專案的驗收清單項目",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "另一個部門的成功經驗,並不能保證這個從未接觸過視覺化看板的團隊也會順利接受同樣的做法。應該先評估這個團隊目前對這類工具的熟悉程度與接受度,才能判斷是否適合導入、需要哪些額外的引導,以及導入時機是否恰當。\n\n其他選項都跳過了這個評估步驟。立即導入再邊做邊調整,等於讓一個完全陌生的團隊在毫無準備的情況下摸索,可能拖累驗收清單的追蹤效果。要求完全比照另一個部門的設定,忽略了兩個團隊的工作內容與熟悉程度可能截然不同,現成的設定未必適用。請另一個部門直接接手追蹤工作,則完全迴避了培養這個團隊自身能力的目標,也沒有真正解決問題。",
+  },
+  {
+    id: "res-147",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A quality inspector on a food processing plant upgrade project tells the project manager that a newly required weekend inspection rotation is disrupting family commitments. The project manager wants to use a compromise approach to reach a solution that works for both the inspector and the project. What should the project manager do first?",
+      zh: "一家食品加工廠升級專案中的一位品管檢驗員向專案經理反映,新規定的週末輪值檢驗安排打亂了他的家庭生活安排。專案經理想採用妥協的方式,找出對這位檢驗員與專案雙方都可行的解決辦法。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Listen to the inspector's concerns and acknowledge the disruption the rotation is causing.",
+          zh: "聆聽這位檢驗員的顧慮,並認同輪值安排確實對他造成了困擾",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Explain why the weekend inspection rotation is required for regulatory compliance.",
+          zh: "說明為什麼基於法規要求,必須實施週末輪值檢驗",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Propose swapping the inspector onto a weekday-only rotation with a colleague covering weekends.",
+          zh: "提出把這位檢驗員換成只需平日輪值,由其他同事負責週末",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Offer additional pay as compensation for the inconvenience of the weekend rotation.",
+          zh: "提供額外津貼,作為週末輪值造成不便的補償",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "妥協要能真正對症下藥,前提是先對等地理解對方的處境。先聆聽並認同這位檢驗員的困擾,能讓專案經理在提出任何限制或方案之前,完全掌握問題的核心,這才是妥協該有的起點。\n\n其餘做法都跳過了「先聽」這一步。先說明法規要求,等於在對方的顧慮被聽見之前就先端出專案立場,讓對話變成單向說明。提出換班方案雖然聽起來合理,但還沒確認這位檢驗員真正在意的是什麼就直接給方案,方案很可能文不對題。提供額外津貼同樣是還沒釐清問題就先拋出解法,忽略了對方在意的可能不是金錢,而是無法陪伴家人的時間安排。",
+  },
+  {
+    id: "res-148",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A logistics company's veteran warehouse operations manager, who has spent twenty-two years building informal relationships with suppliers and developing unwritten techniques for resolving shipment disputes, plans to retire in three months. Company leadership has asked the project manager overseeing the warehouse modernization project to ensure this expertise is not lost. What should the project manager do?",
+      zh: "一家物流公司的資深倉儲營運經理,花了二十二年時間建立起與供應商的非正式關係,也發展出一套解決貨運糾紛的不成文技巧,即將在三個月後退休。公司高層要求負責倉儲現代化專案的專案經理,確保這些專業不會因此流失。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Interview the retiring manager and compile the responses into a detailed operations handbook before departure.",
+          zh: "訪談這位即將退休的經理,並在他離職前把訪談內容整理成一份詳細的作業手冊",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Pair the retiring manager with a successor in a structured mentorship arrangement for the remaining three months.",
+          zh: "在剩餘的三個月裡,安排這位即將退休的經理與接班人進行有結構的師徒配對",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Archive the manager's email correspondence and dispute-resolution records for future reference.",
+          zh: "把這位經理的電子郵件往來與糾紛處理紀錄存檔,供未來參考",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Have the manager record a series of training videos covering common supplier issues.",
+          zh: "請這位經理錄製一系列訓練影片,說明常見的供應商問題",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "題目描述的知識,包括與供應商之間的非正式關係與處理糾紛時的臨場判斷,大多屬於難以完整寫下來的隱性知識。這類知識最有效的傳遞方式是透過直接互動、觀察與長時間的帶領,而結構化的師徒配對正好能在這位經理離職前創造出讓知識實際傳承的機會。\n\n其他做法都只能捕捉部分知識。訪談整理成手冊能記錄下外顯的作業流程,卻很難完整呈現多年累積下來的人脈判斷與臨場應變。存檔電子郵件與紀錄保留的只是既有的書面資料,無法補上那些從未被寫下來的做法。錄製訓練影片同樣偏向單向的知識輸出,缺少師徒關係中那種持續互動、即時回饋與實務演練的過程。",
+  },
+  {
+    id: "res-149",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager takes over a delayed municipal road resurfacing project and discovers that engineers, inspectors, and contractors are unclear about who must approve material substitutions. As a result, some substitutions have been approved twice by different people, while others were never approved at all and caused rework. What should the project manager do?",
+      zh: "一位專案經理接手一個進度落後的市政道路鋪面工程,發現工程師、檢驗人員與承包商都不清楚材料替換需要由誰核准。結果有些替換案被不同人重複核准了兩次,有些則完全沒人核准就直接施工,導致返工。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Create a RACI matrix for material substitution approvals and review it with all parties.",
+          zh: "針對材料替換核准流程建立一份 RACI 責任矩陣,並與所有相關人員一起檢視",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Require every material substitution to be discussed at the weekly progress meeting before proceeding.",
+          zh: "規定每一項材料替換都必須先在每週進度會議上討論,才能繼續施工",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask each party to keep a personal log of the substitutions they have approved.",
+          zh: "請每一方各自保留一份自己核准過的材料替換紀錄",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Escalate the approval confusion to the client agency for a ruling.",
+          zh: "把這項核准混亂的問題上報給業主機關,請他們裁定",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "RACI 責任矩陣能明確標示出材料替換核准這件事,由誰負責執行、由誰擔負最終責任、需要諮詢誰、需要告知誰。把矩陣拿出來和工程師、檢驗人員、承包商一起檢視,能直接消除重複核准與遺漏核准這兩種問題,因為每個角色的職責都會變得清楚且經過共識確認。\n\n其他做法都無法根治問題。要求每項替換都在週會討論,只是增加了溝通頻率,卻沒有指定任何人的核准職責,遺漏或重複核准的情況依然可能在週會之間發生。請各方各自留存紀錄,雖然能事後追查,卻無法預先防止職責不清造成的混亂。把問題上報給業主機關,則是把一個屬於專案經理職責範圍、本來就能自行解決的問題,交給了外部單位。",
+  },
+  {
+    id: "res-150",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A game development studio's core team of six has worked together for over a year across multiple sprints. With three months remaining before launch, three contract artists are added to help complete outstanding art assets for the final production sprints. What should the project manager do?",
+      zh: "一家遊戲開發工作室的六人核心團隊,已經一起經歷過好幾個衝刺、共事超過一年。距離上市只剩三個月,為了完成剩餘的美術素材,團隊新增了三位外包美術人員,將投入最後幾個生產衝刺。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Hold a single kickoff meeting to introduce the contract artists and review the remaining launch milestones.",
+          zh: "舉辦一場啟動會議,介紹這三位外包美術人員,並檢視剩餘的上市里程碑",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Plan structured team integration activities before the next sprint begins to help the team re-establish working norms.",
+          zh: "在下一個衝刺開始前,規劃有結構的團隊融合活動,協助團隊重新建立工作默契",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Have the contract artists work independently and sync with the core team only during sprint reviews.",
+          zh: "讓外包美術人員獨立作業,僅在衝刺審查會議時與核心團隊同步",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Rely on the studio's existing onboarding documentation to bring the contract artists up to speed.",
+          zh: "依靠工作室既有的導入文件,讓外包美術人員自行熟悉狀況",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "即使核心團隊過去合作再久、默契再好,只要成員組成出現變動,團隊動態就會重新洗牌。有結構的團隊融合活動,能針對這個新組成的九人團隊重新建立溝通模式與互信基礎,而這正是在最後衝刺階段要能有效協作之前,必須先處理好的事。\n\n其他做法都只顧到一部分。單一場啟動會議能傳遞資訊,卻無法持續回應團隊組成改變後所需要的磨合過程。讓外包人員獨立作業、只在審查時同步,幾乎放棄了讓新舊成員真正融入彼此工作方式的機會,在時間緊迫的最後衝刺階段風險更高。依靠既有的導入文件只能傳遞制度性的知識,無法建立起這個特定團隊此刻所需要的協作默契與信任。",
+  },
+  {
+    id: "res-151",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager coordinating an aircraft-on-ground (AOG) repair effort at an airline's maintenance, repair, and overhaul facility needs a certified avionics technician assigned full-time for a two-week critical repair window. The hangar operations manager, who controls technician shift rosters, has offered only intermittent coverage due to other scheduled maintenance checks. The project manager has negotiated directly with the hangar operations manager for nine working days without resolution, and the repair window begins in two days. What should the project manager do?",
+      zh: "一位協調某航空公司維修中心「飛機停飛待修」（AOG）搶修工作的專案經理,需要一位持有證照的航電技師在為期兩週的關鍵搶修期間全職投入。掌控技師排班表的機棚營運經理,以其他既定的維修檢查為由,只能提供斷斷續續的支援。專案經理已與機棚營運經理直接協商九個工作天,仍未解決,而搶修期間將在兩天後展開。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Begin the repair window with intermittent technician coverage and adjust the repair sequence as availability allows.",
+          zh: "先以斷斷續續的技師支援展開搶修期間,再依可用時間調整維修順序",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Escalate the resourcing conflict to the maintenance director for resolution with the hangar operations manager.",
+          zh: "把這項資源調度衝突上報給維修部門主管,由主管出面與機棚營運經理解決",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Extend the repair window to accommodate the technician's intermittent availability.",
+          zh: "延長搶修期間,以配合技師斷斷續續的可用時間",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Continue direct negotiations with the hangar operations manager while formally logging the resourcing risk.",
+          zh: "持續與機棚營運經理直接協商,同時正式登錄這項資源風險",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "九個工作天的直接協商已經用盡了專案經理在同層級關係中能運用的手段,距離搶修期間開始只剩兩天,情勢已經沒有時間再等待同樣的協商方式產生不同結果。這時候上報給擁有跨部門調度權力的維修部門主管,才能真正打破僵局,爭取到搶修所需要的專責技師。\n\n其餘選項都等於接受一個已知會拖累搶修效率與飛安風險的限制。用斷斷續續的支援展開關鍵搶修,等於明知資源不足仍貿然開始。延長搶修期間會讓飛機停飛時間拉長,造成更大的營運與成本損失,而且這是在還沒動用升級管道前就先讓步。持續用同樣方式協商並只做記錄,則是重複一個九天都沒有效果的做法,兩天內同樣不太可能出現突破。",
+  },
+  {
+    id: "res-152",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "definition",
+    stem: {
+      en: "Which two of the following situations make the confronting or problem-solving conflict management style the most appropriate choice? (Select two.)",
+      zh: "下列哪兩種情況最適合採用面對面、開誠布公一起解決問題（confronting/problem-solving）的衝突處理風格?（請選擇兩項）",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The conflict has escalated over time and is now actively undermining the team's ability to collaborate.",
+          zh: "這個衝突已經隨著時間持續升高,現在正實際妨礙團隊的協作能力",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A durable resolution is needed that both parties will genuinely accept and follow going forward.",
+          zh: "需要一個雙方都能真心接受並在往後持續遵循的長久解決方案",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "A decision must be made within the next few minutes and there is no time for discussion.",
+          zh: "必須在接下來幾分鐘內做出決定,完全沒有時間討論",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Preserving a fragile working relationship matters more than resolving the underlying disagreement.",
+          zh: "維繫一段脆弱的工作關係,比解決根本的分歧更重要",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "面對面解決問題風格最適合用在已經擴大、開始影響團隊運作的衝突,以及需要雙方都真正投入、才能產生持久解決方案的情境。這個風格需要時間讓雙方把利弊攤開來談,並共同做出決定,因此當時間極度有限、必須立刻拍板時,更適合用強迫等其他風格先做出決定。若維繫關係的優先順序高於解決問題本身,通常會選擇遷就而不是面對面解決問題,因為遷就會刻意讓一方的立場退讓,以避免正面處理分歧。",
+  },
+  {
+    id: "res-153",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A project manager at a pharmaceutical research organization wants to introduce daily stand-up meetings for a newly formed lab team assembled from chemistry, regulatory, and quality departments, because a clinical trials team elsewhere in the organization adopted stand-ups with good results. This lab team has never worked in an iterative or highly collaborative format before. What should the project manager do first?",
+      zh: "一家藥廠研發機構的專案經理,想為一個剛從化學、法規與品保部門組成的實驗室團隊導入每日站立會議,原因是公司內另一個臨床試驗團隊採用站立會議後成效不錯。這個實驗室團隊過去從未用過迭代式或高度協作的工作方式。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Assess this lab team's current experience and comfort with iterative, highly collaborative work formats before introducing stand-ups.",
+          zh: "在導入站立會議之前,先評估這個實驗室團隊目前對迭代式、高度協作工作方式的經驗與適應程度",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Introduce daily stand-ups immediately, modeling the format on the clinical trials team's approach.",
+          zh: "立即導入每日站立會議,並比照臨床試驗團隊的做法設計格式",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask the clinical trials team to co-facilitate the lab team's first few stand-up meetings.",
+          zh: "請臨床試驗團隊協助主持實驗室團隊前幾次的站立會議",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Postpone any process changes until after the current research phase concludes.",
+          zh: "把任何流程變動都延後,等目前的研究階段結束後再說",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "另一個團隊採用站立會議的成功經驗,並不能證明這個從未有過迭代式協作經驗的實驗室團隊也適合直接套用。應該先評估這個團隊目前的經驗與適應程度,才能判斷導入是否可行、需要哪些準備,以及這個時間點是否恰當。\n\n其他選項都跳過了這一步評估。直接比照導入,等於假設兩個團隊的起點相同,卻忽略了這個實驗室團隊完全沒有相關經驗的事實。請臨床試驗團隊協助主持,雖然提供了一定的支援,但依然是在還沒確認這個團隊是否準備好、需要什麼樣支援之前就貿然行動。把流程變動一律延後,則是不必要地放棄了在目前研究階段就開始評估與準備的機會,無助於解決任何問題。",
+  },
+  {
+    id: "res-154",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Two subcontractor supervisors on a highway widening project disagree over how shared heavy equipment should be scheduled between their crews. The project manager decides to pursue a compromise between the two supervisors. What should the project manager do first?",
+      zh: "在一個高速公路拓寬工程中,兩位分包商工班主管對於共用的重型機具應該如何在各自班組之間排程意見不合。專案經理決定在兩位主管之間尋求妥協。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Listen to each supervisor's scheduling concerns and acknowledge how the current arrangement is affecting their crews.",
+          zh: "聆聽兩位主管各自的排程顧慮,並認同目前的安排確實影響了他們各自的班組",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Explain the overall project schedule constraints that require the equipment to be shared in the first place.",
+          zh: "說明導致這項機具必須共用的整體專案時程限制",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Propose a fixed rotation schedule that splits equipment access evenly between the two crews.",
+          zh: "提出一份固定的輪替排程,把機具使用時間平均分配給兩個班組",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Ask each supervisor to submit their preferred equipment schedule in writing for comparison.",
+          zh: "請兩位主管各自以書面提交偏好的機具排程,供雙方比較",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "妥協要能真正找到雙方都能接受的中間點,前提是先對等地理解兩邊的立場與感受。先聆聽兩位主管的顧慮並認同機具排程對各自班組造成的影響,能確保專案經理在提出任何限制或方案之前,已經掌握問題的全貌。\n\n其餘做法都跳過了這個前提。先說明時程限制,等於在雙方的顧慮被充分聽見之前就先端出專案的立場,容易讓對話變成單向說明而非協商。提出固定的平均分配方案雖然看似公平,卻是在還沒完整理解雙方真正在意什麼之前就直接跳到解法,平均分配未必真正對症下藥。請雙方書面提交偏好排程再比較,同樣是還沒進行對話就先蒐集立場,少了妥協所需要的雙向理解過程。",
+  },
+  {
+    id: "res-155",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A shipping company's veteran customs compliance officer, who has built informal relationships with port authorities and developed unwritten techniques for resolving cargo clearance disputes, will retire in two months. Which two of the following approaches would most effectively transfer this tacit knowledge before the officer departs? (Select two.)",
+      zh: "一家航運公司的資深報關法規專員,建立了與港口機關的非正式關係,也發展出一套解決貨物通關糾紛的不成文技巧,將在兩個月後退休。下列哪兩項做法最能有效在這位專員離職前傳遞這些隱性知識?（請選擇兩項）",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Pair the officer with a successor in a formal mentorship arrangement that works side-by-side on real clearance cases.",
+          zh: "讓這位專員與接班人建立正式的師徒配對,一起處理實際的通關案件",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Have the successor shadow the officer during live negotiations with port authorities and gradually take on responsibility.",
+          zh: "讓接班人在與港口機關的實際交涉過程中隨行學習,並逐步接手責任",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask the officer to write a comprehensive customs compliance procedures manual before leaving.",
+          zh: "請這位專員在離職前撰寫一份完整的報關合規作業手冊",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Have the officer record a single recorded briefing summarizing common clearance disputes.",
+          zh: "請這位專員錄製一段簡報,總結常見的通關糾紛狀況",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "隱性知識包含臨場判斷與長年累積的人脈關係,最有效的傳遞方式是透過直接互動與實務參與。正式的師徒配對讓接班人能在真實案件中向資深專員學習,而隨行參與實際交涉並逐步接手,則讓接班人親身體驗那些難以言傳的協商技巧與應變方式,兩者都能捕捉到書面資料無法呈現的內容。\n\n撰寫作業手冊與錄製簡報都只能記錄下外顯的流程與知識,對於臨場判斷、人脈關係這類隱性知識,幫助有限,也無法取代實際參與帶來的學習效果。",
+  },
+  {
+    id: "res-156",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "On an insurance company's claims system upgrade project, business analysts and QA testers have overlapping responsibilities for verifying defect fixes. Some defects have been retested by both roles, wasting effort, while others were never retested at all and reached production. What should the project manager do?",
+      zh: "在一家保險公司的理賠系統升級專案中,業務分析師與 QA 測試人員在驗證缺陷修復這件事上職責重疊。有些缺陷被兩個角色重複測試,浪費了工時,有些缺陷卻完全沒人重新測試就直接上線。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Create a RACI matrix that clarifies defect retesting responsibilities and review it with both roles.",
+          zh: "建立一份 RACI 責任矩陣,釐清缺陷重新測試的職責分工,並與兩個角色一起檢視",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Add an extra defect status review meeting each week to catch untested items.",
+          zh: "每週增加一場額外的缺陷狀態審查會議,以找出未經測試的項目",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Ask business analysts to stop retesting defects altogether.",
+          zh: "請業務分析師完全停止重新測試缺陷",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Escalate the overlapping responsibilities to the IT director for a decision.",
+          zh: "把這項職責重疊的問題上報給 IT 主管,請其裁定",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "RACI 責任矩陣能明確標示出缺陷重新測試這項工作,由誰負責執行、由誰擔負最終責任、需要諮詢誰、需要告知誰。把矩陣拿出來和業務分析師與 QA 測試人員一起檢視,能同時消除重複測試與遺漏測試這兩種相反的問題,因為每一項缺陷都會有清楚且經過共識確認的負責歸屬。\n\n其他做法都不夠周全。增加審查會議只是多了一層監督,卻沒有從根本上釐清誰該負責什麼,同樣的重複與遺漏仍可能在會議之間發生。直接要求業務分析師停止重新測試,是在沒有釐清完整分工邏輯的情況下片面取消一個角色的職責,可能反而製造出新的測試缺口。把問題上報給 IT 主管,則是把一個屬於專案經理職責範圍、能夠自行釐清的問題,交由他人裁定。",
+  },
+  {
+    id: "res-157",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "An agricultural technology company's field-data science team of five has worked together for ten months. Ahead of the harvest-season data collection surge, five new remote-sensing analysts are added to the team to handle the increased workload. What should the project manager do?",
+      zh: "一家農業科技公司的田間資料科學團隊,五人已經共事十個月。為了因應即將到來的收穫季資料蒐集高峰,團隊新增了五位遙測分析師來因應增加的工作量。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Send the new analysts a written onboarding guide covering data pipelines and tools.",
+          zh: "提供新加入的分析師一份書面導入指南,說明資料處理流程與工具",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Plan structured team integration activities before the harvest-season workload begins.",
+          zh: "在收穫季工作量開始之前,規劃有結構的團隊融合活動",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Hold a single meeting introducing the new analysts and reviewing harvest-season targets.",
+          zh: "召開一場會議,介紹新加入的分析師並檢視收穫季的目標",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Let the new analysts integrate naturally as they begin working alongside the existing team.",
+          zh: "讓新加入的分析師在開始與現有團隊共事的過程中自然融入",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "當新成員的人數幾乎等同於原本的團隊規模時,團隊動態必然會重新洗牌,原有十個月建立起來的默契不會自動延續到擴編後的團隊上。有結構的團隊融合活動,能針對這個幾乎重組的十人團隊,重新建立起溝通模式、工作默契與互信基礎,而這些正是要在收穫季高強度工作量來臨前,先處理好的關鍵。\n\n其他做法都只處理了部分需求。書面導入指南能傳遞工具與流程知識,卻無法建立起團隊之間的協作默契。單一場介紹會議雖然能讓大家對目標有基本共識,但無法持續回應如此大規模人員異動所帶來的磨合需求。讓成員自然融入,在人數變動如此劇烈、且即將進入高工作量期間的情況下,風險太高,容易造成混亂與效率低落。",
+  },
+  {
+    id: "res-158",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Resources",
+    questionType: "matching",
+    difficulty: "medium",
+    timeCategory: "agile_scenario",
+    stem: {
+      en: "A retail chain has formed a cross-store analytics team to build a unified sales-forecasting model. Match each team scenario below to the correct stage of Tuckman's Ladder.",
+      zh: "一家零售連鎖企業組成了一個跨門市分析團隊,負責建置統一的銷售預測模型。請將下列每個團隊情境配對到正確的 Tuckman 團隊發展階段。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "New members have just joined the analytics initiative. They are cautious with one another, ask detailed questions about scope, and wait for the project manager to set direction.",
+            zh: "新成員剛加入這項分析計畫,彼此相處謹慎,不斷詢問工作範圍的細節,並等待專案經理設定方向",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "Members clash over which sales metrics should drive the forecasting model, openly challenge each other's approaches during review sessions, and the tension has begun undermining cooperation.",
+            zh: "成員對於哪些銷售指標應該主導預測模型意見不合,在審查會議上公開質疑彼此的做法,這股緊張氣氛已經開始影響協作",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "The team has settled on shared data conventions, openly exchanges model assumptions, and works through disagreements constructively as trust grows.",
+            zh: "團隊已經確立共同的資料規範,能坦誠交流模型假設,並在互信逐漸建立的同時以建設性方式化解歧見",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "The team consistently delivers biweekly forecasting updates with minimal oversight, self-organizes to resolve data-quality blockers, and stays focused on business outcomes.",
+            zh: "團隊在極少監督下持續完成每兩週一次的預測更新,能自行組織解決資料品質障礙,並專注於業務成果",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Forming",
+            zh: "形成期",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Storming",
+            zh: "風暴期",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Norming",
+            zh: "規範期",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Performing",
+            zh: "表現期",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "情境一屬於形成期,因為新成員剛加入,彼此還在謹慎試探,對工作範圍不熟悉,仰賴專案經理提供方向。情境二屬於風暴期,因為成員針對關鍵指標的選擇出現公開衝突,彼此質疑對方的做法,而這股緊張已經實際影響到協作,這正是風暴期在磨合不同觀點時常見的特徵。情境三屬於規範期,因為團隊已經對資料規範等工作方式建立共識,能坦誠溝通、以建設性方式處理歧見,顯示互信正在成形。情境四屬於表現期,因為團隊能在極少監督下穩定產出、自行解決問題,並持續專注在業務成果上,這是團隊發展最成熟的階段。",
+  },
+  {
     id: "hs-002",
     edition: "pmbok7",
     domain: "Process",
@@ -45556,5 +54253,1845 @@ export const sampleQuestions = [
     ],
     correctAnswer: "d",
     explanation: "預測模型只有在訓練資料的情境跟預測目標情境相近時,學到的樣態才轉移得過去;這家建商採用的是新式模組化工法,若訓練資料大多來自傳統工法、條件迥異的專案,模型學到的風險樣態很可能對不上模組化營造現場的實際狀況。一味追求樣本數最大化,會把大量不相干工法的雜訊也一併餵進模型;只用零事故的專案,樣本會嚴重偏態,模型學不到事故是怎麼發生的;合成資料能補足樣本不足,但前提仍是先有具代表性的真實資料當基礎,不能本末倒置優先於挑選相似情境的真實紀錄。",
+  },
+  {
+    id: "rsk-108",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager has thoroughly researched two technical architecture options and has a clear preference based on cost, timeline, and business alignment. What should the project manager do next?",
+      zh: "專案經理已經徹底研究過兩種技術架構方案,並依成本、時程與商業契合度形成了明確的偏好。專案經理接下來應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Decide based on the research and inform the team afterward to avoid disrupting their current work.",
+          zh: "依研究結果做出決定,事後再告知團隊以免打斷他們目前的工作",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Present both options with a recommendation to the sponsor and let the sponsor make the final call.",
+          zh: "把兩個方案連同建議提交給贊助人,讓贊助人做最終決定",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Delay the decision until the team finishes their current sprint and can give it full attention.",
+          zh: "延後決定,等團隊完成目前的衝刺後才能全心處理",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Consult with the development team about both options before finalizing a recommendation.",
+          zh: "在提出最終建議前,先跟開發團隊討論這兩個方案",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "即使 PM 對分析結果有信心,團隊的實作經驗與第一手技術知識,往往能揭露高層次分析看不到的關鍵細節;正確做法是先諮詢團隊意見,再形成最終建議,而不是自己拍板後才通知團隊、把決策完全丟給贊助人,或用團隊正在忙其他事當理由拖延決策。",
+  },
+  {
+    id: "rsk-109",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "An e-commerce project has three issues needing attention but resources for only one this week: a potential security vulnerability that hasn't been exploited, a performance issue actively hurting sales, and a cosmetic bug the CEO specifically asked to be fixed. Which should the project manager prioritize?",
+      zh: "一個電商專案有三個問題需要處理,但這週只有資源處理一個:一個尚未被利用的潛在安全漏洞、一個正在實際影響銷售的效能問題,以及一個 CEO 特別要求修復的外觀小瑕疵。專案經理應該優先處理哪一個?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The security vulnerability, to prevent a potential data breach even though it hasn't been exploited yet.",
+          zh: "安全漏洞,即使尚未被利用,也要預防潛在的資料外洩",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The performance issue, since it is actively affecting customer experience and revenue right now.",
+          zh: "效能問題,因為它正在實際影響顧客體驗與營收",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The cosmetic bug, since maintaining executive support is crucial for project success.",
+          zh: "外觀小瑕疵,因為維持高層支持對專案成功至關重要",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Split the team's time equally across all three issues this week.",
+          zh: "這週把團隊時間平均分配給三個問題",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "價值導向的決策必須同時考量立即與長期的影響;三者之中,效能問題正在當下實際造成營收損失,屬於已發生且持續擴大的衝擊,優先程度高於尚未被利用的潛在漏洞與純外觀的小瑕疵。單純為了討好高層而優先處理外觀問題,或把有限資源平均攤在三件事上導致沒有一件真正解決,都不是價值最大化的做法。",
+  },
+  {
+    id: "rsk-110",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A heated argument breaks out in a team meeting between a developer, who says QA is demanding too much testing time, and the QA manager, who says the developer is rushing code and creating quality problems. What should the project manager do first?",
+      zh: "一場團隊會議上,開發人員與 QA 主管爆發激烈爭執:開發人員認為 QA 要求的測試時間太多,QA 主管則認為開發人員為了趕工而犧牲了品質。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Stop the argument immediately and remind both about professional behavior expectations.",
+          zh: "立刻制止爭執,提醒雙方應有的專業行為",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Schedule separate one-on-one conversations with each to understand their underlying concerns before attempting resolution.",
+          zh: "分別跟兩人一對一對話,先了解各自真正的顧慮,再嘗試解決",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Implement a new fixed schedule that allocates specific time for development and testing to prevent future conflict.",
+          zh: "立刻實施一套固定時程,明訂開發與測試各自的時間以防再衝突",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Facilitate a joint discussion between both to find a compromise on the testing timeline.",
+          zh: "促成雙方一起討論,找出測試時程的折衷方案",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "表面上關於測試時程的衝突,往往源自更深層的問題,例如溝通落差、角色認知不清或優先順序衝突;在真正嘗試解決之前,應該先分別了解雙方各自真正在意的原因,而不是急著制止爭執、直接推出新規則,或還沒釐清根本原因就直接撮合雙方談判折衷。",
+  },
+  {
+    id: "rsk-111",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "New code written by a team member is causing modules written weeks ago to crash, threatening a major delay, and the team member is unsure how to fix it. What should the project manager do first?",
+      zh: "一位團隊成員新寫的程式碼,導致幾週前就寫好的模組當機,可能造成重大延誤,而這位成員也不確定該怎麼修復。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Add this coding error to the issue log and assign an owner.",
+          zh: "把這個程式錯誤記錄到議題日誌,並指派負責人",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Assign a senior developer to fix the coding error immediately without further documentation.",
+          zh: "立刻指派一位資深開發人員修復,不做額外記錄",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Facilitate a discussion between the two developers involved to jointly fix the code.",
+          zh: "促成兩位相關開發人員一起討論修復程式碼",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Escalate the issue to the sponsor given the risk of a major delay.",
+          zh: "因為有重大延誤風險,直接把問題上報給贊助人",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "當議題發生時,第一步是把它正式記錄進議題日誌並指派負責人,這能確保問題被追蹤、責任清楚,也能對照風險登錄冊看是否已有對應的計畫回應;跳過記錄直接找人修、促成當事人自行討論、或還沒釐清狀況就上報贊助人,都略過了「先入案」這個基本且重要的步驟。",
+  },
+  {
+    id: "rsk-112",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A first-time healthcare IT project manager encounters a complex data encryption compliance question, finds conflicting information online, and needs a decision by tomorrow. What should the project manager do?",
+      zh: "一位第一次負責醫療 IT 專案的專案經理,遇到一個複雜的資料加密合規問題,上網查到的資訊互相矛盾,而且明天就必須做出決定。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Make the best decision based on personal research and adjust later if needed, to show decisive leadership.",
+          zh: "依個人研究做出最佳判斷,之後再視需要調整,以展現果斷的領導力",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Escalate the decision to the sponsor since compliance issues are above the PM's authority level.",
+          zh: "把決定上報給贊助人,因為合規問題超出 PM 的職權範圍",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Call a team brainstorming session to collectively research the requirements and reach consensus.",
+          zh: "召集團隊集體腦力激盪研究需求,達成共識",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Consult the organization's compliance officer, review lessons learned from past healthcare projects, and check organizational procedures.",
+          zh: "諮詢組織的合規官、檢視過去醫療專案的經驗學習、並查核組織既有流程",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "面對需要專業知識的合規問題,展現領導力不代表要獨自決策;正確做法是求助合規專家(SME)、查閱過去專案的經驗學習登錄冊,以及善用組織過程資產(政策、範本、最佳實務),確保決策資訊充足、與組織一致。獨自決定、直接上報給不具備專業知識的贊助人、或找同樣不具專業背景的團隊腦力激盪,都不是取得正確合規資訊的可靠管道。",
+  },
+  {
+    id: "rsk-113",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A key client leaves an urgent voicemail saying they are \"extremely disappointed\" with the latest deliverable and are \"considering terminating the contract.\" The team is already asking what happened. What should the project manager do first?",
+      zh: "一位重要客戶留下緊急語音留言,表示對最新交付物「極度失望」,並「考慮終止合約」。團隊已經開始詢問發生了什麼事。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Call the client immediately to apologize and personally assure them the issue will be resolved.",
+          zh: "立刻致電客戶道歉,並親自保證會解決問題",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Review the deliverable against its acceptance criteria and gather information about what specifically disappointed the client.",
+          zh: "對照驗收標準檢視這份交付物,並蒐集客戶具體不滿之處的資訊",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Schedule an emergency meeting with the sponsor to discuss a recovery plan.",
+          zh: "安排與贊助人的緊急會議討論復原計畫",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Contact the sponsor immediately to report the contract termination threat.",
+          zh: "立刻聯絡贊助人回報合約可能被終止的威脅",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "即使客戶要求立即回應,PM 都應該先花時間蒐集資訊,對照驗收標準檢視交付物、釐清客戶具體不滿在哪裡,這樣才能給出真正有效、對症下藥的回應,而不是還沒搞清楚狀況就急著道歉承諾,或跳過理解問題直接把狀況上報給贊助人。",
+  },
+  {
+    id: "rsk-114",
+    edition: "pmbok8",
+    domain: "People",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project team has been experiencing unclear role responsibilities, frequent miscommunication, and declining morale. The sponsor has heard about the tension. What should the project manager do?",
+      zh: "一個專案團隊角色職責不清、經常溝通不良,士氣持續下滑。贊助人也已經聽聞這個緊張狀況。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Ask the sponsor to step in and clarify roles since they have more authority.",
+          zh: "請贊助人出面釐清角色,因為贊助人有更高的職權",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Facilitate team meetings to clarify roles, establish communication protocols, and address the issues directly.",
+          zh: "主持團隊會議,釐清角色、建立溝通規範,並直接處理這些問題",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Request that the sponsor bring in an HR representative to mediate the conflicts.",
+          zh: "請贊助人找人資代表來調解衝突",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Escalate the team dynamics issue to senior leadership for guidance.",
+          zh: "把團隊動態問題上報給高階領導層尋求指引",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "處理團隊內部問題本來就是 PM 職權範圍內該負責的事,主動主持會議釐清角色、建立溝通規範並直接處理問題,才是恰當的第一步;動輒請贊助人出面、找人資調解、或直接上報高層,都是還沒嘗試在自己職權內解決就先升級,容易造成不必要的升級疲勞,也顯示不出 PM 該有的領導擔當。",
+  },
+  {
+    id: "rsk-115",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A sponsor is eager to begin a cloud migration project immediately, expressing concern that spending too much time on planning will delay benefits. What should the project manager do first?",
+      zh: "贊助人急著想立刻開始一項雲端遷移專案,並表示擔心花太多時間在規劃上會延誤效益實現。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Conduct thorough risk identification sessions with stakeholders before beginning any migration work.",
+          zh: "在開始遷移工作前,先與利害關係人進行完整的風險識別會議",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Begin migrating less critical systems first to identify risks through hands-on experience.",
+          zh: "先遷移較不關鍵的系統,透過實作經驗來發現風險",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Start technical migration work immediately while identifying risks in parallel during the first few weeks.",
+          zh: "立刻開始技術遷移工作,同時在頭幾週並行識別風險",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Focus only on technical risks since those are most likely to affect a cloud migration.",
+          zh: "只聚焦技術風險,因為那是雲端遷移最可能出現的風險類型",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "風險應該越早辨識越好,即使贊助人擔心規劃拖慢效益實現,完整的風險識別(涵蓋技術、商業、組織等各層面)仍應在正式遷移工作開始前完成,這能避免日後付出更高昂的代價;邊做邊找風險、或只聚焦技術風險而忽略商業與組織層面的風險,都可能讓重大風險在為時已晚時才被發現。",
+  },
+  {
+    id: "rsk-116",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A competitor unexpectedly discontinues a similar product, creating a market opportunity, and a vendor offers early access to a new API that could enhance the project's capabilities beyond the original scope. What should the project manager do first?",
+      zh: "一位競爭對手意外停產了類似的產品,創造出市場機會,同時一家廠商提供了搶先使用新版 API 的機會,可能讓專案能力超出原本範疇。專案經理應該優先做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Quickly modify the project scope to incorporate the enhanced API and accelerated market positioning.",
+          zh: "快速修改專案範疇,納入這個強化版 API 與加速的市場定位",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Schedule an emergency stakeholder meeting to discuss pivoting the project strategy.",
+          zh: "安排緊急利害關係人會議,討論調整專案策略方向",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Document these developments in the risk register and develop specific response strategies for each opportunity.",
+          zh: "把這些新狀況記錄進風險登錄冊,並為每個機會擬定具體的回應策略",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Begin implementation planning for the API integration while researching the competitive landscape changes.",
+          zh: "開始規劃 API 整合工作,同時研究競爭態勢變化",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "風險登錄冊同時記錄威脅與機會(正向風險),當出現這類機會型風險時,應該先正式記錄並針對每個機會擬定具體的回應策略,再據以評估是否要調整範疇或啟動實作,而不是還沒經過正式評估就直接改範疇、召開緊急會議倉促轉向,或跳過評估直接開始實作規劃。",
+  },
+  {
+    id: "rsk-117",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Your data migration project is scheduled to begin the database transfer this weekend when you discover on Friday afternoon that the backup verification process failed and the backup files are corrupted. The business has already announced the system downtime to users, vendors have been scheduled, and the migration team is standing by. What should you do?",
+      zh: "你的資料遷移專案原定本週末開始資料庫轉移,但你在週五下午發現備份驗證流程失敗,備份檔案已經損毀。公司已經對外公告系統停機時間,廠商也已排定,遷移團隊也已經待命。你應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Immediately start working on alternative backup solutions as directed while the IT Director develops the overall strategy.",
+          zh: "依指示立刻著手處理替代備份方案,同時讓 IT 主管研擬整體策略",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Postpone the migration until a complete backup and recovery plan can be developed and tested.",
+          zh: "延後遷移,直到完整的備份與復原計畫被擬定並測試完成",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Call an emergency planning session to develop a comprehensive approach for addressing the backup issue before taking any corrective actions.",
+          zh: "召開緊急規劃會議,先擬定完整因應方案,再採取任何矯正行動",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Begin the migration as scheduled but implement additional monitoring and rollback procedures to mitigate the backup risk.",
+          zh: "依原訂時程開始遷移,但額外加強監控與回滾程序以降低備份風險",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "緊急狀況最容易讓人產生「必須立刻做點什麼」的壓力,但這正是規劃最關鍵、最不該被跳過的時刻;正確做法是先召開緊急規劃會議,完整擬定因應方案後再行動,而不是在還沒有完整計畫前就直接動手處理、依原訂時程冒險進行,或單純延後卻沒有主動組織應對計畫的過程。",
+  },
+  {
+    id: "rsk-118",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "What document should the project manager use to record and track the identified risks on this project?",
+      zh: "專案經理應該用什麼文件來記錄並追蹤這個專案已識別的風險?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The issue log",
+          zh: "議題日誌",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The risk register",
+          zh: "風險登錄冊",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The risk management plan",
+          zh: "風險管理計畫",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The assumption log",
+          zh: "假設日誌",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "風險登錄冊是用來記錄已識別風險、其機率與衝擊評估、以及規劃回應措施的文件,是貫穿專案生命週期追蹤所有風險相關資訊的核心工具。議題日誌記錄的是目前正在影響專案的實際問題,不是尚未發生的風險;風險管理計畫定義的是風險管理活動要怎麼進行(方法論、角色與流程),而不是記錄個別風險本身;假設日誌記錄的是規劃階段識別出的假設與限制,雖然某些假設可能帶有風險意涵,但不是用來記錄與追蹤風險的合適文件。",
+    caseId: "cs-c",
+    caseContext: {
+      en: "A project manager is overseeing construction of a 200-acre solar power plant for a regional utility company. Early in planning, the project manager identified several risks, including unstable subsoil in the northern array field, equipment delivery delays, and extreme weather during the installation window, logging each in the risk register with probability and impact ratings.\n\nThe project manager ran thousands of iterative simulations using probability distributions for panel-mounting foundation loads to forecast a range of possible structural outcomes. The project manager then tested how much each individual variable, soil bearing capacity, wind load, and panel weight, affected those outcomes by varying one factor at a time while holding the others constant. Based on this analysis, the project manager developed response plans for each risk and established mandatory geotechnical inspections before work began in any new array section.\n\nInspection attendance by the installation crews was inconsistent, as crews were often already mobilized to the next section before inspectors arrived. As installation progressed into the northern array field, an updated soil survey showed unexpected groundwater intrusion beneath several planned foundation points. A field technician mentioned to the project manager that the readings looked unusual and asked whether it was still safe to proceed with pile driving in that section. The project manager logged the updated readings in the risk register and asked the site foreman to visually monitor the ground for signs of shifting.\n\nTwo weeks later, while multiple pile-driving rigs operated simultaneously in the northern field, the ground beneath one rig subsided, causing the equipment to tip and injure an operator. The incident triggered a safety regulator investigation, and the utility company is now reviewing the contractor's liability.",
+      zh: "一位專案經理正在為一家地區電力公司監督一座佔地200英畝太陽能發電廠的建置工程。在規劃初期,專案經理識別出幾項風險,包括北側陣列區的地基土壤不穩定、設備交貨延誤,以及安裝期間的極端天氣,並將每一項都記錄進風險登錄冊,附上機率與衝擊評等。\n\n專案經理針對面板固定基樁的承載力,用機率分布跑了數千次迭代模擬,以預測可能的結構結果範圍。接著專案經理測試個別變數(土壤承載力、風力負載、面板重量)各自對結果的影響程度,做法是每次只改變一個因子、其餘維持不變。根據這項分析,專案經理為每項風險擬定了回應計畫,並訂定強制性的地質檢驗,要求在任何新陣列區動工前都要完成。\n\n安裝團隊出席檢驗的狀況並不穩定,團隊經常在檢驗人員抵達前就已經移動到下一個區域施工。當安裝工程進入北側陣列區時,一份更新的土壤調查顯示,幾個預定的基樁位置底下出現預期外的地下水滲入。一位現場技術人員向專案經理反映,這些讀數看起來不太尋常,並詢問是否還能安全地在該區域繼續打樁。專案經理把更新的讀數記錄進風險登錄冊,並請工地領班以肉眼監控地面是否有位移跡象。\n\n兩週後,當多台打樁機同時在北側陣列區作業時,其中一台機具下方的地面發生下陷,導致機具傾倒並使一名操作員受傷。這起事故引發了安全主管機關的調查,電力公司目前正在檢視承包商的責任歸屬。",
+    },
+  },
+  {
+    id: "rsk-119",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Which three of the following best describe the risk analysis techniques the project manager performed during planning? (Select three.)",
+      zh: "以下哪三項最能描述專案經理在規劃階段執行的風險分析技術?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Quantitative risk analysis",
+          zh: "定量風險分析",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Probability and impact matrix",
+          zh: "機率與衝擊矩陣",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Monte Carlo simulation",
+          zh: "蒙地卡羅模擬",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Sensitivity analysis",
+          zh: "敏感度分析",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "c",
+      "d",
+    ],
+    selectCount: 3,
+    explanation: "情境描述了兩項具體的定量技術:用機率分布跑數千次迭代計算以預測可能結果範圍,對應蒙地卡羅模擬;逐一改變個別變數、其餘維持不變,以檢視哪個變數對結果影響最大,對應敏感度分析。這兩項都屬於定量風險分析技術,所以「定量風險分析」這個較上位的分類也同時成立。機率與衝擊矩陣是定性風險分析工具,用來依機率與衝擊評等排列風險優先順序,情境中沒有描述這項技術。",
+    caseId: "cs-c",
+    caseContext: {
+      en: "A project manager is overseeing construction of a 200-acre solar power plant for a regional utility company. Early in planning, the project manager identified several risks, including unstable subsoil in the northern array field, equipment delivery delays, and extreme weather during the installation window, logging each in the risk register with probability and impact ratings.\n\nThe project manager ran thousands of iterative simulations using probability distributions for panel-mounting foundation loads to forecast a range of possible structural outcomes. The project manager then tested how much each individual variable, soil bearing capacity, wind load, and panel weight, affected those outcomes by varying one factor at a time while holding the others constant. Based on this analysis, the project manager developed response plans for each risk and established mandatory geotechnical inspections before work began in any new array section.\n\nInspection attendance by the installation crews was inconsistent, as crews were often already mobilized to the next section before inspectors arrived. As installation progressed into the northern array field, an updated soil survey showed unexpected groundwater intrusion beneath several planned foundation points. A field technician mentioned to the project manager that the readings looked unusual and asked whether it was still safe to proceed with pile driving in that section. The project manager logged the updated readings in the risk register and asked the site foreman to visually monitor the ground for signs of shifting.\n\nTwo weeks later, while multiple pile-driving rigs operated simultaneously in the northern field, the ground beneath one rig subsided, causing the equipment to tip and injure an operator. The incident triggered a safety regulator investigation, and the utility company is now reviewing the contractor's liability.",
+      zh: "一位專案經理正在為一家地區電力公司監督一座佔地200英畝太陽能發電廠的建置工程。在規劃初期,專案經理識別出幾項風險,包括北側陣列區的地基土壤不穩定、設備交貨延誤,以及安裝期間的極端天氣,並將每一項都記錄進風險登錄冊,附上機率與衝擊評等。\n\n專案經理針對面板固定基樁的承載力,用機率分布跑了數千次迭代模擬,以預測可能的結構結果範圍。接著專案經理測試個別變數(土壤承載力、風力負載、面板重量)各自對結果的影響程度,做法是每次只改變一個因子、其餘維持不變。根據這項分析,專案經理為每項風險擬定了回應計畫,並訂定強制性的地質檢驗,要求在任何新陣列區動工前都要完成。\n\n安裝團隊出席檢驗的狀況並不穩定,團隊經常在檢驗人員抵達前就已經移動到下一個區域施工。當安裝工程進入北側陣列區時,一份更新的土壤調查顯示,幾個預定的基樁位置底下出現預期外的地下水滲入。一位現場技術人員向專案經理反映,這些讀數看起來不太尋常,並詢問是否還能安全地在該區域繼續打樁。專案經理把更新的讀數記錄進風險登錄冊,並請工地領班以肉眼監控地面是否有位移跡象。\n\n兩週後,當多台打樁機同時在北側陣列區作業時,其中一台機具下方的地面發生下陷,導致機具傾倒並使一名操作員受傷。這起事故引發了安全主管機關的調查,電力公司目前正在檢視承包商的責任歸屬。",
+    },
+  },
+  {
+    id: "rsk-120",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A worker has been injured, prompting a regulatory investigation. What was the most likely root cause of the project manager's failure to prevent this outcome?",
+      zh: "一名工人受傷,引發了主管機關的調查。專案經理未能預防這個結果,最可能的根本原因是什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The follow-up risk analysis failed to accurately capture the severity of the groundwater intrusion.",
+          zh: "後續的風險分析未能準確掌握地下水滲入的嚴重程度",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The project manager did not escalate the safety concern when it exceeded their ability to manage it independently.",
+          zh: "專案經理在這項安全疑慮已超出自己能獨立處理的能力範圍時,沒有向上呈報",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Several installation crews did not consistently attend the scheduled geotechnical inspections.",
+          zh: "幾支安裝團隊沒有穩定出席排定的地質檢驗",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "A scheduling conflict resulted in multiple pile-driving rigs operating in the same area at the time of the incident.",
+          zh: "排程衝突導致事故發生時,多台打樁機同時在同一區域作業",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "情境顯示專案經理有識別風險、記錄風險、擬定回應計畫,甚至在收到更新的土壤調查後加強了監控。但當現場技術人員反映讀數異常、詢問是否安全時,專案經理的回應是請工地領班以肉眼監控,而不是找具備解讀地質資料專業的人來判斷。這項安全疑慮已經超出專案經理自己能獨立處理的能力範圍,卻沒有被向上呈報給具備相關專業或職權的人。後續分析確實有進行(更新的土壤調查本身),失敗的地方在於沒有正確判斷這項資訊的嚴重性並適當呈報,而不是分析本身沒做;檢驗出席不穩定雖然存在於情境中,但跟這次受傷事故沒有直接因果關係(下陷源自未被妥善處理的土壤問題,不是漏掉某次檢驗);排程衝突讓多台機具集中在同一區域作業,是加重了曝險程度,但不是根本原因,即使沒有排程衝突,未被妥善處理的土壤風險依然存在。",
+    caseId: "cs-c",
+    caseContext: {
+      en: "A project manager is overseeing construction of a 200-acre solar power plant for a regional utility company. Early in planning, the project manager identified several risks, including unstable subsoil in the northern array field, equipment delivery delays, and extreme weather during the installation window, logging each in the risk register with probability and impact ratings.\n\nThe project manager ran thousands of iterative simulations using probability distributions for panel-mounting foundation loads to forecast a range of possible structural outcomes. The project manager then tested how much each individual variable, soil bearing capacity, wind load, and panel weight, affected those outcomes by varying one factor at a time while holding the others constant. Based on this analysis, the project manager developed response plans for each risk and established mandatory geotechnical inspections before work began in any new array section.\n\nInspection attendance by the installation crews was inconsistent, as crews were often already mobilized to the next section before inspectors arrived. As installation progressed into the northern array field, an updated soil survey showed unexpected groundwater intrusion beneath several planned foundation points. A field technician mentioned to the project manager that the readings looked unusual and asked whether it was still safe to proceed with pile driving in that section. The project manager logged the updated readings in the risk register and asked the site foreman to visually monitor the ground for signs of shifting.\n\nTwo weeks later, while multiple pile-driving rigs operated simultaneously in the northern field, the ground beneath one rig subsided, causing the equipment to tip and injure an operator. The incident triggered a safety regulator investigation, and the utility company is now reviewing the contractor's liability.",
+      zh: "一位專案經理正在為一家地區電力公司監督一座佔地200英畝太陽能發電廠的建置工程。在規劃初期,專案經理識別出幾項風險,包括北側陣列區的地基土壤不穩定、設備交貨延誤,以及安裝期間的極端天氣,並將每一項都記錄進風險登錄冊,附上機率與衝擊評等。\n\n專案經理針對面板固定基樁的承載力,用機率分布跑了數千次迭代模擬,以預測可能的結構結果範圍。接著專案經理測試個別變數(土壤承載力、風力負載、面板重量)各自對結果的影響程度,做法是每次只改變一個因子、其餘維持不變。根據這項分析,專案經理為每項風險擬定了回應計畫,並訂定強制性的地質檢驗,要求在任何新陣列區動工前都要完成。\n\n安裝團隊出席檢驗的狀況並不穩定,團隊經常在檢驗人員抵達前就已經移動到下一個區域施工。當安裝工程進入北側陣列區時,一份更新的土壤調查顯示,幾個預定的基樁位置底下出現預期外的地下水滲入。一位現場技術人員向專案經理反映,這些讀數看起來不太尋常,並詢問是否還能安全地在該區域繼續打樁。專案經理把更新的讀數記錄進風險登錄冊,並請工地領班以肉眼監控地面是否有位移跡象。\n\n兩週後,當多台打樁機同時在北側陣列區作業時,其中一台機具下方的地面發生下陷,導致機具傾倒並使一名操作員受傷。這起事故引發了安全主管機關的調查,電力公司目前正在檢視承包商的責任歸屬。",
+    },
+  },
+  {
+    id: "rsk-121",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "How should the updated groundwater findings have been classified in terms of their significance to worker safety?",
+      zh: "就對工人安全的重要性而言,這份更新的地下水發現應該如何分類?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "A known known, because the project manager had already documented the finding in the risk register.",
+          zh: "已知的已知,因為專案經理已經把這項發現記錄進風險登錄冊",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A known unknown, because the full extent of the groundwater intrusion had not yet been determined.",
+          zh: "已知的未知,因為地下水滲入的完整程度尚未被確定",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "An unknown unknown, because groundwater intrusion of this nature could not have been anticipated during planning.",
+          zh: "未知的未知,因為這種性質的地下水滲入在規劃階段無法被預期",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "An unknown known, because the safety significance was knowable but the project manager lacked the expertise to recognize it without consulting a subject matter expert.",
+          zh: "未知的已知,因為這項發現的安全重要性原本是可以被知道的,但專案經理缺乏在不諮詢專家的情況下辨識出來的專業能力",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "土壤調查數據確實已經在專案經理手上,但這項發現對工人安全的真正意涵,不是專案經理在沒有專業背景的情況下能正確判讀的;一位地質專家原本可以立刻辨識出其中的危險性。這項知識本來就存在、也是可以取得的,只是專案經理沒有去諮詢對的人,這正是「未知的已知」。已知的已知需要同時具備資訊與對資訊的理解,專案經理雖然拿到數據,卻不具備正確解讀其安全意涵的專業;已知的未知代表資訊本身尚未取得,但這項發現的安全意涵其實透過諮詢專家就能取得,不符合這個分類;未知的未知指的是完全無法預期的風險類型,但地質問題在營造工程裡本來就是可預見的風險類別,而且這項發現的重要性透過既有專業就能被判定,不符合無法預期的定義。",
+    caseId: "cs-c",
+    caseContext: {
+      en: "A project manager is overseeing construction of a 200-acre solar power plant for a regional utility company. Early in planning, the project manager identified several risks, including unstable subsoil in the northern array field, equipment delivery delays, and extreme weather during the installation window, logging each in the risk register with probability and impact ratings.\n\nThe project manager ran thousands of iterative simulations using probability distributions for panel-mounting foundation loads to forecast a range of possible structural outcomes. The project manager then tested how much each individual variable, soil bearing capacity, wind load, and panel weight, affected those outcomes by varying one factor at a time while holding the others constant. Based on this analysis, the project manager developed response plans for each risk and established mandatory geotechnical inspections before work began in any new array section.\n\nInspection attendance by the installation crews was inconsistent, as crews were often already mobilized to the next section before inspectors arrived. As installation progressed into the northern array field, an updated soil survey showed unexpected groundwater intrusion beneath several planned foundation points. A field technician mentioned to the project manager that the readings looked unusual and asked whether it was still safe to proceed with pile driving in that section. The project manager logged the updated readings in the risk register and asked the site foreman to visually monitor the ground for signs of shifting.\n\nTwo weeks later, while multiple pile-driving rigs operated simultaneously in the northern field, the ground beneath one rig subsided, causing the equipment to tip and injure an operator. The incident triggered a safety regulator investigation, and the utility company is now reviewing the contractor's liability.",
+      zh: "一位專案經理正在為一家地區電力公司監督一座佔地200英畝太陽能發電廠的建置工程。在規劃初期,專案經理識別出幾項風險,包括北側陣列區的地基土壤不穩定、設備交貨延誤,以及安裝期間的極端天氣,並將每一項都記錄進風險登錄冊,附上機率與衝擊評等。\n\n專案經理針對面板固定基樁的承載力,用機率分布跑了數千次迭代模擬,以預測可能的結構結果範圍。接著專案經理測試個別變數(土壤承載力、風力負載、面板重量)各自對結果的影響程度,做法是每次只改變一個因子、其餘維持不變。根據這項分析,專案經理為每項風險擬定了回應計畫,並訂定強制性的地質檢驗,要求在任何新陣列區動工前都要完成。\n\n安裝團隊出席檢驗的狀況並不穩定,團隊經常在檢驗人員抵達前就已經移動到下一個區域施工。當安裝工程進入北側陣列區時,一份更新的土壤調查顯示,幾個預定的基樁位置底下出現預期外的地下水滲入。一位現場技術人員向專案經理反映,這些讀數看起來不太尋常,並詢問是否還能安全地在該區域繼續打樁。專案經理把更新的讀數記錄進風險登錄冊,並請工地領班以肉眼監控地面是否有位移跡象。\n\n兩週後,當多台打樁機同時在北側陣列區作業時,其中一台機具下方的地面發生下陷,導致機具傾倒並使一名操作員受傷。這起事故引發了安全主管機關的調查,電力公司目前正在檢視承包商的責任歸屬。",
+    },
+  },
+  {
+    id: "rsk-122",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "What could the project manager have done to prevent the worker injury described in the case study?",
+      zh: "專案經理原本可以做什麼來預防案例中描述的工人受傷事件?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Scheduled an additional safety briefing for the installation crews on the updated findings.",
+          zh: "針對更新的發現,為安裝團隊多安排一場安全簡報",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Consulted a subject matter expert to interpret the groundwater findings and determine the appropriate course of action.",
+          zh: "諮詢具備專業的專家來解讀地下水發現,並決定適當的因應做法",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Assigned a team member to visually monitor site conditions and report any changes in soil stability.",
+          zh: "指派一位團隊成員以肉眼監控現場狀況,回報土壤穩定性的任何變化",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Updated the risk register with the new findings and continued monitoring the situation.",
+          zh: "把新的發現更新進風險登錄冊,並持續監控狀況",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "當技術評估資料超出專案經理自身的專業範圍時,正確的做法是找具備相關專業的專家來正確解讀這些發現;地下水滲入的評估結果帶有安全意涵,需要地質專業才能正確判斷。諮詢專家原本能夠揭露這項風險的嚴重程度,並判斷是否需要向上呈報,有機會預防後續發生的傷害。安全簡報處理的是團隊對風險的認知,但沒有回答「這些發現對現場安全到底代表什麼意義」這個核心問題;指派人員用肉眼監控,是把觀察工作交給不具備判讀能力的人,監控本身不能取代專業分析;把發現更新進風險登錄冊只是記錄了資訊,沒有針對這項資訊採取任何行動,當評估結果顯示風險升高時,單純記錄是不夠的。",
+    caseId: "cs-c",
+    caseContext: {
+      en: "A project manager is overseeing construction of a 200-acre solar power plant for a regional utility company. Early in planning, the project manager identified several risks, including unstable subsoil in the northern array field, equipment delivery delays, and extreme weather during the installation window, logging each in the risk register with probability and impact ratings.\n\nThe project manager ran thousands of iterative simulations using probability distributions for panel-mounting foundation loads to forecast a range of possible structural outcomes. The project manager then tested how much each individual variable, soil bearing capacity, wind load, and panel weight, affected those outcomes by varying one factor at a time while holding the others constant. Based on this analysis, the project manager developed response plans for each risk and established mandatory geotechnical inspections before work began in any new array section.\n\nInspection attendance by the installation crews was inconsistent, as crews were often already mobilized to the next section before inspectors arrived. As installation progressed into the northern array field, an updated soil survey showed unexpected groundwater intrusion beneath several planned foundation points. A field technician mentioned to the project manager that the readings looked unusual and asked whether it was still safe to proceed with pile driving in that section. The project manager logged the updated readings in the risk register and asked the site foreman to visually monitor the ground for signs of shifting.\n\nTwo weeks later, while multiple pile-driving rigs operated simultaneously in the northern field, the ground beneath one rig subsided, causing the equipment to tip and injure an operator. The incident triggered a safety regulator investigation, and the utility company is now reviewing the contractor's liability.",
+      zh: "一位專案經理正在為一家地區電力公司監督一座佔地200英畝太陽能發電廠的建置工程。在規劃初期,專案經理識別出幾項風險,包括北側陣列區的地基土壤不穩定、設備交貨延誤,以及安裝期間的極端天氣,並將每一項都記錄進風險登錄冊,附上機率與衝擊評等。\n\n專案經理針對面板固定基樁的承載力,用機率分布跑了數千次迭代模擬,以預測可能的結構結果範圍。接著專案經理測試個別變數(土壤承載力、風力負載、面板重量)各自對結果的影響程度,做法是每次只改變一個因子、其餘維持不變。根據這項分析,專案經理為每項風險擬定了回應計畫,並訂定強制性的地質檢驗,要求在任何新陣列區動工前都要完成。\n\n安裝團隊出席檢驗的狀況並不穩定,團隊經常在檢驗人員抵達前就已經移動到下一個區域施工。當安裝工程進入北側陣列區時,一份更新的土壤調查顯示,幾個預定的基樁位置底下出現預期外的地下水滲入。一位現場技術人員向專案經理反映,這些讀數看起來不太尋常,並詢問是否還能安全地在該區域繼續打樁。專案經理把更新的讀數記錄進風險登錄冊,並請工地領班以肉眼監控地面是否有位移跡象。\n\n兩週後,當多台打樁機同時在北側陣列區作業時,其中一台機具下方的地面發生下陷,導致機具傾倒並使一名操作員受傷。這起事故引發了安全主管機關的調查,電力公司目前正在檢視承包商的責任歸屬。",
+    },
+  },
+  {
+    id: "rsk-123",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "What should the project manager have established at the outset of the project to prevent the situation described in the case study?",
+      zh: "專案經理在專案一開始應該建立什麼,才能預防案例中描述的這種狀況?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "A comprehensive risk register capturing all potential safety risks associated with the construction project.",
+          zh: "一份涵蓋這項營造專案所有潛在安全風險的完整風險登錄冊",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A risk threshold framework defining the conditions under which risks must be escalated beyond the project manager's authority.",
+          zh: "一套風險門檻框架,明確定義風險必須超出專案經理職權而向上呈報的條件",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "A detailed safety management plan outlining inspection procedures and compliance requirements.",
+          zh: "一份詳細的安全管理計畫,列出檢驗程序與合規要求",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "A stakeholder communication plan ensuring all parties were informed of safety risks throughout the project.",
+          zh: "一份利害關係人溝通計畫,確保各方在專案全程都被告知安全風險",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "在專案一開始就建立風險門檻框架,能事先定義好哪些條件下的風險必須超出專案經理的職權往上呈報,這正好對應治理面「界定升級路徑與門檻」這項工作;有了明確的門檻,專案經理面對更新的土壤調查結果時,就會有一個預先設定好的觸發點,判斷這項發現已經到了需要呈報給具備專業與職權的人來果斷處理的程度。完整的風險登錄冊能記錄已識別的風險,但無法定義什麼條件下需要呈報,而且專案經理本來就已經維護著風險登錄冊;安全管理計畫列出檢驗程序與合規要求,但無法處理「風險何時已經超出專案經理自己能獨立管理的能力範圍」這個判斷;利害關係人溝通計畫確保各方被告知,但無法建立辨識與行動所需的升級決策框架。",
+    caseId: "cs-c",
+    caseContext: {
+      en: "A project manager is overseeing construction of a 200-acre solar power plant for a regional utility company. Early in planning, the project manager identified several risks, including unstable subsoil in the northern array field, equipment delivery delays, and extreme weather during the installation window, logging each in the risk register with probability and impact ratings.\n\nThe project manager ran thousands of iterative simulations using probability distributions for panel-mounting foundation loads to forecast a range of possible structural outcomes. The project manager then tested how much each individual variable, soil bearing capacity, wind load, and panel weight, affected those outcomes by varying one factor at a time while holding the others constant. Based on this analysis, the project manager developed response plans for each risk and established mandatory geotechnical inspections before work began in any new array section.\n\nInspection attendance by the installation crews was inconsistent, as crews were often already mobilized to the next section before inspectors arrived. As installation progressed into the northern array field, an updated soil survey showed unexpected groundwater intrusion beneath several planned foundation points. A field technician mentioned to the project manager that the readings looked unusual and asked whether it was still safe to proceed with pile driving in that section. The project manager logged the updated readings in the risk register and asked the site foreman to visually monitor the ground for signs of shifting.\n\nTwo weeks later, while multiple pile-driving rigs operated simultaneously in the northern field, the ground beneath one rig subsided, causing the equipment to tip and injure an operator. The incident triggered a safety regulator investigation, and the utility company is now reviewing the contractor's liability.",
+      zh: "一位專案經理正在為一家地區電力公司監督一座佔地200英畝太陽能發電廠的建置工程。在規劃初期,專案經理識別出幾項風險,包括北側陣列區的地基土壤不穩定、設備交貨延誤,以及安裝期間的極端天氣,並將每一項都記錄進風險登錄冊,附上機率與衝擊評等。\n\n專案經理針對面板固定基樁的承載力,用機率分布跑了數千次迭代模擬,以預測可能的結構結果範圍。接著專案經理測試個別變數(土壤承載力、風力負載、面板重量)各自對結果的影響程度,做法是每次只改變一個因子、其餘維持不變。根據這項分析,專案經理為每項風險擬定了回應計畫,並訂定強制性的地質檢驗,要求在任何新陣列區動工前都要完成。\n\n安裝團隊出席檢驗的狀況並不穩定,團隊經常在檢驗人員抵達前就已經移動到下一個區域施工。當安裝工程進入北側陣列區時,一份更新的土壤調查顯示,幾個預定的基樁位置底下出現預期外的地下水滲入。一位現場技術人員向專案經理反映,這些讀數看起來不太尋常,並詢問是否還能安全地在該區域繼續打樁。專案經理把更新的讀數記錄進風險登錄冊,並請工地領班以肉眼監控地面是否有位移跡象。\n\n兩週後,當多台打樁機同時在北側陣列區作業時,其中一台機具下方的地面發生下陷,導致機具傾倒並使一名操作員受傷。這起事故引發了安全主管機關的調查,電力公司目前正在檢視承包商的責任歸屬。",
+    },
+  },
+  {
+    id: "rsk-124",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A construction project is underway at a fixed coastal site during hurricane season. The work depends on installed heavy equipment and staged materials that cannot be relocated without major disruption. A major storm could cause up to $2 million in damage. The sponsor is primarily concerned about the financial exposure from potential storm damage. What risk response strategy is most appropriate?",
+      zh: "某營造專案正在一處固定的沿海場地施工,時值颶風季節。工程進度仰賴已就位的重型設備與已備妥的物料,這些設備物料若要搬遷會造成重大干擾。一場大型風暴可能造成高達200萬美元的損失。贊助人最關心的是潛在風暴損害所帶來的財務風險。此時最適當的風險回應策略是什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Transfer the risk by arranging insurance coverage for storm-related equipment and material damage.",
+          zh: "為風暴造成的設備與物料損害安排保險,以轉移風險",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Mitigate the risk by implementing storm-preparation procedures, protective storage, and site hardening measures to reduce potential damage.",
+          zh: "實施防颱準備程序、防護性儲存與場地強化措施以降低潛在損害,藉此減緩風險",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Avoid the risk by rescheduling construction activities outside the hurricane season window.",
+          zh: "將施工活動改期到颶風季節之外,以迴避風險",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Accept the risk and establish a weather monitoring protocol for the construction period.",
+          zh: "接受風險,並在施工期間建立天氣監測機制",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "專案已經在一個固定場地動工,重型設備與物料都無法搬遷,這個限制同時削弱了迴避與物理性減緩這兩種策略的可行性與效果。即使做了充分的防颱準備,場地仍然留有相當大的財務曝險。而轉移策略是直接針對這200萬美元的潛在損失,把財務責任轉嫁給第三方(保險公司),在目前的限制條件下,這是最能對應風險規模與贊助人真正關切點的回應方式。場地強化與防颱準備是很好的輔助措施,但無法消除固定場地、設備無法搬遷所帶來的財務曝險,充其量只能在邊際上降低損害程度,無法對應風險的量級;把工程改期雖然能避開颶風季節的曝險,但專案已經在固定場地施工中,這個選項在操作上根本不可行;而在明知有200萬美元曝險的情況下,只選擇被動監測天氣、不採取任何轉嫁或降低財務衝擊的積極作為,明顯不足以因應這個規模的風險。",
+  },
+  {
+    id: "rsk-125",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading a two-week internal process documentation effort for a department of six employees. The initiative has no external dependencies, no budget, and no identifiable risks beyond minor scheduling conflicts. The department head requests a full risk management plan with probability matrices, risk owners, and formal response strategies. What should the project manager do?",
+      zh: "一位專案經理正在主導一項為期兩週、給一個六人部門用的內部流程文件化工作。這項專案沒有外部依賴、沒有預算,除了輕微的排程衝突外,沒有其他可辨識的風險。部門主管要求要有一份完整的風險管理計畫,包含機率矩陣、風險負責人與正式的回應策略。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Develop the comprehensive risk management plan as requested to demonstrate governance discipline.",
+          zh: "依要求產出完整的風險管理計畫,以展現治理紀律",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Create a detailed risk register documenting all possible risks regardless of the project's scale.",
+          zh: "不論專案規模大小,都建立一份詳盡的風險登錄冊,記錄所有可能的風險",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Request additional time and resources to properly prepare the documentation the department head has requested.",
+          zh: "申請額外的時間與資源,以妥善準備部門主管要求的文件",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Explain to the department head that the project's scale does not warrant a formal risk plan and propose a simplified approach.",
+          zh: "向部門主管說明,這個專案的規模不足以需要一份正式的風險計畫,並提議採用簡化做法",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "風險管理的做法應該依專案的規模、複雜度與風險輪廓來裁適(tailor),而不是一律套用同一套標準。一個為期僅兩週、風險曝險極低的內部專案,並不需要動用完整正式的風險管理計畫。正確的回應不是忽略風險,而是採用一套與專案實際風險量級相稱、輕量化的做法,並且主動向贊助人說明理由。依要求產出完整正式計畫,等於把「符合治理範本」看得比專案效率還重要,把整套完整治理硬套在一個低風險的小型專案上,只會消耗資源卻換不到相對應的價值;不論規模一律建立詳盡風險登錄冊,也是同樣的問題,文件的詳盡程度應該對應專案實際的風險曝險,而不是無差別套用一個統一標準;向部門主管申請額外時間與資源來完成這份非必要的正式文件,則是讓問題更嚴重,因為這等於是想辦法擴大專案的範疇去配合一項不必要的要求,而不是先去檢視這項要求本身是否合理、是否應該被裁適。",
+  },
+  {
+    id: "rsk-126",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A pharmaceutical logistics company relies on cold-chain containers imported from a single foreign supplier. A recent industry report indicates the supplier's government is reviewing a proposal to restrict certain exports. The project manager has been assigned to monitor this situation as a potential risk to the supply chain. What should the project manager do?",
+      zh: "某醫藥物流公司仰賴向單一國外供應商進口的冷鏈貨櫃。近期一份產業報告指出,該供應商所在國的政府正在審議一項可能限制特定出口項目的提案。專案經理已被指派監控這個狀況,將其視為供應鏈的一項潛在風險。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Continue tracking trade publications and news sources for further developments on the proposed restrictions.",
+          zh: "持續追蹤貿易刊物與新聞來源,關注這項限制提案的後續發展",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Contact the supplier directly to request advance warning if the export restrictions are approved.",
+          zh: "直接聯繫供應商,要求對方在出口限制一旦通過時提前示警",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Monitor container inventory levels and alert stakeholders if stock falls below safety thresholds.",
+          zh: "監控貨櫃庫存水位,若庫存低於安全門檻就提醒利害關係人",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Review the risk management plan for this risk and report to stakeholders if conditions indicate the risk is escalating.",
+          zh: "檢視這項風險在風險管理計畫中的相關規定,若情勢顯示風險正在升高,則向利害關係人回報",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "這份產業報告本身是一個值得追蹤的觸發事件(trigger)。但既然這項風險已經被正式識別,並且專案經理已被指派負責監控,正確的做法就是回頭依循風險管理計畫的規定,因為計畫裡已經定義好了升級門檻,以及在什麼條件下需要向利害關係人通報。持續關注貿易刊物只是專案經理最初得知這項發展的管道,屬於非正式的輔助訊息來源,真正該用來判斷「該注意什麼、什麼時候該採取行動」的依據,是風險管理計畫;直接聯繫供應商已經超出監控角色的範疇,主動去接觸供應商是一種回應行動,或許之後真的有必要,但監控階段目前還不需要做到這一步;監控庫存水位追蹤的是供應中斷「萬一發生」之後的下游衝擊,而不是計畫中所定義、真正該盯著看的外部限制風險本身的觸發條件,專案經理被指派的任務是監控這項對外限制是否正在升溫,而不是管理庫存水位。",
+  },
+  {
+    id: "rsk-127",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A manufacturing project has been consistently meeting its weekly milestones. During a status review, the project manager discovers that one production component is consuming twice its allocated materials. The project is otherwise on track and no team member has raised concerns about this component. What should the project manager do first?",
+      zh: "某製造專案一直穩定達成每週的里程碑。在一次狀態審查中,專案經理發現有一項生產組件的物料耗用量是原本分配額度的兩倍。專案的其他部分都在正軌上,也沒有任何團隊成員針對這項組件提出過疑慮。專案經理最先應該做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Revise the project budget baseline to accommodate the higher material costs for this component.",
+          zh: "修訂專案預算基準,以容納這項組件較高的物料成本",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Reduce the scope of the component to bring material consumption back within the original allocation.",
+          zh: "縮減這項組件的範疇,讓物料耗用量回到原本的分配額度之內",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Schedule a meeting with the component team to ask why material costs are higher than planned.",
+          zh: "與負責這項組件的團隊安排會議,詢問物料成本為何高於計畫",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Analyze the situation to identify the root cause of the overconsumption before deciding on corrective action.",
+          zh: "在決定任何矯正行動之前,先分析狀況以找出物料超耗的根本原因",
+        },
+      },
+    ],
+    correctAnswer: "d",
+    explanation: "目前物料超耗的原因還不明朗。在還沒弄清楚原因之前就採取行動,很可能用錯方法去解決問題。先做根本原因分析,才能確保之後採取的矯正行動,是真正對症下藥,而不是只處理表面症狀。直接修訂預算基準,等於是還沒搞清楚這筆額外成本是否可以避免,就先照單全收,如果根本原因其實是流程出錯或供應商問題,單純吸收成本就是用錯了方向;縮減範疇則是在原因還沒釐清前就先套用一個解方,超耗的物料很可能與範疇本身完全無關,貿然縮減範疇未必能解決真正的問題;詢問團隊是整體調查中合理的一步,但只透過這一個管道去了解狀況,很可能會漏掉屬於系統性或外部性的原因,根本原因分析可能需要檢視流程、物料、供應商品質與設計規格等面向,而這些不見得是團隊成員自己就能直接說明清楚的。",
+  },
+  {
+    id: "rsk-128",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager for a clinical software implementation has completed a risk identification workshop with key stakeholders. A comprehensive list of potential risks has been compiled. The project manager now needs to prepare a risk management plan that addresses how these risks will be handled throughout the project lifecycle. What should the project manager do next?",
+      zh: "某臨床軟體導入專案的專案經理,已與主要利害關係人完成一場風險識別工作坊,並彙整出一份完整的潛在風險清單。專案經理接下來需要準備一份風險管理計畫,說明這些風險在整個專案生命週期中將如何被處理。專案經理接下來應該做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Develop contingency plans for each identified risk so the team can respond immediately when any risk materializes.",
+          zh: "為每一項已識別的風險擬定應變計畫,讓團隊在任何風險發生時都能立即回應",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Use qualitative and quantitative analysis to assess and prioritize the identified risks based on probability and impact.",
+          zh: "運用定性與定量分析,依機率與衝擊評估並排定已識別風險的優先順序",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Assign risk owners to each identified risk and establish response budgets based on estimated cost.",
+          zh: "為每一項已識別的風險指派風險負責人,並依估計成本建立回應預算",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Update the risk register with the full list of identified risks and distribute it to all stakeholders for review.",
+          zh: "把完整的已識別風險清單更新進風險登錄冊,並分發給所有利害關係人審閱",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "風險識別階段產出的是一份清單。而分析階段的工作,是透過評估機率與潛在衝擊,判斷清單上哪些風險最值得投入關注,依此排出的優先順序,才能讓後續的規劃步驟聚焦且有效率。如果在風險還沒排出優先順序之前,就急著擬定回應措施或編列預算,等於是在沒有依據的情況下分配資源,無法確保資源真正投入在最需要的地方。擬定應變計畫屬於回應規劃活動,理應在分析之後才進行,如果在還不清楚哪些風險優先程度最高之前就先擬定回應方案,很可能把資源浪費在嚴重程度較低的項目上;指派風險負責人與建立回應預算同樣也應該在分析之後才做,沒有機率與衝擊的分析資料作為依據,預算估算就沒有分析基礎,負責人的指派也會流於隨意;更新風險登錄冊並分發給利害關係人,只是把已識別的內容做了文件化,並沒有處理「這些風險接下來要如何被管理」這個核心問題,單純把風險記錄下來,本身並不構成一份風險管理計畫。",
+  },
+  {
+    id: "rsk-129",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager overseeing the digitization of a regional museum's photographic archive identified several risks during planning, including scanner hardware failure, corrupted metadata during batch uploads, and turnover among the volunteer cataloguing team. For each risk she recorded the probability, impact, and a planned response, and she reviews and updates this record every week as the project progresses. What is this document?",
+      zh: "一位專案經理正在監督一家地區博物館攝影檔案的數位化工作,在規劃階段識別出幾項風險,包括掃描設備故障、批次上傳時中繼資料損毀,以及志工編目團隊的人員流動。針對每一項風險,她都記錄了發生機率、衝擊程度與規劃中的回應措施,並每週檢視更新這份記錄。這是什麼文件?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The issue log",
+          zh: "議題日誌",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The risk register",
+          zh: "風險登錄冊",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The risk management plan",
+          zh: "風險管理計畫",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The assumption log",
+          zh: "假設日誌",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "記錄每一項已識別風險的機率、衝擊與規劃回應措施,並隨專案進展持續更新,正是風險登錄冊的核心用途。議題日誌記錄的是已經發生、正在影響專案的實際問題,不是尚未發生的風險;風險管理計畫定義的是風險管理活動要如何進行(角色、方法論、門檻等),而不是逐項記錄風險本身;假設日誌記錄的是規劃時採信的假設與限制,即便某些假設帶有風險意涵,也不是用來追蹤個別風險的文件。",
+  },
+  {
+    id: "rsk-130",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager for a university genomics research lab has just finished a risk identification session with the lab's principal investigators while planning the procurement of specialized sequencing equipment. A long list of potential risks, including customs delays, calibration failures, and vendor lock-in, has been compiled. What should the project manager do next?",
+      zh: "一位大學基因體研究實驗室的專案經理,在規劃採購專用定序設備的過程中,剛與實驗室的主持人們完成一場風險識別會議,彙整出一份很長的潛在風險清單,包括海關延誤、校準失敗與供應商鎖定。專案經理接下來應該做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Assign a risk owner to each item on the list and set aside a contingency reserve for the highest-cost items.",
+          zh: "為清單上每一項風險指派風險負責人,並為成本最高的項目保留應變準備金",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Draft response plans for the risks that seem most concerning to the principal investigators.",
+          zh: "針對主持人們覺得最令人擔憂的風險,擬定回應計畫",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Perform qualitative and quantitative analysis to assess and prioritize the identified risks by probability and impact.",
+          zh: "運用定性與定量分析,依機率與衝擊評估並排定已識別風險的優先順序",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Update the risk register with the full list and circulate it to the procurement committee for awareness.",
+          zh: "把完整清單更新進風險登錄冊,並分發給採購委員會知悉",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "識別階段的產出只是一份未經排序的清單。在規劃任何回應措施或分配任何預算之前,必須先透過定性與定量分析評估每項風險的機率與衝擊,藉此排出優先順序,後續的資源投入才有依據。憑主持人的主觀感受挑選「最令人擔憂」的風險來規劃回應,跳過了系統性分析,容易受個人偏見左右;在還沒完成分析排序前就指派負責人、保留應變準備金,等於是在沒有依據的情況下分配資源;單純把清單更新進風險登錄冊並分發出去,只是完成了文件化,並沒有往前推進到「這些風險該如何被排序與管理」這一步。",
+  },
+  {
+    id: "rsk-131",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A structural engineering firm is retrofitting an aging highway overpass. The lead analyst ran 10,000 iterative simulations across probability distributions for rebar corrosion rate, traffic load, and material fatigue simultaneously to forecast a range of possible failure likelihoods. The analyst then separately tested how much a single variable, ambient temperature fluctuation, affected long-term settlement by varying it alone while holding all other variables constant. Which three of the following best describe the techniques used? (Select three.)",
+      zh: "某結構工程公司正在整修一座老舊的高速公路陸橋。首席分析師針對鋼筋腐蝕率、交通載重與材料疲勞這幾個機率分布,同時跑了一萬次迭代模擬,以預測可能的破壞機率範圍。接著分析師另外測試單一變數(環境溫度變化)對長期沉陷的影響程度,做法是只改變這個變數、其餘維持不變。以下哪三項最能描述分析師使用的技術?(請選擇三項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Quantitative risk analysis",
+          zh: "定量風險分析",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Risk urgency assessment",
+          zh: "風險急迫性評估",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Monte Carlo simulation",
+          zh: "蒙地卡羅模擬",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Sensitivity analysis",
+          zh: "敏感度分析",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "c",
+      "d",
+    ],
+    selectCount: 3,
+    explanation: "同時針對多個變數的機率分布跑大量迭代模擬以預測結果範圍,對應蒙地卡羅模擬;逐一改變單一變數、其餘維持不變以觀察其對結果的影響程度,對應敏感度分析。這兩項技術都屬於定量風險分析,因此這個較上位的分類同樣成立。風險急迫性評估是一項定性技術,用來評估風險需要多快被處理,情境中並沒有描述這項作法。",
+  },
+  {
+    id: "rsk-132",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A biotech company is designing the HVAC system for a new cleanroom. To determine which single input, filtration efficiency, airflow rate, or particulate load, has the greatest effect on maintaining the required cleanroom classification, the analyst changes one variable at a time while holding the other two constant and observes the resulting change. Which technique is being used?",
+      zh: "某生技公司正在設計一間新無塵室的空調系統。為了判斷哪一項單一輸入變數(過濾效率、氣流速率或懸浮微粒濃度)對維持所需無塵等級的影響最大,分析師每次只改變一個變數、其餘兩項維持不變,並觀察造成的變化。這是在使用什麼技術?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Monte Carlo simulation",
+          zh: "蒙地卡羅模擬",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Sensitivity analysis",
+          zh: "敏感度分析",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Probability and impact matrix",
+          zh: "機率與衝擊矩陣",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Risk urgency assessment",
+          zh: "風險急迫性評估",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "每次只改變一個變數、其餘維持不變,藉此觀察該變數對結果的影響程度,是敏感度分析的定義性做法,常以龍捲風圖呈現各變數的相對影響力。蒙地卡羅模擬則是同時針對多個變數的機率分布跑大量迭代,得出結果的機率分布範圍,與逐一變動單一變數的做法不同;機率與衝擊矩陣與風險急迫性評估都是定性分析工具,用來對風險做分類與排序,不涉及變數之間的量化因果測試。",
+  },
+  {
+    id: "rsk-133",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading the rollout of a new automated baggage-handling system for a mid-sized airport. During integration testing, a controls engineer flagged that the conveyor routing software occasionally misreads tag barcodes under high-throughput conditions, a issue that falls outside the project manager's technical background. The project manager asked the engineer to keep tightening the scanner calibration and did not raise the issue further. On opening day, the routing software misdirected a large volume of bags during peak traffic, causing significant flight delays. What was the most likely root cause of this outcome?",
+      zh: "一位專案經理正在主導某中型機場新自動化行李處理系統的上線工作。在整合測試期間,一位控制工程師反映,輸送帶的路由軟體在高流量狀況下偶爾會誤讀行李標籤條碼,這個問題超出了專案經理的技術背景。專案經理請工程師持續調緊掃描器校準,沒有進一步往上呈報這個問題。啟用當天,路由軟體在尖峰時段誤導了大量行李,造成嚴重的航班延誤。這個結果最可能的根本原因是什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The integration testing schedule did not allow enough time to fully validate the routing software.",
+          zh: "整合測試的排程沒有留下足夠時間完整驗證路由軟體",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The project manager did not escalate a technical issue that exceeded their ability to assess independently.",
+          zh: "專案經理沒有把一個超出自己獨立判斷能力的技術問題向上呈報",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The scanner calibration process itself was fundamentally flawed and could not be corrected.",
+          zh: "掃描器校準流程本身有根本性缺陷,無法被修正",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Peak traffic volume on opening day exceeded the system's designed throughput capacity.",
+          zh: "啟用當天的尖峰流量超過了系統設計的處理容量",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "工程師提出的是一個超出專案經理技術背景的軟體行為問題,專案經理的回應卻只是請工程師持續調校硬體參數,沒有把這項疑慮呈報給具備軟體路由專業或決策職權的人。真正的根本原因,是專案經理未能辨識出這個問題已經超出自己能獨立處理的範圍,因而沒有適時上呈,讓一個原本有機會在上線前被攔截的風險一路帶到正式營運。測試排程長短是情境中沒有明確描述的推測;掃描器校準是工程師嘗試的緩解手段,情境並未顯示這個做法本身有根本缺陷,只是說明它沒有解決真正的軟體路由問題;尖峰流量超出設計容量雖然是觸發問題浮現的條件,但問題本身(條碼誤讀)在測試階段就已經被發現,真正該被檢討的是呈報流程失靈,而不是流量規模。",
+  },
+  {
+    id: "rsk-134",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is overseeing the installation of a subsea power cable for an offshore wind farm. During pre-installation surveying, the survey crew reported that sonar readings along part of the planned cable route looked unusual and asked whether it was safe to proceed with trenching there. The interpretation of these readings was outside the project manager's expertise, but the project manager told the crew to proceed cautiously and watch for further anomalies. During trenching, the cable was damaged when it struck an unmapped rock formation in that exact section, delaying the project by several months. What was the most likely root cause of this outcome?",
+      zh: "一位專案經理正在監督一座離岸風場海底電纜的鋪設工程。在鋪設前的探勘作業中,探勘團隊回報,計畫路線上有一段的聲納讀數看起來不太尋常,並詢問是否可以安全地在該處進行開溝作業。這些讀數的判讀超出了專案經理的專業範圍,但專案經理告訴團隊謹慎繼續作業,並留意是否有進一步的異常。開溝作業中,電纜在該路段撞上一塊未被標示的岩層而受損,導致專案延遲了數個月。這個結果最可能的根本原因是什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "The original seabed survey failed to map every rock formation along the cable route.",
+          zh: "最初的海床探勘未能標示出電纜路線上的每一處岩層",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "The project manager did not escalate an anomaly whose safety implications exceeded their own expertise.",
+          zh: "專案經理沒有把安全意涵超出自己專業範圍的異常向上呈報",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "The trenching crew proceeded with the work despite being asked to watch for anomalies.",
+          zh: "開溝團隊儘管被要求留意異常,仍繼續進行作業",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "The wind farm's construction schedule did not allow time for a supplementary seabed survey.",
+          zh: "風場的施工時程沒有留出時間進行補充的海床探勘",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "探勘團隊主動反映讀數異常、並詢問是否安全,這正是一個需要專業判讀的訊號。專案經理不具備解讀聲納資料的專業,卻只是要求團隊謹慎繼續、留意後續異常,而沒有把這項疑慮呈報給具備海事地質專業的人來正確判斷。這正是超出自己能獨立處理範圍卻沒有往上呈報的失誤,才是電纜受損的根本原因。原始探勘未能標示出每一處岩層,是既成事實的限制,任何探勘都難以做到毫無遺漏,問題不在探勘本身不夠完整,而在於後續浮現的異常訊號沒有被妥善處理;開溝團隊確實有按指示繼續作業並保持警覺,並非團隊執行不力;施工時程是否留有餘裕進行補充探勘屬於情境未提及的推測,而且真正錯失的機會點,是收到異常回報當下沒有立即呈報尋求專業判斷,不是後續有沒有時間做額外探勘。",
+  },
+  {
+    id: "rsk-135",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager for a semiconductor fabrication upgrade project is reviewing a sudden drop in wafer yield. The production data already shows unusual doping concentration readings on the affected batches, but the project manager cannot determine what these readings mean for yield without input from a process engineer, who could immediately recognize the readings as indicating an out-of-spec diffusion furnace. How should this doping concentration data have been classified with respect to its significance for yield, before the process engineer was consulted?",
+      zh: "一位半導體晶圓廠升級專案的專案經理,正在檢視一次晶圓良率的急遽下滑。生產數據已經顯示,受影響批次出現異常的摻雜濃度讀數,但專案經理若沒有製程工程師的協助,無法判斷這些讀數對良率代表什麼意義;而製程工程師一看就能立刻辨識出這是擴散爐製程超出規格的訊號。在諮詢製程工程師之前,這份摻雜濃度數據就其對良率的重要性而言,應該如何分類?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "A known known, because the data had already been captured in the production system.",
+          zh: "已知的已知,因為這項數據已經被記錄在生產系統中",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A known unknown, because the exact yield impact had not yet been quantified.",
+          zh: "已知的未知,因為確切的良率影響尚未被量化",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "An unknown known, because the significance was knowable but the project manager lacked the expertise to recognize it without a process engineer.",
+          zh: "未知的已知,因為這項數據的重要性原本是可以被知道的,但專案經理缺乏在沒有製程工程師協助下辨識出來的專業能力",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "An unknown unknown, because a yield drop of this nature could not have been anticipated.",
+          zh: "未知的未知,因為這種性質的良率下滑在事前無法被預期",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "摻雜濃度數據本身已經存在於生產系統裡,但它所代表的意涵,製程工程師一看就能立刻辨識,只是專案經理自己不具備這項專業。這代表相關知識本來就存在、也可以被取得,只是沒有經過對的人解讀,正是「未知的已知」。已知的已知需要同時具備資訊本身與對其意涵的理解,專案經理雖然拿到了數據,卻不理解其代表的意義,不符合這個分類;已知的未知代表資訊本身尚未取得,但這裡的問題不是數據不存在,而是缺乏解讀能力,因此不適用;未知的未知指的是完全無法預期、事前毫無徵兆的風險類型,但這項數據本身早就被記錄下來,而且製程工程師憑既有專業就能立刻判斷其意義,並不符合無法預期的定義。",
+  },
+  {
+    id: "rsk-136",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "During the renovation of a century-old heritage building, workers discovered a sealed structural cavity containing hazardous insulation material behind a load-bearing wall. No historical blueprint, prior inspection report, or building record for the structure had ever indicated the existence of this cavity or its contents. How should this discovery be classified?",
+      zh: "在一棟百年歷史建築的整修工程中,工人在一面承重牆後方發現一個密封的結構空腔,裡面含有危害性隔熱材料。這棟建築的任何歷史藍圖、先前檢驗報告或建物紀錄,都從未顯示過這個空腔或其內容物的存在。這項發現應該如何分類?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "A known known, because hazardous materials are common in buildings of this age.",
+          zh: "已知的已知,因為這個年代的建築物普遍存在危害性材料",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A known unknown, because the project team was aware such cavities sometimes exist in old buildings.",
+          zh: "已知的未知,因為專案團隊知道這類舊建築有時會存在這種空腔",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "An unknown unknown, because no available record or inspection could have revealed this specific cavity before demolition began.",
+          zh: "未知的未知,因為在拆除工程開始前,沒有任何可取得的紀錄或檢驗能夠揭露這個特定空腔的存在",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "An unknown known, because a materials expert could have identified the risk in advance if consulted.",
+          zh: "未知的已知,因為若諮詢材料專家,原本可以事先辨識出這項風險",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "這個空腔完全沒有出現在任何歷史紀錄、藍圖或先前的檢驗報告中,代表在拆除工程實際觸及之前,沒有任何管道可以取得與這個特定空腔有關的資訊,也沒有專家諮詢能夠事先揭露它的存在,這正是「未知的未知」,也就是完全無法預期的突發風險,只能靠管理準備金與應變韌性來因應。已知的已知需要團隊事前就掌握這項特定風險的存在與意涵,但情境明確指出毫無事前跡象;已知的未知代表團隊已經知道某個風險類別的存在、只是細節未定,但情境強調的是「這個特定空腔」完全沒有被任何紀錄提及,而不是一般性地知道舊建築可能藏有危害材料;未知的已知則假設只要諮詢對的專家就能事先發現,但情境已排除任何紀錄或檢驗能揭露這個特定空腔,所以不屬於「資訊可透過諮詢取得」的情況。",
+  },
+  {
+    id: "rsk-137",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is overseeing the refurbishment of a container terminal's gantry cranes. A structural inspection report shows unusual fatigue readings in one crane's main boom, but the readings' implications for safe operating load are outside the project manager's technical background. What should the project manager do?",
+      zh: "一位專案經理正在監督某貨櫃碼頭門式起重機的整修工程。一份結構檢驗報告顯示,其中一台起重機的主吊臂出現異常的疲勞讀數,但這些讀數對安全操作載重代表的意涵,超出了專案經理的技術背景。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Reduce the crane's rated operating load by a conservative margin as a precaution.",
+          zh: "為求謹慎,先保守地調降這台起重機的額定操作載重",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Consult a structural engineer to interpret the fatigue readings and determine a safe course of action.",
+          zh: "諮詢結構工程師來解讀這些疲勞讀數,並判斷安全的因應做法",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Assign a maintenance technician to visually inspect the boom daily for further signs of stress.",
+          zh: "指派一位維修技術人員每天以肉眼檢查吊臂是否有進一步的應力跡象",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Log the fatigue readings in the risk register and continue operating the crane at its current rated load.",
+          zh: "把疲勞讀數記錄進風險登錄冊,並讓起重機維持在目前的額定載重下繼續運作",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "疲勞讀數對安全操作載重的意涵,需要結構工程專業才能正確判讀,這已經超出專案經理自身的技術背景。正確的做法是諮詢具備相關專業的結構工程師,由對的人來解讀這些數據,並據此判斷安全的操作方式或必要的維修行動。自行保守調降載重雖然出於善意,但沒有專業依據,可能矯枉過正或仍不足以因應真正的結構問題;指派技術人員以肉眼檢查,是把判讀工作交給不具備結構分析能力的人,無法取代工程專業的評估;單純記錄讀數並維持現狀運作,等於是在已知有異常訊號的情況下什麼都不做,風險並未因為被記錄下來就獲得妥善處理。",
+  },
+  {
+    id: "rsk-138",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager for a large-scale irrigation system installation receives soil salinity readings from a newly irrigated field that look abnormally high compared to baseline data. Interpreting what these readings mean for long-term crop yield is outside the project manager's expertise. What should the project manager do?",
+      zh: "一位大型灌溉系統建置專案的專案經理,收到一塊新灌溉農地的土壤鹽度讀數,數值相較於基準數據異常偏高。判讀這些讀數對長期作物產量代表的意義,超出了專案經理的專業範圍。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Consult a soil science or agronomy expert to interpret the readings and recommend a course of action.",
+          zh: "諮詢土壤科學或農藝專家來解讀這些讀數,並建議因應做法",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Instruct the field crew to reduce irrigation volume until the readings return to baseline.",
+          zh: "指示田間team減少灌溉水量,直到讀數回到基準值",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Note the readings in a status report and continue with the original irrigation schedule.",
+          zh: "在狀態報告中記錄這些讀數,並依原訂灌溉時程繼續進行",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Schedule a follow-up soil test in three months to see whether the readings change.",
+          zh: "安排三個月後再做一次追蹤土壤檢測,看讀數是否有變化",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "土壤鹽度異常對長期作物產量的意義,需要土壤科學或農藝方面的專業才能正確解讀,不是專案經理憑經驗判斷就能處理的。諮詢對的專家,才能取得正確的判讀並決定適當的因應行動,例如是否需要調整灌溉方式或土壤改良。自行指示減少灌溉水量,是在不了解真正原因的情況下就採取行動,可能無助於解決鹽度問題,甚至影響作物生長;僅在報告中記錄並照原計畫進行,等於忽視了一個已經浮現的異常訊號;等待三個月後再追蹤檢測,則是讓問題持續累積,錯失及早介入的時機,都不如直接找專家釐清意涵來得恰當。",
+  },
+  {
+    id: "rsk-139",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A hospital system is beginning a multi-year electronic health record migration across a dozen affiliated clinics. Given the potential for patient-safety and regulatory-compliance risks to arise during the migration, what should the project manager establish at the very start of the project?",
+      zh: "某醫療體系正要展開一項跨十幾家附屬診所、為期多年的電子病歷系統遷移計畫。考量到遷移過程中可能出現病人安全與法規遵循方面的風險,專案經理在專案一開始就應該建立什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "A comprehensive risk register listing every conceivable risk before migration work begins.",
+          zh: "一份在遷移工作開始前就列出所有可能風險的完整風險登錄冊",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A risk threshold framework defining the conditions under which risks must be escalated beyond the project manager's authority.",
+          zh: "一套風險門檻框架,明確定義風險必須超出專案經理職權而向上呈報的條件",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "A detailed compliance checklist covering every applicable healthcare regulation.",
+          zh: "一份涵蓋所有適用醫療法規的詳盡合規檢查清單",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "A stakeholder communication plan ensuring every clinic is updated on migration progress.",
+          zh: "一份利害關係人溝通計畫,確保每家診所都能收到遷移進度的更新",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "在專案一開始就建立風險門檻框架,能事先定義好哪些條件下的風險(例如可能影響病人安全或觸犯法規的事件)必須超出專案經理的職權往上呈報,讓治理層級能在事情惡化前及時介入。這正對應在專案啟動時就建立升級路徑與決策門檻的治理工作。完整的風險登錄冊只能記錄已識別的風險,無法定義什麼條件下需要呈報,而且風險登錄冊本來就會隨專案進展持續更新,不必也不可能在啟動當下就窮盡列出所有風險;合規檢查清單處理的是法規遵循的核對工作,但無法回答「風險嚴重到什麼程度就必須上呈給更高權限」這個治理問題;溝通計畫確保資訊被傳遞,但同樣無法建立辨識與行動所需的升級決策框架。",
+  },
+  {
+    id: "rsk-140",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A mining company is establishing project governance for a new underground extraction project before work begins. As part of building the risk threshold and escalation framework at the project's outset, which two of the following should be included? (Select two.)",
+      zh: "某礦業公司在一項新的地下開採專案動工前,正在為專案建立治理架構。作為在專案一開始就建立風險門檻與升級框架的一部分,以下哪兩項應該被納入?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Defined threshold values for key risk dimensions (e.g., safety incidents, schedule slippage) above which a risk must be escalated",
+          zh: "針對關鍵風險面向(如安全事件、時程落後)訂定明確的門檻值,超過此門檻就必須將風險上呈",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "A clearly defined escalation path specifying who has the authority to decide once a threshold is crossed",
+          zh: "一條清楚定義的升級路徑,明確指出一旦超過門檻,由誰擁有決策職權",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "A finalized work breakdown structure covering all extraction activities",
+          zh: "一份涵蓋所有開採活動的完整工作分解結構",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "A fully staffed risk register containing every risk the project could ever encounter",
+          zh: "一份人力配置齊全、涵蓋專案可能遇到的所有風險的風險登錄冊",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "風險門檻與升級框架的核心,是預先定義「多嚴重才算超出可接受範圍」以及「一旦超過門檻,由誰來做決定」,也就是門檻值與清楚的升級路徑及職權歸屬。有了這兩項要素,現場人員在風險升高時才知道什麼時候該呈報、呈報給誰。工作分解結構是規劃範疇與進度的工具,與定義升級門檻是兩件不同的事;風險登錄冊會隨專案進展持續識別與更新風險,不可能也不需要在專案啟動當下就窮盡所有風險,而且風險登錄冊本身也不等於一套升級決策框架。",
+  },
+  {
+    id: "rsk-141",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A project manager is leading a two-day internal hackathon for a twelve-person engineering team to prototype an idea with no external dependencies, no budget beyond existing staff time, and no significant identifiable risks other than a few team members' schedule conflicts. A senior director asks the project manager to produce a formal risk management plan with a probability and impact matrix, assigned risk owners, and documented response strategies for each risk. What should the project manager do?",
+      zh: "一位專案經理正主導一場為期兩天、給十二人工程團隊參加的內部黑客松,目的是製作一個原型構想,沒有外部依賴、除了既有人力時間外沒有額外預算,除了幾位團隊成員的排程衝突外,也沒有其他重大可辨識風險。一位資深主管要求專案經理產出一份正式的風險管理計畫,包含機率與衝擊矩陣、指派風險負責人,並為每項風險記錄回應策略。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Produce the formal risk management plan as requested to satisfy the director's expectations.",
+          zh: "依主管要求產出正式的風險管理計畫,以滿足主管的期待",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Explain to the director that the activity's scale does not warrant a formal risk plan and propose a lightweight approach instead.",
+          zh: "向主管說明,這項活動的規模不需要一份正式的風險計畫,並提議改用輕量化的做法",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Build a detailed risk register capturing every conceivable risk regardless of the activity's short duration.",
+          zh: "不論活動時間多短,都建立一份詳盡的風險登錄冊,記錄所有可能想得到的風險",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Ask for the hackathon to be extended by a week to allow time to properly develop the requested documentation.",
+          zh: "要求將黑客松延長一週,以留出時間妥善準備主管要求的文件",
+        },
+      },
+    ],
+    correctAnswer: "b",
+    explanation: "風險管理的正式程度應該依專案的規模、複雜度與風險輪廓來裁適,而不是不分情況一律套用同一套標準。一場為期兩天、幾乎沒有外部依賴或重大風險的內部活動,並不需要動用完整正式的風險管理計畫。正確的做法是向要求方說明清楚,活動規模不足以支撐一整套正式文件,並提出一個與實際風險量級相稱的輕量化替代方案。依要求產出完整正式計畫,是把「符合治理範本」看得比活動本身的效率更重要;不論規模一律建立詳盡風險登錄冊也是同樣的問題;要求延長活動期間去配合一項不必要的文件要求,則是讓範疇不當擴大,而不是先去檢視這項要求本身是否合理。",
+  },
+  {
+    id: "rsk-142",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "An apparel brand operates its primary overseas distribution warehouse in a floodplain that has flooded twice in the past decade. Relocating the warehouse before the upcoming shipping season is not feasible, and the value of inventory typically stored there at peak season can exceed $3 million. The brand's leadership is most concerned about the financial loss if another flood occurs. What risk response strategy is most appropriate?",
+      zh: "某服飾品牌在海外的主要配送倉庫,位於過去十年內已淹水兩次的洪泛區。在即將到來的出貨旺季前搬遷倉庫並不可行,而旺季期間該倉庫通常存放的存貨價值可能超過300萬美元。品牌高層最關心的是,一旦再次淹水可能造成的財務損失。此時最適當的風險回應策略是什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Transfer the risk by purchasing flood and business interruption insurance covering the warehouse inventory.",
+          zh: "為倉庫存貨投保洪水與營業中斷保險,以轉移風險",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Mitigate the risk by installing flood barriers and elevating high-value inventory racks above ground level.",
+          zh: "安裝防洪屏障,並將高價值存貨架墊高離地,藉此減緩風險",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Avoid the risk by relocating warehouse operations to an inland facility before the shipping season begins.",
+          zh: "在出貨旺季開始前將倉庫作業遷移到內陸設施,以迴避風險",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Accept the risk and set up a weather-monitoring protocol during the flood-prone months.",
+          zh: "接受風險,並在容易淹水的月份建立天氣監測機制",
+        },
+      },
+    ],
+    correctAnswer: "a",
+    explanation: "倉庫地點固定、旺季前搬遷不可行,這個限制大幅削弱了迴避策略的可行性,也讓物理性減緩措施的效果有限,即使加裝防洪屏障、墊高存貨架,倉庫仍然留有相當大的財務曝險,超過300萬美元的存貨損失風險不會因此消失。轉移策略直接針對這筆潛在財務損失,透過保險把責任轉嫁給第三方,在搬遷不可行的限制下,最能對應風險規模與高層真正關切的財務曝險。防洪屏障與墊高存貨是實用的輔助措施,但無法消除固定地點帶來的財務曝險,只能在邊際上降低損害程度;搬遷雖然能徹底迴避淹水風險,但情境已明確指出旺季前搬遷不可行,這個選項在操作上不成立;在明知曝險超過300萬美元的情況下,只被動監測天氣而不採取任何轉嫁或降低財務衝擊的做法,明顯不足以因應這個量級的風險。",
+  },
+  {
+    id: "rsk-143",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "multiple_response",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A program manager overseeing several small risks across a portfolio of retail store renovations takes the following actions. Which two of these represent a risk acceptance strategy, whether active or passive? (Select two.)",
+      zh: "某專案群管理者正在處理一批零售門市整修專案中的幾項小型風險,採取了以下這些做法。以下哪兩項屬於風險接受策略,不論是主動或被動的接受?(請選擇兩項)",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Setting aside a small contingency budget to cover a minor risk of paint-finish touch-ups without changing any plans.",
+          zh: "保留一筆小額應變預算,以因應烤漆修補這項小風險,不改變任何原訂計畫",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Noting a low-impact risk of a minor delivery delay for decorative fixtures in the risk register and taking no further action.",
+          zh: "在風險登錄冊中記錄裝飾配件可能小幅延遲交貨這項低衝擊風險,不採取進一步行動",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Switching to a different fixture supplier specifically to reduce the likelihood of the delivery delay.",
+          zh: "改用另一家配件供應商,專門用來降低交貨延遲的發生機率",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Requiring the paint contractor to post a performance bond covering the cost of any touch-up rework.",
+          zh: "要求烤漆承包商提供履約保證金,以支應任何修補重工的費用",
+        },
+      },
+    ],
+    correctAnswer: [
+      "a",
+      "b",
+    ],
+    selectCount: 2,
+    explanation: "保留應變預算但不改變原訂計畫,是主動接受的典型做法,代表準備好因應風險發生後的成本,卻不採取任何預防性行動;把低衝擊風險記錄下來卻不採取進一步行動,則是被動接受,兩者都符合接受策略「不主動處理風險本身」的核心特徵。更換供應商是為了降低風險發生的機率,屬於減輕策略;要求承包商提供履約保證金,是把因應成本轉嫁給第三方承擔,屬於轉移策略,兩者都涉及主動的預防或轉嫁行動,不屬於接受。",
+  },
+  {
+    id: "rsk-144",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "matching",
+    difficulty: "hard",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "Drag and match each scenario below to the risk response strategy it demonstrates.",
+      zh: "請將下列每一段情境拖曳配對到其所展現的風險回應策略。",
+    },
+    options: {
+      prompts: [
+        {
+          id: "p1",
+          text: {
+            en: "A specialty coffee importer, expecting a severe frost to wipe out an entire harvest at its primary highland farm, shifts its entire sourcing contract to a lowland cooperative unaffected by frost for that season",
+            zh: "某精品咖啡進口商預期一場嚴重霜害將摧毀其主要高地農場的整季收成,遂將整份採購合約改由不受霜害影響的低地合作社供應",
+          },
+        },
+        {
+          id: "p2",
+          text: {
+            en: "A regional telecom operator laying fiber through a known unstable slope adds extra geotechnical reinforcement and slope drainage to reduce the chance of a route-blocking landslide",
+            zh: "某區域電信業者在一段已知地質不穩的坡地鋪設光纖,加裝額外的地質補強與坡面排水設施,以降低阻斷路線的坍方發生機率",
+          },
+        },
+        {
+          id: "p3",
+          text: {
+            en: "A boutique hotel group purchases business interruption insurance to cover potential revenue loss if a flagship property must close temporarily due to storm damage",
+            zh: "某精品飯店集團投保營業中斷險,以因應旗艦飯店若因風暴損害而須暫時歇業所造成的潛在營收損失",
+          },
+        },
+        {
+          id: "p4",
+          text: {
+            en: "A data hosting company, facing a minor risk that a rarely-used legacy reporting feature might occasionally return delayed results, decides to take no proactive action and simply monitor customer complaints",
+            zh: "某資料代管公司面對一項小風險(某項罕用的舊版報表功能偶爾會延遲回傳結果),決定不採取主動行動,僅監測客戶投訴狀況",
+          },
+        },
+      ],
+      choices: [
+        {
+          id: "c1",
+          text: {
+            en: "Avoid",
+            zh: "避免(Avoid)",
+          },
+        },
+        {
+          id: "c2",
+          text: {
+            en: "Mitigate",
+            zh: "減輕(Mitigate)",
+          },
+        },
+        {
+          id: "c3",
+          text: {
+            en: "Transfer",
+            zh: "轉移(Transfer)",
+          },
+        },
+        {
+          id: "c4",
+          text: {
+            en: "Accept",
+            zh: "接受(Accept)",
+          },
+        },
+      ],
+    },
+    correctAnswer: {
+      p1: "c1",
+      p2: "c2",
+      p3: "c3",
+      p4: "c4",
+    },
+    explanation: "四段情境分別對應四種針對負面風險(威脅)的回應策略:徹底改變採購來源、完全避開霜害曝險,屬於消除風險發生可能性的 Avoid;加裝地質補強與排水設施是降低坍方發生機率的具體行動,屬於 Mitigate,風險仍可能發生,只是機率或衝擊被降低;投保營業中斷險是把財務後果轉嫁給保險公司承擔,屬於 Transfer;面對衝擊輕微的小風險選擇不採取任何預防行動、僅被動監測狀況,屬於 Accept。判斷關鍵在於:風險是否被徹底消除(Avoid)、是否仍存在但被降低(Mitigate)、後果是否被轉嫁給第三方(Transfer),還是完全不採取預防性行動(Accept)。",
+  },
+  {
+    id: "rsk-145",
+    edition: "pmbok8",
+    domain: "BusinessEnvironment",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "medium",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A consumer electronics importer relies on a single overseas factory for a key circuit-board component. A trade publication reports that regulators in the factory's country are reviewing a proposal to impose new export tariffs on electronic components. The project manager has been assigned to monitor this situation as a potential supply-chain risk. What should the project manager do?",
+      zh: "某消費電子產品進口商仰賴一家海外工廠供應一項關鍵電路板零件。一份貿易刊物報導指出,該工廠所在國的主管機關正在審議一項對電子零件課徵新出口關稅的提案。專案經理已被指派監控這個狀況,將其視為供應鏈的一項潛在風險。專案經理應該怎麼做?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Continue reading trade publications for further updates on the proposed tariffs.",
+          zh: "持續閱讀貿易刊物,關注這項關稅提案的後續發展",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Contact the factory directly to negotiate a fixed price that would be unaffected by any future tariff changes.",
+          zh: "直接聯繫工廠,協商一個不受未來關稅變動影響的固定價格",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Review the risk management plan for this risk and report to stakeholders if conditions indicate the risk is escalating.",
+          zh: "檢視這項風險在風險管理計畫中的相關規定,若情勢顯示風險正在升高,則向利害關係人回報",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Increase current inventory orders from the factory to stockpile components before any tariff takes effect.",
+          zh: "增加向該工廠的現行訂單量,在關稅生效前先囤積零件庫存",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "這篇貿易刊物報導是一個值得留意的觸發訊號,但既然這項風險已經被正式識別,並且專案經理已被指派負責監控,正確的做法是回頭依循風險管理計畫的規定,計畫裡應該已經定義好監控指標的升級門檻,以及在什麼條件下需要向利害關係人通報。持續閱讀刊物只是最初得知這項發展的非正式管道,真正該用來判斷「何時該採取行動、行動到什麼程度」的依據,是風險管理計畫;直接聯繫工廠協商固定價格,已經超出監控角色的範疇,是一項回應行動,是否需要走到這一步應該依循計畫中定義的決策流程,而不是自行逕自進行;增加訂單囤積庫存同樣是一項超出監控職責的回應行動,而且會綁住額外的營運資金,在風險是否真的會升高都還不確定的情況下貿然這麼做並不恰當。",
+  },
+  {
+    id: "rsk-146",
+    edition: "pmbok8",
+    domain: "Process",
+    performanceDomain: "Risk",
+    questionType: "single_choice",
+    difficulty: "easy",
+    timeCategory: "predictive_scenario",
+    stem: {
+      en: "A bakery chain's production line has been consistently meeting its daily output targets. During a routine quality check, the project manager overseeing a new packaging line discovers that the defect rate for one packaging component has doubled compared to the baseline established during commissioning. Production is otherwise on schedule, and no operator has reported any issues with this component. What should the project manager do first?",
+      zh: "某烘焙連鎖店的生產線一直穩定達成每日的產出目標。在一次例行品質檢查中,負責監督新包裝產線的專案經理發現,某項包裝組件的缺陷率,相較於試運轉期間建立的基準值增加了一倍。生產進度的其他部分都在正軌上,也沒有任何操作員針對這項組件回報過問題。專案經理最先應該做什麼?",
+    },
+    options: [
+      {
+        id: "a",
+        text: {
+          en: "Replace the packaging component with a different supplier's part to eliminate the defect.",
+          zh: "更換另一家供應商的組件,以消除這項缺陷",
+        },
+      },
+      {
+        id: "b",
+        text: {
+          en: "Increase the frequency of quality inspections on this packaging component going forward.",
+          zh: "加強這項包裝組件未來的品質檢驗頻率",
+        },
+      },
+      {
+        id: "c",
+        text: {
+          en: "Analyze the situation to identify the root cause of the increased defect rate before deciding on corrective action.",
+          zh: "在決定任何矯正行動之前,先分析狀況以找出缺陷率上升的根本原因",
+        },
+      },
+      {
+        id: "d",
+        text: {
+          en: "Report the finding to the plant manager and wait for further instructions before taking any action.",
+          zh: "向廠長回報這項發現,並在採取任何行動前等待進一步指示",
+        },
+      },
+    ],
+    correctAnswer: "c",
+    explanation: "目前缺陷率上升的原因還不明朗,可能來自組件本身、供應商品質、產線設定或操作方式等不同面向。在還沒釐清原因之前就採取行動,很可能用錯方法去解決問題。先做根本原因分析,才能確保之後採取的矯正行動真正對症下藥。直接更換供應商組件,等於還沒確認問題出在零件本身就先假設答案,如果根本原因其實是產線設定或製程問題,換零件不會解決問題;單純加強檢驗頻率只是更頻繁地觀察到問題發生,並沒有處理問題發生的原因本身;向廠長回報後被動等待指示,則是把該由專案經理主導的分析工作往後拖延,不必要地延誤了釐清問題的時機。",
   }
 ]

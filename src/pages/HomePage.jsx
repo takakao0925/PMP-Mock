@@ -249,6 +249,9 @@ export default function HomePage() {
 
       <section className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
         <h2 className="mb-3 text-lg font-semibold text-gray-900">中途休息設定(僅適用於標準模式)</h2>
+        <p className="mb-3 text-xs text-gray-400">
+          這些題號同時也是「區段邊界」(PMI 2026/09/02 新制):過了這個題號進入休息後,該區段的答案就會被鎖定,無法再返回修改。
+        </p>
         <div className="flex flex-wrap items-end gap-4">
           <label className="flex flex-col gap-1 text-sm text-gray-600">
             強制休息題號(逗號分隔)
@@ -257,7 +260,7 @@ export default function HomePage() {
               value={breakInput}
               onChange={(e) => setBreakInput(e.target.value)}
               className="w-56 rounded-md border border-gray-300 px-3 py-1.5"
-              placeholder="例如 60, 120"
+              placeholder="例如 40, 100"
             />
           </label>
           <label className="flex flex-col gap-1 text-sm text-gray-600">

@@ -1,6 +1,6 @@
 # Governance — PMP 題庫
 
-> 共 110 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 159 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `sc-002` — 單選題
 
@@ -2632,7 +2632,7 @@ Governance 績效領域本質上是專案經理在範疇、時程、財務、利
 
 **題目 ID**: `gov-094`
 
-難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
 
 **題幹**
 
@@ -2673,7 +2673,7 @@ PMBOK 的原則並非硬性規定,而是指引專案決策的核心概念:全面
 
 **題目 ID**: `gov-095`
 
-難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
 
 **題幹**
 
@@ -2774,7 +2774,7 @@ PMBOK 的原則並非硬性規定,而是指引專案決策的核心概念:全面
 
 **題目 ID**: `gov-099`
 
-難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+難度: `easy` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
 
 **題幹**
 
@@ -2968,5 +2968,1309 @@ PMBOK 的原則並非硬性規定,而是指引專案決策的核心概念:全面
 **詳解**
 
 專案已經接近收尾,此時 PM 最關鍵的職責是帶著團隊做回顧,找出「公平性需求為何在啟動階段就被遺漏」這個根本原因,並把改善措施沉澱進組織過程資產(OPA),讓這個教訓能真正被未來所有專案繼承,這正好對應持續改善流程這項任務所強調的組織層級學習。其餘選項都是還沒找出根本原因,就直接跳去指定的片面補救措施:不是所有組織都設有負責任 AI 委員會,強制介入屬於缺乏根因分析的行政命令;將偏誤測試塞進 DoD 只能在開發後期把關品質,無法解決「啟動階段需求蒐集不全」這個源頭問題;單純辦培訓也無法保證未來的需求蒐集流程真的會被制度化地改善。
+
+---
+
+### Q111. `gov-106` — 單選題
+
+**題目 ID**: `gov-106`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A predictive infrastructure project has finished all deliverables and the client's operations team is ready to take over daily maintenance. Before releasing the project team, what should the project manager confirm first?
+- 中: 一個瀑布式基礎建設專案已完成所有交付物,客戶的維運團隊也準備好接手日常維護。在解散專案團隊之前,專案經理應該先確認什麼?
+
+**選項**
+
+- (a) That the sponsor has formally accepted project completion and all deliverables have been transitioned. / 贊助人已正式核准專案完成,且所有交付物都已完成移交 ✅ **正解**
+- (b) That every team member has updated their personal resume with this project's achievements. / 每位團隊成員都已把這個專案的成果更新到個人履歷上
+- (c) That the next project the team will move to has already been fully staffed. / 團隊接下來要接的下一個專案已經完成人力配置
+- (d) That the client's marketing department has announced the go-live publicly. / 客戶的行銷部門已經公開宣布上線消息
+
+**詳解**
+
+結案階段最關鍵的一步,是取得利害關係人(通常是贊助人或客戶)對專案完成的正式核准,並確認所有交付物已完整移交,這是「Manage Project Closure」任務裡明確要求的動作,也是後續才能安心解散團隊、結清合約與釋出資源的前提。團隊成員的履歷、下一個專案的人力配置、行銷宣傳都不是結案驗收的必要條件,也不是 PM 此時該優先確認的事項。
+
+---
+
+### Q112. `gov-107` — 單選題
+
+**題目 ID**: `gov-107`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project's final deliverable will be handed off to an internal operations team that has never supported this type of system before. What should the project manager do as part of closing the project?
+- 中: 專案的最終交付物即將移交給一個從未支援過這類系統的內部維運團隊。身為結案工作的一部分,專案經理應該怎麼做?
+
+**選項**
+
+- (a) Validate the operations team's readiness to take over, including training and documentation handoff. / 確認維運團隊接手的準備度,包括教育訓練與文件移交是否到位 ✅ **正解**
+- (b) Immediately transfer all responsibility and close the project regardless of the team's readiness. / 不論對方準備度如何,立刻轉移所有責任並結案
+- (c) Ask the sponsor to hire external consultants to permanently replace the operations team. / 請贊助人雇用外部顧問永久取代維運團隊
+- (d) Delay closure indefinitely until the operations team becomes fully expert in the system. / 無限期延後結案,直到維運團隊完全成為該系統的專家
+
+**詳解**
+
+「驗證移交準備度(Validate readiness for transition)」是結案過程的明確任務之一;當接手方過去沒有支援類似系統的經驗時,PM 更應該主動確認教育訓練、操作文件、支援窗口等移交要件是否到位,而不是不顧準備度直接甩鍋、找外部顧問取代原團隊,或反過來把結案無限期拖延到對方變成專家為止(這既不切實際,也違背專案應在合理時間內正式收尾的原則)。
+
+---
+
+### Q113. `gov-108` — 多選題
+
+**題目 ID**: `gov-108`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: According to the "Manage Project Closure" task, which of the following activities should the project manager conclude when closing a project? (Select three.)
+- 中: 依據「管理專案結案」這項任務,專案經理在結案時應該完成以下哪三項活動?(請選擇三項)
+
+**選項**
+
+- (a) Finalize financial reconciliation and close out contracts. / 完成財務結算並結清合約 ✅ **正解**
+- (b) Conduct final lessons learned and retrospectives. / 進行最終的經驗學習與回顧 ✅ **正解**
+- (c) Release project resources for reassignment. / 釋出專案資源以供重新分配 ✅ **正解**
+- (d) Begin scope definition for the organization's next unrelated project. / 開始為組織下一個不相關的專案定義範疇
+
+**詳解**
+
+依據 ECO 對「Manage Project Closure」的定義,結案時應完成的活動包括:財務結算與合約結清、進行最終的經驗學習/回顧會議、釋出專案資源。定義下一個不相關專案的範疇屬於全新專案的啟動工作,跟這個專案的結案毫無關聯,不屬於此任務範圍。
+
+---
+
+### Q114. `gov-109` — 下拉選單題
+
+**題目 ID**: `gov-109`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A project sponsor asks how the team will know the project is ready to close. Complete the project manager's response: "We will first {{blank1}}, and only after that criteria is met will we formally {{blank2}} project completion."
+- 中: 專案贊助人問專案團隊要怎麼知道專案已經準備好可以結案。請完成專案經理的回覆:「我們會先{{blank1}},只有在符合這些條件之後,才會正式{{blank2}}專案完成。」
+
+**blank1**
+
+- (a) determine the specific criteria needed to successfully close the project or phase / 確定成功結案所需的具體條件 ✅ **正解**
+- (b) ask the marketing team to announce the launch / 請行銷團隊宣布上線
+- (c) reassign all team members to new projects / 把所有團隊成員重新分配到新專案
+
+**blank2**
+
+- (a) obtain stakeholder approval of / 取得利害關係人核准 ✅ **正解**
+- (b) postpone indefinitely / 無限期延後
+- (c) ignore / 忽略
+
+
+**詳解**
+
+結案的正確順序是先明確定義「什麼樣的條件才算成功結案」(Determine criteria to successfully close the project or phase),達成這些條件後,才正式取得利害關係人對專案完成的核准(Obtain project stakeholder approval of project completion)。提前重新分配團隊或直接宣布上線,都跳過了確認結案條件與正式核准這兩個必要步驟。
+
+---
+
+### Q115. `gov-110` — 單選題
+
+**題目 ID**: `gov-110`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Midway through a predictive project, a key stakeholder submits a change request. The project manager immediately begins implementing the change to keep the stakeholder happy, without a formal impact assessment. What did the project manager fail to do?
+- 中: 在一個瀑布式專案執行到一半時,一位重要利害關係人提出了一項變更請求。專案經理為了讓這位利害關係人滿意,沒有經過正式的影響評估就立刻開始實施這項變更。專案經理漏做了什麼?
+
+**選項**
+
+- (a) Follow the formal change control process to assess impact before implementing. / 在實施前依循正式的變更管制流程評估影響 ✅ **正解**
+- (b) Immediately reject the change since it came from only one stakeholder. / 因為變更只由一位利害關係人提出就立刻拒絕
+- (c) Ask the team to vote on whether the change should be implemented. / 讓團隊投票決定是否該實施這項變更
+- (d) Wait until the project is fully complete before considering the request. / 等到專案完全結束後才考慮這項請求
+
+**詳解**
+
+在預測式(瀑布)環境中,任何變更都必須先經過正式的變更管制流程評估對範疇、時程、成本、品質、風險等各方面的影響,取得核准後才能實施,即使提出者是重要利害關係人也不例外,單方面急著討好對方而跳過評估是常見的陷阱。直接拒絕、丟給團隊投票、或拖到專案結束才處理,都不是正確的變更管制做法。
+
+---
+
+### Q116. `gov-111` — 單選題
+
+**題目 ID**: `gov-111`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: In a traditional (predictive) project, a team member asks the project manager who has the final authority to approve a scope change request.
+- 中: 在一個傳統(預測式)專案中,一位團隊成員詢問專案經理,誰對範疇變更請求擁有最終核准權。
+
+**選項**
+
+- (a) The sponsor or change control board, depending on the governance structure. / 依治理結構而定,由贊助人或變更管制委員會核准 ✅ **正解**
+- (b) The project manager, since they own all scope decisions. / 專案經理,因為所有範疇決策都由他掌控
+- (c) Whichever team member proposed the original requirement. / 提出原始需求的那位團隊成員
+- (d) The most senior developer on the team. / 團隊裡資歷最深的開發人員
+
+**詳解**
+
+在傳統(瀑布式)治理架構下,範疇變更的正式核准權通常屬於贊助人或變更管制委員會(CCB),而不是專案經理本人。PM 的角色是評估影響、提出建議並執行核准後的變更,但並不擁有範疇的最終決策權,這一點在題目強調「WHO 做決策」時特別容易被誤答成 PM 本人。
+
+---
+
+### Q117. `gov-112` — 多選題
+
+**題目 ID**: `gov-112`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Before approving any change request, the project manager should assess its impact across which of the following areas? (Select all that apply.)
+- 中: 在核准任何變更請求之前,專案經理應該評估其對以下哪些領域的影響?(請選擇所有符合的選項)
+
+**選項**
+
+- (a) Scope / 範疇 ✅ **正解**
+- (b) Schedule / 時程 ✅ **正解**
+- (c) Cost and risk / 成本與風險 ✅ **正解**
+- (d) The personal preferences of whichever team member is currently on vacation / 目前正在休假的那位團隊成員的個人喜好
+
+**詳解**
+
+任何變更都不會是孤立事件,PM 身為整合者的角色,必須評估變更對範疇、時程、成本與風險等所有領域的連動影響,才能做出負責任的核准決策。休假中團隊成員的個人喜好與變更評估毫無關聯。
+
+---
+
+### Q118. `gov-113` — 單選題
+
+**題目 ID**: `gov-113`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: Three months into a long, demanding project, the team has become so focused on completing daily tasks that they've lost sight of why the project matters to the organization. What should the project manager do?
+- 中: 專案執行三個月後,團隊變得非常專注於完成每天的任務,卻逐漸忘記這個專案對組織而言的意義。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Regularly reinforce and communicate the project vision so the team understands how their work contributes to the bigger goal. / 定期向團隊重申並溝通專案願景,讓大家理解自己的工作如何貢獻於更大的目標 ✅ **正解**
+- (b) Add more detailed task checklists so the team focuses purely on execution. / 增加更詳細的任務清單,讓團隊更專注在執行上
+- (c) Replace the team members who seem least motivated. / 撤換看起來最沒有動力的團隊成員
+- (d) Wait until the project ends to explain the overall vision during the closing celebration. / 等到專案結束時,在慶祝活動上再說明整體願景
+
+**詳解**
+
+長期專案很容易讓團隊在日復一日的任務執行中逐漸遺忘最初的願景與動機,PM 的職責之一就是定期重申並溝通願景,幫助團隊理解自己每天的工作如何連結到組織的整體目標,藉此維持士氣與方向感。增加任務清單、撤換人員、或等到專案結束才說明願景,都無助於解決「團隊忘記為何而戰」這個當下的問題。
+
+---
+
+### Q119. `gov-114` — 單選題
+
+**題目 ID**: `gov-114`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A customer satisfaction improvement project's charter simply states the goal as "improve customer satisfaction." Midway through, the VP of Sales believes success means fewer complaints, while the IT Director believes success means the new system launches on time. What should the project manager do?
+- 中: 一個顧客滿意度改善專案的章程只寫著「提升顧客滿意度」這個目標。專案執行到一半,業務副總認為成功代表客訴減少,而 IT 主管則認為成功代表新系統準時上線。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Facilitate a session with all stakeholders to define specific, measurable success criteria everyone agrees on. / 召集所有利害關係人,共同定義大家都同意的具體、可衡量成功標準 ✅ **正解**
+- (b) Proceed with the IT Director's definition since the system launch date is easiest to measure. / 採用 IT 主管的定義,因為系統上線日期最容易衡量
+- (c) Let each department define success independently for their own area. / 讓每個部門各自為自己的領域定義成功
+- (d) Avoid the topic since the charter has already been signed and cannot be revisited. / 避開這個議題,因為章程已經簽署,不能再重新討論
+
+**詳解**
+
+當不同利害關係人對「成功」有不同解讀時,PM 必須主動召集大家釐清並達成一致、可衡量的成功標準(涵蓋範疇、品質、時程、成本、價值等面向),確保所有人對專案目標有共同理解,而不是任選一方的定義、放任各自解讀、或迴避問題不處理。章程內容模糊本身就是需要被主動澄清的訊號,不代表不能討論。
+
+---
+
+### Q120. `gov-115` — 單選題
+
+**題目 ID**: `gov-115`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A team just completed a module and discovered several process improvements: an earlier technical review would have caught a defect sooner, and testing every third iteration provided better feedback than testing every iteration. What should the project manager do before starting the next module?
+- 中: 團隊剛完成一個模組,並發現了幾個流程改善點:更早進行技術審查其實能更快抓到某個缺陷,而且每三次迭代測試一次,比每次迭代都測試提供了更好的回饋。專案經理在開始下一個模組之前應該怎麼做?
+
+**選項**
+
+- (a) Immediately document these lessons and adjust the approach for the next module before development begins. / 立刻記錄這些經驗,並在下一個模組開發前就調整做法 ✅ **正解**
+- (b) Wait until the full project retrospective at the end to document these lessons comprehensively. / 等到專案結束時的完整回顧會議再一併記錄這些經驗
+- (c) Continue with the current approach since the team will naturally improve on their own. / 維持現有做法,因為團隊自然會慢慢進步
+- (d) Only apply these lessons if the same exact defect happens again. / 只有在完全一樣的缺陷再次發生時才套用這些經驗
+
+**詳解**
+
+回饋循環的價值在於盡快把新學到的經驗應用到接下來的工作,而不是把所有經驗都留到專案結束才一次處理。當團隊在完成一個模組後就發現具體、可行動的流程改善點時,應該立刻記錄並在下一個模組開始前調整做法,才能持續提升品質、減少重工,並確保交付持續貼近專案目標。
+
+---
+
+### Q121. `gov-116` — 單選題
+
+**題目 ID**: `gov-116`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: During your weekly status meeting, the project sponsor mentions that due to new regulatory requirements, the project timeline needs to be accelerated by one month to meet a compliance deadline. The sponsor states, "This is critical for the business and needs to happen." What should you do NEXT?
+- 中: 在每週狀態會議上,專案贊助人提到因為新的法規要求,專案時程需要提前一個月以符合合規期限。贊助人表示:「這對公司來說至關重要,必須完成。」你接下來應該怎麼做?
+
+**選項**
+
+- (a) Begin working with the team immediately to develop a compressed schedule that meets the sponsor's requirements. / 立刻與團隊合作,擬定符合贊助人要求的壓縮時程
+- (b) Ask the sponsor to submit a formal change request detailing the regulatory requirements and timeline changes before proceeding with any schedule analysis. / 請贊助人先提交正式變更請求,詳述法規要求與時程異動內容,之後才進行時程分析 ✅ **正解**
+- (c) Analyze the current schedule to identify opportunities for compression and present options to the sponsor for their decision. / 分析目前時程找出可壓縮的機會,再把選項提交給贊助人決定
+- (d) Schedule a follow-up meeting with the sponsor and key stakeholders to discuss the impact of accelerating the timeline. / 安排與贊助人和主要利害關係人的後續會議,討論加速時程的影響
+
+**詳解**
+
+即使變更來自贊助人這樣的高權力利害關係人,或理由聽起來顯然必要(如法規合規),都必須依循正式的變更管制流程:先取得正式的變更請求,才能據以進行影響分析與決策,不能因為對方位階高或理由急迫就跳過流程直接動手壓縮時程或私下分析。
+
+---
+
+### Q122. `gov-117` — 單選題
+
+**題目 ID**: `gov-117`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: You receive a change request from the marketing team to add a social media integration feature to your mobile app project. The request seems straightforward and your lead developer mentions it would be "easy to add," estimating about 2 days of work. What should you do?
+- 中: 你收到行銷團隊提出的變更請求,想在行動 App 專案裡加入社群媒體整合功能。這個請求看起來很單純,你的技術主管也表示「很容易加」,估計約 2 天工作量。你應該怎麼做?
+
+**選項**
+
+- (a) Approve the change request immediately since it's low-risk and the team has done similar work before. / 立刻核准這項變更請求,因為風險低且團隊做過類似的事
+- (b) Ask the marketing team to wait until the next change control board meeting to maintain proper governance. / 請行銷團隊等到下一次變更管制委員會會議,以維持治理程序
+- (c) Conduct a thorough impact assessment of the change request on scope, schedule, cost, quality, and risk before making any decisions. / 在做出任何決定前,先針對範疇、時程、成本、品質與風險做完整的影響評估 ✅ **正解**
+- (d) Since it's urgent and seems simple, implement the feature now and document the change retroactively. / 因為看起來急迫又單純,先實作這項功能,之後再補記錄變更
+
+**詳解**
+
+看起來「容易」的變更,往往藏著表面看不到的複雜度或下游影響,唯有透過系統性的影響評估(範疇、時程、成本、品質、風險)才能真正發現;不該因為聽起來簡單就直接核准或先做再補文件,單純要求對方等下次會議也不算真正完成評估這個步驟。
+
+---
+
+### Q123. `gov-118` — 單選題
+
+**題目 ID**: `gov-118`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**所屬案例**：`cs-a`
+
+**案例情境 EN**
+
+A project manager is leading a 14-month supply chain management system integration for a mid-sized apparel retailer. The project sponsor, the company's Chief Operating Officer, is under pressure from the board to reduce warehouse fulfillment delays before the holiday season. The approved scope covers inventory synchronization, vendor order automation, and staff training across two distribution centers.
+
+Six months into execution, the COO asks the team to add a real-time freight-tracking dashboard that was explicitly excluded from the approved scope, calling it a small addition that does not need formal review. The project manager estimates the dashboard would require four additional weeks and $60,000 in unbudgeted development cost.
+
+The COO has since started attending the team's biweekly working sessions directly and assigning tasks to developers without going through the project manager. When the project manager raised the concern, the COO responded that the holiday deadline is fixed and the team should focus on results rather than process. The project manager has noted the COO's direct task assignments in personal meeting notes but has not taken further action. With the holiday deadline approaching and developers receiving conflicting instructions from the project manager and the COO, the project manager must decide how to proceed.
+
+**案例情境 中**
+
+一位專案經理正在為一家中型服飾零售商執行一項為期14個月的供應鏈管理系統整合專案。專案贊助人,也就是公司的營運長,正承受董事會的壓力,必須在假日銷售旺季前降低倉儲出貨延誤。已核准的範疇涵蓋庫存同步、供應商訂單自動化,以及兩個配送中心的員工訓練。
+
+專案執行到第六個月時,營運長要求團隊加入一個即時貨運追蹤儀表板,這項功能明確被排除在已核准範疇之外,營運長稱這只是個小增項,不需要正式審查。專案經理估計這個儀表板需要額外四週時間與 $60,000 未編列預算的開發成本。
+
+此後,營運長開始直接出席團隊的雙週工作會議,並跳過專案經理直接指派任務給開發人員。當專案經理提出疑慮時,營運長回應假日截止日期不能更動,團隊應該專注在成果而非流程上。專案經理已經在個人會議筆記中記下營運長直接指派任務的情況,但尚未採取進一步行動。隨著假日截止日期逼近,開發人員同時收到專案經理與營運長互相矛盾的指示,專案經理必須決定該如何處理。
+
+**題幹**
+
+- EN: The project manager has noted the COO's direct task assignments in personal meeting notes but has not recorded it in any formal project document. What is the appropriate project document to formally capture this situation?
+- 中: 專案經理已經在個人會議筆記中記下營運長直接指派任務的情況,但尚未記錄在任何正式專案文件裡。什麼才是正式記錄這個狀況的合適文件?
+
+**選項**
+
+- (a) The risk register / 風險登錄冊
+- (b) The change log / 變更日誌
+- (c) The issue log / 議題日誌 ✅ **正解**
+- (d) The lessons learned register / 經驗學習登錄冊
+
+**詳解**
+
+營運長跳過專案經理直接指派任務,這件事已經正在發生,屬於議題(issue)而非風險(尚未發生的不確定事件),應該記錄進議題日誌,由議題日誌追蹤問題本身、指派負責人並監控解決進度。風險登錄冊記錄的是尚未發生的不確定事件;變更日誌追蹤的是範疇/時程/成本基準的核准或駁回變更,營運長的行為不是對基準的變更;經驗學習登錄冊則是留給未來專案參考的知識,不適合用來處理正在發生的問題。
+
+---
+
+### Q124. `gov-119` — 單選題
+
+**題目 ID**: `gov-119`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**所屬案例**：`cs-a`
+
+**案例情境 EN**
+
+A project manager is leading a 14-month supply chain management system integration for a mid-sized apparel retailer. The project sponsor, the company's Chief Operating Officer, is under pressure from the board to reduce warehouse fulfillment delays before the holiday season. The approved scope covers inventory synchronization, vendor order automation, and staff training across two distribution centers.
+
+Six months into execution, the COO asks the team to add a real-time freight-tracking dashboard that was explicitly excluded from the approved scope, calling it a small addition that does not need formal review. The project manager estimates the dashboard would require four additional weeks and $60,000 in unbudgeted development cost.
+
+The COO has since started attending the team's biweekly working sessions directly and assigning tasks to developers without going through the project manager. When the project manager raised the concern, the COO responded that the holiday deadline is fixed and the team should focus on results rather than process. The project manager has noted the COO's direct task assignments in personal meeting notes but has not taken further action. With the holiday deadline approaching and developers receiving conflicting instructions from the project manager and the COO, the project manager must decide how to proceed.
+
+**案例情境 中**
+
+一位專案經理正在為一家中型服飾零售商執行一項為期14個月的供應鏈管理系統整合專案。專案贊助人,也就是公司的營運長,正承受董事會的壓力,必須在假日銷售旺季前降低倉儲出貨延誤。已核准的範疇涵蓋庫存同步、供應商訂單自動化,以及兩個配送中心的員工訓練。
+
+專案執行到第六個月時,營運長要求團隊加入一個即時貨運追蹤儀表板,這項功能明確被排除在已核准範疇之外,營運長稱這只是個小增項,不需要正式審查。專案經理估計這個儀表板需要額外四週時間與 $60,000 未編列預算的開發成本。
+
+此後,營運長開始直接出席團隊的雙週工作會議,並跳過專案經理直接指派任務給開發人員。當專案經理提出疑慮時,營運長回應假日截止日期不能更動,團隊應該專注在成果而非流程上。專案經理已經在個人會議筆記中記下營運長直接指派任務的情況,但尚未採取進一步行動。隨著假日截止日期逼近,開發人員同時收到專案經理與營運長互相矛盾的指示,專案經理必須決定該如何處理。
+
+**題幹**
+
+- EN: Based on the details provided, which development approach is the project using?
+- 中: 依據上述細節,這個專案採用的是哪一種開發方法?
+
+**選項**
+
+- (a) Agile / 敏捷型
+- (b) Hybrid / 混合型
+- (c) Incremental / 增量型
+- (d) Predictive / 預測型 ✅ **正解**
+
+**詳解**
+
+情境中的已核准範疇基準、明確排除在範疇外的功能項目、以及依時程與成本評估變更影響的做法,都是計畫驅動(plan-driven)環境的特徵,對應預測型(瀑布式)開發方法。情境裡沒有出現任何敏捷指標(如迭代交付週期、產品待辦清單、自組織團隊),混合型也就無從談起;增量描述的是交付物釋出的方式而非管理方法本身,情境中也沒有分階段增量釋出的證據。
+
+---
+
+### Q125. `gov-120` — 單選題
+
+**題目 ID**: `gov-120`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**所屬案例**：`cs-a`
+
+**案例情境 EN**
+
+A project manager is leading a 14-month supply chain management system integration for a mid-sized apparel retailer. The project sponsor, the company's Chief Operating Officer, is under pressure from the board to reduce warehouse fulfillment delays before the holiday season. The approved scope covers inventory synchronization, vendor order automation, and staff training across two distribution centers.
+
+Six months into execution, the COO asks the team to add a real-time freight-tracking dashboard that was explicitly excluded from the approved scope, calling it a small addition that does not need formal review. The project manager estimates the dashboard would require four additional weeks and $60,000 in unbudgeted development cost.
+
+The COO has since started attending the team's biweekly working sessions directly and assigning tasks to developers without going through the project manager. When the project manager raised the concern, the COO responded that the holiday deadline is fixed and the team should focus on results rather than process. The project manager has noted the COO's direct task assignments in personal meeting notes but has not taken further action. With the holiday deadline approaching and developers receiving conflicting instructions from the project manager and the COO, the project manager must decide how to proceed.
+
+**案例情境 中**
+
+一位專案經理正在為一家中型服飾零售商執行一項為期14個月的供應鏈管理系統整合專案。專案贊助人,也就是公司的營運長,正承受董事會的壓力,必須在假日銷售旺季前降低倉儲出貨延誤。已核准的範疇涵蓋庫存同步、供應商訂單自動化,以及兩個配送中心的員工訓練。
+
+專案執行到第六個月時,營運長要求團隊加入一個即時貨運追蹤儀表板,這項功能明確被排除在已核准範疇之外,營運長稱這只是個小增項,不需要正式審查。專案經理估計這個儀表板需要額外四週時間與 $60,000 未編列預算的開發成本。
+
+此後,營運長開始直接出席團隊的雙週工作會議,並跳過專案經理直接指派任務給開發人員。當專案經理提出疑慮時,營運長回應假日截止日期不能更動,團隊應該專注在成果而非流程上。專案經理已經在個人會議筆記中記下營運長直接指派任務的情況,但尚未採取進一步行動。隨著假日截止日期逼近,開發人員同時收到專案經理與營運長互相矛盾的指示,專案經理必須決定該如何處理。
+
+**題幹**
+
+- EN: The COO has requested the addition of a freight-tracking dashboard, claiming it does not need formal review. What should the project manager do?
+- 中: 營運長要求加入貨運追蹤儀表板,並宣稱不需要正式審查。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Comply with the COO's request since the sponsor has the authority to approve change requests. / 依營運長的要求辦理,因為贊助人有權核准變更請求
+- (b) Submit a change request to formally evaluate the addition through the integrated change control process. / 提交變更請求,透過整合變更管制流程正式評估這項增項 ✅ **正解**
+- (c) Refuse the addition and remind the COO that the dashboard was explicitly excluded from the approved scope. / 拒絕這項增項,並提醒營運長儀表板已明確被排除在核准範疇之外
+- (d) Negotiate with the COO to informally trade away another scope item to accommodate the addition. / 與營運長私下協商,用拿掉另一項範疇項目來換取這項增項
+
+**詳解**
+
+不論變更看起來多小、也不論提出者的職位多高,任何對已核准範疇基準的變更都必須透過整合變更管制流程正式評估;提交變更請求能確保這項增項對範疇、時程、成本的影響被正式評估,並交由適當的決策者核准或駁回。私下同意會繞過整合變更管制流程,贊助人有核准變更的職權不代表可以省略正式提交變更請求這個步驟;直接拒絕誤解了專案經理的角色(職責是確保變更被正式評估,不是逕自阻擋);私下用其他項目交換一樣是在沒有正式變更請求的情況下修改基準。
+
+---
+
+### Q126. `gov-121` — 單選題
+
+**題目 ID**: `gov-121`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**所屬案例**：`cs-a`
+
+**案例情境 EN**
+
+A project manager is leading a 14-month supply chain management system integration for a mid-sized apparel retailer. The project sponsor, the company's Chief Operating Officer, is under pressure from the board to reduce warehouse fulfillment delays before the holiday season. The approved scope covers inventory synchronization, vendor order automation, and staff training across two distribution centers.
+
+Six months into execution, the COO asks the team to add a real-time freight-tracking dashboard that was explicitly excluded from the approved scope, calling it a small addition that does not need formal review. The project manager estimates the dashboard would require four additional weeks and $60,000 in unbudgeted development cost.
+
+The COO has since started attending the team's biweekly working sessions directly and assigning tasks to developers without going through the project manager. When the project manager raised the concern, the COO responded that the holiday deadline is fixed and the team should focus on results rather than process. The project manager has noted the COO's direct task assignments in personal meeting notes but has not taken further action. With the holiday deadline approaching and developers receiving conflicting instructions from the project manager and the COO, the project manager must decide how to proceed.
+
+**案例情境 中**
+
+一位專案經理正在為一家中型服飾零售商執行一項為期14個月的供應鏈管理系統整合專案。專案贊助人,也就是公司的營運長,正承受董事會的壓力,必須在假日銷售旺季前降低倉儲出貨延誤。已核准的範疇涵蓋庫存同步、供應商訂單自動化,以及兩個配送中心的員工訓練。
+
+專案執行到第六個月時,營運長要求團隊加入一個即時貨運追蹤儀表板,這項功能明確被排除在已核准範疇之外,營運長稱這只是個小增項,不需要正式審查。專案經理估計這個儀表板需要額外四週時間與 $60,000 未編列預算的開發成本。
+
+此後,營運長開始直接出席團隊的雙週工作會議,並跳過專案經理直接指派任務給開發人員。當專案經理提出疑慮時,營運長回應假日截止日期不能更動,團隊應該專注在成果而非流程上。專案經理已經在個人會議筆記中記下營運長直接指派任務的情況,但尚未採取進一步行動。隨著假日截止日期逼近,開發人員同時收到專案經理與營運長互相矛盾的指示,專案經理必須決定該如何處理。
+
+**題幹**
+
+- EN: The COO continues to dismiss the project manager's concerns and directs developers directly. What should the project manager do?
+- 中: 營運長持續無視專案經理的疑慮,並直接指揮開發人員。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Escalate the matter to the project steering committee or equivalent governing body responsible for project oversight. / 把這件事上報給專案指導委員會或負責監督的對等治理機構 ✅ **正解**
+- (b) Escalate the concern directly to the board of directors since only the board can override the COO. / 直接把疑慮上報給董事會,因為只有董事會能夠推翻營運長
+- (c) Continue documenting the behavior and raise it at the next scheduled status meeting. / 繼續記錄這個行為,並在下次排定的狀態會議上提出
+- (d) Report the COO to the developers' functional managers for corrective action. / 把營運長的行為回報給開發人員的職能經理,要求採取矯正行動
+
+**詳解**
+
+當贊助人或高階主管破壞專案經理的職權、繞過既有治理架構時,專案經理應該把問題上報給適當的專案治理機構(如指導委員會或專案董事會),這是處理贊助人越權干預這類治理問題的正確途徑。直接跳過中間層級找董事會,略過了適當的升級管道;情況已經被記錄且已經提出過疑慮,再等下次排定會議太過被動,無法即時處理正在發生的混亂;開發人員的職能經理無權處理營運長違反專案治理的行為。
+
+---
+
+### Q127. `gov-122` — 單選題
+
+**題目 ID**: `gov-122`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**所屬案例**：`cs-a`
+
+**案例情境 EN**
+
+A project manager is leading a 14-month supply chain management system integration for a mid-sized apparel retailer. The project sponsor, the company's Chief Operating Officer, is under pressure from the board to reduce warehouse fulfillment delays before the holiday season. The approved scope covers inventory synchronization, vendor order automation, and staff training across two distribution centers.
+
+Six months into execution, the COO asks the team to add a real-time freight-tracking dashboard that was explicitly excluded from the approved scope, calling it a small addition that does not need formal review. The project manager estimates the dashboard would require four additional weeks and $60,000 in unbudgeted development cost.
+
+The COO has since started attending the team's biweekly working sessions directly and assigning tasks to developers without going through the project manager. When the project manager raised the concern, the COO responded that the holiday deadline is fixed and the team should focus on results rather than process. The project manager has noted the COO's direct task assignments in personal meeting notes but has not taken further action. With the holiday deadline approaching and developers receiving conflicting instructions from the project manager and the COO, the project manager must decide how to proceed.
+
+**案例情境 中**
+
+一位專案經理正在為一家中型服飾零售商執行一項為期14個月的供應鏈管理系統整合專案。專案贊助人,也就是公司的營運長,正承受董事會的壓力,必須在假日銷售旺季前降低倉儲出貨延誤。已核准的範疇涵蓋庫存同步、供應商訂單自動化,以及兩個配送中心的員工訓練。
+
+專案執行到第六個月時,營運長要求團隊加入一個即時貨運追蹤儀表板,這項功能明確被排除在已核准範疇之外,營運長稱這只是個小增項,不需要正式審查。專案經理估計這個儀表板需要額外四週時間與 $60,000 未編列預算的開發成本。
+
+此後,營運長開始直接出席團隊的雙週工作會議,並跳過專案經理直接指派任務給開發人員。當專案經理提出疑慮時,營運長回應假日截止日期不能更動,團隊應該專注在成果而非流程上。專案經理已經在個人會議筆記中記下營運長直接指派任務的情況,但尚未採取進一步行動。隨著假日截止日期逼近,開發人員同時收到專案經理與營運長互相矛盾的指示,專案經理必須決定該如何處理。
+
+**題幹**
+
+- EN: What should the project manager have done at the start of the project to prevent the situation described in the case study?
+- 中: 專案經理在專案一開始應該做什麼,才能預防案例中描述的這種狀況?
+
+**選項**
+
+- (a) Scheduled regular status meetings with the COO to maintain ongoing alignment. / 安排與營運長的定期狀態會議,維持持續的對齊
+- (b) Identified sponsor interference as a risk and developed a mitigation strategy during planning. / 在規劃階段把贊助人干預識別為風險,並擬定緩解策略
+- (c) Established a stakeholder engagement plan that defined the COO's role and formal decision-making process. / 建立利害關係人參與計畫,明確定義營運長的角色與正式決策流程 ✅ **正解**
+- (d) Ensured the COO reviewed and signed off on the change control process. / 確保營運長審閱並簽署變更管制流程
+
+**詳解**
+
+在專案一開始就主動進行利害關係人參與規劃,能明確界定贊助人角色的邊界、溝通期望與正式決策職權,降低日後贊助人越權干預的模糊空間,也讓專案經理在邊界被跨越時有明確的依據可以引用。定期會議只是維持接觸,若沒有明確的角色與決策協定,頻繁互動本身無法防止越權;把贊助人干預列為風險只是承認可能性,仍屬被動,主動的利害關係人參與規劃才能真正預防問題發生;確保簽署變更管制流程只處理雙方關係的一個面向,無法建立防範這種狀況所需的整體溝通與決策架構。
+
+---
+
+### Q128. `gov-123` — 多選題
+
+**題目 ID**: `gov-123`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**所屬案例**：`cs-a`
+
+**案例情境 EN**
+
+A project manager is leading a 14-month supply chain management system integration for a mid-sized apparel retailer. The project sponsor, the company's Chief Operating Officer, is under pressure from the board to reduce warehouse fulfillment delays before the holiday season. The approved scope covers inventory synchronization, vendor order automation, and staff training across two distribution centers.
+
+Six months into execution, the COO asks the team to add a real-time freight-tracking dashboard that was explicitly excluded from the approved scope, calling it a small addition that does not need formal review. The project manager estimates the dashboard would require four additional weeks and $60,000 in unbudgeted development cost.
+
+The COO has since started attending the team's biweekly working sessions directly and assigning tasks to developers without going through the project manager. When the project manager raised the concern, the COO responded that the holiday deadline is fixed and the team should focus on results rather than process. The project manager has noted the COO's direct task assignments in personal meeting notes but has not taken further action. With the holiday deadline approaching and developers receiving conflicting instructions from the project manager and the COO, the project manager must decide how to proceed.
+
+**案例情境 中**
+
+一位專案經理正在為一家中型服飾零售商執行一項為期14個月的供應鏈管理系統整合專案。專案贊助人,也就是公司的營運長,正承受董事會的壓力,必須在假日銷售旺季前降低倉儲出貨延誤。已核准的範疇涵蓋庫存同步、供應商訂單自動化,以及兩個配送中心的員工訓練。
+
+專案執行到第六個月時,營運長要求團隊加入一個即時貨運追蹤儀表板,這項功能明確被排除在已核准範疇之外,營運長稱這只是個小增項,不需要正式審查。專案經理估計這個儀表板需要額外四週時間與 $60,000 未編列預算的開發成本。
+
+此後,營運長開始直接出席團隊的雙週工作會議,並跳過專案經理直接指派任務給開發人員。當專案經理提出疑慮時,營運長回應假日截止日期不能更動,團隊應該專注在成果而非流程上。專案經理已經在個人會議筆記中記下營運長直接指派任務的情況,但尚未採取進一步行動。隨著假日截止日期逼近,開發人員同時收到專案經理與營運長互相矛盾的指示,專案經理必須決定該如何處理。
+
+**題幹**
+
+- EN: The change request for the freight-tracking dashboard has been approved. Which of the following should the project manager update to reflect the approved change? (Select three.)
+- 中: 貨運追蹤儀表板的變更請求已經核准。以下哪三項是專案經理應該更新以反映這項核准變更的項目?(請選擇三項)
+
+**選項**
+
+- (a) The scope baseline / 範疇基準 ✅ **正解**
+- (b) The schedule baseline / 時程基準 ✅ **正解**
+- (c) The cost baseline / 成本基準 ✅ **正解**
+- (d) The project charter / 專案章程
+
+**詳解**
+
+已核准的變更必須在工作開始前反映到專案的範疇、時程與成本基準,確保專案往後是依正確的目標被衡量,也讓核准的變更正式併入專案管理計畫。專案章程是在專案啟動階段確立,不會因為範疇變更而更新,範疇變更所帶來的影響是反映在範疇基準,而不是回頭修改章程。
+
+---
+
+### Q129. `gov-124` — 單選題
+
+**題目 ID**: `gov-124`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is leading a healthcare facility construction project. The organization recently adopted a new data privacy framework that adds documentation and approval steps to several project processes. The lead contractor approaches the project manager and argues that the new requirements are unnecessary overhead that will delay delivery and asks whether they can be reduced or skipped for lower-risk activities. What should the project manager do?
+- 中: 一位專案經理正在領導一項醫療院所建設專案。組織最近採用了一套新的資料隱私框架,為多項專案流程增加了文件與核准步驟。主承包商向專案經理表示,這些新要求是不必要的額外負擔,將會拖延交付進度,並詢問是否可以針對風險較低的活動減少或省略這些步驟。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Calculate the cost savings from avoiding potential privacy violations and share the analysis with the team. / 計算避免潛在隱私違規可能節省的成本,並將分析結果分享給團隊
+- (b) Implement automated compliance tracking tools to minimize the time the team spends on documentation. / 導入自動化合規追蹤工具,盡量減少團隊花在文件作業上的時間
+- (c) Educate the team and contractors on the purpose of the privacy requirements to build understanding and alignment. / 教育團隊與承包商了解隱私要求背後的目的,以建立共識與一致性 ✅ **正解**
+- (d) Identify ways to integrate the compliance activities into existing workflows to reduce perceived disruption. / 找出方法將合規活動整合進現有工作流程,降低團隊感受到的干擾
+
+**詳解**
+
+當強制性要求遭遇抵制時,根本原因通常是團隊不理解這些要求存在的意義,教育正是直接處理這個根本原因的做法。如果沒有建立起共同的理解,無論是導入工具或調整工作流程,都只能暫時降低摩擦,底層的認知落差依然存在,日後很可能以抵抗或偷工減料的方式重新浮現。選項(a)提供的是財務論證,但財務誘因不能建立起對要求本身的真正理解,承包商如果只是因為划算才配合,遇到情況允許時仍然會想辦法規避。選項(b)的合規追蹤工具或許之後有幫助,但在利害關係人尚未認同與理解要求之前就先導入解決方案,順序本末倒置,承包商仍可能一邊使用工具一邊抵制。選項(d)把合規活動整合進既有流程同樣是有用的做法,但這應該在雙方已經取得共識之後才進行,不該在對方還在質疑要求有沒有必要時,就急著把要求簡化融入日常作業。
+
+---
+
+### Q130. `gov-125` — 單選題
+
+**題目 ID**: `gov-125`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A luxury hospitality brand is renovating its flagship hotel to reinforce its identity as a premium, heritage-focused destination. The renovation involves design decisions, contractor selections, and material choices across an 18-month project. The project manager must ensure all decisions and deliverables consistently reflect the brand identity throughout delivery. What should the project manager do?
+- 中: 一個高端飯店品牌正在翻新其旗艦飯店,以強化其作為高端、注重傳承特色目的地的品牌形象。這項為期18個月的翻新專案涉及設計決策、承包商選擇與材料選用。專案經理必須確保所有決策與交付成果在整個交付過程中,都能持續呼應品牌形象。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Hold weekly status meetings with contractors to communicate brand standards and collect feedback on progress. / 與承包商召開每週狀態會議,溝通品牌標準並蒐集進度回饋
+- (b) Schedule regular check-ins with the hotel's CEO to ensure executive alignment and facilitate high-level decision-making. / 安排與飯店執行長的定期會談,確保高層一致並促進高階決策
+- (c) Regularly compare design decisions, contractor outputs, and deliverables against the brand vision and standards documented during project initiation. / 定期將設計決策、承包商產出與交付成果,對照專案啟動階段所記錄的品牌願景與標準進行比對 ✅ **正解**
+- (d) Update the project charter whenever design preferences evolve to ensure documentation reflects the current brand direction. / 每當設計偏好有所變動時就更新專案章程,確保文件反映當前的品牌方向
+
+**詳解**
+
+在啟動階段建立的願景聲明與標準,是判斷專案是否達成目標的權威依據。要在整個交付期間持續確保一致性,關鍵機制是有系統地把進度與交付成果拿來對照這些既有文件,而不是單靠臨時溝通或仰賴高層治理就能做到。選項(a)每週與承包商開會固然能傳達期待,但這只是溝通,不等於建立起一套有系統的比對機制,一旦缺乏結構化的比對流程,執行結果仍然可能逐漸偏離標準而不被察覺。選項(b)與執行長的定期會談有助於高層治理與重大決策,但並非設計用來在工作層級逐項檢視具體的設計決策與交付成果是否符合已記錄的品牌願景。選項(d)的專案章程是啟動階段用來授權專案的文件,如果每次品牌偏好出現變動就去修改章程,反而會破壞章程原本應該提供的穩定基準功能,這是誤用了這份文件。
+
+---
+
+### Q131. `gov-126` — 單選題
+
+**題目 ID**: `gov-126`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is leading the third phase of a long-running infrastructure modernization program. Most of the current team joined recently and was not involved in the first two phases. Several significant architectural decisions were made during earlier phases that will affect current planning. What should the project team do first?
+- 中: 一位專案經理正在領導一項長期基礎建設現代化計畫(program)的第三階段。目前團隊中大多數成員都是最近才加入,並未參與前兩個階段。前兩個階段做出了幾項重大的架構決策,這些決策將會影響目前的規劃工作。專案團隊應該首先做什麼?
+
+**選項**
+
+- (a) Review the final deliverables from the earlier phases to understand what was built. / 檢視前幾個階段的最終交付成果,了解過去實際建置了什麼
+- (b) Review the program's documentation repository including phase reports, decision logs, and retrospectives. / 檢視計畫的文件庫,包括階段報告、決策日誌與回顧紀錄 ✅ **正解**
+- (c) Arrange meetings with team members who worked on the earlier phases to discuss their experiences directly. / 安排與參與過前幾個階段的團隊成員開會,直接討論他們的經驗
+- (d) Analyze the differences between the original program plan and what was actually delivered in each phase. / 分析原始計畫與各階段實際交付結果之間的差異
+
+**詳解**
+
+組織已經文件化的知識資產,是了解前幾個階段發生了什麼事、以及背後原因的主要來源。階段報告、決策日誌與回顧紀錄,以結構化且完整的形式保存了架構決策背後的考量與取捨,而且不需要依賴前任團隊成員是否還在或是否有空。選項(a)檢視最終交付成果只能看到「建置了什麼」,看不到當初做決策的理由、權衡與教訓,而這些正是文件庫能提供的內容。選項(c)找前團隊成員開會固然有幫助,但應該是在檢視現有文件之後的補充做法,畢竟前成員未必還在,個人記憶也不如正式紀錄可靠。選項(d)只比較原始計畫與實際交付結果,範圍過於狹窄,無法涵蓋計畫知識庫中完整的決策脈絡與經驗教訓。
+
+---
+
+### Q132. `gov-127` — 單選題
+
+**題目 ID**: `gov-127`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager at a pharmaceutical company is developing a governance framework for a new drug development program. Before building new governance structures, the project manager wants to leverage whatever existing guidance is available within the organization. What should the project manager do first?
+- 中: 一家製藥公司的專案經理,正在為一項新藥開發計畫建立治理框架。在建立新的治理架構之前,專案經理希望先善用組織內部既有的任何指引。專案經理應該首先做什麼?
+
+**選項**
+
+- (a) Research governance standards published by pharmaceutical regulatory bodies. / 研究製藥法規機構所發布的治理標準
+- (b) Review academic literature on governance best practices in regulated industries. / 檢閱受監管產業中關於治理最佳實務的學術文獻
+- (c) Review governance frameworks, policies, and templates used in previous drug development programs. / 檢視過去新藥開發計畫所使用的治理框架、政策與範本 ✅ **正解**
+- (d) Evaluate project management software platforms that can support governance tracking and reporting. / 評估能支援治理追蹤與報告的專案管理軟體平台
+
+**詳解**
+
+來自過去相似計畫的組織過程資產,是最直接可用的起點。這些資產包含組織已經開發並經過實務驗證的治理架構、政策與範本,不僅能節省時間,也能確保新的治理框架立足於組織內部已被證實可行的做法。選項(a)法規機構發布的標準屬於事業環境因素,也就是外部輸入,而題目明確要求的是「組織內部既有的指引」,並非外部規範。選項(b)學術文獻提供的是外部的最佳實務參考,同樣不是專案經理要優先善用的組織內部既有指引。選項(d)評估專案管理軟體平台是在支援治理的執行面,屬於實作工具,而不是治理框架內容本身的來源。
+
+---
+
+### Q133. `gov-128` — 單選題
+
+**題目 ID**: `gov-128`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A project manager is overseeing a software quality initiative. The operations director has asked the project manager to use six months of defect data to build a systematic approach to improving development processes. The approach must include diagnosing process gaps, piloting fixes, verifying their effectiveness, and making successful changes permanent. What should the project manager do?
+- 中: 一位專案經理正在負責一項軟體品質改善計畫。營運總監要求專案經理運用六個月的缺陷資料,建立一套有系統的方法來改善開發流程。這套方法必須包含診斷流程缺口、試行修正方案、驗證成效,以及將成功的變更予以制度化。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Set SMART objectives tied to defect reduction targets for each development team. / 為每個開發團隊設定與缺陷減少目標相連結的SMART目標
+- (b) Embed the plan-do-check-act cycle into the development workflow to systematically diagnose, test, verify, and institutionalize process improvements. / 將PDCA(計畫-執行-查核-行動)循環嵌入開發工作流程,有系統地診斷、測試、驗證並制度化流程改善 ✅ **正解**
+- (c) Benchmark the team's defect rates against industry standards to identify where improvement efforts should be focused. / 將團隊的缺陷率與產業標準進行標竿比較,找出應該聚焦改善的方向
+- (d) Apply root cause analysis whenever a defect spike occurs to prevent the same problems from recurring. / 每當缺陷數量激增時就進行根本原因分析,以防止同樣的問題再次發生
+
+**詳解**
+
+營運總監描述的四項活動,恰好對應PDCA循環的四個步驟:診斷流程缺口對應「計畫(Plan)」,試行修正方案對應「執行(Do)」,驗證成效對應「查核(Check)」,將變更予以制度化對應「行動(Act)」。把這個循環嵌入工作流程,正好能建立起這項計畫所需要的、有系統且可重複執行的改善結構。選項(a)設定SMART目標能建立可衡量的目標,但並沒有涵蓋營運總監所指定的那些活動內容。選項(c)標竿比較能找出相對於外部標準的落差所在,但無法建立起用來測試與制度化修正方案的循環機制。選項(d)根本原因分析是一種被動式工具,只在問題發生時才啟動,處理的是個別事件,而不是把主動、持續的改善文化嵌入到日常工作流程之中。
+
+---
+
+### Q134. `gov-129` — 單選題
+
+**題目 ID**: `gov-129`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is overseeing a pharmaceutical product development project. The core research team and a remote regulatory compliance team frequently exchange updated technical documents, and both teams must approve documents before submission. Delayed approvals trigger costly timeline extensions. Which practice would assure the project manager that all documents are current, available, and properly approved?
+- 中: 一位專案經理正在負責一項製藥產品開發專案。核心研究團隊與一個遠端的法規合規團隊經常互相交換更新過的技術文件,而且兩個團隊都必須核准文件之後才能送件。核准延遲會導致代價高昂的時程延長。哪一項做法能讓專案經理確信所有文件都是最新版本、可以取得、並且已經正確核准?
+
+**選項**
+
+- (a) Allow each team to develop their own document management system tailored to their workflow. / 讓每個團隊各自開發符合自身工作流程的文件管理系統
+- (b) Require each team member to maintain personal copies of all relevant documents and flag updates to their team lead. / 要求每位團隊成員自行保管所有相關文件的個人副本,並將更新回報給團隊主管
+- (c) Assign the project sponsor to oversee a shared document repository and approve all version changes. / 指派專案贊助人負責監督共用文件庫,並核准所有版本變更
+- (d) Establish and oversee a single document registry and change control system that both teams access and use. / 建立並親自監督一套單一的文件登錄與變更管制系統,供兩個團隊共同存取使用 ✅ **正解**
+
+**詳解**
+
+由專案經理親自監督的單一文件登錄系統,能為兩個團隊建立起唯一的真實來源(single source of truth)。所有文件的版本、更新與核准都透過同一套系統流轉,這代表專案經理隨時都能確認文件是最新的,並且已經取得雙方核准,不會再因為版本不一致或追蹤上的落差而延誤。選項(a)讓兩個團隊各自打造符合自身偏好的系統,反而會造成版本不一致,一旦兩個團隊各自獨立管理文件,就沒有可靠的方法確認雙方使用的是同一個最新版本。選項(b)個人保管副本並回報團隊主管,文件會隨著時間逐漸分歧,而且回報主管的做法並不構成受控的系統,也無法讓專案經理掌握核准狀態的全貌。選項(c)把文件監督責任交給專案贊助人,等於把專案管理層級的職責加諸在一個執行層級的角色上,贊助人通常缺乏足夠的時間與作業層面的脈絡,難以進行文件層級的細部管控。
+
+---
+
+### Q135. `gov-130` — 單選題
+
+**題目 ID**: `gov-130`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A project manager is overseeing a commercial building renovation. During a contract document review, the project manager realizes the electrical contractor currently working on the project is not on the organization's approved vendor list. The contractor has been performing well and no issues have occurred. What should the project manager do first?
+- 中: 一位專案經理正在負責一項商業大樓翻新專案。在合約文件審查過程中,專案經理發現目前正在專案中工作的電力承包商,並不在組織的核准供應商名單上。這家承包商的表現一直很好,也沒有發生過任何問題。專案經理應該首先做什麼?
+
+**選項**
+
+- (a) Document the situation as a compliance risk and assess what corrective action may be needed. / 將此情況記錄為合規風險,並評估可能需要採取的矯正措施 ✅ **正解**
+- (b) Continue working with the vendor since no performance issues have occurred and raise the concern at the next scheduled project review. / 由於尚未出現任何績效問題,先繼續與這家供應商合作,並在下次排定的專案審查會議中提出這項疑慮
+- (c) Submit a change request to replace the vendor with one from the approved vendor list. / 提交變更請求,將這家供應商替換為核准名單上的供應商
+- (d) Halt work with the vendor until their approval status is formally resolved through the organization's vendor onboarding process. / 暫停與這家供應商的合作,直到其核准狀態透過組織的供應商審核流程正式解決為止
+
+**詳解**
+
+雖然目前沒有出現任何績效問題,但供應商是否在核准名單上,是一項獨立於績效表現之外的合規要求。先將這件事記錄為合規風險,並評估相關政策的影響,才能確保後續的應對方式是相稱且經過充分了解的。選項(b)因為績效表現良好就延後處理,等於把一項治理要求當成可有可無的選項,供應商是否核准是治理層面的義務,不會因為表現好壞而改變。選項(c)在情況都還沒被充分評估之前就直接提交變更請求要求換掉供應商,做法過於躁進,如果還有其他矯正途徑可以採用,換掉供應商未必是必要的做法。選項(d)在情況尚未被評估之前就直接暫停合作,同樣是不相稱的反應,在採取會打斷專案進行的行動之前,應該先了解暫停合作對合約與商業層面可能造成的衝擊。
+
+---
+
+### Q136. `gov-131` — 單選題
+
+**題目 ID**: `gov-131`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Halfway through a project, the project manager discovers that a deliverable accepted by the customer last month does not meet a documented quality requirement. The defect was missed during quality control. What should the project manager do first?
+- 中: 專案進行到一半時,專案經理發現上個月已經被客戶驗收的一項交付成果,其實並不符合文件所記載的品質要求。這個缺陷在品質管制階段被漏掉了。專案經理應該首先做什麼?
+
+**選項**
+
+- (a) Determine the root cause of why the defect was not detected. / 找出這個缺陷當初為什麼沒有被偵測出來的根本原因 ✅ **正解**
+- (b) Apologize to the customer and offer a discount on the contract. / 向客戶道歉,並在合約上提供折扣
+- (c) Quietly rework the deliverable before anyone else notices. / 在其他人發現之前,悄悄把交付成果重新做過
+- (d) Update the quality management plan to prevent future defects. / 更新品質管理計畫,以預防未來再發生類似缺陷
+
+**詳解**
+
+了解品質管制當初為什麼沒能攔截這個缺陷,是必要的第一步,因為根本原因會同時決定這項交付成果該如何補救、以及需要做哪些流程調整才能避免同樣的缺口再次發生。如果在還不了解問題的情況下就貿然行動,很可能會重蹈覆轍。選項(b)道歉並提供折扣,是在專案經理還沒搞清楚問題所在、甚至還不確定這樣的回應是否恰當之前,就直接跳到商業層面的讓步。選項(c)悄悄重做交付成果,等於對客戶隱瞞已知的品質問題,違反透明原則與專業責任。選項(d)更新品質管理計畫雖然是之後合理的步驟,但如果在根本原因還沒釐清之前就先動手修改,更新的內容很可能無法真正對症下藥,處理到真正造成問題的原因。
+
+---
+
+### Q137. `gov-132` — 單選題
+
+**題目 ID**: `gov-132`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A project manager introduces an AI chatbot that answers routine stakeholder questions regarding milestones, deliverables, and project status. During a steering committee meeting, several stakeholders state they did not realize AI was responding to many of their questions and express concern about how project information is being communicated. What should the project manager do?
+- 中: 一位專案經理導入了一個AI聊天機器人,用來回答利害關係人關於里程碑、交付成果與專案狀態的例行問題。在一次指導委員會會議中,幾位利害關係人表示他們並不知道自己先前有許多問題其實是由AI回覆的,並對專案資訊的溝通方式表達了疑慮。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Continue using the chatbot because the information provided is accurate. / 繼續使用這個聊天機器人,因為它提供的資訊是正確的
+- (b) Explain how AI supports project communications and when it is being used. / 說明AI如何協助專案溝通,以及在什麼情況下會使用AI ✅ **正解**
+- (c) Disable the chatbot until every stakeholder approves its use. / 停用這個聊天機器人,直到所有利害關係人都同意使用為止
+- (d) Limit AI responses to internal project team members only. / 將AI的回覆範圍限制在內部專案團隊成員之內
+
+**詳解**
+
+負責任地使用AI,前提是保持透明。利害關係人應該清楚了解AI在什麼時候、以什麼方式協助專案溝通,這樣才能維持大家對專案資訊的信任與信心。選項(a)資訊正確與否,並不能滿足透明度的要求,問題的核心是利害關係人不知情,而不是資訊本身是否準確。選項(c)要求所有利害關係人都先同意才能使用AI,這並不是負責任使用AI所必須具備的前提條件。選項(d)把AI的使用範圍限縮在內部團隊,並沒有真正解決利害關係人所提出的溝通疑慮,問題依然存在。
+
+---
+
+### Q138. `gov-133` — 單選題
+
+**題目 ID**: `gov-133`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A project manager is informed by a team member that a small but deliberate shortcut was taken on a safety-related deliverable to save time, and it was not reported. What should the project manager do?
+- 中: 一位團隊成員告訴專案經理,為了節省時間,在一項與安全相關的交付成果上刻意抄了一個小捷徑,而且這件事並沒有被回報。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Allow the shortcut to stand since the deliverable appears to function. / 因為交付成果看起來能正常運作,就讓這個抄捷徑的做法維持原樣
+- (b) Quietly correct the deliverable without involving anyone else. / 在不讓其他人知道的情況下,悄悄把交付成果修正過來
+- (c) Address the safety issue transparently and ensure it is corrected. / 公開透明地處理這項安全問題,並確保它被確實修正 ✅ **正解**
+- (d) Reprimand the team member and consider the matter closed. / 訓誡這位團隊成員,並視此事已經處理完畢
+
+**詳解**
+
+安全與誠信是專案經理不可妥協的專業責任。專案經理必須公開處理這個問題,確保交付成果被修正到應有的標準,並做適當的紀錄,不論當初抄捷徑的原因是不是時間壓力,都不能作為理由。選項(a)讓這個抄捷徑的做法維持原樣,等於接受了一項刻意對安全所做的妥協,這是不能被接受的。選項(b)悄悄修正,等於隱瞞了一項本應公開透明處理的安全問題,而且這類事情很可能後續還是需要對外揭露。選項(d)訓誡團隊成員並視為結案,懲罰了當事人,卻沒有確認這項攸關安全的交付成果是否真的已經被修正過來。
+
+---
+
+### Q139. `gov-134` — 單選題
+
+**題目 ID**: `gov-134`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is implementing a new customs clearance system for an international logistics company. During planning, the team learns that the customs authority might revise electronic filing regulations within the next six months, but nothing has been officially announced and it is unclear whether the change will actually happen. Where should the project manager record this uncertainty?
+- 中: 一位專案經理正在為一家跨國物流公司建置新的通關作業系統。在規劃階段,團隊得知海關總署可能在未來六個月內調整電子申報規定,但目前尚未正式公告任何細節,也不確定是否真的會實施。專案經理應該把這項不確定性記錄在哪一份文件?
+
+**選項**
+
+- (a) The issue log / 議題日誌
+- (b) The risk register / 風險登錄冊 ✅ **正解**
+- (c) The change log / 變更日誌
+- (d) The lessons learned register / 經驗學習登錄冊
+
+**詳解**
+
+這是一個尚未發生、且高度不確定的未來事件,屬於風險而非已經發生的問題,因此應該記錄進風險登錄冊,並展開後續的風險評估與因應規劃。議題日誌記錄的是已經實際發生且需要處理的問題;變更日誌追蹤的是已核准或駁回的範疇/時程/成本基準變更,這裡並沒有任何變更請求;經驗學習登錄冊保存的是可供未來專案參考的知識,而不是用來追蹤中的不確定事件。
+
+---
+
+### Q140. `gov-135` — 拖拉配對題
+
+**題目 ID**: `gov-135`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each of the following 4 situations to the project document that would most appropriately be used to record it.
+- 中: 請將下列 4 種情境拖曳配對到最適合用來記錄的專案文件。
+
+**配對項目(拖曳來源)**
+
+- p1: A key supplier just informed the team that a critical component shipment will be delayed by three weeks, and the delay is already confirmed. / 一位主要供應商剛通知團隊,一項關鍵零件的出貨將延遲三週,而且這項延誤已經確定發生
+- p2: There is a possibility that a new export tariff could be introduced next year, but nothing has been confirmed yet. / 明年有可能會實施一項新的出口關稅,但目前尚未確定
+- p3: The change control board approved an addition to the project scope last week. / 變更控制委員會上週核准了一項範疇增項
+- p4: At the end of the project, the team documented what worked well and what should be improved for future similar projects. / 專案結束時,團隊記錄下哪些做法成效良好、哪些地方應該在未來類似專案中改進
+
+**選項池(拖曳目標)**
+
+- c1: Issue log / 議題日誌
+- c2: Risk register / 風險登錄冊
+- c3: Change log / 變更日誌
+- c4: Lessons learned register / 經驗學習登錄冊
+
+**✅ 正確配對**
+
+- p1 → c1: A key supplier just informed the team that a critical component shipment will be delayed by three weeks, and the delay is already confirmed. → Issue log（一位主要供應商剛通知團隊,一項關鍵零件的出貨將延遲三週,而且這項延誤已經確定發生 → 議題日誌）
+- p2 → c2: There is a possibility that a new export tariff could be introduced next year, but nothing has been confirmed yet. → Risk register（明年有可能會實施一項新的出口關稅,但目前尚未確定 → 風險登錄冊）
+- p3 → c3: The change control board approved an addition to the project scope last week. → Change log（變更控制委員會上週核准了一項範疇增項 → 變更日誌）
+- p4 → c4: At the end of the project, the team documented what worked well and what should be improved for future similar projects. → Lessons learned register（專案結束時,團隊記錄下哪些做法成效良好、哪些地方應該在未來類似專案中改進 → 經驗學習登錄冊）
+
+**詳解**
+
+四份文件對應四種不同性質的情境。已經確定發生且需要處理的供應商延誤屬於議題,應記錄進議題日誌;尚未發生、也不確定是否會發生的關稅政策屬於風險,應記錄進風險登錄冊;已核准的範疇變更應記錄進變更日誌,用來追蹤基準的異動歷程;專案結束時整理出的經驗與教訓是為了讓未來類似專案參考,應記錄進經驗學習登錄冊。這四份文件的關鍵差異在於:事情是否已經發生、是否確定、以及是否涉及基準變更。
+
+---
+
+### Q141. `gov-136` — 單選題
+
+**題目 ID**: `gov-136`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A fintech company is simultaneously developing a mobile payment app and a companion physical point-of-sale device. The software team works in two-week sprints and continuously delivers features from a prioritized product backlog. The hardware team must follow formal regulatory testing and sign-off gates, manufacturing only after an approved technical baseline passes certification review. Which development approach is this project using?
+- 中: 一家金融科技公司同時開發一款行動支付應用程式,以及搭配使用的實體收款裝置。軟體團隊以兩週為一個衝刺週期,依據產品待辦清單持續交付功能;硬體團隊則必須依循正式的法規檢測與簽核關卡,在核准的技術基準通過驗證機構審查後才能量產。這個專案採用的是哪一種開發方法?
+
+**選項**
+
+- (a) Purely agile / 純敏捷型
+- (b) Hybrid / 混合型 ✅ **正解**
+- (c) Purely predictive / 純預測型
+- (d) Incremental / 增量型
+
+**詳解**
+
+軟體團隊的衝刺週期與產品待辦清單是敏捷元素的特徵,硬體團隊的正式基準審查與法規簽核關卡則是預測式(計畫驅動)元素的特徵。同一個專案裡,不同元件依各自的特性採用不同的開發方法,這正是混合型開發方法的定義。純敏捷型無法涵蓋硬體端的正式基準審查要求;純預測型無法涵蓋軟體端的衝刺與待辦清單;增量型描述的是分批釋出交付物的方式,而不是情境中依元件特性分別採用不同管理方法的組合模式。
+
+---
+
+### Q142. `gov-137` — 單選題
+
+**題目 ID**: `gov-137`
+
+難度: `easy` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An independent game studio is developing a mobile game. The team is a small, self-organizing group that works from a prioritized product backlog, completes a sprint every two weeks, holds a retrospective after each sprint, and adjusts upcoming sprint content based on real-time player feedback. Which development approach best fits this project?
+- 中: 一家獨立遊戲工作室正在開發一款手機遊戲。團隊是一個自組織的小型團隊,依據優先順序排列的產品待辦清單進行開發,每兩週完成一個衝刺,並在每次衝刺結束後召開回顧會議,依玩家的即時回饋調整下一個衝刺要交付的功能。這個專案最符合哪一種開發方法?
+
+**選項**
+
+- (a) Agile / 敏捷型 ✅ **正解**
+- (b) Predictive / 預測型
+- (c) Hybrid / 混合型
+- (d) Waterfall / 瀑布型
+
+**詳解**
+
+自組織團隊、依優先順序排列的產品待辦清單、固定長度的衝刺、衝刺回顧,以及依回饋快速調整交付內容,都是敏捷方法的核心特徵。情境中沒有出現任何已核准的固定範疇基準或正式階段審查等預測式元素,因此不構成混合型;瀑布型是預測型的另一種說法,與情境描述的迭代交付方式相反。
+
+---
+
+### Q143. `gov-138` — 單選題
+
+**題目 ID**: `gov-138`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is leading the installation of a new onboard entertainment system across a cruise line's fleet. The captain of one ship urgently requests adding a live sports streaming feature before the ship departs for peak season in two weeks, stating there is no time for a formal review. What should the project manager do?
+- 中: 一位專案經理正在負責為一家郵輪公司的船隊安裝新的船上娛樂系統。其中一艘船的船長要求緊急加入一項現場體育賽事直播串流功能,並表示因為船隻兩週後就要出航進入旺季,沒有時間走正式審查流程。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Implement the feature immediately given the time pressure, and submit a change request afterward. / 因為時間緊迫,先實施這項功能,之後再補提交變更請求
+- (b) Follow the integrated change control process to assess the impact on scope, schedule, and cost before implementing. / 依循整合變更管制流程,先評估這項增項對範疇、時程與成本的影響,再交由適當層級核准 ✅ **正解**
+- (c) Refuse the request since the captain is not the project sponsor and has no authority to request scope changes. / 拒絕這項要求,因為船長不是專案贊助人,沒有權力提出範疇變更
+- (d) Quietly ask the development team to fast-track the work through informal channels to avoid delaying departure. / 私下請開發團隊利用非正式管道加快開發,避免延誤出航時間
+
+**詳解**
+
+不論時間有多緊迫、提出者身分為何,任何對已核准範疇的變更都必須先透過整合變更管制流程進行正式評估,確認對範疇、時程、成本等各方面的影響後,再由適當的決策層級核准或駁回。先斬後奏會讓專案在缺乏正式評估的情況下承擔未知風險;直接以身分不符為由拒絕,忽略了這項需求仍然應該被正式提出與評估的可能性;透過非正式管道加快開發同樣是在規避正式的變更管制程序。
+
+---
+
+### Q144. `gov-139` — 多選題
+
+**題目 ID**: `gov-139`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is leading an equipment upgrade project at a semiconductor fab. The plant manager cites yield concerns and urgently demands the addition of an extra testing chamber, stating the request is non-negotiable. Regardless of who is requesting the change or how urgent it seems, which three actions should the project manager take before implementing it? (Select three.)
+- 中: 一位專案經理正在負責一家半導體廠的設備升級專案。廠長以良率問題為由,要求緊急加入一座額外的測試腔體,並表示這項要求沒有討論空間。不論這項變更的提出者職位多高、要求多麼緊急,專案經理在正式實施前應該採取以下哪三項做法?(請選擇三項)
+
+**選項**
+
+- (a) Submit a formal change request into the change control process. / 提交正式的變更請求,將這項增項納入變更管制流程 ✅ **正解**
+- (b) Assess the impact of the addition on scope, schedule, and cost. / 評估這項增項對範疇、時程與成本的影響 ✅ **正解**
+- (c) Obtain approval from the change control board or an equivalent authorized body. / 取得具備核准權限的變更控制委員會或相當層級的同意 ✅ **正解**
+- (d) Direct the team to begin procuring and installing the testing chamber right away to avoid delaying the yield fix. / 直接安排團隊開始採購與安裝測試腔體,以免耽誤良率改善時程
+
+**詳解**
+
+即使要求來自廠長且理由充分,任何範疇變更都必須透過正式的變更請求進入整合變更管制流程,評估對範疇、時程、成本的影響,並取得具備核准權限的機構或角色同意後才能實施。直接安排團隊開始採購與安裝,等於跳過了整個評估與核准程序,是必須避免的做法。
+
+---
+
+### Q145. `gov-140` — 單選題
+
+**題目 ID**: `gov-140`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is leading a hospital-wide electronic health record (EHR) rollout. The project sponsor, the hospital's CFO, has repeatedly bypassed the project manager, directly instructing nursing informatics staff and IT analysts to prioritize one department's configuration ahead of the agreed rollout sequence. The project manager already raised this with the CFO, who dismissed the concern, citing pressure to show quick wins to the board. What should the project manager do next?
+- 中: 一位專案經理正在負責一家醫院全院電子病歷系統的導入專案。專案贊助人,也就是財務長,近來屢次跳過專案經理,直接指示護理資訊人員與資訊分析師,優先處理某個科別的系統設定,打亂了原本議定的導入順序。專案經理已經向財務長反映這個問題,但財務長以需要儘快向董事會展示成果為由,不予理會。專案經理接下來應該怎麼做?
+
+**選項**
+
+- (a) Defer to the CFO's position and adjust the rollout sequence accordingly. / 尊重財務長的職位,配合調整導入順序
+- (b) Escalate the situation to the project steering committee or an equivalent governing body. / 把這個情況上報給專案指導委員會或相當的治理機構 ✅ **正解**
+- (c) Privately ask the informatics staff and analysts to quietly revert to the original sequence afterward. / 私下請護理資訊人員與資訊分析師之後再悄悄調整回原本的順序
+- (d) Wait until the next scheduled project review meeting to raise the issue. / 等到下一次排定的專案審查會議時,再把問題提出來討論
+
+**詳解**
+
+當贊助人持續繞過專案經理的職權,且已經直接反映卻未獲回應時,適當的做法是把這個治理問題上報給指導委員會或相當層級的治理機構,由具備裁量權的機構介入處理。單純配合會讓專案治理架構持續被破壞;私下要求人員之後再調整回來屬於陽奉陰違,不但沒有解決根本問題,也可能造成更大的混亂;被動等待下一次排定會議無法即時處理正在發生的衝突,可能讓混亂持續擴大。
+
+---
+
+### Q146. `gov-141` — 單選題
+
+**題目 ID**: `gov-141`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A telecom company is rolling out a 5G network across a metropolitan area in coordination with the city council. During execution, one council member frequently contacts field engineers directly to request site placement changes based on constituent complaints, bypassing both the project manager and the city's designated liaison role. What should the project manager have done at project initiation to prevent this?
+- 中: 一家電信公司正在都會區推動一項5G基地台布建專案,過程中需要與市議會協調。專案執行期間,一位市議員經常直接聯繫現場工程師,依居民陳情要求變更基地台設置地點,完全沒有透過專案經理或城市端指定的聯絡窗口。專案經理在專案一開始應該做什麼,才能預防這種狀況發生?
+
+**選項**
+
+- (a) Add a note in the project charter reminding council members not to contact engineers directly. / 在專案章程中加註提醒市議員不得直接聯繫工程師
+- (b) Establish a stakeholder engagement plan that clearly defines the council's role and the formal decision-making channel. / 建立利害關係人參與計畫,明確定義市議會與市議員在專案中的角色與正式的決策溝通管道 ✅ **正解**
+- (c) Hold a monthly community briefing so residents have a chance to voice concerns. / 安排每月一次的社區說明會,讓居民有機會表達意見
+- (d) Require all council members to sign a non-disclosure agreement. / 要求所有市議會成員簽署保密協議
+
+**詳解**
+
+在規劃階段建立利害關係人參與計畫,明確定義各方(包括市議會與個別議員)的角色、溝通管道與決策權限,能在問題發生前就先劃清界線,讓現場工程師與專案經理在被跨越界線時有明確依據可以援引。專案章程只是啟動階段的授權文件,不是用來規範個別利害關係人日常互動行為的工具;社區說明會有助於蒐集民意,但無法建立起規範議員與工程團隊互動方式的正式機制;保密協議處理的是資訊保密問題,與這裡的溝通管道混亂無關。
+
+---
+
+### Q147. `gov-142` — 單選題
+
+**題目 ID**: `gov-142`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: In a university campus renovation project, the change control board approved a change request last week to add solar panel arrays to the library roof. Which of the following documents should the project manager update to reflect this approved change?
+- 中: 一所大學的校園整修專案中,變更控制委員會上週核准了一項在圖書館屋頂加裝太陽能板陣列的變更請求。專案經理接下來應該更新以下哪一項文件,以反映這項已核准的變更?
+
+**選項**
+
+- (a) The project charter / 專案章程
+- (b) The scope baseline / 範疇基準 ✅ **正解**
+- (c) The stakeholder register / 利害關係人登錄冊
+- (d) The project business case / 專案商業論證
+
+**詳解**
+
+已核准的變更必須反映到範疇基準,連同相關的時程與成本基準一併更新,確保後續的專案績效衡量是以正確、最新的基準為依據。專案章程是啟動階段用來正式授權專案的文件,不會因為個別範疇變更而修改;利害關係人登錄冊記錄的是利害關係人的資訊與參與程度,與範疇變更無關;商業論證是用來說明專案存在理由與價值的文件,同樣不會因單一範疇增項而更新。
+
+---
+
+### Q148. `gov-143` — 多選題
+
+**題目 ID**: `gov-143`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: In an airport terminal expansion project, the change control board approved a change request to add two additional security screening lanes. Which three documents should the project manager update to reflect this approved change? (Select three.)
+- 中: 一項機場航廈擴建專案中,變更控制委員會核准了一項增加兩條安全檢查通道的變更請求。專案經理應該更新以下哪三項文件,以反映這項已核准的變更?(請選擇三項)
+
+**選項**
+
+- (a) The scope baseline / 範疇基準 ✅ **正解**
+- (b) The schedule baseline / 時程基準 ✅ **正解**
+- (c) The cost baseline / 成本基準 ✅ **正解**
+- (d) The project charter / 專案章程
+
+**詳解**
+
+已核准的變更會影響範疇、時程與成本三項基準,專案經理必須同步更新這三項基準,確保專案管理計畫反映最新且經過核准的內容,後續的績效衡量才會以正確的基準為依據。專案章程是啟動階段的授權文件,不會因為個別的範疇變更而回頭修改。
+
+---
+
+### Q149. `gov-144` — 單選題
+
+**題目 ID**: `gov-144`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A project manager at an airline's customer service center is asked by the VP of customer experience to use 12 months of complaint data to build a systematic method that identifies service gaps, pilots fixes at a few call centers, confirms the improvement works, and then permanently rolls out the successful changes across all centers. What should the project manager do?
+- 中: 一家航空公司的客服中心專案經理,被顧客體驗副總裁要求運用過去12個月的客訴資料,建立一套有系統的方法找出服務缺口、在少數幾個客服中心試行改善做法、確認成效後再將有效的做法推廣到所有中心並固定下來。專案經理應該採取以下哪一項做法?
+
+**選項**
+
+- (a) Embed the plan-do-check-act (PDCA) cycle into the service process to systematically diagnose gaps, pilot changes, verify results, and institutionalize improvements. / 將PDCA(計畫-執行-查核-行動)循環嵌入客服流程,系統性地診斷缺口、試行、驗證並制度化改善做法 ✅ **正解**
+- (b) Set a complaint-count KPI target for each customer service representative. / 針對每位客服人員設定客訴件數的KPI目標
+- (c) Benchmark the complaint data against industry service standards. / 將客訴資料與同業的服務水準進行標竿比較
+- (d) Hold a review meeting every time complaint volume spikes. / 每次發生客訴高峰時就召開檢討會議
+
+**詳解**
+
+副總裁描述的四項活動,分別對應PDCA循環的四個階段:找出服務缺口對應「計畫」,在少數中心試行對應「執行」,確認成效對應「查核」,推廣並固定做法對應「行動」。把PDCA循環嵌入流程,正好能建立起這項任務需要的、可重複執行的系統性改善機制,這也是持續流程改善精神的具體實踐。設定KPI目標只是建立衡量指標,並未涵蓋診斷、試行與制度化的完整循環;標竿比較只能看出與同業的落差,無法建立測試與制度化解決方案的機制;每次客訴高峰才召開檢討會議屬於被動反應,而非主動、持續的系統性改善。
+
+---
+
+### Q150. `gov-145` — 單選題
+
+**題目 ID**: `gov-145`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is leading phase 4 of a multi-year dam and flood-control program. Most current engineers are newly assigned and were not involved in the first three phases, which produced major spillway-capacity design decisions that will affect current planning. What should the project team do first?
+- 中: 一位專案經理正在領導一項多年期水壩暨防洪工程計畫(program)的第四階段。目前大多數工程師都是新指派加入,並未參與前三個階段,而前三個階段做出的溢洪道容量設計決策,將直接影響目前這個階段的規劃工作。專案團隊應該首先做什麼?
+
+**選項**
+
+- (a) Review the as-built drawings from the first three phases to understand what was actually constructed. / 檢視前三個階段的最終竣工圖說,了解實際建造的內容
+- (b) Review the program's documentation repository, including phase reports, design decision logs, and retrospectives. / 檢視計畫的文件庫,包括階段報告、設計決策日誌與回顧紀錄 ✅ **正解**
+- (c) Contact senior engineers who worked on the first three phases to learn from their experience directly. / 聯繫參與過前三個階段的資深工程師,直接請教他們的經驗
+- (d) Conduct a new independent engineering analysis of the spillway capacity. / 重新針對溢洪道容量進行一次獨立的工程分析
+
+**詳解**
+
+計畫文件庫中的階段報告、設計決策日誌與回顧紀錄,完整保存了前幾個階段做出重大設計決策背後的考量、限制與權衡,是最直接且不需要依賴特定人員是否仍在職的資訊來源。檢視竣工圖說只能看到「蓋了什麼」,無法看到當初決策的理由與限制條件;聯繫資深工程師固然有幫助,但應該在檢視既有文件之後作為補充,而不是最先採取的做法;在還沒了解過去決策脈絡之前就重新進行獨立分析,可能做出與既有結構或限制不相容的判斷,也是重複投入資源。
+
+---
+
+### Q151. `gov-146` — 多選題
+
+**題目 ID**: `gov-146`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A multi-year satellite communications program is entering a later phase, and most engineers on the team are newly assigned. Before scheduling any interviews, the project manager wants to first understand the major decisions from earlier phases through existing program documentation. Which three types of documents should be reviewed first? (Select three.)
+- 中: 一項多年期衛星通訊計畫(program)進入後續階段,團隊中多數工程師都是新加入的成員。專案經理希望在安排任何訪談之前,先透過既有的計畫文件了解過去各階段的重大決策脈絡。以下哪三種文件最適合作為優先檢視的來源?(請選擇三項)
+
+**選項**
+
+- (a) Phase reports submitted at the end of each phase / 各階段結束時提交的階段報告 ✅ **正解**
+- (b) Decision logs documenting major decisions and their rationale / 記錄重大決策與其理由的決策日誌 ✅ **正解**
+- (c) Retrospective records held at the end of each phase / 各階段結束後召開的回顧會議紀錄 ✅ **正解**
+- (d) Team members' personal performance appraisal records / 團隊成員的個人績效考核紀錄
+
+**詳解**
+
+階段報告、決策日誌與回顧紀錄,共同構成了計畫層級的知識庫,完整記載過去各階段做了哪些決策、原因是什麼,以及當時學到的經驗教訓,能幫助新加入的工程師在不依賴前任成員個人記憶的情況下,快速掌握脈絡。個人績效考核紀錄是人力資源管理用途的機密文件,既不適合也不應該被用來了解專案的技術或決策脈絡。
+
+---
+
+### Q152. `gov-147` — 單選題
+
+**題目 ID**: `gov-147`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager at a regional bank is tasked with establishing a governance framework for a new open banking and fintech partnership program. Before designing new governance structures, the project manager wants to leverage whatever internal guidance already exists. What should the project manager do first?
+- 中: 一家區域銀行的專案經理,正在為一項新的開放銀行暨金融科技夥伴合作計畫建立治理框架。在設計新的治理架構之前,專案經理希望先善用組織內部既有的任何指引。專案經理應該首先做什麼?
+
+**選項**
+
+- (a) Research open banking governance guidance published by financial regulators. / 研究金融監理機關發布的開放銀行治理指引
+- (b) Review the governance frameworks, policies, and templates used in the bank's past merger integration or system conversion programs. / 檢視銀行過去執行併購整合或系統轉換計畫時所使用的治理框架、政策與範本 ✅ **正解**
+- (c) Consult fintech governance white papers published by industry consulting firms. / 參考產業顧問公司發表的金融科技治理白皮書
+- (d) Evaluate software platforms on the market that support governance tracking and reporting. / 評估市面上支援治理追蹤與報告的軟體平台
+
+**詳解**
+
+組織過去執行類似計畫時所累積的治理框架、政策與範本,屬於已經在組織內部驗證過的過程資產,是最直接可用的起點,能節省時間並確保新框架立足於組織熟悉且可行的做法之上。監理機關的指引屬於外部的事業環境因素,並非題目所要求的「組織內部既有指引」;顧問公司白皮書同樣是外部的參考資料;評估軟體平台處理的是治理執行的工具面,而不是治理框架本身的內容來源。
+
+---
+
+### Q153. `gov-148` — 單選題
+
+**題目 ID**: `gov-148`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager producing a feature film works with an overseas VFX studio and a separate sound design studio. All three parties frequently exchange updated cut versions and asset files, and both studios must sign off on a version before it is locked. Which practice would best ensure that all versions are current, accessible, and properly approved by all parties?
+- 中: 一位專案經理正在製作一部電影,需要與一間海外的特效工作室,以及另一間獨立的混音工作室協作。三方經常互相交換更新過的剪輯版本與素材檔案,而且特效與混音工作室都必須在版本鎖定前完成確認。哪一項做法最能確保所有版本都是最新的、可以取得的,並且已經正確被各方確認?
+
+**選項**
+
+- (a) Let each studio maintain version records in whatever way is convenient for them. / 讓每間工作室依照自己習慣的方式各自保管版本紀錄
+- (b) Establish and personally oversee a single shared document registry and version control system used by all three parties. / 由專案經理親自監督,建立並使用一套三方共用的單一文件登錄與版本管制系統 ✅ **正解**
+- (c) Hold a weekly video call to verbally confirm which version each party is currently using. / 每週召開視訊會議,口頭確認各方目前使用的版本
+- (d) Assign one of the studios to be the custodian of the master version for all assets. / 指派其中一間工作室負責保管所有素材的主版本
+
+**詳解**
+
+由專案經理親自監督的單一共用文件登錄與版本管制系統,能為三方建立唯一的真實來源,所有版本的更新與確認都透過同一套系統進行,讓專案經理隨時能掌握目前哪個版本才是最新且已核准的版本。讓各工作室各自保管紀錄,容易造成版本分歧且難以追蹤;每週口頭確認版本不是受控的系統,容易因為記憶或溝通落差出錯;指派其中一間工作室保管主版本,等於把跨團隊協調的職責交給其中一方,可能造成利益衝突或資訊不對等,也不是專案經理應有的做法。
+
+---
+
+### Q154. `gov-149` — 單選題
+
+**題目 ID**: `gov-149`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A project manager overseeing the construction of a solar farm discovers, during a contract audit, that the subcontractor responsible for panel-mounting installation is not on the organization's approved vendor list. The subcontractor has performed reliably with no issues to date. What should the project manager do first?
+- 中: 一位專案經理正在負責一座太陽能發電場的建置專案。在合約稽核過程中,專案經理發現負責面板支架安裝的分包商並不在組織的核准供應商名單上。這家分包商至今表現穩定,也沒有發生過任何問題。專案經理應該首先做什麼?
+
+**選項**
+
+- (a) Leave the situation as is since the subcontractor is performing well, and address it at the next vendor review cycle. / 因為分包商表現良好,先維持現狀,等到下次供應商評鑑週期再處理
+- (b) Document the situation as a compliance risk and assess what corrective action may be needed. / 將此情況記錄為合規風險,並評估可能需要採取的因應措施 ✅ **正解**
+- (c) Immediately terminate the contract and switch to a vendor on the approved list. / 立即終止與這家分包商的合約,改用核准名單上的廠商
+- (d) Ask the subcontractor to quietly submit the approval paperwork without formally reporting the situation. / 要求分包商私下補件申請,先不對外正式呈報這個情況
+
+**詳解**
+
+供應商是否在核准名單上,是一項獨立於績效表現之外的合規要求,無論表現多好都不能取代這項要求。先將情況記錄為合規風險並評估影響與因應做法,才能確保後續處理方式相稱且經過充分了解。因為表現良好就延後處理,等於把治理要求當成可有可無的選項;在還沒完整評估之前就立即終止合約,可能對工期與成本造成不必要的衝擊;私下要求補件而不正式呈報,則是規避了應有的透明處理程序,可能讓合規缺口持續存在而未被記錄。
+
+---
+
+### Q155. `gov-150` — 單選題
+
+**題目 ID**: `gov-150`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager oversees the manufacturing of a brake component supplied to an automaker. A batch shipped and accepted by the automaker two months ago is now found to have a dimensional defect that should have been caught during in-plant quality control but was not. What should the project manager do first?
+- 中: 一位專案經理負責一項汽車煞車零件的製造專案,兩個月前已交貨且被原廠客戶驗收的一批零件,近日被發現尺寸公差不符合品質要求,而這個缺陷原本應該在廠內品質管制階段被攔截下來,卻沒有被發現。專案經理應該首先做什麼?
+
+**選項**
+
+- (a) Immediately notify the customer and propose a replacement and compensation plan. / 立即通知客戶並提出更換零件的賠償方案
+- (b) Determine the root cause of why the defect was not detected during quality control. / 找出這批零件的缺陷當初為什麼沒有在品質管制階段被偵測出來的根本原因 ✅ **正解**
+- (c) Provide additional training to the quality control staff to prevent recurrence. / 加強品質管制人員的教育訓練,避免同樣的事再發生
+- (d) Re-inspect all unshipped inventory from the same batch. / 重新檢驗庫存中所有尚未出貨的同批零件
+
+**詳解**
+
+在採取任何補救或流程調整之前,必須先了解品質管制當初為什麼沒能攔截這個缺陷,根本原因會決定後續該如何處理這批已交付的零件、以及需要調整哪些流程環節,才能真正避免同樣的缺口再次發生。如果還沒釐清原因就直接提出賠償方案,可能無法對應到問題真正的成因,也可能不是唯一或最恰當的處理方式;直接加強教育訓練或重新檢驗庫存零件,雖然之後都可能是合理的行動,但若在根本原因尚未查明前就先執行,很可能無法真正對症下藥,甚至遺漏了其他環節的問題。
+
+---
+
+### Q156. `gov-151` — 單選題
+
+**題目 ID**: `gov-151`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: In an insurance claims modernization project, the project manager introduces an AI tool that automatically drafts claim status summaries sent to policyholders and business stakeholders. In a review meeting, several stakeholders say they had assumed a claims adjuster personally wrote every summary they received and express concern about not being informed. What should the project manager do?
+- 中: 一家保險公司的理賠系統現代化專案中,專案經理導入了一項AI工具,自動為保戶與業務利害關係人草擬理賠進度摘要。在一次審查會議中,多位利害關係人表示,他們原本以為每一份收到的摘要都是由理賠專員親自撰寫,對於溝通方式沒有事先被告知感到不安。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Take no further action since the content of the summaries is accurate. / 因為摘要內容正確無誤,不需要特別說明
+- (b) Explain to stakeholders how and when AI is used in claims communications. / 向利害關係人說明AI在理賠溝通中扮演的角色,以及在什麼情況下會被使用 ✅ **正解**
+- (c) Disable the AI tool until every stakeholder personally reviews every summary. / 停用AI工具,直到所有利害關係人都親自審核每一份摘要為止
+- (d) Restrict AI-drafted summaries to internal team use only, and stop using them for any external communication. / 只針對內部團隊使用AI草擬摘要,不再用於任何對外溝通
+
+**詳解**
+
+負責任地使用AI,前提是對利害關係人保持透明,清楚說明AI在什麼時候、以什麼方式參與專案溝通,這樣才能維持大家對溝通內容的信任。摘要內容正確與否,無法取代利害關係人「不知情」這個核心問題;要求所有利害關係人親自審核每份摘要並不是使用AI所必須具備的前提,也會讓AI失去原本要達成的效率;把AI侷限在內部使用,並沒有真正回應利害關係人對於對外溝通透明度的疑慮。
+
+---
+
+### Q157. `gov-152` — 單選題
+
+**題目 ID**: `gov-152`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A project manager oversees the installation of fire suppression systems in a high-rise office building. A subcontractor foreman privately tells the project manager that, to meet the handover deadline, the team skipped a required pressure test on one floor and did not report it to the inspector. What should the project manager do?
+- 中: 一位專案經理負責一棟高樓辦公大樓的消防灑水系統安裝專案。一位分包商工頭私下告訴專案經理,為了趕上交屋期限,團隊在其中一個樓層跳過了規定必須執行的管路加壓測試,而且沒有向查驗人員通報這件事。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Leave the floor as is for now due to the tight handover deadline and test it later when there is time. / 因為交屋期限緊迫,先讓這個樓層維持現狀,之後有機會再補測
+- (b) Privately ask the subcontractor to complete the test quickly without informing the inspector or the owner. / 私下要求分包商盡快補做測試,不讓查驗人員或業主知道
+- (c) Address the safety issue transparently, ensure the required test is completed, and report it truthfully to the inspector. / 公開透明地處理這項安全問題,確保完成必要的測試並如實通報查驗人員 ✅ **正解**
+- (d) Reprimand the foreman and tell him not to bring similar issues to the project manager again. / 訓誡這位工頭,並要求他以後不要再讓專案經理知道類似情況
+
+**詳解**
+
+安全相關的合規要求不能因為交期壓力而妥協,專案經理必須公開透明地處理這個問題,確保缺漏的測試被確實完成,並如實向查驗人員通報,不能因為趕工而讓一項攸關人身安全的檢測環節被隱瞞。讓樓層維持現狀不處理,等於接受了一項對安全的刻意妥協;私下要求補測而不通報查驗人員,等於隱瞞了本應公開揭露的安全缺失;訓誡工頭並要求他別再讓專案經理知情,不但沒有解決問題,反而可能助長未來類似情況被進一步隱瞞。
+
+---
+
+### Q158. `gov-153` — 單選題
+
+**題目 ID**: `gov-153`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A theme park company is building a new themed land to reinforce its identity as a family-focused immersive experience brand. The two-year expansion involves multiple external design firms, ride manufacturers, and food and beverage vendors. The project manager must ensure that all design decisions and deliverables consistently reflect the park's thematic vision throughout construction. What should the project manager do?
+- 中: 一家主題樂園公司正在興建一個全新的主題園區,以強化其作為家庭沈浸式體驗品牌的定位。這項為期兩年的擴建案涉及多家外部設計公司、遊樂設施製造商與餐飲廠商。專案經理必須確保各方的設計決策與交付成果,在整個興建期間都能持續呼應園區既定的主題願景。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Hold weekly coordination meetings with all external vendors to communicate the current design direction. / 每週與所有外部廠商召開協調會議,溝通目前的設計方向
+- (b) Schedule regular check-ins with the company's CEO to ensure executive alignment on the thematic direction. / 安排與公司執行長的定期會談,確保高層對主題方向的想法一致
+- (c) Regularly compare each vendor's design decisions and deliverables against the vision statement and design standards documented during project initiation. / 定期將各家廠商的設計決策與交付成果,對照專案啟動階段所記錄的主題願景聲明與設計標準進行比對 ✅ **正解**
+- (d) Update the project charter whenever design disagreements arise to reflect the latest consensus on theming direction. / 每當設計出現分歧時,就更新專案章程以反映最新的主題方向共識
+
+**詳解**
+
+在啟動階段建立的願景聲明與設計標準,是判斷各方產出是否符合品牌定位的權威依據。要在長期且涉及多方廠商的興建過程中維持一致性,關鍵在於有系統地把各項設計決策與交付成果拿來對照這份既有文件,而不是單靠臨時溝通或高層共識。每週協調會議有助於同步進度,但不等於建立起系統性的比對機制;與執行長的定期會談有助於高層決策,但無法在工作層級逐項檢視具體設計是否符合已記錄的願景;專案章程是啟動階段用來授權專案的文件,若因設計分歧就頻繁修改,會破壞章程原本應提供的穩定基準功能,是誤用了這份文件。
+
+---
+
+### Q159. `gov-154` — 單選題
+
+**題目 ID**: `gov-154`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager at an agricultural equipment manufacturer is leading a tractor export project. The organization recently adopted new export control compliance checks, adding review steps for shipments to certain countries. The engineering team lead argues the new checks are unnecessary bureaucracy for farm tractors, will slow delivery, and asks whether they can be skipped for shipments that are "obviously low-risk." What should the project manager do?
+- 中: 一家農業機械製造商的專案經理正在負責一項曳引機出口專案。組織最近導入了新的出口管制合規檢查,針對出貨到特定國家的品項增加了審查步驟。工程團隊主管向專案經理表示,這些新的審查步驟對一般農業曳引機來說是不必要的官僚程序,會拖慢交貨速度,並詢問是否可以針對「明顯低風險」的出貨項目省略這些步驟。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Calculate the cost of compliance-related delays and share the financial analysis with the engineering team. / 計算因合規延遲導致的成本,並與工程團隊分享財務分析結果
+- (b) Implement an automated export compliance screening tool to minimize the time the team spends on review paperwork. / 導入自動化的出口合規篩選工具,盡量減少工程團隊處理審查文件的時間
+- (c) Educate the engineering team on the purpose and applicability of the export control requirements to build shared understanding and consistent compliance. / 教育工程團隊了解出口管制要求背後的目的與適用範圍,以建立共識與一致的遵循態度 ✅ **正解**
+- (d) Find ways to integrate the review steps into the existing shipping workflow to reduce the disruption the team feels. / 找出方法將合規審查步驟整合進現有的出貨流程,降低團隊感受到的干擾
+
+**詳解**
+
+當強制性的合規要求遭遇抵制時,根本原因通常是團隊不理解這些要求為何存在、以及為什麼即使看似低風險的項目也適用,教育正是直接處理這個根本原因的做法,能建立起工程團隊對要求的理解與一致遵循的態度。如果沒有建立起共同理解,無論是財務論證、自動化工具或流程整合,都只能暫時降低摩擦,團隊仍可能在情況允許時想辦法規避審查。選項(a)的財務分析提供的是誘因,而非對要求本身的理解;選項(b)的自動化工具或許之後有幫助,但在團隊還沒認同要求必要性之前就先導入解決方案,順序本末倒置;選項(d)把審查步驟整合進既有流程同樣是有用的做法,但應該在雙方已經取得共識之後才進行,不該在對方還質疑要求有沒有必要時,就急著把審查簡化融入日常作業。
 
 ---

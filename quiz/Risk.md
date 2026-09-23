@@ -1,6 +1,6 @@
 # Risk — PMP 題庫
 
-> 共 108 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 147 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `hs-002` — 點擊熱區題
 
@@ -3001,5 +3001,1087 @@ Contingent Response Strategy(應變回應策略)是事先規劃、經核准,但�
 **詳解**
 
 預測模型只有在訓練資料的情境跟預測目標情境相近時,學到的樣態才轉移得過去;這家建商採用的是新式模組化工法,若訓練資料大多來自傳統工法、條件迥異的專案,模型學到的風險樣態很可能對不上模組化營造現場的實際狀況。一味追求樣本數最大化,會把大量不相干工法的雜訊也一併餵進模型;只用零事故的專案,樣本會嚴重偏態,模型學不到事故是怎麼發生的;合成資料能補足樣本不足,但前提仍是先有具代表性的真實資料當基礎,不能本末倒置優先於挑選相似情境的真實紀錄。
+
+---
+
+### Q109. `rsk-108` — 單選題
+
+**題目 ID**: `rsk-108`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager has thoroughly researched two technical architecture options and has a clear preference based on cost, timeline, and business alignment. What should the project manager do next?
+- 中: 專案經理已經徹底研究過兩種技術架構方案,並依成本、時程與商業契合度形成了明確的偏好。專案經理接下來應該怎麼做?
+
+**選項**
+
+- (a) Decide based on the research and inform the team afterward to avoid disrupting their current work. / 依研究結果做出決定,事後再告知團隊以免打斷他們目前的工作
+- (b) Present both options with a recommendation to the sponsor and let the sponsor make the final call. / 把兩個方案連同建議提交給贊助人,讓贊助人做最終決定
+- (c) Delay the decision until the team finishes their current sprint and can give it full attention. / 延後決定,等團隊完成目前的衝刺後才能全心處理
+- (d) Consult with the development team about both options before finalizing a recommendation. / 在提出最終建議前,先跟開發團隊討論這兩個方案 ✅ **正解**
+
+**詳解**
+
+即使 PM 對分析結果有信心,團隊的實作經驗與第一手技術知識,往往能揭露高層次分析看不到的關鍵細節;正確做法是先諮詢團隊意見,再形成最終建議,而不是自己拍板後才通知團隊、把決策完全丟給贊助人,或用團隊正在忙其他事當理由拖延決策。
+
+---
+
+### Q110. `rsk-109` — 單選題
+
+**題目 ID**: `rsk-109`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An e-commerce project has three issues needing attention but resources for only one this week: a potential security vulnerability that hasn't been exploited, a performance issue actively hurting sales, and a cosmetic bug the CEO specifically asked to be fixed. Which should the project manager prioritize?
+- 中: 一個電商專案有三個問題需要處理,但這週只有資源處理一個:一個尚未被利用的潛在安全漏洞、一個正在實際影響銷售的效能問題,以及一個 CEO 特別要求修復的外觀小瑕疵。專案經理應該優先處理哪一個?
+
+**選項**
+
+- (a) The security vulnerability, to prevent a potential data breach even though it hasn't been exploited yet. / 安全漏洞,即使尚未被利用,也要預防潛在的資料外洩
+- (b) The performance issue, since it is actively affecting customer experience and revenue right now. / 效能問題,因為它正在實際影響顧客體驗與營收 ✅ **正解**
+- (c) The cosmetic bug, since maintaining executive support is crucial for project success. / 外觀小瑕疵,因為維持高層支持對專案成功至關重要
+- (d) Split the team's time equally across all three issues this week. / 這週把團隊時間平均分配給三個問題
+
+**詳解**
+
+價值導向的決策必須同時考量立即與長期的影響;三者之中,效能問題正在當下實際造成營收損失,屬於已發生且持續擴大的衝擊,優先程度高於尚未被利用的潛在漏洞與純外觀的小瑕疵。單純為了討好高層而優先處理外觀問題,或把有限資源平均攤在三件事上導致沒有一件真正解決,都不是價值最大化的做法。
+
+---
+
+### Q111. `rsk-110` — 單選題
+
+**題目 ID**: `rsk-110`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A heated argument breaks out in a team meeting between a developer, who says QA is demanding too much testing time, and the QA manager, who says the developer is rushing code and creating quality problems. What should the project manager do first?
+- 中: 一場團隊會議上,開發人員與 QA 主管爆發激烈爭執:開發人員認為 QA 要求的測試時間太多,QA 主管則認為開發人員為了趕工而犧牲了品質。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Stop the argument immediately and remind both about professional behavior expectations. / 立刻制止爭執,提醒雙方應有的專業行為
+- (b) Schedule separate one-on-one conversations with each to understand their underlying concerns before attempting resolution. / 分別跟兩人一對一對話,先了解各自真正的顧慮,再嘗試解決 ✅ **正解**
+- (c) Implement a new fixed schedule that allocates specific time for development and testing to prevent future conflict. / 立刻實施一套固定時程,明訂開發與測試各自的時間以防再衝突
+- (d) Facilitate a joint discussion between both to find a compromise on the testing timeline. / 促成雙方一起討論,找出測試時程的折衷方案
+
+**詳解**
+
+表面上關於測試時程的衝突,往往源自更深層的問題,例如溝通落差、角色認知不清或優先順序衝突;在真正嘗試解決之前,應該先分別了解雙方各自真正在意的原因,而不是急著制止爭執、直接推出新規則,或還沒釐清根本原因就直接撮合雙方談判折衷。
+
+---
+
+### Q112. `rsk-111` — 單選題
+
+**題目 ID**: `rsk-111`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: New code written by a team member is causing modules written weeks ago to crash, threatening a major delay, and the team member is unsure how to fix it. What should the project manager do first?
+- 中: 一位團隊成員新寫的程式碼,導致幾週前就寫好的模組當機,可能造成重大延誤,而這位成員也不確定該怎麼修復。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Add this coding error to the issue log and assign an owner. / 把這個程式錯誤記錄到議題日誌,並指派負責人 ✅ **正解**
+- (b) Assign a senior developer to fix the coding error immediately without further documentation. / 立刻指派一位資深開發人員修復,不做額外記錄
+- (c) Facilitate a discussion between the two developers involved to jointly fix the code. / 促成兩位相關開發人員一起討論修復程式碼
+- (d) Escalate the issue to the sponsor given the risk of a major delay. / 因為有重大延誤風險,直接把問題上報給贊助人
+
+**詳解**
+
+當議題發生時,第一步是把它正式記錄進議題日誌並指派負責人,這能確保問題被追蹤、責任清楚,也能對照風險登錄冊看是否已有對應的計畫回應;跳過記錄直接找人修、促成當事人自行討論、或還沒釐清狀況就上報贊助人,都略過了「先入案」這個基本且重要的步驟。
+
+---
+
+### Q113. `rsk-112` — 單選題
+
+**題目 ID**: `rsk-112`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A first-time healthcare IT project manager encounters a complex data encryption compliance question, finds conflicting information online, and needs a decision by tomorrow. What should the project manager do?
+- 中: 一位第一次負責醫療 IT 專案的專案經理,遇到一個複雜的資料加密合規問題,上網查到的資訊互相矛盾,而且明天就必須做出決定。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Make the best decision based on personal research and adjust later if needed, to show decisive leadership. / 依個人研究做出最佳判斷,之後再視需要調整,以展現果斷的領導力
+- (b) Escalate the decision to the sponsor since compliance issues are above the PM's authority level. / 把決定上報給贊助人,因為合規問題超出 PM 的職權範圍
+- (c) Call a team brainstorming session to collectively research the requirements and reach consensus. / 召集團隊集體腦力激盪研究需求,達成共識
+- (d) Consult the organization's compliance officer, review lessons learned from past healthcare projects, and check organizational procedures. / 諮詢組織的合規官、檢視過去醫療專案的經驗學習、並查核組織既有流程 ✅ **正解**
+
+**詳解**
+
+面對需要專業知識的合規問題,展現領導力不代表要獨自決策;正確做法是求助合規專家(SME)、查閱過去專案的經驗學習登錄冊,以及善用組織過程資產(政策、範本、最佳實務),確保決策資訊充足、與組織一致。獨自決定、直接上報給不具備專業知識的贊助人、或找同樣不具專業背景的團隊腦力激盪,都不是取得正確合規資訊的可靠管道。
+
+---
+
+### Q114. `rsk-113` — 單選題
+
+**題目 ID**: `rsk-113`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A key client leaves an urgent voicemail saying they are "extremely disappointed" with the latest deliverable and are "considering terminating the contract." The team is already asking what happened. What should the project manager do first?
+- 中: 一位重要客戶留下緊急語音留言,表示對最新交付物「極度失望」,並「考慮終止合約」。團隊已經開始詢問發生了什麼事。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Call the client immediately to apologize and personally assure them the issue will be resolved. / 立刻致電客戶道歉,並親自保證會解決問題
+- (b) Review the deliverable against its acceptance criteria and gather information about what specifically disappointed the client. / 對照驗收標準檢視這份交付物,並蒐集客戶具體不滿之處的資訊 ✅ **正解**
+- (c) Schedule an emergency meeting with the sponsor to discuss a recovery plan. / 安排與贊助人的緊急會議討論復原計畫
+- (d) Contact the sponsor immediately to report the contract termination threat. / 立刻聯絡贊助人回報合約可能被終止的威脅
+
+**詳解**
+
+即使客戶要求立即回應,PM 都應該先花時間蒐集資訊,對照驗收標準檢視交付物、釐清客戶具體不滿在哪裡,這樣才能給出真正有效、對症下藥的回應,而不是還沒搞清楚狀況就急著道歉承諾,或跳過理解問題直接把狀況上報給贊助人。
+
+---
+
+### Q115. `rsk-114` — 單選題
+
+**題目 ID**: `rsk-114`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project team has been experiencing unclear role responsibilities, frequent miscommunication, and declining morale. The sponsor has heard about the tension. What should the project manager do?
+- 中: 一個專案團隊角色職責不清、經常溝通不良,士氣持續下滑。贊助人也已經聽聞這個緊張狀況。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Ask the sponsor to step in and clarify roles since they have more authority. / 請贊助人出面釐清角色,因為贊助人有更高的職權
+- (b) Facilitate team meetings to clarify roles, establish communication protocols, and address the issues directly. / 主持團隊會議,釐清角色、建立溝通規範,並直接處理這些問題 ✅ **正解**
+- (c) Request that the sponsor bring in an HR representative to mediate the conflicts. / 請贊助人找人資代表來調解衝突
+- (d) Escalate the team dynamics issue to senior leadership for guidance. / 把團隊動態問題上報給高階領導層尋求指引
+
+**詳解**
+
+處理團隊內部問題本來就是 PM 職權範圍內該負責的事,主動主持會議釐清角色、建立溝通規範並直接處理問題,才是恰當的第一步;動輒請贊助人出面、找人資調解、或直接上報高層,都是還沒嘗試在自己職權內解決就先升級,容易造成不必要的升級疲勞,也顯示不出 PM 該有的領導擔當。
+
+---
+
+### Q116. `rsk-115` — 單選題
+
+**題目 ID**: `rsk-115`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A sponsor is eager to begin a cloud migration project immediately, expressing concern that spending too much time on planning will delay benefits. What should the project manager do first?
+- 中: 贊助人急著想立刻開始一項雲端遷移專案,並表示擔心花太多時間在規劃上會延誤效益實現。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Conduct thorough risk identification sessions with stakeholders before beginning any migration work. / 在開始遷移工作前,先與利害關係人進行完整的風險識別會議 ✅ **正解**
+- (b) Begin migrating less critical systems first to identify risks through hands-on experience. / 先遷移較不關鍵的系統,透過實作經驗來發現風險
+- (c) Start technical migration work immediately while identifying risks in parallel during the first few weeks. / 立刻開始技術遷移工作,同時在頭幾週並行識別風險
+- (d) Focus only on technical risks since those are most likely to affect a cloud migration. / 只聚焦技術風險,因為那是雲端遷移最可能出現的風險類型
+
+**詳解**
+
+風險應該越早辨識越好,即使贊助人擔心規劃拖慢效益實現,完整的風險識別(涵蓋技術、商業、組織等各層面)仍應在正式遷移工作開始前完成,這能避免日後付出更高昂的代價;邊做邊找風險、或只聚焦技術風險而忽略商業與組織層面的風險,都可能讓重大風險在為時已晚時才被發現。
+
+---
+
+### Q117. `rsk-116` — 單選題
+
+**題目 ID**: `rsk-116`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A competitor unexpectedly discontinues a similar product, creating a market opportunity, and a vendor offers early access to a new API that could enhance the project's capabilities beyond the original scope. What should the project manager do first?
+- 中: 一位競爭對手意外停產了類似的產品,創造出市場機會,同時一家廠商提供了搶先使用新版 API 的機會,可能讓專案能力超出原本範疇。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Quickly modify the project scope to incorporate the enhanced API and accelerated market positioning. / 快速修改專案範疇,納入這個強化版 API 與加速的市場定位
+- (b) Schedule an emergency stakeholder meeting to discuss pivoting the project strategy. / 安排緊急利害關係人會議,討論調整專案策略方向
+- (c) Document these developments in the risk register and develop specific response strategies for each opportunity. / 把這些新狀況記錄進風險登錄冊,並為每個機會擬定具體的回應策略 ✅ **正解**
+- (d) Begin implementation planning for the API integration while researching the competitive landscape changes. / 開始規劃 API 整合工作,同時研究競爭態勢變化
+
+**詳解**
+
+風險登錄冊同時記錄威脅與機會(正向風險),當出現這類機會型風險時,應該先正式記錄並針對每個機會擬定具體的回應策略,再據以評估是否要調整範疇或啟動實作,而不是還沒經過正式評估就直接改範疇、召開緊急會議倉促轉向,或跳過評估直接開始實作規劃。
+
+---
+
+### Q118. `rsk-117` — 單選題
+
+**題目 ID**: `rsk-117`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Your data migration project is scheduled to begin the database transfer this weekend when you discover on Friday afternoon that the backup verification process failed and the backup files are corrupted. The business has already announced the system downtime to users, vendors have been scheduled, and the migration team is standing by. What should you do?
+- 中: 你的資料遷移專案原定本週末開始資料庫轉移,但你在週五下午發現備份驗證流程失敗,備份檔案已經損毀。公司已經對外公告系統停機時間,廠商也已排定,遷移團隊也已經待命。你應該怎麼做?
+
+**選項**
+
+- (a) Immediately start working on alternative backup solutions as directed while the IT Director develops the overall strategy. / 依指示立刻著手處理替代備份方案,同時讓 IT 主管研擬整體策略
+- (b) Postpone the migration until a complete backup and recovery plan can be developed and tested. / 延後遷移,直到完整的備份與復原計畫被擬定並測試完成
+- (c) Call an emergency planning session to develop a comprehensive approach for addressing the backup issue before taking any corrective actions. / 召開緊急規劃會議,先擬定完整因應方案,再採取任何矯正行動 ✅ **正解**
+- (d) Begin the migration as scheduled but implement additional monitoring and rollback procedures to mitigate the backup risk. / 依原訂時程開始遷移,但額外加強監控與回滾程序以降低備份風險
+
+**詳解**
+
+緊急狀況最容易讓人產生「必須立刻做點什麼」的壓力,但這正是規劃最關鍵、最不該被跳過的時刻;正確做法是先召開緊急規劃會議,完整擬定因應方案後再行動,而不是在還沒有完整計畫前就直接動手處理、依原訂時程冒險進行,或單純延後卻沒有主動組織應對計畫的過程。
+
+---
+
+### Q119. `rsk-118` — 單選題
+
+**題目 ID**: `rsk-118`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**所屬案例**：`cs-c`
+
+**案例情境 EN**
+
+A project manager is overseeing construction of a 200-acre solar power plant for a regional utility company. Early in planning, the project manager identified several risks, including unstable subsoil in the northern array field, equipment delivery delays, and extreme weather during the installation window, logging each in the risk register with probability and impact ratings.
+
+The project manager ran thousands of iterative simulations using probability distributions for panel-mounting foundation loads to forecast a range of possible structural outcomes. The project manager then tested how much each individual variable, soil bearing capacity, wind load, and panel weight, affected those outcomes by varying one factor at a time while holding the others constant. Based on this analysis, the project manager developed response plans for each risk and established mandatory geotechnical inspections before work began in any new array section.
+
+Inspection attendance by the installation crews was inconsistent, as crews were often already mobilized to the next section before inspectors arrived. As installation progressed into the northern array field, an updated soil survey showed unexpected groundwater intrusion beneath several planned foundation points. A field technician mentioned to the project manager that the readings looked unusual and asked whether it was still safe to proceed with pile driving in that section. The project manager logged the updated readings in the risk register and asked the site foreman to visually monitor the ground for signs of shifting.
+
+Two weeks later, while multiple pile-driving rigs operated simultaneously in the northern field, the ground beneath one rig subsided, causing the equipment to tip and injure an operator. The incident triggered a safety regulator investigation, and the utility company is now reviewing the contractor's liability.
+
+**案例情境 中**
+
+一位專案經理正在為一家地區電力公司監督一座佔地200英畝太陽能發電廠的建置工程。在規劃初期,專案經理識別出幾項風險,包括北側陣列區的地基土壤不穩定、設備交貨延誤,以及安裝期間的極端天氣,並將每一項都記錄進風險登錄冊,附上機率與衝擊評等。
+
+專案經理針對面板固定基樁的承載力,用機率分布跑了數千次迭代模擬,以預測可能的結構結果範圍。接著專案經理測試個別變數(土壤承載力、風力負載、面板重量)各自對結果的影響程度,做法是每次只改變一個因子、其餘維持不變。根據這項分析,專案經理為每項風險擬定了回應計畫,並訂定強制性的地質檢驗,要求在任何新陣列區動工前都要完成。
+
+安裝團隊出席檢驗的狀況並不穩定,團隊經常在檢驗人員抵達前就已經移動到下一個區域施工。當安裝工程進入北側陣列區時,一份更新的土壤調查顯示,幾個預定的基樁位置底下出現預期外的地下水滲入。一位現場技術人員向專案經理反映,這些讀數看起來不太尋常,並詢問是否還能安全地在該區域繼續打樁。專案經理把更新的讀數記錄進風險登錄冊,並請工地領班以肉眼監控地面是否有位移跡象。
+
+兩週後,當多台打樁機同時在北側陣列區作業時,其中一台機具下方的地面發生下陷,導致機具傾倒並使一名操作員受傷。這起事故引發了安全主管機關的調查,電力公司目前正在檢視承包商的責任歸屬。
+
+**題幹**
+
+- EN: What document should the project manager use to record and track the identified risks on this project?
+- 中: 專案經理應該用什麼文件來記錄並追蹤這個專案已識別的風險?
+
+**選項**
+
+- (a) The issue log / 議題日誌
+- (b) The risk register / 風險登錄冊 ✅ **正解**
+- (c) The risk management plan / 風險管理計畫
+- (d) The assumption log / 假設日誌
+
+**詳解**
+
+風險登錄冊是用來記錄已識別風險、其機率與衝擊評估、以及規劃回應措施的文件,是貫穿專案生命週期追蹤所有風險相關資訊的核心工具。議題日誌記錄的是目前正在影響專案的實際問題,不是尚未發生的風險;風險管理計畫定義的是風險管理活動要怎麼進行(方法論、角色與流程),而不是記錄個別風險本身;假設日誌記錄的是規劃階段識別出的假設與限制,雖然某些假設可能帶有風險意涵,但不是用來記錄與追蹤風險的合適文件。
+
+---
+
+### Q120. `rsk-119` — 多選題
+
+**題目 ID**: `rsk-119`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**所屬案例**：`cs-c`
+
+**案例情境 EN**
+
+A project manager is overseeing construction of a 200-acre solar power plant for a regional utility company. Early in planning, the project manager identified several risks, including unstable subsoil in the northern array field, equipment delivery delays, and extreme weather during the installation window, logging each in the risk register with probability and impact ratings.
+
+The project manager ran thousands of iterative simulations using probability distributions for panel-mounting foundation loads to forecast a range of possible structural outcomes. The project manager then tested how much each individual variable, soil bearing capacity, wind load, and panel weight, affected those outcomes by varying one factor at a time while holding the others constant. Based on this analysis, the project manager developed response plans for each risk and established mandatory geotechnical inspections before work began in any new array section.
+
+Inspection attendance by the installation crews was inconsistent, as crews were often already mobilized to the next section before inspectors arrived. As installation progressed into the northern array field, an updated soil survey showed unexpected groundwater intrusion beneath several planned foundation points. A field technician mentioned to the project manager that the readings looked unusual and asked whether it was still safe to proceed with pile driving in that section. The project manager logged the updated readings in the risk register and asked the site foreman to visually monitor the ground for signs of shifting.
+
+Two weeks later, while multiple pile-driving rigs operated simultaneously in the northern field, the ground beneath one rig subsided, causing the equipment to tip and injure an operator. The incident triggered a safety regulator investigation, and the utility company is now reviewing the contractor's liability.
+
+**案例情境 中**
+
+一位專案經理正在為一家地區電力公司監督一座佔地200英畝太陽能發電廠的建置工程。在規劃初期,專案經理識別出幾項風險,包括北側陣列區的地基土壤不穩定、設備交貨延誤,以及安裝期間的極端天氣,並將每一項都記錄進風險登錄冊,附上機率與衝擊評等。
+
+專案經理針對面板固定基樁的承載力,用機率分布跑了數千次迭代模擬,以預測可能的結構結果範圍。接著專案經理測試個別變數(土壤承載力、風力負載、面板重量)各自對結果的影響程度,做法是每次只改變一個因子、其餘維持不變。根據這項分析,專案經理為每項風險擬定了回應計畫,並訂定強制性的地質檢驗,要求在任何新陣列區動工前都要完成。
+
+安裝團隊出席檢驗的狀況並不穩定,團隊經常在檢驗人員抵達前就已經移動到下一個區域施工。當安裝工程進入北側陣列區時,一份更新的土壤調查顯示,幾個預定的基樁位置底下出現預期外的地下水滲入。一位現場技術人員向專案經理反映,這些讀數看起來不太尋常,並詢問是否還能安全地在該區域繼續打樁。專案經理把更新的讀數記錄進風險登錄冊,並請工地領班以肉眼監控地面是否有位移跡象。
+
+兩週後,當多台打樁機同時在北側陣列區作業時,其中一台機具下方的地面發生下陷,導致機具傾倒並使一名操作員受傷。這起事故引發了安全主管機關的調查,電力公司目前正在檢視承包商的責任歸屬。
+
+**題幹**
+
+- EN: Which three of the following best describe the risk analysis techniques the project manager performed during planning? (Select three.)
+- 中: 以下哪三項最能描述專案經理在規劃階段執行的風險分析技術?(請選擇三項)
+
+**選項**
+
+- (a) Quantitative risk analysis / 定量風險分析 ✅ **正解**
+- (b) Probability and impact matrix / 機率與衝擊矩陣
+- (c) Monte Carlo simulation / 蒙地卡羅模擬 ✅ **正解**
+- (d) Sensitivity analysis / 敏感度分析 ✅ **正解**
+
+**詳解**
+
+情境描述了兩項具體的定量技術:用機率分布跑數千次迭代計算以預測可能結果範圍,對應蒙地卡羅模擬;逐一改變個別變數、其餘維持不變,以檢視哪個變數對結果影響最大,對應敏感度分析。這兩項都屬於定量風險分析技術,所以「定量風險分析」這個較上位的分類也同時成立。機率與衝擊矩陣是定性風險分析工具,用來依機率與衝擊評等排列風險優先順序,情境中沒有描述這項技術。
+
+---
+
+### Q121. `rsk-120` — 單選題
+
+**題目 ID**: `rsk-120`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**所屬案例**：`cs-c`
+
+**案例情境 EN**
+
+A project manager is overseeing construction of a 200-acre solar power plant for a regional utility company. Early in planning, the project manager identified several risks, including unstable subsoil in the northern array field, equipment delivery delays, and extreme weather during the installation window, logging each in the risk register with probability and impact ratings.
+
+The project manager ran thousands of iterative simulations using probability distributions for panel-mounting foundation loads to forecast a range of possible structural outcomes. The project manager then tested how much each individual variable, soil bearing capacity, wind load, and panel weight, affected those outcomes by varying one factor at a time while holding the others constant. Based on this analysis, the project manager developed response plans for each risk and established mandatory geotechnical inspections before work began in any new array section.
+
+Inspection attendance by the installation crews was inconsistent, as crews were often already mobilized to the next section before inspectors arrived. As installation progressed into the northern array field, an updated soil survey showed unexpected groundwater intrusion beneath several planned foundation points. A field technician mentioned to the project manager that the readings looked unusual and asked whether it was still safe to proceed with pile driving in that section. The project manager logged the updated readings in the risk register and asked the site foreman to visually monitor the ground for signs of shifting.
+
+Two weeks later, while multiple pile-driving rigs operated simultaneously in the northern field, the ground beneath one rig subsided, causing the equipment to tip and injure an operator. The incident triggered a safety regulator investigation, and the utility company is now reviewing the contractor's liability.
+
+**案例情境 中**
+
+一位專案經理正在為一家地區電力公司監督一座佔地200英畝太陽能發電廠的建置工程。在規劃初期,專案經理識別出幾項風險,包括北側陣列區的地基土壤不穩定、設備交貨延誤,以及安裝期間的極端天氣,並將每一項都記錄進風險登錄冊,附上機率與衝擊評等。
+
+專案經理針對面板固定基樁的承載力,用機率分布跑了數千次迭代模擬,以預測可能的結構結果範圍。接著專案經理測試個別變數(土壤承載力、風力負載、面板重量)各自對結果的影響程度,做法是每次只改變一個因子、其餘維持不變。根據這項分析,專案經理為每項風險擬定了回應計畫,並訂定強制性的地質檢驗,要求在任何新陣列區動工前都要完成。
+
+安裝團隊出席檢驗的狀況並不穩定,團隊經常在檢驗人員抵達前就已經移動到下一個區域施工。當安裝工程進入北側陣列區時,一份更新的土壤調查顯示,幾個預定的基樁位置底下出現預期外的地下水滲入。一位現場技術人員向專案經理反映,這些讀數看起來不太尋常,並詢問是否還能安全地在該區域繼續打樁。專案經理把更新的讀數記錄進風險登錄冊,並請工地領班以肉眼監控地面是否有位移跡象。
+
+兩週後,當多台打樁機同時在北側陣列區作業時,其中一台機具下方的地面發生下陷,導致機具傾倒並使一名操作員受傷。這起事故引發了安全主管機關的調查,電力公司目前正在檢視承包商的責任歸屬。
+
+**題幹**
+
+- EN: A worker has been injured, prompting a regulatory investigation. What was the most likely root cause of the project manager's failure to prevent this outcome?
+- 中: 一名工人受傷,引發了主管機關的調查。專案經理未能預防這個結果,最可能的根本原因是什麼?
+
+**選項**
+
+- (a) The follow-up risk analysis failed to accurately capture the severity of the groundwater intrusion. / 後續的風險分析未能準確掌握地下水滲入的嚴重程度
+- (b) The project manager did not escalate the safety concern when it exceeded their ability to manage it independently. / 專案經理在這項安全疑慮已超出自己能獨立處理的能力範圍時,沒有向上呈報 ✅ **正解**
+- (c) Several installation crews did not consistently attend the scheduled geotechnical inspections. / 幾支安裝團隊沒有穩定出席排定的地質檢驗
+- (d) A scheduling conflict resulted in multiple pile-driving rigs operating in the same area at the time of the incident. / 排程衝突導致事故發生時,多台打樁機同時在同一區域作業
+
+**詳解**
+
+情境顯示專案經理有識別風險、記錄風險、擬定回應計畫,甚至在收到更新的土壤調查後加強了監控。但當現場技術人員反映讀數異常、詢問是否安全時,專案經理的回應是請工地領班以肉眼監控,而不是找具備解讀地質資料專業的人來判斷。這項安全疑慮已經超出專案經理自己能獨立處理的能力範圍,卻沒有被向上呈報給具備相關專業或職權的人。後續分析確實有進行(更新的土壤調查本身),失敗的地方在於沒有正確判斷這項資訊的嚴重性並適當呈報,而不是分析本身沒做;檢驗出席不穩定雖然存在於情境中,但跟這次受傷事故沒有直接因果關係(下陷源自未被妥善處理的土壤問題,不是漏掉某次檢驗);排程衝突讓多台機具集中在同一區域作業,是加重了曝險程度,但不是根本原因,即使沒有排程衝突,未被妥善處理的土壤風險依然存在。
+
+---
+
+### Q122. `rsk-121` — 單選題
+
+**題目 ID**: `rsk-121`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**所屬案例**：`cs-c`
+
+**案例情境 EN**
+
+A project manager is overseeing construction of a 200-acre solar power plant for a regional utility company. Early in planning, the project manager identified several risks, including unstable subsoil in the northern array field, equipment delivery delays, and extreme weather during the installation window, logging each in the risk register with probability and impact ratings.
+
+The project manager ran thousands of iterative simulations using probability distributions for panel-mounting foundation loads to forecast a range of possible structural outcomes. The project manager then tested how much each individual variable, soil bearing capacity, wind load, and panel weight, affected those outcomes by varying one factor at a time while holding the others constant. Based on this analysis, the project manager developed response plans for each risk and established mandatory geotechnical inspections before work began in any new array section.
+
+Inspection attendance by the installation crews was inconsistent, as crews were often already mobilized to the next section before inspectors arrived. As installation progressed into the northern array field, an updated soil survey showed unexpected groundwater intrusion beneath several planned foundation points. A field technician mentioned to the project manager that the readings looked unusual and asked whether it was still safe to proceed with pile driving in that section. The project manager logged the updated readings in the risk register and asked the site foreman to visually monitor the ground for signs of shifting.
+
+Two weeks later, while multiple pile-driving rigs operated simultaneously in the northern field, the ground beneath one rig subsided, causing the equipment to tip and injure an operator. The incident triggered a safety regulator investigation, and the utility company is now reviewing the contractor's liability.
+
+**案例情境 中**
+
+一位專案經理正在為一家地區電力公司監督一座佔地200英畝太陽能發電廠的建置工程。在規劃初期,專案經理識別出幾項風險,包括北側陣列區的地基土壤不穩定、設備交貨延誤,以及安裝期間的極端天氣,並將每一項都記錄進風險登錄冊,附上機率與衝擊評等。
+
+專案經理針對面板固定基樁的承載力,用機率分布跑了數千次迭代模擬,以預測可能的結構結果範圍。接著專案經理測試個別變數(土壤承載力、風力負載、面板重量)各自對結果的影響程度,做法是每次只改變一個因子、其餘維持不變。根據這項分析,專案經理為每項風險擬定了回應計畫,並訂定強制性的地質檢驗,要求在任何新陣列區動工前都要完成。
+
+安裝團隊出席檢驗的狀況並不穩定,團隊經常在檢驗人員抵達前就已經移動到下一個區域施工。當安裝工程進入北側陣列區時,一份更新的土壤調查顯示,幾個預定的基樁位置底下出現預期外的地下水滲入。一位現場技術人員向專案經理反映,這些讀數看起來不太尋常,並詢問是否還能安全地在該區域繼續打樁。專案經理把更新的讀數記錄進風險登錄冊,並請工地領班以肉眼監控地面是否有位移跡象。
+
+兩週後,當多台打樁機同時在北側陣列區作業時,其中一台機具下方的地面發生下陷,導致機具傾倒並使一名操作員受傷。這起事故引發了安全主管機關的調查,電力公司目前正在檢視承包商的責任歸屬。
+
+**題幹**
+
+- EN: How should the updated groundwater findings have been classified in terms of their significance to worker safety?
+- 中: 就對工人安全的重要性而言,這份更新的地下水發現應該如何分類?
+
+**選項**
+
+- (a) A known known, because the project manager had already documented the finding in the risk register. / 已知的已知,因為專案經理已經把這項發現記錄進風險登錄冊
+- (b) A known unknown, because the full extent of the groundwater intrusion had not yet been determined. / 已知的未知,因為地下水滲入的完整程度尚未被確定
+- (c) An unknown unknown, because groundwater intrusion of this nature could not have been anticipated during planning. / 未知的未知,因為這種性質的地下水滲入在規劃階段無法被預期
+- (d) An unknown known, because the safety significance was knowable but the project manager lacked the expertise to recognize it without consulting a subject matter expert. / 未知的已知,因為這項發現的安全重要性原本是可以被知道的,但專案經理缺乏在不諮詢專家的情況下辨識出來的專業能力 ✅ **正解**
+
+**詳解**
+
+土壤調查數據確實已經在專案經理手上,但這項發現對工人安全的真正意涵,不是專案經理在沒有專業背景的情況下能正確判讀的;一位地質專家原本可以立刻辨識出其中的危險性。這項知識本來就存在、也是可以取得的,只是專案經理沒有去諮詢對的人,這正是「未知的已知」。已知的已知需要同時具備資訊與對資訊的理解,專案經理雖然拿到數據,卻不具備正確解讀其安全意涵的專業;已知的未知代表資訊本身尚未取得,但這項發現的安全意涵其實透過諮詢專家就能取得,不符合這個分類;未知的未知指的是完全無法預期的風險類型,但地質問題在營造工程裡本來就是可預見的風險類別,而且這項發現的重要性透過既有專業就能被判定,不符合無法預期的定義。
+
+---
+
+### Q123. `rsk-122` — 單選題
+
+**題目 ID**: `rsk-122`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**所屬案例**：`cs-c`
+
+**案例情境 EN**
+
+A project manager is overseeing construction of a 200-acre solar power plant for a regional utility company. Early in planning, the project manager identified several risks, including unstable subsoil in the northern array field, equipment delivery delays, and extreme weather during the installation window, logging each in the risk register with probability and impact ratings.
+
+The project manager ran thousands of iterative simulations using probability distributions for panel-mounting foundation loads to forecast a range of possible structural outcomes. The project manager then tested how much each individual variable, soil bearing capacity, wind load, and panel weight, affected those outcomes by varying one factor at a time while holding the others constant. Based on this analysis, the project manager developed response plans for each risk and established mandatory geotechnical inspections before work began in any new array section.
+
+Inspection attendance by the installation crews was inconsistent, as crews were often already mobilized to the next section before inspectors arrived. As installation progressed into the northern array field, an updated soil survey showed unexpected groundwater intrusion beneath several planned foundation points. A field technician mentioned to the project manager that the readings looked unusual and asked whether it was still safe to proceed with pile driving in that section. The project manager logged the updated readings in the risk register and asked the site foreman to visually monitor the ground for signs of shifting.
+
+Two weeks later, while multiple pile-driving rigs operated simultaneously in the northern field, the ground beneath one rig subsided, causing the equipment to tip and injure an operator. The incident triggered a safety regulator investigation, and the utility company is now reviewing the contractor's liability.
+
+**案例情境 中**
+
+一位專案經理正在為一家地區電力公司監督一座佔地200英畝太陽能發電廠的建置工程。在規劃初期,專案經理識別出幾項風險,包括北側陣列區的地基土壤不穩定、設備交貨延誤,以及安裝期間的極端天氣,並將每一項都記錄進風險登錄冊,附上機率與衝擊評等。
+
+專案經理針對面板固定基樁的承載力,用機率分布跑了數千次迭代模擬,以預測可能的結構結果範圍。接著專案經理測試個別變數(土壤承載力、風力負載、面板重量)各自對結果的影響程度,做法是每次只改變一個因子、其餘維持不變。根據這項分析,專案經理為每項風險擬定了回應計畫,並訂定強制性的地質檢驗,要求在任何新陣列區動工前都要完成。
+
+安裝團隊出席檢驗的狀況並不穩定,團隊經常在檢驗人員抵達前就已經移動到下一個區域施工。當安裝工程進入北側陣列區時,一份更新的土壤調查顯示,幾個預定的基樁位置底下出現預期外的地下水滲入。一位現場技術人員向專案經理反映,這些讀數看起來不太尋常,並詢問是否還能安全地在該區域繼續打樁。專案經理把更新的讀數記錄進風險登錄冊,並請工地領班以肉眼監控地面是否有位移跡象。
+
+兩週後,當多台打樁機同時在北側陣列區作業時,其中一台機具下方的地面發生下陷,導致機具傾倒並使一名操作員受傷。這起事故引發了安全主管機關的調查,電力公司目前正在檢視承包商的責任歸屬。
+
+**題幹**
+
+- EN: What could the project manager have done to prevent the worker injury described in the case study?
+- 中: 專案經理原本可以做什麼來預防案例中描述的工人受傷事件?
+
+**選項**
+
+- (a) Scheduled an additional safety briefing for the installation crews on the updated findings. / 針對更新的發現,為安裝團隊多安排一場安全簡報
+- (b) Consulted a subject matter expert to interpret the groundwater findings and determine the appropriate course of action. / 諮詢具備專業的專家來解讀地下水發現,並決定適當的因應做法 ✅ **正解**
+- (c) Assigned a team member to visually monitor site conditions and report any changes in soil stability. / 指派一位團隊成員以肉眼監控現場狀況,回報土壤穩定性的任何變化
+- (d) Updated the risk register with the new findings and continued monitoring the situation. / 把新的發現更新進風險登錄冊,並持續監控狀況
+
+**詳解**
+
+當技術評估資料超出專案經理自身的專業範圍時,正確的做法是找具備相關專業的專家來正確解讀這些發現;地下水滲入的評估結果帶有安全意涵,需要地質專業才能正確判斷。諮詢專家原本能夠揭露這項風險的嚴重程度,並判斷是否需要向上呈報,有機會預防後續發生的傷害。安全簡報處理的是團隊對風險的認知,但沒有回答「這些發現對現場安全到底代表什麼意義」這個核心問題;指派人員用肉眼監控,是把觀察工作交給不具備判讀能力的人,監控本身不能取代專業分析;把發現更新進風險登錄冊只是記錄了資訊,沒有針對這項資訊採取任何行動,當評估結果顯示風險升高時,單純記錄是不夠的。
+
+---
+
+### Q124. `rsk-123` — 單選題
+
+**題目 ID**: `rsk-123`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**所屬案例**：`cs-c`
+
+**案例情境 EN**
+
+A project manager is overseeing construction of a 200-acre solar power plant for a regional utility company. Early in planning, the project manager identified several risks, including unstable subsoil in the northern array field, equipment delivery delays, and extreme weather during the installation window, logging each in the risk register with probability and impact ratings.
+
+The project manager ran thousands of iterative simulations using probability distributions for panel-mounting foundation loads to forecast a range of possible structural outcomes. The project manager then tested how much each individual variable, soil bearing capacity, wind load, and panel weight, affected those outcomes by varying one factor at a time while holding the others constant. Based on this analysis, the project manager developed response plans for each risk and established mandatory geotechnical inspections before work began in any new array section.
+
+Inspection attendance by the installation crews was inconsistent, as crews were often already mobilized to the next section before inspectors arrived. As installation progressed into the northern array field, an updated soil survey showed unexpected groundwater intrusion beneath several planned foundation points. A field technician mentioned to the project manager that the readings looked unusual and asked whether it was still safe to proceed with pile driving in that section. The project manager logged the updated readings in the risk register and asked the site foreman to visually monitor the ground for signs of shifting.
+
+Two weeks later, while multiple pile-driving rigs operated simultaneously in the northern field, the ground beneath one rig subsided, causing the equipment to tip and injure an operator. The incident triggered a safety regulator investigation, and the utility company is now reviewing the contractor's liability.
+
+**案例情境 中**
+
+一位專案經理正在為一家地區電力公司監督一座佔地200英畝太陽能發電廠的建置工程。在規劃初期,專案經理識別出幾項風險,包括北側陣列區的地基土壤不穩定、設備交貨延誤,以及安裝期間的極端天氣,並將每一項都記錄進風險登錄冊,附上機率與衝擊評等。
+
+專案經理針對面板固定基樁的承載力,用機率分布跑了數千次迭代模擬,以預測可能的結構結果範圍。接著專案經理測試個別變數(土壤承載力、風力負載、面板重量)各自對結果的影響程度,做法是每次只改變一個因子、其餘維持不變。根據這項分析,專案經理為每項風險擬定了回應計畫,並訂定強制性的地質檢驗,要求在任何新陣列區動工前都要完成。
+
+安裝團隊出席檢驗的狀況並不穩定,團隊經常在檢驗人員抵達前就已經移動到下一個區域施工。當安裝工程進入北側陣列區時,一份更新的土壤調查顯示,幾個預定的基樁位置底下出現預期外的地下水滲入。一位現場技術人員向專案經理反映,這些讀數看起來不太尋常,並詢問是否還能安全地在該區域繼續打樁。專案經理把更新的讀數記錄進風險登錄冊,並請工地領班以肉眼監控地面是否有位移跡象。
+
+兩週後,當多台打樁機同時在北側陣列區作業時,其中一台機具下方的地面發生下陷,導致機具傾倒並使一名操作員受傷。這起事故引發了安全主管機關的調查,電力公司目前正在檢視承包商的責任歸屬。
+
+**題幹**
+
+- EN: What should the project manager have established at the outset of the project to prevent the situation described in the case study?
+- 中: 專案經理在專案一開始應該建立什麼,才能預防案例中描述的這種狀況?
+
+**選項**
+
+- (a) A comprehensive risk register capturing all potential safety risks associated with the construction project. / 一份涵蓋這項營造專案所有潛在安全風險的完整風險登錄冊
+- (b) A risk threshold framework defining the conditions under which risks must be escalated beyond the project manager's authority. / 一套風險門檻框架,明確定義風險必須超出專案經理職權而向上呈報的條件 ✅ **正解**
+- (c) A detailed safety management plan outlining inspection procedures and compliance requirements. / 一份詳細的安全管理計畫,列出檢驗程序與合規要求
+- (d) A stakeholder communication plan ensuring all parties were informed of safety risks throughout the project. / 一份利害關係人溝通計畫,確保各方在專案全程都被告知安全風險
+
+**詳解**
+
+在專案一開始就建立風險門檻框架,能事先定義好哪些條件下的風險必須超出專案經理的職權往上呈報,這正好對應治理面「界定升級路徑與門檻」這項工作;有了明確的門檻,專案經理面對更新的土壤調查結果時,就會有一個預先設定好的觸發點,判斷這項發現已經到了需要呈報給具備專業與職權的人來果斷處理的程度。完整的風險登錄冊能記錄已識別的風險,但無法定義什麼條件下需要呈報,而且專案經理本來就已經維護著風險登錄冊;安全管理計畫列出檢驗程序與合規要求,但無法處理「風險何時已經超出專案經理自己能獨立管理的能力範圍」這個判斷;利害關係人溝通計畫確保各方被告知,但無法建立辨識與行動所需的升級決策框架。
+
+---
+
+### Q125. `rsk-124` — 單選題
+
+**題目 ID**: `rsk-124`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A construction project is underway at a fixed coastal site during hurricane season. The work depends on installed heavy equipment and staged materials that cannot be relocated without major disruption. A major storm could cause up to $2 million in damage. The sponsor is primarily concerned about the financial exposure from potential storm damage. What risk response strategy is most appropriate?
+- 中: 某營造專案正在一處固定的沿海場地施工,時值颶風季節。工程進度仰賴已就位的重型設備與已備妥的物料,這些設備物料若要搬遷會造成重大干擾。一場大型風暴可能造成高達200萬美元的損失。贊助人最關心的是潛在風暴損害所帶來的財務風險。此時最適當的風險回應策略是什麼?
+
+**選項**
+
+- (a) Transfer the risk by arranging insurance coverage for storm-related equipment and material damage. / 為風暴造成的設備與物料損害安排保險,以轉移風險 ✅ **正解**
+- (b) Mitigate the risk by implementing storm-preparation procedures, protective storage, and site hardening measures to reduce potential damage. / 實施防颱準備程序、防護性儲存與場地強化措施以降低潛在損害,藉此減緩風險
+- (c) Avoid the risk by rescheduling construction activities outside the hurricane season window. / 將施工活動改期到颶風季節之外,以迴避風險
+- (d) Accept the risk and establish a weather monitoring protocol for the construction period. / 接受風險,並在施工期間建立天氣監測機制
+
+**詳解**
+
+專案已經在一個固定場地動工,重型設備與物料都無法搬遷,這個限制同時削弱了迴避與物理性減緩這兩種策略的可行性與效果。即使做了充分的防颱準備,場地仍然留有相當大的財務曝險。而轉移策略是直接針對這200萬美元的潛在損失,把財務責任轉嫁給第三方(保險公司),在目前的限制條件下,這是最能對應風險規模與贊助人真正關切點的回應方式。場地強化與防颱準備是很好的輔助措施,但無法消除固定場地、設備無法搬遷所帶來的財務曝險,充其量只能在邊際上降低損害程度,無法對應風險的量級;把工程改期雖然能避開颶風季節的曝險,但專案已經在固定場地施工中,這個選項在操作上根本不可行;而在明知有200萬美元曝險的情況下,只選擇被動監測天氣、不採取任何轉嫁或降低財務衝擊的積極作為,明顯不足以因應這個規模的風險。
+
+---
+
+### Q126. `rsk-125` — 單選題
+
+**題目 ID**: `rsk-125`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is leading a two-week internal process documentation effort for a department of six employees. The initiative has no external dependencies, no budget, and no identifiable risks beyond minor scheduling conflicts. The department head requests a full risk management plan with probability matrices, risk owners, and formal response strategies. What should the project manager do?
+- 中: 一位專案經理正在主導一項為期兩週、給一個六人部門用的內部流程文件化工作。這項專案沒有外部依賴、沒有預算,除了輕微的排程衝突外,沒有其他可辨識的風險。部門主管要求要有一份完整的風險管理計畫,包含機率矩陣、風險負責人與正式的回應策略。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Develop the comprehensive risk management plan as requested to demonstrate governance discipline. / 依要求產出完整的風險管理計畫,以展現治理紀律
+- (b) Create a detailed risk register documenting all possible risks regardless of the project's scale. / 不論專案規模大小,都建立一份詳盡的風險登錄冊,記錄所有可能的風險
+- (c) Request additional time and resources to properly prepare the documentation the department head has requested. / 申請額外的時間與資源,以妥善準備部門主管要求的文件
+- (d) Explain to the department head that the project's scale does not warrant a formal risk plan and propose a simplified approach. / 向部門主管說明,這個專案的規模不足以需要一份正式的風險計畫,並提議採用簡化做法 ✅ **正解**
+
+**詳解**
+
+風險管理的做法應該依專案的規模、複雜度與風險輪廓來裁適(tailor),而不是一律套用同一套標準。一個為期僅兩週、風險曝險極低的內部專案,並不需要動用完整正式的風險管理計畫。正確的回應不是忽略風險,而是採用一套與專案實際風險量級相稱、輕量化的做法,並且主動向贊助人說明理由。依要求產出完整正式計畫,等於把「符合治理範本」看得比專案效率還重要,把整套完整治理硬套在一個低風險的小型專案上,只會消耗資源卻換不到相對應的價值;不論規模一律建立詳盡風險登錄冊,也是同樣的問題,文件的詳盡程度應該對應專案實際的風險曝險,而不是無差別套用一個統一標準;向部門主管申請額外時間與資源來完成這份非必要的正式文件,則是讓問題更嚴重,因為這等於是想辦法擴大專案的範疇去配合一項不必要的要求,而不是先去檢視這項要求本身是否合理、是否應該被裁適。
+
+---
+
+### Q127. `rsk-126` — 單選題
+
+**題目 ID**: `rsk-126`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A pharmaceutical logistics company relies on cold-chain containers imported from a single foreign supplier. A recent industry report indicates the supplier's government is reviewing a proposal to restrict certain exports. The project manager has been assigned to monitor this situation as a potential risk to the supply chain. What should the project manager do?
+- 中: 某醫藥物流公司仰賴向單一國外供應商進口的冷鏈貨櫃。近期一份產業報告指出,該供應商所在國的政府正在審議一項可能限制特定出口項目的提案。專案經理已被指派監控這個狀況,將其視為供應鏈的一項潛在風險。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Continue tracking trade publications and news sources for further developments on the proposed restrictions. / 持續追蹤貿易刊物與新聞來源,關注這項限制提案的後續發展
+- (b) Contact the supplier directly to request advance warning if the export restrictions are approved. / 直接聯繫供應商,要求對方在出口限制一旦通過時提前示警
+- (c) Monitor container inventory levels and alert stakeholders if stock falls below safety thresholds. / 監控貨櫃庫存水位,若庫存低於安全門檻就提醒利害關係人
+- (d) Review the risk management plan for this risk and report to stakeholders if conditions indicate the risk is escalating. / 檢視這項風險在風險管理計畫中的相關規定,若情勢顯示風險正在升高,則向利害關係人回報 ✅ **正解**
+
+**詳解**
+
+這份產業報告本身是一個值得追蹤的觸發事件(trigger)。但既然這項風險已經被正式識別,並且專案經理已被指派負責監控,正確的做法就是回頭依循風險管理計畫的規定,因為計畫裡已經定義好了升級門檻,以及在什麼條件下需要向利害關係人通報。持續關注貿易刊物只是專案經理最初得知這項發展的管道,屬於非正式的輔助訊息來源,真正該用來判斷「該注意什麼、什麼時候該採取行動」的依據,是風險管理計畫;直接聯繫供應商已經超出監控角色的範疇,主動去接觸供應商是一種回應行動,或許之後真的有必要,但監控階段目前還不需要做到這一步;監控庫存水位追蹤的是供應中斷「萬一發生」之後的下游衝擊,而不是計畫中所定義、真正該盯著看的外部限制風險本身的觸發條件,專案經理被指派的任務是監控這項對外限制是否正在升溫,而不是管理庫存水位。
+
+---
+
+### Q128. `rsk-127` — 單選題
+
+**題目 ID**: `rsk-127`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A manufacturing project has been consistently meeting its weekly milestones. During a status review, the project manager discovers that one production component is consuming twice its allocated materials. The project is otherwise on track and no team member has raised concerns about this component. What should the project manager do first?
+- 中: 某製造專案一直穩定達成每週的里程碑。在一次狀態審查中,專案經理發現有一項生產組件的物料耗用量是原本分配額度的兩倍。專案的其他部分都在正軌上,也沒有任何團隊成員針對這項組件提出過疑慮。專案經理最先應該做什麼?
+
+**選項**
+
+- (a) Revise the project budget baseline to accommodate the higher material costs for this component. / 修訂專案預算基準,以容納這項組件較高的物料成本
+- (b) Reduce the scope of the component to bring material consumption back within the original allocation. / 縮減這項組件的範疇,讓物料耗用量回到原本的分配額度之內
+- (c) Schedule a meeting with the component team to ask why material costs are higher than planned. / 與負責這項組件的團隊安排會議,詢問物料成本為何高於計畫
+- (d) Analyze the situation to identify the root cause of the overconsumption before deciding on corrective action. / 在決定任何矯正行動之前,先分析狀況以找出物料超耗的根本原因 ✅ **正解**
+
+**詳解**
+
+目前物料超耗的原因還不明朗。在還沒弄清楚原因之前就採取行動,很可能用錯方法去解決問題。先做根本原因分析,才能確保之後採取的矯正行動,是真正對症下藥,而不是只處理表面症狀。直接修訂預算基準,等於是還沒搞清楚這筆額外成本是否可以避免,就先照單全收,如果根本原因其實是流程出錯或供應商問題,單純吸收成本就是用錯了方向;縮減範疇則是在原因還沒釐清前就先套用一個解方,超耗的物料很可能與範疇本身完全無關,貿然縮減範疇未必能解決真正的問題;詢問團隊是整體調查中合理的一步,但只透過這一個管道去了解狀況,很可能會漏掉屬於系統性或外部性的原因,根本原因分析可能需要檢視流程、物料、供應商品質與設計規格等面向,而這些不見得是團隊成員自己就能直接說明清楚的。
+
+---
+
+### Q129. `rsk-128` — 單選題
+
+**題目 ID**: `rsk-128`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager for a clinical software implementation has completed a risk identification workshop with key stakeholders. A comprehensive list of potential risks has been compiled. The project manager now needs to prepare a risk management plan that addresses how these risks will be handled throughout the project lifecycle. What should the project manager do next?
+- 中: 某臨床軟體導入專案的專案經理,已與主要利害關係人完成一場風險識別工作坊,並彙整出一份完整的潛在風險清單。專案經理接下來需要準備一份風險管理計畫,說明這些風險在整個專案生命週期中將如何被處理。專案經理接下來應該做什麼?
+
+**選項**
+
+- (a) Develop contingency plans for each identified risk so the team can respond immediately when any risk materializes. / 為每一項已識別的風險擬定應變計畫,讓團隊在任何風險發生時都能立即回應
+- (b) Use qualitative and quantitative analysis to assess and prioritize the identified risks based on probability and impact. / 運用定性與定量分析,依機率與衝擊評估並排定已識別風險的優先順序 ✅ **正解**
+- (c) Assign risk owners to each identified risk and establish response budgets based on estimated cost. / 為每一項已識別的風險指派風險負責人,並依估計成本建立回應預算
+- (d) Update the risk register with the full list of identified risks and distribute it to all stakeholders for review. / 把完整的已識別風險清單更新進風險登錄冊,並分發給所有利害關係人審閱
+
+**詳解**
+
+風險識別階段產出的是一份清單。而分析階段的工作,是透過評估機率與潛在衝擊,判斷清單上哪些風險最值得投入關注,依此排出的優先順序,才能讓後續的規劃步驟聚焦且有效率。如果在風險還沒排出優先順序之前,就急著擬定回應措施或編列預算,等於是在沒有依據的情況下分配資源,無法確保資源真正投入在最需要的地方。擬定應變計畫屬於回應規劃活動,理應在分析之後才進行,如果在還不清楚哪些風險優先程度最高之前就先擬定回應方案,很可能把資源浪費在嚴重程度較低的項目上;指派風險負責人與建立回應預算同樣也應該在分析之後才做,沒有機率與衝擊的分析資料作為依據,預算估算就沒有分析基礎,負責人的指派也會流於隨意;更新風險登錄冊並分發給利害關係人,只是把已識別的內容做了文件化,並沒有處理「這些風險接下來要如何被管理」這個核心問題,單純把風險記錄下來,本身並不構成一份風險管理計畫。
+
+---
+
+### Q130. `rsk-129` — 單選題
+
+**題目 ID**: `rsk-129`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager overseeing the digitization of a regional museum's photographic archive identified several risks during planning, including scanner hardware failure, corrupted metadata during batch uploads, and turnover among the volunteer cataloguing team. For each risk she recorded the probability, impact, and a planned response, and she reviews and updates this record every week as the project progresses. What is this document?
+- 中: 一位專案經理正在監督一家地區博物館攝影檔案的數位化工作,在規劃階段識別出幾項風險,包括掃描設備故障、批次上傳時中繼資料損毀,以及志工編目團隊的人員流動。針對每一項風險,她都記錄了發生機率、衝擊程度與規劃中的回應措施,並每週檢視更新這份記錄。這是什麼文件?
+
+**選項**
+
+- (a) The issue log / 議題日誌
+- (b) The risk register / 風險登錄冊 ✅ **正解**
+- (c) The risk management plan / 風險管理計畫
+- (d) The assumption log / 假設日誌
+
+**詳解**
+
+記錄每一項已識別風險的機率、衝擊與規劃回應措施,並隨專案進展持續更新,正是風險登錄冊的核心用途。議題日誌記錄的是已經發生、正在影響專案的實際問題,不是尚未發生的風險;風險管理計畫定義的是風險管理活動要如何進行(角色、方法論、門檻等),而不是逐項記錄風險本身;假設日誌記錄的是規劃時採信的假設與限制,即便某些假設帶有風險意涵,也不是用來追蹤個別風險的文件。
+
+---
+
+### Q131. `rsk-130` — 單選題
+
+**題目 ID**: `rsk-130`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager for a university genomics research lab has just finished a risk identification session with the lab's principal investigators while planning the procurement of specialized sequencing equipment. A long list of potential risks, including customs delays, calibration failures, and vendor lock-in, has been compiled. What should the project manager do next?
+- 中: 一位大學基因體研究實驗室的專案經理,在規劃採購專用定序設備的過程中,剛與實驗室的主持人們完成一場風險識別會議,彙整出一份很長的潛在風險清單,包括海關延誤、校準失敗與供應商鎖定。專案經理接下來應該做什麼?
+
+**選項**
+
+- (a) Assign a risk owner to each item on the list and set aside a contingency reserve for the highest-cost items. / 為清單上每一項風險指派風險負責人,並為成本最高的項目保留應變準備金
+- (b) Draft response plans for the risks that seem most concerning to the principal investigators. / 針對主持人們覺得最令人擔憂的風險,擬定回應計畫
+- (c) Perform qualitative and quantitative analysis to assess and prioritize the identified risks by probability and impact. / 運用定性與定量分析,依機率與衝擊評估並排定已識別風險的優先順序 ✅ **正解**
+- (d) Update the risk register with the full list and circulate it to the procurement committee for awareness. / 把完整清單更新進風險登錄冊,並分發給採購委員會知悉
+
+**詳解**
+
+識別階段的產出只是一份未經排序的清單。在規劃任何回應措施或分配任何預算之前,必須先透過定性與定量分析評估每項風險的機率與衝擊,藉此排出優先順序,後續的資源投入才有依據。憑主持人的主觀感受挑選「最令人擔憂」的風險來規劃回應,跳過了系統性分析,容易受個人偏見左右;在還沒完成分析排序前就指派負責人、保留應變準備金,等於是在沒有依據的情況下分配資源;單純把清單更新進風險登錄冊並分發出去,只是完成了文件化,並沒有往前推進到「這些風險該如何被排序與管理」這一步。
+
+---
+
+### Q132. `rsk-131` — 多選題
+
+**題目 ID**: `rsk-131`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A structural engineering firm is retrofitting an aging highway overpass. The lead analyst ran 10,000 iterative simulations across probability distributions for rebar corrosion rate, traffic load, and material fatigue simultaneously to forecast a range of possible failure likelihoods. The analyst then separately tested how much a single variable, ambient temperature fluctuation, affected long-term settlement by varying it alone while holding all other variables constant. Which three of the following best describe the techniques used? (Select three.)
+- 中: 某結構工程公司正在整修一座老舊的高速公路陸橋。首席分析師針對鋼筋腐蝕率、交通載重與材料疲勞這幾個機率分布,同時跑了一萬次迭代模擬,以預測可能的破壞機率範圍。接著分析師另外測試單一變數(環境溫度變化)對長期沉陷的影響程度,做法是只改變這個變數、其餘維持不變。以下哪三項最能描述分析師使用的技術?(請選擇三項)
+
+**選項**
+
+- (a) Quantitative risk analysis / 定量風險分析 ✅ **正解**
+- (b) Risk urgency assessment / 風險急迫性評估
+- (c) Monte Carlo simulation / 蒙地卡羅模擬 ✅ **正解**
+- (d) Sensitivity analysis / 敏感度分析 ✅ **正解**
+
+**詳解**
+
+同時針對多個變數的機率分布跑大量迭代模擬以預測結果範圍,對應蒙地卡羅模擬;逐一改變單一變數、其餘維持不變以觀察其對結果的影響程度,對應敏感度分析。這兩項技術都屬於定量風險分析,因此這個較上位的分類同樣成立。風險急迫性評估是一項定性技術,用來評估風險需要多快被處理,情境中並沒有描述這項作法。
+
+---
+
+### Q133. `rsk-132` — 單選題
+
+**題目 ID**: `rsk-132`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A biotech company is designing the HVAC system for a new cleanroom. To determine which single input, filtration efficiency, airflow rate, or particulate load, has the greatest effect on maintaining the required cleanroom classification, the analyst changes one variable at a time while holding the other two constant and observes the resulting change. Which technique is being used?
+- 中: 某生技公司正在設計一間新無塵室的空調系統。為了判斷哪一項單一輸入變數(過濾效率、氣流速率或懸浮微粒濃度)對維持所需無塵等級的影響最大,分析師每次只改變一個變數、其餘兩項維持不變,並觀察造成的變化。這是在使用什麼技術?
+
+**選項**
+
+- (a) Monte Carlo simulation / 蒙地卡羅模擬
+- (b) Sensitivity analysis / 敏感度分析 ✅ **正解**
+- (c) Probability and impact matrix / 機率與衝擊矩陣
+- (d) Risk urgency assessment / 風險急迫性評估
+
+**詳解**
+
+每次只改變一個變數、其餘維持不變,藉此觀察該變數對結果的影響程度,是敏感度分析的定義性做法,常以龍捲風圖呈現各變數的相對影響力。蒙地卡羅模擬則是同時針對多個變數的機率分布跑大量迭代,得出結果的機率分布範圍,與逐一變動單一變數的做法不同;機率與衝擊矩陣與風險急迫性評估都是定性分析工具,用來對風險做分類與排序,不涉及變數之間的量化因果測試。
+
+---
+
+### Q134. `rsk-133` — 單選題
+
+**題目 ID**: `rsk-133`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is leading the rollout of a new automated baggage-handling system for a mid-sized airport. During integration testing, a controls engineer flagged that the conveyor routing software occasionally misreads tag barcodes under high-throughput conditions, a issue that falls outside the project manager's technical background. The project manager asked the engineer to keep tightening the scanner calibration and did not raise the issue further. On opening day, the routing software misdirected a large volume of bags during peak traffic, causing significant flight delays. What was the most likely root cause of this outcome?
+- 中: 一位專案經理正在主導某中型機場新自動化行李處理系統的上線工作。在整合測試期間,一位控制工程師反映,輸送帶的路由軟體在高流量狀況下偶爾會誤讀行李標籤條碼,這個問題超出了專案經理的技術背景。專案經理請工程師持續調緊掃描器校準,沒有進一步往上呈報這個問題。啟用當天,路由軟體在尖峰時段誤導了大量行李,造成嚴重的航班延誤。這個結果最可能的根本原因是什麼?
+
+**選項**
+
+- (a) The integration testing schedule did not allow enough time to fully validate the routing software. / 整合測試的排程沒有留下足夠時間完整驗證路由軟體
+- (b) The project manager did not escalate a technical issue that exceeded their ability to assess independently. / 專案經理沒有把一個超出自己獨立判斷能力的技術問題向上呈報 ✅ **正解**
+- (c) The scanner calibration process itself was fundamentally flawed and could not be corrected. / 掃描器校準流程本身有根本性缺陷,無法被修正
+- (d) Peak traffic volume on opening day exceeded the system's designed throughput capacity. / 啟用當天的尖峰流量超過了系統設計的處理容量
+
+**詳解**
+
+工程師提出的是一個超出專案經理技術背景的軟體行為問題,專案經理的回應卻只是請工程師持續調校硬體參數,沒有把這項疑慮呈報給具備軟體路由專業或決策職權的人。真正的根本原因,是專案經理未能辨識出這個問題已經超出自己能獨立處理的範圍,因而沒有適時上呈,讓一個原本有機會在上線前被攔截的風險一路帶到正式營運。測試排程長短是情境中沒有明確描述的推測;掃描器校準是工程師嘗試的緩解手段,情境並未顯示這個做法本身有根本缺陷,只是說明它沒有解決真正的軟體路由問題;尖峰流量超出設計容量雖然是觸發問題浮現的條件,但問題本身(條碼誤讀)在測試階段就已經被發現,真正該被檢討的是呈報流程失靈,而不是流量規模。
+
+---
+
+### Q135. `rsk-134` — 單選題
+
+**題目 ID**: `rsk-134`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is overseeing the installation of a subsea power cable for an offshore wind farm. During pre-installation surveying, the survey crew reported that sonar readings along part of the planned cable route looked unusual and asked whether it was safe to proceed with trenching there. The interpretation of these readings was outside the project manager's expertise, but the project manager told the crew to proceed cautiously and watch for further anomalies. During trenching, the cable was damaged when it struck an unmapped rock formation in that exact section, delaying the project by several months. What was the most likely root cause of this outcome?
+- 中: 一位專案經理正在監督一座離岸風場海底電纜的鋪設工程。在鋪設前的探勘作業中,探勘團隊回報,計畫路線上有一段的聲納讀數看起來不太尋常,並詢問是否可以安全地在該處進行開溝作業。這些讀數的判讀超出了專案經理的專業範圍,但專案經理告訴團隊謹慎繼續作業,並留意是否有進一步的異常。開溝作業中,電纜在該路段撞上一塊未被標示的岩層而受損,導致專案延遲了數個月。這個結果最可能的根本原因是什麼?
+
+**選項**
+
+- (a) The original seabed survey failed to map every rock formation along the cable route. / 最初的海床探勘未能標示出電纜路線上的每一處岩層
+- (b) The project manager did not escalate an anomaly whose safety implications exceeded their own expertise. / 專案經理沒有把安全意涵超出自己專業範圍的異常向上呈報 ✅ **正解**
+- (c) The trenching crew proceeded with the work despite being asked to watch for anomalies. / 開溝團隊儘管被要求留意異常,仍繼續進行作業
+- (d) The wind farm's construction schedule did not allow time for a supplementary seabed survey. / 風場的施工時程沒有留出時間進行補充的海床探勘
+
+**詳解**
+
+探勘團隊主動反映讀數異常、並詢問是否安全,這正是一個需要專業判讀的訊號。專案經理不具備解讀聲納資料的專業,卻只是要求團隊謹慎繼續、留意後續異常,而沒有把這項疑慮呈報給具備海事地質專業的人來正確判斷。這正是超出自己能獨立處理範圍卻沒有往上呈報的失誤,才是電纜受損的根本原因。原始探勘未能標示出每一處岩層,是既成事實的限制,任何探勘都難以做到毫無遺漏,問題不在探勘本身不夠完整,而在於後續浮現的異常訊號沒有被妥善處理;開溝團隊確實有按指示繼續作業並保持警覺,並非團隊執行不力;施工時程是否留有餘裕進行補充探勘屬於情境未提及的推測,而且真正錯失的機會點,是收到異常回報當下沒有立即呈報尋求專業判斷,不是後續有沒有時間做額外探勘。
+
+---
+
+### Q136. `rsk-135` — 單選題
+
+**題目 ID**: `rsk-135`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager for a semiconductor fabrication upgrade project is reviewing a sudden drop in wafer yield. The production data already shows unusual doping concentration readings on the affected batches, but the project manager cannot determine what these readings mean for yield without input from a process engineer, who could immediately recognize the readings as indicating an out-of-spec diffusion furnace. How should this doping concentration data have been classified with respect to its significance for yield, before the process engineer was consulted?
+- 中: 一位半導體晶圓廠升級專案的專案經理,正在檢視一次晶圓良率的急遽下滑。生產數據已經顯示,受影響批次出現異常的摻雜濃度讀數,但專案經理若沒有製程工程師的協助,無法判斷這些讀數對良率代表什麼意義;而製程工程師一看就能立刻辨識出這是擴散爐製程超出規格的訊號。在諮詢製程工程師之前,這份摻雜濃度數據就其對良率的重要性而言,應該如何分類?
+
+**選項**
+
+- (a) A known known, because the data had already been captured in the production system. / 已知的已知,因為這項數據已經被記錄在生產系統中
+- (b) A known unknown, because the exact yield impact had not yet been quantified. / 已知的未知,因為確切的良率影響尚未被量化
+- (c) An unknown known, because the significance was knowable but the project manager lacked the expertise to recognize it without a process engineer. / 未知的已知,因為這項數據的重要性原本是可以被知道的,但專案經理缺乏在沒有製程工程師協助下辨識出來的專業能力 ✅ **正解**
+- (d) An unknown unknown, because a yield drop of this nature could not have been anticipated. / 未知的未知,因為這種性質的良率下滑在事前無法被預期
+
+**詳解**
+
+摻雜濃度數據本身已經存在於生產系統裡,但它所代表的意涵,製程工程師一看就能立刻辨識,只是專案經理自己不具備這項專業。這代表相關知識本來就存在、也可以被取得,只是沒有經過對的人解讀,正是「未知的已知」。已知的已知需要同時具備資訊本身與對其意涵的理解,專案經理雖然拿到了數據,卻不理解其代表的意義,不符合這個分類;已知的未知代表資訊本身尚未取得,但這裡的問題不是數據不存在,而是缺乏解讀能力,因此不適用;未知的未知指的是完全無法預期、事前毫無徵兆的風險類型,但這項數據本身早就被記錄下來,而且製程工程師憑既有專業就能立刻判斷其意義,並不符合無法預期的定義。
+
+---
+
+### Q137. `rsk-136` — 單選題
+
+**題目 ID**: `rsk-136`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: During the renovation of a century-old heritage building, workers discovered a sealed structural cavity containing hazardous insulation material behind a load-bearing wall. No historical blueprint, prior inspection report, or building record for the structure had ever indicated the existence of this cavity or its contents. How should this discovery be classified?
+- 中: 在一棟百年歷史建築的整修工程中,工人在一面承重牆後方發現一個密封的結構空腔,裡面含有危害性隔熱材料。這棟建築的任何歷史藍圖、先前檢驗報告或建物紀錄,都從未顯示過這個空腔或其內容物的存在。這項發現應該如何分類?
+
+**選項**
+
+- (a) A known known, because hazardous materials are common in buildings of this age. / 已知的已知,因為這個年代的建築物普遍存在危害性材料
+- (b) A known unknown, because the project team was aware such cavities sometimes exist in old buildings. / 已知的未知,因為專案團隊知道這類舊建築有時會存在這種空腔
+- (c) An unknown unknown, because no available record or inspection could have revealed this specific cavity before demolition began. / 未知的未知,因為在拆除工程開始前,沒有任何可取得的紀錄或檢驗能夠揭露這個特定空腔的存在 ✅ **正解**
+- (d) An unknown known, because a materials expert could have identified the risk in advance if consulted. / 未知的已知,因為若諮詢材料專家,原本可以事先辨識出這項風險
+
+**詳解**
+
+這個空腔完全沒有出現在任何歷史紀錄、藍圖或先前的檢驗報告中,代表在拆除工程實際觸及之前,沒有任何管道可以取得與這個特定空腔有關的資訊,也沒有專家諮詢能夠事先揭露它的存在,這正是「未知的未知」,也就是完全無法預期的突發風險,只能靠管理準備金與應變韌性來因應。已知的已知需要團隊事前就掌握這項特定風險的存在與意涵,但情境明確指出毫無事前跡象;已知的未知代表團隊已經知道某個風險類別的存在、只是細節未定,但情境強調的是「這個特定空腔」完全沒有被任何紀錄提及,而不是一般性地知道舊建築可能藏有危害材料;未知的已知則假設只要諮詢對的專家就能事先發現,但情境已排除任何紀錄或檢驗能揭露這個特定空腔,所以不屬於「資訊可透過諮詢取得」的情況。
+
+---
+
+### Q138. `rsk-137` — 單選題
+
+**題目 ID**: `rsk-137`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is overseeing the refurbishment of a container terminal's gantry cranes. A structural inspection report shows unusual fatigue readings in one crane's main boom, but the readings' implications for safe operating load are outside the project manager's technical background. What should the project manager do?
+- 中: 一位專案經理正在監督某貨櫃碼頭門式起重機的整修工程。一份結構檢驗報告顯示,其中一台起重機的主吊臂出現異常的疲勞讀數,但這些讀數對安全操作載重代表的意涵,超出了專案經理的技術背景。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Reduce the crane's rated operating load by a conservative margin as a precaution. / 為求謹慎,先保守地調降這台起重機的額定操作載重
+- (b) Consult a structural engineer to interpret the fatigue readings and determine a safe course of action. / 諮詢結構工程師來解讀這些疲勞讀數,並判斷安全的因應做法 ✅ **正解**
+- (c) Assign a maintenance technician to visually inspect the boom daily for further signs of stress. / 指派一位維修技術人員每天以肉眼檢查吊臂是否有進一步的應力跡象
+- (d) Log the fatigue readings in the risk register and continue operating the crane at its current rated load. / 把疲勞讀數記錄進風險登錄冊,並讓起重機維持在目前的額定載重下繼續運作
+
+**詳解**
+
+疲勞讀數對安全操作載重的意涵,需要結構工程專業才能正確判讀,這已經超出專案經理自身的技術背景。正確的做法是諮詢具備相關專業的結構工程師,由對的人來解讀這些數據,並據此判斷安全的操作方式或必要的維修行動。自行保守調降載重雖然出於善意,但沒有專業依據,可能矯枉過正或仍不足以因應真正的結構問題;指派技術人員以肉眼檢查,是把判讀工作交給不具備結構分析能力的人,無法取代工程專業的評估;單純記錄讀數並維持現狀運作,等於是在已知有異常訊號的情況下什麼都不做,風險並未因為被記錄下來就獲得妥善處理。
+
+---
+
+### Q139. `rsk-138` — 單選題
+
+**題目 ID**: `rsk-138`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager for a large-scale irrigation system installation receives soil salinity readings from a newly irrigated field that look abnormally high compared to baseline data. Interpreting what these readings mean for long-term crop yield is outside the project manager's expertise. What should the project manager do?
+- 中: 一位大型灌溉系統建置專案的專案經理,收到一塊新灌溉農地的土壤鹽度讀數,數值相較於基準數據異常偏高。判讀這些讀數對長期作物產量代表的意義,超出了專案經理的專業範圍。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Consult a soil science or agronomy expert to interpret the readings and recommend a course of action. / 諮詢土壤科學或農藝專家來解讀這些讀數,並建議因應做法 ✅ **正解**
+- (b) Instruct the field crew to reduce irrigation volume until the readings return to baseline. / 指示田間team減少灌溉水量,直到讀數回到基準值
+- (c) Note the readings in a status report and continue with the original irrigation schedule. / 在狀態報告中記錄這些讀數,並依原訂灌溉時程繼續進行
+- (d) Schedule a follow-up soil test in three months to see whether the readings change. / 安排三個月後再做一次追蹤土壤檢測,看讀數是否有變化
+
+**詳解**
+
+土壤鹽度異常對長期作物產量的意義,需要土壤科學或農藝方面的專業才能正確解讀,不是專案經理憑經驗判斷就能處理的。諮詢對的專家,才能取得正確的判讀並決定適當的因應行動,例如是否需要調整灌溉方式或土壤改良。自行指示減少灌溉水量,是在不了解真正原因的情況下就採取行動,可能無助於解決鹽度問題,甚至影響作物生長;僅在報告中記錄並照原計畫進行,等於忽視了一個已經浮現的異常訊號;等待三個月後再追蹤檢測,則是讓問題持續累積,錯失及早介入的時機,都不如直接找專家釐清意涵來得恰當。
+
+---
+
+### Q140. `rsk-139` — 單選題
+
+**題目 ID**: `rsk-139`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A hospital system is beginning a multi-year electronic health record migration across a dozen affiliated clinics. Given the potential for patient-safety and regulatory-compliance risks to arise during the migration, what should the project manager establish at the very start of the project?
+- 中: 某醫療體系正要展開一項跨十幾家附屬診所、為期多年的電子病歷系統遷移計畫。考量到遷移過程中可能出現病人安全與法規遵循方面的風險,專案經理在專案一開始就應該建立什麼?
+
+**選項**
+
+- (a) A comprehensive risk register listing every conceivable risk before migration work begins. / 一份在遷移工作開始前就列出所有可能風險的完整風險登錄冊
+- (b) A risk threshold framework defining the conditions under which risks must be escalated beyond the project manager's authority. / 一套風險門檻框架,明確定義風險必須超出專案經理職權而向上呈報的條件 ✅ **正解**
+- (c) A detailed compliance checklist covering every applicable healthcare regulation. / 一份涵蓋所有適用醫療法規的詳盡合規檢查清單
+- (d) A stakeholder communication plan ensuring every clinic is updated on migration progress. / 一份利害關係人溝通計畫,確保每家診所都能收到遷移進度的更新
+
+**詳解**
+
+在專案一開始就建立風險門檻框架,能事先定義好哪些條件下的風險(例如可能影響病人安全或觸犯法規的事件)必須超出專案經理的職權往上呈報,讓治理層級能在事情惡化前及時介入。這正對應在專案啟動時就建立升級路徑與決策門檻的治理工作。完整的風險登錄冊只能記錄已識別的風險,無法定義什麼條件下需要呈報,而且風險登錄冊本來就會隨專案進展持續更新,不必也不可能在啟動當下就窮盡列出所有風險;合規檢查清單處理的是法規遵循的核對工作,但無法回答「風險嚴重到什麼程度就必須上呈給更高權限」這個治理問題;溝通計畫確保資訊被傳遞,但同樣無法建立辨識與行動所需的升級決策框架。
+
+---
+
+### Q141. `rsk-140` — 多選題
+
+**題目 ID**: `rsk-140`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A mining company is establishing project governance for a new underground extraction project before work begins. As part of building the risk threshold and escalation framework at the project's outset, which two of the following should be included? (Select two.)
+- 中: 某礦業公司在一項新的地下開採專案動工前,正在為專案建立治理架構。作為在專案一開始就建立風險門檻與升級框架的一部分,以下哪兩項應該被納入?(請選擇兩項)
+
+**選項**
+
+- (a) Defined threshold values for key risk dimensions (e.g., safety incidents, schedule slippage) above which a risk must be escalated / 針對關鍵風險面向(如安全事件、時程落後)訂定明確的門檻值,超過此門檻就必須將風險上呈 ✅ **正解**
+- (b) A clearly defined escalation path specifying who has the authority to decide once a threshold is crossed / 一條清楚定義的升級路徑,明確指出一旦超過門檻,由誰擁有決策職權 ✅ **正解**
+- (c) A finalized work breakdown structure covering all extraction activities / 一份涵蓋所有開採活動的完整工作分解結構
+- (d) A fully staffed risk register containing every risk the project could ever encounter / 一份人力配置齊全、涵蓋專案可能遇到的所有風險的風險登錄冊
+
+**詳解**
+
+風險門檻與升級框架的核心,是預先定義「多嚴重才算超出可接受範圍」以及「一旦超過門檻,由誰來做決定」,也就是門檻值與清楚的升級路徑及職權歸屬。有了這兩項要素,現場人員在風險升高時才知道什麼時候該呈報、呈報給誰。工作分解結構是規劃範疇與進度的工具,與定義升級門檻是兩件不同的事;風險登錄冊會隨專案進展持續識別與更新風險,不可能也不需要在專案啟動當下就窮盡所有風險,而且風險登錄冊本身也不等於一套升級決策框架。
+
+---
+
+### Q142. `rsk-141` — 單選題
+
+**題目 ID**: `rsk-141`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is leading a two-day internal hackathon for a twelve-person engineering team to prototype an idea with no external dependencies, no budget beyond existing staff time, and no significant identifiable risks other than a few team members' schedule conflicts. A senior director asks the project manager to produce a formal risk management plan with a probability and impact matrix, assigned risk owners, and documented response strategies for each risk. What should the project manager do?
+- 中: 一位專案經理正主導一場為期兩天、給十二人工程團隊參加的內部黑客松,目的是製作一個原型構想,沒有外部依賴、除了既有人力時間外沒有額外預算,除了幾位團隊成員的排程衝突外,也沒有其他重大可辨識風險。一位資深主管要求專案經理產出一份正式的風險管理計畫,包含機率與衝擊矩陣、指派風險負責人,並為每項風險記錄回應策略。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Produce the formal risk management plan as requested to satisfy the director's expectations. / 依主管要求產出正式的風險管理計畫,以滿足主管的期待
+- (b) Explain to the director that the activity's scale does not warrant a formal risk plan and propose a lightweight approach instead. / 向主管說明,這項活動的規模不需要一份正式的風險計畫,並提議改用輕量化的做法 ✅ **正解**
+- (c) Build a detailed risk register capturing every conceivable risk regardless of the activity's short duration. / 不論活動時間多短,都建立一份詳盡的風險登錄冊,記錄所有可能想得到的風險
+- (d) Ask for the hackathon to be extended by a week to allow time to properly develop the requested documentation. / 要求將黑客松延長一週,以留出時間妥善準備主管要求的文件
+
+**詳解**
+
+風險管理的正式程度應該依專案的規模、複雜度與風險輪廓來裁適,而不是不分情況一律套用同一套標準。一場為期兩天、幾乎沒有外部依賴或重大風險的內部活動,並不需要動用完整正式的風險管理計畫。正確的做法是向要求方說明清楚,活動規模不足以支撐一整套正式文件,並提出一個與實際風險量級相稱的輕量化替代方案。依要求產出完整正式計畫,是把「符合治理範本」看得比活動本身的效率更重要;不論規模一律建立詳盡風險登錄冊也是同樣的問題;要求延長活動期間去配合一項不必要的文件要求,則是讓範疇不當擴大,而不是先去檢視這項要求本身是否合理。
+
+---
+
+### Q143. `rsk-142` — 單選題
+
+**題目 ID**: `rsk-142`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An apparel brand operates its primary overseas distribution warehouse in a floodplain that has flooded twice in the past decade. Relocating the warehouse before the upcoming shipping season is not feasible, and the value of inventory typically stored there at peak season can exceed $3 million. The brand's leadership is most concerned about the financial loss if another flood occurs. What risk response strategy is most appropriate?
+- 中: 某服飾品牌在海外的主要配送倉庫,位於過去十年內已淹水兩次的洪泛區。在即將到來的出貨旺季前搬遷倉庫並不可行,而旺季期間該倉庫通常存放的存貨價值可能超過300萬美元。品牌高層最關心的是,一旦再次淹水可能造成的財務損失。此時最適當的風險回應策略是什麼?
+
+**選項**
+
+- (a) Transfer the risk by purchasing flood and business interruption insurance covering the warehouse inventory. / 為倉庫存貨投保洪水與營業中斷保險,以轉移風險 ✅ **正解**
+- (b) Mitigate the risk by installing flood barriers and elevating high-value inventory racks above ground level. / 安裝防洪屏障,並將高價值存貨架墊高離地,藉此減緩風險
+- (c) Avoid the risk by relocating warehouse operations to an inland facility before the shipping season begins. / 在出貨旺季開始前將倉庫作業遷移到內陸設施,以迴避風險
+- (d) Accept the risk and set up a weather-monitoring protocol during the flood-prone months. / 接受風險,並在容易淹水的月份建立天氣監測機制
+
+**詳解**
+
+倉庫地點固定、旺季前搬遷不可行,這個限制大幅削弱了迴避策略的可行性,也讓物理性減緩措施的效果有限,即使加裝防洪屏障、墊高存貨架,倉庫仍然留有相當大的財務曝險,超過300萬美元的存貨損失風險不會因此消失。轉移策略直接針對這筆潛在財務損失,透過保險把責任轉嫁給第三方,在搬遷不可行的限制下,最能對應風險規模與高層真正關切的財務曝險。防洪屏障與墊高存貨是實用的輔助措施,但無法消除固定地點帶來的財務曝險,只能在邊際上降低損害程度;搬遷雖然能徹底迴避淹水風險,但情境已明確指出旺季前搬遷不可行,這個選項在操作上不成立;在明知曝險超過300萬美元的情況下,只被動監測天氣而不採取任何轉嫁或降低財務衝擊的做法,明顯不足以因應這個量級的風險。
+
+---
+
+### Q144. `rsk-143` — 多選題
+
+**題目 ID**: `rsk-143`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A program manager overseeing several small risks across a portfolio of retail store renovations takes the following actions. Which two of these represent a risk acceptance strategy, whether active or passive? (Select two.)
+- 中: 某專案群管理者正在處理一批零售門市整修專案中的幾項小型風險,採取了以下這些做法。以下哪兩項屬於風險接受策略,不論是主動或被動的接受?(請選擇兩項)
+
+**選項**
+
+- (a) Setting aside a small contingency budget to cover a minor risk of paint-finish touch-ups without changing any plans. / 保留一筆小額應變預算,以因應烤漆修補這項小風險,不改變任何原訂計畫 ✅ **正解**
+- (b) Noting a low-impact risk of a minor delivery delay for decorative fixtures in the risk register and taking no further action. / 在風險登錄冊中記錄裝飾配件可能小幅延遲交貨這項低衝擊風險,不採取進一步行動 ✅ **正解**
+- (c) Switching to a different fixture supplier specifically to reduce the likelihood of the delivery delay. / 改用另一家配件供應商,專門用來降低交貨延遲的發生機率
+- (d) Requiring the paint contractor to post a performance bond covering the cost of any touch-up rework. / 要求烤漆承包商提供履約保證金,以支應任何修補重工的費用
+
+**詳解**
+
+保留應變預算但不改變原訂計畫,是主動接受的典型做法,代表準備好因應風險發生後的成本,卻不採取任何預防性行動;把低衝擊風險記錄下來卻不採取進一步行動,則是被動接受,兩者都符合接受策略「不主動處理風險本身」的核心特徵。更換供應商是為了降低風險發生的機率,屬於減輕策略;要求承包商提供履約保證金,是把因應成本轉嫁給第三方承擔,屬於轉移策略,兩者都涉及主動的預防或轉嫁行動,不屬於接受。
+
+---
+
+### Q145. `rsk-144` — 拖拉配對題
+
+**題目 ID**: `rsk-144`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Drag and match each scenario below to the risk response strategy it demonstrates.
+- 中: 請將下列每一段情境拖曳配對到其所展現的風險回應策略。
+
+**配對項目(拖曳來源)**
+
+- p1: A specialty coffee importer, expecting a severe frost to wipe out an entire harvest at its primary highland farm, shifts its entire sourcing contract to a lowland cooperative unaffected by frost for that season / 某精品咖啡進口商預期一場嚴重霜害將摧毀其主要高地農場的整季收成,遂將整份採購合約改由不受霜害影響的低地合作社供應
+- p2: A regional telecom operator laying fiber through a known unstable slope adds extra geotechnical reinforcement and slope drainage to reduce the chance of a route-blocking landslide / 某區域電信業者在一段已知地質不穩的坡地鋪設光纖,加裝額外的地質補強與坡面排水設施,以降低阻斷路線的坍方發生機率
+- p3: A boutique hotel group purchases business interruption insurance to cover potential revenue loss if a flagship property must close temporarily due to storm damage / 某精品飯店集團投保營業中斷險,以因應旗艦飯店若因風暴損害而須暫時歇業所造成的潛在營收損失
+- p4: A data hosting company, facing a minor risk that a rarely-used legacy reporting feature might occasionally return delayed results, decides to take no proactive action and simply monitor customer complaints / 某資料代管公司面對一項小風險(某項罕用的舊版報表功能偶爾會延遲回傳結果),決定不採取主動行動,僅監測客戶投訴狀況
+
+**選項池(拖曳目標)**
+
+- c1: Avoid / 避免(Avoid)
+- c2: Mitigate / 減輕(Mitigate)
+- c3: Transfer / 轉移(Transfer)
+- c4: Accept / 接受(Accept)
+
+**✅ 正確配對**
+
+- p1 → c1: A specialty coffee importer, expecting a severe frost to wipe out an entire harvest at its primary highland farm, shifts its entire sourcing contract to a lowland cooperative unaffected by frost for that season → Avoid（某精品咖啡進口商預期一場嚴重霜害將摧毀其主要高地農場的整季收成,遂將整份採購合約改由不受霜害影響的低地合作社供應 → 避免(Avoid)）
+- p2 → c2: A regional telecom operator laying fiber through a known unstable slope adds extra geotechnical reinforcement and slope drainage to reduce the chance of a route-blocking landslide → Mitigate（某區域電信業者在一段已知地質不穩的坡地鋪設光纖,加裝額外的地質補強與坡面排水設施,以降低阻斷路線的坍方發生機率 → 減輕(Mitigate)）
+- p3 → c3: A boutique hotel group purchases business interruption insurance to cover potential revenue loss if a flagship property must close temporarily due to storm damage → Transfer（某精品飯店集團投保營業中斷險,以因應旗艦飯店若因風暴損害而須暫時歇業所造成的潛在營收損失 → 轉移(Transfer)）
+- p4 → c4: A data hosting company, facing a minor risk that a rarely-used legacy reporting feature might occasionally return delayed results, decides to take no proactive action and simply monitor customer complaints → Accept（某資料代管公司面對一項小風險(某項罕用的舊版報表功能偶爾會延遲回傳結果),決定不採取主動行動,僅監測客戶投訴狀況 → 接受(Accept)）
+
+**詳解**
+
+四段情境分別對應四種針對負面風險(威脅)的回應策略:徹底改變採購來源、完全避開霜害曝險,屬於消除風險發生可能性的 Avoid;加裝地質補強與排水設施是降低坍方發生機率的具體行動,屬於 Mitigate,風險仍可能發生,只是機率或衝擊被降低;投保營業中斷險是把財務後果轉嫁給保險公司承擔,屬於 Transfer;面對衝擊輕微的小風險選擇不採取任何預防行動、僅被動監測狀況,屬於 Accept。判斷關鍵在於:風險是否被徹底消除(Avoid)、是否仍存在但被降低(Mitigate)、後果是否被轉嫁給第三方(Transfer),還是完全不採取預防性行動(Accept)。
+
+---
+
+### Q146. `rsk-145` — 單選題
+
+**題目 ID**: `rsk-145`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A consumer electronics importer relies on a single overseas factory for a key circuit-board component. A trade publication reports that regulators in the factory's country are reviewing a proposal to impose new export tariffs on electronic components. The project manager has been assigned to monitor this situation as a potential supply-chain risk. What should the project manager do?
+- 中: 某消費電子產品進口商仰賴一家海外工廠供應一項關鍵電路板零件。一份貿易刊物報導指出,該工廠所在國的主管機關正在審議一項對電子零件課徵新出口關稅的提案。專案經理已被指派監控這個狀況,將其視為供應鏈的一項潛在風險。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Continue reading trade publications for further updates on the proposed tariffs. / 持續閱讀貿易刊物,關注這項關稅提案的後續發展
+- (b) Contact the factory directly to negotiate a fixed price that would be unaffected by any future tariff changes. / 直接聯繫工廠,協商一個不受未來關稅變動影響的固定價格
+- (c) Review the risk management plan for this risk and report to stakeholders if conditions indicate the risk is escalating. / 檢視這項風險在風險管理計畫中的相關規定,若情勢顯示風險正在升高,則向利害關係人回報 ✅ **正解**
+- (d) Increase current inventory orders from the factory to stockpile components before any tariff takes effect. / 增加向該工廠的現行訂單量,在關稅生效前先囤積零件庫存
+
+**詳解**
+
+這篇貿易刊物報導是一個值得留意的觸發訊號,但既然這項風險已經被正式識別,並且專案經理已被指派負責監控,正確的做法是回頭依循風險管理計畫的規定,計畫裡應該已經定義好監控指標的升級門檻,以及在什麼條件下需要向利害關係人通報。持續閱讀刊物只是最初得知這項發展的非正式管道,真正該用來判斷「何時該採取行動、行動到什麼程度」的依據,是風險管理計畫;直接聯繫工廠協商固定價格,已經超出監控角色的範疇,是一項回應行動,是否需要走到這一步應該依循計畫中定義的決策流程,而不是自行逕自進行;增加訂單囤積庫存同樣是一項超出監控職責的回應行動,而且會綁住額外的營運資金,在風險是否真的會升高都還不確定的情況下貿然這麼做並不恰當。
+
+---
+
+### Q147. `rsk-146` — 單選題
+
+**題目 ID**: `rsk-146`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A bakery chain's production line has been consistently meeting its daily output targets. During a routine quality check, the project manager overseeing a new packaging line discovers that the defect rate for one packaging component has doubled compared to the baseline established during commissioning. Production is otherwise on schedule, and no operator has reported any issues with this component. What should the project manager do first?
+- 中: 某烘焙連鎖店的生產線一直穩定達成每日的產出目標。在一次例行品質檢查中,負責監督新包裝產線的專案經理發現,某項包裝組件的缺陷率,相較於試運轉期間建立的基準值增加了一倍。生產進度的其他部分都在正軌上,也沒有任何操作員針對這項組件回報過問題。專案經理最先應該做什麼?
+
+**選項**
+
+- (a) Replace the packaging component with a different supplier's part to eliminate the defect. / 更換另一家供應商的組件,以消除這項缺陷
+- (b) Increase the frequency of quality inspections on this packaging component going forward. / 加強這項包裝組件未來的品質檢驗頻率
+- (c) Analyze the situation to identify the root cause of the increased defect rate before deciding on corrective action. / 在決定任何矯正行動之前,先分析狀況以找出缺陷率上升的根本原因 ✅ **正解**
+- (d) Report the finding to the plant manager and wait for further instructions before taking any action. / 向廠長回報這項發現,並在採取任何行動前等待進一步指示
+
+**詳解**
+
+目前缺陷率上升的原因還不明朗,可能來自組件本身、供應商品質、產線設定或操作方式等不同面向。在還沒釐清原因之前就採取行動,很可能用錯方法去解決問題。先做根本原因分析,才能確保之後採取的矯正行動真正對症下藥。直接更換供應商組件,等於還沒確認問題出在零件本身就先假設答案,如果根本原因其實是產線設定或製程問題,換零件不會解決問題;單純加強檢驗頻率只是更頻繁地觀察到問題發生,並沒有處理問題發生的原因本身;向廠長回報後被動等待指示,則是把該由專案經理主導的分析工作往後拖延,不必要地延誤了釐清問題的時機。
 
 ---

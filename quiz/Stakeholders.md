@@ -1,6 +1,6 @@
 # Stakeholders — PMP 題庫
 
-> 共 109 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 132 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `mr-001` — 多選題
 
@@ -2988,5 +2988,593 @@ Quiet Writing(安靜書寫)讓每人先各自花數分鐘獨立寫下想法,強�
 **詳解**
 
 這套助手真正的價值,取決於理賠人員能否對它的建議做出正確判斷,而題目已經明講問題出在使用者缺乏這項判斷能力,這是一個被具名指出的人力能力缺口。依「確保團隊成員/利害關係人獲得適當訓練」這項任務的定義,理應由專案經理主動界定訓練需求,並把這項賦能工作正式納入專案範疇裡去規劃與執行,而不是交給部門外的人資單位自行安排、脫離專案掌控。簡化介面、發一份指南,都只是繞過真正的能力缺口做表面補救,無法真正建立起使用者判斷何時該信任、何時該推翻建議的能力。
+
+---
+
+### Q110. `stk-109` — 單選題
+
+**題目 ID**: `stk-109`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project is 60% complete when a newly hired VP joins the client organization and expresses interest in influencing upcoming design decisions. What should the project manager do first?
+- 中: 專案進行到 60% 時,客戶端一位新上任的副總表示希望能參與接下來的設計決策。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Meet with the new VP to understand their concerns and update the stakeholder register to include them. / 與這位新副總會面了解其關注點,並更新利害關係人登錄冊納入這位新成員 ✅ **正解**
+- (b) Inform the VP that all design decisions were already approved during initiation and cannot change. / 告知副總所有設計決策在啟動階段已核准,無法變動
+- (c) Ask the VP to submit feedback through the existing communication channels without a meeting. / 請副總透過既有溝通管道提交意見,不另外安排會面
+- (d) Continue as planned and address the VP's interest during the next project phase. / 照原計畫繼續進行,把處理副總的關注點留到下一階段
+
+**詳解**
+
+利害關係人辨識是持續性的工作,不是只在專案啟動時做一次;新的利害關係人(尤其是有影響力的新任主管)一旦出現,PM 應立即主動接觸了解其關切,並更新利害關係人登錄冊,而不是用舊決策當擋箭牌拒絕溝通、把對方晾在一邊,或延後處理讓對方的關注持續累積成更大的阻力。
+
+---
+
+### Q111. `stk-110` — 單選題
+
+**題目 ID**: `stk-110`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: For the past three months, the project manager has been sending the same weekly email report to every stakeholder, from the executive sponsor to individual developers. Engagement and response rates have been steadily dropping. What is the best approach to improve this?
+- 中: 過去三個月,專案經理每週都寄同一份郵件報告給所有利害關係人,從高階贊助人到個別開發人員都收到一樣的內容。參與度與回應率持續下滑。改善這個狀況最好的做法是什麼?
+
+**選項**
+
+- (a) Send the reports even more frequently to increase the chance of a response. / 把報告寄送頻率提高,增加對方回應的機會
+- (b) Tailor the communication channel, frequency, and content to each stakeholder's specific needs and role. / 依每位利害關係人的角色與需求,客製化溝通管道、頻率與內容 ✅ **正解**
+- (c) Require all stakeholders to attend one mandatory monthly meeting instead. / 改成要求所有利害關係人都出席一場強制性的月會
+- (d) Add more charts and visuals to the same weekly email to make it more engaging. / 在同一份週報裡加更多圖表讓內容更吸引人
+
+**詳解**
+
+用同一種方法對待所有利害關係人,本來就違反「依對象客製化溝通」的原則;高階主管可能只需要精簡摘要,工程師則可能偏好即時的技術細節。與其在同一種失效的方法上加碼(寄更頻繁、加更多圖表)或用一場會議強制所有人配合,更好的做法是依每個人的角色、興趣與偏好,採用多元且客製化的溝通管道與頻率。
+
+---
+
+### Q112. `stk-111` — 單選題
+
+**題目 ID**: `stk-111`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During a status meeting, a normally talkative stakeholder becomes unusually quiet and gives only brief, flat responses. What should the project manager do?
+- 中: 在一場狀態會議中,一位平常很健談的利害關係人變得異常沉默,只給出簡短、平淡的回應。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Continue the meeting as planned since the stakeholder did not raise any explicit objection. / 照原計畫繼續會議,因為對方沒有提出明確反對意見
+- (b) Send a group email afterward asking if anyone has unaddressed concerns. / 事後發一封群組信,詢問是否有人有未解決的疑慮
+- (c) Reach out to that stakeholder privately to understand what might be bothering them. / 私下聯繫這位利害關係人,了解他們可能在意的事 ✅ **正解**
+- (d) Schedule another group meeting with everyone to revisit the same topic. / 再安排一場所有人都參加的會議,重新討論同一個主題
+
+**詳解**
+
+情緒智商(EI)要求 PM 讀懂語氣、行為與反應的變化,而不只是字面上說了什麼;當察覺到某位利害關係人態度異常時,應該私下與對方溝通了解真正的顧慮,這樣不僅更容易得到真實的回饋,也避免了在眾人面前讓對方尷尬。忽略異狀、群發郵件、或再開一場大會,都無法有效觸及這位利害關係人真正在意的問題。
+
+---
+
+### Q113. `stk-112` — 多選題
+
+**題目 ID**: `stk-112`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A new CRM system will automatically feed data into the Finance team's commission reports and the Customer Service team's warranty tracking, even though neither team will directly use the CRM interface. How should the project manager treat these two teams?
+- 中: 一套新的 CRM 系統會自動把資料餵給財務部的佣金報表,以及客服部的保固追蹤系統,即使這兩個部門都不會直接使用 CRM 介面。專案經理應該如何看待這兩個部門?
+
+**選項**
+
+- (a) Add both teams to the stakeholder register even though their involvement is indirect. / 把這兩個部門都加入利害關係人登錄冊,即使他們的參與是間接的 ✅ **正解**
+- (b) Include them in relevant project communications about the integration. / 讓他們也收到與整合相關的專案溝通 ✅ **正解**
+- (c) Exclude them from the register since they won't use the system directly. / 因為不會直接使用系統就把他們排除在登錄冊之外
+- (d) Only contact them if integration problems actually occur. / 只有真的發生整合問題時才聯絡他們
+
+**詳解**
+
+只要工作、流程或結果會被專案影響,不論是否直接使用交付物,都應被視為利害關係人並妥善管理;財務與客服部門雖然不直接操作 CRM,但他們的日常作業會被這次整合影響,理應被納入登錄冊並收到相關溝通,而不是等出問題才聯絡,或因為「不直接使用」就直接排除在外。
+
+---
+
+### Q114. `stk-113` — 單選題
+
+**題目 ID**: `stk-113`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project is 75% complete, on time and on budget, when the client requests a new feature they saw on a competitor's product, which could delay launch by several weeks. What should the project manager do first?
+- 中: 專案完成 75%,目前準時且在預算內,這時客戶提出想加入一項在競爭對手產品上看到的新功能,可能導致上線延後好幾週。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Tell the client that adding features this late will cause delays and suggest a future phase instead. / 告知客戶這麼晚加功能會造成延誤,建議留到未來階段
+- (b) Meet with the client to understand the business value of the request, then analyze the full impact on scope, schedule, cost, and quality. / 與客戶會面了解這項需求的商業價值,再完整分析對範疇、時程、成本、品質的影響 ✅ **正解**
+- (c) Ask the development team to estimate the work before discussing anything with the client. / 在跟客戶討論之前,先請開發團隊估算工作量
+- (d) Remind the client that the scope was already approved and changes require the formal process. / 提醒客戶範疇已經核准,變更需要走正式流程
+
+**詳解**
+
+即使客戶的請求來得突然、可能造成延誤,PM 也不該不經評估就直接拒絕或用流程當理由迴避;正確做法是先了解這項需求對業務的真正價值與急迫性,再完整評估對範疇、時程、成本、品質的影響,才能給客戶一個有依據的建議。跳過理解價值直接找開發團隊估算,或用「已核准」當擋箭牌,都略過了先了解需求本質這一步。
+
+---
+
+### Q115. `stk-114` — 單選題
+
+**題目 ID**: `stk-114`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is leading a digital transformation initiative that will significantly change workflows across multiple departments. The initiative has strong executive support but has encountered varying levels of enthusiasm from departmental managers. The project manager needs to align expectations across all stakeholder groups before detailed planning begins. What should the project manager do?
+- 中: 一位專案經理正在主導一項數位轉型計畫,這項計畫將大幅改變多個部門的工作流程。該計畫獲得高層強力支持,但各部門主管展現出的積極程度不一。專案經理需要在進入詳細規劃之前,先讓所有利害關係人群體的期望達成一致。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Analyze each stakeholder group's concerns and rank expectations according to organizational authority. / 分析每個利害關係人群體的疑慮,並依組織職權高低將期望排序
+- (b) Present a detailed business case to all stakeholders demonstrating the initiative's benefits to secure their alignment. / 向所有利害關係人提出詳細的商業論證,展示計畫效益以取得他們的一致支持
+- (c) Schedule structured sessions with the project sponsor and key stakeholder groups to discuss the initiative's objectives. / 安排與專案發起人及主要利害關係人群體的結構化會議,共同討論計畫目標 ✅ **正解**
+- (d) Identify expectations shared across most stakeholder groups and focus communication efforts on reinforcing those priorities. / 找出多數利害關係人群體共同的期望,並將溝通重點放在強化這些共識上
+
+**詳解**
+
+期望對齊需要讓利害關係人真正進入結構化的對話,而不是遠端分析他們,也不是單方面說服他們接受一個預先決定好的立場。與發起人及主要利害關係人群體安排結構化會議,能為積極程度不一、關切點也不同的各個群體創造出建立共同理解的條件。
+
+其他選項錯誤:利害關係人的期望確實需要分析,但不應只依組織職權高低排序後就直接照辦,這忽略了期望本身的內容與正當性。向利害關係人提出商業論證以取得一致支持,把整個過程定調成單向說服,期望對齊應該是透過討論達成共同理解,而不是說服對方接受專案團隊的立場。只鎖定多數群體共有的期望並強化溝通,會讓積極程度較低、關切點不同的群體被忽略,這些群體很可能有需要直接處理的具體疑慮,而不只是被動接收其他人已經認同的重點。
+
+---
+
+### Q116. `stk-115` — 單選題
+
+**題目 ID**: `stk-115`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is leading an international research partnership involving teams from six countries across four time zones. Team members speak five different primary languages, and varying levels of English proficiency have caused miscommunication in early project meetings. What should the project manager do?
+- 中: 一位專案經理正在主導一項跨國研究合作案,參與團隊來自六個國家、橫跨四個時區。團隊成員的母語共有五種不同語言,而英語程度落差已在早期的專案會議中造成溝通誤解。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Conduct daily stand-up meetings to keep all team members aligned. / 召開每日站立會議,讓所有團隊成員保持一致
+- (b) Create informal group communication channels to enable rapid information sharing across all teams. / 建立非正式的群組溝通管道,讓各團隊能快速分享資訊
+- (c) Use AI translation tools to automatically convert all project communications into each team member's primary language. / 使用 AI 翻譯工具,自動把所有專案溝通內容轉換成每位成員的母語
+- (d) Provide project updates in multiple languages and schedule structured virtual sessions that accommodate different time zones to collect input from all teams. / 以多種語言提供專案進度更新,並安排考量不同時區的結構化線上會議,蒐集所有團隊的意見 ✅ **正解**
+
+**詳解**
+
+針對全球化團隊的包容性溝通,必須同時處理題目中點出的兩個障礙,也就是語言與地理時區。用多種語言提供更新內容,能確保訊息對所有參與者都容易理解;安排考量時區差異的結構化線上會議,則能確保每個團隊都有實質機會參與並提供意見,而不是因為排程或語言而被系統性地排除在外。
+
+其他選項錯誤:橫跨四個時區召開每日同步會議,會迫使部分成員在不合理的時段參加,這既不永續也不包容,跨越大時區差異也很難維持穩定的即時協作。非正式管道能補充溝通,但本身不構成一套包容性的策略,群組聊天無法解決語言障礙,也無法確保有結構地蒐集意見,反而更利於習慣非正式書面溝通的成員。AI 翻譯工具只能部分解決語言可及性的問題,卻用自動化取代了有結構的人際互動,不同語言的翻譯品質落差很大,無法保證專案內容中細膩的語意能被準確傳達,也無法建立真正蒐集意見所需要的結構化討論場合。
+
+---
+
+### Q117. `stk-116` — 單選題
+
+**題目 ID**: `stk-116`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During a monthly status review, a project manager faces three conflicting stakeholder requests. The technical lead wants access to raw defect logs and test results to conduct their own analysis. The project sponsor finds the current reports too dense and asks for simpler executive summaries. The procurement lead needs detailed cost breakdown data. What should the project manager do?
+- 中: 在一次月度狀態審查中,專案經理面對三個互相衝突的利害關係人請求:技術主管想要取得原始的缺陷紀錄與測試結果,自己進行分析;專案發起人覺得目前的報告太過密集,要求更簡化的高層摘要;採購主管則需要詳細的成本細項資料。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Grant all stakeholders access to the raw defect logs and cost data so each can analyze what they need independently. / 讓所有利害關係人都能存取原始的缺陷紀錄與成本資料,讓每個人自行分析所需內容
+- (b) Simplify all reports to high-level summaries and provide raw data only upon formal request. / 把所有報告都簡化成高層級摘要,原始資料只在正式提出申請時才提供
+- (c) Develop separate reports tailored to each stakeholder's stated information needs. / 依每位利害關係人明確表達的資訊需求,分別開發客製化報告 ✅ **正解**
+- (d) Explain that raw project data is processed into analyzed information and formatted into reports tailored to each stakeholder's role and information needs. / 向利害關係人說明,原始專案資料會先經過分析處理,再依各自的角色與資訊需求整理成對應格式的報告
+
+**詳解**
+
+每位利害關係人都已經清楚表達了不同的資訊需求,正確的做法就是依照這些已表明的需求,分別產出對應的客製化報告。有效的溝通管理,意味著把對的資訊、用對的格式,交給對的人,而不是對需求明顯不同的一群人套用同一套做法。
+
+其他選項錯誤:讓所有利害關係人都能存取原始資料,等於迴避了 PM 應負責的資料處理與呈現工作,對發起人與採購主管而言,沒有脈絡的原始紀錄與數字並不合用。把所有報告都簡化成高層級摘要,雖然滿足了發起人的需求,卻讓需要更多細節的技術主管與採購主管得不到他們要的資訊。向利害關係人說明資料處理的層級架構,雖然有教育意義,卻沒有解決眼前的問題,因為利害關係人問的不是資料如何被管理,而是已經明確說出了自己需要什麼,PM 應該直接依此行動。
+
+---
+
+### Q118. `stk-117` — 單選題
+
+**題目 ID**: `stk-117`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is overseeing a custom ERP implementation. Midway through the timeline, a financial review shows costs are 18% above the approved baseline. The client's operations director has sent a message noting delays in deliverable reviews and questioning whether the implementation is on track. What should the project manager do first?
+- 中: 一位專案經理正在監督一項客製化 ERP 系統的導入專案。時程進行到中段時,財務審查顯示成本已超出核准基準 18%。客戶端的營運總監發來訊息,指出交付項目審查有延誤,並質疑導入專案是否仍在正軌上。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Analyze the cost variances to identify the root cause before communicating with the client. / 先分析成本差異找出根本原因,再與客戶溝通
+- (b) Submit a change request through governance to revise the budget baseline to reflect current spending. / 透過治理流程提出變更申請,修訂預算基準以反映目前的實際支出
+- (c) Meet with the client's operations director to acknowledge the stated concerns. / 與客戶的營運總監會面,回應並認可對方提出的疑慮 ✅ **正解**
+- (d) Update the risk register with the cost overrun and schedule concern as newly identified risks. / 把成本超支與時程疑慮列為新辨識出的風險,更新風險登錄冊
+
+**詳解**
+
+由於客戶已經主動提出具體疑慮,當下最優先的事是利害關係人互動與溝通。專案經理應該先即時回應利害關係人提出的問題,接著才進行變異調查、決定矯正行動,並視需要更新正式紀錄並回報利害關係人。
+
+其他選項錯誤:完成成本分析當然有必要,但那應該接在先回應客戶之後進行,若在回應客戶之前就先做完整分析,會讓客戶原本急需的回應被延遲。透過治理流程提出調高預算基準的變更申請,等於在還沒搞清楚超支原因、也還沒與客戶溝通之前,就把超支視為既定事實處理。更新風險登錄冊只是內部動作,無法處理客戶關係,也沒有回應客戶已經表達出來的疑慮。
+
+---
+
+### Q119. `stk-118` — 單選題
+
+**題目 ID**: `stk-118`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is leading the rollout of a new enterprise resource planning system across multiple business units. Six months in, several business unit leaders who were actively engaged during planning have become less visible. One has missed two consecutive steering committee meetings. The project sponsor asks the project manager to assess whether stakeholder support remains sufficient to proceed. How should the project manager assess current stakeholder engagement?
+- 中: 一位專案經理正在主導新版企業資源規劃系統於多個事業單位的上線推行。專案進行六個月後,幾位在規劃階段十分積極參與的事業單位主管,參與度明顯降低,其中一位已連續缺席兩次指導委員會會議。專案發起人要求專案經理評估目前的利害關係人支持度是否足以讓專案繼續進行。專案經理應該如何評估目前的利害關係人參與狀況?
+
+**選項**
+
+- (a) Review the stakeholder engagement matrix to compare current engagement levels against planned targets. / 檢視利害關係人參與矩陣,比較目前的參與程度與原訂目標
+- (b) Analyze the risk register and issue log to identify documented stakeholder-related concerns. / 分析風險登錄冊與議題日誌,找出已記錄在案的利害關係人相關疑慮
+- (c) Conduct interviews or targeted check-ins with key stakeholders to understand their current commitment and any shifts in their priorities. / 與關鍵利害關係人進行訪談或針對性的個別溝通,了解他們目前的投入程度以及優先順序是否有所轉變 ✅ **正解**
+- (d) Update the stakeholder communications plan to ensure outreach frequency and channels remain appropriate. / 更新利害關係人溝通計畫,確保聯繫頻率與管道仍然合適
+
+**詳解**
+
+當參與度可能因外部因素而改變時,最可靠的評估方式就是直接向當事人求證。訪談與針對性的個別溝通,能反映利害關係人此刻真實的狀態,而不是原本規劃或過去記錄下來的狀態。
+
+其他選項錯誤:題目問的不是第一步該做什麼,也不是該查閱哪份正式文件,而是該如何評估目前的參與狀況。利害關係人參與矩陣顯示的是規劃階段與過去記錄的參與程度,本身無法告訴專案經理利害關係人現在實際的投入狀態如何。風險登錄冊與議題日誌能呈現已正式記錄的疑慮,但無法衡量目前的參與程度,一位正在悄悄疏離的利害關係人,很可能還沒出現在這兩份文件裡。更新溝通計畫屬於矯正行動,而不是評估動作,發起人要求的是評估目前的參與狀況,這需要先蒐集最新的資訊,才談得上更新計畫。
+
+---
+
+### Q120. `stk-119` — 單選題
+
+**題目 ID**: `stk-119`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is managing a virtual team spread across four time zones. Team members frequently miss meetings, and decisions are being delayed because not everyone is present when key topics are discussed. What should the project manager do?
+- 中: 一位專案經理正在管理一個橫跨四個時區的虛擬團隊。團隊成員經常缺席會議,而由於討論關鍵議題時並非所有人都在場,決策因此一再延遲。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Hold all meetings during the project manager's own working hours. / 把所有會議都排在專案經理自己的工作時段
+- (b) Make all decisions without waiting for absent team members. / 不等缺席的團隊成員,直接做出所有決策
+- (c) Record meetings only and stop holding live sessions entirely. / 只錄製會議紀錄,完全停止舉行即時會議
+- (d) Establish a communication plan that rotates meeting times and uses asynchronous methods. / 建立一套會議時段輪替、並搭配非同步方法的溝通計畫 ✅ **正解**
+
+**詳解**
+
+輪替會議時段的溝通計畫,能把不便之處公平分攤到各個時區,再搭配非同步的方法,讓成員即使無法出席即時會議,也能參與決策討論。兩者結合,同時處理了出席率問題與決策延遲問題。
+
+其他選項錯誤:把所有會議都排在專案經理自己的時段,等於把整個負擔丟給其他地區承擔,問題只會持續存在。不等缺席成員就直接做決策,雖然能加快速度,卻排除了這些成員的意見,不僅可能損及參與感,也讓決策品質與團隊士氣承受風險。只錄影並取消即時會議,失去了寶貴的即時互動,缺席成員依然沒有管道能在決策定案之前表達意見並產生影響。
+
+---
+
+### Q121. `stk-120` — 單選題
+
+**題目 ID**: `stk-120`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is leading a regulatory compliance project. The Chief Compliance Officer was actively engaged during planning but has since stopped attending review meetings and is not responding to emails. The project's next milestone is approaching and the sponsor suggests proceeding, noting that the CCO's silence could be interpreted as tacit approval. What should the project manager do?
+- 中: 一位專案經理正在主導一項法規遵循專案。該公司的法遵長(CCO)在規劃階段十分積極參與,但後來不再出席審查會議,也不回覆電子郵件。專案下一個里程碑即將到來,發起人建議直接繼續推進,並表示法遵長的沉默可以視為默許。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Attempt alternative approaches to re-engage the CCO. / 嘗試用不同的方式重新讓法遵長參與進來 ✅ **正解**
+- (b) Proceed with the milestone to maintain the project schedule and document the CCO's non-response in the risk register. / 為了維持專案時程,直接推進里程碑,並把法遵長未回應的情況記錄到風險登錄冊
+- (c) Escalate to executive leadership. / 向高階主管呈報升級
+- (d) Revise the project plan to reduce dependency on the CCO. / 修改專案計畫,降低對法遵長的依賴
+
+**詳解**
+
+一位關鍵利害關係人變得不再參與,並不代表他在專案裡的角色就此消失,在法規遵循的情境下,法遵長的參與並非可有可無的選項。專案經理應該先嘗試不同的溝通管道、調整溝通方式,或找出造成對方疏離的原因並加以處理,而不是急著升級或直接繼續推進。如果嘗試重新讓對方參與之後仍然失敗,而里程碑仍然需要合規方面的意見或核准,專案經理才應該透過正式的治理路徑往上呈報,而不是在沒有取得合規把關的情況下逕自推進。
+
+其他選項錯誤:把法遵長未回應的情況記錄到風險登錄冊,等於把一個原本活躍的參與缺口,當成可以接受的既定風險處理掉,而不是把它當成需要解決的問題,這麼做也無法保護專案免於在缺少關鍵合規利害關係人把關的情況下貿然推進所帶來的後果。向高階主管呈報升級,在多次嘗試重新接觸都失敗之後或許合適,但在還沒試過其他方法之前就升級,為時過早。在法規遵循專案中降低對法遵長的依賴,並不是專案經理能單方面決定的事,而且可能讓整個專案的合規地位陷入風險。
+
+---
+
+### Q122. `stk-121` — 單選題
+
+**題目 ID**: `stk-121`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is leading the implementation of a smart ticketing system for a city's public transit network. The bus authority, the metro authority, and the city finance office each have different priorities regarding hardware compatibility, real-time ticketing analytics, and cost control. The project manager needs to align these three parties' expectations before the requirements specification is finalized. What should the project manager do?
+- 中: 一位專案經理正在主導一座城市大眾運輸智慧票證系統的建置案。公車機構、地鐵機構與市府財政單位,分別在既有硬體相容性、即時票證分析、成本控制上有不同的優先考量。專案經理需要在需求規格定案之前,先讓這三方的期望達成一致。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Rank the three parties' priorities according to their relative authority within the city government structure and finalize the scope accordingly. / 依照三方在市府治理架構中的相對權力高低排序優先順序,並依此定案範疇
+- (b) Prepare a complete business case demonstrating return on investment to gain all three parties' support for a predetermined direction. / 準備一份完整的商業論證,展示投資報酬,以取得三方對既定方向的支持
+- (c) Schedule a structured session with the project sponsor and representatives from all three parties to discuss and clarify their respective priorities. / 安排與專案發起人以及三方代表的結構化會議,共同討論並釐清各自的優先順序 ✅ **正解**
+- (d) Collect each party's written input separately by email, then have the project manager consolidate it into a single version of the requirements. / 先分別以電子郵件蒐集各方書面意見,再由專案經理彙整成單一版本的需求
+
+**詳解**
+
+三方對優先順序的看法不同,而且這些差異都有各自的正當理由,對齊期望需要讓三方真正進入對話,而不是由專案經理遠端彙整或代為決定。安排與發起人及三方代表的結構化會議,能讓大家在同一個場合中把彼此的考量攤開來討論,達成真正的共同理解。
+
+其他選項錯誤:依權力高低排序優先順序,忽略了每一方需求本身的正當性與急迫性,也可能讓權力較小的一方訴求被系統性忽視。準備商業論證去說服三方支持既定方向,把整個過程定調成單向說服,而不是雙向對齊期望。只靠電子郵件分別蒐集意見再由專案經理彙整,少了讓三方直接討論、釐清彼此差異與取捨的機會,彙整結果也容易變成專案經理個人的判斷,而非三方共同認可的結論。
+
+---
+
+### Q123. `stk-122` — 單選題
+
+**題目 ID**: `stk-122`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A pharmaceutical company is building a new clinical trial management platform. The R&D vice president wants to prioritize speed to accelerate ongoing drug trials, the regulatory affairs vice president insists on complete audit-trail compliance, and the chief information security officer requires strict access controls. Before the system design workshop begins, the three executives disagree on priorities. What should the project manager do first to align their expectations?
+- 中: 一家製藥公司要建置一套新的臨床試驗管理平台。研發副總裁希望優先考量上線速度以加快正在進行的藥物試驗,法規事務副總裁堅持必須符合完整的稽核追蹤要求,資訊安全長則要求嚴格的存取控管。在系統設計工作坊開始前,三位主管對優先順序意見分歧。專案經理應該優先怎麼做,以對齊三方的期望?
+
+**選項**
+
+- (a) Give the chief information security officer's requirements priority based on organizational seniority and adjust the others as needed. / 依組織職位高低,優先納入資訊安全長的要求,其餘視情況調整
+- (b) Prepare a complete benefit analysis document and submit it to all three executives to persuade them to agree on one unified timeline. / 先準備一份完整的效益分析文件,提交給三位主管,以爭取他們支持統一走同一套時程
+- (c) Ask each executive to submit a written list of priorities separately, then finalize the design based on whichever priorities appear most often. / 請三位主管各自提交書面優先順序清單,再依出現次數最多的項目直接定案
+- (d) Facilitate a structured workshop with the project sponsor and all three executives to openly discuss their priorities and concerns. / 安排與專案發起人及三位主管面對面的結構化工作坊,共同討論彼此的優先順序與疑慮 ✅ **正解**
+
+**詳解**
+
+三位主管的訴求各自代表不同但同樣重要的考量,速度、合規、安全都不是可以隨意犧牲的面向。要真正對齊期望,必須讓三方在同一個場合中面對面討論,理解彼此立場背後的原因,才可能找出兼顧各方的設計方向。
+
+其他選項錯誤:依職位高低優先納入某一方要求,等於在還沒理解各方考量之前就預先決定了取捨結果。準備效益分析文件去說服三方接受統一時程,把對齊期望變成單向說服,而不是共同討論。請各自提交清單再依出現次數定案,看似客觀,實際上略過了讓三方理解彼此為何堅持某項優先順序的過程,可能做出表面多數決、卻無人真正認同的結果。
+
+---
+
+### Q124. `stk-123` — 單選題
+
+**題目 ID**: `stk-123`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: An international fashion retail group is rolling out a new inventory management system across stores in Tokyo, São Paulo, and Berlin. The store managers' primary languages are Japanese, Portuguese, and German respectively. Project updates have so far only been sent in English by email, and this has caused the Berlin and São Paulo stores to repeatedly misunderstand the go-live timeline and operating requirements. What should the project manager do?
+- 中: 一家國際時尚零售集團要在東京、聖保羅、柏林三地門市導入新的庫存管理系統。三地店經理的母語分別是日文、葡萄牙文、德文。目前專案更新一律只用英文透過電子郵件發送,已導致柏林與聖保羅門市多次誤解上線時程與操作要求。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Reduce the frequency of updates but keep them in English only, adding more screenshots for clarity. / 降低更新頻率,但仍只用英文發送,只是加上更多截圖說明
+- (b) Create a single informal group chat where all three store managers can freely discuss in English to speed up information flow. / 建立單一群組聊天,讓三地店經理以英文自由討論以加速資訊流通
+- (c) Switch to a machine translation service to automatically convert all English emails into Japanese, Portuguese, and German, and stop holding any meetings. / 改用機器翻譯服務自動將所有英文郵件轉換成日文、葡萄牙文、德文版本,不再安排任何會議
+- (d) Provide updates in each store's primary language and schedule structured video meetings that account for the time differences among the three cities. / 以三地語言分別提供專案更新内容,並安排考量三地時差的結構化視訊會議,蒐集各地意見 ✅ **正解**
+
+**詳解**
+
+造成誤解的根本原因同時包含語言隔閡與缺乏真人互動的結構化溝通。以各店慣用語言分別提供更新内容,能確保訊息本身容易被理解;搭配考量時差的結構化視訊會議,則能確保三地店經理都有實質機會提出疑問與意見,而不是被動接收單向訊息。
+
+其他選項錯誤:降低更新頻率但仍只用英文,並未處理語言障礙這個核心問題,截圖只能輔助理解,無法取代母語溝通。單一英文群組聊天仍然排除了英語程度較弱的成員,也無法確保有結構地蒐集各地意見。改用自動翻譯並取消會議,雖然處理了部分語言問題,卻用機器取代了真人互動,翻譯品質難以保證,也失去了讓各地即時提問、釐清疑慮的管道。
+
+---
+
+### Q125. `stk-124` — 多選題
+
+**題目 ID**: `stk-124`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: An international nonprofit organization is coordinating a vaccine logistics project with field teams in Kenya, the Philippines, and Peru, spanning three time zones. Team members communicate in English, Swahili, Tagalog, and Spanish. Currently all project messages are sent through a single English-language Slack channel, and field teams are expected to reply within headquarters' business hours. Two field teams have recently reported repeatedly missing important messages. Which two of the following actions should the project manager take to build a more inclusive communication approach? (Select two.)
+- 中: 一個國際非營利組織正在協調一項疫苗物流專案,現場團隊分別在肯亞、菲律賓與秘魯,橫跨三個時區。團隊成員分別使用英文、史瓦希里文、他加祿語與西班牙文溝通。目前所有專案訊息只透過一個英文 Slack 頻道發送,且要求各地團隊在總部所在時區的上班時間内回覆。近期已有兩個現場團隊反映經常錯過重要訊息。專案經理應該採取以下哪兩項作法,以建立更具包容性的溝通方式?(請選擇兩項)
+
+**選項**
+
+- (a) Provide important project messages and updates in each field team's primary language. / 以各團隊慣用語言分別提供重要專案訊息與更新内容 ✅ **正解**
+- (b) Establish a structured meeting schedule that rotates across time zones so each region has a reasonable chance to participate in real-time discussions. / 建立輪替時段的結構化會議安排,讓每個時區都有機會在合理時間内參與即時討論 ✅ **正解**
+- (c) Switch entirely to automated translation tools for all communications and stop holding any real-time meetings. / 全面改用自動翻譯工具處理所有溝通內容,不再安排任何即時會議
+- (d) Require each field team to designate one member to remain on call during headquarters' business hours to ensure messages are received promptly. / 要求各現場團隊指派一人配合總部時區隨時待命,以確保訊息即時傳達
+
+**詳解**
+
+包容性溝通需要同時處理語言與時區這兩個造成訊息遺漏的根本原因。以各團隊慣用語言提供重要訊息,能確保内容真正被理解;建立輪替時段的會議安排,則能公平分攤時差帶來的不便,讓每個地區都有機會參與即時討論,而不是只有配合總部時區的人受益。
+
+其他選項錯誤:全面改用自動翻譯並取消即時會議,雖然處理了部分語言問題,卻犧牲了即時互動與釐清疑慮的機會,也無法保證翻譯品質。要求各團隊指派一人配合總部時區待命,把時差帶來的不便全部轉嫁給現場團隊承擔,並未真正建立公平且具包容性的溝通機制。
+
+---
+
+### Q126. `stk-125` — 單選題
+
+**題目 ID**: `stk-125`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: On a commercial real estate redevelopment project, the lending bank needs detailed cash flow and cost breakdown data for its risk controls, the city planning review board needs a summary focused on regulatory milestone progress, and the property owner wants a simple overall progress dashboard. What should the project manager do before producing the monthly report?
+- 中: 一項商業地產重建案,放款銀行需要詳細的現金流與成本細項資料以進行風險控管,市府都市計畫審議委員會需要一份聚焦法規里程碑進度的摘要,而業主本人則希望有一份簡單易懂的整體進度儀表板。專案經理在每月報告產出前,應該怎麼做?
+
+**選項**
+
+- (a) Use the same complete financial and schedule report and send it to the bank, the review board, and the owner alike. / 統一使用同一份完整的財務與時程報告,發送給銀行、審議委員會與業主三方
+- (b) Develop separate reports tailored to each party's stated information needs. / 依三方已表明的資訊需求,分別製作對應的客製化報告內容 ✅ **正解**
+- (c) Build a shared project database and let the bank, the review board, and the owner log in to query the raw data they need on their own. / 建立一個共用的專案資料庫,讓銀行、審議委員會與業主自行登入查詢所需資料
+- (d) Ask the owner to decide what information should be shared with the bank and the review board. / 徵詢業主意見,由業主決定要對外提供哪些資訊給銀行與審議委員會
+
+**詳解**
+
+三方都已經明確表達了不同的資訊需求,正確做法就是依這些已表明的需求,分別產出對應的客製化報告。有效的溝通管理意味著把對的資訊、用對的格式,交給對的人。
+
+其他選項錯誤:統一使用同一份完整報告,會讓只想看摘要的業主與審議委員會被大量不相關的細節淹沒,也未必符合銀行要求的格式。讓三方自行查詢原始資料,等於迴避了專案經理應負責的資料整理與呈現工作,沒有脈絡的原始數字對審議委員會與業主而言並不合用。讓業主決定要對外釋出哪些資訊,把銀行與審議委員會各自明確表達的資訊需求,錯置成由業主單方面決定的事,並不恰當。
+
+---
+
+### Q127. `stk-126` — 多選題
+
+**題目 ID**: `stk-126`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A fintech startup using Scrum is building a mobile payment platform. The product owner has clearly stated that after every sprint, they need to see the detailed burndown status and defect list to plan the next sprint. The executive steering committee has clearly stated that at each biweekly governance meeting, they only want a one-page summary of overall progress and risk. The chief financial officer has stated a need for monthly cloud computing cost and staffing detail to reconcile the budget. Which two of the following actions should the Scrum Master and project manager take? (Select two.)
+- 中: 一個採用 Scrum 開發的金融科技新創公司正在建置行動支付平台。產品負責人已明確表示,每個 Sprint 結束後需要看到詳細的燃盡狀況與缺陷明細,以利下一個 Sprint 規劃;執行委員會的高階主管已明確表示,只想在每兩週一次的治理會議上看到一頁式的整體進度與風險摘要;財務長則已表示需要每月的雲端運算成本與人力投入明細,以核對預算。Scrum Master 與專案經理應該採取以下哪兩項作法?(請選擇兩項)
+
+**選項**
+
+- (a) Provide the product owner with a sprint report that includes the burndown chart and defect detail. / 為產品負責人提供包含燃盡圖與缺陷明細的 Sprint 報告 ✅ **正解**
+- (b) Prepare a one-page governance summary focused on overall progress and risk for the executive steering committee. / 為執行委員會準備聚焦整體進度與風險的一頁式治理摘要 ✅ **正解**
+- (c) Cancel the chief financial officer's separate cost reporting request and ask them to attend sprint reviews to hear the update directly instead. / 取消財務長個別的成本報告需求,請財務長改為參加 Sprint Review 直接聽取彙報
+- (d) Open the entire raw product backlog database to all three parties and stop producing any separate reports. / 將所有原始待辦事項資料庫開放給三方共同存取,不再另外製作報告
+
+**詳解**
+
+三方都已經明確表達了各自不同的資訊需求,正確做法是分別提供符合各自需求的內容:給產品負責人 Sprint 層級的燃盡與缺陷細節,給執行委員會聚焦整體進度與風險的簡潔摘要。財務長明確要求的是成本與人力細節,理應另外提供符合此需求的客製化報告。
+
+其他選項錯誤:取消財務長的個別需求並要求其改為參加 Sprint Review,Sprint Review 聚焦的是產品增量展示,並不包含財務長真正需要的成本與人力細節,這麼做並未回應財務長已表明的需求。開放原始待辦事項資料庫並停止另外產出報告,對執行委員會與財務長而言,沒有整理過的原始資料並不合用,也無法滿足他們各自明確表達的資訊需求。
+
+---
+
+### Q128. `stk-127` — 單選題
+
+**題目 ID**: `stk-127`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: An airline recently upgraded its baggage sorting system. Two weeks after go-live, the airport operations director sends a message complaining that the baggage delay rate has clearly increased and demanding an immediate explanation. When the project manager receives the message, the system performance analysis report still needs two more days to complete. What should the project manager do first?
+- 中: 一家航空公司的行李分揀系統剛完成升級。上線兩週後,機場營運總監發訊息投訴,指出行李延誤率明顯上升,並要求立刻說明原因。專案經理收到訊息時,系統效能分析報告還需要兩天才能完成。專案經理應該優先做什麼?
+
+**選項**
+
+- (a) Complete the full system performance analysis first to confirm the root cause before replying to the operations director. / 先完成完整的系統效能分析,確認根本原因後再回覆營運總監
+- (b) Respond to the operations director first, acknowledge the concerns and frustration raised, and explain the timeline for the follow-up investigation. / 先與營運總監溝通,承認並回應對方提出的疑慮與不滿情緒,同時說明後續調查的時間安排 ✅ **正解**
+- (c) Ask the technical team to prepare a draft root cause analysis first, then let the project manager decide whether a formal reply is needed. / 請技術團隊先製作根因分析報告初稿,再由專案經理決定要不要正式回覆
+- (d) Log the complaint in the issue log and address it together once the performance analysis is complete. / 在議題日誌中記錄本次投訴,待效能分析完成後再一併處理回覆
+
+**詳解**
+
+營運總監已經主動表達了明確的不滿與疑慮,當下最優先的事是先回應這份情緒與關切,而不是讓對方在毫無回音的情況下等待兩天。專案經理應該先承認問題確實存在、回應對方的感受,並清楚說明調查會在什麼時候有結果,再進行後續的根因分析。
+
+其他選項錯誤:先完成完整效能分析再回覆,會讓營運總監在最需要被回應的當下反而得不到任何消息,兩天的等待可能讓不滿情緒進一步升高。讓技術團隊先出草稿、由專案經理自行決定是否回覆,同樣延遲了對營運總監情緒與疑慮的回應。只在議題日誌中記錄、待分析完成再一併處理,是內部管理動作,無法安撫已經主動表達不滿的利害關係人。
+
+---
+
+### Q129. `stk-128` — 單選題
+
+**題目 ID**: `stk-128`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A regional hospital has implemented a new electronic health record system. After go-live, the head of nursing states in a cross-department meeting, with visible frustration, that the new medication documentation workflow adds nearly ten minutes to every shift handover and expresses concern about patient safety. What should the project manager do first?
+- 中: 一家區域醫院導入新的電子病歷系統。上線後,護理部主管在跨部門會議上語氣明顯不滿地表示,新系統的用藥紀錄流程讓每次交班都要多花將近十分鐘,並對病患安全感到擔憂。專案經理當下應該優先怎麼做?
+
+**選項**
+
+- (a) Acknowledge and address the head of nursing's concerns and feelings directly in the meeting, then arrange a detailed workflow investigation afterward. / 立即在會議中回應並認可護理部主管的疑慮與感受,再著手安排流程細節的調查 ✅ **正解**
+- (b) Ask the system vendor to provide technical documentation on the medication workflow and analyze the cause of the added time before replying. / 請系統廠商先提供用藥紀錄流程的技術文件,分析交班耗時增加的原因後再回覆
+- (c) Suggest that the head of nursing submit the concern through the formal issue reporting channel so it can be scheduled for the next meeting. / 建議護理部主管先透過正式的議題回報管道提出,再排入下次會議討論
+- (d) Explain that changes to handover workflows are normal during the early period after a system transition and that the situation will gradually improve. / 向護理部主管說明,交班流程變化通常是系統轉換初期的正常現象,情況會逐漸改善
+
+**詳解**
+
+護理部主管已經在會議上直接且明確地表達了不滿與病患安全上的擔憂,專案經理應該先當場回應並認可這份感受,讓對方感覺疑慮被重視,再著手進行流程細節的調查與根本原因分析。
+
+其他選項錯誤:先請廠商提供技術文件、分析原因後再回覆,會讓護理部主管已經表達出來的不滿在當下完全得不到回應。建議對方改走正式回報管道再排入下次會議,等於把一個當面提出的急迫疑慮往後拖延處理。直接告知這是轉換初期的正常現象,略過了認可對方感受這一步,容易讓對方覺得病患安全的擔憂被輕描淡寫地帶過。
+
+---
+
+### Q130. `stk-129` — 單選題
+
+**題目 ID**: `stk-129`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A university is building a campus-wide online learning platform. The project sponsor is the provost, and college deans were actively engaged during the planning phase. Five months into the project, the provost notices that two colleges' deans have stopped offering any input or feedback recently and wants to know whether their support for the project remains sufficient. How should the project manager assess these two deans' current level of engagement?
+- 中: 一所大學要建置全校線上學習平台。專案發起人是教務長,各學院院長在規劃階段都相當積極參與並提供意見。專案進行到第五個月,教務長注意到有兩個學院的院長近期都沒有再提出任何意見或回饋,想了解這兩位院長對專案的支持度是否仍然足夠。專案經理應該如何評估這兩位院長目前的參與程度?
+
+**選項**
+
+- (a) Review the original stakeholder engagement assessment matrix to confirm the two deans' planned engagement classification. / 檢視原本的利害關係人參與評估矩陣,確認這兩位院長原訂的參與程度分類
+- (b) Check the project issue log to see whether any disputes involving the two colleges have already been recorded. / 查閱專案議題日誌,找出是否已有記錄與這兩個學院相關的爭議
+- (c) Schedule individual conversations with the two deans directly to understand their current thinking and whether any new considerations have arisen. / 直接與這兩位院長安排個別會談,了解他們目前的想法與是否有新的考量 ✅ **正解**
+- (d) Update the stakeholder communications plan to increase the frequency of outreach to the two colleges. / 更新利害關係人溝通計畫,增加對這兩個學院的溝通頻率
+
+**詳解**
+
+要評估的是這兩位院長「目前」的參與狀況,最可靠的方式就是直接與當事人對話,了解他們此刻真實的想法,而不是依賴反映規劃階段或過去記錄的靜態文件。
+
+其他選項錯誤:利害關係人參與評估矩陣反映的是規劃階段設定的分類,無法告訴專案經理這兩位院長現在實際的想法。議題日誌只記錄已正式浮上檯面的爭議,一位正在悄悄減少參與的院長很可能還沒出現在日誌裡。更新溝通計畫屬於矯正行動,應該建立在先了解目前真實狀況的基礎上,而不是在還沒蒐集最新資訊之前就先調整計畫。
+
+---
+
+### Q131. `stk-130` — 單選題
+
+**題目 ID**: `stk-130`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: An auto parts manufacturing plant is rolling out a production line automation project. Shift supervisors were closely involved in requirements interviews during planning. Three months into execution, the plant manager asks the project manager to confirm the shift supervisors' current acceptance of and willingness to participate in the project, in order to decide whether the rollout pace needs adjusting. What should the project manager do to understand the true current situation?
+- 中: 一間汽車零件製造廠推動生產線自動化專案。各班線長在規劃階段曾密集參與需求訪談。專案執行到第三個月,廠長要求專案經理確認各班線長目前對這項自動化專案的接受程度與參與意願,以決定是否需要調整推行步調。專案經理應該怎麼做,才能掌握目前真正的狀況?
+
+**選項**
+
+- (a) Review the stakeholder register compiled during the original interviews and compare it against each supervisor's originally stated position. / 重新檢視當初訪談時整理的利害關係人登錄冊,比對各線長原本表達的立場
+- (b) Conduct one-on-one interviews or on-site conversations with each shift supervisor to understand their current views and concerns. / 直接與各班線長進行一對一訪談或現場座談,了解他們目前的看法與疑慮 ✅ **正解**
+- (c) Check the current risk register to see whether any risks related to the shift supervisors have already been documented. / 查看目前的風險登錄冊,確認是否已有與各班線長相關的風險項目被記錄
+- (d) Have the human resources department distribute a satisfaction survey and report the consolidated results to the plant manager next month. / 委託人資部門發放一份滿意度調查問卷,並在下個月彙整結果後再回報廠長
+
+**詳解**
+
+廠長要的是各班線長「目前」真實的接受度與參與意願,最直接可靠的方式就是由專案經理親自與各班線長對話,而不是仰賴規劃階段留下的靜態紀錄,也不是拖到下個月才有結果。
+
+其他選項錯誤:利害關係人登錄冊與風險登錄冊都只反映規劃階段或過去某個時間點記錄下來的狀態,無法呈現線長們現在真正的想法。委託人資部門發放問卷並在下個月才彙整結果,不僅拉長了時間,也讓專案經理與線長之間少了直接對話、當場釐清疑慮的機會,而廠長需要的是能盡快用來決定是否調整步調的即時資訊。
+
+---
+
+### Q132. `stk-131` — 單選題
+
+**題目 ID**: `stk-131`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A bank is undertaking a core banking system migration. The chief risk officer was actively engaged and provided frequent input early in the project, but has not attended any governance meetings in the past two months and has not responded to multiple meeting invitations. The next phase, data migration, is about to begin, and the project sponsor suggests proceeding, reasoning that the chief risk officer has not raised any objection. What should the project manager do?
+- 中: 一家銀行正在進行核心系統遷移專案。風險長在專案早期經常主動提供意見,但過去兩個月都沒有出席任何治理會議,也未回覆多次會議邀請。專案下一階段的資料遷移即將啟動,專案發起人建議直接繼續推進,理由是風險長並未表示反對。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Proceed with the data migration as the sponsor suggests, and log the chief risk officer's non-response in the issue log. / 依發起人建議繼續推進資料遷移,並在議題日誌中記錄風險長未回應的情況
+- (b) Escalate the chief risk officer's disengagement directly to the board of directors and ask for the board's intervention. / 直接向董事會呈報風險長失聯的情況,請求董事會介入處理
+- (c) Attempt alternative channels to reconnect with the chief risk officer, such as reaching out through their office or arranging an informal one-on-one conversation, to understand why they have been unavailable. / 嘗試透過其他管道重新聯繫風險長,例如透過其辦公室聯繫或安排非正式的一對一交流,了解對方目前無法參與的原因 ✅ **正解**
+- (d) Revise the project plan to remove steps in the data migration phase that require the chief risk officer's approval, in order to avoid depending on them. / 調整專案計畫,移除資料遷移階段中需要風險長核准的步驟,以避免依賴對方
+
+**詳解**
+
+風險長不再出席會議,不代表他在核心系統遷移這類高風險專案中的把關角色可以被略過。沉默不等於默許,專案經理應該先嘗試不同的管道重新建立聯繫,了解對方無法參與背後的原因,而不是直接照發起人的建議繼續推進,也不是急著升級或繞過對方。
+
+其他選項錯誤:直接推進並只在議題日誌記錄未回應情況,等於把一個活躍的參與缺口當成可以接受的既定風險處理掉,在核心系統遷移這類需要風險把關的專案中風險過高。直接呈報董事會,在還沒嘗試其他管道重新接觸之前就升級,為時過早。調整計畫移除需要風險長核准的步驟,並非專案經理能單方面決定的事,也可能讓專案的風險控管出現漏洞。
 
 ---

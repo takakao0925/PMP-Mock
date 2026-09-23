@@ -1,6 +1,6 @@
 # Finance — PMP 題庫
 
-> 共 109 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 134 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `calc-001` — 單選題
 
@@ -2934,5 +2934,607 @@ Crowdfunding(群眾募資)是指透過線上平台,向大量個別出資者募�
 **詳解**
 
 題目已經明講這份合約「payment tied to accepted work」,也就是付款與驗收綁在一起,專案經理該追蹤的自然是直接對應「驗收合格與否」的指標:已驗收交付的功能數、審查時被退回的件數、以及找到的瑕疵數,這組指標能直接反映廠商實際交付出多少「合格」的價值,也是決定是否付款的依據。一句話總結這個判準:Payment rides on accepted work, so the metrics that matter are acceptance anchored(付款是綁定在驗收合格的工作上,所以真正該追蹤的指標必須錨定在驗收結果上)。測試對話數、運算時數、衝刺完成數,以及人力配置、預算耗用、故事點數,都是偏向過程與投入面的效率指標,跟「這批工作到底有沒有被驗收通過」沒有直接關聯;廠商自行回報的準確率與進行中迭代次數,則是未經第三方驗證的廠商自報數字,無法客觀反映實際驗收結果,也偏離了「依驗收付款」這個合約重點。
+
+---
+
+### Q110. `fin-109` — 單選題
+
+**題目 ID**: `fin-109`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A procurement team drafts a vendor contract with steep penalty clauses for any delay, unlimited vendor liability for any issue, and very limited payment milestones. What should the project manager recommend about this contract structure?
+- 中: 採購團隊起草了一份廠商合約,裡面訂有嚴苛的延誤罰則、要求廠商承擔無上限的責任,而且付款里程碑非常少。專案經理應該對這份合約結構提出什麼建議?
+
+**選項**
+
+- (a) Proceed as drafted since it maximizes protection for the organization. / 照原稿進行,因為這樣最大程度保護了組織的權益
+- (b) Modify the contract to create more balanced risk sharing, reasonable payment terms, and mutual incentives for successful delivery. / 修改合約,建立更平衡的風險分擔、合理的付款條件,以及雙方都有誘因促成成功交付的機制 ✅ **正解**
+- (c) Add even more penalty clauses to further guarantee vendor performance. / 再加入更多罰則條款,進一步保證廠商的履約表現
+- (d) Keep the current terms but add a bonus for early delivery. / 維持現有條款,只額外加上提前交付的獎金
+
+**詳解**
+
+當廠商承擔過度風險或利潤空間被壓縮到過低時,往往會導致廠商偷工減料、態度轉為對立、或整體履約品質下降,即使合約條文上看似保護了買方。真正對雙方都有利的合約,應該建立平衡的風險分擔、合理的付款條件,並讓買賣雙方都有誘因促成專案成功,而不是一味加重罰則或維持不對等的條款結構。
+
+---
+
+### Q111. `fin-110` — 單選題
+
+**題目 ID**: `fin-110`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Due to unexpected technical complexity, a project is now facing both a 15% budget overrun and a 3-week schedule delay. If a trade-off must be made, which should the project manager prioritize addressing?
+- 中: 因為未預期的技術複雜度,一個專案同時面臨 15% 的預算超支與 3 週的時程延誤。如果必須做出取捨,專案經理應該優先處理哪一項?
+
+**選項**
+
+- (a) Reduce scope and features to protect the original timeline, accepting the budget overrun. / 縮減範疇與功能以保護原始時程,接受預算超支
+- (b) Negotiate additional funding to cover the overrun while accepting the 3-week delay. / 爭取追加預算來因應超支,同時接受 3 週延誤
+- (c) Address the budget overrun first with cost-reduction measures, then work on compressing the schedule. / 先用降低成本的措施處理預算超支,再設法壓縮時程 ✅ **正解**
+- (d) Accept smaller overruns in both budget and schedule rather than fully solving either. / 讓預算與時程都各自接受一點超支,而不是完全解決任何一項
+
+**詳解**
+
+當專案必須在成本與時程之間做取捨時,一般會優先控制預算,因為成本超支對組織造成的衝擊,通常比時程延誤更嚴重且更難挽回;因此應優先採取降低成本的措施,再視情況處理時程壓縮,而不是直接犧牲範疇保時程、不設限地追加預算,或兩邊都各讓一步卻兩邊都沒真正解決。
+
+---
+
+### Q112. `fin-111` — 單選題
+
+**題目 ID**: `fin-111`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager receives the following status update: Budget at Completion (BAC) = $500,000; Planned Value (PV) = $250,000; Earned Value (EV) = $200,000; Actual Cost (AC) = $240,000. What is the Cost Performance Index (CPI) and what does it indicate?
+- 中: 專案經理收到以下狀態報告:完工預算(BAC)= $500,000;計畫值(PV)= $250,000;實獲值(EV)= $200,000;實際成本(AC)= $240,000。請問成本績效指標(CPI)為何?這代表什麼意義?
+
+**選項**
+
+- (a) CPI = 0.83; the project is over budget, receiving less value than the amount being spent. / CPI = 0.83;專案超出預算,獲得的價值低於實際花費的金額。 ✅ **正解**
+- (b) CPI = 1.20; the project is under budget, completing more work than planned for the cost incurred. / CPI = 1.20;專案低於預算,以目前花費的成本完成了比計畫更多的工作。
+- (c) CPI = 0.80; the project is over budget, as earned value falls short of planned value. / CPI = 0.80;專案超出預算,因為實獲值低於計畫值。
+- (d) CPI = 1.04; the project is under budget, with costs running slightly below planned value. / CPI = 1.04;專案低於預算,實際成本略低於計畫值。
+
+**詳解**
+
+CPI = EV / AC = 200,000 / 240,000 ≈ 0.83。CPI 小於 1 表示成本績效不佳、專案超出預算,每花費 1 元的實際成本,只換得約 0.83 元的實獲價值。選項 (b) 的 1.20 是把公式顛倒計算成 AC/EV(240,000/200,000),是最常見的 EVM 計算錯誤;選項 (c) 的 0.80 其實是把 EV 除以 PV(200,000/250,000),算出來的是 SPI 而非 CPI;選項 (d) 的 1.04 是拿 PV 除以 AC(250,000/240,000),這個組合並不衡量任何標準的成本效率指標。CPI 的定義必須是「實獲值 ÷ 實際成本」,比較的是賺到的價值與花掉的錢,而不是計畫工作量與實際花費的關係。
+
+---
+
+### Q113. `fin-112` — 單選題
+
+**題目 ID**: `fin-112`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is presenting the project budget to the sponsor. The budget includes $80,000 in contingency reserves, and $40,000 in management reserves. The sponsor asks who controls each reserve and under what conditions they can be accessed. What should the project manager explain?
+- 中: 專案經理正在向贊助人簡報專案預算。預算中包含 $80,000 的應變準備金(Contingency Reserve)與 $40,000 的管理準備金(Management Reserve)。贊助人詢問這兩種準備金各自由誰掌控、在什麼條件下才能動用。專案經理應該如何說明?
+
+**選項**
+
+- (a) Contingency reserves are controlled by the project manager and used for identified risks; management reserves are controlled by the sponsor and require formal approval to access. / 應變準備金由專案經理掌控,用於因應已識別的風險;管理準備金則由贊助人掌控,須經正式核准才能動用。 ✅ **正解**
+- (b) The project manager controls all reserves and can access either type when actual costs exceed the cost baseline. / 專案經理掌控所有準備金,只要實際成本超出成本基準,就能動用任一種準備金。
+- (c) Both reserve types are controlled by the sponsor and require a formal change request to be used. / 兩種準備金皆由贊助人掌控,動用時都須提出正式變更請求。
+- (d) Management reserves are part of the cost baseline while contingency reserves sit outside it and require sponsor approval to use. / 管理準備金屬於成本基準的一部分,而應變準備金則在成本基準之外,須經贊助人核准才能動用。
+
+**詳解**
+
+應變準備金用於因應已識別的風險,包含在成本基準內,當這些風險發生時由專案經理直接動用;管理準備金則是為了因應未知的未知風險(unknown-unknowns)而設置,位於成本基準之外、屬於專案預算的一部分,動用時代表對已核准預算的變更,因此必須經過正式變更請求並取得贊助人核准。選項 (b) 讓專案經理掌控全部準備金,抹除了「已規劃的風險因應」與「須高層授權的未知狀況」之間的治理區別;選項 (c) 要求動用應變準備金也須經贊助人核准,會拖慢對已預先規劃因應措施的風險回應速度,違背設置應變準備金的初衷;選項 (d) 把兩者的歸屬完全講反,管理準備金並不屬於成本基準,應變準備金才是。
+
+---
+
+### Q114. `fin-113` — 單選題
+
+**題目 ID**: `fin-113`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is procuring cybersecurity services for an upcoming system migration. The organization's procurement policy prefers fixed-price contracts to minimize financial exposure. However, the exact vulnerabilities that will be discovered and addressed cannot be determined until the assessment begins. What contract type should the project manager recommend?
+- 中: 專案經理正為即將進行的系統遷移採購資安服務。組織的採購政策偏好使用固定價格合約以降低財務風險,但實際上要等到評估開始後,才能知道會發現並需要處理哪些具體弱點。專案經理應該建議採用哪一種合約類型?
+
+**選項**
+
+- (a) Firm Fixed Price / 訂有明確固定總價的合約(FFP)
+- (b) Cost Plus Incentive Fee / 成本加誘因費用合約(CPIF)
+- (c) Time and Materials / 工時與物料合約(T&M) ✅ **正解**
+- (d) Cost Plus Fixed Fee / 成本加固定費用合約(CPFF)
+
+**詳解**
+
+T&M 合約適用於範疇在事前無法完整界定的工作,它一方面讓工作內容能隨著評估進展而調整,一方面又透過事先議定的工時費率讓成本維持透明可控,正好符合本題「弱點要等評估開始後才會逐漸浮現」的情境。FFP 雖然符合組織偏好固定價格的政策,但在範疇未定的情況下採用,等於要求廠商在還不知道工作量的情況下承諾固定總價,這會把不合理的風險轉嫁給廠商,也可能導致廠商為了自保而降低服務品質;CPIF 需要事先設定明確的績效目標才能設計誘因機制,但本題一開始範疇未定,根本沒有基礎可以訂出這些目標;CPFF 會報銷全部成本並外加一筆固定費用,較適合範疇不明確、規模更大、期程更長的委外案,對於一次針對性的資安評估而言,CPFF 帶來的財務風險反而比 T&M 更高,卻沒有額外的效益。
+
+---
+
+### Q115. `fin-114` — 單選題
+
+**題目 ID**: `fin-114`
+
+難度: `hard` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Topic: EVM calculations. A project manager receives the following status update at the end of the third month of a six-month project: Budget at Completion (BAC): $600,000; Earned Value (EV): $240,000; Actual Cost (AC): $300,000. Assuming current cost performance continues for the remainder of the project, what is the Estimate at Completion (EAC)?
+- 中: 主題:EVM 計算。某六個月專案在第三個月底時,專案經理收到以下狀態報告:完工預算(BAC)= $600,000;實獲值(EV)= $240,000;實際成本(AC)= $300,000。假設目前的成本績效在專案剩餘期間持續不變,請問完工估算(EAC)為何?
+
+**選項**
+
+- (a) $480,000 / $480,000
+- (b) $600,000 / $600,000
+- (c) $660,000 / $660,000
+- (d) $750,000 / $750,000 ✅ **正解**
+
+**詳解**
+
+當假設目前的成本績效會延續到專案結束時,應使用 EAC = BAC / CPI。先求 CPI = EV / AC = 240,000 / 300,000 = 0.8。再代入 EAC = BAC / CPI = 600,000 / 0.8 = 750,000。也就是說,若成本效率不改善,專案完工時預期會比原始預算多花 150,000 元。選項 (a) $480,000 是把 BAC 直接乘以 CPI(600,000×0.8),把「除以」誤算成「乘以」,方向完全顛倒;選項 (b) $600,000 就是原始 BAC,等於假設剩餘工作會恢復依照原計畫的效率完成,這與題目「目前績效持續不變」的前提矛盾;選項 (c) $660,000 是套用 AC+(BAC−EV) = 300,000+360,000 這個公式,這個公式假設「目前的落後只是特例、剩餘工作會以原計畫效率(即效率為 1)完成」,同樣不符合本題「績效持續不變」的假設。
+
+---
+
+### Q116. `fin-115` — 單選題
+
+**題目 ID**: `fin-115`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A project manager is selecting a supplier for a large infrastructure project. One supplier has the lowest price, while another follows responsible sourcing practices and has a stronger environmental record. Both suppliers satisfy the technical requirements. What should the project manager do?
+- 中: 專案經理正在為一項大型基礎建設專案挑選供應商。其中一家供應商報價最低,另一家則採行負責任的採購作法,環保紀錄也較佳。兩家供應商都符合技術要求。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Select the supplier with the lowest purchase price. / 選擇報價最低的供應商。
+- (b) Evaluate both suppliers using sustainability and long-term value. / 以永續性與長期價值來評估這兩家供應商。 ✅ **正解**
+- (c) Choose the supplier with the shortest delivery schedule. / 選擇交貨時程最短的供應商。
+- (d) Allow the procurement manager to make the selection. / 交由採購經理來決定。
+
+**詳解**
+
+永續採購(Sustainable Procurement)強調在決策時同時衡量環境、社會與經濟三個面向的長期價值,而不是只看眼前的價格高低。本題兩家供應商都已符合技術要求,真正的決策重點在於誰能帶來更好的整體長期價值,因此應該把永續性與長期效益一併納入評估。選項 (a) 只看最低報價,忽略了三重基線(triple bottom line)中環境與社會面的考量;選項 (c) 把交貨時程當成唯一標準,同樣不是永續性的決策依據;選項 (d) 把選擇責任完全交給採購經理,但評估專案採購對整體專案的影響仍是專案經理的職責,不應完全放手不管。
+
+---
+
+### Q117. `fin-116` — 單選題
+
+**題目 ID**: `fin-116`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A project manager is overseeing the development of a new office facility. The design team proposes incorporating energy-efficient systems including solar panels, smart climate controls, and sustainable building materials. Several department heads are pushing back, arguing the upfront costs are too high and the budget should be allocated elsewhere. What should the project manager do?
+- 中: 專案經理正在督導一棟新辦公大樓的開發專案。設計團隊提議導入節能系統,包括太陽能板、智慧空調控制系統與永續建材。多位部門主管表示反對,認為前期成本太高,預算應該用在別的地方。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Ask the project sponsor to reinforce the organization's sustainability commitments to the resistant department heads. / 請專案贊助人出面,向持反對意見的部門主管重申組織的永續承諾。
+- (b) Present data showing reduced operating costs, regulatory risk reduction, and long-term return on investment for the energy-efficient systems. / 提出數據,說明節能系統能降低營運成本、減少法規風險,並帶來長期投資報酬。 ✅ **正解**
+- (c) Schedule a mandatory sustainability workshop for all department heads to build awareness of the organization's environmental goals. / 為所有部門主管安排一場強制參加的永續工作坊,以建立對組織環保目標的認識。
+- (d) Review the project charter and business case to identify the sustainability requirements that have already been formally approved. / 回頭檢視專案章程與商業論證,找出已正式核准的永續性需求。
+
+**詳解**
+
+部門主管反對的核心理由是財務考量,因此最直接有效的做法,就是針對這個財務疑慮本身提出數據,證明前期投入的成本能透過長期節省的營運費用、降低的法規風險與具體的投資報酬回收來彌補。這樣做正面回應了真正的反對理由,而不是訴諸權威、強制要求出席,或只是退回文件裡尋求依據。選項 (a) 請贊助人出面重申承諾,等於把專案經理原本能自行處理的利害關係人共識問題往上升級,在還沒嘗試直接溝通之前就越過自己的職責找靠山;選項 (c) 安排強制工作坊只能廣泛提升對環保目標的認知,並沒有回應部門主管具體提出的預算疑慮,認知提升不代表財務疑慮就會消失;選項 (d) 回頭檢視章程與商業論證雖然有助於確認需求本身是否存在,但只是確認「這項需求已經被核准過」,並不能說服原本就持懷疑態度的主管,也沒有處理他們真正在意的預算分配問題。
+
+---
+
+### Q118. `fin-117` — 單選題
+
+**題目 ID**: `fin-117`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A technology company is implementing a new enterprise software system. The IT director argues the implementation costs should be capitalized as a long-term asset. The operations director wants them treated as operational expenses for an immediate tax deduction. The project sponsor asks the project manager to classify the costs however will secure budget approval most quickly. The company's controller warns that improper classification could trigger a regulatory audit. What should the project manager do?
+- 中: 某科技公司正在導入一套新的企業軟體系統。IT 總監主張導入成本應資本化為長期資產,營運總監則希望將其列為營業費用以立即取得稅務扣抵。專案贊助人要求專案經理採用能最快取得預算核准的分類方式。公司財務長(controller)則警告,若分類不當可能引發法規稽核。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Follow the project sponsor's direction and classify the costs in the way that secures the fastest budget approval. / 依照贊助人的指示,採用能最快取得預算核准的分類方式。
+- (b) Work with the IT director, operations director, and controller to classify costs according to applicable accounting standards. / 與 IT 總監、營運總監及財務長共同合作,依照適用的會計準則來分類成本。 ✅ **正解**
+- (c) Divide the costs between capital and operational categories to give each director partial satisfaction. / 把成本拆分為資本與營運兩類,讓兩位總監各自得到部分滿足。
+- (d) Defer the classification decision until later in the project when actual costs are more clearly defined. / 把分類決策延後到專案後期、等實際成本更明確時再處理。
+
+**詳解**
+
+成本分類必須依照會計準則來判定,不是取決於哪位利害關係人的偏好或核准預算的速度快慢。財務長已經指出這裡存在真實的合規風險,專案經理的角色是把正確的人找齊、確保決策依循適用的會計準則,而不是尋求一個政治上皆大歡喜的折衷方案。選項 (a) 聽命贊助人以核准速度為優先,等於把一項合規要求當成了利害關係人的個人偏好來處理,為了行政上的方便而做出不當分類,無論是誰下的指示,都構成道德與法規上的違規;選項 (c) 把成本任意拆分成兩類來讓雙方各自滿意,製造的正是財務長所警告的那種錯誤分類風險,正確的分類結果不應該是雙方協商出來的妥協;選項 (d) 延後決策只是迴避衝突而非解決問題,而且會讓成本基準遲遲無法確立,造成後續預算的不確定性。
+
+---
+
+### Q119. `fin-118` — 單選題
+
+**題目 ID**: `fin-118`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is overseeing the renovation of a historic government building. The project is 60% complete. The deputy director has raised concerns that recent contractor invoices suggest the project may be trending toward a cost overrun and has asked the project manager to evaluate the current budget position and the state of the contingency reserve. How should the project manager respond?
+- 中: 專案經理正在督導一棟歷史性政府建築的整修專案,目前專案完成度為 60%。副局長對近期承包商的請款單提出疑慮,認為專案可能正朝向成本超支的方向發展,並要求專案經理評估目前的預算狀況與應變準備金的餘裕。專案經理該如何回應?
+
+**選項**
+
+- (a) Use cost performance data and forecasting to determine whether the project remains within budget tolerance and initiate a change request if reserves are insufficient. / 運用成本績效數據與預測,判斷專案是否仍在預算容忍範圍內,若準備金不足則提出變更請求。 ✅ **正解**
+- (b) Review the risk breakdown structure to determine whether a budget overrun qualifies as a formal risk requiring a response. / 檢視風險分解結構(RBS),判斷預算超支是否構成需要因應的正式風險。
+- (c) Conduct a sensitivity analysis to identify which remaining project activities pose the greatest cost uncertainty. / 進行敏感度分析,找出剩餘活動中成本不確定性最高的項目。
+- (d) Run a Monte Carlo simulation to model the probability distribution of final project costs and reserve adequacy. / 執行蒙地卡羅模擬,模擬最終專案成本的機率分布與準備金的充足程度。
+
+**詳解**
+
+副局長問的是「目前的預算狀況」與「準備金是否足夠」,能直接回答這個問題的做法,是運用 CPI、EAC、VAC 等成本績效數據與預測技術,呈現目前績效相對於基準的落差,並推估完工時的最終成本。選項 (b) 風險分解結構只是用來對風險類型做分類,並不能評估目前實際的預算績效,也無法判斷應變準備金能否吸收預期的超支;選項 (c) 敏感度分析是找出「未來哪些活動的成本不確定性最高」,是一種前瞻性的風險排序工具,而不是用來評估「目前」預算狀況的方法;選項 (d) 蒙地卡羅模擬能產生結果的機率分布,是定量風險分析中有效的技術,但對於一個常規的預算狀況評估而言,這個做法明顯過於複雜,而且同樣沒有直接回答「目前準備金是否足夠」這個問題。
+
+---
+
+### Q120. `fin-119` — 單選題
+
+**題目 ID**: `fin-119`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is managing procurement for a complex deliverable and must choose a contract type. The scope is not yet fully defined and is expected to evolve as work progresses. What should the project manager do?
+- 中: 專案經理正在為一項複雜的交付項目管理採購事宜,必須選擇合約類型。目前範疇尚未完全界定,而且預期會隨著工作進展而演變。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Use a firm fixed-price contract. / 採用訂有明確固定總價的合約(FFP)。
+- (b) Avoid contracting until the scope is fully defined. / 等到範疇完全界定清楚後,再進行採購。
+- (c) Use a purchase order to keep the arrangement simple. / 採用採購訂單(PO),讓安排保持簡單。
+- (d) Use a cost-reimbursable contract. / 採用成本補償合約。 ✅ **正解**
+
+**詳解**
+
+當範疇不確定、且預期會隨著工作進行而演變時,成本補償合約是較適合的選擇,因為它能容納範疇的變動,不會強迫賣方去為一項尚未界定清楚的工作事先報出固定價格,把範疇風險以較合理的方式分配給買賣雙方。選項 (a) 固定總價合約需要有清楚界定的範疇作為前提,在本題情境下採用,會迫使賣方報出不準確的價格,後續也容易因範疇變動而不斷產生變更爭議;選項 (b) 等到範疇完全確定才簽約,在範疇本來就預期會持續演變的情況下並不切實際,可能永遠等不到那個時間點;選項 (c) 採購訂單適合的是簡單、範疇明確、金額較低的採購項目,並不適用於範疇複雜且會不斷演變的交付項目。
+
+---
+
+### Q121. `fin-120` — 單選題
+
+**題目 ID**: `fin-120`
+
+難度: `medium` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager at a semiconductor equipment company is tracking the "Fab Line 9 Automation Retrofit" project. At the status date: Planned Value (PV) = $300,000; Earned Value (EV) = $276,000; Actual Cost (AC) = $290,000. What is the Schedule Performance Index (SPI), and what does it indicate?
+- 中: 晶心科技的專案經理正在追蹤「Fab Line 9 自動化改造」專案。於狀態日:計畫值(PV)= $300,000;實獲值(EV)= $276,000;實際成本(AC)= $290,000。請問時程績效指標(SPI)為何?這代表什麼意義?
+
+**選項**
+
+- (a) SPI = 0.92,專案進度落後於計畫。 / SPI = 0.92,專案進度落後於計畫。 ✅ **正解**
+- (b) SPI = 1.09,專案進度超前於計畫。 / SPI = 1.09,專案進度超前於計畫。
+- (c) SPI = 0.95,專案進度落後,因為花費比賺得的價值多。 / SPI = 0.95,專案進度落後,因為花費比賺得的價值多。
+- (d) SPI = 0.97,專案進度落後於計畫。 / SPI = 0.97,專案進度落後於計畫。
+
+**詳解**
+
+SPI = EV / PV = 276,000 / 300,000 = 0.92。SPI 小於 1 表示截至目前實際完成的工作價值低於計畫應完成的工作價值,專案進度落後於計畫。選項 (b) 的 1.09 是把公式顛倒計算成 PV/EV(300,000/276,000),方向完全相反,算出來的結果反而顯示「超前」,是最常見的計算錯誤。選項 (c) 的 0.95 其實是用 EV/AC(276,000/290,000)算出來的,那是 CPI 而不是 SPI,雖然巧合之下同樣小於 1,但衡量的是成本效率而非時程進度。選項 (d) 的 0.97 是拿 AC/PV(290,000/300,000)計算,這個組合並不對應任何標準的 EVM 指標。SPI 的定義必須是「實獲值 ÷ 計畫值」,比較的是實際完成的工作與原訂計畫應完成的工作,而不是實際花費的成本。
+
+---
+
+### Q122. `fin-121` — 單選題
+
+**題目 ID**: `fin-121`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager at a medical device company is ramping up production of a new wearable cardiac monitor. Two cost issues arise in the same week. First, a critical sensor supplier delay that was already logged in the risk register as an identified risk has occurred, and the team wants to air-freight the parts as the planned response, at extra cost. Second, a raw material supplier issues a sudden safety recall that was never anticipated in the risk management plan, forcing unplanned emergency rework. How should the project manager fund each situation?
+- 中: 一家醫療器材公司的專案經理正在為新款穿戴式心律監測裝置的量產做準備。同一週內出現兩個成本問題。第一,風險登記冊裡早就記錄過的一項已識別風險(關鍵感測器供應商可能延遲交貨)真的發生了,團隊想採用原訂的因應方式,以空運方式加速取得零件,因此會產生額外費用。第二,一家原料供應商突然發出安全召回通知,這是風險管理計畫裡完全沒有預期到的狀況,迫使團隊進行計畫外的緊急重工。專案經理應該如何分別為這兩種情況籌措資金?
+
+**選項**
+
+- (a) Use the contingency reserve directly for the sensor delay response, and use the management reserve, with a formal change request and sponsor approval, for the unforeseen recall. / 感測器延遲的因應措施直接動用應變準備金,而未預期的召回事件則動用管理準備金,並須提出正式變更請求、取得贊助人核准。 ✅ **正解**
+- (b) Use the management reserve for both situations, so the contingency reserve stays available for larger problems later. / 兩種情況都動用管理準備金,把應變準備金保留給日後更大的問題使用。
+- (c) Use the contingency reserve for both, since both situations increase project cost and the project manager controls the overall cost baseline. / 兩種情況都動用應變準備金,因為兩者都會增加專案成本,而專案經理本來就掌控整體成本基準。
+- (d) Request formal sponsor approval before using either reserve, since any reserve expenditure must go through the same approval process. / 動用任一種準備金前都須先取得贊助人的正式核准,因為所有準備金支出都須經過相同的核准流程。
+
+**詳解**
+
+感測器延遲是風險登記冊裡早已識別、也已規劃好因應方式的已知風險,這類已識別風險的因應成本本來就編列在應變準備金內,由專案經理自行決定動用即可,不需要額外的正式核准。原料召回則是完全沒被預期到的未知風險,屬於管理準備金因應的範圍,管理準備金不包含在成本基準內,動用時代表對已核准預算的變更,必須經過正式變更請求並取得贊助人核准。選項 (b) 把已識別風險的因應也丟給管理準備金處理,不必要地拉高了核准門檻,拖慢原本可以立即執行的因應速度;選項 (c) 想用應變準備金去因應完全未預期的召回事件,但應變準備金的額度是依已識別風險估算出來的,用它去吸收未知風險,可能導致準備金不足以因應真正已識別的風險;選項 (d) 要求兩種情況都須經贊助人核准,抹除了應變準備金「由專案經理自行動用」這個設計初衷,會讓組織對已規劃好的風險因應反應變慢。
+
+---
+
+### Q123. `fin-122` — 單選題
+
+**題目 ID**: `fin-122`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager at a publishing house is procuring printing services for the annual holiday gift box print run. The page count, paper stock, binding type, and print quantities are all fully specified in the statement of work and are very unlikely to change. What contract type should the project manager select?
+- 中: 一家出版社的專案經理正在為年度節慶禮盒印刷案採購印刷服務。頁數、紙材、裝訂方式與印刷數量都已在工作說明書中完整界定,而且極不可能變動。專案經理應該選擇哪一種合約類型?
+
+**選項**
+
+- (a) Firm Fixed Price. / 訂有明確固定總價的合約(FFP)。 ✅ **正解**
+- (b) Cost Plus Fixed Fee. / 成本加固定費用合約(CPFF)。
+- (c) Time and Materials. / 工時與物料合約(T&M)。
+- (d) Cost Plus Incentive Fee. / 成本加誘因費用合約(CPIF)。
+
+**詳解**
+
+當範疇已經完整且清楚界定,而且不太可能再變動時,訂有明確固定總價的合約(FFP)是最合適的選擇,因為賣方能依據明確的規格準確報價,買方也能取得可預期、固定的成本,同時把達成規格所需的執行風險合理地轉移給賣方。選項 (b) 成本加固定費用合約適用於範疇不確定、需要報銷成本的情境,在本題這種範疇已定案的簡單印刷案上採用,反而會讓買方承擔不必要的成本不確定性;選項 (c) 工時與物料合約適合範疇無法事先界定、需要邊做邊調整的工作,對於規格已經固定的印刷案並不合適;選項 (d) 成本加誘因費用合約需要先設定明確的績效目標才能設計誘因機制,通常用在範疇存在一定不確定性、且希望誘導賣方提升效率的大型或複雜採購案,對這種規格已定、風險極低的印刷案而言明顯過於複雜。
+
+---
+
+### Q124. `fin-123` — 單選題
+
+**題目 ID**: `fin-123`
+
+難度: `hard` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A solar energy developer's grid interconnection substation project has Budget at Completion (BAC) = $900,000. At the status date: Earned Value (EV) = $360,000; Actual Cost (AC) = $400,000. Assuming current cost performance continues for the remainder of the project, what is the Variance at Completion (VAC)?
+- 中: 一家太陽能開發商的併網變電站專案,完工預算(BAC)= $900,000。於狀態日:實獲值(EV)= $360,000;實際成本(AC)= $400,000。假設目前的成本績效在專案剩餘期間持續不變,請問完工變異(VAC)為何?
+
+**選項**
+
+- (a) VAC = −$100,000,專案預期將超出預算完成。 / VAC = −$100,000,專案預期將超出預算完成。 ✅ **正解**
+- (b) VAC = +$100,000,專案預期將低於預算完成。 / VAC = +$100,000,專案預期將低於預算完成。
+- (c) VAC = −$40,000,誤用「AC + (BAC − EV)」公式計算 EAC 後代入所得的結果。 / VAC = −$40,000,誤用「AC + (BAC − EV)」公式計算 EAC 後代入所得的結果。
+- (d) VAC = +$500,000,誤把 AC 當作 EAC、直接以「BAC − AC」計算所得的結果。 / VAC = +$500,000,誤把 AC 當作 EAC、直接以「BAC − AC」計算所得的結果。
+
+**詳解**
+
+先求 CPI = EV / AC = 360,000 / 400,000 = 0.9。因為假設目前績效持續不變,應以 EAC = BAC / CPI = 900,000 / 0.9 = 1,000,000 來預測完工成本。VAC = BAC − EAC = 900,000 − 1,000,000 = −100,000,負值表示專案完工時預期會超出原始核准預算 100,000 元。選項 (b) 的 +100,000 是把正確答案的正負號直接顛倒,誤以為超支的差額代表低於預算;選項 (c) 的 −40,000 是改用「AC+(BAC−EV)」這個假設「目前落後只是特例、剩餘工作將恢復依原計畫效率完成」的公式去算 EAC(400,000+540,000=940,000),但題目已經明確假設「目前績效持續不變」,不應套用這個公式;選項 (d) 的 +500,000 則是把 AC 誤當成 EAC,直接用 BAC−AC(900,000−400,000)去計算,完全忽略了還需要先預測完工成本這一步。
+
+---
+
+### Q125. `fin-124` — 單選題
+
+**題目 ID**: `fin-124`
+
+難度: `easy` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A beverage company's project manager is selecting an aluminum can supplier for a new product line. Supplier X offers the lowest price and the fastest lead time, but has unresolved labor-practice complaints and a low recycled-content ratio. Supplier Y costs slightly more and has a longer lead time, but uses 70% recycled aluminum, holds a verified fair-labor certification, and proposes a multi-year strategic partnership. Both suppliers meet the technical specifications for can strength and finish. What should the project manager recommend?
+- 中: 一家飲料公司的專案經理正在為新產品線挑選鋁罐供應商。X 供應商報價最低、交期最快,但有尚未解決的勞動條件申訴紀錄,回收材料比例也偏低。Y 供應商報價略高、交期較長,但採用 70% 回收鋁材、持有經第三方驗證的公平勞動認證,並提出多年期策略合作方案。兩家供應商都符合罐體強度與外觀的技術規格。專案經理應該建議採用哪一家?
+
+**選項**
+
+- (a) Select Supplier X because it offers the lowest price. / 選擇 X 供應商,因為報價最低。
+- (b) Select Supplier X because it has the fastest lead time. / 選擇 X 供應商,因為交期最快。
+- (c) Evaluate both suppliers based on environmental impact, social responsibility, and long-term value, favoring Supplier Y. / 綜合評估兩家供應商在環境、社會責任與長期價值上的表現,傾向選擇 Y 供應商。 ✅ **正解**
+- (d) Let the finance department decide based solely on total contract cost. / 交由財務部門單純依合約總金額來決定。
+
+**詳解**
+
+永續採購強調在決策時同時衡量環境、社會與財務三個面向的長期價值,而不是只看眼前的報價或交期。Y 供應商雖然單價較高、交期較長,但回收材料比例高、勞動條件有第三方驗證,並提出長期合作方案,能為公司帶來更好的整體長期價值與較低的聲譽及法規風險,因此值得優先考慮。選項 (a) 與 (b) 都只看單一面向(價格或交期),忽略了 X 供應商未解決的勞動申訴所帶來的潛在風險;選項 (d) 把決策完全簡化成合約總金額,同樣忽略了永續性應納入的環境與社會考量,而且評估供應商對專案的整體影響仍是專案經理該負責的事,不應完全交由財務部門單獨決定。
+
+---
+
+### Q126. `fin-125` — 單選題
+
+**題目 ID**: `fin-125`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A hospital's IT director is proposing a $250,000 upgrade to the patient data encryption system. The finance committee resists the upfront cost and questions whether the investment is justified. What should the IT director do to gain approval?
+- 中: 某醫院的資訊主管提議投入 $250,000 升級病患資料加密系統。財務委員會對這筆前期支出有所抵觸,質疑這項投資是否合理。資訊主管應該怎麼做才能取得核准?
+
+**選項**
+
+- (a) Ask the hospital's chief medical officer to instruct the finance committee to approve the budget. / 請醫院的醫療長出面,指示財務委員會核准這筆預算。
+- (b) Present data on long-term return on investment, breach-cost avoidance, and reduced regulatory compliance risk. / 提出長期投資報酬率、避免資料外洩損失、以及降低法規遵循風險等具體數據。 ✅ **正解**
+- (c) Require all finance committee members to attend a mandatory data-security awareness training session. / 要求所有財務委員會成員參加一場強制性的資安意識培訓課程。
+- (d) Reduce the scope of the upgrade so it can be approved without further discussion. / 縮減升級的範疇,以便不需再進一步討論就能取得核准。
+
+**詳解**
+
+財務委員會抵觸的核心理由是成本效益的疑慮,因此最直接有效的做法是針對這個疑慮本身提出具體數據,說明這筆前期投入能透過長期投資報酬、避免資料外洩帶來的鉅額損失,以及降低法規遵循風險來證明其合理性。這樣做正面回應了對方真正在意的問題,而不是訴諸高層權威、強制舉辦培訓,或迴避討論直接縮減範疇。選項 (a) 請醫療長出面下指示,等於用職權壓過理性討論,即使短期內取得核准,也沒有真正解決財務委員會的疑慮,日後容易再度引發爭議;選項 (c) 強制舉辦資安意識培訓,只能提升對資安重要性的認知,並沒有回應委員會具體提出的成本效益疑慮;選項 (d) 縮減範疇來規避討論,可能導致加密系統的防護力道不足以因應實際風險,只是用犧牲成效來換取表面上的核准。
+
+---
+
+### Q127. `fin-126` — 單選題
+
+**題目 ID**: `fin-126`
+
+難度: `hard` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A mobile game studio's live-ops content project has Budget at Completion (BAC) = $480,000. At the status date: Earned Value (EV) = $180,000; Actual Cost (AC) = $210,000. The sponsor insists the project must still finish within the original approved BAC. What is the To-Complete Performance Index (TCPI)?
+- 中: 某手遊工作室的live-ops內容更新專案,完工預算(BAC)= $480,000。於狀態日:實獲值(EV)= $180,000;實際成本(AC)= $210,000。贊助人堅持專案仍須在原始核准的 BAC 內完工。請問完工尚須績效指標(TCPI)為何?
+
+**選項**
+
+- (a) TCPI ≈ 1.11,剩餘工作必須以比目前更高的效率執行,才能在原訂 BAC 內完工。 / TCPI ≈ 1.11,剩餘工作必須以比目前更高的效率執行,才能在原訂 BAC 內完工。 ✅ **正解**
+- (b) TCPI ≈ 0.90,把公式的分子與分母顛倒計算所得的結果。 / TCPI ≈ 0.90,把公式的分子與分母顛倒計算所得的結果。
+- (c) TCPI ≈ 0.86,誤把 CPI(EV/AC)當成 TCPI 計算所得的結果。 / TCPI ≈ 0.86,誤把 CPI(EV/AC)當成 TCPI 計算所得的結果。
+- (d) TCPI ≈ 0.63,分母漏減 AC、直接以 BAC 計算所得的結果。 / TCPI ≈ 0.63,分母漏減 AC、直接以 BAC 計算所得的結果。
+
+**詳解**
+
+因為贊助人要求仍須在原始 BAC 內完工,應使用以 BAC 為基準的公式:TCPI = (BAC − EV) / (BAC − AC) = (480,000 − 180,000) / (480,000 − 210,000) = 300,000 / 270,000 ≈ 1.11。TCPI 大於 1 表示剩餘工作必須以比目前更高的效率執行,才能在原訂預算內完工。選項 (b) 的 0.90 是把公式顛倒計算成 (BAC−AC)/(BAC−EV)(270,000/300,000),分子分母對調,方向完全錯誤;選項 (c) 的 0.86 其實是拿 EV/AC(180,000/210,000)去算,那是 CPI 而不是 TCPI,衡量的是目前已發生的成本效率,而不是剩餘工作所需的效率;選項 (d) 的 0.63 是分母忘記減去 AC、直接用 (BAC−EV)/BAC(300,000/480,000)計算,漏掉了「剩餘可用預算」這個關鍵項目。
+
+---
+
+### Q128. `fin-127` — 單選題
+
+**題目 ID**: `fin-127`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A retail company is migrating its e-commerce platform to a new cloud architecture. The marketing VP wants the migration costs capitalized to protect quarterly operating expense targets. The finance director wants them expensed for an immediate tax deduction. The CEO tells the project manager to classify the costs however will secure board sign-off fastest. The internal auditor warns that improper classification could trigger a compliance finding. What should the project manager do?
+- 中: 某零售公司正在把電商平台遷移到新的雲端架構。行銷副總希望把遷移成本資本化,以維持季度營業費用目標;財務長則希望列為費用,以便立即取得稅務扣抵;執行長要求專案經理採用能最快取得董事會核准的分類方式;內部稽核則警告,若分類不當可能導致合規稽核缺失。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Follow the CEO's direction and classify the costs in the way that secures the fastest board approval. / 依照執行長的指示,採用能最快取得董事會核准的分類方式。
+- (b) Convene finance, accounting, and internal audit to classify the costs according to applicable accounting standards. / 召集財務、會計與內部稽核部門,依照適用的會計準則來分類這筆成本。 ✅ **正解**
+- (c) Split the costs between capital and operating categories to partially satisfy both the marketing VP and the finance director. / 把成本拆分為資本與營業兩類,分別滿足行銷副總與財務長各自的部分需求。
+- (d) Postpone the classification decision until the migration is complete and actual costs are fully known. / 把分類決策延後到遷移完成、實際成本完全確定之後再處理。
+
+**詳解**
+
+成本分類必須依照適用的會計準則來判定,不能為了行政方便、討好任何一方利害關係人,或加快核准速度而任意歸類。內部稽核已經指出這裡存在真實的合規風險,專案經理該做的是把正確的人找齊,包括財務、會計與內部稽核,確保分類決策依循準則,而不是尋求一個政治上皆大歡喜的做法。選項 (a) 聽命執行長以核准速度為優先,等於把一項合規要求當成利害關係人偏好來處理,無論下指示的人是誰,都構成道德與法規上的風險;選項 (c) 任意拆分成兩類讓雙方各自滿意,製造的正是稽核所警告的那種錯誤分類風險,正確的分類結果不該是協商出來的妥協;選項 (d) 延後決策只是迴避問題,而且會讓成本基準遲遲無法確立,對後續的財務報表與預算控管都會造成不確定性。
+
+---
+
+### Q129. `fin-128` — 單選題
+
+**題目 ID**: `fin-128`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A telecom company's 5G base station rollout project is 45% complete. The CFO asks the project manager whether the project remains within its approved cost baseline. What should the project manager do?
+- 中: 某電信公司的 5G 基地台建置專案已完成 45%。財務長詢問專案經理,這個專案是否仍在核准的成本基準內。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Use existing performance data such as CPI, EAC, and TCPI to answer the CFO's question directly. / 運用既有的績效數據,例如 CPI、EAC 與 TCPI,直接回答財務長的問題。 ✅ **正解**
+- (b) Run a Monte Carlo simulation to generate a probability distribution of the final project cost. / 執行蒙地卡羅模擬,產生最終專案成本的機率分布。
+- (c) Conduct a full quantitative risk analysis before providing any answer. / 在提供任何答案之前,先進行一次完整的定量風險分析。
+- (d) Tell the CFO the answer cannot be determined until the project reaches 100% completion. / 告訴財務長,要等到專案完成 100% 才能判斷這個問題。
+
+**詳解**
+
+財務長問的是一個常規的「目前是否在預算內」的問題,能直接回答這個問題的做法,是運用既有的成本績效指標,像是 CPI、EAC、TCPI,呈現目前績效相對於基準的落差,並推估完工時的最終成本。選項 (b) 蒙地卡羅模擬能產生結果的機率分布,是定量風險分析中有效的技術,但對於這種常規的預算狀況詢問而言明顯過於複雜、不成比例,而且也不是回答這類問題的第一步;選項 (c) 進行完整的定量風險分析同樣是捨近求遠,會耗費不必要的時間才能回應一個原本能立即用既有數據回答的問題;選項 (d) 表示要等到專案完全結束才能判斷,完全忽略了 EVM 的核心價值,也就是能在專案進行中就對完工結果做出可靠的預測。
+
+---
+
+### Q130. `fin-129` — 單選題
+
+**題目 ID**: `fin-129`
+
+難度: `hard` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An aerospace subcontractor's project manager is procuring development of an avionics software module. The exact requirements will evolve based on iterative flight-test results, and the buyer wants cost transparency along with a financial incentive for the vendor to control costs and hit agreed performance targets. What contract type should the project manager recommend?
+- 中: 一家航太次系統廠商的專案經理正在採購一套航電軟體模組的開發服務。實際需求會隨著反覆的飛行測試結果而逐步演變,買方希望在維持成本透明的同時,也讓賣方有財務誘因去控制成本並達成議定的績效目標。專案經理應該建議採用哪一種合約類型?
+
+**選項**
+
+- (a) Firm Fixed Price. / 訂有明確固定總價的合約(FFP)。
+- (b) Cost Plus Fixed Fee. / 成本加固定費用合約(CPFF)。
+- (c) Cost Plus Incentive Fee. / 成本加誘因費用合約(CPIF)。 ✅ **正解**
+- (d) Time and Materials. / 工時與物料合約(T&M)。
+
+**詳解**
+
+成本加誘因費用合約(CPIF)在報銷賣方成本的基礎上,額外訂定與績效目標掛鉤的誘因費用,既能容納因反覆測試而演變的需求,又能誘導賣方主動控制成本、追求達成議定的績效目標,正好符合本題「範疇會演變」且「需要誘因促成效率與績效」這兩個重點。選項 (a) 固定總價合約要求賣方在需求還會演變的情況下先報出固定總價,會迫使賣方承擔不合理的範疇風險;選項 (b) 成本加固定費用合約雖然同樣能報銷成本、容納範疇演變,但固定費用不會隨績效表現變動,對賣方而言缺乏主動控制成本或追求績效目標的財務誘因;選項 (d) 工時與物料合約通常用於規模較小、期程較短、以工時計價的工作,並不適合這種需要與明確績效目標掛鉤誘因機制的複雜研發型採購案。
+
+---
+
+### Q131. `fin-130` — 多選題
+
+**題目 ID**: `fin-130`
+
+難度: `medium` ｜ 建議作答時間分類: `definition` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Which two of the following statements about contingency reserve and management reserve are correct? Select two.
+- 中: 下列關於應變準備金(Contingency Reserve)與管理準備金(Management Reserve)的敘述,哪兩項是正確的?請選擇兩項。
+
+**選項**
+
+- (a) The contingency reserve is used for identified risks and can typically be used at the project manager's own discretion. / 應變準備金用於因應已識別的風險,通常由專案經理自行決定動用。 ✅ **正解**
+- (b) The management reserve is included within the cost baseline. / 管理準備金包含在成本基準內。
+- (c) Using the management reserve requires a formal change request and sponsor approval. / 動用管理準備金須經正式變更請求並取得贊助人核准。 ✅ **正解**
+- (d) The contingency reserve is controlled by the sponsor and requires project manager approval to use. / 應變準備金由贊助人掌控,動用時須經專案經理核准。
+- (e) The management reserve is used for identified risks that have not yet occurred. / 管理準備金用於因應已識別但尚未發生的風險。
+
+**詳解**
+
+應變準備金用於因應已識別的風險,包含在成本基準內,由專案經理自行掌控動用,因此 (a) 正確。管理準備金用於因應未知的未知風險,不包含在成本基準內,動用時代表對已核准預算的變更,必須經過正式變更請求並取得贊助人核准,因此 (c) 正確。選項 (b) 把管理準備金與成本基準的關係說反了,管理準備金是在成本基準之外的;選項 (d) 把兩種準備金的掌控者角色對調,應變準備金應由專案經理掌控,而不是贊助人;選項 (e) 把管理準備金的用途說錯,已識別但尚未發生的風險屬於應變準備金因應的範圍,管理準備金因應的是未知的未知風險。
+
+---
+
+### Q132. `fin-131` — 單選題
+
+**題目 ID**: `fin-131`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A household goods company's project manager is selecting a packaging supplier for a new product line. Supplier A offers plastic packaging at the lowest cost with next-day delivery. Supplier B offers plant-based biodegradable packaging at a moderately higher cost, with a longer lead time, but with third-party verified compostability and a strong track record on fair labor practices. Both meet the technical requirements for product protection during shipping. What should the project manager do?
+- 中: 一家日用品公司的專案經理正在為新產品線挑選包裝供應商。A 供應商提供塑膠包裝,成本最低、隔天即可到貨。B 供應商提供植物基可分解包裝,成本略高、交期較長,但擁有第三方驗證的可堆肥認證,並在公平勞動實務上有良好紀錄。兩家供應商都符合出貨保護的技術要求。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Select Supplier A because it minimizes packaging cost. / 選擇 A 供應商,因為能把包裝成本降到最低。
+- (b) Select Supplier A because it offers the fastest delivery. / 選擇 A 供應商,因為交期最快。
+- (c) Evaluate both suppliers based on environmental impact, social practices, and long-term financial value rather than price or delivery speed alone. / 綜合評估兩家供應商在環境影響、社會實務與長期財務價值上的表現,而不是只看價格或交期。 ✅ **正解**
+- (d) Ask the two suppliers to negotiate a joint bid to split the order equally. / 請兩家供應商協商聯合出貨,平均分配訂單。
+
+**詳解**
+
+永續採購要求在決策時同時衡量環境、社會與財務三個面向的長期價值,而不是只看眼前的價格或交期。B 供應商雖然成本較高、交期較長,但可分解材質與公平勞動紀錄能為公司帶來更好的長期環境效益與較低的聲譽風險,值得納入整體評估後優先考慮。選項 (a) 與 (b) 都只以單一面向(價格或交期)做決定,忽略了永續性應納入的環境與社會考量;選項 (d) 要求兩家供應商協商聯合出貨、平均分配訂單,並沒有真正解決「該依什麼標準選擇供應商」這個問題,只是迴避了決策本身。
+
+---
+
+### Q133. `fin-132` — 多選題
+
+**題目 ID**: `fin-132`
+
+難度: `hard` ｜ 建議作答時間分類: `calculation` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: An enterprise SaaS platform project has Budget at Completion (BAC) = $1,000,000. At the status date: Planned Value (PV) = $480,000; Earned Value (EV) = $420,000; Actual Cost (AC) = $400,000. Which two of the following statements are correct? Select two.
+- 中: 某企業級 SaaS 平台專案,完工預算(BAC)= $1,000,000。於狀態日:計畫值(PV)= $480,000;實獲值(EV)= $420,000;實際成本(AC)= $400,000。下列敘述,哪兩項是正確的?請選擇兩項。
+
+**選項**
+
+- (a) SPI ≈ 0.875, indicating the project is behind schedule. / SPI ≈ 0.875,顯示專案進度落後於計畫。 ✅ **正解**
+- (b) CPI ≈ 1.05, indicating good cost efficiency and a project trending under budget. / CPI ≈ 1.05,顯示成本效率良好,專案有低於預算完成的趨勢。 ✅ **正解**
+- (c) VAC is negative, indicating the project is projected to finish over budget. / VAC 為負值,顯示專案預期將超出預算完成。
+- (d) TCPI (based on BAC) is greater than 1, meaning the remaining work must be completed at higher efficiency than achieved so far. / TCPI(以 BAC 為基準)大於 1,代表剩餘工作必須以比目前更高的效率完成。
+- (e) If current performance continues, the project is projected to finish ahead of schedule and under budget. / 若目前績效持續,專案預期將提前於計畫進度完工,且低於預算完成。
+
+**詳解**
+
+SPI = EV/PV = 420,000/480,000 = 0.875,小於 1,顯示進度落後於計畫,因此 (a) 正確。CPI = EV/AC = 420,000/400,000 = 1.05,大於 1,顯示每花費 1 元實際成本能換得超過 1 元的實獲價值,成本效率良好,因此 (b) 正確。再算 EAC = BAC/CPI = 1,000,000/1.05 ≈ 952,381,VAC = BAC−EAC ≈ 1,000,000−952,381 = +47,619,VAC 為正值,顯示專案預期會低於預算完成,並非選項 (c) 所述的負值與超支,因此 (c) 錯誤。TCPI = (BAC−EV)/(BAC−AC) = (1,000,000−420,000)/(1,000,000−400,000) = 580,000/600,000 ≈ 0.97,小於 1,代表剩餘工作即使效率略低於目前水準,仍能在原訂 BAC 內完工,並非選項 (d) 所述的大於 1,因此 (d) 錯誤。選項 (e) 雖然「低於預算完成」的部分正確,但 SPI 小於 1 已經顯示進度落後而非超前,「提前完工」的部分與數據矛盾,因此整句敘述錯誤。
+
+---
+
+### Q134. `fin-133` — 單選題
+
+**題目 ID**: `fin-133`
+
+難度: `medium` ｜ 建議作答時間分類: `predictive_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: An apparel retailer is upgrading its enterprise resource planning (ERP) system. The operations director wants the implementation costs expensed immediately to show a leaner quarterly budget to the board. The IT director wants them capitalized as a long-term asset to spread the impact across future years. The controller has not yet been consulted. What should the project manager do?
+- 中: 一家服飾零售商正在升級企業資源規劃(ERP)系統。營運總監希望把導入成本立即列為費用,好讓這一季在董事會面前呈現出較精簡的預算數字;資訊長則希望將其資本化為長期資產,把影響分攤到未來幾年。財務長目前尚未被諮詢過。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Side with the operations director since a leaner quarterly budget will please the board. / 支持營運總監的做法,因為較精簡的季度預算數字能讓董事會滿意。
+- (b) Side with the IT director since capitalizing spreads the financial impact more evenly. / 支持資訊長的做法,因為資本化能讓財務衝擊分攤得更平均。
+- (c) Consult the controller and classify the costs according to the applicable accounting standards. / 諮詢財務長,並依照適用的會計準則來分類這筆成本。 ✅ **正解**
+- (d) Let the two directors negotiate a compromise classification between themselves. / 讓兩位總監自行協商出一個折衷的分類方式。
+
+**詳解**
+
+成本分類必須依照適用的會計準則來判斷,而不是取決於哪位主管的偏好,也不是為了呈現特定的季度預算數字而任意調整。財務長是判斷成本應資本化或費用化最具權責的角色,目前尚未被諮詢,專案經理該做的是主動把財務長納入決策,確保分類結果依循準則。選項 (a) 與 (b) 都是直接選邊站,依主管的偏好而非會計準則來分類,一旦分類不當,日後可能引發財報或稽核上的問題;選項 (d) 讓兩位總監自行協商出折衷方案,同樣把本該依準則判斷的問題,變成了利害關係人之間的政治協商,正確的分類結果不應該是雙方談判出來的結果。
 
 ---

@@ -78,6 +78,13 @@ function ReviewAccordionItem({ item, index }) {
             </button>
           </div>
 
+          {item.caseId && (
+            <div className="rounded-lg border border-indigo-200 bg-indigo-50 p-3 text-indigo-900">
+              <p className="mb-1 text-xs font-semibold text-indigo-700">📋 案例情境</p>
+              <p className="whitespace-pre-line">{bi(item.caseContext)}</p>
+            </div>
+          )}
+
           <p className="whitespace-pre-line font-medium text-gray-900">{bi(item.stem)}</p>
 
           <AnswerReveal question={item} userAnswer={item.userAnswer} />
