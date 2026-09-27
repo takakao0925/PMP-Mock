@@ -1,5 +1,5 @@
 // PMP 模擬考題目 schema 定義
-// 分類依據: docs:/pmbok-outline.md (PMBOK 7th / 8th 版對照文件)
+// 分類依據: docs-notes/pmbok-outline.md (PMBOK 7th / 8th 版對照文件)
 
 /** ECO 三大領域 — 用於考試配分與成績統計,與版本無關 */
 export const DOMAINS = ['People', 'Process', 'BusinessEnvironment']
@@ -55,7 +55,7 @@ export const QUESTION_TYPES = [
 export const DIFFICULTIES = ['easy', 'medium', 'hard']
 
 /**
- * 建議作答秒數分類 (依 docs:/test-time-recommand.md)。
+ * 建議作答秒數分類 (依 docs-notes/test-time-recommand.md)。
  * 每題倒數以該分類的 max 秒數為起始值;剩餘時間低於 min 轉橘字警示,低於 0 轉紅字並開始倒數負值(視為超時)。
  */
 export const TIME_CATEGORIES = ['definition', 'calculation', 'agile_scenario', 'predictive_scenario']

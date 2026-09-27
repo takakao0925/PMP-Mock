@@ -1,8 +1,8 @@
 import { DOMAINS, DOMAIN_WEIGHTS, getTimeRecommendation } from '../schema/questionSchema.js'
 
 // 固定考試規格 — 對應 8th 版新制格式 (docs 第 0 節)
-// 題數依 docs:/20260824-PMP-course-note.md 開頭「180 questions, 240 min」校正(原本用的 185 是專案初期的舊數字)
-// 分段題號依 docs:/pmi-exam-structure-20260902.md(PMI 2026/09/02 官方新制):
+// 題數依 docs-notes/20260824-PMP-course-note.md 開頭「180 questions, 240 min」校正(原本用的 185 是專案初期的舊數字)
+// 分段題號依 docs-notes/pmi-exam-structure-20260902.md(PMI 2026/09/02 官方新制):
 // Section 1 (1-40,案例題為主) → 休息 → Section 2 (41-100) → 休息 → Section 3 (101-180)
 export const EXAM_SPEC = {
   mode: 'standard',
@@ -85,7 +85,7 @@ function shuffleQuestionOptions(question) {
   return q
 }
 
-// PMI 2026/09/02 新制 Section 1(前 N 題)以案例研究為主 —— 詳見 docs:/pmi-exam-structure-20260902.md。
+// PMI 2026/09/02 新制 Section 1(前 N 題)以案例研究為主 —— 詳見 docs-notes/pmi-exam-structure-20260902.md。
 // 題庫現在已經有真正的案例題組(quiz-md-parser 的「所屬案例」/caseId 分組),固定挑 3 組完整案例
 // 塞進 Section 1 最前面;Section 1 剩餘名額(3 組用不完的部分)才用「情境類 timeCategory」近似
 // 補滿,維持這段舊邏輯的向下相容(題庫案例題組數量還不夠多時,這個近似仍然有意義)。

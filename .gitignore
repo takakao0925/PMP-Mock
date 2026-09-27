@@ -4,5 +4,8 @@ dist-local
 .DS_Store
 *.local
 
+# macOS 複製檔案產生的資源分支垃圾檔
+._*
+
 # 課程筆記/PDF 摘要,個人參考用,不隨 app 公開發布
-docs:/
+docs-notes/
