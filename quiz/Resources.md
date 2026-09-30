@@ -1,6 +1,6 @@
 # Resources — PMP 題庫
 
-> 共 158 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 163 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `sc-001` — 單選題
 
@@ -1641,7 +1641,59 @@ Estimate Resources(估算資源)流程常用的估算技術包括類比估算(�
 
 ---
 
-### Q61. `res-061` — 單選題
+### Q61. `res-059` — 單選題
+
+**題目 ID**: `res-059`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A brand-new team member is highly enthusiastic about the assignment but has very little relevant technical skill or experience with the specific task. According to the Situational Leadership model (Hersey-Blanchard), which leadership style should the project manager primarily apply with this individual?
+- 中: 一位剛加入的團隊成員對這項任務充滿熱忱,但在該特定任務上幾乎沒有相關技術能力或經驗。根據情境領導模型(Situational Leadership, Hersey-Blanchard),專案經理對這位成員應主要採用哪一種領導風格?
+
+**選項**
+
+- (a) Directing — providing close, specific guidance and instructions / 指導型(Directing)——提供密切、具體的指引與指示 ✅ **正解**
+- (b) Delegating — handing over full autonomy with minimal oversight / 授權型(Delegating)——交出完全自主權,極少監督
+- (c) Supporting — facilitating and encouraging with minimal direction / 支持型(Supporting)——以鼓勵與促進為主,極少指導
+- (d) Laissez-faire — providing no involvement at all / 放任型(Laissez-faire)——完全不介入
+
+**詳解**
+
+情境領導模型主張領導風格應依團隊成員的能力(competence)與意願(commitment)調整。對於能力低、但意願/熱忱高的新成員,應採用 Directing(指導型)風格,提供密切且具體的指引;隨著能力逐漸提升,才逐步轉向 Coaching(教練型)、Supporting(支持型),最終在能力與意願皆高時採用 Delegating(授權型)。放任型並非情境領導模型中的正式風格,且完全不介入對新手而言風險過高。
+
+---
+
+### Q62. `res-060` — 下拉選單題
+
+**題目 ID**: `res-060`
+
+難度: `medium` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok7` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹樣板(含填空標記,兩語言都要標記 {{blankId}})**
+
+- EN: A veteran team member has repeatedly demonstrated both strong technical competence and high commitment on similar tasks. Following the Situational Leadership model, the project manager should primarily adopt {{blank1}} with this individual, while reserving closer involvement for {{blank2}}.
+- 中: 一位資深團隊成員在類似任務上多次展現出高度的技術能力與投入意願。依循情境領導模型,專案經理對這位成員應主要採用 {{blank1}},並將較密切的介入保留給 {{blank2}}。
+
+**blank1**
+
+- (a) A Delegating style, granting autonomy over how the work gets done / 授權型(Delegating)風格,給予其自行決定如何完成工作的自主權 ✅ **正解**
+- (b) A Directing style, specifying each step in detail / 指導型(Directing)風格,詳細規定每一個步驟
+
+**blank2**
+
+- (a) Less experienced or less confident team members who need more guidance / 經驗較淺或信心較不足、需要更多指引的團隊成員 ✅ **正解**
+- (b) Every team member equally, regardless of their skill or experience / 無論技能或經驗高低,對每位成員一視同仁
+
+
+**詳解**
+
+對於能力與意願皆高的資深成員,情境領導模型建議採用 Delegating(授權型)風格,給予高度自主權;較密切的指導與介入則應保留給能力或信心尚待建立的成員,而非不分對象一律採用同一種領導風格。
+
+---
+
+### Q63. `res-061` — 單選題
 
 **題目 ID**: `res-061`
 
@@ -1665,7 +1717,7 @@ Colocation(同地辦公,又稱「戰情室」war room)是將多數或全部核�
 
 ---
 
-### Q62. `res-062` — 多選題
+### Q64. `res-062` — 多選題
 
 **題目 ID**: `res-062`
 
@@ -1690,7 +1742,7 @@ Develop Team(發展團隊)流程的常見工具與技術包括訓練、團隊建
 
 ---
 
-### Q63. `res-063` — 拖拉配對題
+### Q65. `res-063` — 拖拉配對題
 
 **題目 ID**: `res-063`
 
@@ -1728,7 +1780,7 @@ Develop Team 流程的常見工具包括:訓練(提升技術或人際能力)、�
 
 ---
 
-### Q64. `res-064` — 單選題
+### Q66. `res-064` — 單選題
 
 **題目 ID**: `res-064`
 
@@ -1752,7 +1804,7 @@ Develop Team 流程的常見工具包括:訓練(提升技術或人際能力)、�
 
 ---
 
-### Q65. `res-065` — 多選題
+### Q67. `res-065` — 多選題
 
 **題目 ID**: `res-065`
 
@@ -1777,7 +1829,7 @@ Develop Team 流程的常見工具包括:訓練(提升技術或人際能力)、�
 
 ---
 
-### Q66. `res-066` — 點擊熱區題
+### Q68. `res-066` — 點擊熱區題
 
 **題目 ID**: `res-066`
 
@@ -1802,7 +1854,7 @@ Develop Team 流程的常見工具包括:訓練(提升技術或人際能力)、�
 
 ---
 
-### Q67. `res-067` — 多選題
+### Q69. `res-067` — 多選題
 
 **題目 ID**: `res-067`
 
@@ -1827,7 +1879,7 @@ Develop Team 流程的常見工具包括:訓練(提升技術或人際能力)、�
 
 ---
 
-### Q68. `res-068` — 點擊熱區題
+### Q70. `res-068` — 點擊熱區題
 
 **題目 ID**: `res-068`
 
@@ -1852,7 +1904,7 @@ Develop Team 流程的常見工具包括:訓練(提升技術或人際能力)、�
 
 ---
 
-### Q69. `res-069` — 單選題
+### Q71. `res-069` — 單選題
 
 **題目 ID**: `res-069`
 
@@ -1876,7 +1928,7 @@ Develop Team 流程的常見工具包括:訓練(提升技術或人際能力)、�
 
 ---
 
-### Q70. `res-070` — 單選題
+### Q72. `res-070` — 單選題
 
 **題目 ID**: `res-070`
 
@@ -1900,7 +1952,7 @@ Pinto 提出的 12 項服務型領導原則中,「花時間反思專案(Take tim
 
 ---
 
-### Q71. `res-071` — 多選題
+### Q73. `res-071` — 多選題
 
 **題目 ID**: `res-071`
 
@@ -1925,7 +1977,7 @@ Pinto 提出的 12 項服務型領導原則中,「花時間反思專案(Take tim
 
 ---
 
-### Q72. `res-072` — 拖拉配對題
+### Q74. `res-072` — 拖拉配對題
 
 **題目 ID**: `res-072`
 
@@ -1963,7 +2015,7 @@ Pinto 提出的 12 項服務型領導原則中,「花時間反思專案(Take tim
 
 ---
 
-### Q73. `res-073` — 下拉選單題
+### Q75. `res-073` — 下拉選單題
 
 **題目 ID**: `res-073`
 
@@ -1991,7 +2043,7 @@ Pinto 提出的 12 項服務型領導原則中,「花時間反思專案(Take tim
 
 ---
 
-### Q74. `res-074` — 拖拉配對題
+### Q76. `res-074` — 拖拉配對題
 
 **題目 ID**: `res-074`
 
@@ -2032,7 +2084,7 @@ Shu-Ha-Ri 是描述個人技能養成的三階段模型:守(Shu)階段完全遵�
 
 ---
 
-### Q75. `res-075` — 點擊熱區題
+### Q77. `res-075` — 點擊熱區題
 
 **題目 ID**: `res-075`
 
@@ -2064,7 +2116,7 @@ Retrospective 依序分為五個階段:Set the Stage(揭開序幕,約 6 分鐘,�
 
 ---
 
-### Q76. `res-076` — 單選題
+### Q78. `res-076` — 單選題
 
 **題目 ID**: `res-076`
 
@@ -2088,7 +2140,7 @@ ESVP(Explorer, Shopper, Vacationer, Prisoner)是 Set the Stage 階段常用的�
 
 ---
 
-### Q77. `res-077` — 多選題
+### Q79. `res-077` — 多選題
 
 **題目 ID**: `res-077`
 
@@ -2113,7 +2165,7 @@ ESVP(Explorer, Shopper, Vacationer, Prisoner)是 Set the Stage 階段常用的�
 
 ---
 
-### Q78. `res-078` — 單選題
+### Q80. `res-078` — 單選題
 
 **題目 ID**: `res-078`
 
@@ -2137,7 +2189,7 @@ ESVP(Explorer, Shopper, Vacationer, Prisoner)是 Set the Stage 階段常用的�
 
 ---
 
-### Q79. `res-079` — 單選題
+### Q81. `res-079` — 單選題
 
 **題目 ID**: `res-079`
 
@@ -2161,7 +2213,7 @@ ESVP(Explorer, Shopper, Vacationer, Prisoner)是 Set the Stage 階段常用的�
 
 ---
 
-### Q80. `res-080` — 拖拉配對題
+### Q82. `res-080` — 拖拉配對題
 
 **題目 ID**: `res-080`
 
@@ -2202,7 +2254,7 @@ ESVP(Explorer, Shopper, Vacationer, Prisoner)是 Set the Stage 階段常用的�
 
 ---
 
-### Q81. `res-081` — 多選題
+### Q83. `res-081` — 多選題
 
 **題目 ID**: `res-081`
 
@@ -2226,7 +2278,7 @@ ESVP(Explorer, Shopper, Vacationer, Prisoner)是 Set the Stage 階段常用的�
 
 ---
 
-### Q82. `res-082` — 拖拉配對題
+### Q84. `res-082` — 拖拉配對題
 
 **題目 ID**: `res-082`
 
@@ -2264,7 +2316,7 @@ ESVP(Explorer, Shopper, Vacationer, Prisoner)是 Set the Stage 階段常用的�
 
 ---
 
-### Q83. `res-083` — 下拉選單題
+### Q85. `res-083` — 下拉選單題
 
 **題目 ID**: `res-083`
 
@@ -2292,7 +2344,7 @@ ESVP(Explorer, Shopper, Vacationer, Prisoner)是 Set the Stage 階段常用的�
 
 ---
 
-### Q84. `res-084` — 單選題
+### Q86. `res-084` — 單選題
 
 **題目 ID**: `res-084`
 
@@ -2316,7 +2368,7 @@ ESVP(Explorer, Shopper, Vacationer, Prisoner)是 Set the Stage 階段常用的�
 
 ---
 
-### Q85. `res-085` — 單選題
+### Q87. `res-085` — 單選題
 
 **題目 ID**: `res-085`
 
@@ -2340,7 +2392,7 @@ MBTI 依四個維度描述人格偏好:能量來源(外向 E / 內向 I)、接�
 
 ---
 
-### Q86. `res-086` — 多選題
+### Q88. `res-086` — 多選題
 
 **題目 ID**: `res-086`
 
@@ -2365,7 +2417,7 @@ MBTI 依四個維度描述人格偏好:能量來源(外向 E / 內向 I)、接�
 
 ---
 
-### Q87. `res-087` — 拖拉配對題
+### Q89. `res-087` — 拖拉配對題
 
 **題目 ID**: `res-087`
 
@@ -2400,7 +2452,7 @@ MBTI 依四個維度描述人格偏好:能量來源(外向 E / 內向 I)、接�
 
 ---
 
-### Q88. `res-088` — 單選題
+### Q90. `res-088` — 單選題
 
 **題目 ID**: `res-088`
 
@@ -2424,7 +2476,7 @@ MBTI 依四個維度描述人格偏好:能量來源(外向 E / 內向 I)、接�
 
 ---
 
-### Q89. `res-089` — 多選題
+### Q91. `res-089` — 多選題
 
 **題目 ID**: `res-089`
 
@@ -2448,7 +2500,7 @@ Green HRM 是 Plan Resource Management 過程中考量環境與永續性的做�
 
 ---
 
-### Q90. `res-090` — 單選題
+### Q92. `res-090` — 單選題
 
 **題目 ID**: `res-090`
 
@@ -2472,7 +2524,7 @@ Green HRM 是 Plan Resource Management 過程中考量環境與永續性的做�
 
 ---
 
-### Q91. `res-091` — 點擊熱區題
+### Q93. `res-091` — 點擊熱區題
 
 **題目 ID**: `res-091`
 
@@ -2496,7 +2548,7 @@ Green HRM 是 Plan Resource Management 過程中考量環境與永續性的做�
 
 ---
 
-### Q92. `res-092` — 多選題
+### Q94. `res-092` — 多選題
 
 **題目 ID**: `res-092`
 
@@ -2521,7 +2573,7 @@ Green HRM 是 Plan Resource Management 過程中考量環境與永續性的做�
 
 ---
 
-### Q93. `res-093` — 拖拉配對題
+### Q95. `res-093` — 拖拉配對題
 
 **題目 ID**: `res-093`
 
@@ -2559,7 +2611,7 @@ Green HRM 是 Plan Resource Management 過程中考量環境與永續性的做�
 
 ---
 
-### Q94. `res-094` — 單選題
+### Q96. `res-094` — 單選題
 
 **題目 ID**: `res-094`
 
@@ -2583,7 +2635,7 @@ Green HRM 是 Plan Resource Management 過程中考量環境與永續性的做�
 
 ---
 
-### Q95. `res-095` — 點擊熱區題
+### Q97. `res-095` — 點擊熱區題
 
 **題目 ID**: `res-095`
 
@@ -2607,7 +2659,7 @@ Green HRM 是 Plan Resource Management 過程中考量環境與永續性的做�
 
 ---
 
-### Q96. `res-096` — 點擊熱區題
+### Q98. `res-096` — 點擊熱區題
 
 **題目 ID**: `res-096`
 
@@ -2631,7 +2683,7 @@ SWOT 分析(強項 Strengths、弱項 Weaknesses、機會 Opportunities、威脅
 
 ---
 
-### Q97. `res-097` — 下拉選單題
+### Q99. `res-097` — 下拉選單題
 
 **題目 ID**: `res-097`
 
@@ -2659,7 +2711,7 @@ SWOT 分析(強項 Strengths、弱項 Weaknesses、機會 Opportunities、威脅
 
 ---
 
-### Q98. `res-098` — 多選題
+### Q100. `res-098` — 多選題
 
 **題目 ID**: `res-098`
 
@@ -2684,7 +2736,7 @@ SWOT 分析(強項 Strengths、弱項 Weaknesses、機會 Opportunities、威脅
 
 ---
 
-### Q99. `res-099` — 下拉選單題
+### Q101. `res-099` — 下拉選單題
 
 **題目 ID**: `res-099`
 
@@ -2712,7 +2764,7 @@ SWOT 分析(強項 Strengths、弱項 Weaknesses、機會 Opportunities、威脅
 
 ---
 
-### Q100. `res-100` — 拖拉配對題
+### Q102. `res-100` — 拖拉配對題
 
 **題目 ID**: `res-100`
 
@@ -2750,7 +2802,7 @@ SWOT 分析(強項 Strengths、弱項 Weaknesses、機會 Opportunities、威脅
 
 ---
 
-### Q101. `res-101` — 單選題
+### Q103. `res-101` — 單選題
 
 **題目 ID**: `res-101`
 
@@ -2774,7 +2826,7 @@ Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或
 
 ---
 
-### Q102. `res-102` — 下拉選單題
+### Q104. `res-102` — 下拉選單題
 
 **題目 ID**: `res-102`
 
@@ -2802,7 +2854,7 @@ Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或
 
 ---
 
-### Q103. `res-103` — 下拉選單題
+### Q105. `res-103` — 下拉選單題
 
 **題目 ID**: `res-103`
 
@@ -2830,7 +2882,7 @@ Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或
 
 ---
 
-### Q104. `res-104` — 單選題
+### Q106. `res-104` — 單選題
 
 **題目 ID**: `res-104`
 
@@ -2854,7 +2906,7 @@ Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或
 
 ---
 
-### Q105. `res-105` — 單選題
+### Q107. `res-105` — 單選題
 
 **題目 ID**: `res-105`
 
@@ -2878,7 +2930,7 @@ Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或
 
 ---
 
-### Q106. `res-106` — 多選題
+### Q108. `res-106` — 多選題
 
 **題目 ID**: `res-106`
 
@@ -2903,7 +2955,7 @@ Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或
 
 ---
 
-### Q107. `res-107` — 拖拉配對題
+### Q109. `res-107` — 拖拉配對題
 
 **題目 ID**: `res-107`
 
@@ -2944,7 +2996,7 @@ Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或
 
 ---
 
-### Q108. `res-108` — 單選題
+### Q110. `res-108` — 單選題
 
 **題目 ID**: `res-108`
 
@@ -2968,7 +3020,7 @@ Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或
 
 ---
 
-### Q109. `res-109` — 拖拉配對題
+### Q111. `res-109` — 拖拉配對題
 
 **題目 ID**: `res-109`
 
@@ -3003,7 +3055,7 @@ Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或
 
 ---
 
-### Q110. `res-110` — 單選題
+### Q112. `res-110` — 單選題
 
 **題目 ID**: `res-110`
 
@@ -3027,7 +3079,7 @@ Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或
 
 ---
 
-### Q111. `res-111` — 多選題
+### Q113. `res-111` — 多選題
 
 **題目 ID**: `res-111`
 
@@ -3051,7 +3103,7 @@ Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或
 
 ---
 
-### Q112. `res-112` — 多選題
+### Q114. `res-112` — 多選題
 
 **題目 ID**: `res-112`
 
@@ -3076,7 +3128,7 @@ Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或
 
 ---
 
-### Q113. `res-113` — 單選題
+### Q115. `res-113` — 單選題
 
 **題目 ID**: `res-113`
 
@@ -3100,7 +3152,7 @@ Consulted(諮詢)是指在決策或工作完成「之前」需要提供意見或
 
 ---
 
-### Q114. `res-114` — 單選題
+### Q116. `res-114` — 單選題
 
 **題目 ID**: `res-114`
 
@@ -3124,7 +3176,7 @@ Lead the Team 過程中若發現團隊績效問題需要額外資源(如預算)�
 
 ---
 
-### Q115. `res-115` — 單選題
+### Q117. `res-115` — 單選題
 
 **題目 ID**: `res-115`
 
@@ -3148,7 +3200,7 @@ Lead the Team 過程中若發現團隊績效問題需要額外資源(如預算)�
 
 ---
 
-### Q116. `res-116` — 單選題
+### Q118. `res-116` — 單選題
 
 **題目 ID**: `res-116`
 
@@ -3172,7 +3224,7 @@ Lead the Team 過程中若發現團隊績效問題需要額外資源(如預算)�
 
 ---
 
-### Q117. `res-117` — 單選題
+### Q119. `res-117` — 單選題
 
 **題目 ID**: `res-117`
 
@@ -3196,7 +3248,7 @@ PM 的角色是整合者,必須超越單一工作流的視角,主動召集所有
 
 ---
 
-### Q118. `res-118` — 單選題
+### Q120. `res-118` — 單選題
 
 **題目 ID**: `res-118`
 
@@ -3220,7 +3272,7 @@ PM 的角色是整合者,必須超越單一工作流的視角,主動召集所有
 
 ---
 
-### Q119. `res-119` — 單選題
+### Q121. `res-119` — 單選題
 
 **題目 ID**: `res-119`
 
@@ -3244,7 +3296,7 @@ PM 的角色是整合者,必須超越單一工作流的視角,主動召集所有
 
 ---
 
-### Q120. `res-120` — 單選題
+### Q122. `res-120` — 單選題
 
 **題目 ID**: `res-120`
 
@@ -3268,7 +3320,7 @@ PM 的角色是整合者,必須超越單一工作流的視角,主動召集所有
 
 ---
 
-### Q121. `res-121` — 單選題
+### Q123. `res-121` — 單選題
 
 **題目 ID**: `res-121`
 
@@ -3292,7 +3344,7 @@ PM 的角色是整合者,必須超越單一工作流的視角,主動召集所有
 
 ---
 
-### Q122. `res-122` — 單選題
+### Q124. `res-122` — 單選題
 
 **題目 ID**: `res-122`
 
@@ -3316,7 +3368,7 @@ PM 的角色是整合者,必須超越單一工作流的視角,主動召集所有
 
 ---
 
-### Q123. `res-123` — 單選題
+### Q125. `res-123` — 單選題
 
 **題目 ID**: `res-123`
 
@@ -3340,7 +3392,7 @@ PM 的職責之一,是替團隊擋下看似立意良善、卻會打斷專注力�
 
 ---
 
-### Q124. `res-124` — 多選題
+### Q126. `res-124` — 多選題
 
 **題目 ID**: `res-124`
 
@@ -3364,7 +3416,7 @@ PM 的職責之一,是替團隊擋下看似立意良善、卻會打斷專注力�
 
 ---
 
-### Q125. `res-125` — 單選題
+### Q127. `res-125` — 單選題
 
 **題目 ID**: `res-125`
 
@@ -3388,7 +3440,7 @@ PM 的職責之一,是替團隊擋下看似立意良善、卻會打斷專注力�
 
 ---
 
-### Q126. `res-126` — 單選題
+### Q128. `res-126` — 單選題
 
 **題目 ID**: `res-126`
 
@@ -3412,7 +3464,7 @@ PM 的職責之一,是替團隊擋下看似立意良善、卻會打斷專注力�
 
 ---
 
-### Q127. `res-127` — 單選題
+### Q129. `res-127` — 單選題
 
 **題目 ID**: `res-127`
 
@@ -3436,7 +3488,7 @@ PM 的職責之一,是替團隊擋下看似立意良善、卻會打斷專注力�
 
 ---
 
-### Q128. `res-128` — 單選題
+### Q130. `res-128` — 單選題
 
 **題目 ID**: `res-128`
 
@@ -3460,7 +3512,7 @@ PM 的職責之一,是替團隊擋下看似立意良善、卻會打斷專注力�
 
 ---
 
-### Q129. `res-129` — 單選題
+### Q131. `res-129` — 單選題
 
 **題目 ID**: `res-129`
 
@@ -3502,7 +3554,7 @@ By the fourth sprint, the project manager noticed that developers had stopped pr
 
 ---
 
-### Q130. `res-130` — 單選題
+### Q132. `res-130` — 單選題
 
 **題目 ID**: `res-130`
 
@@ -3543,7 +3595,7 @@ By the fourth sprint, the project manager noticed that developers had stopped pr
 
 ---
 
-### Q131. `res-131` — 單選題
+### Q133. `res-131` — 單選題
 
 **題目 ID**: `res-131`
 
@@ -3585,7 +3637,7 @@ By the fourth sprint, the project manager noticed that developers had stopped pr
 
 ---
 
-### Q132. `res-132` — 單選題
+### Q134. `res-132` — 單選題
 
 **題目 ID**: `res-132`
 
@@ -3627,7 +3679,7 @@ By the fourth sprint, the project manager noticed that developers had stopped pr
 
 ---
 
-### Q133. `res-133` — 單選題
+### Q135. `res-133` — 單選題
 
 **題目 ID**: `res-133`
 
@@ -3669,7 +3721,7 @@ By the fourth sprint, the project manager noticed that developers had stopped pr
 
 ---
 
-### Q134. `res-134` — 下拉選單題
+### Q136. `res-134` — 下拉選單題
 
 **題目 ID**: `res-134`
 
@@ -3717,7 +3769,7 @@ By the fourth sprint, the project manager noticed that developers had stopped pr
 
 ---
 
-### Q135. `res-135` — 單選題
+### Q137. `res-135` — 單選題
 
 **題目 ID**: `res-135`
 
@@ -3743,7 +3795,7 @@ By the fourth sprint, the project manager noticed that developers had stopped pr
 
 ---
 
-### Q136. `res-136` — 單選題
+### Q138. `res-136` — 單選題
 
 **題目 ID**: `res-136`
 
@@ -3769,7 +3821,7 @@ By the fourth sprint, the project manager noticed that developers had stopped pr
 
 ---
 
-### Q137. `res-137` — 單選題
+### Q139. `res-137` — 單選題
 
 **題目 ID**: `res-137`
 
@@ -3795,7 +3847,7 @@ By the fourth sprint, the project manager noticed that developers had stopped pr
 
 ---
 
-### Q138. `res-138` — 單選題
+### Q140. `res-138` — 單選題
 
 **題目 ID**: `res-138`
 
@@ -3821,7 +3873,7 @@ By the fourth sprint, the project manager noticed that developers had stopped pr
 
 ---
 
-### Q139. `res-139` — 單選題
+### Q141. `res-139` — 單選題
 
 **題目 ID**: `res-139`
 
@@ -3847,7 +3899,7 @@ By the fourth sprint, the project manager noticed that developers had stopped pr
 
 ---
 
-### Q140. `res-140` — 單選題
+### Q142. `res-140` — 單選題
 
 **題目 ID**: `res-140`
 
@@ -3873,7 +3925,7 @@ By the fourth sprint, the project manager noticed that developers had stopped pr
 
 ---
 
-### Q141. `res-141` — 單選題
+### Q143. `res-141` — 單選題
 
 **題目 ID**: `res-141`
 
@@ -3899,7 +3951,7 @@ RACI 責任矩陣會明確標示出每項交付項目由誰負責執行、由誰
 
 ---
 
-### Q142. `res-142` — 單選題
+### Q144. `res-142` — 單選題
 
 **題目 ID**: `res-142`
 
@@ -3925,7 +3977,7 @@ RACI 責任矩陣會明確標示出每項交付項目由誰負責執行、由誰
 
 ---
 
-### Q143. `res-143` — 拖拉配對題
+### Q145. `res-143` — 拖拉配對題
 
 **題目 ID**: `res-143`
 
@@ -3963,7 +4015,7 @@ RACI 責任矩陣會明確標示出每項交付項目由誰負責執行、由誰
 
 ---
 
-### Q144. `res-144` — 單選題
+### Q146. `res-144` — 單選題
 
 **題目 ID**: `res-144`
 
@@ -3989,7 +4041,7 @@ RACI 責任矩陣會明確標示出每項交付項目由誰負責執行、由誰
 
 ---
 
-### Q145. `res-145` — 單選題
+### Q147. `res-145` — 單選題
 
 **題目 ID**: `res-145`
 
@@ -4015,7 +4067,7 @@ RACI 責任矩陣會明確標示出每項交付項目由誰負責執行、由誰
 
 ---
 
-### Q146. `res-146` — 單選題
+### Q148. `res-146` — 單選題
 
 **題目 ID**: `res-146`
 
@@ -4041,7 +4093,7 @@ RACI 責任矩陣會明確標示出每項交付項目由誰負責執行、由誰
 
 ---
 
-### Q147. `res-147` — 單選題
+### Q149. `res-147` — 單選題
 
 **題目 ID**: `res-147`
 
@@ -4067,7 +4119,7 @@ RACI 責任矩陣會明確標示出每項交付項目由誰負責執行、由誰
 
 ---
 
-### Q148. `res-148` — 單選題
+### Q150. `res-148` — 單選題
 
 **題目 ID**: `res-148`
 
@@ -4093,7 +4145,7 @@ RACI 責任矩陣會明確標示出每項交付項目由誰負責執行、由誰
 
 ---
 
-### Q149. `res-149` — 單選題
+### Q151. `res-149` — 單選題
 
 **題目 ID**: `res-149`
 
@@ -4119,7 +4171,7 @@ RACI 責任矩陣能明確標示出材料替換核准這件事,由誰負責執�
 
 ---
 
-### Q150. `res-150` — 單選題
+### Q152. `res-150` — 單選題
 
 **題目 ID**: `res-150`
 
@@ -4145,7 +4197,7 @@ RACI 責任矩陣能明確標示出材料替換核准這件事,由誰負責執�
 
 ---
 
-### Q151. `res-151` — 單選題
+### Q153. `res-151` — 單選題
 
 **題目 ID**: `res-151`
 
@@ -4171,7 +4223,7 @@ RACI 責任矩陣能明確標示出材料替換核准這件事,由誰負責執�
 
 ---
 
-### Q152. `res-152` — 多選題
+### Q154. `res-152` — 多選題
 
 **題目 ID**: `res-152`
 
@@ -4195,7 +4247,7 @@ RACI 責任矩陣能明確標示出材料替換核准這件事,由誰負責執�
 
 ---
 
-### Q153. `res-153` — 單選題
+### Q155. `res-153` — 單選題
 
 **題目 ID**: `res-153`
 
@@ -4221,7 +4273,7 @@ RACI 責任矩陣能明確標示出材料替換核准這件事,由誰負責執�
 
 ---
 
-### Q154. `res-154` — 單選題
+### Q156. `res-154` — 單選題
 
 **題目 ID**: `res-154`
 
@@ -4247,7 +4299,7 @@ RACI 責任矩陣能明確標示出材料替換核准這件事,由誰負責執�
 
 ---
 
-### Q155. `res-155` — 多選題
+### Q157. `res-155` — 多選題
 
 **題目 ID**: `res-155`
 
@@ -4273,7 +4325,7 @@ RACI 責任矩陣能明確標示出材料替換核准這件事,由誰負責執�
 
 ---
 
-### Q156. `res-156` — 單選題
+### Q158. `res-156` — 單選題
 
 **題目 ID**: `res-156`
 
@@ -4299,7 +4351,7 @@ RACI 責任矩陣能明確標示出缺陷重新測試這項工作,由誰負責�
 
 ---
 
-### Q157. `res-157` — 單選題
+### Q159. `res-157` — 單選題
 
 **題目 ID**: `res-157`
 
@@ -4325,7 +4377,7 @@ RACI 責任矩陣能明確標示出缺陷重新測試這項工作,由誰負責�
 
 ---
 
-### Q158. `res-158` — 拖拉配對題
+### Q160. `res-158` — 拖拉配對題
 
 **題目 ID**: `res-158`
 
@@ -4360,5 +4412,125 @@ RACI 責任矩陣能明確標示出缺陷重新測試這項工作,由誰負責�
 **詳解**
 
 情境一屬於形成期,因為新成員剛加入,彼此還在謹慎試探,對工作範圍不熟悉,仰賴專案經理提供方向。情境二屬於風暴期,因為成員針對關鍵指標的選擇出現公開衝突,彼此質疑對方的做法,而這股緊張已經實際影響到協作,這正是風暴期在磨合不同觀點時常見的特徵。情境三屬於規範期,因為團隊已經對資料規範等工作方式建立共識,能坦誠溝通、以建設性方式處理歧見,顯示互信正在成形。情境四屬於表現期,因為團隊能在極少監督下穩定產出、自行解決問題,並持續專注在業務成果上,這是團隊發展最成熟的階段。
+
+---
+
+### Q161. `res-159` — 單選題
+
+**題目 ID**: `res-159`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is leading an intricate biotechnology research project characterized by significant ambiguity and unpredictability. A suggestion has been made to introduce a system to gauge the quality of the project outputs effectively. What hybrid techniques should the project manager employ to ensure quality assurance?
+- 中: 專案經理正在領導一個高度模糊且難以預測的複雜生物科技研究專案。有人建議導入一套系統來有效衡量專案產出的品質。專案經理應採用哪些混合式技術來確保品質保證(Quality Assurance)?
+
+**選項**
+
+- (a) Combine weekly sprints with quarterly external audits to validate project standards / 結合每週衝刺與每季外部稽核來驗證專案標準
+- (b) Merge traditional milestone reviews with agile sprint demonstrations / 合併傳統里程碑審查與敏捷衝刺展示
+- (c) Adopt pair programming and customer feedback sessions / 採用結對程式設計(Pair Programming)與客戶回饋會議 ✅ **正解**
+- (d) Integrate continuous integration tools with formal quality control checkpoints / 整合持續整合(CI)工具與正式的品質控制檢查點
+
+**詳解**
+
+在高模糊度與不可預測的研發環境中,結對程式設計(Pair Programming)能提供即時的同行審查與品質預防,結合定期的客戶回饋會議(Customer Feedback Sessions)則能確保產出持續符合利害關係人的期望,兩者合力達成持續性的品質保證,而非僅止於事後檢驗。(A)(B)(D) 主要聚焦在稽核、驗證、正式檢查點或里程碑審查,多屬於品質控制(Quality Control)範疇,較難在高度不確定且快速變動的環境中做到持續性的品質保證。
+
+---
+
+### Q162. `res-160` — 單選題
+
+**題目 ID**: `res-160`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is leading a team on a critical marketing campaign for a major product launch. After unexpected last-minute changes, the team worked overtime to meet tight deadlines. The project sponsor has allocated a monetary award to recognize the team's efforts. Based on project management best practices, what is the most appropriate action for the project manager?
+- 中: 專案經理正帶領團隊執行一項重大產品上市的關鍵行銷活動。在意外的臨時變更後,團隊加班趕上了緊迫的期限。專案贊助人撥出一筆獎金以表揚團隊的努力。依據專案管理最佳實務,專案經理最適當的做法是什麼?
+
+**選項**
+
+- (a) Distribute the entire award to the team member who worked the longest hours. / 把全部獎金發給工時最長的那位團隊成員
+- (b) Organize a team-building retreat to enhance morale for future projects. / 舉辦團隊建立出遊活動,提振未來專案的士氣
+- (c) Use the award to fund professional development opportunities that will benefit the team in future projects. / 將獎金用於資助團隊的專業發展機會,嘉惠未來的專案 ✅ **正解**
+- (d) Decide how to distribute the award based on informal feedback from the team. / 依據團隊的非正式回饋來決定獎金分配方式
+
+**詳解**
+
+將獎金投入於團隊的專業成長與技能培訓(Professional Development),能建立長遠價值,兼顧激勵並提升團隊未來的專案交付能力。(A) 以加班時長獎勵單一個人,會引發不公平感並可能助長「拖長工時」的負面行為;(B) 休閒性質的團建雖能放鬆,但相比投資專業能力提升,缺乏長期實質效益;(D) 獎勵機制應具備透明、公正與客觀標準,不應依賴非正式意見決定。
+
+---
+
+### Q163. `res-161` — 單選題
+
+**題目 ID**: `res-161`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is coordinating a new environmental research project involving experts from various continents. The geographical spread of the team makes regular face-to-face interaction impossible. What should the project manager do to ensure seamless communication and collaboration across the team?
+- 中: 專案經理正在協調一項新的環境研究專案,團隊成員來自不同大陸的專家。團隊的地理分散使得定期面對面互動不可行。專案經理應該怎麼做,以確保團隊之間的溝通與協作順暢無阻?
+
+**選項**
+
+- (a) Adopt an advanced project management and communication software / 採用先進的專案管理與溝通協作軟體 ✅ **正解**
+- (b) Set up a rotational schedule for team members to adjust their availability for occasional synchronous meetings / 建立輪替時程表,讓團隊成員調整可用時間以配合偶爾的同步會議
+- (c) Create a cultural exchange program within the team to facilitate better understanding and cooperation / 在團隊內建立文化交流計畫,促進彼此更好的理解與合作
+- (d) Establish a system of regular email updates and reports to keep all team members informed / 建立定期電子郵件更新與報告制度,讓所有團隊成員隨時掌握資訊
+
+**詳解**
+
+跨越不同大陸的全球虛擬團隊面臨顯著時區差異與無法實體見面的問題,採用先進的專案管理與協作通訊軟體(支援非同步協作與即時視訊溝通),能有效打破地理阻礙,確保團隊順暢協同,兼顧同步與非同步互動,適應成員的不同時區而無需對個人時間表進行劇烈更動。(B)(C)(D) 各自只解決了溝通問題的一部分(排程配合、文化理解、單向資訊同步),不如導入整合性協作工具來得全面有效。
+
+---
+
+### Q164. `res-162` — 單選題
+
+**題目 ID**: `res-162`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: In the midst of executing a high-stakes software development project, several unexpected software bugs and team miscommunications have led to project delays, causing tension within the team and concern from the project sponsor about meeting key deliverables on time. What should the project manager do to alleviate these issues and steer the project back on track?
+- 中: 在執行一項高風險軟體開發專案的過程中,幾個未預期的軟體錯誤與團隊溝通不良,已導致專案延誤,造成團隊內部緊張,也讓專案贊助人擔心關鍵交付物能否準時完成。專案經理應該怎麼做,以緩解這些問題並讓專案重回正軌?
+
+**選項**
+
+- (a) Conduct team-building events focused on enhancing team collaboration and open communication / 舉辦聚焦於強化團隊協作與開放溝通的團隊建立活動 ✅ **正解**
+- (b) Host a problem-solving workshop where team members can collaboratively identify solutions to technical issues / 舉辦解決問題工作坊,讓團隊成員共同找出技術問題的解決方案
+- (c) Increase the frequency of progress review meetings to closely monitor team performance and progress / 提高進度審查會議的頻率,密切監控團隊績效與進度
+- (d) Arrange for a professional mediator to address and resolve interpersonal conflicts within the team / 安排專業調解人,處理並解決團隊內部的人際衝突
+
+**詳解**
+
+題目指明專案延誤與團隊緊張的根源在於「團隊溝通不良」與人際信任問題。透過聚焦於強化協作與開放溝通的團隊建立活動,能從根本改善溝通氛圍、修復信任,進而使團隊能攜手解決後續的技術難題,這項積極的策略旨在重建團隊成員之間的信任並改善溝通途徑,這對於解決專案所面臨的技術和人際挑戰至關重要。(B) 直接處理技術問題,但未觸及根源的溝通與信任議題;(C) 增加審查會議頻率可能反而加重團隊壓力,無助於修復信任;(D) 引入專業調解人屬於較重、較正式的手段,在問題根源是溝通不良而非明顯的人際衝突時,團隊建立活動是更對症下藥的第一步。
+
+---
+
+### Q165. `res-163` — 單選題
+
+**題目 ID**: `res-163`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Resources` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During a key phase of an infrastructure project, the project manager notices a significant slowdown in decision-making due to their need to approve numerous minor project adjustments. This has started to impact the project's momentum as the project manager's schedule is dominated by stakeholder meetings. What initiative should the project manager introduce to improve the decision-making process?
+- 中: 在一項基礎建設專案的關鍵階段,專案經理注意到,因為自己需要核准大量微小的專案調整,決策速度明顯變慢。由於專案經理的行程被利害關係人會議占滿,這已開始影響專案的推進動能。專案經理應導入什麼做法來改善決策流程?
+
+**選項**
+
+- (a) Organize weekly roundup sessions to address all accumulated decision needs in one go / 安排每週彙整會議,一次處理所有累積的決策需求
+- (b) Implement a critical path analysis to pinpoint decision-making as the primary project delay / 實施要徑分析,找出決策本身是否是專案延誤的主因
+- (c) Assign decision-making responsibilities for specific areas to trusted project leads / 將特定領域的決策責任,授權給值得信賴的專案主管 ✅ **正解**
+- (d) Make all decision to ensure it can be done in a timely manner / 所有決策仍由自己一手包辦,以確保能及時完成
+
+**詳解**
+
+專案經理因為需要審批過多瑣碎的微調而成為決策瓶頸時,應採取僕人式領導與授權賦能原則,將特定領域的日常決策責任授權給值得信賴的專案主管,以消除決策延誤並維持專案推進動能,此策略分散了決策負擔,能更快解決日常專案挑戰,同時專案經理可專注於更具戰略性的議題。(A) 每週才彙整處理一次,無法即時解決日常瑣碎決策造成的延誤;(B) 要徑分析用於分析時程關鍵路徑,並非解決「PM本人成為決策瓶頸」這個管理問題的對症工具;(D) 所有決策仍集中在PM一人身上,正是問題本身,不是解方。
 
 ---

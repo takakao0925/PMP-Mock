@@ -1,6 +1,6 @@
 # Stakeholders — PMP 題庫
 
-> 共 132 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 137 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `mr-001` — 多選題
 
@@ -163,7 +163,7 @@ PM應先找出利害關係人態度轉變的根本原因(可能是溝通不足�
 
 **詳解**
 
-Engagement程度依序為Unaware→Resistant→Neutral→Supportive→Leading。已知專案但反對屬於Resistant;要往Supportive移動,應先設法讓其轉為中立(Neutral)再逐步提升,而非期望其跳躍式直接變為支持。
+參與程度(Engagement)依序為不知情(Unaware)→抗拒(Resistant)→中立(Neutral)→支持(Supportive)→主導(Leading)。已知專案但反對屬於抗拒(Resistant);要往支持(Supportive)移動,應先設法讓其轉為中立(Neutral)再逐步提升,而非期望其跳躍式直接變為支持。
 
 ---
 
@@ -3576,5 +3576,125 @@ Quiet Writing(安靜書寫)讓每人先各自花數分鐘獨立寫下想法,強�
 風險長不再出席會議,不代表他在核心系統遷移這類高風險專案中的把關角色可以被略過。沉默不等於默許,專案經理應該先嘗試不同的管道重新建立聯繫,了解對方無法參與背後的原因,而不是直接照發起人的建議繼續推進,也不是急著升級或繞過對方。
 
 其他選項錯誤:直接推進並只在議題日誌記錄未回應情況,等於把一個活躍的參與缺口當成可以接受的既定風險處理掉,在核心系統遷移這類需要風險把關的專案中風險過高。直接呈報董事會,在還沒嘗試其他管道重新接觸之前就升級,為時過早。調整計畫移除需要風險長核准的步驟,並非專案經理能單方面決定的事,也可能讓專案的風險控管出現漏洞。
+
+---
+
+### Q133. `stk-132` — 單選題
+
+**題目 ID**: `stk-132`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is planning the construction of a new public library. The community and project stakeholders are having difficulty agreeing on the key features to be included in the final design. What should the project manager do?
+- 中: 專案經理正在規劃一座新公共圖書館的建造。社區與專案利害關係人難以就最終設計應納入的關鍵功能達成共識。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Facilitate a workshop to gather input from all stakeholders / 召開工作坊,蒐集所有利害關係人的意見
+- (b) Define the differences between essential and non-essential features / 定義必要與非必要功能之間的差異
+- (c) Involve the design consultants to mediate stakeholder discussions / 讓設計顧問介入,居中調解利害關係人的討論
+- (d) Identify the root cause of the stakeholders' inability to agree on the project scope / 找出利害關係人對專案範疇無法達成共識的根本原因 ✅ **正解**
+
+**詳解**
+
+當利害關係人與社區對核心範圍無法達成共識時,專案經理首要任務是找出「為何無法達成共識」的根本原因(Root Cause)。表面上的意見不合往往源自深層的利益衝突、溝通不良、未被說明的顧慮或對專案目標的理解不同,唯有先釐清根本原因,後續的引導或解決方案才會有效。(A) 在尚未了解爭執根源前就召開工作坊,容易流於各持己見的重複爭吵;(B) 根本原因未明前就直接做功能取捨,容易引發被割捨方的強烈反彈;(C) 專案經理應主導釐清爭議與促進共識,而非過早依賴外部顧問調解。
+
+---
+
+### Q134. `stk-133` — 單選題
+
+**題目 ID**: `stk-133`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: A project manager is overseeing the upgrade of an old manufacturing system to a new automated solution, aligning with the organization's operational process changes. The project charter is approved, and the PMO has provided templates for all new projects. What should the project manager prioritize?
+- 中: 專案經理正監督將舊有製造系統升級為新自動化方案,此舉配合組織的營運流程變革。專案章程已核准,PMO也已提供所有新專案適用的範本。專案經理應優先處理什麼?
+
+**選項**
+
+- (a) Align the project plan with the organization's strategic goals, working closely with senior management. / 與高階管理層密切合作,將專案計畫與組織策略目標對齊
+- (b) Develop a training and communications management plan, ensuring collaboration with the team. / 擬定培訓與溝通管理計畫,並確保與團隊協作 ✅ **正解**
+- (c) Create a detailed budget and schedule regular reviews with the finance department. / 編列詳細預算,並與財務部門安排定期審查
+- (d) Coordinate with operational departments to minimize disruption during the upgrade. / 與營運部門協調,將升級期間的干擾降到最低
+
+**詳解**
+
+專案涉及將舊製造系統升級為自動化並伴隨「營運流程變革」,成功的關鍵之一在於組織變革管理與人員採納度。優先建立培訓計畫(使人員具備操作新系統的能力)與溝通管理計畫(消除未知恐懼、降低抗拒感),能確保新方案順利過渡並落地運作。(A) 專案章程已獲核准,代表高層級的戰略對齊在啟動階段已大致完成;(C) 僅聚焦財務面,未解決營運流程劇變對第一線人員的衝擊;(D) 減少干擾固然重要,但若缺乏事先溝通與培訓,新系統上線後仍將面臨強烈的使用阻力。
+
+---
+
+### Q135. `stk-134` — 單選題
+
+**題目 ID**: `stk-134`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: During a complex software development project, the project manager notes that several technical and operational challenges are arising due to conflicting requirements from various stakeholders. What is the most effective strategy for the project manager to facilitate project advancement?
+- 中: 在一個複雜的軟體開發專案中,專案經理注意到因各利害關係人的需求相互衝突,而衍生出多項技術與營運上的挑戰。專案經理要推動專案前進,最有效的策略是什麼?
+
+**選項**
+
+- (a) Initiate a stakeholder analysis to better understand conflicting interests and address them systematically / 發起利害關係人分析,更深入了解衝突的利益並有系統地處理
+- (b) Assign team leaders to negotiate solutions for each conflicting requirement directly with stakeholders / 指派團隊主管,直接與利害關係人針對每項衝突需求協商解決方案
+- (c) Update the project communication plan to include more frequent stakeholder engagement sessions / 更新專案溝通計畫,納入更頻繁的利害關係人參與會議
+- (d) Directly negotiate and reconcile the conflicting stakeholder requirements to streamline project execution / 由專案經理親自出面協商並調解相互衝突的利害關係人需求,以利專案順利執行 ✅ **正解**
+
+**詳解**
+
+當專案已在執行階段,且因各方需求衝突導致技術與營運挑戰卡關時,專案經理最有效的推進行動是發揮談判與整合能力,直接居中協商並調解相互衝突的利害關係人需求,迅速化解分歧以確保專案執行順暢。(A) 利害關係人分析通常在專案前期已完成,此刻衝突已浮現,單純「再分析一次」不如直接介入協商來得有效;(B) 將協商責任下放給團隊主管,可能因權責不足難以真正化解高層級的需求衝突;(C) 增加溝通頻率有助長期關係,但無法直接解決當下已存在的具體需求衝突。
+
+---
+
+### Q136. `stk-135` — 單選題
+
+**題目 ID**: `stk-135`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: At the outset of an initiative to introduce smart city technologies, it's discovered that the input from a crucial environmental expert was not included during the preliminary discussions on the project's environmental impact assessments. What document is most likely in need of revision due to this omission?
+- 中: 在導入智慧城市技術的專案初期,發現一位關鍵環境專家的意見並未被納入專案環境影響評估的初步討論中。因為這項疏漏,最可能需要修訂的文件是什麼?
+
+**選項**
+
+- (a) Stakeholder Register / 利害關係人登記冊 ✅ **正解**
+- (b) Stakeholder Engagement Plan / 利害關係人參與計畫
+- (c) Project Schedule / 專案時程表
+- (d) Communication Plan / 溝通計畫
+
+**詳解**
+
+題目指出在專案初期,一名關鍵的環境專家並未被納入專案環境影響評估的初步討論中,這代表該利害關係人在專案一開始時被遺漏識別。利害關係人登記冊是記錄所有專案利害關係人基本資訊、評估其影響與角色的首要文件,因此發生此項疏漏時,最需要首先進行修訂與補全的文件即為利害關係人登記冊。(B) 參與計畫是建立在已識別的利害關係人清單之上,應先補齊登記冊;(C)(D) 時程表與溝通計畫是後續受影響的文件,但都不是直接因「漏未識別利害關係人」而首先需要修訂的文件。
+
+---
+
+### Q137. `stk-136` — 單選題
+
+**題目 ID**: `stk-136`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Stakeholders` ｜ ECO domain: `People`
+
+**題幹**
+
+- EN: For the implementation of a sophisticated security software across multiple departments, the selected external provider asserts that their solution is plug-and-play, negating the need for any in-depth involvement or validation activities from the organization. The project manager, aiming to ensure the solution's compatibility and effectiveness, decides to confirm these assertions with the organization's stakeholders. What initial step should the project manager take to guarantee alignment and meet organizational standards?
+- 中: 為了在多個部門導入一套複雜的資安軟體,獲選的外部供應商宣稱其方案為「隨插即用」,不需要組織進行任何深度參與或驗證活動。專案經理為了確保此方案的相容性與有效性,決定向組織的利害關係人確認這些說法。專案經理應採取什麼第一步,以確保一致並符合組織標準?
+
+**選項**
+
+- (a) Convene a comprehensive briefing with key stakeholders to consolidate understanding and set unified expectations for the project / 召集關鍵利害關係人舉行通盤簡報會議,統一理解並設定一致的專案預期 ✅ **正解**
+- (b) Draft a contingency plan to address potential gaps that might emerge post-implementation / 擬定應變計畫,因應導入後可能出現的缺口
+- (c) Propose a preliminary phase of collaboration between the vendor's technical team and the organization's IT department / 提議由供應商技術團隊與組織IT部門先展開初步合作階段
+- (d) Send out a survey to department heads to collect initial impressions and concerns regarding the vendor's claims / 向各部門主管發送問卷,蒐集對供應商說法的初步印象與疑慮
+
+**詳解**
+
+當外部廠商宣稱方案是「隨插即用」而無需組織深度參與,但專案經理需要確保軟體與各部門的相容性及效益時,首要行動是召集關鍵利害關係人召開通盤簡報會議,統一大家對專案的理解並設定一致的預期,建立共同把關的標準。(B) 應變計畫是在了解實際落差後才擬定的後續措施;(C) 供應商與IT部門的技術合作雖有幫助,但無法取代先與利害關係人對齊期望這一步;(D) 問卷調查屬於片段蒐集意見的方式,不如召開通盤簡報會議來得直接且完整。
 
 ---

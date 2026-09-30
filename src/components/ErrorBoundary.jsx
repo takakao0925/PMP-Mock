@@ -13,7 +13,15 @@ export default class ErrorBoundary extends Component {
 
   handleReset = () => {
     this.setState({ error: null })
-    window.location.assign('/')
+    // 跟 main.jsx 的路由選擇邏輯一致:BASE_URL 是絕對路徑(dev/GitHub Pages)才能直接
+    // assign 回去;build:local 用 HashRouter,file:// 底下不能 assign('/')(會被當成
+    // 不安全的跨來源載入擋下),改成清空 hash 後原地重新整理即可回到首頁。
+    if (import.meta.env.BASE_URL.startsWith('/')) {
+      window.location.assign(import.meta.env.BASE_URL)
+    } else {
+      window.location.hash = '/'
+      window.location.reload()
+    }
   }
 
   render() {

@@ -1,6 +1,6 @@
 # Schedule — PMP 題庫
 
-> 共 123 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 127 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `match-001` — 拖拉配對題
 
@@ -3423,5 +3423,102 @@ FDD 適合大型、複雜系統,透過事前建立整體模型與依功能規劃
 資源平滑是在活動「可用的浮時範圍內」調整其時程,以消除資源超額分配,同時不影響要徑與完工日期。支線劇情場景並非要徑活動,擁有五天浮時,足以將它延後拍攝以避開與高潮場景的攝影師衝突;由於殺青期限已因發行檔期而固定,能夠不影響完工日的技術優於可能延後完工日的技術,因此正解為 (c)。
 
 (a) 趕工是透過增加資源來縮短要徑活動工期,用於處理時程壓縮,並非用來解決同一位攝影師被重複指派所造成的資源衝突,用錯了問題性質。(b) 快速跟進是讓原本循序進行的活動重疊執行以壓縮時程,同樣是時程壓縮技術,無法解決資源衝突,而且本題兩場拍攝都需要同一位首席攝影師,分組同時拍攝並不能真正化解衝突。(d) 資源撫平同樣是為了解決資源超額分配而調整活動時程,但它有可能因此延後專案整體完工日;本題已有浮時可供運用,沒有必要使用可能延長工期的資源撫平。
+
+---
+
+### Q124. `sch-122` — 單選題
+
+**題目 ID**: `sch-122`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is overseeing a software development project where the team has prioritized creating a new user authentication system in the current sprint. Midway through the sprint, two developers express a desire to divert their efforts to optimizing database queries, anticipating future performance bottlenecks. What should the project manager do next?
+- 中: 專案經理正在監督一個軟體開發專案,團隊在本次衝刺(Sprint)中已將建立新的使用者驗證系統列為優先事項。衝刺進行到一半時,兩位開發人員表示想把心力轉向優化資料庫查詢,以預防未來可能出現的效能瓶頸。專案經理接下來應該怎麼做?
+
+**選項**
+
+- (a) Allocate time for the developers to present their optimization proposal at the next sprint planning meeting / 安排時間讓開發人員在下一次衝刺規劃會議上提出其優化提案
+- (b) Reinforce the importance of adhering to the sprint's primary goal of completing the authentication system / 強調堅守本次衝刺主要目標(完成驗證系統)的重要性 ✅ **正解**
+- (c) Request a special session to assess the potential impact of database optimization on future sprints / 要求召開特別會議,評估資料庫優化對未來衝刺的潛在影響
+- (d) Support the developers' initiative by allocating a small portion of their time to start preliminary work on the database / 支持開發人員的提議,分配一小部分時間讓他們先展開資料庫的初步工作
+
+**詳解**
+
+敏捷的核心原則之一是專注(Focus)與承諾(Commitment)。Sprint Goal(衝刺目標)一旦在Sprint啟動時確認,就應受到保護,不應在Sprint進行途中因預期中的優化而隨意分心轉向非當期承諾的工作,PM應提醒團隊專注達成既定目標。(A) 把想法放入待辦清單並於後續規劃提出雖合理,但本題問的是「當下該怎麼做」,首要動作是保護正在進行的Sprint目標;(C)(D) 在Sprint進行中分散精力或另開會議評估未來事項,會直接干擾並危及當前Sprint Goal的交付。
+
+---
+
+### Q125. `sch-123` — 多選題
+
+**題目 ID**: `sch-123`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager is preparing for a sprint planning session for a new feature in a healthcare management system. This meeting aims to determine the amount of work for the upcoming sprint. Which two pieces of information are essential for the project manager to ensure the meeting is productive and effective? (Choose two.)
+- 中: 專案經理正在為醫療管理系統的新功能準備一場衝刺規劃(Sprint Planning)會議,目的是決定下一個衝刺的工作量。下列哪兩項資訊,是確保這場會議有生產力且有效所必需的?(選兩項)
+
+**選項**
+
+- (a) Current project phase timeline / 目前的專案階段時程表
+- (b) Product Market Place Goal / 產品市場目標
+- (c) Updated risk assessment / 最新的風險評估
+- (d) Detailed product backlog / 詳細的產品待辦清單 ✅ **正解**
+- (e) Team performance metrics / 團隊績效指標(產能數據) ✅ **正解**
+
+**詳解**
+
+在敏捷的Sprint Planning會議中,團隊需要知道「要做什麼」(即已梳理且具備驗收標準的Detailed Product Backlog)以及「團隊能做多少」(即過去的Team performance metrics/Velocity團隊產能指標),兩者結合才能估算並承諾合理的當期工作量。(A) 敏捷專案以Sprint為時間盒迭代推進,非傳統階段性瀑布時程表;(B) 屬於高層級商業目標,在規劃會前已被拆解為Backlog條目,非當下估算工作量的必備即時數據;(C) 日常風險已體現在Backlog與工作優先級中,並非決定Sprint容量的核心必備輸入。
+
+---
+
+### Q126. `sch-124` — 單選題
+
+**題目 ID**: `sch-124`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: During the critical phase of a green energy plant construction project, it becomes evident that the project may not adhere to the initially planned schedule. This situation arises even as the project team has been performing efficiently, marking the completion of several important phases. What is the first course of action for the project manager to address the looming schedule delay?
+- 中: 在一項綠能發電廠建造專案的關鍵階段,逐漸明朗顯示專案可能無法依循最初規劃的時程進行。即便專案團隊的表現一直很有效率,也已完成幾個重要階段,仍出現此情況。面對即將到來的時程延誤,專案經理的第一步行動應該是什麼?
+
+**選項**
+
+- (a) Inform the senior management and key stakeholders about the potential delay, suggesting a reassessment of the project timeline / 告知高階管理層與關鍵利害關係人潛在的延誤,並建議重新評估專案時程
+- (b) Summarize the project's achievements to date and the expected impact of the delay in a detailed briefing for the project board / 彙整專案至今的成果與延誤的預期影響,向專案董事會做詳細簡報
+- (c) Revise the project timeline with lead engineers to pinpoint specific tasks that are causing the delay and their potential remedies / 與主任工程師一同修訂專案時程,找出導致延誤的具體任務及其可能的補救方案
+- (d) Review the current project timeline with the entire project team / 與全體專案團隊一同檢視目前的專案時程 ✅ **正解**
+
+**詳解**
+
+發現時程即將延誤時,專案經理首要任務是與全體專案團隊一起檢視現行時程表,透明公開現況並凝聚團隊智慧共同尋求應對方案,而非直接向上通報或單獨私下修改計畫,這確保所有團隊成員都能掌握最新的專案狀態,這對於保持透明度與實現集體解決問題至關重要。(A)(B) 在尚未與團隊一起確認延誤的實際狀況與原因前,就先向上通報或簡報,可能傳遞不夠精確的資訊;(C) 只找主任工程師修訂時程,排除了其他團隊成員的參與,不利於凝聚全體共識。
+
+---
+
+### Q127. `sch-125` — 單選題
+
+**題目 ID**: `sch-125`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Schedule` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: On an infrastructure project to upgrade city water systems, the project manager is struggling to finalize the project schedule due to unpredictable regulatory review times and potential delays in securing necessary equipment. What scheduling technique should the project manager adopt to manage the planning effectively under these conditions?
+- 中: 在一項升級城市供水系統的基礎建設專案中,專案經理因法規審查時間難以預測、以及採購必要設備可能延誤,而難以定案專案時程。在這些條件下,專案經理應採用什麼排程技術,才能有效管理規劃?
+
+**選項**
+
+- (a) Rolling wave planning / 滾動式規劃(Rolling Wave Planning) ✅ **正解**
+- (b) Backward pass analysis / 反向計算法(Backward Pass Analysis)
+- (c) Dependency structuring / 相依關係結構化
+- (d) Lead and lag optimization / 提前量與落後量(Lead/Lag)最佳化
+
+**詳解**
+
+面對難以預測的法規審查時間與設備採購延誤等高度不確定性因素,專案經理應採用滾動式規劃(一種漸進明細的規劃技術),先將近期的工作詳細規劃妥當,同時對較後期階段僅做較粗略的規劃,待未來資訊更加清晰、不確定性降低時,再逐步細化後續的時程。(B)(C)(D) 都是既有時程確定後用於分析或優化時程細節的技術,無法處理「連近期規劃本身都難以定案」這種高度不確定性的根本問題。
 
 ---

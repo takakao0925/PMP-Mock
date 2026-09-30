@@ -1,6 +1,6 @@
 # Risk — PMP 題庫
 
-> 共 147 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 149 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `hs-002` — 點擊熱區題
 
@@ -4083,5 +4083,54 @@ Two weeks later, while multiple pile-driving rigs operated simultaneously in the
 **詳解**
 
 目前缺陷率上升的原因還不明朗,可能來自組件本身、供應商品質、產線設定或操作方式等不同面向。在還沒釐清原因之前就採取行動,很可能用錯方法去解決問題。先做根本原因分析,才能確保之後採取的矯正行動真正對症下藥。直接更換供應商組件,等於還沒確認問題出在零件本身就先假設答案,如果根本原因其實是產線設定或製程問題,換零件不會解決問題;單純加強檢驗頻率只是更頻繁地觀察到問題發生,並沒有處理問題發生的原因本身;向廠長回報後被動等待指示,則是把該由專案經理主導的分析工作往後拖延,不必要地延誤了釐清問題的時機。
+
+---
+
+### Q148. `rsk-147` — 單選題
+
+**題目 ID**: `rsk-147`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: A project manager is tasked with launching a new drug product, which requires adherence to stringent health and safety regulations. It's critical for the launch to comply with these regulations to avoid penalties and ensure public safety. What should the project manager do to next to guarantee compliance with these health and safety regulations?
+- 中: 專案經理奉命推出一項新藥品上市,該案須遵守嚴格的健康與安全法規。為避免受罰並確保公共安全,此次上市必須符合這些法規。專案經理接下來應該怎麼做,以確保符合這些健康與安全法規?
+
+**選項**
+
+- (a) Arrange for regular training sessions on regulatory compliance for the project team / 為專案團隊安排定期的法規合規培訓課程
+- (b) Assess and document potential compliance risks related to health and safety regulations / 評估並記錄與健康安全法規相關的潛在合規風險 ✅ **正解**
+- (c) Implement a quality control system to continuously monitor the product against regulatory standards / 建立品質控制系統,持續監控產品是否符合法規標準
+- (d) Organize a consultation with legal experts specializing in regulations to review project alignment / 安排與法規領域的法律專家諮詢,以審查專案是否一致
+
+**詳解**
+
+面對高規範標準的新藥上市專案,專案經理下一步最核心的工作是主動評估並記錄潛在的合規風險,建立結構化的風險管理基礎,以防止遭受罰款並確保公共安全。此做法優先考慮理解與管理風險而非採取被動措施,確保專案團隊能以有結構且有充分依據的方式因應潛在的法規挑戰。(A)(C)(D) 分別是培訓、監控、諮詢等後續或並行措施,但在尚未系統性評估並記錄風險之前,難以確保這些措施對準真正的風險缺口。
+
+---
+
+### Q149. `rsk-148` — 多選題
+
+**題目 ID**: `rsk-148`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Risk` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Ahead of a crucial update meeting, a project manager learns about a potential unforeseen delay in a project segment that involves an external contractor. The full extent of how this will affect the project timeline is not yet known. What two actions should the project manager take before addressing this in the meeting? (Choose two.)
+- 中: 在一場重要的進度更新會議之前,專案經理得知某個涉及外部承包商的專案環節可能出現未預期的延誤。這將如何影響專案時程的全貌目前尚不清楚。在會議上處理這件事之前,專案經理應先採取哪兩項行動?(選兩項)
+
+**選項**
+
+- (a) Liaise with the external contractor to understand the reasons behind the delay / 與外部承包商聯繫,了解延誤背後的原因
+- (b) Perform a detailed assessment to gauge the overall impact of the delay on the project / 進行詳細評估,衡量此延誤對專案的整體影響 ✅ **正解**
+- (c) Delay the discussion until stakeholders notice the delay themselves / 延後討論,等利害關係人自己注意到延誤再說
+- (d) Compare this situation with documented outcomes from similar incidents in other projects / 將此情況與其他專案類似事件的紀錄結果做比較
+- (e) Record the delay in the project risk register and discuss it openly in the stakeholder meeting / 將此延誤記錄在專案風險登錄冊中,並在利害關係人會議上公開討論 ✅ **正解**
+
+**詳解**
+
+面對尚未明朗的潛在承包商延誤,專案經理在向利害關係人會議報告前,應先進行詳細的衝擊評估以釐清對專案的全面影響(B),並將此潛在風險記錄在風險登錄冊中,以便在會議上公開透明地與利害關係人討論(E),這讓專案經理能夠帶著全面的見解與準備好的應對措施出席會議,確保利害關係人充分知情。(A) 與承包商聯繫了解原因固然有幫助,但並非會議前「必須先做」的那兩項關鍵動作之一;(C) 隱瞞延誤、等利害關係人自己發現,違背透明原則且風險極高;(D) 比較其他專案案例屬於參考性質,不是本情境下優先必要的行動。
 
 ---

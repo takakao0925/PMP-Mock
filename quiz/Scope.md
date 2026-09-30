@@ -1,6 +1,6 @@
 # Scope — PMP 題庫
 
-> 共 139 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 145 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `sc-005` — 單選題
 
@@ -3738,5 +3738,149 @@ WBS 的階層結構由上而下依序為:上層是專案本身(僅一個節點)�
 迭代審查會議本來就是為了展示可運作的產品增量、蒐集回饋而存在的既有場合。邀請董事會成員參加,就能用團隊原本工作節奏裡已經存在的活動來滿足他們定期看到實際進度的需求,不需要額外增加團隊的負擔,也能讓董事會直接看到真正可運作的成果而不只是描述。
 
 同意準備額外的書面狀態報告,恰好就是團隊擔心的那種節奏之外的額外工作,而現成的場合本來就足以達到同樣的目的,沒有必要另外新增。告訴董事會要等到整個平台完成才公布進度,會讓敏捷方法原本設計要提供的及早且頻繁的回饋機制整個消失,也不符合董事會的合理期待。請行政助理彙整看板截圖轉發,同樣是用間接的文件形式取代實際運作產品的現場展示,得到的回饋品質會比直接參與審查會議來得薄弱。
+
+---
+
+### Q140. `scp-139` — 單選題
+
+**題目 ID**: `scp-139`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: During the development of a new cloud-based analytics platform, the team has raised concerns about certain product backlog items that are challenging to implement due to technical and resource limitations. What should the project manager recommend for the product owner to do?
+- 中: 在開發新的雲端分析平台過程中,團隊對某些因技術與資源限制而難以實作的產品待辦清單項目提出了疑慮。專案經理應建議產品負責人(PO)怎麼做?
+
+**選項**
+
+- (a) Prioritize and address the impediments based on their impact on the most valuable features of the platform. / 依這些障礙對平台最具價值功能的影響程度,排定優先順序並加以處理 ✅ **正解**
+- (b) Conduct a risk assessment to evaluate how the impediments might affect the project timeline. / 進行風險評估,評估這些障礙可能如何影響專案時程
+- (c) Implement a phased approach to solving the issues, starting with those that impact the current sprint. / 採取分階段方式解決問題,從影響當前衝刺的項目開始
+- (d) Remove the items and add new items / 移除這些項目並加入新的項目
+
+**詳解**
+
+在敏捷環境中,資源與技術受限時,產品負責人應以價值最大化(Value-driven)為導向決定優先順序。評估障礙對平台最具價值功能的影響並依此排序處理,能確保團隊集中火力在最高價值的產出上。(B) 偏向傳統瀑布式的時程評估,敏捷專案更重視圍繞業務價值調整待辦清單;(C) 若受阻項目本身價值不高,花精力解決其技術障礙會浪費資源,應先以整體產品價值排序為準則;(D) 遇到技術或資源瓶頸不應草率直接刪除,可能其中包含不可或缺的核心功能。
+
+---
+
+### Q141. `scp-140` — 單選題
+
+**題目 ID**: `scp-140`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: Throughout a project, it becomes apparent that team members from different departments have differing perspectives on what the final outcome of the project should be. What should the project manager do first?
+- 中: 在專案執行過程中,逐漸發現來自不同部門的團隊成員,對於專案最終應達成的成果抱持不同看法。專案經理應該最先做什麼?
+
+**選項**
+
+- (a) Facilitate a session to revisit and clarify the project's goals with the entire team. / 召開會議,與全體團隊重新檢視並釐清專案目標 ✅ **正解**
+- (b) Meet with the project sponsor to ensure alignment on the project's objectives. / 與專案贊助人會面,確保專案目標一致
+- (c) Make sure the project outcome is aligned with the project charter and scope statement. / 確認專案成果與專案章程及範疇說明書一致
+- (d) Assign the department heads the responsibility of resolving these differences. / 將解決這些分歧的責任交給各部門主管
+
+**詳解**
+
+跨部門團隊成員對最終成果產生歧異時,專案經理作為僕人式領導者與協調者,首要動作是召集全體團隊成員進行引導會議,重新檢視並釐清專案目標,消除認知落差,建立團隊共識。(B) 贊助人端的目標通常已在章程中確立,落差出在執行團隊內部,應先在團隊內部協調;(C) 單方面比對文件無法解決各部門人員心中的分歧,需要面對面引導溝通;(D) 專案經理有責任引導團隊達成共識,不應將協調衝突的責任轉嫁給部門主管。
+
+---
+
+### Q142. `scp-141` — 單選題
+
+**題目 ID**: `scp-141`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager has just completed the development of a new city park and is preparing to transition the project to the city's maintenance department before closing the project. What should the project manager do?
+- 中: 專案經理剛完成一座新城市公園的建造,正準備在結案前將專案移交給市府的維護部門。專案經理應該怎麼做?
+
+**選項**
+
+- (a) Verify that all project objectives have been met according to the project plan / 依專案計畫確認所有專案目標皆已達成
+- (b) Conduct a final inspection with the sponsor to ensure all tasks in the WBS are complete / 與贊助人一同進行最終檢驗,確認WBS中的所有工作皆已完成 ✅ **正解**
+- (c) Ensure all project documentation is complete and archived properly / 確保所有專案文件完整且妥善歸檔
+- (d) Conduct a final project performance review with the stakeholders / 與利害關係人一同進行最終專案績效審查
+
+**詳解**
+
+在將成果正式移交給維護部門之前,必須確認所有在工作分解結構(WBS)中定義的工作範疇均已完整執行且無缺漏。與贊助人共同進行最終檢驗,可正式確認範疇的完整性與合格性,為移交與正式結案提供依據。(A) 敘述偏向宏觀檢視,不如選項(B)具體地對照WBS範疇來得嚴謹確實;(C) 文件歸檔屬於移交完成後、行政結案的最後收尾步驟,此時尚未完成移交驗收,順序過早;(D) 績效審查屬於專案回顧評估,不能取代對實體交付成果是否符合WBS範疇的現場檢驗與驗收。
+
+---
+
+### Q143. `scp-142` — 單選題
+
+**題目 ID**: `scp-142`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: As part of an initiative to upgrade an educational institution's digital infrastructure, a department head proposes the integration of an AI-based learning assistant, which was not included in the initial project scope. The department head is also unsure if the project's investors will agree to the necessary budget increase for this addition. What initial action should the project manager undertake regarding the proposed integration?
+- 中: 在升級某教育機構數位基礎建設的專案中,一位部門主管提議整合一套基於AI的學習助理,而這並不在最初的專案範疇內。該部門主管也不確定專案的投資方是否會同意為此增加所需的預算。針對這項提議的整合,專案經理應採取什麼初步行動?
+
+**選項**
+
+- (a) Initiate a feasibility study to explore the technical and financial aspects of adding the AI-based learning assistant / 啟動可行性研究,探討新增AI學習助理在技術與財務面的可行性
+- (b) Estimate the potential impact on the project's budget and timeline for incorporating the AI-based learning assistant / 估算納入AI學習助理對專案預算與時程的潛在影響
+- (c) Consult with the project's team to assess how the integration could affect the overall project / 與專案團隊諮商,評估此整合將如何影響整體專案 ✅ **正解**
+- (d) Conduct an assessment of the proposed addition's impact on the project / 對此提議新增項目進行專案影響評估
+
+**詳解**
+
+面對利害關係人提出的範圍外新構想,專案經理首要動作是與專案團隊諮商,由具備專業技術與執行知識的團隊共同評估該整合對整個專案的潛在影響,確保通盤檢視AI學習助理將如何影響專案範圍、預算與時程,為處理該提議的變更提供結構化的方法。(A)(B)(D) 都是更具體、後續才會進行的評估動作,但這些工作都應建立在先與熟悉專案實況的團隊諮商討論的基礎上。
+
+---
+
+### Q144. `scp-143` — 單選題
+
+**題目 ID**: `scp-143`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: At the conclusion of an enterprise software implementation project, a department head suggests the addition of a new analytics feature to improve data visualization capabilities. This feature was not covered in the project's initial scope but is considered by the department head to be a straightforward enhancement that can be managed by the current IT staff. What action should the project manager take in response to the department head's suggestion?
+- 中: 在一項企業軟體導入專案即將結束之際,一位部門主管建議新增一項分析功能,以改善資料視覺化能力。此功能並未包含在專案最初的範疇內,但該部門主管認為這是一項簡單的增強功能,現有IT人員即可處理。針對部門主管的建議,專案經理應採取什麼行動?
+
+**選項**
+
+- (a) Assess the feasibility of incorporating the new analytics feature within the existing project's without formalizing it / 評估在不正式立案的情況下,於現有專案內納入這項新分析功能的可行性 ✅ **正解**
+- (b) Consult with the finance team to assess the potential financial implications and budget adjustments required for the additional feature / 與財務團隊諮商,評估此增項可能帶來的財務影響與所需的預算調整
+- (c) Coordinate a meeting with key project stakeholders to evaluate the added value versus the effort and risk of incorporating the new feature / 協調召開關鍵利害關係人會議,評估納入此新功能的附加價值相對於所需努力與風險
+- (d) Draft a supplemental project charter for the analytics feature addition, pending executive approval / 為此分析功能的新增草擬一份補充專案章程,待高層核准
+
+**詳解**
+
+題目背景處於專案尾聲,部門主管認為該功能簡單且現有IT人員即可處理;在進入正式複雜的變更或額外立項流程前,先評估現況下納入的可行性,是當前最適切的評估動作,讓專案經理能判斷已經熟悉該軟體的團隊是否能將該增強功能無縫整合到當前營運中。(B)(C)(D) 都屬於更正式、規模更大的處理方式,在尚未初步評估此「簡單增強」是否真的簡單之前就直接走向正式流程,反而與專案已近尾聲、資源有限的情境不成比例。
+
+---
+
+### Q145. `scp-144` — 單選題
+
+**題目 ID**: `scp-144`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Scope` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A technology firm is transitioning its software development practices to agile methodologies to improve its product development lifecycle. The move aims to make the development process more dynamic and responsive to customer needs and market trends. What is the principal advantage of adopting agile methodologies in this context?
+- 中: 一家科技公司正將其軟體開發實務轉型為敏捷方法論,以改善其產品開發生命週期。此舉旨在讓開發流程更具動態彈性,並能更靈敏地回應顧客需求與市場趨勢。在此情境下,採用敏捷方法論的主要優勢是什麼?
+
+**選項**
+
+- (a) Enhance the efficiency of the development cycle to reduce time to market for new features / 提升開發週期的效率,縮短新功能上市所需的時間
+- (b) Implement a structured risk management approach to significantly decrease project uncertainties / 導入結構化的風險管理方法,大幅降低專案的不確定性
+- (c) Prioritize and deliver product features in alignment with their value and customer demand / 依產品功能的價值與顧客需求排定優先順序並交付 ✅ **正解**
+- (d) Reduce operational expenses by optimizing team workflows and resource utilization / 透過優化團隊工作流程與資源運用來降低營運支出
+
+**詳解**
+
+敏捷開發的核心優勢在於價值驅動(Value-driven),能夠依照商業價值與客戶實際需求的優先順序進行迭代交付,靈活響應市場變化,此策略確保產品以對客戶和業務最有益的方式演進,進而提高滿意度與競爭優勢。(A)(D) 縮短上市時間、降低成本可能是敏捷帶來的附帶效益,但並非其「主要」優勢;(B) 敏捷本身並非以結構化的正式風險管理流程為核心訴求,反而是透過短週期迭代與持續回饋來因應不確定性。
 
 ---

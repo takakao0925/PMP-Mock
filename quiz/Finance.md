@@ -1,6 +1,6 @@
 # Finance — PMP 題庫
 
-> 共 134 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 136 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `calc-001` — 單選題
 
@@ -3536,5 +3536,53 @@ SPI = EV/PV = 420,000/480,000 = 0.875,小於 1,顯示進度落後於計畫,因�
 **詳解**
 
 成本分類必須依照適用的會計準則來判斷,而不是取決於哪位主管的偏好,也不是為了呈現特定的季度預算數字而任意調整。財務長是判斷成本應資本化或費用化最具權責的角色,目前尚未被諮詢,專案經理該做的是主動把財務長納入決策,確保分類結果依循準則。選項 (a) 與 (b) 都是直接選邊站,依主管的偏好而非會計準則來分類,一旦分類不當,日後可能引發財報或稽核上的問題;選項 (d) 讓兩位總監自行協商出折衷方案,同樣把本該依準則判斷的問題,變成了利害關係人之間的政治協商,正確的分類結果不應該是雙方談判出來的結果。
+
+---
+
+### Q135. `fin-134` — 單選題
+
+**題目 ID**: `fin-134`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager needs to prioritize multiple projects within a portfolio and requires accurate budget estimates. The process must align with agile principles while ensuring reliable financial planning. How should the budget for each project be estimated?
+- 中: 專案經理需要對投資組合中的多個專案排定優先順序,並需要準確的預算估算。此過程必須符合敏捷原則,同時確保財務規劃的可靠性。每個專案的預算應如何估算?
+
+**選項**
+
+- (a) Calculate costs by evaluating individual task estimates from the team, considering their current workload. / 依團隊對個別任務的估算,並考量其目前工作負荷來計算成本 ✅ **正解**
+- (b) Leverage the combined expertise of the sponsor, product owner, and agile coach to derive budget estimates. / 結合贊助人、產品負責人與敏捷教練的綜合專業來推導預算估算
+- (c) Use analytics software to model potential costs based on predictive analysis and historical data. / 使用分析軟體,依預測分析與歷史數據建模潛在成本
+- (d) Have the product owner conduct a thorough requirements analysis with the team to forecast project budgets. / 由產品負責人與團隊進行徹底的需求分析,以預測專案預算
+
+**詳解**
+
+敏捷精神強調由實際執行工作的團隊成員進行估算(Bottom-up由下而上估算),並充分考慮團隊當前的實際產能與工作負荷。以此作為預算基礎,兼顧了敏捷中團隊自主估算的原則與財務規劃所需的精確度。(B) 屬於由上而下(Top-down)或管理層估算,排除了第一線開發團隊,違背敏捷由執行者估算的原則;(C) 歷史數據雖有參考價值,但敏捷中不能單靠演算法取代團隊對具體工作的承諾與估算;(D) 要求前期做「徹底、詳盡的需求分析」是典型的瀑布思維,違背敏捷漸進明細的原則。
+
+---
+
+### Q136. `fin-135` — 單選題
+
+**題目 ID**: `fin-135`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Finance` ｜ ECO domain: `Process`
+
+**題幹**
+
+- EN: A project manager discovers that recent legislative updates necessitate additional security enhancements to the project. Although the development team has incorporated these enhancements without exceeding their budget, the project manager realizes that the allocated budget for quality assurance and testing is quickly being depleted due to these unplanned requirements. What action should the project manager take to manage the escalating costs associated with the increased scope of testing?
+- 中: 專案經理發現,近期的立法更新使得專案必須新增額外的資安強化措施。雖然開發團隊已在不超出預算的情況下納入這些強化措施,但專案經理意識到,因這些未計畫的需求,原本編列給品質保證與測試的預算正快速耗盡。專案經理應採取什麼行動,以管理因測試範圍擴大而不斷攀升的成本?
+
+**選項**
+
+- (a) Propose a temporary reallocation of resources from less critical project activities to support the expanded testing requirements / 提議將資源從較不關鍵的專案活動暫時重新分配,以支援擴大的測試需求
+- (b) Have the sponsor analyze potential cost-saving measures within the project to reallocate funds towards the testing budget / 請贊助人分析專案內可能的省錢措施,將資金重新分配到測試預算
+- (c) Submit a formal change request to revise the project's cost baseline, accommodating the extra expenses incurred in the testing phase / 提交正式的變更請求,修訂專案的成本基準,以容納測試階段產生的額外支出 ✅ **正解**
+- (d) Adjust the project's financial strategy to ensure the newly identified testing needs are adequately funded without compromising project quality / 調整專案的財務策略,確保新確認的測試需求獲得充分資金挹注且不影響專案品質
+
+**詳解**
+
+由於法規變更新增了未預期的範圍,導致品保與測試預算快速耗盡並超出原先規劃。任何對成本基準的修正與額外預算追加,都必須嚴格遵循專案治理流程,提交正式變更請求送交變更控制委員會(CCB)或權限人員審批,不可私自挪用或非正式調整,這確保任何對專案預算的調整都是透過適當的治理管道進行,從而實現完整的文件記錄、審查與核准。(A)(B)(D) 都屬於在未正式走變更管制流程前,私自挪用資源或調整財務策略的做法,違反了成本基準變更應有的正式治理程序。
 
 ---

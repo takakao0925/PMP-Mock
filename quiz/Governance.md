@@ -1,6 +1,6 @@
 # Governance — PMP 題庫
 
-> 共 159 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
+> 共 163 題。ECO 領域配分僅供出題參考,實際考試不分版本混合抽題。
 
 ### Q1. `sc-002` — 單選題
 
@@ -4272,5 +4272,101 @@ The COO has since started attending the team's biweekly working sessions directl
 **詳解**
 
 當強制性的合規要求遭遇抵制時,根本原因通常是團隊不理解這些要求為何存在、以及為什麼即使看似低風險的項目也適用,教育正是直接處理這個根本原因的做法,能建立起工程團隊對要求的理解與一致遵循的態度。如果沒有建立起共同理解,無論是財務論證、自動化工具或流程整合,都只能暫時降低摩擦,團隊仍可能在情況允許時想辦法規避審查。選項(a)的財務分析提供的是誘因,而非對要求本身的理解;選項(b)的自動化工具或許之後有幫助,但在團隊還沒認同要求必要性之前就先導入解決方案,順序本末倒置;選項(d)把審查步驟整合進既有流程同樣是有用的做法,但應該在雙方已經取得共識之後才進行,不該在對方還質疑要求有沒有必要時,就急著把審查簡化融入日常作業。
+
+---
+
+### Q160. `gov-155` — 單選題
+
+**題目 ID**: `gov-155`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Launching a project to introduce a new health information system across multiple clinics, the project manager realizes there are discrepancies between the project scope and the latest health data protection regulations. While the project's leadership team advises proceeding as planned, anticipating that these discrepancies will be resolved in due time, the project manager is concerned about potential compliance issues. What is the most appropriate initial step for the project manager?
+- 中: 在跨多家診所推行新健康資訊系統的專案啟動時,專案經理發現專案範疇與最新的健康資料保護法規之間存在落差。專案領導團隊建議按原計畫繼續推進,預期這些落差屆時會自然解決,但專案經理擔心可能引發合規問題。專案經理最適當的第一步是什麼?
+
+**選項**
+
+- (a) Conduct an in-depth analysis of the health data protection regulations and outline a detailed compliance plan / 深入分析健康資料保護法規,並擬定詳細的合規計畫 ✅ **正解**
+- (b) Initiate a risk assessment session to evaluate the impact of potential non-compliance on the project / 發起風險評估會議,評估潛在不合規對專案的影響
+- (c) Arrange a consultation with a legal expert in health data protection to advise on compliance strategies / 安排與健康資料保護法律專家諮詢,就合規策略提供建議
+- (d) Redesign the project scope to include only those elements currently in compliance with existing regulations / 重新設計專案範疇,只納入目前已符合現行法規的元素
+
+**詳解**
+
+面對專案範疇與最新健康資料保護法規的落差,專案經理首要任務是深入分析新法規要求,並規劃出具體的合規方案,以此作為依據與領導團隊及利害關係人有效溝通調整方向,避免在合規未明的情況下盲目推進。相較之下,(B)(C)(D) 都屬於在弄清楚法規實際要求之前就跳過去的後續動作,順序上不如先做完整的法規分析與合規規劃來得根本。
+
+---
+
+### Q161. `gov-156` — 單選題
+
+**題目 ID**: `gov-156`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: During the planning of a new development project, a recently enacted zoning law changes the permissible building heights within the project's area. The project team has been informed of this change. What is the most effective course of action for the project manager to take?
+- 中: 在一項新開發專案的規劃期間,新頒布的土地分區法規變更了專案所在區域的建築高度限制。專案團隊已獲悉此項變更。專案經理最有效的做法是什麼?
+
+**選項**
+
+- (a) Proceed with planning until the legal department informs you to update the plan / 持續照原計畫規劃,直到法務部門通知才更新計畫
+- (b) Update the project documentation to reflect the change in zoning laws and its impact on the project scope / 更新專案文件,如實反映分區法規的變更及其對專案範疇的影響 ✅ **正解**
+- (c) Schedule a meeting with local government officials to seek exceptions for the current project / 與地方政府官員安排會議,為目前的專案爭取例外許可
+- (d) Consult with legal counsel to understand the implications of the zoning law change on the project / 諮詢法律顧問,了解分區法規變更對專案的影響
+
+**詳解**
+
+專案目前仍在規劃階段,當新頒布的土地分區法規限制了建築高度時,團隊已獲悉該變更;專案經理應立即更新專案文件,如實反映法規變更及其對專案範疇的實質影響,以此作為後續調整規劃與利害關係人溝通的客觀依據,讓團隊與利害關係人能針對專案調整進行清晰溝通,促進在知情情況下做決策與規劃。(A) 被動等待法務通知才行動,延誤了即時反映變更的時機;(C) 尋求例外許可屬於更後段、且不確定能否成功的策略,不應是第一步;(D) 諮詢法律顧問有其價值,但在尚未把已知的變更正式記錄進專案文件前,應先完成文件更新這個更直接且必要的動作。
+
+---
+
+### Q162. `gov-157` — 單選題
+
+**題目 ID**: `gov-157`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: In the rollout of a critical update to an e-commerce platform, the project manager is presented with several pressing issues: there's an immediate need for expertise in cybersecurity due to new threats, significant personnel changes are on the horizon including the exit of the product owner, and a new data security law has been passed. What should be the project manager's direct focus to ensure the project remains on course?
+- 中: 在電子商務平台的關鍵更新上線過程中,專案經理面臨多項急迫問題:因新威脅而急需資安專業人力、即將發生重大人事變動(包含產品負責人離職),以及一項新的資料安全法規已經通過。為確保專案維持在正軌上,專案經理應直接聚焦在什麼?
+
+**選項**
+
+- (a) Initiate a search for cybersecurity experts to fortify the platform against emerging threats / 啟動尋找資安專家的程序,強化平台以對抗新興威脅
+- (b) Begin the transition process for a new product owner to ensure strategic project oversight continues / 啟動新產品負責人的交接程序,確保策略性的專案監督得以延續
+- (c) Start the process to secure a new IT support contract or renew the existing one for uninterrupted service / 啟動取得新IT支援合約或續約現有合約的程序,以確保服務不中斷
+- (d) Resolve identified regulatory compliance issues to prevent any legal or operational setbacks / 解決已識別的法規合規問題,以避免任何法律或營運上的挫敗 ✅ **正解**
+
+**詳解**
+
+面對多項同時發生的專案壓力(資安專家需求、PO離職、新法規通過),法規合規具有強制性與最高的法律風險。未符合新頒布的數據安全法可能直接導致專案遭勒令停工或面臨法律制裁,因此專案經理應優先處理已識別的合規問題,其急迫性與衝擊程度高於其他同時發生的議題。(A)(B)(C) 各自重要,但相較於可能觸發法律罰則、甚至讓專案被迫停擺的合規風險,優先順序皆應排在其後。
+
+---
+
+### Q163. `gov-158` — 單選題
+
+**題目 ID**: `gov-158`
+
+難度: `hard` ｜ 建議作答時間分類: `agile_scenario` ｜ 版本標籤: `pmbok8` ｜ 原始 performanceDomain: `Governance` ｜ ECO domain: `BusinessEnvironment`
+
+**題幹**
+
+- EN: Amid the rollout of a new software platform designed to enhance customer engagement for a retail chain, the lead role transitions due to a promotion. The incoming project manager is tasked with guiding the project to its completion under a hybrid project management framework. Which document should the new project manager review first to understand the strategic benefits and objectives of the project?
+- 中: 在為連鎖零售業者強化顧客互動而推出的新軟體平台上線過程中,原負責人因升遷而轉換角色。新接手的專案經理被指派在混合式專案管理框架下帶領專案完成。新任專案經理應該最先審閱哪份文件,以了解專案的策略效益與目標?
+
+**選項**
+
+- (a) Program roadmap / 專案集路徑圖(Program roadmap)
+- (b) Business case / 商業論證(Business Case) ✅ **正解**
+- (c) Strategic alignment document / 策略對齊文件
+- (d) Technical design document / 技術設計文件
+
+**詳解**
+
+新任專案經理接手專案時,欲了解專案最初為何發起、其所追求的商業策略效益與專案目標,商業論證(Business Case)是最關鍵的首要審查文件,它概述了預期效益、成本與風險評估,是專案決策與成功衡量指標的基石。(A) 專案集路徑圖著重於多專案間的排程與依賴關係,而非單一專案的效益論證;(C) 「策略對齊文件」並非此情境下的標準正式產出物;(D) 技術設計文件聚焦於「如何做」的技術細節,不涉及「為何做」的策略效益。
 
 ---
