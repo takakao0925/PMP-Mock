@@ -24,7 +24,7 @@ export const QUICK_QUIZ_SPEC = {
 }
 
 /**
- * 重點複習模式:題目來源不是完整題庫,而是使用者「目前仍算錯」的題目池(見 buildWrongQuestionPool),
+ * 重點複習模式:題目來源不是完整題庫,而是使用者「目前仍算錯」的題目池(見 buildReviewPool),
  * 所以不需要 domain 配比(pool 本身就已經是篩選過的特定範圍),domainWeights 留著只是跟其他 spec 形狀一致。
  */
 export const REVIEW_SPEC = {
@@ -193,35 +193,49 @@ export function buildExam(pool, spec = EXAM_SPEC) {
 }
 
 /**
- * 從歷史成績組出「目前仍算錯」的題目池,給重點複習模式抽題用。
- * `scoreExam()` 只有答錯、有標記、或超時的題目才會存進 reviewItems,所以同一題如果在較新一筆
- * 紀錄裡「又出現在 reviewItems 但這次是答對」(例如當時有標記或超時,但答案是對的),就代表這題
- * 目前已經會了,不該再收錄;只有「最新一次出現時仍是答錯」的題目才會進複習池。
+ * 組出重點複習模式的題目池,回傳 { pool, total }:
+ * - pool:目前還沒「畢業」的題目;total:曾經進過池子的題目總數(畫面顯示成「剩餘 / 總數」)。
+ *
+ * 一題進池的來源有兩種:歷史成績裡答錯(或答對但有標記)的題目、以及 manualReviewIds 手動指定的題目。
+ * 一題「畢業」(移出池子)的條件:依時間順序看它在歷史成績裡最新一次作答,是答對且沒有標記。
+ * - `scoreExam()` 會把答錯 / 有標記 / 超時的題目存進 reviewItems,答對且無標記的題目則只記 id 到
+ *   correctIds;兩者合起來才能得知每題最新一次的結果。
+ * - 舊版歷史紀錄沒有 correctIds,這類紀錄裡「答對且無標記」的題目無從得知,只能維持原狀。
  * 找不到題庫現有題目(id 已被移除或題庫改版)時,退而使用當時複習清單存的題目快照。
  */
-export function buildWrongQuestionPool(history, questionPool) {
+export function buildReviewPool(history, questionPool, manualIds = []) {
   const currentById = new Map(questionPool.map((q) => [q.id, q]))
   const sortedByTime = [...history].sort((a, b) => new Date(a.finishedAt) - new Date(b.finishedAt))
 
-  const latestIsCorrectById = new Map()
+  const cleared = new Map()
+  const everInPool = new Set()
   const latestSnapshotById = new Map()
   for (const record of sortedByTime) {
     for (const item of record.reviewItems || []) {
-      latestIsCorrectById.set(item.id, item.isCorrect)
+      const isCleared = item.isCorrect && !item.flagged
+      cleared.set(item.id, isCleared)
+      if (!isCleared) everInPool.add(item.id)
       latestSnapshotById.set(item.id, item)
     }
+    for (const id of record.correctIds || []) cleared.set(id, true)
   }
 
-  const wrongIds = [...latestIsCorrectById.entries()].filter(([, correct]) => !correct).map(([id]) => id)
+  const poolIds = []
+  for (const id of everInPool) if (!cleared.get(id)) poolIds.push(id)
+  const manualInBank = manualIds.filter((id) => currentById.has(id))
+  for (const id of manualInBank) {
+    everInPool.add(id)
+    if (!cleared.get(id) && !poolIds.includes(id)) poolIds.push(id)
+  }
 
-  return wrongIds
-    .map((id) => {
-      if (currentById.has(id)) return currentById.get(id)
-      // eslint-disable-next-line no-unused-vars
-      const { userAnswer, isCorrect, flagged, timedOut, ...question } = latestSnapshotById.get(id) || {}
-      return question.id ? question : null
-    })
-    .filter(Boolean)
+  const toQuestion = (id) => {
+    if (currentById.has(id)) return currentById.get(id)
+    // eslint-disable-next-line no-unused-vars
+    const { userAnswer, isCorrect, flagged, timedOut, ...question } = latestSnapshotById.get(id) || {}
+    return question.id ? question : null
+  }
+
+  return { pool: poolIds.map(toQuestion).filter(Boolean), total: everInPool.size }
 }
 
 /**
@@ -336,6 +350,7 @@ export function scoreExam(session) {
   const domainStats = Object.fromEntries(DOMAINS.map((d) => [d, { correct: 0, total: 0 }]))
   const editionDistributionAmongCorrect = { pmbok7: 0, pmbok8: 0 }
   const reviewItems = []
+  const correctIds = []
   let correctCount = 0
 
   for (const q of questions) {
@@ -358,6 +373,7 @@ export function scoreExam(session) {
     if (!correct || flagged || timedOut) {
       reviewItems.push({ ...q, userAnswer: userAnswer ?? null, isCorrect: correct, flagged, timedOut })
     }
+    if (correct && !flagged) correctIds.push(q.id)
   }
 
   const domainAccuracy = Object.fromEntries(
@@ -376,6 +392,7 @@ export function scoreExam(session) {
     domainAccuracy,
     editionDistributionAmongCorrect,
     reviewItems,
+    correctIds,
     durationTakenSeconds: session.spec.durationMinutes * 60 - session.remainingSeconds,
     finishedAt: new Date().toISOString(),
   }

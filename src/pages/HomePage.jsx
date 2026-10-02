@@ -7,7 +7,7 @@ import {
   EXAM_SPEC,
   QUICK_QUIZ_SPEC,
   REVIEW_SPEC,
-  buildWrongQuestionPool,
+  buildReviewPool,
   computeEffectiveDurationMinutes,
   createExamSession,
 } from '../engine/examEngine.js'
@@ -70,17 +70,12 @@ export default function HomePage() {
   }, [history])
   const visibleHistory = historyByMode[historyTab]
 
-  // 重點複習模式的題目池:歷史錯題(見 buildWrongQuestionPool)+ 使用者手動標記需要加強的題目(見 manualReviewIds.js)
+  // 重點複習模式的題目池:歷史錯題(見 buildReviewPool)+ 使用者手動標記需要加強的題目(見 manualReviewIds.js)
   // 後者不依賴作答紀錄,方便使用者在 App 外自評「這幾題我不熟」時直接加入,不用先在 App 裡答錯一次
-  const reviewPool = useMemo(() => {
-    const fromHistory = buildWrongQuestionPool(history, sampleQuestions)
-    const fromHistoryIds = new Set(fromHistory.map((q) => q.id))
-    const manualQuestions = manualReviewIds
-      .filter((id) => !fromHistoryIds.has(id))
-      .map((id) => sampleQuestions.find((q) => q.id === id))
-      .filter(Boolean)
-    return [...fromHistory, ...manualQuestions]
-  }, [history])
+  const { pool: reviewPool, total: reviewTotal } = useMemo(
+    () => buildReviewPool(history, sampleQuestions, manualReviewIds),
+    [history],
+  )
   const reviewQuestionCount = Math.min(REVIEW_SPEC.totalQuestions, reviewPool.length)
   // 題數不到 15 題滿額時,作答時間也跟著等比例縮短(維持跟小考模式一樣的每題平均時間),
   // 不會出現「10 題卻給 20 分鐘」這種比例失衡的狀況——實際考試時 createExamSession() 也是用同一個算法
@@ -225,11 +220,14 @@ export default function HomePage() {
             </div>
             <div className="col-span-2">
               <dt className="text-gray-400">目前錯題池</dt>
-              <dd className="font-medium text-gray-800">{reviewPool.length} 題</dd>
+              <dd className="font-medium text-gray-800">
+                {reviewPool.length} / {reviewTotal} 題
+                <span className="ml-2 text-xs font-normal text-gray-400">(剩餘 / 曾進池總數)</span>
+              </dd>
             </div>
           </dl>
           <p className="mt-4 rounded-md bg-purple-50 px-3 py-2 text-xs text-purple-700">
-            只從「先前答錯過、且之後沒有答對過」的題目裡抽,不做 domain 配比。同一題只要之後複習答對就會從池子移除,不會一直重複出現。
+            只從「先前答錯過、且之後沒有答對過」的題目裡抽,不做 domain 配比。同一題只要之後答對且沒有標記,就會從池子移除,不會一直重複出現;答對但有標記的題目會留在池子裡。
           </p>
           {reviewPool.length === 0 ? (
             <p className="mt-4 rounded-md bg-gray-50 px-3 py-2 text-center text-xs text-gray-400">
